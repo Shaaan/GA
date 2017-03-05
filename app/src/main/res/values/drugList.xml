@@ -1,0 +1,6117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="drugList">
+        <item>VILTAZ4.5GM INJ VAIL</item>
+        <item>FEVRIDOL IV</item>
+<item>ENCIFER INJ</item>
+<item>BILCLAV 1.2G</item>
+<item>AUGPEN 1.2 IV</item>
+<item>FALCINIL FORTE INJ</item>
+<item>FALCINIL INJ</item>
+<item>PROTERA INJ</item>
+<item>ATOREC -80</item>
+<item>ZOBERT 1.5 GM INJ</item>
+<item>SEVCAR 400 TAB</item>
+<item>SEVCAR 800 TAB</item>
+<item>EVION FORTE</item>
+<item>VINTOR 10000 PFS</item>
+<item>VINGRAF 1</item>
+<item>ARTIVIL INJ</item>
+<item>RABIPRAZ-LS</item>
+<item>ECOBION</item>
+<item>VINGRAF 2.0MG CAP</item>
+<item>GETSURE DM</item>
+<item>GETSURE</item>
+<item>GETSURE HP</item>
+<item>XILIA 2</item>
+<item>PINOM M 50</item>
+<item>VOGLIMAC GM 2 HD</item>
+<item>AUGPEN LB 1 G</item>
+<item>GUTCLEAR-IG-POWDER</item>
+<item>LUPIBOSE 125</item>
+<item>OLBET 40</item>
+<item>PANTOZA D</item>
+<item>ZILAMAC 500</item>
+<item>MOFILET 500</item>
+<item>AKT 3</item>
+<item>FARBISURE SUSPENSION</item>
+<item>SALBAIR I NEB TRANSPULES 0.63</item>
+<item>AKURIT</item>
+<item>ODOXIL 125 DT</item>
+<item>AKT FD</item>
+<item>R CINEX Z KID</item>
+<item>COMBUTOL 200</item>
+<item>EMCLOZ 0.25MG. TABS</item>
+<item>AKT 4</item>
+<item>AKURIT Z KID</item>
+<item>AMIKAMAC 100</item>
+<item>BUDATE TRANSPULES</item>
+<item>CETSAFE</item>
+<item>LOVAX 150</item>
+<item>MONOPAS</item>
+<item>NEW ELECTROBION ORANGE</item>
+<item>R CINEX 600</item>
+<item>SACROLYTE SACHET</item>
+<item>SIDOMOL SYP</item>
+<item>SOLONEX DT</item>
+<item>VALBET CREAM</item>
+<item>VENTO SYP</item>
+<item>ACCUZON 250</item>
+<item>AKURIT KID</item>
+<item>CELOL D3 GRANULES</item>
+<item>EMCLOZ 0.5MG.TABS</item>
+<item>ESOFENCE 20 MG CAPS</item>
+<item>ETOFREE 400</item>
+<item>GATIBLU 0.3%</item>
+<item>GLUCONORM G 0.5</item>
+<item>L CIN 250</item>
+<item>LUPIDIP 5</item>
+<item>MIKACIN 100</item>
+<item>NASIVION MOIST CHILD SPRAY</item>
+<item>NIMTECH</item>
+<item>ODOXIL 500</item>
+<item>OLYZIN</item>
+<item>RETORLIX 10</item>
+<item>STALOPAM MINI PLUS</item>
+<item>AKURIT 3</item>
+<item>AKURIT 4</item>
+<item>AMENOVA</item>
+<item>AMIKEF 500</item>
+<item>AMIPACE 100</item>
+<item>CEASTRA 100</item>
+<item>CEFF 125 SYP</item>
+<item>CEFOLAC ORAL SUSP</item>
+<item>CLOPITAB</item>
+<item>COE D3</item>
+<item>COMBUTOL 1000</item>
+<item>COXCAL 500</item>
+<item>CYNIDIP 10</item>
+<item>D-SIGNOFLAM TRANSGEL</item>
+<item>D3-EXTRA</item>
+<item>DIABEND 80</item>
+<item>DIABEND MR 30</item>
+<item>DOLOPAR DROPS</item>
+<item>DOLOPAR M SUSPENSION</item>
+<item>DOXIFIT</item>
+<item>ECOX 1000</item>
+<item>EMNIL MD 4</item>
+<item>ENDOFORMIN G2</item>
+<item>ENDOFORMIN SR 500</item>
+<item>EPILIVE IV</item>
+<item>ETIZOLA BETA 0.50</item>
+<item>FELBIMAX</item>
+<item>FRUSELAC DS</item>
+<item>GALOP PLUS 5</item>
+<item>GLADOR 1</item>
+<item>GLADOR M1 FORTE</item>
+<item>GLUCONORM G PLUS 2</item>
+<item>GLUCONORM SR</item>
+<item>GLUCONORM SR1</item>
+<item>GOLDIRON SYP</item>
+<item>IFB CAPS</item>
+<item>ISOLAZINE</item>
+<item>ISONORM 30 SR</item>
+<item>JETFLAM  AS</item>
+<item>KRONOSTAR 200</item>
+<item>KRONOSTAR 500</item>
+<item>L CIN OZ</item>
+<item>LETROMET  1000 SR</item>
+<item>LOVAX 600</item>
+<item>LUKIN NXT</item>
+<item>LUPICLOR 6.25</item>
+<item>LUPIFIT SYRUP 110 ML</item>
+<item>LUPIRTIN-P</item>
+<item>LUPITUSS CPM</item>
+<item>MACPROX DP 250</item>
+<item>METOMAC 50</item>
+<item>MEXMET 25</item>
+<item>MOXIBLU D 0.5%</item>
+<item>MOXIBLU-KT DROP</item>
+<item>MYTIFY</item>
+<item>MYTIFY SYP</item>
+<item>NERVIXPS CAPS</item>
+<item>NIMEK SPAS M</item>
+<item>ODOXIL DS SUSP</item>
+<item>OFLAMAC FORTE SYRUP</item>
+<item>OLMIGHTY H</item>
+<item>PANSA D</item>
+<item>PREBOSE 0.2</item>
+<item>PROGERMINA SUSP</item>
+<item>PYZINA 1000</item>
+<item>PYZINA KID</item>
+<item>RAMISTAR 1.25</item>
+<item>RATIONAL 200</item>
+<item>SALBAIR B CAP</item>
+<item>SIDOMOL P TABS</item>
+<item>SOLONEX 300</item>
+<item>STALOPAM 5</item>
+<item>STARPRESS AM XL 25</item>
+<item>STARPRESS XL 100</item>
+<item>STERIO 8</item>
+<item>TELEKAST 5</item>
+<item>TELISTA 20</item>
+<item>THALORIC 12.5</item>
+<item>THALORIC 6.25</item>
+<item>THIAKLOR-6.25</item>
+<item>THYROUP 12.5</item>
+<item>TRABEST</item>
+<item>U-EASE</item>
+<item>VERTIBIL 8</item>
+<item>VOMIGEN MD</item>
+<item>A PHYL</item>
+<item>AB-FLO</item>
+<item>AB-FLO  SR</item>
+<item>ABEL  80</item>
+<item>ABEL 40</item>
+<item>ABFLO N</item>
+<item>ACCUZON 1GM</item>
+<item>ACCUZON PLUS 1.5</item>
+<item>ACECLO SPAS</item>
+<item>ACEGABA NT 400</item>
+<item>ACINUAL</item>
+<item>ACOGUT</item>
+<item>ADENOMAC 400</item>
+<item>ADMAX XT</item>
+<item>AKT 2</item>
+<item>ALFACAL PLUS</item>
+<item>ALGESIA P</item>
+<item>ALGESIA PLUS</item>
+<item>ALLERCET M SYRUP</item>
+<item>ALMITY</item>
+<item>ALOCET 5</item>
+<item>ALOCET M</item>
+<item>ALPHACEPT -4</item>
+<item>ALRISTA SR</item>
+<item>AMBRODIL XP SYP</item>
+<item>AMCLUE 625</item>
+<item>AMIGOLD 100</item>
+<item>AMIGOLD 200</item>
+<item>AMIKAMAC 500</item>
+<item>AMIPACE 200</item>
+<item>AMPRO HP</item>
+<item>AMPRO MOM</item>
+<item>AMUCOE  200SR</item>
+<item>AMUCOE-NAC TABS.</item>
+<item>ANGIPLAT 2.5</item>
+<item>ANGIPLAT 6.5</item>
+<item>ANTI THYROX 5</item>
+<item>ARBITEL CT 80</item>
+<item>ARBOZIL 40 TAB.</item>
+<item>ARBOZIL 80 TAB.</item>
+<item>ARGINITRIC GRANULES</item>
+<item>ARGIPRO D SACH</item>
+<item>ARZU 15</item>
+<item>ARZU 30</item>
+<item>ASOMEX OH</item>
+<item>ASOMEX TM 5</item>
+<item>ASTIN CV 10</item>
+<item>ASTIN CV 20</item>
+<item>ATAZOR 300</item>
+<item>ATAZOR R</item>
+<item>ATENOVA 50</item>
+<item>ATORCIA 20</item>
+<item>ATORMAC CV 10</item>
+<item>ATORMAC CV 20</item>
+<item>AUGPEN 300 IV</item>
+<item>AUGPEN 375 TAB</item>
+<item>AUGPEN 600 IV</item>
+<item>AUGPEN 625</item>
+<item>AUGPEN DROPS</item>
+<item>AUGPEN LB 625</item>
+<item>AUGXETIL 250 TAB</item>
+<item>AVAS 10  D</item>
+<item>AVAS 20 D</item>
+<item>AZEFLO</item>
+<item>AZITHREE 100MG SUSP</item>
+<item>AZITHREE 200 SUSP</item>
+<item>AZITHREE 500</item>
+<item>B-CIN</item>
+<item>BACTOMIN 375</item>
+<item>BASUGINE CART</item>
+<item>BASUGINE PEN</item>
+<item>BENIPACK  T</item>
+<item>BENIPACK 4</item>
+<item>BENIPACK CT 12.5</item>
+<item>BENIPACK M 25</item>
+<item>BENIPACK M 50</item>
+<item>BENZ PEARLS</item>
+<item>BEVON SOFTULES</item>
+<item>BILCLAV 375</item>
+<item>BILCLAV 625</item>
+<item>BILCLAV DS SYP</item>
+<item>BIO D3</item>
+<item>BONAMI PLUS</item>
+<item>BRITIBLU EYE DROPS</item>
+<item>BUDAMATE  FORTE</item>
+<item>BUDAMATE 100</item>
+<item>BUDAMATE 100 INH</item>
+<item>BUDAMATE 200</item>
+<item>BUDAMATE 200 INH</item>
+<item>BUDAMATE 400 INH</item>
+<item>BUDATE 100</item>
+<item>BUDATE 100 INH</item>
+<item>BUDATE 200 INH</item>
+<item>BUNASE RESP .5</item>
+<item>C2</item>
+<item>CABLIZ 0.25</item>
+<item>CABLIZ 0.5</item>
+<item>CALONAT D3 TAB</item>
+<item>CARVIPRESS  3.125</item>
+<item>CEASTRA XL 100</item>
+<item>CEASTRA XL 200</item>
+<item>CEFAXONE 1GM</item>
+<item>CEFBIL 50 SYP</item>
+<item>CEFF ER</item>
+<item>CEFF FORTE DRY SYP</item>
+<item>CEFF KID</item>
+<item>CEFF PREMIX 60ML</item>
+<item>CEFOLAC 100</item>
+<item>CEFOLAC 100 ORAL SUSP</item>
+<item>CEFOLAC AZ</item>
+<item>CEFOLAC DROPS</item>
+<item>CEFOLAC O 200</item>
+<item>CEFRINE ORAL SUSP</item>
+<item>CELCOAL TABS</item>
+<item>CELOL XT</item>
+<item>CELOL-D3</item>
+<item>CEPOSID-200</item>
+<item>CETIL 250</item>
+<item>CETIL CV 250</item>
+<item>CETIL DRY SYP</item>
+<item>CETIL INJ 1.5</item>
+<item>CETIL INJ 750</item>
+<item>CETSAFE M</item>
+<item>CHECAL D</item>
+<item>CHYMOGOLD</item>
+<item>CIALIS 20 MG TAB</item>
+<item>CILACAR-M10/25</item>
+<item>CISSJOINT</item>
+<item>CITIMAC</item>
+<item>CITISTAR 4 INJ</item>
+<item>CITISTAR PM</item>
+<item>CLAVIDUR 457 MG DDS</item>
+<item>CLAVIDUR 625</item>
+<item>CLAVIDUR XR</item>
+<item>CLINGEN WASH</item>
+<item>CLOPITAB 150</item>
+<item>CLOPITAB A 75</item>
+<item>CLOPITAB CV 10</item>
+<item>CLOPITAB CV 20</item>
+<item>COE DHEA SR</item>
+<item>COE HB D3</item>
+<item>COE HB SYRUP</item>
+<item>COEAMOX 625</item>
+<item>COECORAL  MAX</item>
+<item>COECORAL D3</item>
+<item>COECORAL D3-500</item>
+<item>COECORAL PLUS</item>
+<item>COECORTT 6</item>
+<item>COEKASTLE</item>
+<item>COEKASTLE A</item>
+<item>COENAC TAB</item>
+<item>COERINGA</item>
+<item>COERIP</item>
+<item>COERIP C</item>
+<item>COERIP TAB</item>
+<item>COEVITENZ</item>
+<item>COEVITENZ H</item>
+<item>COGNISTAR 60 INJ</item>
+<item>COMBITAZ 1G</item>
+<item>COMBUTOL 400</item>
+<item>CORALIUM D3</item>
+<item>CORCAL D 1000 IU</item>
+<item>CORCAL PLAIN 500</item>
+<item>CORCIUM</item>
+<item>CORCIUM PLUS</item>
+<item>CORTIMAX 12</item>
+<item>CORTIMAX 24</item>
+<item>COSYRUP</item>
+<item>COVATIL CV 500</item>
+<item>COVATIL LZ TAB</item>
+<item>COXCAL DS</item>
+<item>COXPOD DRY SYP</item>
+<item>CUTIWASH</item>
+<item>CYNIDIP 20</item>
+<item>CZ3</item>
+<item>D3 COXCAL</item>
+<item>DARGEN 25 MCG</item>
+<item>DARGEN 40 MCG</item>
+<item>DAYO OD 500</item>
+<item>DAYO OD 750</item>
+<item>DDD</item>
+<item>DDD DROPS</item>
+<item>DEFNALONE 30</item>
+<item>DEFNALONE 6</item>
+<item>DENSUEX</item>
+<item>DIABEND 40</item>
+<item>DICLONAC TRANSGEL 30GM</item>
+<item>DILNIP 10</item>
+<item>DILNIP TRIO</item>
+<item>DILPRA 500</item>
+<item>DILPRA OD 1000</item>
+<item>DILPRA OD 250</item>
+<item>DILPRA OD 750</item>
+<item>DINOGEST</item>
+<item>DOLESTIN-250</item>
+<item>DOLESTIN-500</item>
+<item>DOLO DROPS</item>
+<item>DOLOPAR GEL</item>
+<item>DOXCEF 100 SUSP</item>
+<item>DOXCEF 200</item>
+<item>DOXCEF 50 SUSP</item>
+<item>DOXCEF CV 200</item>
+<item>DOXCEF-O</item>
+<item>DOXIFLO-650</item>
+<item>DUET 375</item>
+<item>DUET 457MG DRY SUSP</item>
+<item>DUET 625</item>
+<item>DUOMATE</item>
+<item>DUOMATE INH</item>
+<item>DVION DROPS</item>
+<item>EBAY</item>
+<item>ECONEX 800</item>
+<item>EFFENAC 600</item>
+<item>EMFOLIC</item>
+<item>EMFOLIC DHA</item>
+<item>EMLUZ CR</item>
+<item>ENCICARB 100</item>
+<item>ENDOFORMIN VG2</item>
+<item>ENVITAC GEL</item>
+<item>EPILIVE 500</item>
+<item>EPILIVE SYP</item>
+<item>EPOCEPT 2000 PFS</item>
+<item>ESD3 GRANULES</item>
+<item>ESIFLO 125 INH</item>
+<item>ESIFLO 250</item>
+<item>ESIFLO 500</item>
+<item>ESLO TEL 2.5</item>
+<item>ESLO TEL 5</item>
+<item>ESLOMET 5</item>
+<item>ESOFAG L TAB</item>
+<item>ESOFINE 40 TAB</item>
+<item>ESOFINE DSR</item>
+<item>ESOFINE LS</item>
+<item>ESTUCHOL 150</item>
+<item>ETIZOLA LITE 10</item>
+<item>ETIZOLA LITE 5</item>
+<item>ETOFREE 600</item>
+<item>ETOFREE P</item>
+<item>ETOSAID MR</item>
+<item>EUCALMIN CAP</item>
+<item>EVABLIS TAB</item>
+<item>EVASONIC</item>
+<item>FAA 20</item>
+<item>FAA 20 SYP</item>
+<item>FALCINIL LFX</item>
+<item>FAMCIMAC 250</item>
+<item>FARBISURE</item>
+<item>FERINJECT 100 MG(2 ML)</item>
+<item>FERINJECT 500 MG(10 ML)</item>
+<item>FERIUM D3</item>
+<item>FEROZORB   SUSP</item>
+<item>FEXY 120</item>
+<item>FEXY 180</item>
+<item>FEXY SUSP</item>
+<item>FHEAL SOFTULES</item>
+<item>FIBRIL XL 90 GM</item>
+<item>FIBRODONE</item>
+<item>FLUGESIC</item>
+<item>FLUTIFLO</item>
+<item>FLUTIFLO-FT</item>
+<item>FNS 25</item>
+<item>FOLINEXT GOLD TAB</item>
+<item>FORMOFLO 125 (MDI)</item>
+<item>FORMOFLO FORTE</item>
+<item>FOSFOE</item>
+<item>FRUSELAC</item>
+<item>FULL 24</item>
+<item>FULL 365 CAP</item>
+<item>FUNGEEHEAL 100</item>
+<item>FUNGEEHEAL 200</item>
+<item>FURIC 40</item>
+<item>G3N  2.6 TAB</item>
+<item>G3N 6.4 TAB</item>
+<item>GALOP 10</item>
+<item>GALOP 5</item>
+<item>GALOP PLUS 10</item>
+<item>GEMINOR MP 1</item>
+<item>GEMINOR MP 2</item>
+<item>GEN D3 60K SACHET</item>
+<item>GENIXIM-200</item>
+<item>GENWASH LOTION</item>
+<item>GIFAXIN 200</item>
+<item>GLADOR M1</item>
+<item>GLADOR M2</item>
+<item>GLADOR M2 FORTE</item>
+<item>GLICLAPACK 80</item>
+<item>GLIMIPACK M 2 FORTE</item>
+<item>GLIMIPACK MV  1</item>
+<item>GLIMIPACK MV 2</item>
+<item>GLUCONORM -V 0.3</item>
+<item>GLUCONORM G1</item>
+<item>GLUCONORM G1 FORTE</item>
+<item>GLUCONORM G2D</item>
+<item>GLUCONORM G3 FORTE</item>
+<item>GLUCONORM G4 FORTE</item>
+<item>GLUCONORM PG2</item>
+<item>GLUCONORM PG2 FORTE</item>
+<item>GLUCONORM VG 1</item>
+<item>GLUCONORM VG 1 FORTE</item>
+<item>GLUCONORM VG 1 PLUS TAB</item>
+<item>GLUCONORM VG 2</item>
+<item>GLUCONORM VG 2 FORTE</item>
+<item>GOECYST PLUS</item>
+<item>GOEMATE</item>
+<item>GOEUTI</item>
+<item>GOEUTI SUSP</item>
+<item>GOLDINEURON</item>
+<item>GOLDIRON</item>
+<item>GRAVIDERM CREAM</item>
+<item>GUTCLEAR IG BIG POWD</item>
+<item>HAIRBOOST</item>
+<item>HARTY CAPS</item>
+<item>HARTY D  LIGHT</item>
+<item>HEADSET</item>
+<item>HEMOLIT OINT</item>
+<item>HOSIT XT</item>
+<item>HYDROEYES HS 0.1 ED</item>
+<item>IFB 12 SYP</item>
+<item>ILAHIL-10</item>
+<item>IMINORAL 100CAPS.</item>
+<item>IMINORAL 25</item>
+<item>INSTAMUNE POWD</item>
+<item>INSTAPLUS GEL</item>
+<item>INSTARISE   50</item>
+<item>IONIC XT</item>
+<item>IONIC XT SYP</item>
+<item>IROZORB SUSP</item>
+<item>ISMIGEN</item>
+<item>IT MAC 400</item>
+<item>ITRAGEN 100</item>
+<item>JBROS  20</item>
+<item>JBROS 10</item>
+<item>JBSARTAN 40</item>
+<item>JETCAL</item>
+<item>JETCAL -D3</item>
+<item>JETFLAM -MR</item>
+<item>JILAZO VIAL</item>
+<item>JOYFIT SYP</item>
+<item>K COR 10</item>
+<item>KANAMAC 500</item>
+<item>KETOFLAM-P</item>
+<item>KETORITE</item>
+<item>KETOVATE CREAM</item>
+<item>KUDZU FLAM TAB</item>
+<item>KUDZU PLUS</item>
+<item>L CIN 500</item>
+<item>L CIN 750</item>
+<item>L CIN OZ SUSP</item>
+<item>L TRIX CREAM</item>
+<item>LACONEXT 50</item>
+<item>LACRIMOS 0.5%</item>
+<item>LACRIMOS 1%</item>
+<item>LAXAN SOLUTION</item>
+<item>LAZA 6</item>
+<item>LAZA ORAL SYRUP</item>
+<item>LAZID</item>
+<item>LCF KID SY</item>
+<item>LCF LS SYP</item>
+<item>LCF SYP</item>
+<item>LEVOLVE OZ</item>
+<item>LEVOLVE-500</item>
+<item>LEVOMAC AZ</item>
+<item>LEVOMAC IV</item>
+<item>LEVOMAC OZ TAB</item>
+<item>LEVOSID 500</item>
+<item>LINCOTUSS EX</item>
+<item>LINECA TAB</item>
+<item>LIPIGO F 5</item>
+<item>LIPOCUT 120</item>
+<item>LIPRIL 10</item>
+<item>LIPRIL 2.5</item>
+<item>LNZ 600</item>
+<item>LOFTAIR INH</item>
+<item>LORNIT SACHET</item>
+<item>LOVAX OD 300</item>
+<item>LOVAX OD 600</item>
+<item>LUMENAC</item>
+<item>LUPENOX 40</item>
+<item>LUPI D3 CHEWABLE 60 K</item>
+<item>LUPI HMG 75 IU</item>
+<item>LUPIBRIN EYE DROPS</item>
+<item>LUPICLOR 12.5</item>
+<item>LUPIDIP 10</item>
+<item>LUPIDIP 2.5</item>
+<item>LUPIFIT CAP</item>
+<item>LUPIFIT SYRUP 200 ML</item>
+<item>LUPIFLEX 8</item>
+<item>LUPIGEST 100 INJ OILFREE</item>
+<item>LUPIGEST 200</item>
+<item>LUPIGEST 200 INJ OILFREE</item>
+<item>LUPIGEST SR 300 TAB</item>
+<item>LUPIGEST SR 400 TAB</item>
+<item>LUPIHEME</item>
+<item>LUPIKRILL</item>
+<item>LUPILA 10</item>
+<item>LUPILA D</item>
+<item>LUPILYZER</item>
+<item>LUPINAC</item>
+<item>LUPIRTIN</item>
+<item>LUPIRTIN SR</item>
+<item>LUPISULIN M 30/70 CARTRIDGE</item>
+<item>LUPISULIN M 50/50 CARTRIDGE</item>
+<item>LUPISULIN PEN</item>
+<item>LUPISULIN R CARTRIDGE</item>
+<item>LUPITROS T</item>
+<item>LUPIVESTIN 250</item>
+<item>LUPIZEP PLUS 12.5</item>
+<item>LUPOXA MR</item>
+<item>LUPROLIDE</item>
+<item>LURAFIC 40</item>
+<item>LUZARN CR 20G</item>
+<item>M CIN</item>
+<item>MAC Q10 PLUS</item>
+<item>MACBERY SYP</item>
+<item>MACBRITE D3 800 IU</item>
+<item>MACBRITE D3 GRA</item>
+<item>MACGESIA OIL</item>
+<item>MACGEST SR 200</item>
+<item>MACMASK</item>
+<item>MACPHYLLIN</item>
+<item>MACPHYLLIN SR 200</item>
+<item>MACPOD AZ</item>
+<item>MACPOD CV 100 DT</item>
+<item>MACPOD CV 50 SYP</item>
+<item>MACPOD DROPS</item>
+<item>MACPROT</item>
+<item>MACPROT ACTIV</item>
+<item>MACPROT CHOCO</item>
+<item>MACPROT DM</item>
+<item>MACPROT KESAR</item>
+<item>MACRALFATE</item>
+<item>MACRALFATE O</item>
+<item>MACROZIDE 1000</item>
+<item>MACROZIDE 1200</item>
+<item>MACROZIDE 1500</item>
+<item>MACSART  CL</item>
+<item>MACSART BETA 50</item>
+<item>MACSART CC 12.5</item>
+<item>MACSUTRA 100</item>
+<item>MACSUTRA 50</item>
+<item>MACVESTIN</item>
+<item>MACVESTIN  500</item>
+<item>MACVESTIN PLUS</item>
+<item>MASCHIO</item>
+<item>MATILDA ER</item>
+<item>MATILDA FORTE</item>
+<item>MAXILIV INJECTION</item>
+<item>MAXILIV TAB</item>
+<item>MAXOLID IV</item>
+<item>MAXOTAZ 4.5 GM</item>
+<item>MAXTRA P DS SYRUP</item>
+<item>MECOBIL OD</item>
+<item>MEFSID-P</item>
+<item>MEGAVOG MF 0.2/500</item>
+<item>MENDATE 15</item>
+<item>MENOJOY</item>
+<item>MEROMAC 0.5 G</item>
+<item>MEROTROL 1 GM</item>
+<item>METACORTIL</item>
+<item>METACORTIL C</item>
+<item>METPURE AM 2.5</item>
+<item>METPURE AM 5</item>
+<item>METPURE TEL 20</item>
+<item>METPURE TEL 40</item>
+<item>MEXMET 50</item>
+<item>MINOSTA</item>
+<item>MINOSTA D3</item>
+<item>MIOFREE 4</item>
+<item>MIOFREE 8</item>
+<item>MIOFREE A 8</item>
+<item>MISOBIT 50</item>
+<item>MOCA-375</item>
+<item>MOMEFLO</item>
+<item>MONLEVO</item>
+<item>MONLEVO JR</item>
+<item>MONOGUARD CREAM</item>
+<item>MONTEFEX</item>
+<item>MONTEMAC  AL</item>
+<item>MONTEMAC A</item>
+<item>MONTEMAC FX SUSP</item>
+<item>MONTEMAC L SYP</item>
+<item>MONTINA L SYP</item>
+<item>MOVERAN GEL</item>
+<item>MOVERAN MR</item>
+<item>MOVERAN TH GEL</item>
+<item>MOVNWAK</item>
+<item>MOXIBLU 0.5%</item>
+<item>MOXIBLU LP EYE DROPS</item>
+<item>MOXOCARD 0.2</item>
+<item>MOXOCARD 0.3</item>
+<item>MVISTA</item>
+<item>MYCOPAS</item>
+<item>MYCOPAS GRANULES</item>
+<item>MYLAMIN PLUS</item>
+<item>MYLONERV D</item>
+<item>MYOTAN   40</item>
+<item>MYOTAN 80</item>
+<item>MYTIFLAM</item>
+<item>NAYA -SA</item>
+<item>NEBESEL 2.5</item>
+<item>NEBESEL 5</item>
+<item>NEBISTAR H</item>
+<item>NEBISTAR SA</item>
+<item>NEPABLU</item>
+<item>NEW CORCAL 225MG</item>
+<item>NEW ELECTROBION 21G</item>
+<item>NEXOVAS M 50</item>
+<item>NEXOVAS O 40</item>
+<item>NGSART  40 CH</item>
+<item>NGSART 40</item>
+<item>NGSART H</item>
+<item>NICOSTAR 5</item>
+<item>NICOSTAR OD 10</item>
+<item>NID XT</item>
+<item>NID XT SUSP</item>
+<item>NIMEK PARA</item>
+<item>NIMORAZ-O</item>
+<item>NIMORAZOLE 500</item>
+<item>NIZONIDE 500 TAB</item>
+<item>NIZONIDE O SUSP</item>
+<item>NOVAPIME 1G INJ</item>
+<item>NOVASTAT 10</item>
+<item>NOVASTAT TG 20</item>
+<item>NOVASTAT TG 5 TAB</item>
+<item>NOVASTAT-CV-10</item>
+<item>NULONG 10</item>
+<item>NULONG 20</item>
+<item>NULONG OL 20</item>
+<item>NUMLO-TM</item>
+<item>NUPENTA LS</item>
+<item>NUROZENOL</item>
+<item>NUTRIRIGHT MOM</item>
+<item>OBEMAC CAP</item>
+<item>OBIC SACHET</item>
+<item>OBICURE</item>
+<item>OBICURE POWDER 30 GM</item>
+<item>ODOXIL DS PREMIX</item>
+<item>ODOXIL PREMIX</item>
+<item>ODOXIL SUSP</item>
+<item>OF DERM CREAM</item>
+<item>OF SUSP 100 MG</item>
+<item>OFLAMAC 400</item>
+<item>OFSID OZ</item>
+<item>OFSID OZ SUSP</item>
+<item>OGIT 200</item>
+<item>OLBET 20</item>
+<item>OLBET CT 20</item>
+<item>OLMAT 20 CT</item>
+<item>OLMEGARD 20</item>
+<item>OLMEGARD H</item>
+<item>OLMEGARD H 40</item>
+<item>OLOBLU OD</item>
+<item>OLYBACT 100 DRY</item>
+<item>OLYBACT DRY SYP</item>
+<item>OLYCOFF A</item>
+<item>OLYFLOX</item>
+<item>ONBREZ BREEZHALER 150 MCG</item>
+<item>ONDERO MET 2.5MG/850 MG TAB</item>
+<item>OPTIFIBER</item>
+<item>ORATIL 125 DT</item>
+<item>ORATIL LZ</item>
+<item>ORLE-60</item>
+<item>ORLIP X 120</item>
+<item>ORLIP X 60</item>
+<item>ORNODERM RF CREAM</item>
+<item>OROCEF 100 DT</item>
+<item>OROCEF DR SYP</item>
+<item>OROCEF-OLB</item>
+<item>OROFER S INJ</item>
+<item>OVALIFE MET</item>
+<item>OVALIFE TAB</item>
+<item>OXIRAY SYRUP</item>
+<item>P2I D CAP</item>
+<item>P2I L CAP</item>
+<item>PANDERM V GEL</item>
+<item>PANDERM+POWDER</item>
+<item>PANLID 40</item>
+<item>PANTOFIX 40 TAB.</item>
+<item>PANTOP LS CAP</item>
+<item>PANUM -L</item>
+<item>PARNACAL HD</item>
+<item>PARNACAL-P SYP</item>
+<item>PATH 7.5</item>
+<item>PAUSE 500</item>
+<item>PAXOTUS 12.5</item>
+<item>PEGALUP</item>
+<item>PENTASURE</item>
+<item>PENTASURE DM</item>
+<item>PENTASURE HEPATIC 400</item>
+<item>PENTASURE IMMUNO MAX</item>
+<item>PETIOL 40</item>
+<item>PETIOL D</item>
+<item>PINOM 20</item>
+<item>PINOM A 40</item>
+<item>PINOM CT 40</item>
+<item>PINOM H 20</item>
+<item>PINOM H 40</item>
+<item>PLANEP -T 10</item>
+<item>PLANEP 25</item>
+<item>PLATIMAX</item>
+<item>PLATIMAX SYP</item>
+<item>PODXETIL CV</item>
+<item>POLYCLAV DROPS</item>
+<item>POLYPOD CV 100</item>
+<item>POLYPOD CV 200</item>
+<item>PREBOSE M 0.3</item>
+<item>PRECIDOL</item>
+<item>PRECLAZIDE M 80</item>
+<item>PREGADOC 75</item>
+<item>PREGADOC M 75</item>
+<item>PREGADOC NT</item>
+<item>PREGADOC SR 75</item>
+<item>PREGASTAR 75</item>
+<item>PREGASTAR M 75</item>
+<item>PREGCERT 200</item>
+<item>PREGCERT SR 200</item>
+<item>PRESENTIAL</item>
+<item>PRESENTIAL FORTE CAP</item>
+<item>PROTERA D</item>
+<item>PROTERA L</item>
+<item>PROTOMID</item>
+<item>PROTOTAL WHEY POWDER</item>
+<item>PROXYM GEL</item>
+<item>PROXYM MR</item>
+<item>PULMOVAX 23</item>
+<item>PYZINA 750</item>
+<item>R CINEX 450</item>
+<item>R CINEX KID</item>
+<item>RABECURE D</item>
+<item>RABEZOL DSR</item>
+<item>RABIPRAZ 20</item>
+<item>RABITOP D</item>
+<item>RABLET -L</item>
+<item>RABLET 40</item>
+<item>RABLET D</item>
+<item>RABLET D 40</item>
+<item>RABSID DSR</item>
+<item>RAMIPRO 5.0 CAP</item>
+<item>RAMISTAR 10</item>
+<item>RAMISTAR 2.5</item>
+<item>RAMISTAR H 10</item>
+<item>RAMISTAR H 2.5</item>
+<item>RAMISTAR H 5</item>
+<item>RAMISTAR M XL 25</item>
+<item>RANCAD 1000</item>
+<item>RATIONAL +</item>
+<item>RCIFAX 400</item>
+<item>RCIFAX 550</item>
+<item>RCIFAX SUSPENSION</item>
+<item>RCLONAC</item>
+<item>RECOBA</item>
+<item>RECOVIT NP</item>
+<item>REDAPT-CT</item>
+<item>REFOLATE L</item>
+<item>REGAFIX CAP</item>
+<item>REGAMIN</item>
+<item>REGAMIN GOLD CAP</item>
+<item>RELUBRI</item>
+<item>RENECAR 400</item>
+<item>RENECAR 800</item>
+<item>RENEPENEM</item>
+<item>RENEPLUS</item>
+<item>RENEPLUS FE</item>
+<item>RENOMEGA</item>
+<item>RETORLIX 5</item>
+<item>RETUNE LS</item>
+<item>RHEZA 10</item>
+<item>RHEZA 5</item>
+<item>RHEZA ASP</item>
+<item>RHEZA F  TAB</item>
+<item>RHINOBAN SYRUP</item>
+<item>RHINOBAN XP</item>
+<item>RIBUTIN</item>
+<item>RICHOVA SR TAB</item>
+<item>RIFASET 400</item>
+<item>RIFASET 550</item>
+<item>RIFAXIMAX 200</item>
+<item>RINIZIDE FORTE DT</item>
+<item>ROFADAY</item>
+<item>ROSILINA SUSP</item>
+<item>ROSUCIA -F</item>
+<item>ROSUCIA-20MG</item>
+<item>ROSUMAC ASP</item>
+<item>ROSUMAC ASP 20</item>
+<item>ROSUPACK 20</item>
+<item>ROSUPACK F</item>
+<item>ROSUVAS EZ 10</item>
+<item>ROZUSTAT 10 D</item>
+<item>ROZUSTAT ASP</item>
+<item>ROZUSTAT GOLD 20</item>
+<item>RUBIRED SUSP</item>
+<item>RUTIN TAB</item>
+<item>SALBAIR I</item>
+<item>SALBAIR INH</item>
+<item>SECREMET 1</item>
+<item>SECREMET 2</item>
+<item>SECRETAG 2</item>
+<item>SENSICLAV DROPS</item>
+<item>SENSIFOL</item>
+<item>SERETRA 80</item>
+<item>SETFRAC CAP</item>
+<item>SETFRAC PLUS</item>
+<item>SIDEX B SYP</item>
+<item>SIDOCAL D3</item>
+<item>SIDOFER -DXT</item>
+<item>SIDOFLAM</item>
+<item>SIDOVIT</item>
+<item>SIDOVIT SYP</item>
+<item>SIGNOFLAM</item>
+<item>SIGNOHEAL</item>
+<item>SIGNOHEAL DS TAB</item>
+<item>SIMENDA 12.5</item>
+<item>SIPAN 40</item>
+<item>SIPAN DSR</item>
+<item>SKIZOTUS 200</item>
+<item>SMOKE FREE 2</item>
+<item>SOLICEPT 10 TAB</item>
+<item>SOLICEPT 5 TAB</item>
+<item>SOVENTUS LS</item>
+<item>SPIROMONT</item>
+<item>SPIROMONT  L</item>
+<item>SPIROMONT F</item>
+<item>SPIROMONT FA</item>
+<item>SPORAZ CAP</item>
+<item>STABOSE 0.2</item>
+<item>STAFCURE 1.5</item>
+<item>STAFCURE LZ</item>
+<item>STAFCURE SB 1.5</item>
+<item>STALOPAM 10</item>
+<item>STARCAD B25</item>
+<item>STARCAD T 50</item>
+<item>STARPRESS AM XL 50</item>
+<item>STARPRESS D XL 25</item>
+<item>STARPRESS D XL 50</item>
+<item>STARPRESS H 50 XL</item>
+<item>STARPRESS XL 12.5</item>
+<item>STARPRESS XL 25</item>
+<item>STARPRESS XL 50</item>
+<item>STARPRESS-R XL 25</item>
+<item>STARPRESS-R XL 50</item>
+<item>STERIO 16</item>
+<item>STROCOZ PLUS TABLET</item>
+<item>SUDOSTAR 3</item>
+<item>SYLATE 250</item>
+<item>T VOBIT 1 TAB</item>
+<item>TAMLOCEPT -D TAB</item>
+<item>TAMLOCEPT 0.4</item>
+<item>TAZAR 4.5 INJ</item>
+<item>TAZOMAC 2.25</item>
+<item>TAZOTUM 1.125 INJ</item>
+<item>TAZOX 1GM</item>
+<item>TELEKAST 4</item>
+<item>TELEKAST F</item>
+<item>TELEKAST L</item>
+<item>TELEKAST PLUS</item>
+<item>TELEKAST-A</item>
+<item>TELEKAST-L KID SYRUP</item>
+<item>TELEKAST-T</item>
+<item>TELISTA 40</item>
+<item>TELISTA AM</item>
+<item>TELISTA H</item>
+<item>TELISTA H-80 TAB</item>
+<item>TELISTA MT 25</item>
+<item>TELISTA PLUS 20</item>
+<item>TELISTA PLUS 40</item>
+<item>TELISTA-MT 50</item>
+<item>TELMIPACK 40</item>
+<item>TELMIPACK CT</item>
+<item>TELMIPACK TRIO 6.25</item>
+<item>TELPLUS TRIO</item>
+<item>TELVAS BETA 25</item>
+<item>TELVAS BETA 50</item>
+<item>TENDOMAC</item>
+<item>TENEPRIDE M 1000</item>
+<item>TENEPRIDE M 500</item>
+<item>TENLIMAC M 1000</item>
+<item>TENLIMAC M 500</item>
+<item>TENUMET  500</item>
+<item>THIOACE-8</item>
+<item>THYROUP 25 TAB</item>
+<item>TIATE TRANSCAPS</item>
+<item>TICLOVIL</item>
+<item>TICOGEM 400</item>
+<item>TIGEZ 50 INJ</item>
+<item>TIMOBLU 0.5%</item>
+<item>TIOMATE INH</item>
+<item>TIOMATE TRANSCAPS</item>
+<item>TOLFLEX 150</item>
+<item>TOLFLEX 450SR</item>
+<item>TOLIFAST-D</item>
+<item>TOLPAZEN</item>
+<item>TONACT 10</item>
+<item>TONACT 80</item>
+<item>TONACT ASP 150</item>
+<item>TONACT D 10 TAB</item>
+<item>TONACT D 20 TAB</item>
+<item>TONACT EZ</item>
+<item>TONACT EZ 20</item>
+<item>TONACT FORTE</item>
+<item>TONACT PLUS</item>
+<item>TONACT TG</item>
+<item>TONACT TG 20</item>
+<item>TORSID 5</item>
+<item>TRANLOK E</item>
+<item>TRANSPACER V</item>
+<item>TRANSPACER VM</item>
+<item>TRAVEFLOX 500</item>
+<item>TRENAXA INJ</item>
+<item>TRIMEGAVOG 1</item>
+<item>TRIOLVANCE 40</item>
+<item>TRIPINOM</item>
+<item>TRIPRIDE 2LP</item>
+<item>TURMPURE</item>
+<item>TUSSPROX COUGH SYP</item>
+<item>TUSSPROX D SYP</item>
+<item>UBEXA 40</item>
+<item>ULYSES 150</item>
+<item>ULYSES 300</item>
+<item>ULYSIS PLUS</item>
+<item>UPTONIN NASAL SPRAY</item>
+<item>URDOHEP SL</item>
+<item>URSOMAX 150</item>
+<item>UTH G 75 POWDER</item>
+<item>UVEFROST EYE DROPS</item>
+<item>V BATHE WIPES</item>
+<item>VALENT 160</item>
+<item>VALENT 40</item>
+<item>VALENT 80</item>
+<item>VALENT H</item>
+<item>VASOSURE TAB</item>
+<item>VERTIBIL 16</item>
+<item>VILAMID 20 TAB</item>
+<item>VILARIS PLUS</item>
+<item>VILSTAT 40</item>
+<item>VILSTAT 80 TAB</item>
+<item>VILTACEF 500</item>
+<item>VILTADEN</item>
+<item>VINCAL-CZ</item>
+<item>VINTUS D SYP</item>
+<item>VITANOVA DROPS</item>
+<item>VITASONIC MV TABLETS</item>
+<item>VOBIT 0.2</item>
+<item>VOBIT M 0.2</item>
+<item>VOBIT M 0.3</item>
+<item>VOBIT MD 0.2</item>
+<item>VOGLIMAC GM 1 HD</item>
+<item>VOGLIMAC GM2</item>
+<item>VOGLINORM GM FORTE 2</item>
+<item>VOGLINORM GM1/0.3</item>
+<item>VOGLIPACK 0.2</item>
+<item>VOGLIPACK 0.3</item>
+<item>VYSOV 50 MG</item>
+<item>XILIA 1</item>
+<item>XILIA M1 FORTE</item>
+<item>XPLODE</item>
+<item>YAMINI</item>
+<item>ZANOZOLE TAB</item>
+<item>ZEDOCEF 100 SYP</item>
+<item>ZEDOCEF AZ</item>
+<item>ZEDOCEF CV 100 DT</item>
+<item>ZEDOCEF CV 50 SUSP</item>
+<item>ZEDOCEF DROPS</item>
+<item>ZEEGAB TOTAL</item>
+<item>ZILARBI 40 TAB</item>
+<item>ZILARBI 80 TAB</item>
+<item>ZING D3 60K</item>
+<item>ZITHROX PLUS</item>
+<item>ZOKUL D</item>
+<item>ZOVANE 20</item>
+<item>ZOVANE 40</item>
+<item>ZUCROM</item>
+<item>ZUVOG 0.3</item>
+<item>ZYMOFLAM</item>
+<item>ZYMOFLAM D</item>
+<item>ACINUAL PLUS TABS</item>
+<item>ACUFIX 200</item>
+<item>ADMAX</item>
+<item>AL-MITY PLUS</item>
+<item>ALERSID M</item>
+<item>ALFACAL</item>
+<item>ALGESIA SP</item>
+<item>ALOCET XL</item>
+<item>ALPHACEPT-8</item>
+<item>ALPHACEPT-D4</item>
+<item>ALRISTA PLUS</item>
+<item>AMIGOLD 50</item>
+<item>AMUCOE  100</item>
+<item>ANTI THYROX 10</item>
+<item>ANTI THYROX 20</item>
+<item>APTISYP</item>
+<item>APTIVATE SYP</item>
+<item>ARBITEL H</item>
+<item>ARTILUMY</item>
+<item>ARTIVIL PLUS</item>
+<item>ARZU 10</item>
+<item>ASOMEX TM</item>
+<item>ASTIN D 10</item>
+<item>ASTIN D 20</item>
+<item>ATORCIA TG</item>
+<item>AUGPEN DS SUSP</item>
+<item>AUGPEN HS SUSP</item>
+<item>AUGPEN KID DT</item>
+<item>AUGPEN LB 375</item>
+<item>AUGXETIL 500</item>
+<item>AUGXETIL CV 250</item>
+<item>AUGXETIL CV 500</item>
+<item>AZITHREE 250</item>
+<item>AZIWIN 250</item>
+<item>AZUNATE INJ</item>
+<item>B-CIN 200</item>
+<item>BACTOMIN 750 MG</item>
+<item>BENIHYP   8</item>
+<item>BENINA 4MG</item>
+<item>BENIPACK  CT 6.25</item>
+<item>BENIPACK  TRIO 6.25</item>
+<item>BENIPACK 8</item>
+<item>BENIPACK TRIO 12.5</item>
+<item>BERIDIL SYRUP</item>
+<item>BILCLAV DT</item>
+<item>BIO D3 PLUS SUSP</item>
+<item>BUDAMATE 400</item>
+<item>BUDAMATE NEB  0.5MG</item>
+<item>BUDAMATE NEB 1MG</item>
+<item>BUDATE 400</item>
+<item>BUNASE RESP 1</item>
+<item>CARDIOLAX</item>
+<item>CARIPAPA</item>
+<item>CARNIMAC PLUS</item>
+<item>CARNIMAC TAB</item>
+<item>CARTIFUEL</item>
+<item>CARVISTAR 3.125</item>
+<item>CEFBIL 100 SYP</item>
+<item>CEFBIL 200</item>
+<item>CEFF 250</item>
+<item>CEFF 250 DT</item>
+<item>CEFF 500</item>
+<item>CEFF FORTE PREMIX</item>
+<item>CEFOLAC CV 100 DT</item>
+<item>CEFOLAC CV 50 SUSP</item>
+<item>CEFOLAC O 100</item>
+<item>CEFOLAC OZ</item>
+<item>CEFRINE CAPS</item>
+<item>CELOL</item>
+<item>CETIL 500</item>
+<item>CETIL CV 500</item>
+<item>CHECAL</item>
+<item>CIALIS 10 MG TAB</item>
+<item>CILACAR 20</item>
+<item>CILACAR M10/50</item>
+<item>CILACAR T</item>
+<item>CILODOC 100</item>
+<item>CILODOC 50</item>
+<item>CITIMAC P</item>
+<item>CITISTAR 2 INJ</item>
+<item>CITISTAR 500</item>
+<item>CLABIOZ SUSP</item>
+<item>CLAVIDUR 375</item>
+<item>CLAVIDUR DS SUSP</item>
+<item>CLOPITAB A 150</item>
+<item>COBAFORTE OD CAP</item>
+<item>COE  HB TABLET</item>
+<item>COE D3 STRAWS</item>
+<item>COE DHEA PLUS</item>
+<item>COE,HB</item>
+<item>COE,HB PLUS</item>
+<item>COEAMOX 375</item>
+<item>COECORAL</item>
+<item>COECORAL 250</item>
+<item>COECORAL K2</item>
+<item>COECORTT 30</item>
+<item>COEKASTLE AX</item>
+<item>COELONE 4 TAB</item>
+<item>COEPREG</item>
+<item>COERINGA BIG SYP</item>
+<item>COEVITENZ D TAB</item>
+<item>COLATAGE  B</item>
+<item>COMBUTOL 600</item>
+<item>COMBUTOL 800</item>
+<item>CORCAL D 500 IU</item>
+<item>CORCIUM C</item>
+<item>CORCIUM D3</item>
+<item>CORCIUM K2</item>
+<item>CORTIMAX 30</item>
+<item>COVATIL CV 250</item>
+<item>COXCAL SUSP</item>
+<item>COXCER D</item>
+<item>COXPOD 100 DT</item>
+<item>COXPOD 200</item>
+<item>CYCLORIN 250</item>
+<item>CZ3 SYP</item>
+<item>D FINE SACHETS</item>
+<item>D-FINE CT TAB</item>
+<item>DAYO OD 1G</item>
+<item>DAYO OD 250</item>
+<item>DENLAFAX 100</item>
+<item>DENLAFAX 50</item>
+<item>DIABEND MR 60</item>
+<item>DICLONAC 50</item>
+<item>DILNIP 20</item>
+<item>DILNIP 5</item>
+<item>DILPRA OD 500</item>
+<item>DOXCEF 100 TAB</item>
+<item>DOXCEF CV 100</item>
+<item>DOXCEF CV SUSP</item>
+<item>DOXCEF DT 100</item>
+<item>DOXCEF DT 50</item>
+<item>DUET SYP 228.5</item>
+<item>DULOT 20</item>
+<item>DULOT 30</item>
+<item>DUOMATE FORTE</item>
+<item>E OVA M 50</item>
+<item>E- TAG  SYP</item>
+<item>EFEREM P</item>
+<item>ELRIZ 5</item>
+<item>EMNIL SUSP</item>
+<item>EMSULIDE</item>
+<item>EMSULIDE P</item>
+<item>ENCICARB 500</item>
+<item>ENDOCAL D</item>
+<item>ENDOCAL D FORTE</item>
+<item>ENDOFORMIN G1</item>
+<item>ENDOFORMIN G4 FORTE</item>
+<item>ENDOFORMIN PG2</item>
+<item>ENDOFORMIN VG1</item>
+<item>EPILIVE 750</item>
+<item>EPILIVE ER 1000</item>
+<item>ESD3 800 DROPS</item>
+<item>ESD3 TAB</item>
+<item>ESIFLO 100</item>
+<item>ESIFLO 250 INH</item>
+<item>ESTUCHOL 300</item>
+<item>ETHIDE</item>
+<item>ETICORT 30 TAB</item>
+<item>ETOSPEED 90</item>
+<item>EUBIOZ</item>
+<item>EZEDOC 10</item>
+<item>FALCINIL LF DRY SYRUP</item>
+<item>FAMCIMAC 500</item>
+<item>FELBIMAX GEL</item>
+<item>FERIUM INJ 500MG</item>
+<item>FERONIA D3</item>
+<item>FEROZORB</item>
+<item>FERRI 100 INJ</item>
+<item>FHEAL CREAM</item>
+<item>FIBRIL</item>
+<item>FIBRIL SF</item>
+<item>FIBRINIL MF</item>
+<item>FLORISTORE 2.5 CAP</item>
+<item>FLOSID CAP</item>
+<item>FLUGESIC P</item>
+<item>FLUGESIC SR</item>
+<item>FLURISONE T DROP</item>
+<item>FLUTY CREAM</item>
+<item>FLUTY TF</item>
+<item>FLUTY-PLUS CREAM</item>
+<item>FLUTYCANDY</item>
+<item>FOLTEC PLUS</item>
+<item>FONDAFLO INJ</item>
+<item>FORMOFLO 100 (DPI)</item>
+<item>FORMOFLO 250</item>
+<item>FORMOFLO 250 INH</item>
+<item>FURIC 80</item>
+<item>G-CIN</item>
+<item>GABAMIN NOR</item>
+<item>GABAMIN NT</item>
+<item>GABASTAR M</item>
+<item>GALACT GRANULES</item>
+<item>GENPRAZ LS</item>
+<item>GIFAXIN 400</item>
+<item>GLADOR 2</item>
+<item>GLADOR 4</item>
+<item>GLADOR M 4 FORTE</item>
+<item>GLADOR M3 FORTE</item>
+<item>GLICLAPACK  M</item>
+<item>GLICLAPACK 30</item>
+<item>GLICLAPACK 40</item>
+<item>GLICLAPACK 60</item>
+<item>GLIMIPACK M  2</item>
+<item>GLIMIPACK M 1</item>
+<item>GLIMIPACK M 1 FORTE</item>
+<item>GLIMIPACK MV 1/0.3</item>
+<item>GLIMIPACK MV 2/0.3</item>
+<item>GLUCONORM G 0.5 FORTE</item>
+<item>GLUCONORM G PLUS 1</item>
+<item>GLUCONORM G PLUS 3</item>
+<item>GLUCONORM G1D</item>
+<item>GLUCONORM G2</item>
+<item>GLUCONORM G2 FORTE</item>
+<item>GLUCONORM G3</item>
+<item>GLUCONORM G4</item>
+<item>GLUCONORM P15</item>
+<item>GLUCONORM PG1</item>
+<item>GLUCONORM PG1 FORTE</item>
+<item>GLYVAS-10</item>
+<item>GLYVAS-5</item>
+<item>GOECYST</item>
+<item>GOECYST M</item>
+<item>GOPAN</item>
+<item>GOPAN D</item>
+<item>GOPAN DSR</item>
+<item>GOPAN L</item>
+<item>HEPAFRESH</item>
+<item>HOSIT D3</item>
+<item>HOSIT INJ</item>
+<item>HOSIT PLUS</item>
+<item>HYALGAN INJ</item>
+<item>HYALONE</item>
+<item>HYDROEYES E/D 0.05%</item>
+<item>IFB XT</item>
+<item>ILAHIL-L CAPS</item>
+<item>INDULACT</item>
+<item>INSTAPLUS GEL BIG</item>
+<item>IROZORB PLUS</item>
+<item>ISONORM 10</item>
+<item>ITRABACT</item>
+<item>ITRACOE  200</item>
+<item>ITRACOE 400 SR</item>
+<item>ITRACOE GEL</item>
+<item>IVABRAD 5</item>
+<item>IVABRAD 7.5</item>
+<item>JBSARTAN 80</item>
+<item>JETCAL-K2</item>
+<item>JETFLAM</item>
+<item>JOYFIT LIFE POWDER</item>
+<item>JOYFIT POWDER</item>
+<item>K COR 5</item>
+<item>KALTAME</item>
+<item>KEFCLAV SUSP 50MG</item>
+<item>KEFPIME 0.5 GM</item>
+<item>KETOFLAM SR</item>
+<item>KETOFLAM T 8</item>
+<item>KETOFLAM T4</item>
+<item>KRONOSTAR 300</item>
+<item>KUDZU FLEX</item>
+<item>KUDZU GEL</item>
+<item>KYMOVIL FORTE</item>
+<item>L CIN A</item>
+<item>L CIN SYP</item>
+<item>LACTAZE DROPS</item>
+<item>LACTEVA GRANULES</item>
+<item>LACTIGOL</item>
+<item>LAXITOL HUSK</item>
+<item>LEKACE P</item>
+<item>LETROMET 500</item>
+<item>LEVOLVE Z 250</item>
+<item>LEVOLVE Z 500</item>
+<item>LEVOMAC AZ 250</item>
+<item>LEVORT 500</item>
+<item>LEXANOX PLUS</item>
+<item>LINCOTUSS DX</item>
+<item>LIPOCUT 60</item>
+<item>LIPRIL 5</item>
+<item>LIPRIL AM</item>
+<item>LIPRIL H</item>
+<item>LIPROLASE 10000</item>
+<item>LIVOGEN Z  CAPTAB</item>
+<item>LNZ IV 600</item>
+<item>LODOZ 2.5</item>
+<item>LULIMAC CREAM 10GM</item>
+<item>LULIMAC CREAM 20GM</item>
+<item>LUPENOX 20</item>
+<item>LUPENOX 60</item>
+<item>LUPI-D3 CAPS</item>
+<item>LUPIBOSE 62.5</item>
+<item>LUPIFLEX 4</item>
+<item>LUPIGEST SR 200 TAB</item>
+<item>LUPIHALER</item>
+<item>LUPIHALER  T</item>
+<item>LUPINEM 500 INJ</item>
+<item>LUPISULIN  M 30 100 IU</item>
+<item>LUPISULINE  R 100 IU</item>
+<item>LUPISULINE N 100 IU</item>
+<item>LUPITROS</item>
+<item>LUPITUM INJ 1G</item>
+<item>LUPITUSS</item>
+<item>LUPIVESTIN  500</item>
+<item>LUPOXA</item>
+<item>LURAFIC 80</item>
+<item>LUZARN CR 30G</item>
+<item>MACFAST 250 SUSP</item>
+<item>MACFREE</item>
+<item>MACGEST 200</item>
+<item>MACHALER</item>
+<item>MACPOD CV 50 DT</item>
+<item>MACPOD-LX</item>
+<item>MACPOD-O</item>
+<item>MACPROT JR</item>
+<item>MACPROT RESP</item>
+<item>MACPROX DP 500</item>
+<item>MACROZIDE 750</item>
+<item>MACSART BETA 25</item>
+<item>MACSART CH 40</item>
+<item>MACSPACER</item>
+<item>MACTOTAL TAB</item>
+<item>MACVESTIN TOTAL</item>
+<item>MACZEAL</item>
+<item>MAGNOVA 1G</item>
+<item>MASK</item>
+<item>MATILDA AF</item>
+<item>MATILDA PG ER</item>
+<item>MAXCEPROL</item>
+<item>MECOVON OD</item>
+<item>MEFAST P SUSP</item>
+<item>MEGA CV DROP</item>
+<item>MEGAGLIPTIN MF</item>
+<item>MEGALIS 10</item>
+<item>MENOREG</item>
+<item>MERO SB 1.5G</item>
+<item>MEROTEC-XP 1.5 GM</item>
+<item>MEROTROL 0.5</item>
+<item>METAGLUTA ZS</item>
+<item>METOMAC 25</item>
+<item>METPURE H</item>
+<item>METPURE H 50</item>
+<item>METROGYL COMP PLUS</item>
+<item>MIGHTY</item>
+<item>MIKACIN 500</item>
+<item>MIOFREE A 4</item>
+<item>MONOGESIC PLUS GEL</item>
+<item>MONOGUARD   CREAM</item>
+<item>MOXIGRAM D</item>
+<item>MOXINOW</item>
+<item>MOXSID CV 375</item>
+<item>MTV FORTE</item>
+<item>MYTIMONT-L TAB</item>
+<item>NEBISTAR 2.5</item>
+<item>NEBISTAR 5</item>
+<item>NERVITE</item>
+<item>NEUAL TM TAB</item>
+<item>NEURICA NT</item>
+<item>NEUROSID</item>
+<item>NEW CORCAL 500MG</item>
+<item>NEWSYL SOFTGEL</item>
+<item>NEXOVAS CH</item>
+<item>NGSART 20</item>
+<item>NGSART AM</item>
+<item>NICOSTAR 10</item>
+<item>NILAC - A</item>
+<item>NIMEK PARA + SUSP</item>
+<item>NITROBEST</item>
+<item>NIZONIDE O</item>
+<item>NOVASTAT 20</item>
+<item>NOVASTAT 40</item>
+<item>NOVASTAT 5</item>
+<item>NOVASTAT CV 20</item>
+<item>NOVASTAT GOLD</item>
+<item>NOVASTAT TG 10</item>
+<item>NUDEFLA</item>
+<item>NULCER 40</item>
+<item>NULCER D</item>
+<item>NULONG TRIO</item>
+<item>NUMLO-TM 5</item>
+<item>NUROGAB NT TAB</item>
+<item>OBICURE PLUS</item>
+<item>OCIUM 500</item>
+<item>OF CEF</item>
+<item>OFLAMAC SYP 60ML</item>
+<item>OGIT OZ</item>
+<item>OLANEX F</item>
+<item>OLBET CT 40</item>
+<item>OLMAT 40 CT</item>
+<item>OLMEGARD 40</item>
+<item>OLMEGARD AM</item>
+<item>OLYBACT</item>
+<item>OLYTERB</item>
+<item>OLYZIN M</item>
+<item>ONBREZ BREEZHALER 300 MCG</item>
+<item>ONDERO MET 2.5MG/1000 MG TAB</item>
+<item>ONDERO MET 2.5MG/500 MG TAB</item>
+<item>ONDERO TABLET</item>
+<item>ONETONE  0.3% CREAM</item>
+<item>OQ DERM 5 GM</item>
+<item>OQ SUSP</item>
+<item>ORATIL CV 250</item>
+<item>ORIQUIN</item>
+<item>ORMEFEN</item>
+<item>OROCEF O</item>
+<item>OROFER FCM 500 INJ</item>
+<item>OROFER S 100</item>
+<item>OROFER S 200 INJ</item>
+<item>OXIRAY</item>
+<item>OXIRAY PLUS</item>
+<item>PANLID-DSR</item>
+<item>PANTOZA CT</item>
+<item>PANUM D</item>
+<item>PARNACAL</item>
+<item>PARNACAL K2 TAB</item>
+<item>PARNACAL OS</item>
+<item>PARNACAL SUSP</item>
+<item>PATH 30</item>
+<item>PAUSE INJ</item>
+<item>PAUSE XT</item>
+<item>PAXOTUS 25MG TAB</item>
+<item>PAXOTUS 37.5MG</item>
+<item>PAXOTUS PLUS 12.5</item>
+<item>PAXOTUS PLUS 25</item>
+<item>PBF GEL</item>
+<item>PEGALUP SMALL</item>
+<item>PENTASURE 2.0 VANILA</item>
+<item>PENTASURE CRITIPEP 400GM</item>
+<item>PENTASURE DLS</item>
+<item>PENTASURE HP 400GMS</item>
+<item>PENTASURE RENAL</item>
+<item>PERCIN</item>
+<item>PINOM 40</item>
+<item>PINOM A 20</item>
+<item>PINOM M 25</item>
+<item>PLANEP 50</item>
+<item>PLANEP T-20</item>
+<item>PODXETIL 100</item>
+<item>POLYPOD 100 DT</item>
+<item>POLYPOD CV 50 DT</item>
+<item>POLYPOD DROPS</item>
+<item>POLYPOD O</item>
+<item>PRASUDOC 10</item>
+<item>PREGASTAR M OD 150</item>
+<item>PREGASTAR PLUS</item>
+<item>PREGCERT 300 SR</item>
+<item>PRIMACLAV-625</item>
+<item>PROBETES-200GM.(CKF)</item>
+<item>PROBETES-200GM.(KBE)</item>
+<item>PROCIT POW</item>
+<item>PROTERA</item>
+<item>PROTERA I</item>
+<item>PROTOTAL</item>
+<item>PYZINA 500</item>
+<item>Q PAS JAR</item>
+<item>R CINEX E</item>
+<item>R CINEX EZ</item>
+<item>RABECURE 20</item>
+<item>RABECURE L CAP</item>
+<item>RABEMAC LS</item>
+<item>RABIFAST I.V.</item>
+<item>RABIFAST XL</item>
+<item>RABIPRAZ D</item>
+<item>RABIROS -L</item>
+<item>RABLET 10</item>
+<item>RABLET 20</item>
+<item>RABLET 40  L</item>
+<item>RABLET IT</item>
+<item>RACIPER -L</item>
+<item>RAMISTAR 5</item>
+<item>RAMISTAR A</item>
+<item>RANCAD</item>
+<item>RANTAC D PLUS</item>
+<item>RAPITUS PLUS</item>
+<item>RAPITUS SYRUP</item>
+<item>RAPITUS XT SYP</item>
+<item>RCIFAX TAB</item>
+<item>REGAMIN SUSPENSION</item>
+<item>RELNOPA 75 SR</item>
+<item>RESODIM 15</item>
+<item>RETORLIX 20</item>
+<item>REVOFER 500 MG</item>
+<item>REZARA 10</item>
+<item>RIFASET 200</item>
+<item>RIFAXIMAX 400</item>
+<item>RIFILL</item>
+<item>RIVAPLAST PATCH</item>
+<item>ROSELINA</item>
+<item>ROSUCIA-10</item>
+<item>ROSUCIA-5</item>
+<item>ROSUMAC ASP 150</item>
+<item>ROSUMAC ASP FORTE</item>
+<item>ROSUMAC CV 10</item>
+<item>ROSUMAC CV 20</item>
+<item>ROSUMAC GOLD</item>
+<item>ROSUMAC GOLD 20</item>
+<item>ROSUPACK 10</item>
+<item>ROSUPACK CV</item>
+<item>ROZUSTAT GOLD</item>
+<item>RUTICOOL CREAM</item>
+<item>SALBAIR B FORTE</item>
+<item>SALBAIR B INH</item>
+<item>SALBAIR I INH</item>
+<item>SEFSTART</item>
+<item>SEMI XILIA MP 1 TAB</item>
+<item>SEMI XILIA MP2</item>
+<item>SENSIYES EYE DROPS</item>
+<item>SETFRAC PLUS SUSP</item>
+<item>SIDCOOL GEL</item>
+<item>SKIZOTUS 50</item>
+<item>SMOKE FREE 4</item>
+<item>SMUTH    L</item>
+<item>SOFTOMAX LAXATIVE POW</item>
+<item>SOFTOMAX--XL LAXATIVE</item>
+<item>SOFTOVAC</item>
+<item>SOFTOVAC SF</item>
+<item>SOL-WEEK</item>
+<item>SPIRODIN -AX</item>
+<item>SPIRODIN AB</item>
+<item>SPIRODIN- 650</item>
+<item>SPIROLAST TAB</item>
+<item>SPIROMONT A</item>
+<item>SPIROMONT F 180</item>
+<item>SPORAZ 200 CAP</item>
+<item>STAFCURE CV 250</item>
+<item>STALOPAM LITE</item>
+<item>STALOPAM PLUS</item>
+<item>STARCAD B12.5</item>
+<item>STARCAD B50</item>
+<item>STARCAD T 25</item>
+<item>STARPRESS T 25-XL</item>
+<item>STERIO 4</item>
+<item>STROCOZ 500 TABLET</item>
+<item>SUNHALT GEL</item>
+<item>SUPRA PRIME</item>
+<item>SUPRAWALK</item>
+<item>SYLATE 500</item>
+<item>T VOBIT 2TAB</item>
+<item>TAZAR 2.25 INJ</item>
+<item>TAZOMAC 4.5</item>
+<item>TAZOTUM 2.25 INJ</item>
+<item>TELEKAST 10</item>
+<item>TELISTA  CL</item>
+<item>TELISTA 80</item>
+<item>TELISTA CH 40</item>
+<item>TELISTA CH 40/6.25</item>
+<item>TELISTA CH 80 TAB</item>
+<item>TELISTA D TAB</item>
+<item>TELISTA TRIO CL</item>
+<item>TELISTA-AMH</item>
+<item>TELMIPACK CL</item>
+<item>TELMIPACK TRIO 12.5</item>
+<item>TEMSAN 80 CT</item>
+<item>TEMSAN 80 H</item>
+<item>TEMSAN AM</item>
+<item>TEMSAN AM 5</item>
+<item>TEMSAN CT</item>
+<item>TENIPACK</item>
+<item>TENUVIA 20</item>
+<item>THIO-ACE-4</item>
+<item>THYROUP 100</item>
+<item>THYROUP 50</item>
+<item>THYROUP 75</item>
+<item>TIATE INH</item>
+<item>TIBROLIN D</item>
+<item>TIROFUSE IV</item>
+<item>TOBACIN 60</item>
+<item>TOBACIN 80 INJ</item>
+<item>TOLIFAST 150</item>
+<item>TOLIFAST 450</item>
+<item>TONACT 20</item>
+<item>TONACT 40</item>
+<item>TONACT 5</item>
+<item>TRAMAGOLD</item>
+<item>TRANLOK M</item>
+<item>TRAVECEF 200</item>
+<item>TRAVEFLOX 250</item>
+<item>TRAVEXEL 250</item>
+<item>TRAVEXEL 500</item>
+<item>TRENAXA 500</item>
+<item>TRI OLMIGHTY 20</item>
+<item>TRI OLMIGHTY 40</item>
+<item>TRIMACSART</item>
+<item>TRIMEGAVOG 2</item>
+<item>TRIMIUM INH</item>
+<item>TRIMONTEMAC</item>
+<item>TRINEXOVAS 20</item>
+<item>TRINEXOVAS 40</item>
+<item>TRIOLMESAR CH 20</item>
+<item>TRIOLMESAR CH 40</item>
+<item>TRIOLVANCE 20</item>
+<item>TRIPATH</item>
+<item>TRIPRIDE 2 LV</item>
+<item>TRIWHITE CREAM</item>
+<item>TURBOVAS CV 10</item>
+<item>UBEXA 80</item>
+<item>UPXIGA 10000 IU</item>
+<item>URDOHEP 150</item>
+<item>URDOHEP 300</item>
+<item>URSOMAX 300</item>
+<item>UTICEPT TAB</item>
+<item>VILAMID 40 TAB</item>
+<item>VILTACEF 250</item>
+<item>VITALEM TABLET</item>
+<item>VITASONIC</item>
+<item>VOBIT 0.3</item>
+<item>VOBIT MD 0.3</item>
+<item>VOGLIPACK M 0.2</item>
+<item>VOGLIPACK M 0.3</item>
+<item>VORITROL 200</item>
+<item>VYSOV-M 50 MG/500MG</item>
+<item>VYSOV-M 50MG/1000MG</item>
+<item>WIDERM</item>
+<item>XILIA TRIO-1</item>
+<item>XILIA TRIO2</item>
+<item>XINBEST</item>
+<item>XINMOIST 24</item>
+<item>XINOMOM CF  10GM</item>
+<item>XINYUNG 20GM.</item>
+<item>XM BETA 25</item>
+<item>XPLODE POWDER</item>
+<item>XYLOFLO NASAL DROPS</item>
+<item>YAMINI LS</item>
+<item>ZEDOCEF CV 50DT</item>
+<item>ZEDOCEF DXL 200</item>
+<item>ZEDOCEF-O</item>
+<item>ZEEGAB-M</item>
+<item>ZITHROX LX</item>
+<item>ZITHROX LX 250</item>
+<item>ZITHROX PLUS KID</item>
+<item>ZONAMAX ES INJ</item>
+<item>ACCUZON 500</item>
+<item>ALKARATE</item>
+<item>ALLERCET</item>
+<item>ALOCET SYRUP</item>
+<item>ALOCET XL SYP</item>
+<item>ARGIGEST SACHET</item>
+<item>AUGPEN 150 IV</item>
+<item>AZIWIN 500</item>
+<item>BENIHYP   4</item>
+<item>BILCLAV DUO SYP</item>
+<item>BROPHYLE CAP</item>
+<item>BUDATE 200</item>
+<item>CARVISTAR 12.5</item>
+<item>CEFF DROPS</item>
+<item>CETSAFE PLUS</item>
+<item>COELONE 8 TAB</item>
+<item>COMBUNEX 800</item>
+<item>CZ PLUS</item>
+<item>DIABEND M</item>
+<item>DICLONAC INJ</item>
+<item>DVION SACHET 1G</item>
+<item>ECOX 800</item>
+<item>ENBIOS SACHET</item>
+<item>ENDOFORMIN G1 FORTE</item>
+<item>ENDOFORMIN G2 FORTE</item>
+<item>ENTROFLORA  SACHET</item>
+<item>ENTROFLORA SAC 765</item>
+<item>EPILIVE 250</item>
+<item>ETICORT 6</item>
+<item>ETIZOLA BETA 0.25</item>
+<item>FNS 25 SACH</item>
+<item>GLADOR 3</item>
+<item>GLUCOMIND</item>
+<item>GLUCONORM -V 0.2</item>
+<item>GLUTOWIN FORTE</item>
+<item>ISONORM 20</item>
+<item>ISONORM 60 SR</item>
+<item>ITRACOE  100</item>
+<item>JOYFIT</item>
+<item>KATADOL</item>
+<item>LACONEXT 100</item>
+<item>LODOZ 5</item>
+<item>LOVAX 300</item>
+<item>LUPI D3 SACHET</item>
+<item>LUPIDIP A</item>
+<item>MACBRITE D3 400 IU</item>
+<item>MACROZIDE 500</item>
+<item>MATILDA PLUS</item>
+<item>MAXTRA COLD +</item>
+<item>MEGAVOG MF 0.3/500</item>
+<item>MIKACIN 250</item>
+<item>MISOBIT MD 25</item>
+<item>MONTINA L BIG SYP</item>
+<item>MOVERAN</item>
+<item>MTV FORTE SUSP</item>
+<item>MYTIMONT-L SYRUP</item>
+<item>NIZONIDE DT</item>
+<item>NIZONIDE SUSP</item>
+<item>NORMET SUSP</item>
+<item>NULCER-MPS SYRUP</item>
+<item>NUPENTA D</item>
+<item>OBEMAC SACHET</item>
+<item>ODOXIL 250 DT</item>
+<item>OF SUSP</item>
+<item>OFLAMAC SYP 30ML</item>
+<item>OLOBLU 0.1%</item>
+<item>OLYCOFF-D</item>
+<item>OLYTERB   +</item>
+<item>ONDAMAC ORAL SYP</item>
+<item>P2I</item>
+<item>PANTOZA 40</item>
+<item>PATH 15</item>
+<item>PINOM 10</item>
+<item>PINOM CT 20</item>
+<item>PREBOSE 0.3</item>
+<item>PRECLAZIDE M 40</item>
+<item>PREGADOC M SR 75</item>
+<item>PREGASTAR M OD 75</item>
+<item>PRIMACORT 100</item>
+<item>RABLET IV</item>
+<item>REGAMIN DROPS</item>
+<item>SECRETAG 1</item>
+<item>STARPRESS H 25 XL</item>
+<item>STARPRESS T 50-XL</item>
+<item>THIAKLOR-12.5</item>
+<item>TOBACIN EYE/EAR DROPS</item>
+<item>VITANOVA D3 SG CAP</item>
+<item>VITANOVA SACHET</item>
+<item>XILIA M2 FORTE</item>
+<item>XINOMOM CF CREAM</item>
+<item>ZEDOCEF 50 DT</item>
+<item>ZUVOG 0.2</item>
+<item>CLOPITAB CV GOLD 10</item>
+<item>D 3 COXCAL SACHET</item>
+<item>ENDOFORMIN SR 1G</item>
+<item>GINOX GEL</item>
+<item>MACFAST 125 SUSP</item>
+<item>RAMIPRO 2.5</item>
+<item>RIFILL SUSP</item>
+<item>SALBAIR NEB TRANSPULES  0.31</item>
+<item>EUBIOZ SACHET</item>
+<item>NITROFIX 10</item>
+<item>SALBAIR I NEB TRANSPULES 1.25</item>
+<item>ATENOVA 25</item>
+<item>CARVISTAR 6.25</item>
+<item>SALBAIR</item>
+<item>OPTINUERON INJ</item>
+<item>CONCOR COR 1.25</item>
+<item>DIAMET SR 500</item>
+<item>CARIPILL SYRUP</item>
+<item>DIAPRIDE 2</item>
+<item>GR8 OD</item>
+<item>NITROFIX SR 30</item>
+<item>TAVIN</item>
+<item>ATHEART 10</item>
+<item>FEBUMAC 80</item>
+<item>FOXSTAT 80</item>
+<item>GR8</item>
+<item>HICET AX SYRUP</item>
+<item>POZITIVE 7.5</item>
+<item>TENIPACK M</item>
+<item>GETSURE 2.0</item>
+<item>PETRIL BETA 20</item>
+<item>THINSURE MANGO</item>
+<item>THINSURE STRAWBERRY</item>
+<item>O LYTE (APPLE FLAVOUR)</item>
+<item>MACSIP APPLE</item>
+<item>MYSIP APPLE</item>
+<item>MYSIP ORANGE</item>
+<item>VOLIPHAGE M 0.3</item>
+<item>IMINORAL - 50 CAPS</item>
+<item>GLYBOVIN 2.5</item>
+<item>LOMOH 60 INJ</item>
+<item>EDASTAR INJ</item>
+<item>EPOCEPT 10000</item>
+<item>EPOCEPT 4000</item>
+<item>GLICLAPACK MV 0.2</item>
+<item>INFLUGEN</item>
+<item>NOVAPIME 500 INJ</item>
+<item>SUDOSTAR 2</item>
+<item>CLOBETAMIL G</item>
+<item>HATRIC 3 SYP</item>
+<item>SURFAZ O</item>
+<item>AZIWIN 100 SUSP</item>
+<item>DEPICOR SR 20</item>
+<item>GLIMET</item>
+<item>MONOCEF 250</item>
+<item>PETRIL MD .25</item>
+<item>RHE KIT</item>
+<item>AZIVENT 500 TAB</item>
+<item>BIGOMET 250</item>
+<item>BIGOMET 850</item>
+<item>CEFADROX 250 KID TAB</item>
+<item>ENCEPHABOL SUSP</item>
+<item>ETIZEP 0.25</item>
+<item>FLEXON SYP 262.5</item>
+<item>GLYCIPHAGE SR 500</item>
+<item>MACPRIL 1.25</item>
+<item>MONOCEF 500</item>
+<item>OFLAMAC M SYP</item>
+<item>RANTAC 150</item>
+<item>AMLOSAFE 5</item>
+<item>CEFADROX 250 DRY SYP</item>
+<item>COBAFORTE INJ</item>
+<item>GLIMET DS</item>
+<item>MEGA CV DRY 228.5MG</item>
+<item>MEGANEURON  PG</item>
+<item>MEGAPEN 250 KID</item>
+<item>MEGAPEN 500</item>
+<item>MONOCEF 2G</item>
+<item>NASIVION MINI DROP</item>
+<item>NAZODROP</item>
+<item>PARKIN</item>
+<item>POLYBION SF 400</item>
+<item>RHE FD 150</item>
+<item>TEMSAN 20</item>
+<item>TENOMAC 50</item>
+<item>TULOPLAST 1</item>
+<item>VOLIPHAGE 0.2</item>
+<item>ALGESIA SR</item>
+<item>AMICLINE PLUS</item>
+<item>AMINOGEST CAP</item>
+<item>AMLONG 5</item>
+<item>AMLOSAFE 2.5</item>
+<item>AMLOVAS 5</item>
+<item>ANTIPLAR</item>
+<item>ANXICALM 0.25</item>
+<item>ANXIT 0.25</item>
+<item>ATOREC 10</item>
+<item>AZITUS 100 SUSP</item>
+<item>AZITUS 200 SUSP</item>
+<item>AZITUS 500</item>
+<item>BIGOMET 500SR</item>
+<item>CONCOR 10</item>
+<item>COSOME A SYRUP</item>
+<item>DIANORM</item>
+<item>DIBIZIDE M</item>
+<item>DOLOPAR 125 SYP</item>
+<item>DOLOPAR TAB</item>
+<item>DOLOWIN SR TAB</item>
+<item>DOTHIP 25</item>
+<item>DVION PEARL 1 K</item>
+<item>ELRIZ XL</item>
+<item>EMIGO MD</item>
+<item>ENTROFLORA SUSP</item>
+<item>EXTRAGAT EYE</item>
+<item>FORECOX KIT</item>
+<item>FULL 365 DROPS</item>
+<item>GLIMIPREX 1</item>
+<item>GLIMIPREX 3</item>
+<item>GLYCIPHAGE G1</item>
+<item>GLYCIPHAGE G1 FORTE</item>
+<item>HATRIC VEPO 324.5</item>
+<item>HOPACE 1.25</item>
+<item>HOPACE 2.5</item>
+<item>INFEN 25</item>
+<item>IT MAC 100</item>
+<item>LACTIVIEST</item>
+<item>LEVOMAC 500</item>
+<item>LIPIRA 5</item>
+<item>LORNICAM PLUS 4</item>
+<item>MACFRESH</item>
+<item>MACOX ZH</item>
+<item>MACPRED 4</item>
+<item>MECOVON 500 INJ</item>
+<item>MICROCID</item>
+<item>MONOCEF 1G</item>
+<item>NASIVION PAED DROP</item>
+<item>NEBILONG H</item>
+<item>NEXOVAS 5</item>
+<item>NORMOPRIL 5</item>
+<item>NUSAR 25</item>
+<item>OFLAMAC 300</item>
+<item>OMNACORTIL DROPS</item>
+<item>OMNITAN 25</item>
+<item>ONDAMAC MD</item>
+<item>PANTOP INJ 40</item>
+<item>POLYBION LC 250 SYP</item>
+<item>RABEZOL 20</item>
+<item>RABIFAST 20</item>
+<item>RELAXYL PLUS</item>
+<item>SORBILINE SYP</item>
+<item>SOVENTUS JR SYP</item>
+<item>SURFAZ B CR</item>
+<item>TENOMAC 25</item>
+<item>TORSID 10</item>
+<item>VALPRIDE CR 200</item>
+<item>XILIA M1</item>
+<item>ACECLO SR 200</item>
+<item>ACEGABA 400</item>
+<item>ACENOMAC 1MG</item>
+<item>ACENOMAC 2 MG</item>
+<item>ACENOMAC 3MG</item>
+<item>ACENOMAC 4MG</item>
+<item>ACUCLAV 375</item>
+<item>ACUCLAV 625</item>
+<item>ACUCLAV DS SYP</item>
+<item>AEROTROP F</item>
+<item>ALFA OSTEBON</item>
+<item>ALLERCET COLD</item>
+<item>ALLERCET DC</item>
+<item>ALLERCET L</item>
+<item>ALLERCET M TAB</item>
+<item>ALRISTA FORTE</item>
+<item>ALSARTAN H TAB</item>
+<item>AMBRODIL LX SYP</item>
+<item>AMBRODIL SYP</item>
+<item>AMBRODIL XP</item>
+<item>AMLENOX ORAL PASTE</item>
+<item>AMLONG A</item>
+<item>AMLONG CT TAB</item>
+<item>AMLONG H</item>
+<item>AMLONG MT 25</item>
+<item>AMLONG MT 50</item>
+<item>AMLOSAFE AT</item>
+<item>AMLOSAFE TM 80</item>
+<item>AMLOVAS M 5/25</item>
+<item>AMLOVAS M 5/50</item>
+<item>AMLOVAS XM 5/50</item>
+<item>ANXIT 0.5</item>
+<item>ARBITEL 20</item>
+<item>ARBITEL 80</item>
+<item>ARBITEL TRIO 50</item>
+<item>ARISTOZYME CAP</item>
+<item>ARMOD 50</item>
+<item>ASOMEX 5</item>
+<item>ASOMEX D</item>
+<item>ASOMEX D 5</item>
+<item>ASTIN 10</item>
+<item>ASTIN 20</item>
+<item>ASTIN 40</item>
+<item>ASTIN 80</item>
+<item>ATCHOL 20</item>
+<item>ATORMAC 10</item>
+<item>ATORMAC 20</item>
+<item>ATORMAC 40</item>
+<item>ATORMAC TG</item>
+<item>AVAS 10</item>
+<item>AVAS 20</item>
+<item>AVAS 40</item>
+<item>AZIDERM GEL 20%</item>
+<item>AZILIDE 100 SYP</item>
+<item>AZILIDE 200 SYP</item>
+<item>AZIVENT 250 TAB</item>
+<item>BACTOCLAV DRY SYRUP</item>
+<item>BACTOCLAV DT</item>
+<item>BENALGIS</item>
+<item>BETA NICARDIA</item>
+<item>BETABRIM UNO</item>
+<item>BETAMIL GM</item>
+<item>BEVON CD</item>
+<item>BICEF 500 DT</item>
+<item>BIZFER ELIXIR</item>
+<item>BONMIN-K2</item>
+<item>BRAKKE</item>
+<item>BUDETROL 100</item>
+<item>BUDETROL 200</item>
+<item>BUDETROL 200 INH</item>
+<item>BUXORIC 40</item>
+<item>C TAX O 200</item>
+<item>CALONAT D</item>
+<item>CANDISTAT</item>
+<item>CARBAMAC 300</item>
+<item>CARBOX-150  TAB</item>
+<item>CARBOX-300</item>
+<item>CILACAR   C</item>
+<item>CILACAR 10</item>
+<item>CILACAR 5</item>
+<item>CILACAR TC 12.5 MG</item>
+<item>CILACAR TC 6.25</item>
+<item>CLARIGARD 250</item>
+<item>CLINGEN 3 VAG SUPP</item>
+<item>CLINGEN FORTE</item>
+<item>CONCOR COR</item>
+<item>CONCOR PLUS</item>
+<item>CONSIVAS 40</item>
+<item>CONSIVAS-5</item>
+<item>CORNIGEL EYE OINTMENT</item>
+<item>COVATIL 250</item>
+<item>D3--EXTRA</item>
+<item>DEFSURE 6</item>
+<item>DEXORANGE PAED SYP</item>
+<item>DEXPURE</item>
+<item>DEXPURE D</item>
+<item>DIABEND MEX30</item>
+<item>DIAMET 500</item>
+<item>DIANORM OD 30</item>
+<item>DIAPRIDE M 1 FORTE</item>
+<item>DIAPRIDE M 2</item>
+<item>DIAPRIDE M4 FORTE</item>
+<item>DIAVIT PLUS</item>
+<item>DICLOPLAST PATCHES</item>
+<item>DICLORAN GEL 2%</item>
+<item>DILCARDIA 60</item>
+<item>DISPRED 4</item>
+<item>DOXORIL 650</item>
+<item>DUOPIL 1/500</item>
+<item>DUOPIL 2 FORTE</item>
+<item>DVION  PEARL 60K</item>
+<item>EBAST 10 OD</item>
+<item>EBAST 20</item>
+<item>EBAST DC</item>
+<item>EBAY M TAB</item>
+<item>ECOBION BC SUSP</item>
+<item>EFICEF CV 200</item>
+<item>ELRIZ XL SYP</item>
+<item>EMANZEN</item>
+<item>EMANZEN D</item>
+<item>EMANZEN FORTE</item>
+<item>EMIGO 4</item>
+<item>EMSIDON-80</item>
+<item>EPINEURON SR</item>
+<item>ESLO 2.5</item>
+<item>ESLO 5</item>
+<item>ESLO AT</item>
+<item>ESLO D</item>
+<item>ESLO TAN</item>
+<item>ETIZOLA 0.5</item>
+<item>ETIZOLA PLUS 5</item>
+<item>EVAMAXIC</item>
+<item>EVION LC</item>
+<item>FERIUM SYP</item>
+<item>FERIUM XT</item>
+<item>FERIUM XT DROPS</item>
+<item>FERONIA XT</item>
+<item>FERONIA XT DROPS</item>
+<item>FERONIA XT SUSP</item>
+<item>FERRI INJ</item>
+<item>FIBROVAS 160</item>
+<item>FINE HART</item>
+<item>FITONIC SYP</item>
+<item>FLURISONE EYE OINTMENT</item>
+<item>FLUTROL 125 INH</item>
+<item>FORCEF CV 250</item>
+<item>FOSEAL-800</item>
+<item>GABAMAX 75</item>
+<item>GABAMAX GOLD</item>
+<item>GABAMAX SR 75</item>
+<item>GABANEURON</item>
+<item>GABANEURON 100</item>
+<item>GEMINOR 2</item>
+<item>GEMINOR M-2</item>
+<item>GEMINOR M2 FORTE</item>
+<item>GEMINOR MP 1 LS</item>
+<item>GEN-D3 60K</item>
+<item>GENPRAZ DSR</item>
+<item>GLIMIPREX MF 1/500</item>
+<item>GLYCIGON 80</item>
+<item>GLYCIPHAGE G2 FORTE</item>
+<item>GLYCIPHAGE P 7.5</item>
+<item>GLYCIPHAGE PG2</item>
+<item>GLYCIPHAGE SR 1G</item>
+<item>GLYPTEN</item>
+<item>GOUTCHEK 40</item>
+<item>GRANDEM 1MG</item>
+<item>GRILLINCTUS SYP</item>
+<item>GUTCLEAR SYRUP</item>
+<item>HATRIC 5</item>
+<item>HERPERAX 200</item>
+<item>HIPRIL A</item>
+<item>HOPACE 5</item>
+<item>HOPECARD 2.5</item>
+<item>HOSIT L</item>
+<item>IFERWIN</item>
+<item>IMAX FORTE</item>
+<item>IMAX S INJ</item>
+<item>INFEN MR</item>
+<item>IROZORB</item>
+<item>KIMET XL 50</item>
+<item>LAFAXID 10</item>
+<item>LAFAXID-D</item>
+<item>LEKACE SERRA</item>
+<item>LEVACETAM  INJ</item>
+<item>LEVACETAM-500</item>
+<item>LEVOMAC ORAL SYP</item>
+<item>LIPIGO 20 MG</item>
+<item>LIVOGEN HEM SYP</item>
+<item>LORNIT 150 TAB</item>
+<item>LUBREX  EYE DROPS</item>
+<item>LUBREX DS DROPS</item>
+<item>LUBREX UNO EYE DROPS</item>
+<item>MACBERY XT SYP</item>
+<item>MACBRITE D3</item>
+<item>MACFAST 650</item>
+<item>MACFOLATE PLUS</item>
+<item>MACOX ZH 150</item>
+<item>MACPOD 100 SYP</item>
+<item>MACPOD 200</item>
+<item>MACPOD 50 DRY SYP</item>
+<item>MACPOD CV 200</item>
+<item>MACSART 20</item>
+<item>MAXTRA DROPS</item>
+<item>MAXTRA P SYP</item>
+<item>MAXTRA SYP</item>
+<item>MEFAST 100 SUSP</item>
+<item>MEFOMIN GZ 80</item>
+<item>MEFOMIN-500</item>
+<item>MEGA CV DT 228.5</item>
+<item>MEGAHEAL GEL</item>
+<item>MEGANEURON</item>
+<item>MEGASOFT FORTE CAP</item>
+<item>MEGAVOG 0.2</item>
+<item>MELANOCYL OINT</item>
+<item>MELANOCYL SOL</item>
+<item>MELMET 500 SR</item>
+<item>MERO 500 INJ</item>
+<item>MEROBAX 1GM</item>
+<item>MEROBAX 500MG</item>
+<item>MEROTEC 250 INJ</item>
+<item>METAPRO XL 50</item>
+<item>METPURE XL 12.5</item>
+<item>METPURE XL 50</item>
+<item>METROGYL GEL 2%</item>
+<item>MICROCEF 100 DT TAB</item>
+<item>MICROCEF 100 ORAL SUSP</item>
+<item>MICROCEF ORAL SUSP</item>
+<item>MINOLOX 100</item>
+<item>MONOCEF O 100</item>
+<item>MONOCEF O CV 200</item>
+<item>MONOCEF O DT 100</item>
+<item>MONOCEF O KID 50</item>
+<item>MONOCEF SB 1G</item>
+<item>MONTAZ 1G</item>
+<item>MONTAZ 500 INJ</item>
+<item>MONTEMAC L KID</item>
+<item>MONTEMAC-FX</item>
+<item>MOXOVAS 0.2</item>
+<item>MYOSONE</item>
+<item>MYOSONE PLUS</item>
+<item>MYOTOP 150</item>
+<item>MYOTOP 450 SR</item>
+<item>NEBI AM</item>
+<item>NEBILONG 2.5</item>
+<item>NEBIMAC 2.5</item>
+<item>NETROMAX 150</item>
+<item>NEURICA BT</item>
+<item>NEURICA M 75</item>
+<item>NEUROBION PLUS</item>
+<item>NEUROCETAM</item>
+<item>NEUROCETAM PLUS</item>
+<item>NEUROCETAM SYP</item>
+<item>NEW IMAX FORTE CAPS</item>
+<item>NEXOVAS 20</item>
+<item>NICARDIA CD 30</item>
+<item>NITROFIX SR 60</item>
+<item>NUCARNIT INJ</item>
+<item>NUKAST 10</item>
+<item>NUKAST 4</item>
+<item>NUMLO AT</item>
+<item>NUPENTA 40</item>
+<item>NUROCOL</item>
+<item>NUSAR AM</item>
+<item>NUSAR AM5</item>
+<item>OF 200</item>
+<item>OFLAMAC 200</item>
+<item>OFLAMAC OZ</item>
+<item>OLMAT AM</item>
+<item>OLMAT MT 50</item>
+<item>OLMESAFE 20 MG TAB</item>
+<item>OLMESAR A</item>
+<item>OLMIGHTY 20</item>
+<item>OMNACORTIL 30</item>
+<item>OMNACORTIL FORTE SUSP</item>
+<item>OMNICEF O 200</item>
+<item>OMNICEF PLUS</item>
+<item>OMNITAN 50</item>
+<item>OMNITAN H</item>
+<item>OQ  200</item>
+<item>ORATIL 250</item>
+<item>ORNAMAC</item>
+<item>OROFER CAP</item>
+<item>OROFER SYP</item>
+<item>OROFER XT</item>
+<item>OROFER XT TOTAL</item>
+<item>ORTHOCORT 12</item>
+<item>PANDERM SUPER</item>
+<item>PANTOP 40</item>
+<item>PANTOP D</item>
+<item>PANTOP DSR</item>
+<item>PEGCLEAR SYRUP</item>
+<item>PEROXITA</item>
+<item>PETRIL 0.5</item>
+<item>PETRIL BETA 10</item>
+<item>PETRIL PLUS</item>
+<item>PHYTORAL</item>
+<item>PHYTORAL SHAMPOO</item>
+<item>POLYBION CZS</item>
+<item>POLYCLAV 375</item>
+<item>POLYCLAV DS 30ML SYP</item>
+<item>POLYPOD 100 SYP</item>
+<item>POLYPOD 200</item>
+<item>POLYPOD 50 DS SYP</item>
+<item>PRINCICAL</item>
+<item>PRINCICLAV TAB</item>
+<item>PROXYM 300</item>
+<item>PULMOCEF 250</item>
+<item>PULMOCEF CV 500</item>
+<item>PURE D3 60K</item>
+<item>RABEMAC 10</item>
+<item>RABIFAST DSR</item>
+<item>RANTAC MPS SUSP</item>
+<item>RECARB 25</item>
+<item>RECARB 50</item>
+<item>RELAXYL DA</item>
+<item>RELAXYL OINT</item>
+<item>REVIDOX-LB</item>
+<item>REVOSTAT 10 TAB</item>
+<item>REVOSTAT 20 TAB</item>
+<item>RHE FD</item>
+<item>RIFIDOR 200</item>
+<item>RIFIDOR 400</item>
+<item>ROSUMAC 40</item>
+<item>ROSUMAC F 5</item>
+<item>ROZUSTAT 20</item>
+<item>ROZUSTAT 40</item>
+<item>RUBIRED</item>
+<item>SENSICLAV 156.25 SYP</item>
+<item>SENSICLAV 375</item>
+<item>SENSICLAV DS SYP</item>
+<item>SENSIFIT GEL</item>
+<item>SEVEN SEAS</item>
+<item>SILYBON 70</item>
+<item>SIMVAS 10</item>
+<item>SMUTH CR</item>
+<item>SOFTERON Z</item>
+<item>SORBIDIOL 150</item>
+<item>SORBIDIOL 300</item>
+<item>SOVENTUS DC SYP</item>
+<item>SOVENTUS SYP</item>
+<item>STARVOG 0.3</item>
+<item>STARVOG GM 1 TAB</item>
+<item>SUPER D3 60000IU</item>
+<item>SURFAZ POWDER 100 GM</item>
+<item>SUSWAS CAP</item>
+<item>SYLATE M 500</item>
+<item>TELPLUS TAB</item>
+<item>TELVAS 30D 80MG</item>
+<item>TELVAS AM 80/5</item>
+<item>TELVAS CT 40</item>
+<item>TELVAS CT LS TAB</item>
+<item>TELVAS H 40/12.5</item>
+<item>TELVAS H 80/12.5</item>
+<item>TEMSAN 80</item>
+<item>TENEPRIDE 20</item>
+<item>TERICOX</item>
+<item>THYROUP 125</item>
+<item>THYROX 12.5</item>
+<item>THYROX 125</item>
+<item>THYROX 25</item>
+<item>THYROX 88</item>
+<item>TOTALCAL D3</item>
+<item>TRAVO EYE DROPS</item>
+<item>TRIPRIDE 1</item>
+<item>TROXIP</item>
+<item>TUMSUP DROPS</item>
+<item>TURBOVAS 20</item>
+<item>TURBOVAS 5</item>
+<item>ULTRAM</item>
+<item>ULTRAMOL</item>
+<item>UNI-K2-7</item>
+<item>UTHYROX  12.5</item>
+<item>VENTRYL SYP 60</item>
+<item>VESORET</item>
+<item>VITANOVA 6L INJ</item>
+<item>VOGLIMAC 0.2</item>
+<item>VOGLIMAC 0.3</item>
+<item>VOGLIMAC MF 0.3</item>
+<item>VOXAMIN 50</item>
+<item>ZECUF SYP</item>
+<item>ZEDOCEF 200</item>
+<item>ZEDOCEF CV 200</item>
+<item>ZEDOCEF SYP 50</item>
+<item>ZEMCIFER XT</item>
+<item>ZEROTUSS XP SYP</item>
+<item>ZITHROX 200 SUSP</item>
+<item>ZOLPID 10</item>
+<item>ZOSECTA</item>
+<item>ZOSECTA IV 20MG</item>
+<item>ZOSTUM 1.5 GM</item>
+<item>ZOSTUM 500 MG INJ</item>
+<item>ZOTRAL 100</item>
+<item>ZUVOG M 0.3</item>
+<item>ACECLO MR</item>
+<item>ACECLO PLUS 600</item>
+<item>ACEGABA 300</item>
+<item>ACEGABA ME 100</item>
+<item>ACEGABA ME 300</item>
+<item>ACTIHEAL</item>
+<item>ACTIHEAL D</item>
+<item>ACUCLAV DRY SYRUP</item>
+<item>AEROTROP</item>
+<item>AEROTROP INH</item>
+<item>ALSARTAN 50 MG TAB</item>
+<item>ALSARTAN AM</item>
+<item>ALWEL 10</item>
+<item>AMBRODIL DROPS</item>
+<item>AMBRODIL PLUS RF</item>
+<item>AMBRODIL S PLUS SYP</item>
+<item>AMINOGEST SUSP</item>
+<item>AMLOSAFE 3D</item>
+<item>AMLOSAFE H</item>
+<item>AMLOVAS AT</item>
+<item>AMLOVAS H</item>
+<item>AMLOVAS L</item>
+<item>AMLOVAS LS</item>
+<item>AMLOZAAR</item>
+<item>AMLOZAAR H</item>
+<item>ANCOOL SF SUSP</item>
+<item>ANCOOL SUSP</item>
+<item>ANGIZAAR 50</item>
+<item>ANGIZAAR H</item>
+<item>ARBITEL 40</item>
+<item>ARBITEL 80 H</item>
+<item>ARBITEL AM</item>
+<item>ARBITEL AV</item>
+<item>ARBITEL CT 40</item>
+<item>ARBITEL MT 25</item>
+<item>ARBITEL MT-50</item>
+<item>ARBITEL TRIO 25</item>
+<item>ARISTOZYME LIQUID</item>
+<item>ARMOD 150</item>
+<item>ARTIFLO 1 TAB</item>
+<item>ARTIFLO 2</item>
+<item>ARTIFLO 3</item>
+<item>ARTIFLO 4</item>
+<item>ASHWAMED</item>
+<item>ASOMEX 1.25</item>
+<item>ASOMEX 2.5</item>
+<item>ASOMEX AT 2.5</item>
+<item>ASOMEX AT 5</item>
+<item>ASOMEX LT 2.5</item>
+<item>ATCHOL 10</item>
+<item>ATCHOL F</item>
+<item>ATOREC 20</item>
+<item>ATOREC 40</item>
+<item>ATOREC 5</item>
+<item>ATOREC EZ</item>
+<item>ATOREC F</item>
+<item>ATORMAC 5</item>
+<item>AVAS 5</item>
+<item>AVAS 80</item>
+<item>AZIDERM 10%</item>
+<item>AZIDERM 20%</item>
+<item>AZIDERM GEL 10%</item>
+<item>AZILIDE 250</item>
+<item>AZILIDE 500</item>
+<item>AZITUS XL 100</item>
+<item>AZITUS XL 200</item>
+<item>AZIWIN FS KIT</item>
+<item>AZUNATE L 480</item>
+<item>BACTOCLAV 375</item>
+<item>BACTOCLAV 625</item>
+<item>BACTOCLAV DS 457</item>
+<item>BENFOSULES</item>
+<item>BETABRIM EYE DROPS</item>
+<item>BEVON SUSP BIG</item>
+<item>BIGOMET 1000SR</item>
+<item>BIO D3 FEM</item>
+<item>BIO D3 MAX</item>
+<item>BIO D3 PLUS</item>
+<item>BIO D3 STRONG</item>
+<item>BIZFER XT</item>
+<item>BOOSTALIV SYRUP</item>
+<item>BUDETROL 100 INH</item>
+<item>BUDETROL 400</item>
+<item>BUDETROL 400 INH</item>
+<item>BUDETROL FORTE</item>
+<item>BUDETROL FORTE INHAL</item>
+<item>BUTRUM 1MG</item>
+<item>BUTRUM 2MG</item>
+<item>C TAX O 100</item>
+<item>C TAX O FORTE DRY SYP</item>
+<item>CALSPRAY</item>
+<item>CARBOPHAGE G1</item>
+<item>CARBOPHAGE G2 FORTE</item>
+<item>CARIPILL CAPS</item>
+<item>CARVIDON OD</item>
+<item>CARVIDON-MR</item>
+<item>CEFOLAC 200</item>
+<item>CEFOLAC 50 DT</item>
+<item>CEFOLAC CV 200</item>
+<item>CEFOLAC XL 200</item>
+<item>CILACAR C 6.25</item>
+<item>CLARIGARD  500</item>
+<item>CLARIWIN 250</item>
+<item>CLARIWIN 500</item>
+<item>CLINDASURE 150</item>
+<item>CLINDASURE 300</item>
+<item>CLINGEN VAG SUPP</item>
+<item>COMBITHER BIG DRY SYP</item>
+<item>COMBITHER DRY SYP</item>
+<item>CONCOR 5</item>
+<item>CONCOR AM 5</item>
+<item>CONSIVAS F</item>
+<item>CONSIVAS-10</item>
+<item>CONSIVAS-20 TAB</item>
+<item>CORTIMAX 6</item>
+<item>COSOME EXP</item>
+<item>COVATIL 500</item>
+<item>COXERIN</item>
+<item>DAROLAC CAP</item>
+<item>DAROLAC FORTE SACHET</item>
+<item>DAROLAC IBS</item>
+<item>DEBRILYSE</item>
+<item>DEBRILYSE PLUS</item>
+<item>DEFCORT 12</item>
+<item>DEFCORT 18</item>
+<item>DEFCORT 24</item>
+<item>DEFCORT 30</item>
+<item>DEFCORT 6</item>
+<item>DEXORANGE CAP</item>
+<item>DIABEND MEX60</item>
+<item>DIANORM M</item>
+<item>DIANORM M OD</item>
+<item>DIANORM OD 60</item>
+<item>DIAPRIDE 1</item>
+<item>DIAPRIDE M 1</item>
+<item>DIAPRIDE M 2 FORTE</item>
+<item>DICLOBENZ GEL</item>
+<item>DICLORAN SR</item>
+<item>DISPRED 8</item>
+<item>DOLOPAR SUSP</item>
+<item>DOLOWIN MR TABS</item>
+<item>DOXOMAX XP</item>
+<item>DUOPIL 1 FORTE</item>
+<item>DUOPIL 2/500</item>
+<item>EBAST M</item>
+<item>EBAY -MD</item>
+<item>EBAY 20</item>
+<item>ECOBION SACHETS</item>
+<item>EFICEF CV 50 DT</item>
+<item>ELESTRA</item>
+<item>EMANZEN DP</item>
+<item>EMDUO E 30 KIT</item>
+<item>EMIGO SUSP</item>
+<item>EMLEVO 500</item>
+<item>EMSIDON -40</item>
+<item>EMTRI 30</item>
+<item>EMTRI 40</item>
+<item>ENBIOS</item>
+<item>ENTROFLORA</item>
+<item>ENZOHEAL</item>
+<item>ENZOHEAL D</item>
+<item>ENZOHEAL FORTE</item>
+<item>ENZOHEAL OINT</item>
+<item>ENZOMAC</item>
+<item>ENZOMAC FORTE</item>
+<item>ENZOMAC PLUS</item>
+<item>ESLO 1.25</item>
+<item>ESLO 5 AT</item>
+<item>ESOFAG D</item>
+<item>ETIZOLA 0.25</item>
+<item>ETIZOLA PLUS 10</item>
+<item>EVACUOL GRANULES</item>
+<item>EXTRALUBE EYE DROPS</item>
+<item>FAL DP</item>
+<item>FBN EYE DROPS</item>
+<item>FEBUMAC 40</item>
+<item>FERIUM CHEWABLE</item>
+<item>FERIUM XT SUSP</item>
+<item>FERONIA HP</item>
+<item>FINTRIX 250</item>
+<item>FINTRIX CREAM</item>
+<item>FITGEL MOUTHULCER GEL</item>
+<item>FITGUM GUM ASTRINGENT</item>
+<item>FLEXABENZ ER</item>
+<item>FLEXABENZ GEL</item>
+<item>FLEXABENZ PLUS</item>
+<item>FLODART</item>
+<item>FLORESP NASAL SPRAY</item>
+<item>FLORESP-AZ NASAL SPRAY</item>
+<item>FLURISONE EYE DROPS</item>
+<item>FLUTROL 100</item>
+<item>FLUTROL 250</item>
+<item>FLUTROL 250 INH</item>
+<item>FLUTROL 500</item>
+<item>FOLINEXT D100</item>
+<item>FOLIZORB</item>
+<item>FORCEF CV 500</item>
+<item>FORECOX</item>
+<item>FORECOX 150</item>
+<item>FOXSTAT 40</item>
+<item>FULL 365 BIG SUS</item>
+<item>GABA HOSIT</item>
+<item>GABAMIN TAB</item>
+<item>GABANEURON NT TAB</item>
+<item>GABANEURON SR</item>
+<item>GABASAFE PLUS SR 75</item>
+<item>GEMINOR 1</item>
+<item>GEMINOR M-1</item>
+<item>GEMINOR M1 FORTE</item>
+<item>GEMINOR M3 FORTE</item>
+<item>GLIMIPREX 2</item>
+<item>GLIMIPREX 4</item>
+<item>GLIMIPREX MF 2/500</item>
+<item>GLYCIGON M</item>
+<item>GLYCIGON M SR</item>
+<item>GLYCIPHAGE G2</item>
+<item>GLYCIPHAGE LPG1</item>
+<item>GLYCIPHAGE LPG2</item>
+<item>GLYCIPHAGE P15</item>
+<item>GLYCIPHAGE PG1</item>
+<item>GLYCO 6 CREAM</item>
+<item>GLYCO A CREAM</item>
+<item>GRANDEM INJ</item>
+<item>GRANDEM MD</item>
+<item>GRANDEM SYP</item>
+<item>GRILLINCTUS BM SYP</item>
+<item>GRILLINCTUS PAED SYP</item>
+<item>GUTCLEAR SYP</item>
+<item>HATRIC 3 COLD</item>
+<item>HERPERAX 400</item>
+<item>HERPERAX 800</item>
+<item>HERPERAX OINT</item>
+<item>HEXOLIP 1000</item>
+<item>HILO CAPSULE</item>
+<item>HIPRIL 5</item>
+<item>HOPACE 10</item>
+<item>HOSIT</item>
+<item>IMAX XT</item>
+<item>INFEN GEL</item>
+<item>INFEN PLASTER</item>
+<item>IT- MAC 200</item>
+<item>IVAMAC 5</item>
+<item>JANISHA</item>
+<item>KAPOCIN 1 GM</item>
+<item>KAPOCIN 500</item>
+<item>KEFCLAV 200 TABS</item>
+<item>KETOVATE</item>
+<item>KIMET XL 25</item>
+<item>LANZOPRAX KID 15</item>
+<item>LANZOPRAX KID 30</item>
+<item>LAXITOL SYRUP</item>
+<item>LAZID N</item>
+<item>LEVOMAC 750 10S</item>
+<item>LEXANOX</item>
+<item>LIMBIVAL TAB</item>
+<item>LIPIGO 40 MG</item>
+<item>LIPIGO F 10</item>
+<item>LIPIRA 10</item>
+<item>LIPIRA F</item>
+<item>LIVOGEN XT</item>
+<item>LIZOKEF</item>
+<item>LIZOMAC CX</item>
+<item>LIZOMAC DS DRY SYP</item>
+<item>LIZOMAC TAB</item>
+<item>LORINOL  TAB</item>
+<item>LORNICAM PLUS 8</item>
+<item>LORNIT 500 TAB</item>
+<item>LORNIT SYP</item>
+<item>MACBERY JUNIOR</item>
+<item>MACBERY LS</item>
+<item>MACFLOX</item>
+<item>MACFOLATE</item>
+<item>MACFRESH 0.25</item>
+<item>MACOX PLUS</item>
+<item>MACOX PLUS 600</item>
+<item>MACPOD 100 DT</item>
+<item>MACPOD 50 DT</item>
+<item>MACPRED 16</item>
+<item>MACPRED 8</item>
+<item>MACPRIL 2.5</item>
+<item>MACPRIL 5</item>
+<item>MACPRIL H 5</item>
+<item>MACROMYCIN</item>
+<item>MACSART 40</item>
+<item>MACSART AM</item>
+<item>MACSART H</item>
+<item>MACTOR 20</item>
+<item>MACTOR 40</item>
+<item>MACTOR F</item>
+<item>MACZORB FORTE TAB</item>
+<item>MACZORB PLUS</item>
+<item>MAHADOL</item>
+<item>MAXOLID</item>
+<item>MAXTRA P</item>
+<item>MAXTRA P DROPS</item>
+<item>MECONERV PLUS</item>
+<item>MECONERV Z SYP</item>
+<item>MEFOMIN-1000</item>
+<item>MEGA CV 228.5 SYRUP</item>
+<item>MEGA CV 375</item>
+<item>MEGA CV FORTE SYP</item>
+<item>MEGAHEAL BIG GEL</item>
+<item>MEGALIS 20</item>
+<item>MEGANANO    GEL</item>
+<item>MEGANANO GEL</item>
+<item>MEGANANO GEL 200</item>
+<item>MEGANEURON FORTE INJ</item>
+<item>MEGANEURON OD PLUS</item>
+<item>MEGAZOLID 600</item>
+<item>MEGAZOLID PLUS</item>
+<item>MELANOCYL TAB</item>
+<item>MELMET 1000 SR</item>
+<item>MERO 1G</item>
+<item>MEROTEC 1 G</item>
+<item>MEROTEC 500 MG</item>
+<item>MET NEUROBION</item>
+<item>MET NEUROBION OD</item>
+<item>MET NEUROBION P</item>
+<item>METACORTIL LITE</item>
+<item>METAPRO XL 25</item>
+<item>METHYPREG</item>
+<item>METPURE XL 25</item>
+<item>METROGYL DG FORTE GEL</item>
+<item>METROGYL P  2%</item>
+<item>MICROCEF 200 TAB</item>
+<item>MICROCEF CV 100</item>
+<item>MICROCEF CV 200</item>
+<item>MICROLIV FORTE</item>
+<item>MICRONAC EYE DROPS</item>
+<item>MINOLOX 50</item>
+<item>MISOPT EYE DROPS</item>
+<item>MOISTANE DROPS</item>
+<item>MONADINE</item>
+<item>MONOBACT 1.5 G INJ</item>
+<item>MONOBACT 750 INJ</item>
+<item>MONOCEF 125</item>
+<item>MONOCEF O 100 DRY SYP</item>
+<item>MONOCEF O 200</item>
+<item>MONOSOPT EYE DROPS</item>
+<item>MONTEMAC 10</item>
+<item>MONTEMAC L</item>
+<item>MONTEMAC PLUS</item>
+<item>MONTINA L</item>
+<item>MOVIZ-3D</item>
+<item>MOXIGRAM EYE DROPS</item>
+<item>MOXIGRAM KT EYE DROP</item>
+<item>MOXIGRAM LX DROPS</item>
+<item>MOXILONG 0.2</item>
+<item>MOXIMAC</item>
+<item>MOXOVAS 0.3</item>
+<item>MYLAMIN</item>
+<item>MYOPROL XL 50</item>
+<item>MYOSONE SR</item>
+<item>MYOTOP P</item>
+<item>MYOTOP-DSR</item>
+<item>NANO D3 DP</item>
+<item>NANOMAC SILVER GEL 30GM</item>
+<item>NASIVION NASAL SPRAY</item>
+<item>NASIVION S DROPS</item>
+<item>NAZOMAC-AF</item>
+<item>NAZOMAC-F</item>
+<item>NEBI 2.5</item>
+<item>NEBI 5</item>
+<item>NEBI H</item>
+<item>NEBILONG</item>
+<item>NEBIMAC 5</item>
+<item>NETROMAX 300</item>
+<item>NEUAL-5</item>
+<item>NEUROCETAM 800</item>
+<item>NEUROCETAM INJ</item>
+<item>NEXOVAS 10</item>
+<item>NEXOVAS O</item>
+<item>NICERBIUM TAB</item>
+<item>NILAC GEL</item>
+<item>NORMET</item>
+<item>NUCARNIT</item>
+<item>NUCARNIT 500</item>
+<item>NUCARNIT F</item>
+<item>NUCORIL 5</item>
+<item>NUCORIL OD</item>
+<item>NUKAST 4 SYP</item>
+<item>NULONG 5</item>
+<item>NUMLO D</item>
+<item>NUMLO D5</item>
+<item>NUPENTA DSR</item>
+<item>NUSAR 50</item>
+<item>NUSAR ATN</item>
+<item>OCIUM OS CAP</item>
+<item>OF 400</item>
+<item>OF IV</item>
+<item>OFLAMAC 100</item>
+<item>OFLAMAC TZ</item>
+<item>OLMAT 20</item>
+<item>OLMAT 20 AMH</item>
+<item>OLMAT 40</item>
+<item>OLMAT 40 AM TAB</item>
+<item>OLMAT 40 AMH</item>
+<item>OLMAT H</item>
+<item>OLMAT H 40</item>
+<item>OLMESAFE H 20/12.5</item>
+<item>OLMESAR 10</item>
+<item>OLMESAR 20</item>
+<item>OLMESAR 40</item>
+<item>OLMESAR 40 A</item>
+<item>OLMESAR CH 20</item>
+<item>OLMESAR CH 40</item>
+<item>OLMESAR H</item>
+<item>OLMESAR H 40</item>
+<item>OLMESAR M 25</item>
+<item>OLMESAR M 50</item>
+<item>OLMIGHTY 40</item>
+<item>OLMIGHTY 40 H</item>
+<item>OMCEF 200</item>
+<item>OMILCAL FORTE</item>
+<item>OMILCAL SYP</item>
+<item>ORATIL 500</item>
+<item>ORATIL CV 500</item>
+<item>ORCERIN</item>
+<item>ORCERIN GM</item>
+<item>ORNOF 700</item>
+<item>ORNOF RF 50</item>
+<item>OROFER XT 30</item>
+<item>OROFER XT SUSP</item>
+<item>ORPENEM 200</item>
+<item>ORTHOCORT 6</item>
+<item>OZOLID 1200 SR</item>
+<item>PANDERM PLUS</item>
+<item>PANPURE DSR</item>
+<item>PANSA 40</item>
+<item>PANTOP 20</item>
+<item>PANTOP IT</item>
+<item>PANTOP M</item>
+<item>PANTOP MPS SYRUP</item>
+<item>PANTOTAB 40</item>
+<item>PANUM 40</item>
+<item>PAUSE MF</item>
+<item>PHOTOBAN 30</item>
+<item>PHOTOBAN 30 AQUA GEL</item>
+<item>PHYTORAL B CREAM</item>
+<item>PHYTORAL OINT</item>
+<item>PHYTORAL SP</item>
+<item>PLAGERINE A 150</item>
+<item>PLATFAST  TAB</item>
+<item>PLATFAST SYRUP</item>
+<item>POLYCLAV 625</item>
+<item>POLYCLAV BD SYP</item>
+<item>POLYCLAV DS TAB</item>
+<item>POLYPOD CV 50 SYP</item>
+<item>POLYPOD DT 50</item>
+<item>PRADIL-150</item>
+<item>PREGANZA NT TAB</item>
+<item>PREGATOR</item>
+<item>PROXYM 200</item>
+<item>PROXYM XT</item>
+<item>PTU</item>
+<item>PULMOCEF CV 250</item>
+<item>PURE D3 DROPS</item>
+<item>QCARD 100 MG CAPS</item>
+<item>RABEMAC 20</item>
+<item>RABEMAC DSR</item>
+<item>RABIFAST 40 TAB</item>
+<item>RABIROS D</item>
+<item>RABITOP 20</item>
+<item>RACECLO</item>
+<item>RANTAC MPS LA</item>
+<item>RANTAC SYP</item>
+<item>REBAGEN</item>
+<item>REBAGEN OTIC</item>
+<item>RELAXYL GEL</item>
+<item>RESPIZEN NASAL SPRAY</item>
+<item>ROSUMAC 10</item>
+<item>ROSUMAC 20</item>
+<item>ROSUMAC 5</item>
+<item>ROSUMAC F</item>
+<item>ROZUSTAT 10</item>
+<item>ROZUSTAT 5</item>
+<item>ROZUSTAT F</item>
+<item>ROZUSTAT F 5</item>
+<item>RUBIRED S 5</item>
+<item>S AMLOSAFE AT 2.5/50</item>
+<item>S AMLOVAS 2.5</item>
+<item>S CELEPRA 10 TAB</item>
+<item>S NUMLO 5</item>
+<item>SECALIA CREAM</item>
+<item>SECALIA LOTION</item>
+<item>SECALIA LOTION BIG</item>
+<item>SEMI GLYCIGON 40</item>
+<item>SENSICLAV 625</item>
+<item>SENSICLAV BD DRY SYP</item>
+<item>SENSICLAV KID DT</item>
+<item>SETOLAC 300 ER</item>
+<item>SETOLAC P</item>
+<item>SILYBON 140</item>
+<item>SILYBON SUSP</item>
+<item>SILYBON SUSP 100</item>
+<item>SMUTH</item>
+<item>SMUTH SUSP</item>
+<item>SOFTERON</item>
+<item>SORBILINE BIG SYP</item>
+<item>SOVENTUS D SYP</item>
+<item>SOVENTUS DX SYRUP</item>
+<item>STAFCURE 250</item>
+<item>STAFCURE 500</item>
+<item>STAFCURE CV 500</item>
+<item>STARVOG GM 2 TAB</item>
+<item>STARVOG M 0.3 MG</item>
+<item>STIMULIV BIG</item>
+<item>STIMULIV TAB</item>
+<item>STONEX</item>
+<item>SURFAZ CR</item>
+<item>SURFAZ SN</item>
+<item>SYLATE INJECTION 2 ML</item>
+<item>SYLATE T 500</item>
+<item>TAVIN EM TAB</item>
+<item>TAVIN L</item>
+<item>TELROSE TAB</item>
+<item>TELVAS 20</item>
+<item>TELVAS 3D</item>
+<item>TELVAS 40</item>
+<item>TELVAS 80</item>
+<item>TELVAS CT 80</item>
+<item>TEMSAN 40</item>
+<item>TENLIMAC</item>
+<item>TERBITOTAL 500</item>
+<item>TERBITOTAL CREAM</item>
+<item>TERBITOTAL TABS</item>
+<item>THYROX 100</item>
+<item>THYROX 150</item>
+<item>THYROX 200</item>
+<item>THYROX 50</item>
+<item>THYROX 75</item>
+<item>TIBROLIN</item>
+<item>TOLVAMAC 15</item>
+<item>TOLVAMAC 30</item>
+<item>TOPIFORT NX SOLN</item>
+<item>TORSINEX 10MG TAB</item>
+<item>TRAVO-Z EYE DROPS</item>
+<item>TRENAXA MF</item>
+<item>TRIGLIMIPREX 1</item>
+<item>TRIGLIMIPREX 2</item>
+<item>TRIOLMESAR 20</item>
+<item>TRIOLMESAR 40</item>
+<item>TRIOPIL 1</item>
+<item>TRIOPIL 2</item>
+<item>TRIPRIDE 2</item>
+<item>TROXIP OD</item>
+<item>TURBOVAS 10</item>
+<item>TURBOVAS 40</item>
+<item>TURBOVAS F</item>
+<item>UDIBON</item>
+<item>UTHYROX 100</item>
+<item>UTHYROX 50</item>
+<item>VALPOTEX CR 200 TABS</item>
+<item>VALPOTEX CR 500 TABS</item>
+<item>VALPRIDE CR 300</item>
+<item>VALPRIDE CR 500</item>
+<item>VENTRYL D SYP</item>
+<item>VOGLIMAC GM1</item>
+<item>VOGLINORM 0.2</item>
+<item>VOGLINORM 0.3</item>
+<item>VOGLINORM GM 1</item>
+<item>VOGLINORM GM 2</item>
+<item>VOGLINORM M</item>
+<item>VOGLINORM-M 0.3</item>
+<item>VOLIPHAGE 0.3</item>
+<item>VONADAY</item>
+<item>VONAVIR</item>
+<item>XILIA M2</item>
+<item>XILIA-MP 1</item>
+<item>XILIA-MP 2</item>
+<item>ZEDOCEF 100DT</item>
+<item>ZEROTUSS SUSP</item>
+<item>ZEROTUSS XP DROPS</item>
+<item>ZINCONIA SYRUP</item>
+<item>ZINDEE 60K SACHETS</item>
+<item>ZITHROX 250</item>
+<item>ZITHROX 500</item>
+<item>ZITHROX XL 100</item>
+<item>ZITHROX XL 200</item>
+<item>ZOSTUM 1 GM INJ</item>
+<item>ZOSTUM 2 GM INJ</item>
+<item>ZOSTUM 3 GM</item>
+<item>ZOSTUM O</item>
+<item>ZOTRAL 50</item>
+<item>ZOTT   P</item>
+<item>ZUVOG M 0.2</item>
+<item>ACECLO 100</item>
+<item>ACEGABA 100</item>
+<item>AMBRODIL</item>
+<item>AMBRODIL LX DROP</item>
+<item>AMLONG 10</item>
+<item>AMLONG 2.5</item>
+<item>AMLONG A-25</item>
+<item>AMLOSAFE LS 2.5/2.5</item>
+<item>AMLOSAFE LS 5/5</item>
+<item>AMLOSAFE TM 40</item>
+<item>AMLOVAS 10</item>
+<item>AMLOVAS AT 25</item>
+<item>ANGIZAAR 25</item>
+<item>ARISTOZYME DROPS</item>
+<item>AZIWIN 200 SUSP</item>
+<item>BACTOCLAV  DROP</item>
+<item>BIGOMET M</item>
+<item>C TAX O DRY SYP</item>
+<item>CARBOPHAGE G1 FORTE</item>
+<item>CARBOPHAGE G2</item>
+<item>CEFADROX 125 KIT TABS</item>
+<item>CORTIMAX SUSP</item>
+<item>COSOME SYP</item>
+<item>CROMOPLEX FORTE</item>
+<item>DIAMET SR 1000 MG</item>
+<item>DICLORAN A</item>
+<item>DILCARDIA 30</item>
+<item>DOLO 250 SYRUP</item>
+<item>DOLOWIN FORTE</item>
+<item>DOLOWIN PLUS</item>
+<item>DOLOWIN SPAS</item>
+<item>ELRIZ SYP</item>
+<item>ESOFAG 40</item>
+<item>ESOFENCE 40 MG CAPS</item>
+<item>ETIZEP 0.50</item>
+<item>FERONIA IV 100</item>
+<item>FINATE 160</item>
+<item>FOLINEXT</item>
+<item>FULTERM TAB</item>
+<item>GLYCIPHAGE 500</item>
+<item>GLYCIPHAGE 850</item>
+<item>GRILINCTUS BM PAEDIATRIC</item>
+<item>HATRIC SYP</item>
+<item>HEXOLIP 500</item>
+<item>IFIMOL IV</item>
+<item>INFEN P</item>
+<item>KANAMAC 1 GM</item>
+<item>KIMET XL 12.5</item>
+<item>LEVACETAM-250</item>
+<item>LIVOGEN CAPTABS</item>
+<item>MACFAST 500</item>
+<item>MACOX ZH KID</item>
+<item>MACPRIL H 2.5</item>
+<item>MACZORB</item>
+<item>MECOVON 1G INJ</item>
+<item>MICROCID SR 75</item>
+<item>MICRODOX-LBX</item>
+<item>MONOCEF O 50 DRY SYP</item>
+<item>MONTINA 5</item>
+<item>MOXILONG 0.3</item>
+<item>NANOMAC SILVER GEL</item>
+<item>NEUAL-10</item>
+<item>NICARDIA RET 20</item>
+<item>NICARDIA XL TAB 30 MG</item>
+<item>NOR METROGYL PLUS TAB</item>
+<item>OFLACIN EYE DROPS</item>
+<item>OLMIGHTY AM</item>
+<item>OMCEF 100 DT</item>
+<item>OMNACORTIL SYP</item>
+<item>ORNIDA 500</item>
+<item>OSTEBON PLUS</item>
+<item>OXIDON PLUS</item>
+<item>PANPURE</item>
+<item>PARKIN PLUS</item>
+<item>PETRIL MD 0.5</item>
+<item>RABIROS 20</item>
+<item>RANTAC 300</item>
+<item>RANTAC OD 300</item>
+<item>REVOSTAT 5 TAB</item>
+<item>RUBIRED DROPS</item>
+<item>S NUMLO 2.5</item>
+<item>SEVEN SEAS ORIGINAL CAP 500</item>
+<item>STARVOG 0.2</item>
+<item>STARVOG M 0.2 MG</item>
+<item>STIMULIV SYP</item>
+<item>SUPER D3 2000IU</item>
+<item>SURFAZ SOLN</item>
+<item>TELVAS AM</item>
+<item>TEMSAN H TAB</item>
+<item>TORSID  20</item>
+<item>TRAC 4</item>
+<item>TULOPLAST 0.5</item>
+<item>TULOPLAST 2</item>
+<item>VENTRYL SYP 100</item>
+<item>VISCO LIQUID</item>
+<item>VOGLIMAC MF 0.2</item>
+<item>VOLIPHAGE M 0.2</item>
+<item>ZINCONIA 50</item>
+<item>ZITHROX 100 SUSP</item>
+<item>AMLOVAS 2.5</item>
+<item>BEVON DROPS</item>
+<item>CARBOPHAGE XR 1000</item>
+<item>DEFCORT 1</item>
+<item>ESOFINE 20 TAB</item>
+<item>ETOSAID 90</item>
+<item>LEVOMAC 250</item>
+<item>LOTOR 500</item>
+<item>MACOX PLUS 150</item>
+<item>MACTOR 10</item>
+<item>MACTOR ASP 75</item>
+<item>MEGANEURON INJ</item>
+<item>NICARDIA RET 10</item>
+<item>OFLAMAC M FORTE SYP</item>
+<item>PLAGERINE 75</item>
+<item>POLYBION  INJ</item>
+<item>POLYBION LC 100 SYP</item>
+<item>POLYCLAV KIDTAB</item>
+<item>S AMLOSAFE 2.5</item>
+<item>TENSIMIN 50</item>
+<item>TURBOVAS ASP</item>
+<item>DICLORAN 50</item>
+<item>ELDOPER</item>
+<item>EVION 600</item>
+<item>GLYCIPHAGE SR 850</item>
+<item>GLYCIPHAGE VG2</item>
+<item>MACOX PLUS KID</item>
+<item>OVALIFE PLUS</item>
+<item>POLYBION SF 100ML</item>
+<item>POZITIVE 15</item>
+<item>DOLO 650</item>
+<item>DOLOPAR 650</item>
+<item>EVION 400</item>
+<item>GLYCIPHAGE 250</item>
+<item>MACTASE DROPS</item>
+<item>MEGAGLIPTIN</item>
+<item>CARBOPHAGE XR 500 TAB</item>
+<item>AMICLINE</item>
+<item>NUTRIRIGHT MOM COOKIES</item>
+<item>OBICURE COOKIES</item>
+<item>EVION 200</item>
+<item>OSTOPOLYBION-D  SYP</item>
+<item>POLYBION SF 250 SYP</item>
+<item>GRILLINCTUS BM TAB</item>
+<item>OSTONATE</item>
+<item>MAXEPA</item>
+<item>NEUROBION FORTE RF</item>
+<item>VINTOR 2000</item>
+<item>BETAMIL N</item>
+<item>BETAMIL M</item>
+<item>ENCEPHABOL 100</item>
+<item>NASIVION TABLET</item>
+<item>GLYBOVIN 1.25</item>
+<item>DEPICOR SR 10</item>
+<item>VINTOR 6000</item>
+<item>CALTRAX 500 TAB</item>
+<item>SPAGEN 200 TAB</item>
+<item>CARVIT CAP</item>
+<item>HISZOLE TAB</item>
+<item>SERGEN-K TAB</item>
+<item>SPAZOLE-D CAP</item>
+<item>HEXIM-200 TAB</item>
+<item>SPAZOX D TAB</item>
+<item>ARTIVIL 120 INJ</item>
+<item>GLUTASAFE</item>
+<item>ICL 3 INJECTION</item>
+<item>LOMOH 40 INJ</item>
+<item>LORNIT INFUSION</item>
+<item>PETIOL IV</item>
+<item>RENEMIA 10000 IU</item>
+<item>SEMI DAONIL</item>
+<item>TAZOTUM 4.5 INJ</item>
+<item>VINTOR 4000</item>
+<item>MOFILET S 360</item>
+<item>MOVIZ XP</item>
+<item>FOSEAL C400</item>
+<item>DEXORANGE SYP</item>
+<item>LACTACYD</item>
+<item>CALOSOFT AF 50 ML</item>
+<item>FULL 365 WOMAN CAP</item>
+<item>NUTRICAP-S</item>
+<item>PHOTOBAN-50 AQUAGEL</item>
+<item>CALOSOFT AF</item>
+<item>CALOSOFT PLUS</item>
+<item>CALOSOFT PLUS 100 ML</item>
+<item>COBAFORTE CD3 TAB</item>
+<item>CRITIPRO</item>
+<item>CRITIPRO DM</item>
+<item>DIARICH</item>
+<item>HARVEST CAP</item>
+<item>KOJIVIT GEL</item>
+<item>KOJIVIT PLUS</item>
+<item>KOJIVIT PLUS BIG</item>
+<item>MELCOVIT GOLD</item>
+<item>NATVIE +</item>
+<item>NATVIE FORTE</item>
+<item>NEW EVION CREAM</item>
+<item>NUSOFT SOAP</item>
+<item>NUTRICAP-H</item>
+<item>OBICURE PM CAP</item>
+<item>OXIZEN CAPS</item>
+<item>PEDPRO CHOCO</item>
+<item>PHYTORAL BAR</item>
+<item>PROTONE MOM</item>
+<item>PURE MCT</item>
+<item>CUTIWASH SOFT</item>
+<item>MNF</item>
+<item>RESVITA</item>
+<item>NEW EVION CREAM 20</item>
+<item>DAONIL</item>
+<item>BACIGYL N SUSP</item>
+<item>CLOFLOW PLUS 75/75</item>
+<item>CLOWFLOW PLUS 75/75</item>
+<item>FLEXON MR</item>
+<item>BACIGYL N 60 SUSP</item>
+<item>METAGLEZ FORTE</item>
+<item>FLEXON</item>
+<item>ARISTOGYL F SUSP</item>
+<item>DAONIL M</item>
+<item>S AMLOSAFE 5</item>
+<item>EMQUIN</item>
+<item>OPTINEURON FORTE</item>
+<item>R CIN 150</item>
+<item>EMQUIN SUSP</item>
+<item>AZICOX 250</item>
+<item>CEFANTRAL 1000</item>
+<item>FLUTY 150</item>
+<item>OQ M</item>
+<item>R CIN 300</item>
+<item>SALBAIR RESP SOL</item>
+<item>AROMOX CV 375</item>
+<item>ATORCIA 10</item>
+<item>COMBITHER AT 120MG INJ.</item>
+<item>COMBITHER AT INJ</item>
+<item>GIBTULIO 10</item>
+<item>GIBTULIO 25 MG</item>
+<item>LUPISULINE M 30</item>
+<item>LUPISULINE M 50</item>
+<item>LUPISULINE N</item>
+<item>LUPISULINE R</item>
+<item>MOCA 625</item>
+<item>MOCA DRY SYP</item>
+<item>MOXSID CV 625</item>
+<item>MOXSID CV DRY SYP</item>
+<item>OLYBACT O</item>
+<item>OLYCEF 100 DT</item>
+<item>OLYFLOX OZ</item>
+<item>R CIN SUSP</item>
+<item>AROMOX CV 625</item>
+<item>AROTHRO 250</item>
+<item>AROTHRO 500</item>
+<item>ARTISID LF</item>
+<item>AZISID-250</item>
+<item>AZISID-500 TAB</item>
+<item>CEFSID 200</item>
+<item>FALCIFINE</item>
+<item>MEGA CV INJ</item>
+<item>OLYCEF 200 DT</item>
+<item>OLYCEF DRY SY</item>
+<item>OROCEF 200 DT</item>
+<item>R CIN 450</item>
+<item>SMULAX LIQ</item>
+<item>VENTO MD</item>
+<item>ATOREC ASP CAP</item>
+<item>AZICOX 500</item>
+<item>CONSIVAS  ASP</item>
+<item>EMQUIN D.S.</item>
+<item>TONACT ASP 75</item>
+<item>R CIN 600</item>
+<item>OF M SUSP</item>
+<item>BETAMIL CREAM</item>
+<item>DIOF SUSP</item>
+<item>METROGYL F SUSP 30</item>
+<item>POLYBION CAP</item>
+<item>TRAC 3</item>
+<item>DIOF DS SUSP</item>
+<item>OF 100 DT</item>
+<item>ANTIPLAR PLUS</item>
+<item>CEFADROX CV</item>
+<item>CEFADROX CV DT</item>
+<item>DURATAZ 4.5</item>
+<item>MEGA CV 625</item>
+<item>METROGYL 200</item>
+<item>NEUROBION FORTE</item>
+<item>NORMETROGYL SUSP</item>
+<item>C TAX O XL 200</item>
+<item>CEFADROX 125 DRY SYP</item>
+<item>CEFADROX 500</item>
+<item>COMBITHER FORTE</item>
+<item>HOPECARD 5</item>
+<item>MEGA CV INJ 1.2 GM</item>
+<item>METROGYL 400</item>
+<item>METROGYL F SUSP 60</item>
+<item>QURE 250</item>
+<item>AMLOSAFE 10</item>
+<item>METROGYL SUSP 60</item>
+<item>MACOX 300</item>
+<item>OMNACORTIL 20</item>
+<item>METROGYL IV</item>
+<item>OMNACORTIL 5</item>
+<item>OMNACORTIL 10</item>
+<item>RANTAC INJ</item>
+<item>DELISPRIN 75</item>
+<item>EMFLAM PLUS</item>
+<item>MACOX 450</item>
+<item>CONCOR AM 2.5</item>
+<item>ALPHACEPT-D8</item>
+<item>CEFOCLOX 200 TAB</item>
+<item>ENDOFORMIN PG1</item>
+<item>MENDATE 10</item>
+<item>TELEKAST L KID</item>
+<item>UTHYROX  75</item>
+<item>NAZOMAC M</item>
+<item>INAREM 500</item>
+<item>EMCEPT 500</item>
+<item>REDAPT  INJ</item>
+<item>OXPRIN 40</item>
+<item>OSTERI INJECTION 750 MCG</item>
+<item>EMCEPT S 360</item>
+<item>SPASMONOVA</item>
+<item>EMVAL TAB</item>
+<item>DARBECURE 40 PFS</item>
+<item>HEALGRAFT 500</item>
+<item>HEALGRAFT S 360</item>
+<item>OXPRIN 60</item>
+<item>SEVCAR 400 BOTTLE</item>
+<item>DARBECURE 25 PFS</item>
+<item>OMNACORTIL INJ</item>
+<item>EMIGO 4 MG INJ</item>
+<item>OLMIGHTY 10</item>
+<item>VOLANZ CAP</item>
+<item>EMNIL INJ 8</item>
+<item>ENOXARIN 20MG INJECTION</item>
+<item>GLYREP XL 500</item>
+<item>LORFLEX PLUS 8</item>
+<item>SEVCAR 400 SACHET</item>
+<item>NICARDIA RET HS 10</item>
+<item>RUBIC  CAP</item>
+<item>SWELINEX DT</item>
+<item>LITHIUM 300</item>
+<item>LITHIUM 250 TAB</item>
+<item>LITHIUM SR</item>
+<item>VENTAKOF EXPT</item>
+<item>HICET-L</item>
+<item>ZETIVAS 20</item>
+<item>CONTIFLO ICON 0.4TAB</item>
+<item>CLOTAZOLE OD 100</item>
+<item>CLOTAZOLE OD 200</item>
+<item>ISOBAX OD 30 TAB</item>
+<item>VOLIX INSTAB 0.2</item>
+<item>ISOBAX OD 60 TAB</item>
+<item>VOLIX INSTAB 0.3</item>
+<item>BRONCOFREE SYP</item>
+<item>STROLOX  TAB</item>
+<item>SALBAIR I TRANSPULES</item>
+<item>OESTROGEL 80G</item>
+<item>ROSUCIA 40</item>
+<item>EMCURE UTH G 15 POWDER</item>
+<item>CORTIMAX 1</item>
+<item>SALBAIR NEB TRANSPULES 1.25</item>
+<item>DICLORAN AQ INJ</item>
+<item>MONTEMAC 5</item>
+<item>AZILIDE DT</item>
+<item>COMENSAL SACHET</item>
+<item>EFFICIN 1000</item>
+<item>GENTRAX 250 MG</item>
+<item>LA-MIKA--100 INJ</item>
+<item>LAZA 1</item>
+<item>MACZONE 250</item>
+<item>SCAVISTA-12A</item>
+<item>VOMIGEN SYRUP</item>
+<item>ZOBERT 500MG INJ</item>
+<item>ALOCET D TAB</item>
+<item>ANXICOOL 0.5</item>
+<item>BALVIDINE CREAM</item>
+<item>CEFOLAC CV 50 DT</item>
+<item>CEFOLAC O DS</item>
+<item>CEROFENE 100</item>
+<item>CUBITEL</item>
+<item>DEFNALONE SUSP</item>
+<item>DIAMET 850</item>
+<item>DICLONAC P</item>
+<item>DOLOWIN TAB</item>
+<item>EFFICIN 750</item>
+<item>EXFLAM POWER GEL</item>
+<item>GEN -D3-INJ</item>
+<item>IREX TAB</item>
+<item>KEFCLAV 50 DT</item>
+<item>LA-MIKA--250 INJ</item>
+<item>MACZONE 500</item>
+<item>MICRONAC PLUS TAB</item>
+<item>MOVERAN PLUS</item>
+<item>NETROMAX 25</item>
+<item>NIMEK SPAS</item>
+<item>NUTRIRIGHT D3</item>
+<item>O ANXIT PLUS 5</item>
+<item>OFLAMAC CX DS</item>
+<item>OLISENSE 2.5</item>
+<item>OLISENSE 5</item>
+<item>OXAPRO</item>
+<item>PATH G1</item>
+<item>PATH G2</item>
+<item>PINOM C</item>
+<item>RENEGUARD</item>
+<item>SIGNOFLAM P</item>
+<item>STABOSE INSTA 0.2</item>
+<item>TELISTA RM 2.5</item>
+<item>TIGOCEF DRY</item>
+<item>TRACLOT MF</item>
+<item>UTIMAC SACHET</item>
+<item>XM BETA 50</item>
+<item>ZONAMAX PS INJ</item>
+<item>ACINUAL D</item>
+<item>ACUCLAV  IV 1.2 GM</item>
+<item>ACUFIX 100 DT</item>
+<item>ACUFIX 50 SYP</item>
+<item>ACUTAZ HS INJ</item>
+<item>ACUTAZ PS INJ</item>
+<item>ADENOMAC 200</item>
+<item>AGRABAN INFUSION</item>
+<item>AGRESIA KID -100 MG</item>
+<item>ALATRO TAB</item>
+<item>ALMOGRIL 12.5</item>
+<item>ALMOGRIL 6.25</item>
+<item>ALRISTA</item>
+<item>AMIKEF 100</item>
+<item>AMLOVAS CH</item>
+<item>AMLOVAS CH 6.25</item>
+<item>AMPRO KID</item>
+<item>ANXICOOL 1</item>
+<item>ARGINITRIC SR</item>
+<item>ATCHOL ASP</item>
+<item>ATFUL</item>
+<item>ATORCIA 40</item>
+<item>ATOREC 20 D3</item>
+<item>ATOREC D3</item>
+<item>ATORMAC D 10</item>
+<item>ATORMAC D 20</item>
+<item>AURICH 100 CAP</item>
+<item>AURICH 200</item>
+<item>AXACEF 250</item>
+<item>AXACEF 500</item>
+<item>AZISWIFT 200 SYP</item>
+<item>AZU 100 SUSP</item>
+<item>AZU 250</item>
+<item>AZUNATE -L SYP</item>
+<item>AZUNATE AB INJ</item>
+<item>BACLOTOP 10</item>
+<item>BACTILAM 250</item>
+<item>BALVIDINE SOLUTION</item>
+<item>BASUGINE INJ</item>
+<item>BAZOSTAR</item>
+<item>BENZOCLAV 1.2 G IV</item>
+<item>BENZOCLAV 228.5 SYP</item>
+<item>BENZOCLAV 625</item>
+<item>BESIGEST</item>
+<item>BEZIP 0.2</item>
+<item>BEZIP 0.4</item>
+<item>BH-RF 150 IU</item>
+<item>BH-RF-75 IU</item>
+<item>BILCLAV 300 INJ</item>
+<item>BUDATE FORTE TRANSPULES</item>
+<item>CALONAT D3 GRANULES</item>
+<item>CALSUM</item>
+<item>CAMIK 500 INJ</item>
+<item>CARDIUM CAP</item>
+<item>CEASTRA 200</item>
+<item>CEFBIL 100 DT</item>
+<item>CEFGLOBE OZ</item>
+<item>CEFOLAC LB 200</item>
+<item>CEFSID DRY SYP</item>
+<item>CETIL OD</item>
+<item>CINESTA</item>
+<item>CITISTAR 1000 SR</item>
+<item>CITISTAR 2</item>
+<item>CLAVIDUR 1.2 INJ</item>
+<item>CLAVIDUR KID DT</item>
+<item>CLOPITAB CV GOLD 20</item>
+<item>CO-Q-DENT</item>
+<item>CO-Q-DENT 100</item>
+<item>COEKASTLE KID</item>
+<item>COGNIPRO 30 MG</item>
+<item>COGNIPRO 60MG ING</item>
+<item>COGNITRAC INJECTION 60 MG</item>
+<item>CONSIVAS-D3</item>
+<item>CONSIVIT</item>
+<item>CORTIMAX 18</item>
+<item>CRY-NO</item>
+<item>CZ COLD</item>
+<item>DAOMET SR 1000</item>
+<item>DARGEN 60 MCG</item>
+<item>DEFCORT TM</item>
+<item>DEFNALONE 1</item>
+<item>DEFNALONE 24</item>
+<item>DEPIDRA</item>
+<item>DESNILA OD 50</item>
+<item>DESOGOLD</item>
+<item>DHA CAL</item>
+<item>DIANORM M OD 1000</item>
+<item>DICLONAC ER 100</item>
+<item>DICLORAN SPAS</item>
+<item>DIPLOCEF 250</item>
+<item>DIVRET 1.5 TAB</item>
+<item>DOGENOSA</item>
+<item>DOXORIL SYP</item>
+<item>DROSMAC 20</item>
+<item>DROSMAC 30</item>
+<item>DUORANDIL 10</item>
+<item>DYAMIDE PLUS</item>
+<item>E OVA M 100</item>
+<item>E-OVA</item>
+<item>E-OVA PLUS 100</item>
+<item>E-OVA PLUS 50</item>
+<item>E-TEL  80</item>
+<item>E-TEL 20</item>
+<item>EFEREM</item>
+<item>EFFENAC AB</item>
+<item>EFFICIN 500</item>
+<item>EFICEF 100 DT</item>
+<item>EMDUO 30 BOTTLE</item>
+<item>EMGRA</item>
+<item>EMGRA D</item>
+<item>EMPETUS</item>
+<item>EMTRI JUNIOR</item>
+<item>ENUMINE D</item>
+<item>ENUMINE KB</item>
+<item>ESIFLO 50 INH</item>
+<item>ESLISTAR 400</item>
+<item>ESLISTAR 800</item>
+<item>ESURANCE</item>
+<item>ETHOMID</item>
+<item>ETILOPRAM 10 MG</item>
+<item>ETOFREE 300</item>
+<item>ETORICA 90</item>
+<item>ETS EV 100</item>
+<item>ETS EV 200 TAB</item>
+<item>EUCROLID SUSPENSION</item>
+<item>EVA GOLD CHOCOLATE</item>
+<item>EZEVAS</item>
+<item>EZYFLEX</item>
+<item>FARBION SUSP</item>
+<item>FEROLACT</item>
+<item>FEROLACT SYP</item>
+<item>FIGOCEF 125 DRY SYP</item>
+<item>FINAMAC</item>
+<item>FITJOINT GM</item>
+<item>FLUTICORT 0.5MG RESP</item>
+<item>FOLFIT TAB</item>
+<item>FRUTCEE DROPS</item>
+<item>FULGEST 100 CAPS</item>
+<item>GALOP 20</item>
+<item>GEMARTUM TAB</item>
+<item>GESTAFOL</item>
+<item>GESTAFOL D</item>
+<item>GESTAFOL PLUS</item>
+<item>GLIMIPACK MP 1</item>
+<item>GLIMIPACK MP 2</item>
+<item>GLIMIPACK MP L 1</item>
+<item>GLUCONORM P 7.5</item>
+<item>GLUCONORM PGL 1</item>
+<item>GLUCONORM PGL 2 FORTE</item>
+<item>GLUCONORM PGL1 FORTE</item>
+<item>GLUCONORM VG 2 PLUS TAB</item>
+<item>GLUTIDE CR 30</item>
+<item>GLYCEBET</item>
+<item>GOUTCHEK 80</item>
+<item>GRAMOCEF O PLUS</item>
+<item>HELIRAB D CAP</item>
+<item>HIPRIL 10</item>
+<item>HISTOLAF 10</item>
+<item>HOPACE H-5</item>
+<item>HYDROEYES E/D 0.1%</item>
+<item>ILABEST 10</item>
+<item>ILABEST 5</item>
+<item>IMMUBRON</item>
+<item>INFEN SPRAY</item>
+<item>INSTA ZOSIC</item>
+<item>INSTARISE   100</item>
+<item>IREX SYP</item>
+<item>ISOFER INJ</item>
+<item>ITRAGEN 200</item>
+<item>JOLYON MD 7.5</item>
+<item>KANAMAC 750</item>
+<item>KEFCLAV 100 DT</item>
+<item>KEFPIME 1 GM</item>
+<item>KOFSID B SYP</item>
+<item>KUDZU</item>
+<item>KYMOVIL  BR</item>
+<item>KYMOVIL SV</item>
+<item>L CIN IV</item>
+<item>L-CIN C</item>
+<item>LAFUMAC DSR</item>
+<item>LAFUMAC PLUS</item>
+<item>LANCURE</item>
+<item>LETROMAC</item>
+<item>LEVALON 150</item>
+<item>LEVALON 300</item>
+<item>LEVOBACT 250</item>
+<item>LEVOBACT 500</item>
+<item>LEVOBACT 750</item>
+<item>LEVOGOLD -R</item>
+<item>LEVOGOLD 100</item>
+<item>LEVOGOLD 25</item>
+<item>LEVOGOLD 50</item>
+<item>LIFTAZ 500 MG INJ</item>
+<item>LIPOPHAGE 120</item>
+<item>LIZOMAC IV 100ML</item>
+<item>LOBACOR 10 TABLET</item>
+<item>LOBACOR 5 TABLET</item>
+<item>LUCYNTA 100</item>
+<item>LUCYNTA 50</item>
+<item>LUFIXICIN 200</item>
+<item>LUPI D3-K TAB</item>
+<item>LUPI-D3</item>
+<item>LUPIBLISS</item>
+<item>LUPIFLO 15</item>
+<item>LUPIFOLIN  TAB</item>
+<item>LUPIFOLIN PLUS</item>
+<item>LUPIGEST 100</item>
+<item>LUPIGEST 300</item>
+<item>LUPIGEST INJ 200</item>
+<item>LUPILA 5</item>
+<item>LUPISPARK OD 100</item>
+<item>LUPISPARK OD 50</item>
+<item>LUPISULIN N CARTRIDGE</item>
+<item>LUPITUSS 60</item>
+<item>LUTROZOLE</item>
+<item>LYCIMAX</item>
+<item>MAC Q10</item>
+<item>MACGESIA TAB</item>
+<item>MACGEST 100</item>
+<item>MACGEST 100 INJ</item>
+<item>MACGEST 200 INJ</item>
+<item>MACGEST SR 300</item>
+<item>MACGEST SR 400</item>
+<item>MACMIKA 500</item>
+<item>MACPARIN 60</item>
+<item>MACPOD O 100 DT</item>
+<item>MACPROT  SF</item>
+<item>MACSPACER KIT</item>
+<item>MACZONE 1 GM</item>
+<item>MAGNOVA 250</item>
+<item>MAGNOVA 500</item>
+<item>MATERNA -CC</item>
+<item>MAXOTAZ 2.25 GM</item>
+<item>MAXOTAZ PS1.125 GM</item>
+<item>MECOBIL P</item>
+<item>MEDVITE DROPS</item>
+<item>MEFBROM SPAS</item>
+<item>MEFOMIN P 15</item>
+<item>MEFOMIN P 30</item>
+<item>MEGALIP</item>
+<item>MEGAZOLID  IV</item>
+<item>MEMPIL 100</item>
+<item>MEROBAX SB 1.5</item>
+<item>MEROMAC 1 G</item>
+<item>METOMAC H 50</item>
+<item>MICROMAX</item>
+<item>MICRONAC TAB</item>
+<item>MIOFREE 4 INJ</item>
+<item>MISOBIT MD 50</item>
+<item>MONAST LC</item>
+<item>MONAST-LC SYRUP</item>
+<item>MONTINA L DT</item>
+<item>MOVEXOL 0.25</item>
+<item>MOXOVAS A</item>
+<item>MOXOVAS H</item>
+<item>MTV Q10</item>
+<item>MYONISE</item>
+<item>NEBISTAR 10</item>
+<item>NEUCAM 4</item>
+<item>NEVIR</item>
+<item>NEXOVAS CH 6.25</item>
+<item>NGSART MT 50</item>
+<item>NIMTECH PLUS</item>
+<item>NOSOCARE 1 GM INJ</item>
+<item>NULIFY</item>
+<item>NULONG OL 40</item>
+<item>NUTRASPACE</item>
+<item>NUTRIRIGHT C</item>
+<item>NUTRIRIGHT D3 SACHET</item>
+<item>NUTRIRIGHT W</item>
+<item>O ANXIT PLUS 10</item>
+<item>O STAT 60</item>
+<item>OBICURE POWDER 200 GM</item>
+<item>OBIRAX 15</item>
+<item>OCIUM -M FORTE</item>
+<item>OFLAMAC CX 100</item>
+<item>OFLAMAC CX 200</item>
+<item>OFLAMAC OZ IV</item>
+<item>OFORE</item>
+<item>OFSID 200</item>
+<item>OGIT SUSPENSION</item>
+<item>OLISENSE 10</item>
+<item>OLLHART</item>
+<item>OLMAT TRIO</item>
+<item>OLMEGARD CT</item>
+<item>OLMEGARD CT 40</item>
+<item>OLMESAR CH 20 LS</item>
+<item>OMNICEF AZ 200/250</item>
+<item>OMNICEF AZ FORTE</item>
+<item>ONDAMAC INJ 2ML</item>
+<item>ONE 24</item>
+<item>OQ CEFF</item>
+<item>ORATIL 1.5 INJ</item>
+<item>ORLE-120</item>
+<item>ORNAMAC IV</item>
+<item>OSMITOL</item>
+<item>OSMITOL 100</item>
+<item>OSMITOL FIBER</item>
+<item>OSTEOMATE</item>
+<item>OSTEOMATE SUSP</item>
+<item>OSTEOPRO DS ORANGE SACHET</item>
+<item>OSTOGARD GM</item>
+<item>OVALIFE FORTE SACHET</item>
+<item>P2I PLUS</item>
+<item>PANTOCAR 40</item>
+<item>PEPSTAR D</item>
+<item>PERIHART 4</item>
+<item>PLACIDOX 2</item>
+<item>PODXETIL  50</item>
+<item>POLYPOD O 100 DT</item>
+<item>PRECOVIN</item>
+<item>PREGADOC PLUS</item>
+<item>PREGASTAR OD 150</item>
+<item>PRENEUROLIN PLUS</item>
+<item>PRENONE 100</item>
+<item>PRENONE 200</item>
+<item>PRENONE SGC</item>
+<item>PRO ACTIVE BIO JUNIOR</item>
+<item>PURON GEL</item>
+<item>PYRALFIN AL</item>
+<item>Q PRIL 10</item>
+<item>Q PRIL H 10</item>
+<item>QRABEX  20MG</item>
+<item>QRABEX DSR</item>
+<item>QUITORIA 40</item>
+<item>QUITORIA 80</item>
+<item>QUITSURE 2 PASTILLES</item>
+<item>R CINEX Z</item>
+<item>RABEMAC ITR</item>
+<item>RABLET Z</item>
+<item>RASOTAN 40</item>
+<item>RENEHEP PS</item>
+<item>RESNER</item>
+<item>RESTFULL</item>
+<item>RESTFULL ET 0.50</item>
+<item>RETORLIX SP 5</item>
+<item>RETUNE-LS OD TAB</item>
+<item>REZARA 20</item>
+<item>RG-MAC</item>
+<item>RIBAVIN SYP 50</item>
+<item>RICHNEURON</item>
+<item>RIFILL XT</item>
+<item>RITE XT</item>
+<item>ROSINORM 2</item>
+<item>RTIST CAP</item>
+<item>RTIST SUSP</item>
+<item>RUTOSET</item>
+<item>SCAVISTA 6 DT</item>
+<item>SENSICLAV 1.2</item>
+<item>SENSICLAV 150 MG</item>
+<item>SENSITAB 7.5</item>
+<item>SENSITAB-30</item>
+<item>SIDOCAL 500</item>
+<item>SIDOFER XT</item>
+<item>SIDOFER XT SYP</item>
+<item>SIMECLO DROPS</item>
+<item>SINOSAM 200</item>
+<item>SINOSAM 400</item>
+<item>SKIZOTUS 100</item>
+<item>SKIZOTUS OD 100</item>
+<item>SKIZOTUS OD 200</item>
+<item>SKIZOTUS OD 300</item>
+<item>SPARMAX 200</item>
+<item>SPAVIT TAB</item>
+<item>SPIRODIN- M</item>
+<item>STABOSE INSTA 0.3</item>
+<item>STABOSE M 0.3 TAB</item>
+<item>STAFCURE 750</item>
+<item>STAFCURE SB 750</item>
+<item>STALOPAM 20</item>
+<item>STARCAD SA 2.5</item>
+<item>STARPRESS MN XL</item>
+<item>STARSTAT 20</item>
+<item>STARSTAT 40</item>
+<item>TAMLOCEPT 0.2</item>
+<item>TAZOMAC PS</item>
+<item>TAZOX 250 INJ</item>
+<item>TELEKAST D</item>
+<item>TELISTA RM 5</item>
+<item>THORMONE 25</item>
+<item>THORMONE 50</item>
+<item>THYRODIP 5</item>
+<item>TICOGEM 200</item>
+<item>TICOGINA GEL</item>
+<item>TIGOCEF 200</item>
+<item>TIROMAC</item>
+<item>TRABICAL</item>
+<item>TRABICAL SYP</item>
+<item>TRANOMAC MF</item>
+<item>TRANSDOL 100 MG TAB</item>
+<item>TRANSDOL 50</item>
+<item>TRAPCID D</item>
+<item>TRENAXA SR TAB</item>
+<item>TRIAMSTED</item>
+<item>TRIPRIDE  1 LV</item>
+<item>TRIVOBIT FORTE 1</item>
+<item>TRIVOBIT FORTE 2</item>
+<item>TROGYL P OINT</item>
+<item>TRUGESIC</item>
+<item>ULTIMOX XR</item>
+<item>URICURE 150</item>
+<item>URICURE 300</item>
+<item>UTROGESTAN 100</item>
+<item>V-BATH</item>
+<item>VELDIX XT</item>
+<item>VELIX 40</item>
+<item>VENT MATE SPACER</item>
+<item>VIDA 25</item>
+<item>VIDA 50</item>
+<item>VIFAZER</item>
+<item>VINCORT 30</item>
+<item>VIRO 4</item>
+<item>VITASONIC PLUS CAP</item>
+<item>VITASONIC Q300</item>
+<item>VIZATEX 20</item>
+<item>VIZATEX 40</item>
+<item>VOGLINORM GM2/0.3</item>
+<item>VORITROL INJ</item>
+<item>WALK ON GEL</item>
+<item>XANURIX 80</item>
+<item>XPLODE SYRUP</item>
+<item>XPLODE-SF</item>
+<item>XYPROST EYE</item>
+<item>Z 1-500</item>
+<item>Z-1</item>
+<item>ZAMADOL P</item>
+<item>ZEDOCEF LX</item>
+<item>ZEDOCEF O 100 DT</item>
+<item>ZEEGAB M 75</item>
+<item>ZEFLOX</item>
+<item>ZEMCIFER INJ</item>
+<item>ZETIVAS 10</item>
+<item>ZILARTA-40</item>
+<item>ZING D3 1K</item>
+<item>ZOBERT 1G INJ</item>
+<item>ZONAMAX 3GM</item>
+<item>ZONAMAX INJ</item>
+<item>ZORNICA PLUS</item>
+<item>ZOVIA 50</item>
+<item>ACCUZON 2GM</item>
+<item>ACUCLAV 1G</item>
+<item>ACUFIX 50 DT</item>
+<item>ACUTAZ AS INJ</item>
+<item>ALMITY-D3</item>
+<item>ALOCET D SYP</item>
+<item>AMIKAMAC 250</item>
+<item>AMLOVAS OL</item>
+<item>ARAMACT</item>
+<item>ARGINITRIC CAPS</item>
+<item>ARTILUMY-DS-</item>
+<item>ARTIVIL PLUS 40 DT</item>
+<item>ASOMEX R</item>
+<item>ATORCIA-CP</item>
+<item>AURICH 100 INJ</item>
+<item>AVAS EZ</item>
+<item>AZICOX CF</item>
+<item>AZICYTE 500</item>
+<item>AZU 200 SUSP</item>
+<item>AZU 500</item>
+<item>AZUNATE AB 75</item>
+<item>BACTILAM 500</item>
+<item>BALOMAC</item>
+<item>BENZOCLAV 375</item>
+<item>BEZIP D</item>
+<item>BILCLAV 1000 TAB</item>
+<item>BIO D3 DS</item>
+<item>BLURAY M</item>
+<item>BLURAY-F</item>
+<item>BOZETAN 62.5</item>
+<item>BROPHYLE SR TAB</item>
+<item>C FEXI O</item>
+<item>C2 OD</item>
+<item>CALBORY</item>
+<item>CALVITOL K2-7</item>
+<item>CEFGLOBE 200</item>
+<item>CELUMAC DROPS</item>
+<item>CETIL 125</item>
+<item>CITIMAC 2 INJ</item>
+<item>CITIMAC 4 INJ</item>
+<item>CITIMAC M</item>
+<item>CITIMAC XR</item>
+<item>CITISTAR 750</item>
+<item>CLACIX 50 SYP</item>
+<item>COELONE 16 TAB</item>
+<item>COENATTO PLUS</item>
+<item>COGNISTAR 30</item>
+<item>COLINEM FORTE</item>
+<item>CONSIVAS-10 D3</item>
+<item>CORCAL PLAIN 225</item>
+<item>CORCIUM C FORTE</item>
+<item>DAPOLAST 30</item>
+<item>DAYO OD SPRINLE</item>
+<item>DEFSURE 1</item>
+<item>DERMIBET-N 15</item>
+<item>DESNILA OD 100</item>
+<item>DIABOSE -50</item>
+<item>DIPLOCEF 500</item>
+<item>DKOF SYP</item>
+<item>DOTHIP 75</item>
+<item>DOXORIL M 400</item>
+<item>DUMORE 20</item>
+<item>DUORANDIL 5</item>
+<item>DUOSPRAY 70</item>
+<item>E-TEL 80 H</item>
+<item>EFICEF 50</item>
+<item>EMDUO 30</item>
+<item>EMDUO 40</item>
+<item>EMLETRA</item>
+<item>ENDOFORMIN G3 FORTE</item>
+<item>ENUMINE AG</item>
+<item>ENUMINE OR</item>
+<item>ENZOHEAL XP</item>
+<item>ENZOMAC XP</item>
+<item>ENZOVEXX 65</item>
+<item>EPILIVE ER 10</item>
+<item>ESLOMET 2.5</item>
+<item>ETIZOLA 1</item>
+<item>ETORICA 120</item>
+<item>ETS 100</item>
+<item>ETS 200</item>
+<item>EUCROLID 250</item>
+<item>EUCROLID 500</item>
+<item>EUGRAF 60</item>
+<item>EZOFF 40</item>
+<item>FARBION</item>
+<item>FASTRACE-O KIT</item>
+<item>FAXIMAB INJ</item>
+<item>FEROLACT FORTE</item>
+<item>FERORAB</item>
+<item>FIGOCEF 250</item>
+<item>FIGOCEF 500</item>
+<item>FLEXABENZ</item>
+<item>FLEZICAL</item>
+<item>FLUNOVA 150</item>
+<item>FOLOME</item>
+<item>FRAMCAL</item>
+<item>FRUTCEE TABS</item>
+<item>FULGEST 200 CAPS</item>
+<item>FULL 24 INJ</item>
+<item>G CIN A</item>
+<item>GATIBLU D 0.3%</item>
+<item>GATOR 400 TAB</item>
+<item>GEMEXIN  TAB</item>
+<item>GEN-D3 1K</item>
+<item>GENPRAZ 20</item>
+<item>GENTRAX 1G</item>
+<item>GENTRAX 500 MG</item>
+<item>GIFAXIN 550</item>
+<item>GINOX TAB</item>
+<item>GISSICOR</item>
+<item>GLICLAPACK MV 0.3</item>
+<item>GLIMIPACK MP L 2</item>
+<item>GLUCONORM P30</item>
+<item>GLUCONORM PGL 2</item>
+<item>GLUTIDE CR 60</item>
+<item>GLYVOG 0.2</item>
+<item>GLYVOG 0.3</item>
+<item>GLYVOG M</item>
+<item>GOLDIFER</item>
+<item>GOODNOCT XR 12.5</item>
+<item>GRECAL</item>
+<item>HICET TAB</item>
+<item>HOPACE H</item>
+<item>IFB XT SYRUP</item>
+<item>IFERWIN TAB</item>
+<item>INFEN P SPAS</item>
+<item>INSTANA</item>
+<item>IONIC</item>
+<item>IPRAZEST RESP</item>
+<item>JOLYON MD 10</item>
+<item>KYMOVIL PLUS</item>
+<item>LAXAN SOLN</item>
+<item>LAZA 30</item>
+<item>LCF TUSS</item>
+<item>LEOCIP 500</item>
+<item>LEVOGOLD OD</item>
+<item>LEVOLVE-750</item>
+<item>LIFTAZ 1.0 GM INJ</item>
+<item>LIPOPHAGE 60</item>
+<item>LORETA P8 TAB</item>
+<item>LUCYNTA 75</item>
+<item>LUPIDERM MZ</item>
+<item>LUPIDERM SA</item>
+<item>LUPIGEST 400</item>
+<item>LUPISHOT 500 INJ</item>
+<item>LUPITUM INJ 500 MG</item>
+<item>M CIN IV</item>
+<item>MACFAST IV</item>
+<item>MACGEST 200 VT</item>
+<item>MACPARIN 40</item>
+<item>MACROZE</item>
+<item>MACSART CH 6.25</item>
+<item>MACZONE XP 1GM INJ</item>
+<item>MATERNA CC 100</item>
+<item>MEDVITE GOLD</item>
+<item>MEDVITE SYRUP</item>
+<item>MEGAZOLID  100 DRY SYRUP</item>
+<item>MEGAZOLID IV 100ML</item>
+<item>MEMPIL 200</item>
+<item>MEROTROL 0.125 GM IV</item>
+<item>MEROTROL 0.25</item>
+<item>MEROTROL S 1.5</item>
+<item>METACROME</item>
+<item>MIGITUS 10</item>
+<item>MISOBIT 25</item>
+<item>MONLUX L</item>
+<item>MONOCEF O CV 100 DS</item>
+<item>MONOCEF O CV 50 DS</item>
+<item>MONOPAS JAR</item>
+<item>MONTEMAC 4 DT</item>
+<item>MOVEXOL 0.5</item>
+<item>MOXIMAC EYE DROPS</item>
+<item>MOXOLID IV</item>
+<item>NASIVION MOIST ADULT</item>
+<item>NECTERA POWDER</item>
+<item>NEPHCELOL CAP</item>
+<item>NEUCAM 8</item>
+<item>NEUCAM P TAB</item>
+<item>NGSART  80 CH</item>
+<item>NGSART 80</item>
+<item>NGSART MT 25</item>
+<item>NIMEK TAB</item>
+<item>NOVAPIME 250 INJ</item>
+<item>NOVASTAT EZ</item>
+<item>NUCROVIT</item>
+<item>NULCER INJ</item>
+<item>NUTRIRIGHT</item>
+<item>NUTRIRIGHT  MOM POWDER 400 GM</item>
+<item>NUTRIRIGHT D3 DROP</item>
+<item>NUTRIRIGHT FERO</item>
+<item>NUTRIRIGHT G 75</item>
+<item>O-ANXIT</item>
+<item>OBECURE GEL</item>
+<item>OBECURE SLIM TEA</item>
+<item>OBESI GO BLOCD CHOCO</item>
+<item>OBESIGO MANGO</item>
+<item>OBESIGO STRAWBERRY</item>
+<item>OBICURE POWDER</item>
+<item>OF PLUS IV</item>
+<item>OFLACIN</item>
+<item>OFSID-OZ SUSP</item>
+<item>OLAN 10</item>
+<item>OLMESAR CH 40 LS</item>
+<item>OLYFLOX-OZ SUSP</item>
+<item>OMIFLUX</item>
+<item>OMNICEF O CV 200</item>
+<item>ONDAMAC 4</item>
+<item>OPTOCIN</item>
+<item>ORATIL 250 INJ</item>
+<item>P-RAPID</item>
+<item>P2I FAST</item>
+<item>PANTANA TAB</item>
+<item>PANTOTAB D SR</item>
+<item>PAUSE SR</item>
+<item>PEDIA GOLD MANGO</item>
+<item>PEDIA GOLD VANILLA</item>
+<item>PEDIACARE</item>
+<item>PENTASURE STRAWBERRY</item>
+<item>PETHIDE</item>
+<item>PIONORM 15</item>
+<item>PIONORM M 15</item>
+<item>PIONORM M 30</item>
+<item>PRASO 10MG</item>
+<item>PREBOSE M 0.2</item>
+<item>PREGASTAR OD 75</item>
+<item>PREGASTAR PLUS SR 75</item>
+<item>PREGCERT LMF</item>
+<item>PRIMACORT + CREAM</item>
+<item>PROTERA 20 TAB</item>
+<item>PROTERA D 20</item>
+<item>PULMISTAT 10</item>
+<item>PYRALFIN-A INJ</item>
+<item>QUALIZ 2.5</item>
+<item>QUALIZ 5</item>
+<item>QUITSURE 4 PASTILLES</item>
+<item>RACEQUE</item>
+<item>RADINIL TAB</item>
+<item>RAMISTAR M XL 50</item>
+<item>RASOTAN 20</item>
+<item>RASOTAN AM 5</item>
+<item>RCIFAX DT</item>
+<item>REOSTIN 1500 TAB</item>
+<item>REOSTIN 750 TAB</item>
+<item>RESODIM 30</item>
+<item>RGM</item>
+<item>RIBAVIN 200</item>
+<item>RIFILL SP</item>
+<item>RITE XT PLUS</item>
+<item>S-CELEPRA 20</item>
+<item>SCAVISTA 12</item>
+<item>SCAVISTA 3 DT</item>
+<item>SENSICLAV 300 MG</item>
+<item>SENSITAB 15</item>
+<item>SENSITUS</item>
+<item>SEVEN  SEAS KIDS CLO</item>
+<item>STABOSE 0.3</item>
+<item>STABOSE M 0.2</item>
+<item>STARCAD CT 25</item>
+<item>STARCAD CT 50</item>
+<item>STARCAD SA 5</item>
+<item>STARSTAT 5</item>
+<item>STIMUGEST</item>
+<item>SUDOSTAR 1</item>
+<item>SWALOBEE</item>
+<item>TAVIN LN KIT</item>
+<item>TAZAR 1.125 INJ</item>
+<item>TAZOTER 4.5</item>
+<item>TAZOTER PS</item>
+<item>TELISTA TRIO 80</item>
+<item>TELONG H</item>
+<item>THORMONE 100</item>
+<item>TIGOCEF 100</item>
+<item>TOLPA D</item>
+<item>TOLSAFE</item>
+<item>TOPCERIN</item>
+<item>TRANOMAC 500</item>
+<item>TRANOMAC INJ</item>
+<item>TRANSDOL 75</item>
+<item>TRAPCID</item>
+<item>TRAVECEF 100</item>
+<item>TRESGUARD 100 ML</item>
+<item>TRIPRIDE 1LP</item>
+<item>TRIVOBIT 1</item>
+<item>TRIVOBIT 2</item>
+<item>TROTFIT</item>
+<item>U-PH</item>
+<item>UTROGESTAN 200</item>
+<item>VAGIMYCIN SUPP</item>
+<item>VERTIBIL 24</item>
+<item>VITALEM POWDER</item>
+<item>VITASONIC Q100</item>
+<item>VYSOV-M 50MG/850MG TAB</item>
+<item>WALK-ON</item>
+<item>XANURIX 40</item>
+<item>XC-10 PLUS TAB</item>
+<item>XINASONE C CREAM</item>
+<item>XINASONE CREAM</item>
+<item>XINASONE HP CREAM</item>
+<item>XINBOND CREAM</item>
+<item>XPLODE-L</item>
+<item>XYPROST-TM</item>
+<item>Z1-250</item>
+<item>ZEHIST 10</item>
+<item>ZIFRA SYRUP 100ML</item>
+<item>ZINGCAL</item>
+<item>ZITHROX 100 DT</item>
+<item>ZOSTUM 750 INJ</item>
+<item>ZOVIA 75</item>
+<item>AGRESIA KID 50MG</item>
+<item>AMIKEF 250</item>
+<item>ANXICALM 0.5</item>
+<item>ANXIT 0.5 SR</item>
+<item>AZICYTE 250</item>
+<item>CARVIDON-20</item>
+<item>CEFOLAC LB 100 DT</item>
+<item>CLACIX 100 DT</item>
+<item>E TEL 40</item>
+<item>ECOX 600</item>
+<item>ETILOPRAM 5 MG</item>
+<item>FEMIBION</item>
+<item>GLUCONORM SR 850</item>
+<item>GOODNOCT XR 6.25</item>
+<item>JOLYON MD 5</item>
+<item>LUPIZEP PLUS 25</item>
+<item>METOMAC H 25</item>
+<item>MIGITUS 5</item>
+<item>NEOFORTAN D</item>
+<item>OLAN 5</item>
+<item>P2I-IV</item>
+<item>PIONORM 30</item>
+<item>PREGADOC M SR 150</item>
+<item>Q PRIL 5</item>
+<item>RABIFIX D</item>
+<item>RESTFULL ET 0.25</item>
+<item>REZARA 5</item>
+<item>RIFILL C</item>
+<item>ROSELINA DROPS</item>
+<item>TELISTA TRIO 40</item>
+<item>TOTALCAL PLUS TAB</item>
+<item>TRAMAGOLD SR</item>
+<item>VERSIDEP</item>
+<item>VIDA H</item>
+<item>VINCORT 6</item>
+<item>CEFAXONE 250</item>
+<item>CEFAXONE 500</item>
+<item>CEROFENE 25</item>
+<item>CEROFENE 50</item>
+<item>DOTHIP 50</item>
+<item>E-TEL H</item>
+<item>EMCURE UTH G 75</item>
+<item>LACONEXT IV 20ML</item>
+<item>OFLAMAC E/E DROPS</item>
+<item>OGIT OZ SUSP</item>
+<item>RASOTAN H 20</item>
+<item>RECOVIT TOTAL</item>
+<item>SCAVISTA 3A</item>
+<item>XINTOLIVE CAP</item>
+<item>SALBAIR TRANSPULES</item>
+<item>LUP-INH</item>
+<item>STARSTAT 10</item>
+<item>LUFIXICIN 100</item>
+<item>MATILDA INJ</item>
+<item>PLACIDOX 5</item>
+<item>NUSAR H</item>
+<item>VINGRAF 0.5</item>
+<item>SALBAIR NEB TRANSPUL 0.63</item>
+<item>GOLDPAR TAB</item>
+<item>ORFLAZ KIT</item>
+<item>MACSIP ORANGE</item>
+<item>DIVON PLUS</item>
+<item>COVERIT 10%</item>
+<item>COVERIT 5%</item>
+<item>XPLODE SACHET</item>
+<item>NEW NASIVION CARE PAED</item>
+<item>INFEN INJ</item>
+<item>BIRYTH 50</item>
+<item>ISOCOR 20</item>
+<item>HEMOBION TONIC</item>
+<item>BUNASE 200</item>
+<item>DIAMIG 25</item>
+<item>DIAPRIDE PLUS 1 G</item>
+<item>FEROX LIQ</item>
+<item>GASTRIUM SUSP</item>
+<item>GLIDE</item>
+<item>LORFLEX 4</item>
+<item>MICRONAC MR TAB</item>
+<item>NEW NASIVION CARE ADULT</item>
+<item>PULMOXYL 250</item>
+<item>SENSICORT CREAM</item>
+<item>ZEMCIFER TABLETS</item>
+<item>ZENTOR 500 TAB</item>
+<item>ASOMEX 5 CV</item>
+<item>ASOMEX CV</item>
+<item>ATPURE 50</item>
+<item>BIRYTH 150</item>
+<item>BUNASE 400</item>
+<item>DEFSURE SUSP</item>
+<item>EMGRAF 0.5</item>
+<item>EMRAB</item>
+<item>EMRAB D</item>
+<item>ERDOMAC 300</item>
+<item>ERTAMAC 1GM</item>
+<item>FEROX CAP</item>
+<item>FLUTICORT F 250</item>
+<item>HALODERM LOTION</item>
+<item>IRBEZ</item>
+<item>IROZORB S INJ</item>
+<item>JUSTINEX-30</item>
+<item>LIVIVE 150</item>
+<item>LIVIVE 500</item>
+<item>LOTOR 750</item>
+<item>MACPROX TAB</item>
+<item>MOXIMAC IV</item>
+<item>NEPHCELOL INJ</item>
+<item>NEXDOL SR TAB</item>
+<item>NICOVAS 1GM</item>
+<item>NUPENTA ITR</item>
+<item>NUTIN H</item>
+<item>POLARES 100 SYP</item>
+<item>POLARES 50 DT</item>
+<item>PULMOCLOX</item>
+<item>PURON-25</item>
+<item>Q PRIL 20</item>
+<item>REGALIN</item>
+<item>ROSINORM-GM TAB</item>
+<item>RUBIRED S INJ</item>
+<item>SENSICORT BF OINT</item>
+<item>ZEMCIFER 100 INJ</item>
+<item>ZIFOL LIQUID</item>
+<item>ZORNICA 8</item>
+<item>ZUTIG 50 INJ</item>
+<item>BPMET XL 50</item>
+<item>CHANNEL 30</item>
+<item>COVERIT 2%</item>
+<item>DEXPURE 5</item>
+<item>DIVON S</item>
+<item>EMGRAF 1</item>
+<item>FLUTICORT F 100</item>
+<item>GEMINEX TAB</item>
+<item>LANCID 30</item>
+<item>MICROCEF 50 DT</item>
+<item>MICROVIR 250</item>
+<item>MONTRAL KID</item>
+<item>NEXDOL-100</item>
+<item>REVOCAL XL</item>
+<item>S AMLOVAS 5</item>
+<item>SERTIVE 25 TABLETS</item>
+<item>SEVCAR 800 SACHET</item>
+<item>TENOMAC 100</item>
+<item>VELDIX GEL</item>
+<item>ZEMCIFER SUSP</item>
+<item>DYAMIDE PLUS 20</item>
+<item>FUTADEN</item>
+<item>HEMOBION Z CAPTABS</item>
+<item>LORFLEX PLUS 4</item>
+<item>NEYTA</item>
+<item>NIMTECH SUSPENSION</item>
+<item>ZEOF 100 DT</item>
+<item>ZEOF 200</item>
+<item>BPMET XL 12.5</item>
+<item>MICRONAC SR</item>
+<item>COSOME LCD BIG</item>
+<item>COSOME TABLETS</item>
+<item>KALTAME JAR</item>
+<item>SCAVISTA-6A TAB</item>
+<item>TENOMAC 12.5</item>
+<item>DIVON GEL 10</item>
+<item>NUTIN 25</item>
+<item>SIMVAS 5</item>
+<item>ULTRAM INJ 2 ML</item>
+<item>VELDIX</item>
+<item>DIVON GEL</item>
+<item>OSTOGARD 50</item>
+<item>POSINORM-M-1000</item>
+<item>R PURE</item>
+<item>RIOMET DUO 1 TAB</item>
+<item>SOLOKAST 10</item>
+<item>URIFIX 40</item>
+<item>URIFIX 80</item>
+<item>AZUNATE L 240</item>
+<item>BACTOCLAV 300 INJ</item>
+<item>BEROCINE-CZ CAP</item>
+<item>CARNIPRO CAP</item>
+<item>CEFGLOBE S INJ</item>
+<item>DAYSHINE</item>
+<item>DAYSHINE GEL</item>
+<item>DENTIPLAK ORAL RINSE</item>
+<item>DEPICOR 10</item>
+<item>DIAMIG 50</item>
+<item>DIAPRIDE 4</item>
+<item>DIAPRIDE FORTE 1 G</item>
+<item>DILSAVE</item>
+<item>DIVALPRID  OD 750</item>
+<item>DOLO-1000</item>
+<item>DYAMIDE 100</item>
+<item>DYAMIDE 20</item>
+<item>ESLICAR 400</item>
+<item>ESLICAR 800</item>
+<item>EXPIRTIN 100</item>
+<item>FERINUT</item>
+<item>FLUTICORT F 250 INH</item>
+<item>FLUTICURE 125 INH</item>
+<item>FLUTICURE 250 INH</item>
+<item>FLUTICURE-100</item>
+<item>FLUTICURE-250</item>
+<item>FORSMART 200 INH</item>
+<item>HOPACE H 10</item>
+<item>INFEN OD 50</item>
+<item>JUSTSLEEP 1</item>
+<item>LEMONISER</item>
+<item>NEBIMAC H</item>
+<item>NEUROCETAM 1200</item>
+<item>NEXIDOL-P TAB</item>
+<item>OFLAMAC OD</item>
+<item>OPTIMIDE PLUS E/D</item>
+<item>ORLIMAC</item>
+<item>OROFER XT DHA</item>
+<item>POSINORM -30</item>
+<item>PULMOCEF INJ 750</item>
+<item>PULMOCEF-125</item>
+<item>RABIROS IT</item>
+<item>RAPITOIN INJ 750 MG</item>
+<item>SENSIFIT ORAL RINSE</item>
+<item>SIMVAS 20</item>
+<item>SOLOKAST 4</item>
+<item>SOLOKAST 5</item>
+<item>SUNCHEK SUNSCREEN LOTION</item>
+<item>TAPCYNTA 100</item>
+<item>TAPCYNTA 50</item>
+<item>TAPCYNTA 75</item>
+<item>TAPCYNTA PLUS</item>
+<item>TENSIMIN 100</item>
+<item>TRAVOTIM EYE DROPS</item>
+<item>TRIPRIDE 2 LP FORTE</item>
+<item>ZOMITAC</item>
+<item>BPMET XL 25</item>
+<item>CLYNOX</item>
+<item>CLYNOX CAP</item>
+<item>DYAMIDE 10</item>
+<item>EPORISE 2000 IU PFS</item>
+<item>ETIZOLA MD 0.5 MG</item>
+<item>FORSMART 200</item>
+<item>LORFLEX 8</item>
+<item>MONTRAL</item>
+<item>NITRA HEX</item>
+<item>POSINORM- 7.5</item>
+<item>TORSINEX A</item>
+<item>VELDIX SR</item>
+<item>ZIFOL CAP</item>
+<item>ZOMITAC D</item>
+<item>AERWAY</item>
+<item>DOLOPAR CC</item>
+<item>EMPERIDE 2</item>
+<item>RACEDOT 10</item>
+<item>TRAVA 10</item>
+<item>ZEROCARY ORAL RINSE</item>
+<item>COSOME LCD</item>
+<item>DOXORIL INJ</item>
+<item>GRANEXA TAB</item>
+<item>HOSIT FORTE INJECTION</item>
+<item>RIOMET TRIO-1 TAB</item>
+<item>GABASAFE PLUS</item>
+<item>RIOMET TRIO-2 TAB</item>
+<item>BRICANYL 2.5 TAB</item>
+<item>CLOBETAMIL CR 15GM</item>
+<item>GLEAM 1</item>
+<item>MACTOR EZ</item>
+<item>NICARDIA 10</item>
+<item>AMBRODIL S SYP</item>
+<item>ATORFEN 10</item>
+<item>C TAX O DROPS</item>
+<item>DUOPIL HS 1/850</item>
+<item>ENBIOS SUSP</item>
+<item>GAZIN 40</item>
+<item>INTIMACY PLUS 2</item>
+<item>INTIMACY PLUS 3</item>
+<item>MACBERY COLD</item>
+<item>MACBERY P SYP</item>
+<item>MONOCAN 150</item>
+<item>MOXIGRAM EYE OINTMENT</item>
+<item>MY PILL</item>
+<item>ORNIGYL IV 100ML</item>
+<item>PIOGLU 15</item>
+<item>POZITIVE G2</item>
+<item>TENSIMIN 25</item>
+<item>Z AND B TAB</item>
+<item>AMLOVAS M 2.5/25</item>
+<item>ATORCIA 80</item>
+<item>ATPURE 12.5</item>
+<item>AZENAM 1G INJ</item>
+<item>AZENAM 500 INJ</item>
+<item>AZITUS 250</item>
+<item>CILACAR T 80</item>
+<item>CONSIVIT B</item>
+<item>DEFCORT ORAL SUSP</item>
+<item>DEPICOR 5</item>
+<item>DIAPRIDE M3 FORTE</item>
+<item>DICLORAN MS GEL</item>
+<item>DILCARDIA SR 90</item>
+<item>EFICEF CV 100 DT</item>
+<item>EMLEVO INJ</item>
+<item>EMPERIDE 1</item>
+<item>FINCOVER</item>
+<item>FLUMACE DROPS</item>
+<item>FOLIZORB  PLUS</item>
+<item>GEMINOR M4 FORTE</item>
+<item>GEMINOR MP 2 LS</item>
+<item>GLEAM 2</item>
+<item>GLYCIPHAGE VG1</item>
+<item>GOLAX</item>
+<item>GRAMOCEF  OF</item>
+<item>GRILLINCTUS CD SYP</item>
+<item>HEPMEND INJ</item>
+<item>KAPOCIN 750</item>
+<item>KETOPLAST PATCHES</item>
+<item>LABETAMAC</item>
+<item>LIPIGO 10 MG</item>
+<item>LIVOGEN INJECTION</item>
+<item>LIZOMAC IV</item>
+<item>LUTIVIT NF</item>
+<item>MACBERY DX SYP</item>
+<item>MACFURAN</item>
+<item>MACPHYLLIN SYP</item>
+<item>MEFLOC</item>
+<item>MELOSET 3 MG</item>
+<item>MONTINA 10</item>
+<item>NEUROCETAM IV</item>
+<item>NEUROGLY INJ</item>
+<item>NICARDIA 5</item>
+<item>NUCARNIT M</item>
+<item>NUDICLO - 100</item>
+<item>NUROCOL INJ</item>
+<item>OFLAMAC OZ SYP</item>
+<item>OLMESAFE 10</item>
+<item>OMNACORTIL 40</item>
+<item>ORNAMAC SYP</item>
+<item>OROFER XT DROPS</item>
+<item>OSTEBON SUSP</item>
+<item>PANEX-CR-25</item>
+<item>POLYCLAV SYP</item>
+<item>PULMOCEF 500</item>
+<item>SMUTH SUSP BIG</item>
+<item>STROCOZ 2 INJECTION</item>
+<item>STROCOZ 4 INJECTION</item>
+<item>SYLATE CVP</item>
+<item>TELONG 20</item>
+<item>UTHYROX 25</item>
+<item>VASOLIP 10</item>
+<item>VITAMER EA</item>
+<item>YOGAZAM-5</item>
+<item>ADBETA 25</item>
+<item>AEROTROP F INH</item>
+<item>AMLOVAS XM 5/25</item>
+<item>ANORELIFE CREAM</item>
+<item>ANXIT PLUS</item>
+<item>ASOMEX LT 5</item>
+<item>ATPURE D</item>
+<item>AZOVAS   8</item>
+<item>AZOVAS  16</item>
+<item>BICEF 250 DT</item>
+<item>BIOSTAR GOLD</item>
+<item>BONMIN</item>
+<item>CARNIPRO-D</item>
+<item>CARTINEX OD</item>
+<item>CELKAST</item>
+<item>CELOL K 7</item>
+<item>CHEKCID 10</item>
+<item>CLOFLOW 75 MG TAB</item>
+<item>CLOFLOW PLUS 75/150</item>
+<item>CLOWFLOW 75</item>
+<item>COBAGEN</item>
+<item>COBAGEN PLUS</item>
+<item>CORTIMAX XL SUSP</item>
+<item>DAROLAC SACHET</item>
+<item>DIAGRM P1</item>
+<item>DIAGRM P2</item>
+<item>DIANORM TOTAL 30</item>
+<item>DIVALPRID OD 250</item>
+<item>DUOPIL HS 2/850</item>
+<item>EBAST</item>
+<item>EBAST SUSP</item>
+<item>EMADINE 5</item>
+<item>EMNETIC OD</item>
+<item>EMPERIDE M 1</item>
+<item>EMPERIDE M 2</item>
+<item>ENZOMAC OINT</item>
+<item>EPAREL 50</item>
+<item>EPINEURON</item>
+<item>FEROX-XT</item>
+<item>FLODART PLUS</item>
+<item>FOSEAL-400 TAB</item>
+<item>GIFAXIN SUSP</item>
+<item>GLYVAS-F TAB</item>
+<item>HALODERM CREAM</item>
+<item>HALODERM S OINT</item>
+<item>HEPASULFOL AA</item>
+<item>HEPMEND 500</item>
+<item>HOPACE-MT 50</item>
+<item>HOPECARD H 5/12.5</item>
+<item>IMAX XT SUSP</item>
+<item>KETOVATE SOLN</item>
+<item>LAFUMAC 10</item>
+<item>LEVERON 250</item>
+<item>LIPIGO 5 MG</item>
+<item>LOPRESS 0.5%  EYE</item>
+<item>MACBRITR  D3</item>
+<item>MAXOLID DRY SYP</item>
+<item>MAXPRIDE-50</item>
+<item>MAYOGRAL AP 75</item>
+<item>MEGAVOG 0.3</item>
+<item>METAPRO XL H 25</item>
+<item>MICROBACT 250</item>
+<item>MICROGAT EYE DROPS</item>
+<item>MICROLIV TAB</item>
+<item>MONTAZ 250 INJ</item>
+<item>MONTINA 4</item>
+<item>NEUROVIN</item>
+<item>NEW AMBRODIL PLUS SYP</item>
+<item>NICOVAS</item>
+<item>NITROFIX 20</item>
+<item>O STAT 120</item>
+<item>OCIUM 250</item>
+<item>OFLER 200</item>
+<item>OFLER OZ</item>
+<item>OLAMIN SCALP LOTION</item>
+<item>OLMESAR AV</item>
+<item>OQ</item>
+<item>ORCERIN OINTMENT</item>
+<item>PANEX-CR-12.5</item>
+<item>PANTOCAR D</item>
+<item>QURE 500</item>
+<item>RANTAC DROPS</item>
+<item>RAPIDON EYE DROPS</item>
+<item>REDUCIN A</item>
+<item>REVOCAL TAB</item>
+<item>RHINO</item>
+<item>RIFAXIMAX SUSPENSION</item>
+<item>RIFIDOR 100 MG</item>
+<item>ROLAZIN</item>
+<item>S AMLONG  5</item>
+<item>SPASMOPRIV</item>
+<item>SPASMOPRIV 200</item>
+<item>SUSTINEX-30</item>
+<item>TAMLET 2</item>
+<item>TELONG 40</item>
+<item>THYROTOP-25</item>
+<item>TOTALCAL TAB</item>
+<item>VICARE</item>
+<item>VOXAMIN 100</item>
+<item>WINFLAM</item>
+<item>ZOSTUM O 50 DT</item>
+<item>ADBETA 12.5</item>
+<item>ALENOST D</item>
+<item>ALLERCET SYP</item>
+<item>AMLOVAS XM 2.5/25</item>
+<item>ARBITEL 80 AM</item>
+<item>ARBITEL AMH</item>
+<item>ATCHOL 40</item>
+<item>AZIVENT 200 SUSP</item>
+<item>BACTOCLAV 1.2 INJ</item>
+<item>BACTOCLAV 1000 MG</item>
+<item>BFN EYE DROPS</item>
+<item>BUXORIC 80</item>
+<item>CARBAMAC 600</item>
+<item>CARTINEX</item>
+<item>CARVIDON MT TAB</item>
+<item>CEFOLAC XL 100</item>
+<item>CLARIWIN DRY SYRUP</item>
+<item>COLINEM</item>
+<item>DEZACOR 6</item>
+<item>DIANORM TOTAL 60</item>
+<item>DIVALPRID OD 500</item>
+<item>DOLO SUSP</item>
+<item>DOLPIRTIN</item>
+<item>DURATAZ 2.25 GM INJ</item>
+<item>EBAST-M KID</item>
+<item>EFICEF 200</item>
+<item>EFICEF 50 SYP</item>
+<item>EMADINE AT</item>
+<item>EMANZEN D OINTMENT</item>
+<item>EMLEVO 250</item>
+<item>EMPERIDE MP 2</item>
+<item>ENCIFER O</item>
+<item>FENOVAS</item>
+<item>FERIUM 50 CHEWTAB</item>
+<item>FEROX XT SUSP</item>
+<item>FIBRAL CAP</item>
+<item>FITJOINT</item>
+<item>FLURAZ</item>
+<item>FORCEF 1.5</item>
+<item>FORCEF 125</item>
+<item>FORCEF 500</item>
+<item>FOSEAL C800</item>
+<item>FULL 24 SUSPENSION</item>
+<item>GAZIN 80</item>
+<item>GAZIN ER 60</item>
+<item>GRAMOCEF CV 10 TAB</item>
+<item>GRAMOCEF CV DRY SYP</item>
+<item>GRAMOCEF O 50 DRY SYP</item>
+<item>GRAMOCEF-O 200 DT</item>
+<item>HOPECARD 10 MG</item>
+<item>INFEN OD</item>
+<item>IROZORB S 5ML</item>
+<item>ISOTANE 10</item>
+<item>ISOTANE 20</item>
+<item>LEKACE</item>
+<item>LEVERON 500</item>
+<item>LEVERON 750</item>
+<item>MACBUTIN</item>
+<item>MACSART 80</item>
+<item>MAXPRIDE-100</item>
+<item>MAYOGRAL AP 150</item>
+<item>MEGAPEN XP</item>
+<item>MERO 125 INJ</item>
+<item>MERO 250 INJ</item>
+<item>MEROBAX 250 MG INJ</item>
+<item>METAPRO XL H 50</item>
+<item>MICROBACT 500</item>
+<item>MICROGAT EYE OINTMENT</item>
+<item>MICRONAC GEL</item>
+<item>NATRIEM 30</item>
+<item>NEUROBION PLUS INJECTION</item>
+<item>NEXPAN 20 TAB</item>
+<item>NEXPAN DSR</item>
+<item>NUDICLO PLUS</item>
+<item>NUMLOTOR</item>
+<item>OBITROL-120</item>
+<item>OLAN 2.5</item>
+<item>ORNILOX TAB</item>
+<item>ORNOF SUSP</item>
+<item>ORTHOCORT 18</item>
+<item>ORTHOCORT 24</item>
+<item>OXAMAC</item>
+<item>PANTOP HP KIT</item>
+<item>PIOGLU 30</item>
+<item>POLARES 200</item>
+<item>POLARES DROPS</item>
+<item>POLARES SUSP</item>
+<item>PULMOCEF 125 TAB</item>
+<item>PURON-PLUS</item>
+<item>RAPIDON OD EYE DROPS</item>
+<item>RESICA KIT</item>
+<item>RIFAXIMAX 550</item>
+<item>RISPOND PLUS</item>
+<item>S AMLONG  2.5</item>
+<item>TAMLET 4</item>
+<item>TRIPRIDE 2 FORTE</item>
+<item>TRIVATE MX OINT</item>
+<item>VALAMAC 1000</item>
+<item>VALAMAC 500</item>
+<item>VELDIX P</item>
+<item>YOGAZAM-10</item>
+<item>ZEOF O</item>
+<item>ZEROTUSS SF SUSP</item>
+<item>ZOSECTA DSR</item>
+<item>ATPURE 25</item>
+<item>AZIVENT 100 SUSP</item>
+<item>DAROLAC Z SACHET</item>
+<item>GAZIN M</item>
+<item>GRANDEM INJ 3ML</item>
+<item>GRANEXA DROPS</item>
+<item>HARPOON 200</item>
+<item>HYPOTAB</item>
+<item>IFER SUSP</item>
+<item>MAXTRA</item>
+<item>MONOBACT 375 INJ</item>
+<item>MOVIZ</item>
+<item>OLMAT MT 25</item>
+<item>OMNICEF O 100 DT</item>
+<item>OSTONEX CAP</item>
+<item>PEPGENE TAB</item>
+<item>PIONORM 7.5</item>
+<item>PIONORM G</item>
+<item>TRIPRIDE 1 FORTE</item>
+<item>GLYCIPHAGE P30</item>
+<item>OFLACIN DX EYE DR</item>
+<item>DYAMIDE 5</item>
+<item>ELECTROBION ORANGE 4.2GM</item>
+<item>ENCEPHABOL 200</item>
+<item>HARPOON 400</item>
+<item>MEGAPEN 1G</item>
+<item>NUTRIRIGHT LACT GRANULES</item>
+<item>OQ OZ</item>
+<item>SCARAB CR</item>
+<item>GLYBOVIN 5</item>
+<item>POZITIVE G1</item>
+<item>VOLTADIN TAB</item>
+<item>BIGOMET 500</item>
+<item>EVION DROPS</item>
+<item>BRICAREX EXP. 200</item>
+<item>SENSORCAINE 0.25 INJ</item>
+<item>PRIMIPROST TAB</item>
+<item>ZENTOR 250 TAB</item>
+<item>METADOXIL</item>
+<item>TRU SWEET 180</item>
+<item>STREPTOMAC 1GM</item>
+<item>NIMECLO TAB</item>
+<item>FLUTICORT F 125 INH</item>
+<item>PURON INJECTION</item>
+<item>AZIWIN 100 DT</item>
+<item>POSINORM-15</item>
+<item>VENT TAB 200</item>
+<item>BIS OD 5</item>
+<item>COARTRIN TAB</item>
+<item>GOLDIFER SYRUP</item>
+<item>HARPOON OZ TAB</item>
+<item>IMDUR 30 TAB</item>
+<item>NEUCAM INJ 8MG</item>
+<item>NOVALID TAB</item>
+<item>OMICAP 20</item>
+<item>SIMVOFIX -10</item>
+<item>SPAZOLE CAP</item>
+<item>SUPER FE CAP</item>
+<item>X-LCF TAB</item>
+<item>XYLOCAIN VISCOUS 2%</item>
+<item>BETALOC 25 - 15S</item>
+<item>BID 250</item>
+<item>BIONECT OINT</item>
+<item>BPTITE 5 TAB</item>
+<item>ECONEX 1000</item>
+<item>ELSIE</item>
+<item>EPORISE 4000 IU PFS</item>
+<item>EUDRIM 200MG</item>
+<item>FIXATE 100 DT TAB</item>
+<item>GATIGRAM-200</item>
+<item>LAPROST EYE DROPS</item>
+<item>LAZID E KIT</item>
+<item>MOVEXOL 1</item>
+<item>NASICURE INH</item>
+<item>PRIMACORT 200</item>
+<item>PYRALFIN A TAB</item>
+<item>RAMACE H 2.5</item>
+<item>RHINOCORT AQUA</item>
+<item>RHINOCORT NASAL SPRAY</item>
+<item>SELOKEN XL 100</item>
+<item>UNIPLEX SYP</item>
+<item>AZU OD 100 SUSP</item>
+<item>BALVIDINE SOLN 500</item>
+<item>BENZOCLAV 1G</item>
+<item>BENZOCLAV 457 SYP</item>
+<item>BENZOCLAV 91.4 DRY SYP</item>
+<item>BID 125</item>
+<item>BIS OD 2.5</item>
+<item>BPTITE 2.5 TAB</item>
+<item>CERVIPRIME GEL 3</item>
+<item>DEFSURE 30</item>
+<item>DOFUSE 250 INJ</item>
+<item>DUFSURE 30 TAB</item>
+<item>EFCURE</item>
+<item>EFFAHOPE 600</item>
+<item>EMDUO JUNIOR</item>
+<item>EMIGO 8</item>
+<item>EMIGO 8 MG INJ</item>
+<item>EMNEURO INJ</item>
+<item>EMPRI</item>
+<item>EMRID</item>
+<item>ENDOPEG GRANULES</item>
+<item>EUCROLID 100 DT</item>
+<item>EUDRIM 100MG</item>
+<item>FALCINIL TAB</item>
+<item>FEMEXEL 625</item>
+<item>FULL 24 AM CAP</item>
+<item>GLYCLAMIN</item>
+<item>IMDUR-30</item>
+<item>IMDUR-60</item>
+<item>JOLYON MD 15</item>
+<item>LAVIR 150 TAB</item>
+<item>LETROMET</item>
+<item>LUKIN</item>
+<item>LUPINEB PALM</item>
+<item>MEFNIL 200</item>
+<item>MISOBIT PLUS 50</item>
+<item>MOBIRIDE-P</item>
+<item>PREGADOC 150</item>
+<item>PREGADOC M 150</item>
+<item>PREGADOC SR 150</item>
+<item>PROSTODINE INJ  125MG</item>
+<item>RAMACE 2.5 CAP</item>
+<item>RAMACE 5 CAP</item>
+<item>RETORLIX 100</item>
+<item>RIBAFIT 20</item>
+<item>SALBID D SYP</item>
+<item>SENSORCAIN HEAVY 0.5 INJ</item>
+<item>SENSORCAINE 0.5 INJ</item>
+<item>TERICEF 1.5GM</item>
+<item>TONACT MP 10</item>
+<item>TONACT TM TAB</item>
+<item>TRANAXA 1000</item>
+<item>TRITONACT</item>
+<item>TROGYL DENTA GEL</item>
+<item>TROGYL F OINT</item>
+<item>ZIDOHOPE 100</item>
+<item>ZIDOHOPE 300</item>
+<item>ZITRAN 250 TAB</item>
+<item>BID 500</item>
+<item>CEFJOY 50 DT</item>
+<item>FIXATE 200 TAB</item>
+<item>FOSSICAL TAB</item>
+<item>GISSISTAT</item>
+<item>KEYCOF AM SYP</item>
+<item>L CERIZINE</item>
+<item>LORNICA 4</item>
+<item>LORNICA 8</item>
+<item>QUINOMAC 300 TAB</item>
+<item>QUINOMAC SUSP</item>
+<item>RETORLIX SP 10</item>
+<item>SELOKEN XL 25</item>
+<item>SELOKEN XL 50</item>
+<item>SOLOMET SR 1000 TAB</item>
+<item>STARPRESS MN XL 30 CAP</item>
+<item>TRACLOT</item>
+<item>VENT TAB 100</item>
+<item>XYLOCAINE OINT 5%</item>
+<item>EMDUO N 30 KIT</item>
+<item>GATOR 200 TAB</item>
+<item>KVION</item>
+<item>QUINOMAC 100 TAB</item>
+<item>QUINOMAC ING 300MG(1ML)</item>
+<item>SPAGEL MPS SYP</item>
+<item>XYLOCAINE ADRENALINE 2% INJ 30</item>
+<item>BETALOC 25 TAB</item>
+<item>BOTSURE POWDER</item>
+<item>C TRI 1 G INJ</item>
+<item>EMNIL INJ</item>
+<item>EXHEP 40 INJ</item>
+<item>EXHEP 60 INJ</item>
+<item>FERONIA IV 50</item>
+<item>ICL 1 INJECTION</item>
+<item>ICL 2 INJECTION</item>
+<item>MOBIRIDE TAB</item>
+<item>NID IV</item>
+<item>RENEMIA ING 2000 IU</item>
+<item>RENEMIA ING 4000 IU</item>
+<item>TAPIC EM 4.5 INJ</item>
+<item>VILTACEF 1.5 GM INJ</item>
+<item>VINTOR 10000 VIAL</item>
+<item>TASTYMOL SYP</item>
+<item>ZUDO CAP</item>
+<item>MAHANAC 100</item>
+<item>NUTRIRIGHT EVE</item>
+<item>ORNODERM CREAM</item>
+<item>OSTEO PRO FORTE</item>
+<item>QUINOMAC INJ 300 MG</item>
+<item>VIFAZER SUSP</item>
+<item>MERONOVA 1GM ING</item>
+<item>BIOVITAL</item>
+<item>CEFRINE DT</item>
+<item>NUTRIRIGHT LD</item>
+<item>XYLOCARD INJ 2%</item>
+<item>BRICANYL NEBU SOLUTION</item>
+<item>IMDUR 60 TAB</item>
+<item>SE-DICLO TAB</item>
+<item>PEDIMUNE  LOCAL</item>
+<item>PEDPRO POWDER CHOCO</item>
+<item>PEDPRO POWDER VANILLA</item>
+<item>PEDPRO VANILLA</item>
+<item>VICARE LD</item>
+<item>OBICURE BAR</item>
+<item>BALVIBE TAB</item>
+<item>VENT  SF 100 EC</item>
+<item>TRAVA 20</item>
+<item>XYLOCAINE 2% INJ</item>
+<item>XYLOCAINE JELLY 2%</item>
+<item>RESVINOL</item>
+<item>VENT SF 250 EC CAP</item>
+<item>BPMET-H TAB</item>
+<item>EMPERIDE MP 1</item>
+<item>FERRI D INJ</item>
+<item>BPMET-H 50 TAB</item>
+<item>DEXDINE INJ</item>
+<item>EMANZEN N</item>
+<item>EMGRAF 2</item>
+<item>EMZINC SYP</item>
+<item>KETOX EYE DROPS</item>
+<item>LAXIFAST SUSP</item>
+<item>NEVIHOPE</item>
+<item>PULMOXYL 500 CAP</item>
+<item>RIMONID EYE DROP</item>
+<item>STAHOPE 40</item>
+<item>BRICAREX A SYP</item>
+<item>CHANNEL SR 90</item>
+<item>NABUFLAM TAB</item>
+<item>ZEMCIFER CHEWABLE</item>
+<item>ETOSAID 60</item>
+<item>VENT PAEDIATRIC SYP</item>
+<item>VENT SYRUP</item>
+<item>BRICAREX EXP. 100</item>
+<item>VASOLIP 20</item>
+<item>GOLDPRIM CAP</item>
+<item>ANDROGEL 50MG</item>
+<item>CORTILATE OINTMENT</item>
+<item>DOTRA INJ</item>
+<item>METAGLEZ</item>
+<item>BACIGYL SUSP</item>
+<item>VENT SF 125 INHALER</item>
+<item>ZITRAN 500 TAB</item>
+<item>GASTRIUM DT</item>
+<item>PULMOXYL KID TAB</item>
+<item>L CERIZINE SYP</item>
+<item>JUSTSLEEP 3 MG TAB</item>
+<item>PRIVENT EYE DROPS</item>
+<item>PULMOXYL 250 DT</item>
+<item>ZEOF SUSP</item>
+<item>AZIWIN AX 500</item>
+<item>ESGABA 150</item>
+<item>ESGABA 75</item>
+<item>MAHANAC SR</item>
+<item>MELCOVIT</item>
+<item>MOBIRIDE-SR CAP</item>
+<item>POLARES 100 DT</item>
+<item>TOLPA TAB</item>
+<item>ZETIVAS 5</item>
+<item>EROX 500 CAP</item>
+<item>GEMIMAC</item>
+<item>LOXOMAC TAB</item>
+<item>MICROVIR 500 TAB</item>
+<item>OZAFLO 200 TAB</item>
+<item>SERVACE 10</item>
+<item>DIVEXX GEL</item>
+<item>SALBID PLUS 60 ML</item>
+<item>BETA SCLEROBION CAP</item>
+<item>RAMACE 1.25 CAP</item>
+<item>RIOMET DUO 2 TAB</item>
+<item>BETALOC 100 TAB</item>
+<item>OMEGRAN  SACHETS</item>
+<item>ZESTRIL 2.5 TAB</item>
+<item>NEW VENTACOF EXP</item>
+<item>STREPTOMAC .75</item>
+<item>FUNGINA 150 CAP</item>
+<item>OMNACORTIL M DROPS</item>
+<item>LAXITTOL 10 GM</item>
+<item>BID LB 125</item>
+<item>HIPRIL 2.5</item>
+<item>MICROFLOX 500 TAB</item>
+<item>OZATEX 10</item>
+<item>OZATEX 5</item>
+<item>ZEFCLAV 500</item>
+<item>ADHALER</item>
+<item>BALVIDINE M CREAM</item>
+<item>VALSAID 20</item>
+<item>DIFLORATE CREAM</item>
+<item>DIVON RB TAB</item>
+<item>LIPIRA EZ</item>
+<item>OFLAMAC DX EYE DROPS</item>
+<item>ZEFCLAV 250</item>
+<item>ZEFCLAV 250 DRY SYP</item>
+<item>CARVIPRESS 12.5</item>
+<item>ACCUZON PLUS 375</item>
+<item>CEFRINE PLUS 375</item>
+<item>EROX KID TAB</item>
+<item>EROX L 250</item>
+<item>VENT  ET  200</item>
+<item>EROX L 500</item>
+<item>RHEONEX TAB</item>
+<item>TINI NF TAB</item>
+<item>ULTRAM ING 1 ML</item>
+<item>BID LB 500</item>
+<item>BRICANYL DURULES 7.5 TAB</item>
+<item>DIVON 50</item>
+<item>DROTIN DS</item>
+<item>EROSTIMIN EXPECTORANT</item>
+<item>ETORICA 60</item>
+<item>MUCOGEN TAB</item>
+<item>NUPENTA IV</item>
+<item>POTKLOR SUSP</item>
+<item>RACEDOT CAP</item>
+<item>ACCUZON PLUS 750</item>
+<item>AZIWIN 15 SUSP</item>
+<item>AZIWIN 7.5 SUSP</item>
+<item>CARVIPRESS 6.25</item>
+<item>ENZOX FORTE</item>
+<item>ERKASIN 100 INJ</item>
+<item>EROFICA 120</item>
+<item>EROX DRY SYRUP</item>
+<item>METADOXIL  ING</item>
+<item>MIDICLO</item>
+<item>NIMTECH SP</item>
+<item>NUDENT GEL</item>
+<item>OCEPH DRY SUSP</item>
+<item>ORODENT GEL</item>
+<item>RABEMAC FAST</item>
+<item>RHEONEX-MF</item>
+<item>RIMTRIM TAB</item>
+<item>STRONZ GEL</item>
+<item>VENT  SF  500 EC CAP</item>
+<item>VENT FB 100 EASECAPS</item>
+<item>VENT FB 200 EASECAPS</item>
+<item>VENT FB 400 EASECAPS</item>
+<item>VERMECTIN-12 TAB</item>
+<item>ZENTOR 750 TAB</item>
+<item>AZUNATE 100 TAB</item>
+<item>AZUNATE 50 TAB</item>
+<item>BETALOC 50 TAB</item>
+<item>BIOFER CAP</item>
+<item>CELEPRA 10 TAB</item>
+<item>CELOL INJ</item>
+<item>CILAMAC 500 INJ</item>
+<item>EMNEURO</item>
+<item>ERKASIN 250 INJ</item>
+<item>EROFICA 90</item>
+<item>EROX DISTAB</item>
+<item>FIBROVAS EZ TAB</item>
+<item>FLUDAWN</item>
+<item>GABALEPT 300 TAB</item>
+<item>GATIMAC IV</item>
+<item>GCS TAB</item>
+<item>GRAMOTAZ INJ</item>
+<item>LAXIFAST SP</item>
+<item>LIF-TAZ FORTE INJ</item>
+<item>MAHADOL MR TAB</item>
+<item>MAHANAC PRO TAB</item>
+<item>METAPRO-50 TAB</item>
+<item>MICROGAT 400 TAB</item>
+<item>NUROCOL  INJ</item>
+<item>OFLAMAC IV</item>
+<item>ORTINI TAB</item>
+<item>SARTACE  H  TAB</item>
+<item>SCAVISTA-3A DT TAB</item>
+<item>VENT FB 100 INHALER</item>
+<item>VENT FB 200 INHALER</item>
+<item>VENT SF 50 INHALER</item>
+<item>ZEDOCEF DXL 100</item>
+<item>ZEOF 400</item>
+<item>ZEOF O SUSP</item>
+<item>ZONAXID  DT</item>
+<item>ACUCLAV KID</item>
+<item>ALGESIA</item>
+<item>ATROFEN 5</item>
+<item>BALVIDINE 125</item>
+<item>BETALOC H-50 TAB</item>
+<item>BRICANYL 5 TAB</item>
+<item>CLINHAIR SHAMPOO</item>
+<item>DOLOKOFF SYP</item>
+<item>EGT SUSP</item>
+<item>EROSTIN 10</item>
+<item>EROSTIN 20</item>
+<item>ETOSAID 120</item>
+<item>GRAMOCEF-O 50 DT</item>
+<item>LAXITTOL 20 GM</item>
+<item>LEVOBACT 0.5% E/D</item>
+<item>RESTORE TAB</item>
+<item>TRIMSPA 200 TAB</item>
+<item>VELSAID 40</item>
+<item>ZESTRIL 5 TAB</item>
+<item>ZOMITAC DSR</item>
+<item>ANXIT FORTE</item>
+<item>BETALOC H-100 TAB</item>
+<item>BID LB 250</item>
+<item>DOLOZOX</item>
+<item>EROFICA 60</item>
+<item>TINI NF SUSP</item>
+<item>VALDIFLAM 20MG TAB</item>
+<item>BALVIDINE M SOLN</item>
+<item>DIVEXX 50 TAB</item>
+<item>TINI 500</item>
+<item>BRICANYL DURULES 5 TAB</item>
+<item>CEFRINE PLUS</item>
+<item>DORMIN 10</item>
+<item>KEFTAAZ AS</item>
+<item>KEFTAAZ HS</item>
+<item>MITS LINCTUS DX</item>
+<item>OCEPH CAP</item>
+<item>VERMECTIN-6 TAB</item>
+<item>ZADIMAC AS</item>
+<item>ZESTRIL 10 TAB</item>
+<item>BETALOC-50</item>
+<item>NEXPAN I. V. 20 MG INJ</item>
+<item>SUPER FE SYP</item>
+<item>TINI 300</item>
+<item>TORSINEX 20MG TAB</item>
+<item>ZADIMAC HS</item>
+<item>FLUTROL 50 INH</item>
+<item>RETUNE 50</item>
+<item>PREDACE 4</item>
+<item>SMARTICAL TAB</item>
+<item>SARTACE -2.5</item>
+<item>CEFOLAC 400</item>
+<item>CEFRINE PLUS 750</item>
+<item>LEVOBACT INFUSION</item>
+<item>OSMOGEL E/D</item>
+<item>S CELEPRA 5 TAB</item>
+<item>MICROGAT 200 TAB</item>
+<item>ELTOX TAB</item>
+<item>OLAN 15</item>
+<item>VENT  ET 100</item>
+<item>CORTILATE N OINTMENT</item>
+<item>DOLOCET TAB</item>
+<item>GATIGRAM-400</item>
+<item>GINKOBA TAB</item>
+<item>LANCID 15</item>
+<item>MUPIRAX  OINT</item>
+<item>RAMIPRIL 5</item>
+<item>SIMVAS EZ</item>
+<item>RAMIRIL 2.5</item>
+<item>DROTIN INJ</item>
+<item>TRIGLYD CAP</item>
+<item>C TAX 500 INJ</item>
+<item>CHANNEL 60</item>
+<item>DIANORM-40</item>
+<item>NUGREL TAB</item>
+<item>PETRIL 2</item>
+<item>MINIMET 500 SR TAB</item>
+<item>Q TAX 1.0 GM INJ</item>
+<item>EMNAC</item>
+<item>SWELINEX GEL</item>
+<item>BICEF 125 SUSP</item>
+<item>BICEF 250 SUSP</item>
+<item>C TAX 250 INJ</item>
+<item>HARPOON TZ</item>
+<item>C TAX 1G INJ</item>
+<item>C TAX O XL 100</item>
+<item>C-TRI 250 MG</item>
+<item>THYROTOP-50</item>
+<item>METROGYL SUSP 30</item>
+<item>OMNACORTIL MD 5</item>
+<item>THYROTOP-100</item>
+<item>ARISTOGYL SUSP</item>
+<item>BICEF 125 DT</item>
+<item>DELISPRIN 150</item>
+<item>PLAGERINE A</item>
+<item>OMNACORTIL MD 10</item>
+<item>BRICANYL SYP 100ML</item>
+<item>ZONAXID</item>
+<item>ZONAXID  SUSP</item>
+<item>MITS LINCTUS CODEINAE</item>
+<item>PULMOCEF 750 INJ</item>
+<item>OLVANCE H 20</item>
+<item>OLVANCE 20</item>
+<item>TELEACT ST 20</item>
+<item>TELEACT ST 40</item>
+<item>FULTERM 250 INJ</item>
+<item>OLVANCE 40</item>
+<item>OLVANCE H 40</item>
+<item>ZANOCIN DS</item>
+<item>TELEACT 80</item>
+<item>CELEPRA 20 TAB</item>
+<item>NIMOCER TAB</item>
+<item>GRAMOCEF-O 100 DT</item>
+<item>Q- WIN 25</item>
+<item>Q-WIN 100</item>
+<item>BUSCOPAN PLUS TAB</item>
+<item>GENTALENE PLUS CREAM</item>
+<item>VENTISOL PLUS EXP</item>
+<item>DIPROBEC N CREAM</item>
+<item>MOISTUREX CREAM 75 GM</item>
+<item>ORNIQUIN SUSP</item>
+<item>YASH-ZI 200 SUSP</item>
+<item>CORION 5000 INJ</item>
+<item>DIPROVATE PLUS LOTION</item>
+<item>DIPROVATE S PLUS CR</item>
+<item>EUKROMA  PLUS CREAM</item>
+<item>GETALENE PLUS CREAM</item>
+<item>IROSSGOLD SYRUP</item>
+<item>MINOZ 100</item>
+<item>MOBRINE IR-5 TAB</item>
+<item>OSMOVIN SYRUP</item>
+<item>SEBIFEN TAB</item>
+<item>SEBIFIN CREAM</item>
+<item>UDIHEP FORTE</item>
+<item>ULTRAFLAM TAB</item>
+<item>CPOD-200 TAB</item>
+<item>DAIVONEX 30 OINT</item>
+<item>DAIVONEX OINT</item>
+<item>DEXCPM-SR TAB</item>
+<item>GONABLOCK 50 CAP</item>
+<item>KTC</item>
+<item>LEMO DROPS</item>
+<item>MENORID TAB</item>
+<item>ORNIQUIN TAB</item>
+<item>OSMOVIN SYRUP (200ML)</item>
+<item>SILVEREX  JAR 250GM</item>
+<item>ZINFEX TAB</item>
+<item>DIPROBEC S OINT</item>
+<item>DIPROVATE PLUS CREAM</item>
+<item>DIPROVATE PLUS G CREAM</item>
+<item>EUKROMA-2% CREAM</item>
+<item>HALOX CR</item>
+<item>MOBRINE IR-10 TAB</item>
+<item>NEW PROBIZA CAP</item>
+<item>PRU 25 (10S)</item>
+<item>UDIHEP TAB</item>
+<item>YASH-ZI 250 TAB</item>
+<item>YASH-ZI 500 TAB</item>
+<item>BETADINE SURG 50 ML</item>
+<item>SILVEREX PLUS CREAM</item>
+<item>VOLITRA GEL</item>
+<item>WINACE TAB</item>
+<item>ZINFEX D</item>
+<item>YASH-ZI 100 SUSP</item>
+<item>OREX-M GEL</item>
+<item>ZINFATE TAB</item>
+<item>CEFANTRAL 500</item>
+<item>EPOFER 2000</item>
+<item>EPOFER 4000</item>
+<item>THEOBRIC TAB</item>
+<item>LOXONE T TAB</item>
+<item>ELMINOVA TAB</item>
+<item>OREX M GEL 20GM</item>
+<item>THEOBRIC SR TAB</item>
+<item>BETADINE GARGLE-MINT (100ML)</item>
+<item>VENT BEC 400</item>
+<item>BETADINE GARGLE-MINT</item>
+<item>BETADINE CREAM 10GM</item>
+<item>MACOX 600</item>
+<item>BIOSTAR CAP</item>
+<item>PREDACE 8</item>
+<item>URGENDOL-P TAB</item>
+<item>VENT BEC INHALER</item>
+<item>VENT BEC 200 30CAP</item>
+<item>SALBID EXPT</item>
+<item>ELMINOVA SYP</item>
+<item>BRUCET</item>
+<item>ENEW PLUS CAPS</item>
+<item>FORMOSONE-100RESP</item>
+<item>HAPPI XT</item>
+<item>FORAIR-500 NOVOCART</item>
+<item>FORMOSONE-250RESP</item>
+<item>FUCIDIN CREAM 5 GM</item>
+<item>HAPPY IT CAP</item>
+<item>MOBISWIFT-D TAB</item>
+<item>VOLITRA SPRAY</item>
+<item>FUCIDINE OINTMENT 10 GM</item>
+<item>GLOBAC XT TAB</item>
+<item>TINILOX DS TAB</item>
+<item>CLYNOX 125 DT TAB</item>
+<item>PULMOCLOX DT</item>
+<item>LEMOTAB</item>
+<item>BEROCIN-C TAB</item>
+<item>CORTIL 0.5 MG</item>
+<item>STROLOX OZ TAB</item>
+<item>COFLOX 500</item>
+<item>KOSAT EXP</item>
+<item>MICROGAT-DX EYE DROPS</item>
+<item>PREDACE 16</item>
+<item>LEMOLATE TAB</item>
+<item>CLYNOX  L</item>
+<item>QUINOBID M 60 ML SUSP</item>
+<item>VIVOSPRIN CAP</item>
+<item>LOXONE 400</item>
+<item>MOVIBON TAB</item>
+<item>OXYACE CAPS</item>
+<item>ZANOCIN TZ TAB</item>
+<item>BETAGEL G</item>
+<item>BETAGEL CREAM 20</item>
+<item>MISALIC  OINT</item>
+<item>QUIONOBID M 30 ML SUSP</item>
+<item>FORMONIDE 400 MD INH</item>
+<item>VERSITOL RET 200</item>
+<item>TIBOMAX TAB</item>
+<item>CUTIZONE LOTION</item>
+<item>RISPOND FORTE</item>
+<item>FULTERM 500 INJ</item>
+<item>SARTACE -1.25</item>
+<item>SARTACE 5 TAB</item>
+<item>VENT SF 250 INHALER</item>
+<item>DAIVOBET OINT</item>
+<item>DIPROVATE MF CR.</item>
+<item>DIPROVATE N CREAM</item>
+<item>KOSAT EXP (60ML)</item>
+<item>DIPROVATE CREAM</item>
+<item>VENTIPHYLLIN SY</item>
+<item>FUCIDINE-H CREAM</item>
+<item>FUCIBET  CREAM</item>
+<item>CASERA TAB 30</item>
+<item>PLENDIL 5 TAB</item>
+<item>SE DICLO TAB</item>
+<item>CERUVIN 150</item>
+<item>MYHALER</item>
+<item>GF    400    TAB</item>
+<item>AMLOSAFE 20</item>
+<item>APRISTAR</item>
+<item>ARISTOGYL F TAB</item>
+<item>BETADINE AQUA PAINT 10</item>
+<item>BETADINE OINTMENT 250 JAR</item>
+<item>BETAGEL S OINTMENT</item>
+<item>BOROSOFT CREAM 25</item>
+<item>BOROSOFT SOAP 75</item>
+<item>BOROSOFT SOAP HONEY</item>
+<item>BRICAREX TAB</item>
+<item>BRUCET DT TAB</item>
+<item>CANDELONG-16</item>
+<item>CEFAXONE 125</item>
+<item>CEILO TAB</item>
+<item>CETIL INJ 250</item>
+<item>CHEMODOC 120</item>
+<item>CHEMODOC 20</item>
+<item>CHEMODOC 80</item>
+<item>CHERICOF COUGH FORMULA 100 ML</item>
+<item>CHERICOF HERBAL COUGH SYP</item>
+<item>CICLOMATE 160 TRANSCAPS</item>
+<item>CICLOMATE 320 TRANSCAPS</item>
+<item>CIPROBIOTIC TN-500</item>
+<item>CITISTAR 4</item>
+<item>COFLOX 1000</item>
+<item>COFLOX 750</item>
+<item>COMBITAZ 250</item>
+<item>COMBITHER 120 INJ</item>
+<item>COVATIL CV 125DT</item>
+<item>D COLD LITE SYP 100</item>
+<item>D COLD OPEN UP INH</item>
+<item>DAINORM M OD 1000</item>
+<item>DAOMET SR 500</item>
+<item>DAORIL M 1MG</item>
+<item>DAORIL M 2 MG</item>
+<item>DAORYL 1MG</item>
+<item>DAORYL 2MG</item>
+<item>DERIPHYLLIN RET 450MG</item>
+<item>DERIPHYLLIN RTD 450</item>
+<item>DERMINOL</item>
+<item>DIABOSE-25</item>
+<item>DIACON -M</item>
+<item>DIGITRON 0.25</item>
+<item>DIVON M INJ</item>
+<item>DIVON SPRAY</item>
+<item>DOLOCOLD SUP</item>
+<item>DOLOCOLD TAB</item>
+<item>DULOT 40</item>
+<item>DUMORE 30</item>
+<item>DUMORE 60</item>
+<item>DUMORE GRP</item>
+<item>EMZINC</item>
+<item>ENDEAVOURS MIOFREE 4MG</item>
+<item>ENDEAVOURS MIOFREE 8 MG</item>
+<item>EPITANE EYE DROP</item>
+<item>ESLO RIL</item>
+<item>FASTRACE KIT</item>
+<item>FCF SYP</item>
+<item>FEMITRAZ</item>
+<item>FITOVIT SYP</item>
+<item>FIZZGEL SYP</item>
+<item>FLUNOVA E/D</item>
+<item>FORMOSONE 100 RESP</item>
+<item>FUNGICON 150</item>
+<item>GABASTAR 300</item>
+<item>GABASTAR MAX</item>
+<item>GABASTAR SR 600</item>
+<item>GASTRIUM TABS</item>
+<item>GATISPAN 400 TAB</item>
+<item>GF  200  TAB</item>
+<item>GL BM PAED SYP</item>
+<item>GONAFLOX 200</item>
+<item>HANSE OIL 100</item>
+<item>HASTACOLD TAB</item>
+<item>HAVMY CAP</item>
+<item>HEALCROSS TAB</item>
+<item>HEALSAR TAB</item>
+<item>IMPROV POW AMERICAN ICECREAM</item>
+<item>IPNEB RESPIRATORY SOLN</item>
+<item>IREX T.R</item>
+<item>ISOCOR 40</item>
+<item>LASIX AMPEOLES</item>
+<item>LIF-TAZ 250 INJ</item>
+<item>LIMBIVAL TAB</item>
+<item>LIVOSPA TAB</item>
+<item>LUDO</item>
+<item>LUPIBEND SYP</item>
+<item>LUPIGEST 100 SR</item>
+<item>LUPINIB 100</item>
+<item>LUPINIB 400</item>
+<item>LUPISPARK OD 50</item>
+<item>LUPIZYME SYRUP</item>
+<item>MEFBROM SPAS</item>
+<item>MELVIT</item>
+<item>MEROMAC 125</item>
+<item>MEROMAC PS</item>
+<item>MERONEM INJ 1G</item>
+<item>MERONEM INJ 500</item>
+<item>MICROCEF CV 50</item>
+<item>MICRODOL FORTE TAB</item>
+<item>MICROGEST 200 INJ</item>
+<item>MIRAZEP -15 TAB</item>
+<item>MIRAZEP -30 TAB</item>
+<item>MISONIL 200 TAB</item>
+<item>MIXCAROTIN</item>
+<item>MOISTUREX AF CREAM</item>
+<item>MOTIZA</item>
+<item>MOTIZA RD</item>
+<item>MOTIZA SR</item>
+<item>MOVIZ GEL</item>
+<item>MOVIZ SR</item>
+<item>MUPIRAX -B - OINT</item>
+<item>MUPIRAX OINT</item>
+<item>MYOACE 5</item>
+<item>NEBILOL 2.5 TAB</item>
+<item>NEBILOL 5 TAB</item>
+<item>NEW NASIVION CARE BABY</item>
+<item>NV TAB TAB</item>
+<item>ODOXIL PREMIX 250</item>
+<item>OLANEX 10</item>
+<item>OLMESAFE H 40/12.5</item>
+<item>ORAWIS  75  MG</item>
+<item>OSTERI INJECTION NEEDLES</item>
+<item>OVIPHEN 25</item>
+<item>OVIPHEN 50</item>
+<item>OXYGEN IP 70 LTS</item>
+<item>PARAMINOL OINT</item>
+<item>PERIHART 2</item>
+<item>PIOSAFE MF 15/500</item>
+<item>POZITIVE 30</item>
+<item>PREGASTAR 150</item>
+<item>PREGASTAR M 150</item>
+<item>PRENEUROLIN 150</item>
+<item>PRENEUROLIN 75</item>
+<item>PYRALFIN SUSP</item>
+<item>PYRALFIN TAB</item>
+<item>Q-PRIL-40</item>
+<item>QUINZOLE-D CAP</item>
+<item>R CINEX 50 DT</item>
+<item>R CINEX DT</item>
+<item>RAMACE 10</item>
+<item>RAMIRIL H</item>
+<item>RAPID GEL</item>
+<item>REDUCIN XX 12.5</item>
+<item>REDUCIN XX 25</item>
+<item>REFZIL O 125 TAB</item>
+<item>REFZIL O ORAL DROP</item>
+<item>RESNER INJ</item>
+<item>RETORLIX INJ</item>
+<item>REVITAL 2S</item>
+<item>RIBBFIT</item>
+<item>RUBICA CAP</item>
+<item>SAIRON-OD TAB</item>
+<item>SIGNOFLAM SR</item>
+<item>SILCLOP</item>
+<item>SILVEREX CR 100 GM</item>
+<item>SOLUS TAB</item>
+<item>SPARFLIN TAB</item>
+<item>SPARMAX E/D</item>
+<item>SPAS DICLORAN</item>
+<item>SPIROPIRF</item>
+<item>STARCET 5</item>
+<item>STARCET A</item>
+<item>STARCET COLD</item>
+<item>STARSTAT ER 20</item>
+<item>STARSTAT ER10</item>
+<item>SUNSET  CR</item>
+<item>SURFAZ VAG</item>
+<item>TELISTA AM 80</item>
+<item>TINI D.S</item>
+<item>TIZIME 1G INJ</item>
+<item>TIZIME 250 INJ</item>
+<item>TOBRADEX EYE DROP</item>
+<item>TORIDE 20</item>
+<item>TRAVA EZ</item>
+<item>TUXYNE FORTE SYP</item>
+<item>URGENDOL TAB</item>
+<item>VALDIFLAM 10MG TAB</item>
+<item>VENT PLUS INHALER</item>
+<item>VOLINI GEL 15 GM</item>
+<item>VOLINI SPRAY 55G</item>
+<item>VORITROL 50</item>
+<item>XXX</item>
+<item>XXX</item>
+<item>ZALPILO 10 TAB</item>
+<item>ZALPILO 5 TAB</item>
+<item>ZANOCIN DS TAB</item>
+<item>ZESTAT 10</item>
+<item>ZESTAT 20</item>
+<item>ZOSEC PRO</item>
+<item>ACEON PLUS TAB</item>
+<item>AMLOVAS S 5</item>
+<item>PANSA IV 40</item>
+<item>NORGEST 5 MG</item>
+<item>GLUTOWIN PLUS</item>
+<item>ROSINORM 2</item>
+<item>MAZZ  250</item>
+<item>OFFET CAP</item>
+<item>HICET DC TAB</item>
+<item>AUGTAZ 250 MG INJ</item>
+<item>COVANCE CP 25</item>
+<item>COVANCE D CP TAB</item>
+<item>FEVRIDOL 250 SUSP</item>
+<item>MULTICLAV 228.5 SYP</item>
+<item>EVACARE</item>
+<item>AZICOX 100 SUSP</item>
+<item>ELECTROBION PRO</item>
+<item>FILIN MD 0.25</item>
+<item>LORNICAM 4</item>
+<item>AMLOGOLD AT</item>
+<item>AZISWIFT 100 DT</item>
+<item>CITROCIUM TAB</item>
+<item>FEVRIDOL 120 SUSP</item>
+<item>GATIMAC 400</item>
+<item>NORMIGYL SYRUP</item>
+<item>RAMIPRO 5</item>
+<item>ROSINORM - 4 TAB</item>
+<item>ACE +</item>
+<item>ADMAX R</item>
+<item>ALOCET XL 100ML</item>
+<item>ALZIDOC 10</item>
+<item>ALZIDOC 5</item>
+<item>AMLOGOLD 5</item>
+<item>APITAT SYRUP</item>
+<item>ATENOVA SA 50</item>
+<item>BION</item>
+<item>C DIME 2.0 GM INJ</item>
+<item>C LET 1.0 GM INJ</item>
+<item>C PIME 1.0 GM INJ</item>
+<item>C PIME 500 INJ</item>
+<item>C TAZ 500 MG INJ</item>
+<item>C-TRI XP 250 MG INJ</item>
+<item>CALCIEM DHA</item>
+<item>CALUFT G</item>
+<item>CEF 4</item>
+<item>CEFECTIVE  50  MG</item>
+<item>CEFJOY 200 TAB</item>
+<item>CEFJOY CV</item>
+<item>CEFJOY SUSP</item>
+<item>CLACIX 200</item>
+<item>COE-HB</item>
+<item>CONAPE 4 TAB</item>
+<item>CONAPE PLUS 2</item>
+<item>DIAPRIDE FORTE</item>
+<item>DICLONAC GEL</item>
+<item>DOXIFLO 400</item>
+<item>ENSULES PLUS 200</item>
+<item>ENSULES PLUS 400</item>
+<item>ERTEM INJ</item>
+<item>FALCINIL AQ</item>
+<item>FERIUM 365</item>
+<item>FEVRIDOL 650 ER</item>
+<item>INFEN SERA</item>
+<item>LEVOMAC 750</item>
+<item>LUPI HCG 5000 IU</item>
+<item>LUPIDERM-GM PLUS</item>
+<item>MECONERV</item>
+<item>MEROTEC 2 GM INJ</item>
+<item>METPURE AR 2.5</item>
+<item>MULTICLAV 625</item>
+<item>NASIVION NO DRIP</item>
+<item>NATOLAC FM</item>
+<item>NECRID</item>
+<item>NORMIGYL</item>
+<item>OBECURE 5</item>
+<item>OBIRAX 10</item>
+<item>OROCEF SYP</item>
+<item>PACENORM 100 TAB</item>
+<item>PACENORM 200 TAB</item>
+<item>PANDORAY</item>
+<item>PAUSE D</item>
+<item>PAZACE 500 IV</item>
+<item>PENTASURE  200GM</item>
+<item>PENTASURE  HP</item>
+<item>PENTASURE ACTIVE</item>
+<item>PENTASURE CRITI PEP</item>
+<item>PENTASURE HP</item>
+<item>PIOREST 30</item>
+<item>PROCIT M POWDER</item>
+<item>PROFERIUM POW</item>
+<item>PROSTANORM</item>
+<item>PROSTANORM 320</item>
+<item>PROXYM MR FORTE</item>
+<item>QUALINOX 40 PFS</item>
+<item>QUALINOX 60 PFS</item>
+<item>RASOTAN SA 5</item>
+<item>RAYDATRON</item>
+<item>ROSINORM - M TAB</item>
+<item>SMULAX LIQ 200</item>
+<item>SUPRACID SUSP</item>
+<item>TEMSAN-20 CV</item>
+<item>TRAMA GOLD</item>
+<item>VITANOVA 1G DT</item>
+<item>VITANOVA-SG</item>
+<item>ZORDIL ORAL SUSP</item>
+<item>ACE 15</item>
+<item>AMIODAR 200</item>
+<item>ARTIVIL PLUS SYP</item>
+<item>ASOMEX LTH</item>
+<item>ASOMEX LTH 5</item>
+<item>ATAZOR-R-KIT</item>
+<item>ATENOVA SA 25</item>
+<item>ATOREC 5 R</item>
+<item>ATOREC R</item>
+<item>AUGPEN FORTE DT</item>
+<item>AXACEF 125 DRY SYP</item>
+<item>AZISWIFT 500</item>
+<item>BAZUCIN</item>
+<item>BOWEX GRANULES</item>
+<item>C DIME 1.0 GM INJ</item>
+<item>C LET 500 MG INJ</item>
+<item>C TAX OF</item>
+<item>C TAZ 1.0 GM INJ</item>
+<item>C-TRI 2 GM</item>
+<item>C-TRI 500 MG</item>
+<item>C-TRI XP 1.0 GM INJ</item>
+<item>CALUFT CAP</item>
+<item>CEFF PREMIX</item>
+<item>CLOPITAB 150</item>
+<item>COLIWELL TAB</item>
+<item>CONAPE 2 TAB</item>
+<item>CONAPE PLUS 4</item>
+<item>CORCAL 225</item>
+<item>CORCAL 500</item>
+<item>CZ TUS</item>
+<item>DIAPRIDE PLUS</item>
+<item>DICLORAN A 650</item>
+<item>DOXORIL 400</item>
+<item>ETS 200 INJ</item>
+<item>EUGRAF 150</item>
+<item>FALCIFINE DRY</item>
+<item>FLOFRE 10</item>
+<item>GERIA GOLD SAFFRON</item>
+<item>GERIA-TWIN MANGO</item>
+<item>HEPALO 0.5 TAB</item>
+<item>L CIN 750 BULK</item>
+<item>LAXIBEX GRANULES</item>
+<item>LICORAY</item>
+<item>LIVIVE INFUSION</item>
+<item>MAXTRA S NASAL DROPS</item>
+<item>MECOVON</item>
+<item>MEFAST D</item>
+<item>MEFAST P</item>
+<item>METPURE AR 5</item>
+<item>MULTICLAV 156.25 SYP</item>
+<item>MULTICLAV 375</item>
+<item>MYLONERV</item>
+<item>NASIVION ADVANCED ADULT</item>
+<item>NATOLAC 300</item>
+<item>NATOZ</item>
+<item>NETROMAX 10</item>
+<item>NETROMAX 50</item>
+<item>NORMET IV</item>
+<item>NUSAR AMH</item>
+<item>NUSAR AMH 5</item>
+<item>OBECURE 2.5</item>
+<item>OLMEGARD-20</item>
+<item>PANDORAY D</item>
+<item>PENTASURE CHOCOLATE</item>
+<item>PENTASURE D ACTIVE</item>
+<item>PENTASURE DM 200GM</item>
+<item>PENTASURE HEPATIC</item>
+<item>PENTASURE RENAL 21G</item>
+<item>PIOREST 15</item>
+<item>PLACIDIN 100</item>
+<item>PLACIDIN 200</item>
+<item>PRASUDOC 5</item>
+<item>PRASULET 10</item>
+<item>PRASULET 5</item>
+<item>PROGIT TABLET</item>
+<item>PROTERA FAST</item>
+<item>PURE D3 2K</item>
+<item>QURE IV 500</item>
+<item>RASOTAN SA</item>
+<item>RAZORAY OZ</item>
+<item>ROSATAN BETA 25</item>
+<item>SILNAFIL</item>
+<item>TEMSAN-40 CV</item>
+<item>VISTAVIT CAP</item>
+<item>XPLODE ISO</item>
+<item>XPLODE ISO POWDER</item>
+<item>ZANOVID</item>
+<item>ZORDIL 2</item>
+<item>ZORDIL 4</item>
+<item>AZICOX 200 SUSP</item>
+<item>BIOCLIN</item>
+<item>FILIN MD 0.5</item>
+<item>LA-MIKA--500 INJ</item>
+<item>NUTRIRIGHT TABLETS</item>
+<item>PANDORAY IV</item>
+<item>PANTOFIX 20</item>
+<item>PANTOFIX 40</item>
+<item>PLACIDOX 10</item>
+<item>TOTALCAL</item>
+<item>APITAT DROPS</item>
+<item>AZISWIFT 100 SYP</item>
+<item>BION SACHETS</item>
+<item>FILIN MD 1</item>
+<item>NUDICLO INJ</item>
+<item>PLACIDIN XR 50</item>
+<item>METROGYL DG GEL 20</item>
+<item>ELECTROBION LEMON SIP</item>
+<item>INFEN SPAS INJ</item>
+<item>COVERIT AX 5%</item>
+<item>LIVOGEN CZ</item>
+<item>RISPOND 1</item>
+<item>FERIUM XT DHA</item>
+<item>NASIVION CARE(PAED)10ML</item>
+<item>CADVION O3 CAP</item>
+<item>EMSULIDE P SUSP</item>
+<item>CARBOFER-Z</item>
+<item>SEVEN SEAS ORIGINAL CAP</item>
+<item>SALTRIX OINT</item>
+<item>STAFOBAN OINTMENT</item>
+<item>ZINCONIA SYP</item>
+<item>AMAZIL 10</item>
+<item>AMLOVAS SN</item>
+<item>ATOREC 10 BULK</item>
+<item>DIAMET SR 1000</item>
+<item>DOLOSPAN OD</item>
+<item>EMILIN M</item>
+<item>EMLEVO 25</item>
+<item>EMLEVO 50</item>
+<item>FADVIC 40</item>
+<item>FADVIC 80</item>
+<item>FEVRIDOL INJECTION</item>
+<item>FIBROVAS</item>
+<item>METPURE AP 50</item>
+<item>METPURE ST 50</item>
+<item>METPURE XL 25 BULK</item>
+<item>METPURE XL 50 BULK</item>
+<item>NUMLO-R</item>
+<item>NUTIN 7</item>
+<item>NUTIN SA</item>
+<item>PANPURE IV 20 MG</item>
+<item>PANTOFLUX SR</item>
+<item>RITE O CEF 100</item>
+<item>SECALIA CREAM 100</item>
+<item>STERIDERM S LOTION</item>
+<item>ALLERCET AX</item>
+<item>AMAZIL 5</item>
+<item>ASOMET XL 5</item>
+<item>CALCIEM</item>
+<item>DEXPURE I.V. 10 MG</item>
+<item>DOXORIL 200</item>
+<item>DOXORIL PLUS 2</item>
+<item>GLYREP XL 1000</item>
+<item>MECONERV SYRUP</item>
+<item>MICROCAL M TAB</item>
+<item>PRASUMAX 10</item>
+<item>PRASUREL 10</item>
+<item>PRASUREL 5</item>
+<item>STAFOBAN CREAM</item>
+<item>TROXPRO</item>
+<item>ZANOVID IV</item>
+<item>DOXORIL-OD 400</item>
+<item>FERIUM XT Z</item>
+<item>GATIMAC 200</item>
+<item>METPURE AP</item>
+<item>PERMARID 5%</item>
+<item>PIOGLU M 15</item>
+<item>PRASUMAX 5</item>
+<item>HICET SYP</item>
+<item>EVION OMEGA 200</item>
+<item>GLYREP</item>
+<item>MAGNISTA INJ</item>
+<item>DICLORAN 3D</item>
+<item>LACRISOL E/D</item>
+<item>NASIVION ADULT DROPS</item>
+<item>RISPOND 2</item>
+<item>CARBOPHAGE P15</item>
+<item>CARBOPHAGE P30</item>
+<item>EJALONG 30</item>
+<item>FERIUM 365 SUSP</item>
+<item>METROGYL V7</item>
+<item>OROFER XT-Z</item>
+<item>RITE O CEF DRY SYP</item>
+<item>AUGPEN LB 1G BID</item>
+<item>C TAX O 400</item>
+<item>C ZID 1G</item>
+<item>EJALONG 60</item>
+<item>EJALONG XL TAB</item>
+<item>ERECTEM</item>
+<item>FORSMART 400</item>
+<item>FORSMART 400 INH</item>
+<item>FUTADEN D</item>
+<item>JUSTSLEEP 2</item>
+<item>METROGYL V3</item>
+<item>NITRA  GEL</item>
+<item>OXIDON PLUS</item>
+<item>PANZOLE</item>
+<item>R PURE D</item>
+<item>REE-500</item>
+<item>RITE O CEF 200</item>
+<item>RITE O CEF CV</item>
+<item>SUSTIMAX</item>
+<item>SUSTINEX 60</item>
+<item>TAPENTA 75</item>
+<item>VITALEM</item>
+<item>ATPURE SA</item>
+<item>DOMIZOL</item>
+<item>DOTRA M TAB</item>
+<item>FERIUM DROPS</item>
+<item>RANTAC AC</item>
+<item>RAPITOIN 150</item>
+<item>RITE O CEF CV DRY SYP</item>
+<item>CARBOPHAGE 1000 SR</item>
+<item>MET NEUROBION INJ</item>
+<item>COVERIT AX 2%</item>
+<item>FLEXIJOINT</item>
+<item>FULL 365 SYP</item>
+<item>MAXTRA COLD TAB</item>
+<item>AUGPEN 1GM TAB</item>
+<item>HEPMEND 150</item>
+<item>ADK2</item>
+<item>ALSARTAN 25 MG TAB</item>
+<item>CALOSOFT LOTION</item>
+<item>CALOSOFT LOTION 50 ML</item>
+<item>DOMIZOL DS</item>
+<item>ETOCOX 90</item>
+<item>FLUVISTA</item>
+<item>LORNICAM 8</item>
+<item>MAXTRA NASAL DROPS</item>
+<item>MEGA CV DRY SYP 60 ML</item>
+<item>QURE 750</item>
+<item>QURE OZ</item>
+<item>SETOLAC P5 TAB</item>
+<item>C TAX O 50 DT</item>
+<item>ETOCOX 60</item>
+<item>MECOVON G</item>
+<item>MEROTEC 125 MG INJ</item>
+<item>METHYPREG DS</item>
+<item>NASIVION ALLERGY 180MG</item>
+<item>PULMOCEF 500 TAB</item>
+<item>SURFAZ POWDER</item>
+<item>TAPENTA 100</item>
+<item>TAPENTA 50 TAB</item>
+<item>ZEMCIFER XT DROPS</item>
+<item>ZEMCIFER XT SUSP</item>
+<item>BEVON SYP</item>
+<item>NASIVION ALLERGY 120MG</item>
+<item>PANSA DSR</item>
+<item>CARBOPHAGE 500SR</item>
+<item>ANGIZAAR AT</item>
+<item>HEMOBION CAPTABS</item>
+<item>POLYBION TOTAL SYREP</item>
+<item>PLENDIL 10 TAB</item>
+<item>DIARICH 100G</item>
+<item>EVION OMEGA 400</item>
+<item>ELECTROBION APPLE SIP</item>
+<item>TELONG 20 TAB</item>
+<item>ANXIT 0.5</item>
+<item>EASEHALER INHALER</item>
+<item>POLYBION COMPLETE SYRUP 150ML</item>
+<item>FICO 100</item>
+<item>L CIN E/E DR</item>
+<item>NITRA  OR</item>
+<item>APRUV 2.5</item>
+<item>APRUV 5</item>
+<item>AUGTAZ 500 MG INJ</item>
+<item>AURICH 200 INJ</item>
+<item>BRUTEK 400</item>
+<item>CALCIGRAF AG GEL</item>
+<item>CALONAT CL TAB</item>
+<item>DOLOSPAN INJ</item>
+<item>ETS 100 INJ</item>
+<item>HEXIM DRY SYP</item>
+<item>MACZONE XP 500 INJ</item>
+<item>MULTICLAV KID TAB</item>
+<item>PANTOFIX D</item>
+<item>PLACIDIN XR 200</item>
+<item>PROLAC POWDER</item>
+<item>RECOVIT</item>
+<item>ZORDIL INJ</item>
+<item>ACUCORT 100</item>
+<item>ACUCORT 250</item>
+<item>ATAZOR 150</item>
+<item>ATAZOR 200</item>
+<item>AUGTAZ 1 GM INJ</item>
+<item>BACTILEM AX</item>
+<item>BRUTEK 300</item>
+<item>CEFECTIVE  200  TAB</item>
+<item>CEFJOY 100</item>
+<item>CLAVTAX O 100 TAB</item>
+<item>CLAVTAX O 200 TAB</item>
+<item>CZ EX</item>
+<item>ETS 400</item>
+<item>FICO P</item>
+<item>IFB-12 CAP</item>
+<item>LIPIRA 20</item>
+<item>LIPIRA 40</item>
+<item>LIPOFIX-EX</item>
+<item>MACZONE XP 250 INJ</item>
+<item>MAYFER DROPS</item>
+<item>NATOLAC CAPS</item>
+<item>PALOSTAR INJ</item>
+<item>PEPCIFLAM TAB</item>
+<item>PIVIPOL LOTION</item>
+<item>PLACIDIN XR 300</item>
+<item>PLENDIL 2.5 TAB</item>
+<item>PROSTODIN-250 MG INJ</item>
+<item>SCUD 1 GM</item>
+<item>AMIODAR 100</item>
+<item>APRUV LT</item>
+<item>ARTIVIL</item>
+<item>AXACEF 750 INJ</item>
+<item>CZ COLD SYP</item>
+<item>DOXIFLO SYP</item>
+<item>LIPOFIX -10</item>
+<item>MOVERAN AC</item>
+<item>NORMET XT SUSP</item>
+<item>OMNACORTIL CREAM</item>
+<item>PACENORM IV</item>
+<item>PANDERM OINT</item>
+<item>PAUSE MOUTHWASH</item>
+<item>RABIFIX 20</item>
+<item>SCUD 250 INJ</item>
+<item>SCUD 500 INJ</item>
+<item>SIMVOFIX -20</item>
+<item>TELONG 40 TAB</item>
+<item>TELONG H TAB</item>
+<item>ANXIT 0.25</item>
+<item>BRUTEK 200</item>
+<item>DICLONAC VIAL</item>
+<item>COXSER 10</item>
+<item>ENOXARIN 40</item>
+<item>ENOXARIN 60</item>
+<item>FORPLUS-400MG</item>
+<item>PLACIDIN 25</item>
+<item>ENFINITY</item>
+<item>EVION Q10</item>
+<item>SUPRACID SACHET</item>
+<item>OGIT M SUSP</item>
+<item>EVION CREAM 20 GM</item>
+<item>EVION Q100</item>
+<item>MEGACHOLIN PASTILLE</item>
+<item>POLYBION FORTE</item>
+<item>HERPAREX EYE OINTMENT</item>
+<item>AMTORIL</item>
+<item>DOXORIL M</item>
+<item>METPURE IR 25</item>
+<item>METPURE ORAL SOLUTION</item>
+<item>ABHOPE 300</item>
+<item>ASOMET XL</item>
+<item>ASOMEX BULK 2.5</item>
+<item>LINCOTUSS PLUS SYP</item>
+<item>METPURE IR 50</item>
+<item>PIOGLU G 2</item>
+<item>SCUD XP 1 GM INJ</item>
+<item>ENZOVEXX TAB</item>
+<item>FALCINIL LF</item>
+<item>PANTOFIX IV</item>
+<item>PIOGLU G 1</item>
+<item>MECONERV  FORTE</item>
+<item>KOJIVIT CREAM</item>
+<item>NASIVION CARE(BABY)10ML</item>
+<item>CEFECTIVE  100  TAB</item>
+<item>EXFLAM  GEL</item>
+<item>DIURIX SR TAB</item>
+<item>FICO SR</item>
+<item>MACZONE PLUS 750</item>
+<item>SERVACE 2.5</item>
+<item>AVAS PLUS</item>
+<item>MICROSOL EYE DROP</item>
+<item>NEURICA-M 150 TAB</item>
+<item>NUMLOTOR 5</item>
+<item>POLYBION L SYRUP</item>
+<item>TRIVATE MF OINT.</item>
+<item>DIURIX 2.5 MG</item>
+<item>MACZONE PLUS 1.5</item>
+<item>MACZONE PLUS 375</item>
+<item>PERMARID LOTION</item>
+<item>POLYBION L 250 SYP</item>
+<item>SERVACE 5</item>
+<item>DOXORIL OD</item>
+<item>FLUNOVA 200</item>
+<item>OLAMIN OINT</item>
+<item>CARVIDION OD</item>
+<item>ACUDROX 125 DRY SYP</item>
+<item>CEFANTRAL 250</item>
+<item>LUPIDERM M</item>
+<item>OPTINUERON</item>
+<item>SCASIS 150 TAB</item>
+<item>LORIVAN 1 MG</item>
+<item>ACUDROX 250 DT</item>
+<item>ACUDROX 250 DRY SYP</item>
+<item>AEROZEST RESP</item>
+<item>AEROZEST RESP 0.63</item>
+<item>AZISWIFT 250</item>
+<item>LUPISULINE N 40</item>
+<item>NASIVION CARE(ADULT)10ML</item>
+<item>ACUDROX 125 DT</item>
+<item>DIVEXX MR TAB</item>
+<item>SERVACE 1.25</item>
+<item>VERORAB</item>
+<item>ACUDROX 500</item>
+<item>LUPIDERM</item>
+<item>AEROZEST RESP 1.25</item>
+<item>RITECEF T INJ</item>
+<item>AMLOVAS S 2.5</item>
+<item>ARISTAT</item>
+<item>FLUNOVA 50 DT</item>
+<item>ACLOTIL 75</item>
+<item>CANDELONG -4 TAB</item>
+<item>LIPOFIX R</item>
+<item>OCIUM 500 TAB</item>
+<item>PANTOFLUX</item>
+<item>SERVACE AM TAB</item>
+<item>ALBENDOL SYP</item>
+<item>ATOREC ASP</item>
+<item>CEFECTIVE  100  SY</item>
+<item>COZIT</item>
+<item>DOLOSPAN DP TAB</item>
+<item>DOLOSPAN P TAB</item>
+<item>DOLOSPAN TAB</item>
+<item>PHOTOBEN 15 LOTION</item>
+<item>PRODIUM 20</item>
+<item>REINCAR CAP</item>
+<item>ROLOFLEX</item>
+<item>ZINCONIA 20 DT</item>
+<item>ACUCLAV IV 1.2 GM</item>
+<item>ACUCLAV LB DRY SYP</item>
+<item>C-TRI T 250</item>
+<item>C-TRI T 500</item>
+<item>CADVION FORTE</item>
+<item>DIAGRM-40</item>
+<item>DIAGRM-80</item>
+<item>DIVEXX P TAB</item>
+<item>DOLOSPAN SR TAB</item>
+<item>FICO SP</item>
+<item>LORIVAN 2 MG</item>
+<item>MECONERV 1500</item>
+<item>REGEN TAB</item>
+<item>RITECEF-T-500MG INJ</item>
+<item>SCUD XP 250MG INJ</item>
+<item>SCUD XP 500MG INJ</item>
+<item>SIMSTAT 10 TAB</item>
+<item>TOROLAC EYE DROP</item>
+<item>ACUCLAV IV 300 MG</item>
+<item>ADBETA H</item>
+<item>AMLONG 7.5</item>
+<item>C-TRI 125 MG</item>
+<item>LUPIDERM S</item>
+<item>NUCORIL I. V. 48 MG</item>
+<item>ROSINORM -G</item>
+<item>NITRA DENT</item>
+<item>LUPIDERM G</item>
+<item>OFLAMAC MN SUSP</item>
+<item>STERIDERM CREAM</item>
+<item>ALENOST 70</item>
+<item>LIPOFIX 5 MG TAB</item>
+<item>CLOBETAMIL CR</item>
+<item>COVANCE CP 50 TAB</item>
+<item>OFLAMAC MN 60ML</item>
+<item>AUGTAZ KID 125 INJ</item>
+<item>LINCOTUSS SYP 120</item>
+<item>LINCOTUSS SYP 60</item>
+<item>DOXORIL PLUS 4</item>
+<item>PERIFER-2.5  TAB</item>
+<item>ANXIT 0.125</item>
+<item>IBUSOFT 300 TAB</item>
+<item>PANTOCAR</item>
+<item>CANDELONG -8 TAB</item>
+<item>ANXIT 1</item>
+<item>MECONERV INJ</item>
+<item>OXIDON  CAPS</item>
+<item>PARANIM TAB</item>
+<item>RISPOND 4</item>
+<item>IBUSOFT-XT TAB</item>
+<item>MICRODOX DT</item>
+<item>DILATE EYE DROPS</item>
+<item>OFLACIN DX EYE DROPS</item>
+<item>METROGYL GEL OINT</item>
+<item>BRUTEK P</item>
+<item>AEROZEST</item>
+<item>RANTAC D</item>
+<item>NORMETROGYL</item>
+<item>NEUROBION FORTE INJ</item>
+<item>METROGYL COMP</item>
+<item>AVAS AM</item>
+<item>CPOD-50 DT</item>
+<item>CPOD 50 SYP</item>
+<item>CPOD-100 TAB</item>
+<item>SIMVOFIX 40</item>
+<item>CPOD 100 SYP</item>
+<item>NORLEVO TAB</item>
+<item>ROLES-IT CAP</item>
+<item>ALLRITE D TAB</item>
+<item>LUPIDERM GM</item>
+<item>ODOXIL OD</item>
+<item>POLYBION  SYRUP   250 ML</item>
+<item>POLYBION SYRUP 400 ML</item>
+<item>NITRAMET</item>
+<item>CALONAL TAB</item>
+<item>ANEMIDOX</item>
+<item>POLYBION TABS</item>
+<item>MAZZ 500 TAB</item>
+<item>OFLACIN P DROPS</item>
+<item>POLYBION  SYRUP 100ML</item>
+<item>ALTRAFLAM P GM</item>
+<item>ALTRAFLAM SR CAP</item>
+<item>PREDACE DROPS</item>
+<item>MICROFLOX DX SOLN EOD</item>
+<item>DYNACLOX KID TAB</item>
+<item>DYNACLOX 500 CAP</item>
+<item>MICRODOX DR CAPSULES</item>
+<item>ALDOSTIX</item>
+<item>DIBIZIDE TAB</item>
+<item>EXNA K</item>
+<item>AMALAR</item>
+<item>BETAMIL  OINT</item>
+<item>GESDYP</item>
+<item>CYCLODOL TAB</item>
+<item>MICLOGENTA CREAM</item>
+<item>OF T</item>
+<item>CASERA TAB</item>
+<item>MICLOGENTA CREAM 5 GMS</item>
+<item>RISPOND 3</item>
+<item>A PHYL SYP</item>
+<item>ABEL 10</item>
+<item>ABEL 20</item>
+<item>ACCUZON 125</item>
+<item>ACEMIZ MR</item>
+<item>AEROZEST INH</item>
+<item>ALBENDOL</item>
+<item>ALFACAL 0.5</item>
+<item>ALRISTAN 25</item>
+<item>ALRISTAN 50</item>
+<item>ALRISTAN H</item>
+<item>ALWEL-5</item>
+<item>AMALAR FORTE</item>
+<item>AMALAR SUSP</item>
+<item>ANXIT 1 SR</item>
+<item>ARILAN 10 TAB</item>
+<item>ARILAN 30</item>
+<item>ASFER TAB</item>
+<item>ASOMEX CL</item>
+<item>ASOMEX OH FORTE</item>
+<item>ATENOVA 100</item>
+<item>BALPOD 100</item>
+<item>BALPOD 200</item>
+<item>BALPOD CV</item>
+<item>BEETRION</item>
+<item>BENEURON FORTE</item>
+<item>C TAX 125</item>
+<item>CALCIGRAF AG FILM</item>
+<item>CALCIGRAF AG FOAM</item>
+<item>CALCIGRAF AG VASCULAR</item>
+<item>CEFANTRAL 125</item>
+<item>CEFFOREN 200</item>
+<item>CIPROBIOTIC TN-250</item>
+<item>CZ L CAP</item>
+<item>DIBIZIDE OD</item>
+<item>DIBIZIDE OD 10MG</item>
+<item>DICLONAC MR</item>
+<item>DICLONAC SR</item>
+<item>DICLORAN MR</item>
+<item>DIET LCF SYP</item>
+<item>DIOF TAB</item>
+<item>DOXCEF TAB 100</item>
+<item>DOXIFLO OD TAB</item>
+<item>DUOPRIDE</item>
+<item>EMFOLIC INJ</item>
+<item>EMFOLIC SUP</item>
+<item>EMSULIDE SP</item>
+<item>HEXIM-100 TAB</item>
+<item>LIPOFIX TG</item>
+<item>LUPI FSH 150 IU</item>
+<item>LUPI FSH 75 IU</item>
+<item>LUPI HCG 10000 IU</item>
+<item>LUPI HCG 2000 IU</item>
+<item>LUPI HMG 150 IU</item>
+<item>METROGYL F</item>
+<item>METROGYL V GEL</item>
+<item>MICRODOX</item>
+<item>MICROFLOX  E/E DROPS</item>
+<item>MICROFLOX 250</item>
+<item>NORMET R 30 POWD</item>
+<item>NUSAR R 2.5</item>
+<item>NUSAR R 5</item>
+<item>ODOXIL SUSP 250</item>
+<item>OF OD 800</item>
+<item>OFLA OZ</item>
+<item>P and M</item>
+<item>PACLISTAR 100 INJ</item>
+<item>PACLISTAR 260 INJ</item>
+<item>PACLISTAR 30</item>
+<item>PIOREST M</item>
+<item>PIVIPOL OINT</item>
+<item>PLACIDOX INJ</item>
+<item>PROGYNOVA-2 MG</item>
+<item>PROMOX DRY SYP</item>
+<item>PROMOX-375 TAB</item>
+<item>PROMOX-625 TAB</item>
+<item>RELAXYL</item>
+<item>RELAXYL SPRAY</item>
+<item>RELAXYL SR</item>
+<item>RITOX CAP</item>
+<item>ROFICA 25</item>
+<item>ROFICA 50</item>
+<item>ROFICA GEL</item>
+<item>ROFLASH 50</item>
+<item>SENACEPT 30</item>
+<item>SURFAZ EAR DPS</item>
+    </string-array>
+</resources>
