@@ -1,8 +1,8 @@
 package in.shaaan.ga_onlineorders;
 
+import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
@@ -37,11 +37,10 @@ public class BuildOrder extends AppCompatActivity {
         TextView textView = (TextView) findViewById(R.id.prodList);
         if (drug.matches("")) {
             Snackbar.make(view, "You did not enter the product", Snackbar.LENGTH_LONG).show();
-        }
-        else if (quantity.matches("")) {
+        } else if (quantity.matches("")) {
             Snackbar.make(view, "You did not add the quantity", Snackbar.LENGTH_LONG).show();
         } else
-        textView.append("" + drug + "     " + quantity + "\n");
+            textView.append("" + drug + "     " + quantity + "\n");
         autoCompleteTextView.getText().clear();
         editText.getText().clear();
         autoCompleteTextView.requestFocus();
