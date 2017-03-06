@@ -8,11 +8,29 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.firebase.ui.auth.AuthUI;
+import com.google.firebase.auth.FirebaseAuth;
+
 public class AllOrders extends AppCompatActivity {
+
+    private static final int RC_SIGN_IN = 7410;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        FirebaseAuth auth = FirebaseAuth.getInstance();
+        if (auth.getCurrentUser() != null) {
+            // already signed in
+        } else {
+            // not signed in
+            startActivityForResult(
+                    // Get an instance of AuthUI based on the default app
+                    AuthUI.getInstance().createSignInIntentBuilder().build(),
+                    RC_SIGN_IN);
+        }
+
         setContentView(R.layout.activity_all_orders);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
