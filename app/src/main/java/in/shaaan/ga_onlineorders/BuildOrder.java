@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
@@ -14,11 +13,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -112,6 +108,13 @@ public class BuildOrder extends AppCompatActivity {
         Toast.makeText(this, "Sending Order..", Toast.LENGTH_LONG).show();
 
         final String userId = getUid();
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference reference = database.getReference("salesman").child(userId);
+        reference.child("orders").push().setValue(customer, product);
+        setEditing(true);
+        finish();
+
+        /*final String userId = getUid();
         databaseReference.child("salesman").child(userId).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -120,8 +123,8 @@ public class BuildOrder extends AppCompatActivity {
                 if (user == null) {
                     //Unknown user
                     Log.e(TAG, "User" + userId + "is null");
-                    /*Intent i = new Intent(BuildOrder.this, LoginActivity.class);
-                    startActivity(i);*/
+                    *//*Intent i = new Intent(BuildOrder.this, LoginActivity.class);
+                    startActivity(i);*//*
                     finish();
                 } else {
                     submitOrder(userId, user.username, customer, product);
@@ -138,7 +141,7 @@ public class BuildOrder extends AppCompatActivity {
                 setEditing(true);
                 // [END_EXCLUDE]
             }
-        });
+        });*/
     }
 
     public String getUid() {

@@ -32,6 +32,8 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -75,6 +77,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                 if (user != null) {
                     // User is signed in
                     Log.d(TAG, "onAuthStateChanged:signed_in:" + user.getUid());
+                    String uid = FirebaseAuth.getInstance().getCurrentUser().getUid();
                     Intent intent = new Intent(LoginActivity.this, AllOrders.class);
                     startActivity(intent);
                     finish();
@@ -116,6 +119,15 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         mProgressView = findViewById(R.id.login_progress);
 
     }
+
+
+    /*public String getUid() {
+        if (FirebaseAuth.getInstance().getCurrentUser() != null) {
+            return FirebaseAuth.getInstance().getCurrentUser().getUid();
+        } else {
+            finish();
+        }
+    }*/
 
     @Override
     public void onStart() {
@@ -188,7 +200,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         mPasswordView.setError(null);
 
         // Store values at the time of the login attempt.
-        String email = mEmailView.getText().toString();
+        final String email = mEmailView.getText().toString();
         String password = mPasswordView.getText().toString();
 
         boolean cancel = false;
@@ -235,6 +247,9 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                                 Toast.LENGTH_SHORT).show();
                         finish();
                     } else {
+                        FirebaseDatabase database = FirebaseDatabase.getInstance();
+                        DatabaseReference reference = database.getReference().child("salesman").child(FirebaseAuth.getInstance().getCurrentUser().getUid());
+                        reference.child("email").setValue(email);
                         Intent intent = new Intent(LoginActivity.this, AllOrders.class);
                         startActivity(intent);
                         finish();
@@ -243,6 +258,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             });
         }
     }
+
+
 
     private boolean isEmailValid(String email) {
         //TODO: Replace this with your own logic
