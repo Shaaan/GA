@@ -41,23 +41,23 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/prodNameView"
             android:padding="@dimen/frag_pad"
-            android:textSize="18sp" />
+            android:textSize="20sp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autocompleteview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Product Name"
+            android:layout_below="@id/prodList"
+            android:inputType="textNoSuggestions|textFilter"
+            android:maxLines="1" />
 
         <LinearLayout
             android:id="@+id/linear"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/prodList"
+            android:layout_below="@id/autocompleteview"
             android:orientation="horizontal">
-
-            <AutoCompleteTextView
-                android:id="@+id/autocompleteview"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.5"
-                android:hint="Product Name"
-                android:inputType="textNoSuggestions|textFilter"
-                android:maxLines="1" />
 
             <EditText
                 android:id="@+id/quantity"

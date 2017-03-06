@@ -22,11 +22,17 @@ public class BuildOrder extends AppCompatActivity {
 
         int layoutItemId = android.R.layout.simple_dropdown_item_1line;
         String[] drugArr = getResources().getStringArray(R.array.drugList);
+        String[] custArr = getResources().getStringArray(R.array.custList);
         List<String> drugList = Arrays.asList(drugArr);
+        List<String> custList = Arrays.asList(custArr);
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, layoutItemId, drugList);
+        ArrayAdapter<String> adapter1 = new ArrayAdapter<>(this, layoutItemId, custList);
 
         AutoCompleteTextView autoCompleteTextView = (AutoCompleteTextView) findViewById(R.id.autocompleteview);
         autoCompleteTextView.setAdapter(adapter);
+
+        AutoCompleteTextView autoCompleteTextView1 = (AutoCompleteTextView) findViewById(R.id.custName);
+        autoCompleteTextView1.setAdapter(adapter1);
     }
 
     public void addProduct(View view) {
