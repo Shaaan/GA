@@ -27,6 +27,7 @@ public class BuildOrder extends AppCompatActivity {
     private static final String TAG = "BuildOrder";
     private static final String REQUIRED = "This is required";
 
+
     private DatabaseReference databaseReference;
 
     /*@Bind(R.id.custName)
@@ -69,6 +70,7 @@ public class BuildOrder extends AppCompatActivity {
 
     }
 
+
     public void addProduct(View view) {
         AutoCompleteTextView autoCompleteTextView = (AutoCompleteTextView) findViewById(R.id.autocompleteview);
         EditText editText = (EditText) findViewById(R.id.quantity);
@@ -90,6 +92,7 @@ public class BuildOrder extends AppCompatActivity {
         submitOrder();
     }
 
+
     private void submitOrder() {
         final String customer = mActv.getText().toString();
         final String product = mTextView.getText().toString();
@@ -110,7 +113,7 @@ public class BuildOrder extends AppCompatActivity {
         final String userId = getUid();
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference reference = database.getReference("salesman").child(userId);
-        reference.child("orders").push().setValue(customer, product);
+        reference.child("orders").push().child("custName").setValue(customer);
         setEditing(true);
         finish();
 
@@ -159,7 +162,7 @@ public class BuildOrder extends AppCompatActivity {
     }
 
     private void submitOrder(String userId, String username, String customerName, String orderProducts) {
-        String key = databaseReference.child("orderId").push().getKey();
+        String key = databaseReference.child("salesman").child("order").push().getKey();
         Post post = new Post(userId, username, customerName, orderProducts);
         Map<String, Object> postValue = post.toMap();
 
