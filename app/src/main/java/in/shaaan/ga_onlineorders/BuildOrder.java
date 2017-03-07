@@ -40,6 +40,7 @@ public class BuildOrder extends AppCompatActivity {
     private TextView mTextView;
     private AutoCompleteTextView mActv;
     private Button mButton;
+    private String email;
 
 
     @Override
@@ -110,10 +111,15 @@ public class BuildOrder extends AppCompatActivity {
         setEditing(false);
         Toast.makeText(this, "Sending Order..", Toast.LENGTH_LONG).show();
 
+        final String eMail = FirebaseAuth.getInstance().getCurrentUser().getEmail();
+
         final String userId = getUid();
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference reference = database.getReference("salesman").child(userId);
-        reference.child("orders").push().child("custName").setValue(customer);
+        reference.child("email").setValue(eMail);
+        String key = reference.child("salesman").child(userId).child("orders").push().getKey();
+        reference.child(key).child("custName").setValue(customer);
+        reference.child(key).child("bill").setValue(product);
         setEditing(true);
         finish();
 
@@ -145,6 +151,7 @@ public class BuildOrder extends AppCompatActivity {
                 // [END_EXCLUDE]
             }
         });*/
+
     }
 
     public String getUid() {
