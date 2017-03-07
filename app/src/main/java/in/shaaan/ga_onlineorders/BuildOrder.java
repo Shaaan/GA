@@ -21,6 +21,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import butterknife.Bind;
+import butterknife.ButterKnife;
+
 
 public class BuildOrder extends AppCompatActivity {
 
@@ -42,11 +45,14 @@ public class BuildOrder extends AppCompatActivity {
     private Button mButton;
     private String email;
 
+    @Bind(R.id.expProdList)
+    TextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_build_order);
+        ButterKnife.bind(this);
 
         int layoutItemId = android.R.layout.simple_dropdown_item_1line;
         String[] drugArr = getResources().getStringArray(R.array.drugList);
@@ -57,6 +63,8 @@ public class BuildOrder extends AppCompatActivity {
         ArrayAdapter<String> adapter1 = new ArrayAdapter<>(this, layoutItemId, custList);
 
         AutoCompleteTextView autoCompleteTextView = (AutoCompleteTextView) findViewById(R.id.autocompleteview);
+        AutoCompleteTextView autoCompleteTextView1 = (AutoCompleteTextView) findViewById(R.id.autocompleteviewExp);
+        autoCompleteTextView1.setAdapter(adapter);
         autoCompleteTextView.setAdapter(adapter);
 
         /*AutoCompleteTextView autoCompleteTextView1 = (AutoCompleteTextView) findViewById(R.id.custName);
@@ -89,6 +97,18 @@ public class BuildOrder extends AppCompatActivity {
         autoCompleteTextView.requestFocus();
     }
 
+    public void addExpiry(View view) {
+        AutoCompleteTextView autoCompleteTextView = (AutoCompleteTextView) findViewById(R.id.autocompleteviewExp);
+        EditText editText = (EditText) findViewById(R.id.quantityExp);
+        String quantity = editText.getText().toString();
+        String drugExp = autoCompleteTextView.getText().toString();
+        TextView textView = (TextView) findViewById(R.id.expProdList);
+        textView.append(drugExp + "     " + quantity + "\n");
+        autoCompleteTextView.getText().clear();
+        editText.getText().clear();
+        autoCompleteTextView.requestFocus();
+    }
+
     public void sendOrder(View view) {
         submitOrder();
     }
@@ -96,6 +116,7 @@ public class BuildOrder extends AppCompatActivity {
 
     private void submitOrder() {
         final String customer = mActv.getText().toString();
+        final String expProduct = textView.getText().toString();
         final String product = mTextView.getText().toString();
 
         if (TextUtils.isEmpty(customer)) {
@@ -119,7 +140,8 @@ public class BuildOrder extends AppCompatActivity {
         reference.child("email").setValue(eMail);
         String key = reference.child("salesman").child(userId).child("orders").push().getKey();
         reference.child(key).child("custName").setValue(customer);
-        reference.child(key).child("bill").setValue(product);
+        reference.child(key).child("products").setValue(product);
+        reference.child(key).child("expProducts").setValue(expProduct);
         setEditing(true);
         finish();
 

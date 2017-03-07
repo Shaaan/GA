@@ -75,13 +75,62 @@
                 android:text="add" />
         </LinearLayout>
 
+        <TextView
+            android:id="@+id/expProdNameView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear"
+            android:layout_marginTop="15dp"
+            android:text="Products Against Expiry"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/expProdList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/expProdNameView"
+            android:padding="@dimen/frag_pad"
+            android:textSize="20sp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autocompleteviewExp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Product Name"
+            android:layout_below="@id/expProdList"
+            android:inputType="textNoSuggestions|textFilter"
+            android:maxLines="1" />
+
+        <LinearLayout
+            android:id="@+id/linearExp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/autocompleteviewExp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/quantityExp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:hint="Quantity"
+                android:inputType="numberDecimal" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:onClick="addExpiry"
+                android:text="add" />
+        </LinearLayout>
+
         <Button
             android:id="@+id/submit"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/linear"
+            android:layout_below="@+id/linearExp"
             android:layout_marginTop="10dp"
             android:onClick="sendOrder"
             android:padding="@dimen/frag_pad"
