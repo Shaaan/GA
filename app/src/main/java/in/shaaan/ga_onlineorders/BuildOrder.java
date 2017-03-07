@@ -103,6 +103,11 @@ public class BuildOrder extends AppCompatActivity {
         String quantity = editText.getText().toString();
         String drugExp = autoCompleteTextView.getText().toString();
         TextView textView = (TextView) findViewById(R.id.expProdList);
+        if (drugExp.matches("")) {
+            Snackbar.make(view, "You did not enter the product", Snackbar.LENGTH_LONG).show();
+        } else if (quantity.matches("")) {
+            Snackbar.make(view, "You did not add the quantity", Snackbar.LENGTH_LONG).show();
+        } else
         textView.append(drugExp + "     " + quantity + "\n");
         autoCompleteTextView.getText().clear();
         editText.getText().clear();
