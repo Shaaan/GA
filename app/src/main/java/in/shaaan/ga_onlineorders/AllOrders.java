@@ -11,6 +11,8 @@ import android.view.View;
 import com.firebase.ui.auth.AuthUI;
 import com.google.firebase.auth.FirebaseAuth;
 
+import java.util.Arrays;
+
 public class AllOrders extends AppCompatActivity {
 
     private static final int RC_SIGN_IN = 7410;
@@ -27,7 +29,7 @@ public class AllOrders extends AppCompatActivity {
             // not signed in
             startActivityForResult(
                     // Get an instance of AuthUI based on the default app
-                    AuthUI.getInstance().createSignInIntentBuilder().build(),
+                    AuthUI.getInstance().createSignInIntentBuilder().setProviders(Arrays.asList(new AuthUI.IdpConfig.Builder(AuthUI.EMAIL_PROVIDER).build())).build(),
                     RC_SIGN_IN);
         }
 
