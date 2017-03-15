@@ -20,6 +20,7 @@ public class Post {
     public Post() {
 
     }
+
     public Post(String uid, String salesman, String custName, String order) {
         this.uid = uid;
         this.salesman = salesman;

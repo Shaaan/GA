@@ -47,8 +47,8 @@
             android:id="@+id/autocompleteview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Product Name"
             android:layout_below="@id/prodList"
+            android:hint="Product Name"
             android:inputType="textNoSuggestions|textFilter"
             android:maxLines="1" />
 
@@ -96,8 +96,8 @@
             android:id="@+id/autocompleteviewExp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Product Name"
             android:layout_below="@id/expProdList"
+            android:hint="Product Name"
             android:inputType="textNoSuggestions|textFilter"
             android:maxLines="1" />
 

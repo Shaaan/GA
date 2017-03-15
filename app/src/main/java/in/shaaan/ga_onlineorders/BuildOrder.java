@@ -29,9 +29,8 @@ public class BuildOrder extends AppCompatActivity {
 
     private static final String TAG = "BuildOrder";
     private static final String REQUIRED = "This is required";
-
-
-    private DatabaseReference databaseReference;
+    @Bind(R.id.expProdList)
+    TextView textView;
 
     /*@Bind(R.id.custName)
     AutoCompleteTextView custName;
@@ -39,14 +38,11 @@ public class BuildOrder extends AppCompatActivity {
     Button mSend;
     @Bind(R.id.prodList)
     TextView prodName;*/
-
+    private DatabaseReference databaseReference;
     private TextView mTextView;
     private AutoCompleteTextView mActv;
     private Button mButton;
     private String email;
-
-    @Bind(R.id.expProdList)
-    TextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -108,7 +104,7 @@ public class BuildOrder extends AppCompatActivity {
         } else if (quantity.matches("")) {
             Snackbar.make(view, "You did not add the quantity", Snackbar.LENGTH_LONG).show();
         } else
-        textView.append(drugExp + "     " + quantity + "\n");
+            textView.append(drugExp + "     " + quantity + "\n");
         autoCompleteTextView.getText().clear();
         editText.getText().clear();
         autoCompleteTextView.requestFocus();
