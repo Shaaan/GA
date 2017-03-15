@@ -2,7 +2,6 @@ package in.shaaan.ga_onlineorders;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -19,11 +18,9 @@ import butterknife.ButterKnife;
 
 public class AllOrders extends AppCompatActivity {
 
+    private static final int RC_SIGN_IN = 7410;
     @Bind(R.id.fab)
     FloatingActionButton floatingActionButton;
-
-    private static final int RC_SIGN_IN = 7410;
-    private CoordinatorLayout coordinatorLayout;
 
 
     @Override
@@ -40,7 +37,6 @@ public class AllOrders extends AppCompatActivity {
         if (auth.getCurrentUser() != null) {
             // already signed in
             Snackbar.make(findViewById(R.id.coordinatorLayout), "Logged in successfully..", Snackbar.LENGTH_LONG).show();
-            /*Toast.makeText(this, "Logged in Successfully..", Toast.LENGTH_LONG).show();*/
             floatingActionButton.setVisibility(View.VISIBLE);
         } else {
             // not signed in
