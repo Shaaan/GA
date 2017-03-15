@@ -2,6 +2,9 @@ package in.shaaan.ga_onlineorders;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.CoordinatorLayout;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -11,18 +14,34 @@ import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.Arrays;
 
+import butterknife.Bind;
+import butterknife.ButterKnife;
+
 public class AllOrders extends AppCompatActivity {
 
+    @Bind(R.id.fab)
+    FloatingActionButton floatingActionButton;
+
     private static final int RC_SIGN_IN = 7410;
+    private CoordinatorLayout coordinatorLayout;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_all_orders);
+        ButterKnife.bind(this);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        floatingActionButton.setVisibility(View.INVISIBLE);
+
 
         FirebaseAuth auth = FirebaseAuth.getInstance();
         if (auth.getCurrentUser() != null) {
             // already signed in
+            Snackbar.make(findViewById(R.id.coordinatorLayout), "Logged in successfully..", Snackbar.LENGTH_LONG).show();
+            /*Toast.makeText(this, "Logged in Successfully..", Toast.LENGTH_LONG).show();*/
+            floatingActionButton.setVisibility(View.VISIBLE);
         } else {
             // not signed in
             startActivityForResult(
@@ -30,10 +49,6 @@ public class AllOrders extends AppCompatActivity {
                     AuthUI.getInstance().createSignInIntentBuilder().setProviders(Arrays.asList(new AuthUI.IdpConfig.Builder(AuthUI.EMAIL_PROVIDER).build())).build(),
                     RC_SIGN_IN);
         }
-
-        setContentView(R.layout.activity_all_orders);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
 
         /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
