@@ -17,9 +17,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -32,17 +30,10 @@ public class BuildOrder extends AppCompatActivity {
     @Bind(R.id.expProdList)
     TextView textView;
 
-    /*@Bind(R.id.custName)
-    AutoCompleteTextView custName;
-    @Bind(R.id.submit)
-    Button mSend;
-    @Bind(R.id.prodList)
-    TextView prodName;*/
     private DatabaseReference databaseReference;
     private TextView mTextView;
     private AutoCompleteTextView mActv;
     private Button mButton;
-    private String email;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,9 +53,6 @@ public class BuildOrder extends AppCompatActivity {
         AutoCompleteTextView autoCompleteTextView1 = (AutoCompleteTextView) findViewById(R.id.autocompleteviewExp);
         autoCompleteTextView1.setAdapter(adapter);
         autoCompleteTextView.setAdapter(adapter);
-
-        /*AutoCompleteTextView autoCompleteTextView1 = (AutoCompleteTextView) findViewById(R.id.custName);
-        autoCompleteTextView1.setAdapter(adapter1);*/
 
         databaseReference = FirebaseDatabase.getInstance().getReference();
 
@@ -146,35 +134,6 @@ public class BuildOrder extends AppCompatActivity {
         setEditing(true);
         finish();
 
-        /*final String userId = getUid();
-        databaseReference.child("salesman").child(userId).addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                User user = dataSnapshot.getValue(User.class);
-
-                if (user == null) {
-                    //Unknown user
-                    Log.e(TAG, "User" + userId + "is null");
-                    *//*Intent i = new Intent(BuildOrder.this, LoginActivity.class);
-                    startActivity(i);*//*
-                    finish();
-                } else {
-                    submitOrder(userId, user.username, customer, product);
-                }
-
-                setEditing(true);
-                finish();
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-                Log.w(TAG, "getUser:onCancelled", databaseError.toException());
-                // [START_EXCLUDE]
-                setEditing(true);
-                // [END_EXCLUDE]
-            }
-        });*/
-
     }
 
     public String getUid() {
@@ -189,18 +148,6 @@ public class BuildOrder extends AppCompatActivity {
         } else {
             mButton.setVisibility(View.GONE);
         }
-    }
-
-    private void submitOrder(String userId, String username, String customerName, String orderProducts) {
-        String key = databaseReference.child("salesman").child("order").push().getKey();
-        Post post = new Post(userId, username, customerName, orderProducts);
-        Map<String, Object> postValue = post.toMap();
-
-        Map<String, Object> childUpdates = new HashMap<>();
-        //childUpdates.put("/salesman/" + key, postValue);
-        childUpdates.put("/salesman/" + userId + "/" + key, postValue);
-
-        databaseReference.updateChildren(childUpdates);
     }
 
 }

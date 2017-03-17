@@ -48,7 +48,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/prodList"
-            android:hint="Product Name"
+            android:hint="@string/productname"
             android:inputType="textNoSuggestions|textFilter"
             android:maxLines="1" />
 
@@ -64,7 +64,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.3"
-                android:hint="Quantity"
+                android:hint="@string/quantity"
                 android:inputType="numberDecimal" />
 
             <Button
@@ -72,7 +72,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="0.2"
                 android:onClick="addProduct"
-                android:text="add" />
+                android:text="@string/add" />
         </LinearLayout>
 
         <TextView
@@ -81,7 +81,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/linear"
             android:layout_marginTop="15dp"
-            android:text="Products Against Expiry"
+            android:text="@string/pae"
             android:textSize="18sp" />
 
         <TextView
@@ -97,7 +97,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/expProdList"
-            android:hint="Product Name"
+            android:hint="@string/productname"
             android:inputType="textNoSuggestions|textFilter"
             android:maxLines="1" />
 
@@ -113,7 +113,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.3"
-                android:hint="Quantity"
+                android:hint="@string/quantity"
                 android:inputType="numberDecimal" />
 
             <Button
@@ -121,7 +121,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="0.2"
                 android:onClick="addExpiry"
-                android:text="add" />
+                android:text="@string/add" />
         </LinearLayout>
 
         <Button
@@ -134,7 +134,7 @@
             android:layout_marginTop="10dp"
             android:onClick="sendOrder"
             android:padding="@dimen/frag_pad"
-            android:text="submit" />
+            android:text="@string/submit" />
     </RelativeLayout>
 
 </ScrollView>
