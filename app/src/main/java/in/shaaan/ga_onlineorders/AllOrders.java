@@ -32,19 +32,24 @@ public class AllOrders extends AppCompatActivity {
         setSupportActionBar(toolbar);
         floatingActionButton.setVisibility(View.INVISIBLE);
 
-
-        FirebaseAuth auth = FirebaseAuth.getInstance();
-        if (auth.getCurrentUser() != null) {
-            // already signed in
-            Snackbar.make(findViewById(R.id.coordinatorLayout), "Logged in successfully..", Snackbar.LENGTH_LONG).show();
-            floatingActionButton.setVisibility(View.VISIBLE);
-        } else {
-            // not signed in
-            startActivityForResult(
-                    // Get an instance of AuthUI based on the default app
-                    AuthUI.getInstance().createSignInIntentBuilder().setProviders(Arrays.asList(new AuthUI.IdpConfig.Builder(AuthUI.EMAIL_PROVIDER).build())).build(),
-                    RC_SIGN_IN);
-        }
+        Thread thread = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                FirebaseAuth auth = FirebaseAuth.getInstance();
+                if (auth.getCurrentUser() != null) {
+                    // already signed in
+                    Snackbar.make(findViewById(R.id.coordinatorLayout), "Logged in successfully..", Snackbar.LENGTH_LONG).show();
+                    floatingActionButton.setVisibility(View.VISIBLE);
+                } else {
+                    // not signed in
+                    startActivityForResult(
+                            // Get an instance of AuthUI based on the default app
+                            AuthUI.getInstance().createSignInIntentBuilder().setProviders(Arrays.asList(new AuthUI.IdpConfig.Builder(AuthUI.EMAIL_PROVIDER).build())).build(),
+                            RC_SIGN_IN);
+                }
+            }
+        });
+        thread.start();
     }
 
 
