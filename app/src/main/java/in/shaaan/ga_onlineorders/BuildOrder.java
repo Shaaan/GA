@@ -142,8 +142,8 @@ public class BuildOrder extends AppCompatActivity {
             public void run() {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
                 DatabaseReference reference = database.getReference("allOrders");
-                reference.child("email").setValue(eMail);
                 String key = reference.push().getKey();
+                reference.child(key).child("email").setValue(eMail);
                 reference.child(key).child("custName").setValue(customer);
                 reference.child(key).child("products").setValue(product);
                 reference.child(key).child("expProducts").setValue(expProduct);
