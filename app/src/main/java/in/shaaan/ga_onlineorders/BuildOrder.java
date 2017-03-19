@@ -120,17 +120,37 @@ public class BuildOrder extends AppCompatActivity {
         // Disable the submit button to prevent multiple orders
         setEditing(false);
         Toast.makeText(this, "Sending Order..", Toast.LENGTH_LONG).show();
-
         final String eMail = FirebaseAuth.getInstance().getCurrentUser().getEmail();
-
         final String userId = getUid();
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference reference = database.getReference("salesman").child(userId);
-        reference.child("email").setValue(eMail);
-        String key = reference.child("salesman").child(userId).child("orders").push().getKey();
-        reference.child(key).child("custName").setValue(customer);
-        reference.child(key).child("products").setValue(product);
-        reference.child(key).child("expProducts").setValue(expProduct);
+
+        Thread thread = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                FirebaseDatabase database = FirebaseDatabase.getInstance();
+                DatabaseReference reference = database.getReference("salesman").child(userId);
+                reference.child("email").setValue(eMail);
+                String key = reference.child("salesman").child(userId).child("orders").push().getKey();
+                reference.child(key).child("custName").setValue(customer);
+                reference.child(key).child("products").setValue(product);
+                reference.child(key).child("expProducts").setValue(expProduct);
+            }
+        });
+        thread.start();
+
+        Thread t = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                FirebaseDatabase database = FirebaseDatabase.getInstance();
+                DatabaseReference reference = database.getReference("allOrders");
+                reference.child("email").setValue(eMail);
+                String key = reference.push().getKey();
+                reference.child(key).child("custName").setValue(customer);
+                reference.child(key).child("products").setValue(product);
+                reference.child(key).child("expProducts").setValue(expProduct);
+            }
+        });
+        t.start();
+
         setEditing(true);
         finish();
 
