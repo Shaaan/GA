@@ -83,6 +83,7 @@ public class AllOrders extends AppCompatActivity {
                                                 // Get an instance of AuthUI based on the default app
                                                 AuthUI.getInstance().createSignInIntentBuilder().setProviders(Arrays.asList(new AuthUI.IdpConfig.Builder(AuthUI.EMAIL_PROVIDER).build()))
                                                         .setIsSmartLockEnabled(false)
+                                                        .setTheme(R.style.AppTheme)
                                                         .build(),
                                                 RC_SIGN_IN);
                                     }
