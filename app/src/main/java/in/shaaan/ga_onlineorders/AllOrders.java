@@ -84,6 +84,7 @@ public class AllOrders extends AppCompatActivity {
                                                 AuthUI.getInstance().createSignInIntentBuilder().setProviders(Arrays.asList(new AuthUI.IdpConfig.Builder(AuthUI.EMAIL_PROVIDER).build()))
                                                         .setIsSmartLockEnabled(false)
                                                         .setTheme(R.style.AppTheme)
+                                                        .setAllowNewEmailAccounts(false)
                                                         .build(),
                                                 RC_SIGN_IN);
                                     }
