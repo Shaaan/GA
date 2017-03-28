@@ -95,7 +95,7 @@ public class BuildOrder extends AppCompatActivity {
             mActv.setText(partyTemp);
             mActv.setEnabled(false);
         } else {
-            mActv.setText("nope");
+            mActv.setText("Not a valid user");
             mActv.setEnabled(false);
         }
     }

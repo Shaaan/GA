@@ -5,10 +5,7 @@ import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.firebase.ui.auth.AuthUI;
@@ -16,18 +13,8 @@ import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.Arrays;
 
-import butterknife.Bind;
-
 public class LauncherActivity extends AppCompatActivity {
     private static final int RC_SIGN_IN = 7410;
-    // [END declare_auth_listener]
-    View.OnClickListener mOnClick;
-    @Bind(R.id.fab)
-    FloatingActionButton floatingActionButton;
-    @Bind(R.id.about)
-    TextView textView;
-    // [START declare_auth_listener]
-    private FirebaseAuth.AuthStateListener mAuthListener;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,13 +32,11 @@ public class LauncherActivity extends AppCompatActivity {
                 startActivityForResult(
                         // Get an instance of AuthUI based on the default app
                         AuthUI.getInstance().createSignInIntentBuilder().setProviders(Arrays.asList(new AuthUI.IdpConfig.Builder(AuthUI.EMAIL_PROVIDER).build()))
-                                .setIsSmartLockEnabled(false)
+                                .setIsSmartLockEnabled(true)
                                 .setTheme(R.style.AppTheme)
-                                .setAllowNewEmailAccounts(false)
+                                .setAllowNewEmailAccounts(true)
                                 .build(),
                         RC_SIGN_IN);
-
-                finish();
             } else {
                 Toast.makeText(this, "Please connect to the internet and try again!", Toast.LENGTH_LONG).show();
                 finish();
