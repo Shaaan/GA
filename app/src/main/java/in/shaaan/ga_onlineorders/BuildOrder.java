@@ -56,10 +56,13 @@ public class BuildOrder extends AppCompatActivity {
         int layoutItemId = android.R.layout.simple_dropdown_item_1line;
         String[] drugArr = getResources().getStringArray(R.array.drugList);
         String[] custArr = getResources().getStringArray(R.array.custList);
+        String[] strings = getResources().getStringArray(R.array.salesmen);
+        List<String> salesmen = Arrays.asList(strings);
         List<String> drugList = Arrays.asList(drugArr);
         final List<String> custList = Arrays.asList(custArr);
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, layoutItemId, drugList);
         ArrayAdapter<String> adapter1 = new ArrayAdapter<>(this, layoutItemId, custList);
+        ArrayAdapter<String> adapter2 = new ArrayAdapter<>(this, layoutItemId, salesmen);
 
         AutoCompleteTextView autoCompleteTextView = (AutoCompleteTextView) findViewById(R.id.autocompleteview);
         AutoCompleteTextView autoCompleteTextView1 = (AutoCompleteTextView) findViewById(R.id.autocompleteviewExp);
@@ -74,18 +77,26 @@ public class BuildOrder extends AppCompatActivity {
         mButton = (Button) findViewById(R.id.submit);
 
         String s = FirebaseAuth.getInstance().getCurrentUser().getEmail();
+        String bh = custList.toString();
+        String s1 = salesmen.toString();
         StringTokenizer stringTokenizer = new StringTokenizer(s, "@");
-        String partyTemp = stringTokenizer.nextToken();
+        String partyTemp = stringTokenizer.nextToken().trim();
+        StringTokenizer stringTokenizer1 = new StringTokenizer(s, "@");
+        String pa = stringTokenizer1.nextToken();
         /*int i = Integer.parseInt(partyTemp.replaceAll("[\\D]", ""));
             if (custList.contains(i)) {
                 mActv.setText(i);
                 mActv.setEnabled(false);
             }*/
-        if (custList.contains(partyTemp)) {
+
+        if (s1.contains(pa)) {
+            mActv.setEnabled(true);
+        } else if (bh.contains(partyTemp)) {
             mActv.setText(partyTemp);
             mActv.setEnabled(false);
         } else {
-            mActv.setText("Nope");
+            mActv.setText("nope");
+            mActv.setEnabled(false);
         }
     }
 

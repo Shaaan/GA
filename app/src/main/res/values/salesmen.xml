@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="salesmen">
+        <item>pande</item>
+        <item>vinod</item>
+        <item>nishad</item>
+        <item>anil</item>
+        <item>rajkumar</item>
+        <item>dhiraj</item>
+        <item>anurag</item>
+        <item>pramesh</item>
+        <item>rajesh</item>
+        <item>dharmendra</item>
+        <item>deepak</item>
+    </string-array>
+</resources>
