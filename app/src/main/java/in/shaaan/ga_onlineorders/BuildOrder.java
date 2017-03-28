@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
@@ -18,6 +19,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.StringTokenizer;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -41,11 +43,21 @@ public class BuildOrder extends AppCompatActivity {
         setContentView(R.layout.activity_build_order);
         ButterKnife.bind(this);
 
+/*
+                int[] custCode = getResources().getIntArray(R.array.custCode);
+                String[] custName = getResources().getStringArray(R.array.custName);
+                List<Integer> cCode = new ArrayList<Integer>();
+                List<String> cName = new ArrayList<String>(Arrays.asList(custName));
+                HashMap<Integer, String> hashMap = new HashMap<>();
+                for (int i = 0; i < custCode.length; i++) {
+                    hashMap.put(custCode[i], custName[i]);
+                }*/
+
         int layoutItemId = android.R.layout.simple_dropdown_item_1line;
         String[] drugArr = getResources().getStringArray(R.array.drugList);
         String[] custArr = getResources().getStringArray(R.array.custList);
         List<String> drugList = Arrays.asList(drugArr);
-        List<String> custList = Arrays.asList(custArr);
+        final List<String> custList = Arrays.asList(custArr);
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, layoutItemId, drugList);
         ArrayAdapter<String> adapter1 = new ArrayAdapter<>(this, layoutItemId, custList);
 
@@ -61,8 +73,21 @@ public class BuildOrder extends AppCompatActivity {
         mActv.setAdapter(adapter1);
         mButton = (Button) findViewById(R.id.submit);
 
+        String s = FirebaseAuth.getInstance().getCurrentUser().getEmail();
+        StringTokenizer stringTokenizer = new StringTokenizer(s, "@");
+        String partyTemp = stringTokenizer.nextToken();
+        /*int i = Integer.parseInt(partyTemp.replaceAll("[\\D]", ""));
+            if (custList.contains(i)) {
+                mActv.setText(i);
+                mActv.setEnabled(false);
+            }*/
+        if (custList.contains(partyTemp)) {
+            mActv.setText(partyTemp);
+            mActv.setEnabled(false);
+        } else {
+            mActv.setText("Nope");
+        }
     }
-
 
     public void addProduct(View view) {
         AutoCompleteTextView autoCompleteTextView = (AutoCompleteTextView) findViewById(R.id.autocompleteview);
@@ -102,6 +127,14 @@ public class BuildOrder extends AppCompatActivity {
         submitOrder();
     }
 
+    private void getParty() {
+        final String party = null;
+
+        String partyTemp = FirebaseAuth.getInstance().getCurrentUser().getEmail();
+
+        int i = Integer.parseInt(partyTemp.replaceAll("[\\D]", ""));
+        Log.d(TAG, "s");
+    }
 
     private void submitOrder() {
         final String customer = mActv.getText().toString();

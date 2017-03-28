@@ -1,0 +1,1129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="custName">
+        <item>A TO Z MEDICAL</item>
+        <item>A- ONE DRUG HOUSE</item>
+        <item>A-ONE CHEMIST AND GENERAL STORES</item>
+        <item>A-ONE MEDICAL AND GENERAL STORE</item>
+        <item>A-ONE MEDICO</item>
+        <item>AAAYUSH CHEMIST MED AND GEN ST</item>
+        <item>AADARSH MED AND GEN ST</item>
+        <item>AAI EKVEERA MEDICAL AND GENERAL STORE.</item>
+        <item>AAI MATA MED AND GEN STORE</item>
+        <item>AAI MEDICAL AND GENERAL STORES</item>
+        <item>AAIJEE MEDICAL AND GENERAL STORES</item>
+        <item>AARADHYA MED AND GEN ST</item>
+        <item>AAROGYA     CHEMIST</item>
+        <item>AAROGYADHAM MEDICAL STORE.</item>
+        <item>AAROGYAM CHEMIST AND DRUGGIST</item>
+        <item>AARYA CHEMIST AND DRUGGIST</item>
+        <item>AARYAN MEDICAL STORES</item>
+        <item>ABABEEL MEDICO STATIONARY AND GEN. STORES</item>
+        <item>ABHAY MEDICAL AND GEN STORES</item>
+        <item>ABHIMAN CHEMIST</item>
+        <item>ADARSH MEDICAL AND GENERAL STORES</item>
+        <item>ADARSH MEDICAL STORES</item>
+        <item>ADITI MEDICAL AND GENERAL STORES</item>
+        <item>ADITI MEDICAL STORES</item>
+        <item>ADITYA  MEDICAL STORES</item>
+        <item>ADITYA MEDICAL AND GENERAL STORES</item>
+        <item>ADITYA MEDICAL AND GENERAL STORES</item>
+        <item>ADIYASH MEDICAL AND GENERAL STORES</item>
+        <item>ADVAIT MEDICAL STORES.</item>
+        <item>AJADE MEDICAL AND GENERALSTORE.</item>
+        <item>AJANI MEDICALS</item>
+        <item>AJAY CHEMIST AND GEN. STORE</item>
+        <item>AJIT MEDICAL</item>
+        <item>AKASH MEDICAL AND GENERAL STORES</item>
+        <item>AKSHAY MEDICAL AND GEN.  STORES.</item>
+        <item>AKSHAY MEDICAL AND GENERAL STORES</item>
+        <item>AL ASIF MEDICAL AND GEN. STORES</item>
+        <item>AL BASIT MEDICAL AND GEN. STORES</item>
+        <item>AL HAYAT MEDICAL AND GEN. STORES</item>
+        <item>AL SAMAD MEDICAL AND GEN. STORES</item>
+        <item>AL-QUBA MEDICAL AND GENERAL STORES</item>
+        <item>AL-ROMAN MEDICAL AND GEN. STORE</item>
+        <item>AL-SHIFA CHEMIST</item>
+        <item>AL-SHIFA MEDICAL AND GENERAL STORES.</item>
+        <item>ALAM MEDICAL</item>
+        <item>ALAM MEDICO AND GENERAL STORES</item>
+        <item>ALANKAR MEDICAL AND GENERAL STORES</item>
+        <item>ALKA MEDICAL AND GENERAL STORES</item>
+        <item>ALLCARE CHEMIST</item>
+        <item>ALOE CHEMIST</item>
+        <item>AMAR CHEMIST MED AND GEN ST</item>
+        <item>AMBAJI MED SURG AYU</item>
+        <item>AMBAJI MED SURGICAL AYURV</item>
+        <item>AMBAJI MEDICAL SURGICAL AYURVEDIC.</item>
+        <item>AMBAJI MEDICAL SURGICAL AYURVEDIC..</item>
+        <item>AMBESHWAR MED AND GEN ST</item>
+        <item>AMBICA MEDICAL STORE</item>
+        <item>AMBIKA MED. AND GEN. STORES</item>
+        <item>AMBIKA MEDICAL AND GENRAL STORE.</item>
+        <item>AMEY MADICAL AND GENERAL STORES</item>
+        <item>AMI MEDICAL AND GENERAL STORES</item>
+        <item>AMIT MEDICAL AND GEN. STORES</item>
+        <item>AMOL MEDICAL AND GENERAL STORES</item>
+        <item>ANAND MEDICAL STORES</item>
+        <item>ANAS MEDICAL STORES</item>
+        <item>ANIL MEDICAL AND GEN. STORES</item>
+        <item>ANIRUDDHA MEDICAL AND GENERAL STORES</item>
+        <item>ANKOLA MEDICAL AND GENERAL STORES</item>
+        <item>ANKOLA MEDICO</item>
+        <item>ANMOL  MEDICAL STORES</item>
+        <item>ANNAPURNA MED AND GEN ST</item>
+        <item>APEX MEDICAL AND GENERAL STORES.</item>
+        <item>APPLE CHEMIST AND SURGICAL STORES.</item>
+        <item>AQSA CHEMIST</item>
+        <item>AQSA MEDICAL AND GENERAL STORES</item>
+        <item>ARCADIA CHEMIST</item>
+        <item>ARCHANA MEDICAL AND GENERAL STORES</item>
+        <item>ARIHANT  MEDICAL  AND  GEN  STORES</item>
+        <item>ARIHANT MEDICAL AND GEN. STORES</item>
+        <item>ARIHANT MEDICOS</item>
+        <item>ARJUN MEDICAL AND GEN. STORES</item>
+        <item>ARKE SURGICALS</item>
+        <item>ASHAPURA  MEDICAL</item>
+        <item>ASHAPURA MEDICAL AND GENERAL STOR.</item>
+        <item>ASHAPURA MEDICAL AND GENERAL STORES</item>
+        <item>ASHAPURA MEDICAL AND GEN STORES</item>
+        <item>ASHIRWAD MEDICAL STORES</item>
+        <item>ASHKA MEDICAL AND GENERAL STORES</item>
+        <item>ASHOK  MEDICAL AND GENERAL  STORES</item>
+        <item>ASHOK MEDICAL  AND GEN. STORES</item>
+        <item>ASHOK MEDICAL AND GEN STORES</item>
+        <item>ASHOK MEDICAL AND GEN. STORES</item>
+        <item>ASHOK MEDICAL AND GENERAL STORES</item>
+        <item>ASHTAVINAYAK MEDICAL</item>
+        <item>ASIAN CHEMIST</item>
+        <item>ASIAN INSTITUTE OF MEDICAL SCIENCES</item>
+        <item>ATHARVA CHEMIST</item>
+        <item>ATHARVA MEDICAL</item>
+        <item>ATHARVA MEDICAL AND GEN STORES</item>
+        <item>ATHARVA MEDICAL AND GENERAL STORES</item>
+        <item>ATHARVA MEDICAL AND GENERAL STORES</item>
+        <item>ATHARVA MEDICAL.</item>
+        <item>ATUL MEDICAL AND GENERAL STORES</item>
+        <item>ATUL MEDICAL AND GENERAL STORES</item>
+        <item>AUM MEDICAL STORES</item>
+        <item>AYESHA CHEMIST.</item>
+        <item>AYESHA MEDICAL AND GEN. STORES</item>
+        <item>AYUSH CHEMIST</item>
+        <item>BABA MEDICO</item>
+        <item>BALAJI MEDICAL AND GEN STORES</item>
+        <item>BALAJI MEDICAL AND GENERAL STORES</item>
+        <item>BALAJI MEDICAL AND GENERAL STORES</item>
+        <item>BALAJI MEDICAL STORE</item>
+        <item>BALKRISHNA MED AND GEN ST</item>
+        <item>BETHANY HOSP. MED AND GEN. ST</item>
+        <item>BHAGAWATI MED AND GEN ST</item>
+        <item>BHAGAWATI MEDICAL AND GEN. STORES</item>
+        <item>BHAGWAN MEDICAL AND GENERAL STORES.</item>
+        <item>BHAGWATI MEDICAL AND GEN. STORE</item>
+        <item>BHAGWATI MEDICAL.</item>
+        <item>BHANU MEDICO AND GEN STR.</item>
+        <item>BHARAT  CHEMIST</item>
+        <item>BHARAT CHEMIST</item>
+        <item>BHARAT MEDICAL AND GENERAL STORES</item>
+        <item>BHAVANA MEDICAL AND GEN. STORES</item>
+        <item>BHAVANA MEDICO</item>
+        <item>BHAVANI MED. AND GEN. STORES</item>
+        <item>BHAVANI MEDICAL AND GENERAL STORES</item>
+        <item>BHAVANI MEDICAL CENTAR.</item>
+        <item>BHAVANI MEDICAL STORE.</item>
+        <item>BHAVESH MEDICO</item>
+        <item>BHAWANI MEDICAL AND  STORES</item>
+        <item>BHAWANI MEDICAL AND GEN STORES</item>
+        <item>BHAWANI MEDICAL AND GEN. STORES</item>
+        <item>BHAWANI MEDICAL AND GEN. STORES</item>
+        <item>BHAWANI MEDICAL AND GENERAL STORES</item>
+        <item>BHUSHAN MEDICAL AND GEN STORES</item>
+        <item>BIJANKUR PHARMACY PVT .LTD</item>
+        <item>BILAL MEDICAL AND GENERAL  STORES</item>
+        <item>CARE AND CURE MED AND GEN STORES</item>
+        <item>CARE CHEMIST</item>
+        <item>CARE MEDICAL</item>
+        <item>CARE MEDICAL AND GENERAL STORES</item>
+        <item>CARE MEDICINE CHEMIST AND DRUGGIST</item>
+        <item>CENTRAL CHEMIST.</item>
+        <item>CENTRAL MEDICO CHEMIST AND DRUGIST</item>
+        <item>CHAITANYA MED AND GEN ST</item>
+        <item>CHANDAN CHEMIST</item>
+        <item>CHANDRA CHEMIST AND DRUGIST.</item>
+        <item>CHESTNUT MEDICALS.</item>
+        <item>CHHAYA MEDICAL AND GEN STR</item>
+        <item>CHIRANJEEVI MEDI AND GEN ST</item>
+        <item>CHOUDHARY MED AND GEN ST</item>
+        <item>CHOUDHARY MEDICAL AND GEN. STORES</item>
+        <item>CITIZEN CHEMIST AND GENERAL STORES</item>
+        <item>CITIZEN MEDIAL STORE.</item>
+        <item>CITY CHEMIST.</item>
+        <item>CITY LIFE CHEMIST</item>
+        <item>CRESENT CHEMIST</item>
+        <item>CRITICARE MEDICALS</item>
+        <item>CURE CHEMISTS</item>
+        <item>DANIYAL MEDICAL STORES.</item>
+        <item>DATTAKRUPA MEDICAL AND GEN. STORES</item>
+        <item>DEEP MEDICAL</item>
+        <item>DEEP MEDICAL AND GEN.  STORES</item>
+        <item>DEEPLAXMI MEDICAL AND GEN STORES</item>
+        <item>DEVANSH MEDICAL AND GENERAL STORES</item>
+        <item>DEVANSHI CHEMIST.</item>
+        <item>DEVENDRA CHEMIST AND GEN STORES</item>
+        <item>DEVENDRA MED AND GEN ST</item>
+        <item>DEVENDRA MEDICO AND GEN ST</item>
+        <item>DHANAI MEDICAL AND GEN. STORES</item>
+        <item>DHANANJAY MEDICAL AND GEN. STORES</item>
+        <item>DHANVANTARI CHEMIST</item>
+        <item>DHANVANTRI MEDICO</item>
+        <item>DHANWANTRI MEDICAL STORE.</item>
+        <item>DIAMOND CHEM AND GEN ST</item>
+        <item>DINESH MEDICAL AND GENERAL STORES</item>
+        <item>DIVA MEDICAL AND GEN. STORES</item>
+        <item>DIVA MEDICAL AND GENERAL STORES</item>
+        <item>DIVA MEDICAL AND GENERAL STORE</item>
+        <item>DIVYA CHEMIST</item>
+        <item>DIYA PHARMACY.</item>
+        <item>DR. VIG MEDICAMENTS</item>
+        <item>EXCEL MEDICO</item>
+        <item>FAIZAN MEDICAL</item>
+        <item>FALAH MEDICAL AND GEN. STORES</item>
+        <item>FAMILY MEDICAL AND GENERAL STORE.</item>
+        <item>FLORA  CHEMIST</item>
+        <item>FLORA  CHEMIST.</item>
+        <item>FLORA CHEMIST</item>
+        <item>FLORA CHEMIST.</item>
+        <item>FLORA DRUG HOUSE</item>
+        <item>FRIENDS  MEDICAL AND GEN STORE</item>
+        <item>FRIENDS CHEMIST</item>
+        <item>FRIENDS MEDICAL STORES</item>
+        <item>GAJANAN MED. AND GEN STORES</item>
+        <item>GAJANAN MEDICAL AND GEN STORES</item>
+        <item>GALA MEDICAL AND GENERAL STORE</item>
+        <item>GALA MEDICAL AND GENERAL STORES</item>
+        <item>GANESH MEDICAL AND GEN STORES</item>
+        <item>GANESH MEDICAL AND GEN STORES</item>
+        <item>GANESH MEDICAL AND GEN STORES</item>
+        <item>GANESH MEDICAL AND GEN. STORES</item>
+        <item>GANESH MEDICAL AND GEN. STORES</item>
+        <item>GANGA MEDICAL AND GENERAL  STORE</item>
+        <item>GANGA MEDICAL AND GENERAL STORES</item>
+        <item>GAURAV MEDICAL AND GEN. STORES</item>
+        <item>GAUTAM MEDICAL</item>
+        <item>GAYATRI MEDICAL AND GEN. STORES</item>
+        <item>GEETA MEDICAL AND GEN. STORES</item>
+        <item>GEETA MEDICAL AND GEN STORES</item>
+        <item>GEETA MEDICAL STORES.</item>
+        <item>GOLDEN CHEMIST</item>
+        <item>GOLDEN CHEMIST</item>
+        <item>GOLDEN ERA PHARMACY</item>
+        <item>GOLDEN MEDICAL AND GEN STORES</item>
+        <item>GURUKRUPA MEDICAL AND GEN STORES</item>
+        <item>HANS MEDICAL STORES</item>
+        <item>HAPPY MEDICAL AND GENERAL STORES</item>
+        <item>HARI OM MEDICAL AND GENERAL STORES.</item>
+        <item>HARI OM MEDICAL AND SUPER MARKET</item>
+        <item>HARIOM MEDICAL STORES.</item>
+        <item>HARISH CHEMIST</item>
+        <item>HARISH MEDICAL</item>
+        <item>HARISH MEDICAL AND GEN. STORES</item>
+        <item>HARSHADA MED AND GEN ST</item>
+        <item>HASHMATI MEDICAL</item>
+        <item>HEALTHCARE CHEMIST AND GENERAL STORES.</item>
+        <item>HEALTHCARE MEDICAL .</item>
+        <item>HEALTHCARE MEDICAL STORE</item>
+        <item>HEBA MEDICAL AND GEN. STORES</item>
+        <item>HEENA CHEMIST AND DRUGGIST</item>
+        <item>HERA MEDICAL AND GEN. STORES</item>
+        <item>HERAMB  TRADERS</item>
+        <item>HERAMB MEDICAL AND GENERAL STORES</item>
+        <item>HIGHLAND CHEMIST</item>
+        <item>HILL TOP CHEMIST</item>
+        <item>HIRANANDANI HOSPITAL</item>
+        <item>HUZEFA MEDICAL STORE.</item>
+        <item>IDEAL MEDICAL</item>
+        <item>IMS MEDICARE PVT LTD</item>
+        <item>INGALE MEDICAL.</item>
+        <item>J J HOSPITAL  DR N N RAMRAJE</item>
+        <item>J. K. CHEMIST MED AND GEN ST</item>
+        <item>JACK N JILL MEDICAL STORES</item>
+        <item>JAGANNATH MEDICAL STORES</item>
+        <item>JAGNATH CHEMIST AND SUPER BAZAR</item>
+        <item>JAGNATH MED AND GEN ST</item>
+        <item>JAI AMBE MED AND GE STORE</item>
+        <item>JAI AMBE MED AND GEN ST</item>
+        <item>JAI AMBE MEDICAL AND GENERAL ST</item>
+        <item>JAI AMBE MEDICAL AND GENERAL STORES.</item>
+        <item>JAI AMBE MEDICAL.AND GENERAL STORES.</item>
+        <item>JAI AMBE MEDICO CORNER</item>
+        <item>JAI BHAVANI MEDICAL AND GEN. STORES</item>
+        <item>JAI BHAWANI MED AND GE ST</item>
+        <item>JAI BHAWANI MED. ANDGEN STORES</item>
+        <item>JAI BHAWANI MEDICAL AND GEN STORES</item>
+        <item>JAI BHAWANI MEDICAL AND GEN. STORE</item>
+        <item>JAI BHAWANI MEDICAL AND GEN. STORES</item>
+        <item>JAI BHAWANI MEDICAL AND GEN. STORES</item>
+        <item>JAI BHAWANI MEDICAL AND GEN. STORES</item>
+        <item>JAI BHAWANI MEDICAL AND GENERAL STORES</item>
+        <item>JAI BHAWANI MEDICAL.</item>
+        <item>JAI DHANLAXMI MEDICAL AND GEN STORES</item>
+        <item>JAI GANESH MED. AND GEN STORE</item>
+        <item>JAI HANUMAN MEDICAL.</item>
+        <item>JAI MAJISHA CHEMIST AND DRUGGIST.</item>
+        <item>JAI MATA DI MEDICAL AND GEN. STORES</item>
+        <item>JAI MEDICAL AND GENERAL STORES</item>
+        <item>JAI SAINATH MEDICAL AND GEN. STORES</item>
+        <item>JAI SANTOSHIMATA MEDICAL STORES</item>
+        <item>JAISHREE CHEMIST</item>
+        <item>JANSEVA VIKAS MEDICAL AND GEN STORES</item>
+        <item>JANTA MEDICAL AND GEN. STORES</item>
+        <item>JAY  AMBE MEDICAL STORE</item>
+        <item>JAY AMBE MEDICAL AND GENERAL STORES</item>
+        <item>JAY CHEMIST</item>
+        <item>JAY DHANAVANTARI CHEMIST</item>
+        <item>JAY GANESH MEDICAL AND GEN STORES</item>
+        <item>JAYSHREE MEDICAL STORES</item>
+        <item>JEEVAN  BAUGH MEDICAL AND GEN. STORES</item>
+        <item>JEEVAN  DEEP MEDICAL AND GENERAL STORES</item>
+        <item>JEEVAN DEEP MEDICAL AND GENRAL STORES.</item>
+        <item>JEEVAN DEEP MEDICAL AND GENERAL STORES</item>
+        <item>JEEVAN JYOT HOSPITAL MED ST</item>
+        <item>JEEVAN MEDICAL</item>
+        <item>JEEVAN MEDICAL AND GENERAL STORES.</item>
+        <item>JEEVAN SEEMA CHEMISTS</item>
+        <item>JEEVANDEEP MEDICAL AND GEN. STORES</item>
+        <item>JOSHI S MEDICAL AND GENERAL STORES</item>
+        <item>JOY MEDICO AND GENERAL STORES</item>
+        <item>JUPITER SALES</item>
+        <item>JYOTI MEDICAL</item>
+        <item>JYOTI MEDICAL AND GENERAL STORE.</item>
+        <item>JYOTI MEDICAL AND GENERAL STORES</item>
+        <item>KAILASH MEDICAL AND GENERAL STORES</item>
+        <item>KAJAL MEDICO AND GENERAL STORES</item>
+        <item>KALASH MEDICO.</item>
+        <item>KALPANA MEDICAL AND GEN. STORES</item>
+        <item>KAMAL CHEMIST AND DRUGGIST.</item>
+        <item>KAMAL MEDICAL  AND GENERAL STORES</item>
+        <item>KAMAL MEDICAL AND  GENERAL STORES</item>
+        <item>KAMAL MEDICAL AND GEN STORES</item>
+        <item>KAMAL MEDICAL AND GENERAL STORES</item>
+        <item>KAMAL MEDICAL AND GENERAL STORES</item>
+        <item>KAMAL MEDICO CORNER</item>
+        <item>KAMLESH MEDICAL AND GEN. STORES</item>
+        <item>KANCHAN MEDICAL AND GENERAL STORES</item>
+        <item>KARTAVYA CHEMIST AND DRUGGIST</item>
+        <item>KASHALKAR HOSPITAL MEDICAL STORE</item>
+        <item>KAUSA SUPER BAZAR AND MEDICAL STORE</item>
+        <item>KAUTUK MEDICAL AND GENERAL STORES</item>
+        <item>KAVYA MEDICAL AND GEN STORES</item>
+        <item>KEDAR MEDICAL AND GENERAL STORES.</item>
+        <item>KEDAR MEDICAL AND GENERAL STORES</item>
+        <item>KESARI MEDICAL AND GENERAL STORES</item>
+        <item>KETAN MEDICAL STORES</item>
+        <item>KEVALYA MEDICAL AND GEN. STORES</item>
+        <item>KFS MEDICAL AND GENERAL STORES</item>
+        <item>KHUSHI MEDICAL AND GEN. STORES</item>
+        <item>KINJAL MEDICAL AND GENERAL STORES.</item>
+        <item>KIRTI MEDICAL AND GEN. STORES</item>
+        <item>KISMAT MEDICAL AND GEN. STORES</item>
+        <item>KISMAT MEDICAL STORES.</item>
+        <item>KOKAN MEDICAL AND GEN. STORES</item>
+        <item>KRISH MEDICAL AND GEN.STORES</item>
+        <item>KRISHNA  CHEMIST</item>
+        <item>KRISHNA MED AND GEN ST</item>
+        <item>KRISHNA MEDICAL</item>
+        <item>KRISHNA MEDICAL AND GEN. STORES</item>
+        <item>KRISHNA MEDICAL AND GENERAL STORES</item>
+        <item>KRISHNA MEDICAL AND  GENERAL STORES</item>
+        <item>KRISHNA MEDICAL.</item>
+        <item>KRISHNA MEDICO</item>
+        <item>KRISHNA MEDICO CHEMIST AND DRUGGIST</item>
+        <item>KRISHNAROOP RAJAT MEDICAL AND GEN STORES</item>
+        <item>KUNAL MEDICAL AND STORES</item>
+        <item>KUNKAI MEDICAL AND GEN STR</item>
+        <item>LABBAIK MEDICO.</item>
+        <item>LAKSH MEDICAL</item>
+        <item>LAXMI  MEDICAL AND  GEN. STORES</item>
+        <item>LAXMI MEDICAL AND  GEN. STORE</item>
+        <item>LAXMI MEDICAL AND GEN STORES</item>
+        <item>LAXMI MEDICAL AND GEN. STORES</item>
+        <item>LAXMI MEDICAL AND GENERAL  STORES</item>
+        <item>LAXMI MEDICAL AND GENERAL STORE</item>
+        <item>LAXMI MEDICAL AND GENERAL STORES</item>
+        <item>LAXMI MEDICAL AND GENERAL STORES.</item>
+        <item>LAXMI MEDICAL AND GENERAL STORES.</item>
+        <item>LAXMI MEDICAL.</item>
+        <item>LIBERTY MEDICAL .</item>
+        <item>LIFE CARE MEDICAL AND GENERAL STORES</item>
+        <item>LIFE LINE MEDICAL AND GEN STORES</item>
+        <item>LIFE LINE MEDICAL AND GENERAL STORES</item>
+        <item>LIFE LINE MEDICAL GENERAL STORE.</item>
+        <item>LIFE- LINE MEDICO</item>
+        <item>LIFE-LINE MED AND GEN STORE</item>
+        <item>LIFE-LINE MEDICAL AND GENERAL STORES</item>
+        <item>LIFECARE MEDICAL  AND GENERAL STORES</item>
+        <item>LIFECARE PHARAMACY AND GENERAL STORES</item>
+        <item>LIFELINE MEDICAL AND GEN. STORES</item>
+        <item>LUCKY CHEMIST AND DRUGGIST</item>
+        <item>LUCKY MED. AND GEN. STORES</item>
+        <item>M/S FRIENDS MEDICAL CORNAR</item>
+        <item>M/S SIDDHIVINAYAK MEDICAL AND GEN. STORES</item>
+        <item>M/S VARAD MEDICAL AND GENERAL STORES.</item>
+        <item>M/S. ADITYA MEDICAL AND GEN. STORES</item>
+        <item>M/S. NEW LIFE MEDICAL AND GENERAL STORES.</item>
+        <item>M/S. NOOR MEDICAL AND GEN. STORE</item>
+        <item>M/S. PRABHAKAR MEDICAL ?ANDGEN. STORES</item>
+        <item>M/S. SANDESH MEDICAL AND GEN. STORES</item>
+        <item>M/S. SUPREME MEDICAL AND GENERAL STORES</item>
+        <item>MA AMBICA CHEMIST</item>
+        <item>MAA CHEMIST</item>
+        <item>MAA MEDICAL AND GEN. STORES</item>
+        <item>MAA SANTOSHI MEDICAL AND GENERAL STORES</item>
+        <item>MAA VAISHNAVI MEDICAL STORE.</item>
+        <item>MADAN MEDICAL AND GENERAL STORES</item>
+        <item>MADEEHA MEDICAL AND GENERAL STORES</item>
+        <item>MAHADEV   MEDICAL STORES</item>
+        <item>MAHADEV  MEDICAL AND GEN STORES</item>
+        <item>MAHADEV CHEMIST AND GENERAL STORES</item>
+        <item>MAHADEV CHEMIST.</item>
+        <item>MAHADEV MEDICAL AND GEN STORES</item>
+        <item>MAHADEV MEDICAL STORES</item>
+        <item>MAHADEV MEDICAL STORES.</item>
+        <item>MAHALAXMI  MEDICAL AND GEN. STORES</item>
+        <item>MAHALAXMI CHEMIST</item>
+        <item>MAHALAXMI CHEMIST AND GENERAL STORES.</item>
+        <item>MAHALAXMI MED. AND GEN. STORES</item>
+        <item>MAHALAXMI MEDICAL  AND GENERAL STORES</item>
+        <item>MAHALAXMI MEDICAL AND GEN STORES</item>
+        <item>MAHALAXMI MEDICAL AND GEN. STORES</item>
+        <item>MAHALAXMI MEDICAL AND GEN. STORES.</item>
+        <item>MAHALAXMI MEDICAL AND GENERAL STORES</item>
+        <item>MAHALAXMI MEDICAL AND GEN. STORES</item>
+        <item>MAHALAXMI MEDICAL STORES</item>
+        <item>MAHALAXMI MEDICO</item>
+        <item>MAHARAJA MEDI AND GEN ST</item>
+        <item>MAHARASHTRA MEDICAL</item>
+        <item>MAHARASHTRA MEDICAL  STORES</item>
+        <item>MAHARASHTRA MEDICAL AND  GENERAL STORES</item>
+        <item>MAHARASHTRA MEDICAL AND GEN STORES</item>
+        <item>MAHARASHTRA MEDICAL AND GEN. STORES</item>
+        <item>MAHARASHTRA MEDICAL AND GENERAL  STORES</item>
+        <item>MAHARASHTRA MEDICAL AND GENERAL STORE</item>
+        <item>MAHARASHTRA MEDICAL AND GENERAL STORES.</item>
+        <item>MAHARASHTRA MEDICAL AND GENERAL STORES</item>
+        <item>MAHAVEER MEDICAL AND GEN. STORES</item>
+        <item>MAHAVEER MEDICAL AND GENERAL STORES</item>
+        <item>MAHAVIR CHEM AND GEN ST</item>
+        <item>MAHAVIR CHEMIST</item>
+        <item>MAHAVIR CHEMISTS</item>
+        <item>MAHAVIR MEDICAL AND  GEN. STORES</item>
+        <item>MAHAVIR MEDICAL AND GEN. STORES</item>
+        <item>MAHAVIR MEDICAL AND GENERAL STORES</item>
+        <item>MAHAVIR MEDICAL AND GENERAL STORES</item>
+        <item>MAHAVIR MEDICAL STORES</item>
+        <item>MAHAVIR MEDICAL STORES.</item>
+        <item>MAHEK MEDICAL AND GEN. STORES</item>
+        <item>MAHESH MEDICAL AND GEN.STORES</item>
+        <item>MAI MEDICAL AND GENERAL STORE</item>
+        <item>MAJIWADA MEDICAL AND GENERAL STORES</item>
+        <item>MAKHDOOM PHARMACY MEDICAL AND GEN. STORES</item>
+        <item>MALIK MEDICAL AND GENERAL STORES.</item>
+        <item>MAMTA MEDICAL AND GEN STR.</item>
+        <item>MAMTA MEDICO AND GENERAL STORES</item>
+        <item>MAN SNEH MEDICAL AND GENERAL STORES</item>
+        <item>MANAL PHARMACARE</item>
+        <item>MANALI MEDICAL AND GENERAL STORES</item>
+        <item>MANAS CHEMIST</item>
+        <item>MANASI MEDICAL AND GENERAL STORES</item>
+        <item>MANASVI MEDICAL AND GENERAL STORES</item>
+        <item>MANGAL MEDICAL AND GEN. STORES</item>
+        <item>MANGAL MEDICAL AND GENERAL STORE</item>
+        <item>MANJEET MEDICALS</item>
+        <item>MANOHAR MEDICAL AND GEN. STORES</item>
+        <item>MANOJ  MEDICO</item>
+        <item>MANSI MEDICAL AND GENERAL STORES</item>
+        <item>MANSOOR MEDICAL AND GENERAL STORE</item>
+        <item>MARU MEDICAL AND GEN. STORES</item>
+        <item>MARUTI MEDICAL AND GEN. STORES</item>
+        <item>MARUTI MEDICAL AND GENERAL STORES.</item>
+        <item>MARUTI MEDICO.</item>
+        <item>MARYAM MEDICAL CHEMIST AND DRUGIST.</item>
+        <item>MASUM MEDICAL AND GEN. STORES</item>
+        <item>MATAJI CHEMIST.</item>
+        <item>MATAJI MEDICAL AND GENERAL STORES.</item>
+        <item>MATESHWARI MEDICAL AND GEN., STORES</item>
+        <item>MATESHWARY MEDICAL AND GENERAL STORE</item>
+        <item>MATOSHREE MEDICO.</item>
+        <item>MAULI MEDICAL AND GEN. STORES</item>
+        <item>MAVIS MEDICAL AND GENERAL STORES</item>
+        <item>MAYA CHEMIST AND GEN. STORES</item>
+        <item>MAYORA MEDICAL AND GENERAL STORES</item>
+        <item>MD MEDICAL AND GENERAL STORE.</item>
+        <item>MEDICAL ZONE,</item>
+        <item>MEDICARE CHEMIST AND DRUGGIST.</item>
+        <item>MEDICARE MEDICAL AND GENERAL STORES</item>
+        <item>MEDICINE CENTRE AND GEN. STORES</item>
+        <item>MEDICINE HUB MEDICAL AND GENERAL STORES</item>
+        <item>MEDICO CARE MEDICAL AND GEN STORES</item>
+        <item>MEDICO CENTRE ANDGEN STORES</item>
+        <item>MEDICO CORNER</item>
+        <item>MEERA MEDICAL STORES</item>
+        <item>MEGA CHEMIST</item>
+        <item>MEHBOOB MEDICAL AND GEN. STORE</item>
+        <item>MEHTA MEDICO</item>
+        <item>METRO  MEDICAL</item>
+        <item>METRO CHEMIST</item>
+        <item>METRO CHEMIST</item>
+        <item>METRO CHEMIST AND DRUGIST.</item>
+        <item>METRO CHEMIST AND GENERAL STORES</item>
+        <item>METRO CHEMIST PLAZA</item>
+        <item>METRO CHEMIST..</item>
+        <item>METRO MEDICAL AND GEN STORES</item>
+        <item>METRO MEDICAL.</item>
+        <item>MILAN CHEMIST AND GEN. STORES</item>
+        <item>MILAN MEDICAL AND GEN. STORE</item>
+        <item>MILAN MEDICAL AND GENERAL STORES</item>
+        <item>MILAN MEDICAL STORES</item>
+        <item>MILAN MEDICO AND GEN. STORES</item>
+        <item>MILAN MEDICO.</item>
+        <item>MITTAL MEDICAL AND GEN. STORES</item>
+        <item>MOBIN MEDICAL AND GENERAL STORES</item>
+        <item>MODERN CHEMIST</item>
+        <item>MODERN CHEMIST MEDICAL AND GENERAL STORES</item>
+        <item>MODERN CHEMISTS</item>
+        <item>MODERN MEDICAL AND GENR STORES</item>
+        <item>MONISH MEDICAL STORES</item>
+        <item>MOON  MEDICAL AND GEN. STORES</item>
+        <item>MORAYA  MEDICAL STORES</item>
+        <item>MORAYA MEDICAL</item>
+        <item>MORESHWAR MEDICAL AND GENERAL STORES</item>
+        <item>MORYA MEDICAL AND GENERAL STORES</item>
+        <item>MUKADAM MEDICAL AND GEN. STORES</item>
+        <item>MUKESH MEDICAL</item>
+        <item>MUKESH MEDICAL AND GEN. STORE</item>
+        <item>MUKUND MEDICAL AND GENERAL STORES</item>
+        <item>MUMBRA CHEMIST</item>
+        <item>MUMBRADEVI MEDICAL AND GEN STORES</item>
+        <item>MUMBRESHWAR CHMIST.</item>
+        <item>MUSTAFA MEDICAL AND GENERAL STORES.</item>
+        <item>MY CHOUDHARY MEDICAL AND GENERAL STORE.</item>
+        <item>N B PHARMACY</item>
+        <item>N.K.MEDICAL</item>
+        <item>NADHUS MEDICAL</item>
+        <item>NAHAR CHEMIST MEDICAL AND GEN. STORE.</item>
+        <item>NAKODA  MEDICAL AND GEN. STORES</item>
+        <item>NAMASKAR MEDICAL AND GEN. STORES</item>
+        <item>NARESH MEDICAL AND GENERAL STORES</item>
+        <item>NASHEMAN PHARMACY</item>
+        <item>NATIONAL CHEMIST</item>
+        <item>NATIONAL MEDICAL AND GEN STORES</item>
+        <item>NATIONAL MEDICAL AND GENERAL STORES</item>
+        <item>NATRAJ  MEDICAL AND GENERAL STORES</item>
+        <item>NATRAJ MEDICAL AND GEN. STORES</item>
+        <item>NATURAL CHEMIST AND DRUGGIST</item>
+        <item>NAUPADA CHEMIST AND DRUGGIST</item>
+        <item>NAUPADA MEDICAL AND GENERAL STORES</item>
+        <item>NAVAL BROTHERS MEDICO.</item>
+        <item>NAVJEEVAN MEDICAL  AND GENERAL STORES</item>
+        <item>NAVJEEVAN MEDICAL AND GEN. STORES</item>
+        <item>NAVJEEVAN MEDICAL AND GENERAL STORES</item>
+        <item>NEEL KANTH CHEMIST</item>
+        <item>NEELKANTH CHEMIST</item>
+        <item>NEELKANTH MEDICAL</item>
+        <item>NEHA MEDICAL AND GEN. STORES</item>
+        <item>NEST MEDICAL STORES</item>
+        <item>NEW  STAR MEDICAL</item>
+        <item>NEW AADESH MEDICAL STORE</item>
+        <item>NEW ADARSHA CHEMIST AND DRUGGIST</item>
+        <item>NEW ADESH MEDICO</item>
+        <item>NEW ANMOL MEDICAL STORES.</item>
+        <item>NEW ARIHANT MEDICAL AND GEN. STORE</item>
+        <item>NEW ASMA CHEMIST</item>
+        <item>NEW AYUSH MEDICAL AND GEN STORES</item>
+        <item>NEW BHAVIK MEDICAL AND GENERAL STORES</item>
+        <item>NEW CITY MEDICO</item>
+        <item>NEW EMPIRE HEALTHCARE</item>
+        <item>NEW FRIENDS MEDICAL AND GENERAL STORE.</item>
+        <item>NEW GODAVARI MEDICAL AND GEN. STORES</item>
+        <item>NEW JAI BHAWANI MEDICAL</item>
+        <item>NEW KALPATARU MEDICAL AND GENERAL STORES</item>
+        <item>NEW KANBI CHEMIST</item>
+        <item>NEW KAUSA MEDICAL AND GENERAL STORES</item>
+        <item>NEW MADINA MEDICAL AND GENERAL STORES</item>
+        <item>NEW MAHADEV MEDICAL AND GENERAL STORES.</item>
+        <item>NEW MAHARASHTRA MEDICAL AND GENERAL STORES.</item>
+        <item>NEW MAHAVIR CHEMIST</item>
+        <item>NEW MAMTA MEDICAL AND GENERAL STORES</item>
+        <item>NEW MARUTI MEDICOS</item>
+        <item>NEW MAULI MEDICAL AND GEN STORES</item>
+        <item>NEW MEDICINE CORNER</item>
+        <item>NEW MEGHA CHEMIST AND GENERAL STORES</item>
+        <item>NEW MUMBRA DEVI MEDICAL AND GENERAL STORES</item>
+        <item>NEW MUMBRA MEDICAL AND G. STORES</item>
+        <item>NEW NARESH MEDICAL STORES</item>
+        <item>NEW NATIONAL MEDICAL AND GEN. STORES</item>
+        <item>NEW OM MEDICAL STORES</item>
+        <item>NEW PRINCE MEDICAL AND GEN STORES</item>
+        <item>NEW PRINCE MEDICAL AND GEN. STORES</item>
+        <item>NEW ROYAL CHEMIST</item>
+        <item>NEW ROYAL CHEMIST.</item>
+        <item>NEW SAHYADRI  MEDICAL AND GEN. STORES</item>
+        <item>NEW SAMPADA MEDICAL STORES.</item>
+        <item>NEW SAMRAT MED AND GEN ST</item>
+        <item>NEW SANJAY MEDICO</item>
+        <item>NEW SANJEEVANI MEDICAL AND GENERAL STORES.</item>
+        <item>NEW SHIVSAMRTH MEDICAL STORES</item>
+        <item>NEW SHRADDHA MEDICAL</item>
+        <item>NEW STAR MEDICAL GENERAL STORES</item>
+        <item>NEW STAR MEDICALS.</item>
+        <item>NEW VIMAL MEDICAL AND GENERAL STORES</item>
+        <item>NEW YASH MEDICAL.</item>
+        <item>NEW ZEESHAN MEDICAL STORES</item>
+        <item>NICE CHEMIST.</item>
+        <item>NIDHI CHEMIST</item>
+        <item>NIL MEDICO</item>
+        <item>NILESH MEDICAL AND GENERAL STORES</item>
+        <item>NILESH MEDICAL CENTRE</item>
+        <item>NILKANTH CHEMIST.</item>
+        <item>NITIN MEDICAL AND GEN STORES</item>
+        <item>NOBLE  CHEMIST</item>
+        <item>NOBLE CHEMIST</item>
+        <item>NOBLE CHEMIST .</item>
+        <item>NOBLE CHEMISTS</item>
+        <item>NOBLE PLUS(UNIT OF NOBLE MEDICHEM)</item>
+        <item>NOOR CHEMIST ANDGENERAL STORES</item>
+        <item>NOOR MEDICAL AND GENERAL STORES</item>
+        <item>NOOR MEDICAL CHEMIST AND GENERAL STORE</item>
+        <item>NOOR MEDICO.</item>
+        <item>NOORANI MEDICAL AND GENERAL STORES</item>
+        <item>NOORANI MEDICAL GENERAL STORES</item>
+        <item>NUCLEUS MEDICALS</item>
+        <item>OM  MEDICAL AND GEN STORES</item>
+        <item>OM CHEMIST AND DRUGGIST</item>
+        <item>OM MAHAVEER MEDICAK STORES</item>
+        <item>OM MEDICAL AND GEN  STORES</item>
+        <item>OM MEDICAL AND GEN. STORES</item>
+        <item>OM MEDICAL AND GENERAL  STORES</item>
+        <item>OM MEDICAL STORE</item>
+        <item>OM MEDICO</item>
+        <item>OM PAREKH CHEMIST</item>
+        <item>OM PRATHAMESH CHEMISTS</item>
+        <item>OM SAI BABA MEDICAL AND GENERAL STORES</item>
+        <item>OM SAI CHEMIST</item>
+        <item>OM SAI CHEMIST AND GENERAL STORES</item>
+        <item>OM SAI MEDICAL AND GEN STORES</item>
+        <item>OM SAI MEDICAL AND GEN. STORES</item>
+        <item>OM SAI MEDICAL AND GENERAL STORES</item>
+        <item>OM SAI MEDICAL AND GENERAL STORES.</item>
+        <item>OM SAI MEDICAL STORES</item>
+        <item>OM SAI MEDICO</item>
+        <item>OM SHREE SAI CHEMIST</item>
+        <item>OMKAR MED. AND GEN STORE</item>
+        <item>OMKAR MEDICAL AND  GENERAL STORES</item>
+        <item>OMKAR MEDICAL CENTER</item>
+        <item>ORAL CHEMIST</item>
+        <item>ORIGIN SALE CORPORATION</item>
+        <item>P AND T CHEMIST</item>
+        <item>PADAM CHEMIST</item>
+        <item>PARADISE MEDICAL STORES.</item>
+        <item>PARAKH MEDICAL AND GEN. STORES</item>
+        <item>PARAM HOSPITAL CHEMIST AND DRUGGIST</item>
+        <item>PARAS  MEDICAL</item>
+        <item>PARAS MEDICAL AND GEN. STORES</item>
+        <item>PARAS MEDICO</item>
+        <item>PAREKH MEDICAL AND GENERAL STORES</item>
+        <item>PARESH CHEMIST</item>
+        <item>PARESH MEDICAL ANDGENERAL STORES</item>
+        <item>PARMAR MEDICAL AND GEN. STORES</item>
+        <item>PARMAR MEDICO</item>
+        <item>PATEL CHEMIST AND GENERAL STORES</item>
+        <item>PATEL MEDICAL AND GEN. STORES</item>
+        <item>PATNI HEALTHCARE LIMITED.</item>
+        <item>PAVAN  MEDICAL AND GENERAL STORES</item>
+        <item>PAVAN MEDICAL AND GEN. STORES</item>
+        <item>PAWAN MEDICAL AND GEN. STORES</item>
+        <item>PAWAN MEDICAL AND GENERAL STORE.</item>
+        <item>PHOENIX CHEMIST AND DRUGIST</item>
+        <item>PLATINIUM  CHEMIST</item>
+        <item>PLATINUM CHEMIST</item>
+        <item>POOJA MEDICO</item>
+        <item>POONAM MEDICAL AND GEN. STORES</item>
+        <item>POONAM MEDICO AND GEN. STOERS</item>
+        <item>POPULAR MEDICAL AND GENERAL STORES</item>
+        <item>PRABHAKAR MEDICAL CENTRE</item>
+        <item>PRABHAT CHEMIST</item>
+        <item>PRABHAT MEDICAL AND GEN. STORES</item>
+        <item>PRABHAT MEDICAL AND GENERAL STORES</item>
+        <item>PRABHURAM MEDICAL AND GENERAL STORES .</item>
+        <item>PRACHI MED</item>
+        <item>PRADEEP MEDICAL AND GEN. STORES</item>
+        <item>PRAKASH  MEDICAL  AND  GENERAL STORES</item>
+        <item>PRAKASH CHEMIST AND GENERAL STORES</item>
+        <item>PRAKASH MEDICAL AND GENERAL  STORES</item>
+        <item>PRAKASH MEDICOS</item>
+        <item>PRANAV MEDICAL STORES</item>
+        <item>PRASAD MEDICAL AND GENERAL STORES</item>
+        <item>PRASHANT MEDICAL AND GEN. STORES</item>
+        <item>PRASHANT MEDICAL AND GEN ST</item>
+        <item>PRATHMESH MEDICAL AND GEN.  STORES</item>
+        <item>PRATHMESH MEDICAL STORE</item>
+        <item>PREMIUM MEDICAL AND GEN STORES</item>
+        <item>PRERNA MEDICAL AND GEN. STORES</item>
+        <item>PRIME CHEMIST AND GEN. STORES</item>
+        <item>PRIME MEDICINE</item>
+        <item>PRINCE MEDICAL AND GEN STORES</item>
+        <item>PRINCE MEDICAL AND GEN. STORES</item>
+        <item>PRINCE MEDICAL AND GENERAL STORES</item>
+        <item>PRINCE MEDICAL STORES.</item>
+        <item>PRINCE MEDICO AND GENERAL STORES</item>
+        <item>PRIYA MEDICAL AND GEN. STORES</item>
+        <item>PRIYA MEDICAL AND GENERAL STORES</item>
+        <item>PRIYANKA MEDICAL AND GENERAL STORES</item>
+        <item>QUICK N CARE PHARMACY PVT. LTD.</item>
+        <item>R. K. MEDICAL  AND  GENERAL STORES</item>
+        <item>R. K. MEDICAL STORE</item>
+        <item>RABODI MEDICALS</item>
+        <item>RACHANA MEDICAL</item>
+        <item>RAHUL CHEMIST</item>
+        <item>RAHUL CHEMIST.</item>
+        <item>RAHUL MEDICAL AND GENERAL STORES</item>
+        <item>RAJ MEDICAL  AND  STORES</item>
+        <item>RAJ MEDICAL AND GENERAL STORES</item>
+        <item>RAJ MEDICAL AND GENERAL STORES</item>
+        <item>RAJ MEDICAL CENTRE</item>
+        <item>RAJ MEDICO</item>
+        <item>RAJAL MEDICO</item>
+        <item>RAJASHRI MEDICAL AND GEN. STORES</item>
+        <item>RAJESH MED.</item>
+        <item>RAJESH MEDICAL AND GEN. STORES</item>
+        <item>RAJESH MEDICAL AND GENERAL STORES</item>
+        <item>RAJESH MEDICAL AND GENERAL STORES</item>
+        <item>RAJKAMAL MEDICAL AND GEN. STORES</item>
+        <item>RAJLAXMI MEDICAL</item>
+        <item>RAJPUT MEDICAL AND GENERAL STORE</item>
+        <item>RAJPUT MEDICAL AND GENERAL STORES.</item>
+        <item>RAJSHREE MEDICAL  AND GENERAL STORE</item>
+        <item>RAJSHREE MEDICAL AND GENERAL STORES</item>
+        <item>RAKESH MEDICAL AND GEN. STORES</item>
+        <item>RAM PRASAD MEDICAL AND GENERAL STORES</item>
+        <item>RAMDEV MEDICAL.</item>
+        <item>RAMESH MEDICAL</item>
+        <item>RAMESH MEDICAL AND GEN. STORES</item>
+        <item>RANAWAT MEDICAL CENTRE</item>
+        <item>RANAWAT MEDICAL STORES</item>
+        <item>RANE MEDICAL STORES</item>
+        <item>RANUJA MEDICAL ST.ORE</item>
+        <item>RANUJA MEDICAL STORES</item>
+        <item>RAO MARATHA MEDICAL AND GENERAL  STORES</item>
+        <item>RATANDEEP MEDICAL STORES</item>
+        <item>RATHOD CHEMIST</item>
+        <item>RATHOD MEDICAL AND GENERAL STORES</item>
+        <item>RAVI MEDICAL AND  GEN. STORES</item>
+        <item>RAVIKIRAN MEDICALS</item>
+        <item>RAWAL MEDICO</item>
+        <item>REGAL CHEMIST AND GEN STORE</item>
+        <item>REHMANIA HOSPITAL MEDICAL STORES</item>
+        <item>RELIEF MED AND GEN STORES</item>
+        <item>RELIF MEDICAL</item>
+        <item>REMEDY MEDICAL STORES</item>
+        <item>RENUKA MEDICAL AND GENERAL STORES</item>
+        <item>RIDDHI SIDDHI MEDICAL</item>
+        <item>RIDDHI SIDDHI MEDICAL  AND  GENERAL STORES</item>
+        <item>RIDDHI SIDDHI MEDICAL STORES .</item>
+        <item>RISABH MEDICAL AND GEN. STORES</item>
+        <item>RISKCARE HOSPITAL CHEMIST</item>
+        <item>RITU MEDICALS</item>
+        <item>RIYA MEDICAL.</item>
+        <item>RIYANSH MEDICAL STORES</item>
+        <item>ROOPSHANTI MEDICAL AND GENERAL STORES</item>
+        <item>ROSHAN MEDICAL AND GENERAL STORES</item>
+        <item>ROSHANI MEDICAL AND GENERAL STORES</item>
+        <item>ROXY MEDICAL STORE.</item>
+        <item>ROYAL   CHEMIST</item>
+        <item>ROYAL CHEMIST</item>
+        <item>ROYAL CHEMIST</item>
+        <item>ROYAL CHEMIST AND  GEN.  STORES</item>
+        <item>ROYAL CHEMIST AND DRUGGIST</item>
+        <item>ROYAL CHEMIST AND GEN. STORES</item>
+        <item>ROYAL CHEMIST.</item>
+        <item>ROYAL CHEMISTS</item>
+        <item>ROYAL JOSHI CHEMIST</item>
+        <item>ROYAL MEDICAL</item>
+        <item>ROYAL MEDICAL AND GENERAL  STORE</item>
+        <item>ROYAL MEDICAL AND GENERAL STORES</item>
+        <item>ROYAL MEDICALS.</item>
+        <item>ROYAL MEDICOS</item>
+        <item>RUNWAL MEDICO</item>
+        <item>RUNWAL S  SURESH MEDICO CORNER</item>
+        <item>S. A .PHARMA</item>
+        <item>S. K. MEDICAL</item>
+        <item>SADGURU KRIPA MEDICAL AND GEN STORES</item>
+        <item>SAFWAN MEDICAL AND GEN. STORES</item>
+        <item>SAGAR MEDICAL</item>
+        <item>SAHA MEDICAL STORE</item>
+        <item>SAHARA CHEMIST AND GENERAL STORES.</item>
+        <item>SAHARA MEDICAL STORES</item>
+        <item>SAHYADRI MEDICAL AND GEN. STORES</item>
+        <item>SAI BABA MEDICAL AND GEN. STORES</item>
+        <item>SAI BABA MEDICAL AND GEN. STORES</item>
+        <item>SAI DEEP MEDICAL AND GEN. STORES</item>
+        <item>SAI GANESH MEDICAL ANDGENREL STR.</item>
+        <item>SAI KURPA MEDICAL AND GEN. STORES</item>
+        <item>SAI LEELA MEDICAL AND GENERAL STORES</item>
+        <item>SAI MEDICAL AND  GENERAL STORES</item>
+        <item>SAI MEDICAL AND GENERAL STORES</item>
+        <item>SAI MEDICAL STORES.</item>
+        <item>SAI MUMBRA CHEMIST</item>
+        <item>SAI POOJA MEDICAL</item>
+        <item>SAI PRASAD MEDICAL AND GENERAL STORES</item>
+        <item>SAI RATAN MEDICAL</item>
+        <item>SAI SABIRA MEDICAL.</item>
+        <item>SAI SAMARTH MEDICAL AND GEN.STORES</item>
+        <item>SAI SAMARTH MEDICAL STORE</item>
+        <item>SAI SHRADDHA MEDICAL</item>
+        <item>SAI SHRADHA MED AND GEN STORES</item>
+        <item>SAI SIDDHI MEDICAL AND GEN. STORES</item>
+        <item>SAI-SIDDHI MEDICAL AND GEN. STORES</item>
+        <item>SAIDEEP MEDICAL AND GENERAL STORES</item>
+        <item>SAIDHAN HOSPITAL</item>
+        <item>SAIF MEDICAL CHEMIST DRUGGIST.</item>
+        <item>SAINATH MEDICO</item>
+        <item>SAIRAJ MEDICAL</item>
+        <item>SAIRAJ MEDICAL AND GEN STORES</item>
+        <item>SAIRAJ MEDICAL AND GENERAL STORES</item>
+        <item>SAIRAJ MEDICAL AND GENERAL STORES</item>
+        <item>SAKSHI MEDICAL STORES.</item>
+        <item>SAMARAT MEDICAL STORES</item>
+        <item>SAMARTH KRUPA CHEMIST AND DRUGGIST</item>
+        <item>SAMARTH MEDICAL</item>
+        <item>SAMARTH MEDICAL AND GEN STORES</item>
+        <item>SAMARTH MEDICAL AND GENERAL STORES</item>
+        <item>SAMARTH MEDICAL BHANDAR</item>
+        <item>SAMARTH MEDICO</item>
+        <item>SAMBHAV MEDICAL STORES</item>
+        <item>SAMEER MEDICO AND GENERAL STORES</item>
+        <item>SAMIR MEDICAL AND GEN STORES</item>
+        <item>SAMRUDHI MEDICAL STORES</item>
+        <item>SANA CHEMIST AND GENERAL STORES</item>
+        <item>SANA MEDICAL STORES</item>
+        <item>SANDESH MEDICAL STORES</item>
+        <item>SANGAM MEDICAL AND GEN. STORES</item>
+        <item>SANGAM MEDICAL AND GENERAL STORES</item>
+        <item>SANGAM MEDICAL AND GENERAL STORES</item>
+        <item>SANGEETA MEDICAL AND GENERAL STORES</item>
+        <item>SANGLI MEDICAL AND GEN. STORES</item>
+        <item>SANJAY  MEDICAL  AND  GENERAL  STORES</item>
+        <item>SANJAY  MEDICAL AND GENERAL STORES</item>
+        <item>SANJAY MEDICAL AND GEN. STORES</item>
+        <item>SANJAY MEDICO.</item>
+        <item>SANJEEVINI MEDICAL AND GENERAL STORES</item>
+        <item>SANJIVANI  MEDICAL AND GENERAL STORES</item>
+        <item>SANJIVANI CHEMIST AND DRUGIST</item>
+        <item>SANJIVANI MED AND GEN STORES</item>
+        <item>SANJIVANI MEDICAL AND  GEN. STORES</item>
+        <item>SANJIVANI MEDICAL AND GENERAL  STORES</item>
+        <item>SANJIVANI MEDICAL STORES</item>
+        <item>SANKALP MEDICAL AND GEN STORES</item>
+        <item>SAPPHIRE CHEMIST</item>
+        <item>SAPPHIRE PHARMACY .</item>
+        <item>SARASWATI MEDICAL AND GEN. STORES</item>
+        <item>SARASWATI MEDICAL AND GENERAL STORES</item>
+        <item>SARYAM CHEMIST AND GENERAL STORES.</item>
+        <item>SATGURU CHEMIST MEDICAL AND GEN STORES</item>
+        <item>SATYAM  MEDICAL</item>
+        <item>SATYAM CHEMIST</item>
+        <item>SATYAM MEDICAL</item>
+        <item>SATYAM MEDICAL AND GEN STORES</item>
+        <item>SATYAM MEDICAL AND GENERAL STORES</item>
+        <item>SATYAM MEDICAL AND GENERAL STORES</item>
+        <item>SATYAM MEDICAL AND GENERAL STORES.</item>
+        <item>SATYAM MEDICAL AND GEN STORES</item>
+        <item>SATYAM MEDICAL STORE</item>
+        <item>SATYAM MEDICAL STORES.</item>
+        <item>SEVA MEDICOS LOKSEVA HOSPITAL</item>
+        <item>SHAD MEDICAL AND GENERAL STORE</item>
+        <item>SHAH AMRUTA</item>
+        <item>SHAKTI  MEDICAL AND GEN. STORES</item>
+        <item>SHANKAR  MED AND GEN ST</item>
+        <item>SHANTA DURGA MEDICAL AND GENERALSTORE.</item>
+        <item>SHANTADURGA MEDICAL AND GENERAL STORES</item>
+        <item>SHANTI CHEMIST</item>
+        <item>SHARADA MEDICAL AND GEN. STORE</item>
+        <item>SHARMEEN MEDICAL AND GEN. STORES</item>
+        <item>SHEEJA MEDICAL AND GEN. STORES</item>
+        <item>SHIFA MEDICAL AND GEN. STORES</item>
+        <item>SHIV LEELA MEDICAL AND GENERAL STORES</item>
+        <item>SHIV MEDICAL AND GENERAL  STORE</item>
+        <item>SHIV MEDICAL AND GENERAL STORES</item>
+        <item>SHIV PRASAD MEDICAL AND GEN. STORES</item>
+        <item>SHIV RATNA MEDICAL</item>
+        <item>SHIV SAI MEDICAL STORE.</item>
+        <item>SHIV SAI MEDICALAND GEN STORES</item>
+        <item>SHIV SAMARTH MEDICAL AND GEN STORES</item>
+        <item>SHIVAJI MEDICAL AND GEN. STORES</item>
+        <item>SHIVAM CHEMIST.</item>
+        <item>SHIVAM MEDICAL AND  GEN. STORES</item>
+        <item>SHIVAM MEDICAL AND  GENERAL STORES</item>
+        <item>SHIVAM MEDICAL AND GEN  STORES</item>
+        <item>SHIVAM MEDICAL AND GEN.  STORES</item>
+        <item>SHIVAM MEDICAL AND GENERAL STORE</item>
+        <item>SHIVAM MEDICAL STORES.</item>
+        <item>SHIVASHREE CHEMIST.</item>
+        <item>SHIVEN MEDICAL STORES</item>
+        <item>SHIVKAMAL MEDICO.</item>
+        <item>SHIVMURTI MEDICAL AND GEN. STORES</item>
+        <item>SHIVSAI MEDICAL STORES</item>
+        <item>SHIVSHAKTI MEDICAL.</item>
+        <item>SHOBHA MEDICAL AND GEN. STORES</item>
+        <item>SHOBHA MEDICOS</item>
+        <item>SHRAVAN MEDICAL AND GEN. STORES</item>
+        <item>SHRAVAN MEDICAL AND GENERAL STORES</item>
+        <item>SHREE   MEDICAL</item>
+        <item>SHREE  GANESH MEDICAL</item>
+        <item>SHREE  KRISHNA MEDICAL</item>
+        <item>SHREE  SIDDHIVINAYAK MEDICAL STORES</item>
+        <item>SHREE AMBIKA MED. AND GEN STR</item>
+        <item>SHREE ARYA DURGA MEDICAL AND GEN. STORES</item>
+        <item>SHREE ASHTAVINAYAK MEDICAL AND GEN STORES</item>
+        <item>SHREE BADLAPUR CHEMIST</item>
+        <item>SHREE BALAJI MEDICAL AND GEN STORE</item>
+        <item>SHREE BALAJI MEDICAL AND GEN STORES</item>
+        <item>SHREE CHAITANYA MED AND GEN ST</item>
+        <item>SHREE CHAMUNDA MEDICAL AND GEN. STORES</item>
+        <item>SHREE CHEMIST  AND GENERAL STORES</item>
+        <item>SHREE CHEMIST AND DRUGGIST..</item>
+        <item>SHREE DATT MEDICAL STORES</item>
+        <item>SHREE DATTAKRIPA MEDICAL STORES</item>
+        <item>SHREE DURGA MEDICAL AND GEN. STORES.</item>
+        <item>SHREE GAJANAN MEDICAL AND GEN. STORES</item>
+        <item>SHREE GAJANAN MEDICAL AND GENERAL STORES.</item>
+        <item>SHREE GANESH  MEDICAL AND GEN ST</item>
+        <item>SHREE GANESH MEDICAL AND GEN STORE</item>
+        <item>SHREE GANESH MEDICAL CENTRE</item>
+        <item>SHREE GANESH MEDICAL STORES.</item>
+        <item>SHREE GURUDATT MEDICAL AND GEN. STORES</item>
+        <item>SHREE HANUMAN MEDICAL AND GEN. STORES</item>
+        <item>SHREE HARI CHEMIST</item>
+        <item>SHREE JAGDAMBE MEDICAL AND GENERAL STORES</item>
+        <item>SHREE JAGNATH MED AND GEN ST</item>
+        <item>SHREE JAYVEER MEDICAL AND GEN. STORES</item>
+        <item>SHREE KHETLAJI MED AND GEN ST</item>
+        <item>SHREE KRISHNA MEDICAL AND GENERAL  STORES</item>
+        <item>SHREE KRISHNA MEDICAL ANDGENERAL STORES</item>
+        <item>SHREE KRISHNA MEDICAL STORES</item>
+        <item>SHREE KRUPA MEDICAL STORES</item>
+        <item>SHREE LAXMI MED AND GEN STR.</item>
+        <item>SHREE MAHADEV MED AND GEN ST</item>
+        <item>SHREE MAHALAXMI MED AND GEN STR</item>
+        <item>SHREE MAHALAXMI MEDICAL AND GEN STORES</item>
+        <item>SHREE MAULI MEDICAL STORES</item>
+        <item>SHREE MEDICAL AND GEN STORES</item>
+        <item>SHREE MEDICAL.</item>
+        <item>SHREE NAMDEV MEDICAL AND GENERAL STORES</item>
+        <item>SHREE ORTHOCARE CHEMIST</item>
+        <item>SHREE ORTHONOVA MEDICAL</item>
+        <item>SHREE PRADEEP MEDICAL STORE</item>
+        <item>SHREE RAJ LAXMI MEDICAL AND GEN. STORES</item>
+        <item>SHREE RAJLAXMI MEDICAL AND GEN. STORES</item>
+        <item>SHREE RAM MEDICAL AND GENERAL STORES</item>
+        <item>SHREE RAMDEV MEDICAL AND GEN. STORES</item>
+        <item>SHREE SADGURUKRUPA CHEMIST AND DRUGGIST.</item>
+        <item>SHREE SAI MAULI MEDICAL AND GEN. STORES</item>
+        <item>SHREE SAI MED AND GEN STORES</item>
+        <item>SHREE SAI MED ANDGEN STORES</item>
+        <item>SHREE SAI MEDICAL</item>
+        <item>SHREE SAI MEDICAL AND  GENERAL  STORES</item>
+        <item>SHREE SAI MEDICAL AND GENERAL  STORES</item>
+        <item>SHREE SAI MEDICAL AND GANERAL STORES.</item>
+        <item>SHREE SAI SAMARTH MEDICAL AND GEN. STORES</item>
+        <item>SHREE SAINATH  MEDICAL AND GEN. STORES</item>
+        <item>SHREE SAMARTH KRUPA MEDICAL STORES</item>
+        <item>SHREE SAMARTH MEDICAL  AND GENERAL  STORES</item>
+        <item>SHREE SAMARTH MEDICAL AND GENERAL STORES</item>
+        <item>SHREE SAMARTH MEDICAL AND GENERAL STORES.</item>
+        <item>SHREE SARASWATI MEDICAL AND GEN. STORES</item>
+        <item>SHREE SHYAM CHEMIST MEDICAL AND GENERAL STORES</item>
+        <item>SHREE SHYAM MEDICAL</item>
+        <item>SHREE SIDDHI VINAYAK MED ST</item>
+        <item>SHREE SIDDHIVINAYAK MEDICAL STORES.</item>
+        <item>SHREE SWAMI SAMARTH MEDICAL</item>
+        <item>SHREE SWAMI SAMARTH MEDICAL AND GEN. STORES</item>
+        <item>SHREE VIGHNAHAR MEDICAL</item>
+        <item>SHREE VIJAY MEDICAL AND GEN STR</item>
+        <item>SHREEJI MEDICAL AND GEN. STORES</item>
+        <item>SHREENAGAR MEDICAL AND GENERAL STORES</item>
+        <item>SHREERAM MEDICAL AND GEN. STORES</item>
+        <item>SHREEYASH MEDICAL AND GEN STORES</item>
+        <item>SHRI AKSHAY MEDICAL AND GENERAL STORES</item>
+        <item>SHRI AMBAJI MEDICAL STORES</item>
+        <item>SHRI BALAJI MEDICAL AND GEN. STORE</item>
+        <item>SHRI GANESH MEDICAL AND GENERAL STORES</item>
+        <item>SHRI GURUDEV MEDICAL AND GEN. STORES</item>
+        <item>SHRI HARI OM MEDICAL AND GEN. STORES</item>
+        <item>SHRI HERAMB CHEMISTS</item>
+        <item>SHRI JAI AMBE MEDICAL</item>
+        <item>SHRI JALARAM MEDICAL AND GEN. STORES</item>
+        <item>SHRI KRISHNA MEDICAL AND GEN STO</item>
+        <item>SHRI MEDICAL AND GEN. STORES</item>
+        <item>SHRI ORTHO CENTRE MEDICAL</item>
+        <item>SHRI SAI MEDICAL AND GEN. STORES</item>
+        <item>SHRI SAI MEDICAL AND GENERAL STORES</item>
+        <item>SHRI SATYANARAYAN  MEDICAL AND GEN. STORES</item>
+        <item>SHRI SIDDHIVINAYAK MEDICAL AND GEN. STORES</item>
+        <item>SHRISHRIMAL MEDICAL AND GEN STORES</item>
+        <item>SHUBH MEDICAL</item>
+        <item>SHUBHAM MED. AND GEN.STORES</item>
+        <item>SHUSHIL DIVYA CHEMIST</item>
+        <item>SHYAM CHEMIST AND DRUGIST MEDICAL AND GEN. STORES</item>
+        <item>SHYAMJI  MEDICAL AND GEN. STORES</item>
+        <item>SIDDHARTH CHEMIST</item>
+        <item>SIDDHI VINAYAK MEDICAL AND GEN. STORES</item>
+        <item>SIDDHIVINAYAK  MEDICAL AND GEN STORES</item>
+        <item>SIDDHIVINAYAK CHEMIST</item>
+        <item>SIDDHIVINAYAK HEALTHCARE MEDICAL STORE.</item>
+        <item>SIDDHIVINAYAK HEALTHCARE SERVICES MEDICAL AND GENERAL STORE</item>
+        <item>SIDDHIVINAYAK MEDICAL AND GEN STORES</item>
+        <item>SIDHIVINAYAK MEDICAL</item>
+        <item>SILVER CHEMIST</item>
+        <item>SIMRAN MEDICAL AND GEN STORES</item>
+        <item>SNEH MEDICAL AND GEN. STORES</item>
+        <item>SNEHAL MED. AND GEN STORES</item>
+        <item>SR CHEMIST.</item>
+        <item>STANDARD MEDICAL AND GEN. STORES</item>
+        <item>STAR MEDICAL AND GEN. STORES</item>
+        <item>SUJOT MEDICAL AND GEN. STORES</item>
+        <item>SUMAN MEDICAL AND GEN. STORES</item>
+        <item>SUMESH CHEMISTAND DRUGIST</item>
+        <item>SUMESH MEDICAL PVT. LTD.</item>
+        <item>SUMESH MEDICALS</item>
+        <item>SUMESH MEDICALS PVT. LTD.</item>
+        <item>SUMIT MEDICAL STORES</item>
+        <item>SUN MEDICAL AND GEN. STORES</item>
+        <item>SUNITA MEDICAL AND GEN. STORES</item>
+        <item>SUNRISE CHEMIST</item>
+        <item>SUNRISE CHEMIST .</item>
+        <item>SUNSHINE CHEMIST</item>
+        <item>SUPREME MEDICO MEDICAL AND GEN. STORES</item>
+        <item>SURAKSHA MEDICAL AND GENERAL STORES</item>
+        <item>SURESH MEDICAL AND GEN. STORES</item>
+        <item>SURESH MEDICAL STORES</item>
+        <item>SURESH MEDICAL.</item>
+        <item>SURME MEDICAL AND GENERAL STORES</item>
+        <item>SUVIDHA MEDICO</item>
+        <item>SUYASH MEDICAL AND GENERAL STORES</item>
+        <item>SUYOG CHEMIST</item>
+        <item>SUYOG MEDICAL AND GENERAL STORES.</item>
+        <item>SWARA CHEMIST.</item>
+        <item>SWARA MEDICAL STORE</item>
+        <item>SWASTIK MEDICAL AND GENERAL STORES</item>
+        <item>SWASTIK MEDICAL STORE.</item>
+        <item>SWAYAM MEDICAL STORES</item>
+        <item>SWEETY CHEMIST AND DRUGGIST.</item>
+        <item>SWIZZ PHARMA MEDICAL $ GEN STR</item>
+        <item>TAHA MEDICAL AND GEN. STORES</item>
+        <item>TANAJI MEDICAL AND GENERAL STORES</item>
+        <item>TARANGAN MEDICAL STORES</item>
+        <item>THAKKAR MEDICALS</item>
+        <item>THAKUR  CHEMIST</item>
+        <item>THAKUR MEDICAL STORES</item>
+        <item>THANA DRUG HOUSE</item>
+        <item>THE ALL INDIA DRUG S KING</item>
+        <item>THE ALL INDIA DRUGS AND SURGICAL KING</item>
+        <item>THE CHEMIST AND GENERAL STORES</item>
+        <item>THE NEW CHEMIST</item>
+        <item>TIP TOP CHEMIST DRUGGIST AND GENERAL</item>
+        <item>TIRTHA CHEMIST MEDICAL AND GENERAL STORES.</item>
+        <item>TIRUPATI MEDICAL  AND GEN. STORES</item>
+        <item>TIRUPATI MEDICAL AND GEN  STORES</item>
+        <item>TITAN MEDICAL</item>
+        <item>TOMAR MEDICAL AND GENERAL STORES</item>
+        <item>TRIMURTI CHEMISTS.</item>
+        <item>TRIVENI  MEDICAL AND GEN. STORES</item>
+        <item>TRIVENI MEDICAL AND GEN. STORES</item>
+        <item>TULJA BHAVANI MEDICAL STORES .</item>
+        <item>TULSI CHEMIST AND GENERAL STORES</item>
+        <item>TULSI MEDICAL AND GENERAL STORES</item>
+        <item>UMESH MEDICAL AND GEN. STORES</item>
+        <item>UNIQUE HEALTHCARE AND MEDICAL</item>
+        <item>UNIQUE MEDICAL AND GEN STORES</item>
+        <item>UNITED CHEMIST</item>
+        <item>UNITED CHEMIST.</item>
+        <item>VAISHALI MEDICAL.</item>
+        <item>VAISHNAVI MEDICAL</item>
+        <item>VANDANA CHEMIST</item>
+        <item>VANDANA MEDI. AND GEN. STORES</item>
+        <item>VANITHA MEDICAL AND GENERAL STORES</item>
+        <item>VANSHIKA DRUG HOUSE</item>
+        <item>VARAD CHEMIST</item>
+        <item>VARAD MEDICAL AND GENERAL STORES</item>
+        <item>VARDHMAN MED. AND GEN. STORES</item>
+        <item>VARSHA MEDICAL</item>
+        <item>VARSHA MEDICO</item>
+        <item>VEDANT CHEMIST</item>
+        <item>VEDANT SAHYADRI CHEM AND DRUG</item>
+        <item>VEER YUVRAJ MEDICAL STORES</item>
+        <item>VEERA MEDICO</item>
+        <item>VEGA CHEMIST</item>
+        <item>VENKATESH MEDICAL AND GENERAL STORES</item>
+        <item>VIGHNAHARTA CHEMIST</item>
+        <item>VIGHNAHARTA MEDICAL</item>
+        <item>VIHANG MEDICAL</item>
+        <item>VIHAR CHEMIST</item>
+        <item>VIJAY MEDICAL</item>
+        <item>VIJAY MEDICAL AND G. STORE</item>
+        <item>VIJAY MEDICAL AND GENERAL STORES</item>
+        <item>VIJAY MEDICAL AND GENERAL STORES</item>
+        <item>VIJAY MEDICAL AND GEN STORES</item>
+        <item>VIJAY MEDICAL AND GENERAL STORES</item>
+        <item>VIJAY MEDICAL AND GENERAL STORES .</item>
+        <item>VIKAS MEDICAL AND GENERAL STORES</item>
+        <item>VIKAS MEDICAL AND GENERAL STORS</item>
+        <item>VIKRAM MEDICAL AND GENERAL STORES</item>
+        <item>VIMAL MEDICAL</item>
+        <item>VINAYAK CHEMIST</item>
+        <item>VINAYAK CHEMIST AND GEN STORES</item>
+        <item>VINAYAK MED. AND GEN STORE</item>
+        <item>VINAYAK MEDICAL AND GEN ST.</item>
+        <item>VINAYAK MEDICAL AND GEN. STORES</item>
+        <item>VINAYAK MEDICAL AND GENERAL  STORES</item>
+        <item>VINAYAK MEDICAL AND GENERAL STORES</item>
+        <item>VINAYAK MEDICAL AND GENERAL STORES .</item>
+        <item>VINAYAK MEDICAL AND GENERAL STORES.</item>
+        <item>VINAYAK MEDICAL STORES</item>
+        <item>VINAYAK MEDICAL.</item>
+        <item>VINOD MEDICAL AND GEN. STORES</item>
+        <item>VIPUL ENTERPRISE</item>
+        <item>VISHAL CHEMIST</item>
+        <item>VISHAL MEDICAL AND GEN STORES</item>
+        <item>VISHAL MEDICAL AND GEN STR.</item>
+        <item>VISHRAM MEDICAL AND GEN STORES</item>
+        <item>VISHWA SHAKTI MEDICAL AND GENERAL STORES.</item>
+        <item>VISHWAMBHAR MEDICAL AND GEBERAL STORES.</item>
+        <item>VORA CHEMIST</item>
+        <item>WAFA  MEDICAL AND GENERAL STORE</item>
+        <item>WAFA MEDICAL AND GEN STORES</item>
+        <item>WARSI PHARMACY</item>
+        <item>WE CARE PHARMACY AND GENERAL STORE</item>
+        <item>WECARE PHARMACY AND GENERAL STORES.</item>
+        <item>WELCOME  CHEMIST</item>
+        <item>WELCOME CHEMISTS AND DRUGGISTS.</item>
+        <item>WELCOME MEDICAL AND GEN STORES</item>
+        <item>WELCOME MEDICAL AND GENERAL STORES.</item>
+        <item>WELCOME MEDICO.</item>
+        <item>WELL COME  MEDICAL</item>
+        <item>WELL COME MEIDCAL.</item>
+        <item>WELLNESS FOREVER  LIFESTYLE CHEMIST</item>
+        <item>WELLNESS MEDICO.</item>
+        <item>YASH CHEMIST I</item>
+        <item>YASH MEDICA AND GENERAL STORES.</item>
+        <item>YASH MEDICAL</item>
+        <item>YASH MEDICAL  AND GENERAL STORES</item>
+        <item>YASH MEDICAL AND GENERAL STORES</item>
+        <item>YASH MEDICAL AND GENERAL STORES.</item>
+        <item>YASHODA MEDICAL AND GENERAL STORES</item>
+        <item>YOGESH MEDICAL AND  GENERAL STORES</item>
+        <item>YOGESH MEDICAL AND GENERAL STORES</item>
+        <item>YUVRAJ MEDICAL STORES</item>
+        <item>ZEESHAN MEDICAL AND GEN. STORES</item>
+    </string-array>
+</resources>
