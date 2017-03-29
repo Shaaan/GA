@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="salesmen">
-        <item>pande</item>
-        <item>vinod</item>
-        <item>nishad</item>
-        <item>anil</item>
-        <item>rajkumar</item>
-        <item>dhiraj</item>
-        <item>anurag</item>
-        <item>pramesh</item>
-        <item>rajesh</item>
-        <item>dharmendra</item>
-        <item>deepak</item>
+        <item>pande@ga.co.in</item>
+        <item>vinod@ga.co.in</item>
+        <item>nishad@ga.co.in</item>
+        <item>anil@ga.co.in</item>
+        <item>rajkumar@ga.co.in</item>
+        <item>dhiraj@ga.co.in</item>
+        <item>anurag@ga.co.in</item>
+        <item>pramesh@ga.co.in</item>
+        <item>rajesh@ga.co.in</item>
+        <item>dharmendra@ga.co.in</item>
+        <item>deepak@ga.co.in</item>
     </string-array>
 </resources>

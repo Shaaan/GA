@@ -82,15 +82,13 @@ public class BuildOrder extends AppCompatActivity {
         String s1 = salesmen.toString();
         StringTokenizer stringTokenizer = new StringTokenizer(s, "@");
         String partyTemp = stringTokenizer.nextToken().trim();
-        StringTokenizer stringTokenizer1 = new StringTokenizer(s, "@");
-        String pa = stringTokenizer1.nextToken();
         /*int i = Integer.parseInt(partyTemp.replaceAll("[\\D]", ""));
             if (custList.contains(i)) {
                 mActv.setText(i);
                 mActv.setEnabled(false);
             }*/
 
-        if (s1.contains(pa)) {
+        if (s1.contains(s)) {
             mActv.setEnabled(true);
             firebaseAnalytics = FirebaseAnalytics.getInstance(this);
             firebaseAnalytics.setUserProperty("salesman", "isSalesman");
