@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
@@ -13,6 +12,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -36,6 +36,7 @@ public class BuildOrder extends AppCompatActivity {
     private TextView mTextView;
     private AutoCompleteTextView mActv;
     private Button mButton;
+    private FirebaseAnalytics firebaseAnalytics;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -91,6 +92,8 @@ public class BuildOrder extends AppCompatActivity {
 
         if (s1.contains(pa)) {
             mActv.setEnabled(true);
+            firebaseAnalytics = FirebaseAnalytics.getInstance(this);
+            firebaseAnalytics.setUserProperty("salesman", "isSalesman");
         } else if (bh.contains(partyTemp)) {
             mActv.setText(partyTemp);
             mActv.setEnabled(false);
@@ -136,15 +139,6 @@ public class BuildOrder extends AppCompatActivity {
 
     public void sendOrder(View view) {
         submitOrder();
-    }
-
-    private void getParty() {
-        final String party = null;
-
-        String partyTemp = FirebaseAuth.getInstance().getCurrentUser().getEmail();
-
-        int i = Integer.parseInt(partyTemp.replaceAll("[\\D]", ""));
-        Log.d(TAG, "s");
     }
 
     private void submitOrder() {
