@@ -163,6 +163,7 @@ public class BuildOrder extends AppCompatActivity {
             @Override
             public void run() {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
+                database.setPersistenceEnabled(true);
                 DatabaseReference reference = database.getReference("salesman").child(userId);
                 reference.child("email").setValue(eMail);
                 String key = reference.child("salesman").child(userId).child("orders").push().getKey();
@@ -177,6 +178,7 @@ public class BuildOrder extends AppCompatActivity {
             @Override
             public void run() {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
+                database.setPersistenceEnabled(true);
                 DatabaseReference reference = database.getReference("allOrders");
                 String key = reference.push().getKey();
                 reference.child(key).child("email").setValue(eMail);
