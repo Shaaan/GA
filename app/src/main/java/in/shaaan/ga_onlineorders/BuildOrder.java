@@ -32,7 +32,6 @@ public class BuildOrder extends AppCompatActivity {
     @Bind(R.id.expProdList)
     TextView textView;
 
-    private DatabaseReference databaseReference;
     private TextView mTextView;
     private AutoCompleteTextView mActv;
     private Button mButton;
@@ -70,7 +69,8 @@ public class BuildOrder extends AppCompatActivity {
         autoCompleteTextView1.setAdapter(adapter);
         autoCompleteTextView.setAdapter(adapter);
 
-        databaseReference = FirebaseDatabase.getInstance().getReference();
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        database.setPersistenceEnabled(true);
 
         mTextView = (TextView) findViewById(R.id.prodList);
         mActv = (AutoCompleteTextView) findViewById(R.id.custName);
@@ -163,7 +163,6 @@ public class BuildOrder extends AppCompatActivity {
             @Override
             public void run() {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
-                database.setPersistenceEnabled(true);
                 DatabaseReference reference = database.getReference("salesman").child(userId);
                 reference.child("email").setValue(eMail);
                 String key = reference.child("salesman").child(userId).child("orders").push().getKey();
@@ -178,7 +177,6 @@ public class BuildOrder extends AppCompatActivity {
             @Override
             public void run() {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
-                database.setPersistenceEnabled(true);
                 DatabaseReference reference = database.getReference("allOrders");
                 String key = reference.push().getKey();
                 reference.child(key).child("email").setValue(eMail);
