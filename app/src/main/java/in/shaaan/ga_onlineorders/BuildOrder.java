@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
@@ -17,7 +18,9 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.text.SimpleDateFormat;
 import java.util.Arrays;
+import java.util.Calendar;
 import java.util.List;
 import java.util.StringTokenizer;
 
@@ -153,6 +156,11 @@ public class BuildOrder extends AppCompatActivity {
             mTextView.setError(REQUIRED);
         }
 
+        Calendar calendar = Calendar.getInstance();
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd-MM-yyyy, hh:mm");
+        final String date = simpleDateFormat.format(calendar.getTime());
+        Log.d("TAG", date);
+
         // Disable the submit button to prevent multiple orders
         setEditing(false);
         Toast.makeText(this, "Sending Order..", Toast.LENGTH_LONG).show();
@@ -164,11 +172,13 @@ public class BuildOrder extends AppCompatActivity {
             public void run() {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
                 DatabaseReference reference = database.getReference("salesman").child(userId);
+                reference.keepSynced(true);
                 reference.child("email").setValue(eMail);
                 String key = reference.child("salesman").child(userId).child("orders").push().getKey();
                 reference.child(key).child("custName").setValue(customer);
                 reference.child(key).child("products").setValue(product);
                 reference.child(key).child("expProducts").setValue(expProduct);
+                reference.child(key).child("date").setValue(date);
             }
         });
         thread.start();
@@ -178,8 +188,10 @@ public class BuildOrder extends AppCompatActivity {
             public void run() {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
                 DatabaseReference reference = database.getReference("allOrders");
+                reference.keepSynced(true);
                 String key = reference.push().getKey();
                 reference.child(key).child("email").setValue(eMail);
+                reference.child(key).child("date").setValue(date);
                 reference.child(key).child("custName").setValue(customer);
                 reference.child(key).child("products").setValue(product);
                 reference.child(key).child("expProducts").setValue(expProduct);
