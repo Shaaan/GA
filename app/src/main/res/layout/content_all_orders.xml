@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="in.shaaan.ga_onlineorders.AllOrders"
     tools:showIn="@layout/activity_all_orders">
 
+    <!--app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
 
-    <TextView
+    <!--<TextView
         android:id="@+id/about"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
         android:padding="@dimen/frag_pad"
-        android:text="@string/about" />
+        android:text="@string/about" />-->
 
-</android.support.constraint.ConstraintLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_order" />
+
+</RelativeLayout>
