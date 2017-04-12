@@ -26,7 +26,6 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -43,8 +42,8 @@ public class AllOrders extends AppCompatActivity {
     // [START declare_auth]
     private FirebaseAuth.AuthStateListener mAuthListener;
     private FirebaseAuth mAuth;
-    private DatabaseReference databaseReference1;
 
+    private DatabaseReference databaseReference1;
     private TextView mCustName;
     private TextView mDateTime;
     private TextView mOrderBy;
@@ -79,17 +78,21 @@ public class AllOrders extends AppCompatActivity {
                 }
             }
         };
+//        FirebaseDatabase fd = FirebaseDatabase.getInstance();
+//        fd.setPersistenceEnabled(true);
 
         // Initialize Database
-        databaseReference1 = FirebaseDatabase.getInstance().getReference().child("salesman").child(getUid());
+        String s = FirebaseDatabase.getInstance().getReference().child("salesman").child(getUid()).getKey();
+        databaseReference1 = FirebaseDatabase.getInstance().getReference().child("salesman");
 
         // Views
         mCustName = (TextView) findViewById(R.id.view_cust_name);
         mDateTime = (TextView) findViewById(R.id.view_date_time);
-        mOrderBy = (TextView) findViewById(R.id.view_order_by);
-        mOrder = (TextView) findViewById(R.id.view_order);
+//        mOrderBy = (TextView) findViewById(R.id.view_order_by);
+//        mOrder = (TextView) findViewById(R.id.view_order);
 
         recyclerView = (RecyclerView) findViewById(R.id.recycler);
+        recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
 
@@ -102,12 +105,12 @@ public class AllOrders extends AppCompatActivity {
         super.onStart();
         mAuth.addAuthStateListener(mAuthListener);
 
-        ValueEventListener eventListener = new ValueEventListener() {
+        /*ValueEventListener eventListener = new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                OrderData orderData = dataSnapshot.getValue(OrderData.class);
-                mCustName.setText(orderData.getCustName());
-                mDateTime.setText(orderData.getDate());
+                *//*OrderData orderData = dataSnapshot.getValue(OrderData.class);
+                mCustName.setText(orderData.custName());*//*
+//                mDateTime.setText(orderData.getDate());
             }
 
             @Override
@@ -115,9 +118,11 @@ public class AllOrders extends AppCompatActivity {
 
             }
         };
-        databaseReference1.addValueEventListener(eventListener);
+
+        databaseReference1.addValueEventListener(eventListener);*/
         mAdapter = new GaAdapter(this, databaseReference1);
         recyclerView.setAdapter(mAdapter);
+
     }
 
     public void buildOrder(View view) {
@@ -163,23 +168,28 @@ public class AllOrders extends AppCompatActivity {
     }
 
     private static class GaAdapter extends RecyclerView.Adapter<GaViewHolder> {
-        ArrayList<OrderData> orderDatas;
-        private Context context;
+
+        private Context mContext;
         private DatabaseReference databaseReference;
         private ChildEventListener mchildEventListener;
-        private ValueEventListener mListner;
-        private List<String> stringList = new ArrayList<>();
-        private List<String> strings = new ArrayList<>();
 
-        public GaAdapter(final Context context1, DatabaseReference reference) {
-            context = context1;
+        private List<String> orderId = new ArrayList<>();
+        private List<OrderData> orders = new ArrayList<>();
+
+//        private ArrayList<OrderData> mDataSet;
+
+        public GaAdapter(final Context context, DatabaseReference reference) {
+            mContext = context;
             databaseReference = reference;
 
             ChildEventListener childEventListener = new ChildEventListener() {
                 @Override
                 public void onChildAdded(DataSnapshot dataSnapshot, String s) {
-                    orderDatas.add(dataSnapshot.getValue(OrderData.class));
-
+                    System.out.println(dataSnapshot);
+                    OrderData orderDatass = dataSnapshot.getValue(OrderData.class);
+                    orderId.add(dataSnapshot.getKey());
+                    orders.add(orderDatass);
+                    notifyItemInserted(orders.size() - 1);
                 }
 
                 @Override
@@ -204,25 +214,26 @@ public class AllOrders extends AppCompatActivity {
             };
             reference.addChildEventListener(childEventListener);
             mchildEventListener = childEventListener;
+
         }
 
         @Override
         public GaViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-            LayoutInflater inflater = LayoutInflater.from(context);
+            LayoutInflater inflater = LayoutInflater.from(mContext);
             View view = inflater.inflate(R.layout.item_order, parent, false);
             return new GaViewHolder(view);
         }
 
         @Override
         public void onBindViewHolder(GaViewHolder holder, int position) {
-            OrderData orderData1 = orderDatas.get(position);
-            holder.custName.setText(orderData1.getCustName());
-            holder.dateTime.setText(orderData1.getDate());
+            OrderData orderData1 = orders.get(position);
+            holder.custName.setText(orderData1.custName);
+            holder.dateTime.setText(orderData1.date);
         }
 
         @Override
         public int getItemCount() {
-            return orderDatas.size();
+            return orders.size();
         }
     }
 }

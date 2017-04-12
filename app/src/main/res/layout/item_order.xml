@@ -3,10 +3,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <android.support.v7.widget.CardView
-        android:id="@+id/tw_card_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+    <!--<android.support.v7.widget.CardView-->
+    <!--android:id="@+id/tw_card_view"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
 
         <TextView
             android:id="@+id/view_cust_name"
@@ -19,17 +19,17 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/view_cust_name" />
 
-        <TextView
-            android:id="@+id/view_order_by"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_below="@id/view_date_time" />
+    <!--<TextView-->
+    <!--android:id="@+id/view_order_by"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_below="@id/view_date_time" />-->
 
-        <TextView
-            android:id="@+id/view_order"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/view_order_by" />
+    <!--<TextView-->
+    <!--android:id="@+id/view_order"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/view_order_by" /
 
-    </android.support.v7.widget.CardView>
+</android.support.v7.widget.CardView>&ndash;&gt;-->
 </RelativeLayout>

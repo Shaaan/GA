@@ -73,7 +73,7 @@ public class BuildOrder extends AppCompatActivity {
         autoCompleteTextView.setAdapter(adapter);
 
         FirebaseDatabase database = FirebaseDatabase.getInstance();
-        database.setPersistenceEnabled(true);
+//        database.setPersistenceEnabled(true);
 
         mTextView = (TextView) findViewById(R.id.prodList);
         mActv = (AutoCompleteTextView) findViewById(R.id.custName);
