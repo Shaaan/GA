@@ -173,10 +173,11 @@ public class BuildOrder extends AppCompatActivity {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
                 DatabaseReference reference = database.getReference("salesman").child(userId);
                 reference.keepSynced(true);
-                reference.child("email").setValue(eMail);
+//                reference.child("email").setValue(eMail);
                 String key = reference.child("salesman").child(userId).child("orders").push().getKey();
                 reference.child(key).child("custName").setValue(customer);
                 reference.child(key).child("products").setValue(product);
+                reference.child(key).child("email").setValue(eMail);
                 reference.child(key).child("expProducts").setValue(expProduct);
                 reference.child(key).child("date").setValue(date);
             }
