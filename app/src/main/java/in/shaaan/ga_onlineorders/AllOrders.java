@@ -1,6 +1,5 @@
 package in.shaaan.ga_onlineorders;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -10,28 +9,23 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.firebase.ui.auth.AuthUI;
+import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.ChildEventListener;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import butterknife.Bind;
 import butterknife.ButterKnife;
+import in.shaaan.ga_onlineorders.pojo.OrderData;
+import in.shaaan.ga_onlineorders.pojo.PostViewHolder;
 
 public class AllOrders extends AppCompatActivity {
 
@@ -49,7 +43,13 @@ public class AllOrders extends AppCompatActivity {
     private TextView mOrderBy;
     private TextView mOrder;
     private RecyclerView recyclerView;
-    private GaAdapter mAdapter;
+    private FirebaseRecyclerAdapter<OrderData, PostViewHolder> mAdapter;
+    private LinearLayoutManager mManager;
+//    private GaAdapter mAdapter;
+
+    public AllOrders() {
+
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -78,22 +78,31 @@ public class AllOrders extends AppCompatActivity {
                 }
             }
         };
-//        FirebaseDatabase fd = FirebaseDatabase.getInstance();
-//        fd.setPersistenceEnabled(true);
 
         // Initialize Database
         String s = FirebaseDatabase.getInstance().getReference().child("salesman").child(getUid()).getKey();
-        databaseReference1 = FirebaseDatabase.getInstance().getReference().child("salesman");
+        databaseReference1 = FirebaseDatabase.getInstance().getReference().child("salesman").child(getUid());
 
         // Views
         mCustName = (TextView) findViewById(R.id.view_cust_name);
         mDateTime = (TextView) findViewById(R.id.view_date_time);
-//        mOrderBy = (TextView) findViewById(R.id.view_order_by);
-//        mOrder = (TextView) findViewById(R.id.view_order);
 
         recyclerView = (RecyclerView) findViewById(R.id.recycler);
-        recyclerView.setHasFixedSize(true);
+        recyclerView.setHasFixedSize(false);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+        mAdapter = new FirebaseRecyclerAdapter<OrderData, PostViewHolder>(OrderData.class, android.R.layout.two_line_list_item, PostViewHolder.class, databaseReference1) {
+            @Override
+            public void populateViewHolder(PostViewHolder postViewHolder, OrderData orderData, int position) {
+                postViewHolder.setCustView(orderData.getCustName());
+                postViewHolder.setDateView(orderData.getDate());
+            }
+        };
+        recyclerView.setAdapter(mAdapter);
+
+        /*recyclerView = (RecyclerView) findViewById(R.id.recycler);
+        recyclerView.setHasFixedSize(true);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));*/
     }
 
     public String getUid() {
@@ -104,26 +113,40 @@ public class AllOrders extends AppCompatActivity {
     public void onStart() {
         super.onStart();
         mAuth.addAuthStateListener(mAuthListener);
-
-        /*ValueEventListener eventListener = new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                *//*OrderData orderData = dataSnapshot.getValue(OrderData.class);
-                mCustName.setText(orderData.custName());*//*
-//                mDateTime.setText(orderData.getDate());
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        };
-
-        databaseReference1.addValueEventListener(eventListener);*/
+        /*
         mAdapter = new GaAdapter(this, databaseReference1);
         recyclerView.setAdapter(mAdapter);
+*/
+        /*mManager = new LinearLayoutManager(getApplicationContext());
+        mManager.setReverseLayout(true);
+        mManager.setStackFromEnd(true);
+        recyclerView.setLayoutManager(mManager);
 
+        Query query = databaseReference1.child("salesman").child(getUid());
+        mAdapter = new FirebaseRecyclerAdapter<OrderData, PostViewHolder>(OrderData.class, R.layout.item_order, PostViewHolder.class, query) {
+            @Override
+            protected void populateViewHolder(PostViewHolder viewHolder, OrderData model, int position) {
+                final DatabaseReference databaseReference = getRef(position);
+
+                final String key = databaseReference.getKey();
+                viewHolder.itemView.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Toast.makeText(AllOrders.this, "Tes", Toast.LENGTH_LONG).show();
+                    }
+                });
+
+                viewHolder.bindToPost(model, new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Toast.makeText(AllOrders.this, "tttttt", Toast.LENGTH_LONG).show();
+                    }
+                });
+            }
+        };
+        recyclerView.setAdapter(mAdapter);*/
     }
+
 
     public void buildOrder(View view) {
         Intent intent = new Intent(this, BuildOrder.class);
@@ -155,7 +178,7 @@ public class AllOrders extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    private static class GaViewHolder extends RecyclerView.ViewHolder {
+    /*private static class GaViewHolder extends RecyclerView.ViewHolder {
         public TextView custName;
         public TextView dateTime;
 
@@ -163,7 +186,7 @@ public class AllOrders extends AppCompatActivity {
             super(itemView);
 
             custName = (TextView) itemView.findViewById(R.id.view_cust_name);
-            dateTime = (TextView) itemView.findViewById(R.id.view_date_time);
+//            dateTime = (TextView) itemView.findViewById(R.id.view_date_time);
         }
     }
 
@@ -186,6 +209,7 @@ public class AllOrders extends AppCompatActivity {
                 @Override
                 public void onChildAdded(DataSnapshot dataSnapshot, String s) {
                     System.out.println(dataSnapshot);
+//                    OrderData orderDatass = dataSnapshot.getValue(OrderData.class);
                     OrderData orderDatass = dataSnapshot.getValue(OrderData.class);
                     orderId.add(dataSnapshot.getKey());
                     orders.add(orderDatass);
@@ -235,5 +259,5 @@ public class AllOrders extends AppCompatActivity {
         public int getItemCount() {
             return orders.size();
         }
-    }
+    }*/
 }

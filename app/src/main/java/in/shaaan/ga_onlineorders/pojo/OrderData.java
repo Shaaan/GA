@@ -1,4 +1,4 @@
-package in.shaaan.ga_onlineorders;
+package in.shaaan.ga_onlineorders.pojo;
 
 import com.google.firebase.database.IgnoreExtraProperties;
 
@@ -10,18 +10,20 @@ import com.google.firebase.database.IgnoreExtraProperties;
 public class OrderData {
 
     String uid;
-    String custName;
-    String date;
     String products;
     String orderBy;
     String expProd;
+    private String custName;
+    private String date;
+    private String email;
 
     public OrderData() {
 
     }
 
-    public OrderData(String uid, String expProd, String custName, String date, String orderBy, String products) {
+    public OrderData(String uid, String expProd, String custName, String date, String orderBy, String products, String email) {
         this.uid = uid;
+        this.email = email;
         this.custName = custName;
         this.date = date;
         this.products = products;
@@ -35,7 +37,7 @@ public class OrderData {
                 "expProducts='" + expProd + '\'' +
                 "products='" + products + '\'' +
                 "]";
-    }
+    }*/
 
     public String getUid() {
         return uid;
@@ -76,5 +78,5 @@ public class OrderData {
     public void setOrderBy(String orderBy) {
         this.orderBy = orderBy;
     }
-*/
+
 }
