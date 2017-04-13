@@ -4,6 +4,8 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
 
+import in.shaaan.ga_onlineorders.R;
+
 /**
  * Created by shant on 12-04-2017.
  */
@@ -15,8 +17,8 @@ public class PostViewHolder extends RecyclerView.ViewHolder {
     public PostViewHolder(View itemView) {
         super(itemView);
 
-        custView = (TextView) itemView.findViewById(android.R.id.text1);
-        dateView = (TextView) itemView.findViewById(android.R.id.text2);
+        custView = (TextView) itemView.findViewById(R.id.view_cust_name);
+        dateView = (TextView) itemView.findViewById(R.id.view_date_time);
     }
 
     public void setCustView(String string) {

@@ -49,9 +49,6 @@ public class AllOrders extends AppCompatActivity {
     private LinearLayoutManager mManager;
 //    private GaAdapter mAdapter;
 
-    public AllOrders() {
-
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,29 +78,32 @@ public class AllOrders extends AppCompatActivity {
             }
         };
 
+        recyclerView = (RecyclerView) findViewById(R.id.recycler);
+        recyclerView.setHasFixedSize(true);
+        mManager = new LinearLayoutManager(this);
+        mManager.setStackFromEnd(true);
+        mManager.setReverseLayout(true);
+        recyclerView.setLayoutManager(mManager);
+
         // Initialize Database
-        String s = FirebaseDatabase.getInstance().getReference().child("salesman").child(getUid()).getKey();
         databaseReference1 = FirebaseDatabase.getInstance().getReference().child("salesman").child(getUid());
         Query query = databaseReference1.orderByValue();
 
         // Views
-        mCustName = (TextView) findViewById(R.id.view_cust_name);
-        mDateTime = (TextView) findViewById(R.id.view_date_time);
+//        mCustName = (TextView) findViewById(R.id.view_cust_name);
+//        mDateTime = (TextView) findViewById(R.id.view_date_time);
 
-        recyclerView = (RecyclerView) findViewById(R.id.recycler);
-        /*recyclerView.setHasFixedSize(false);*/
-        mManager = new LinearLayoutManager(this);
-        recyclerView.setLayoutManager(mManager);
 
-        mAdapter = new FirebaseRecyclerAdapter<OrderData, PostViewHolder>(OrderData.class, android.R.layout.two_line_list_item, PostViewHolder.class, query) {
+        mAdapter = new FirebaseRecyclerAdapter<OrderData, PostViewHolder>(OrderData.class, R.layout.item_order, PostViewHolder.class, databaseReference1) {
             @Override
             public void populateViewHolder(PostViewHolder postViewHolder, OrderData orderData, int position) {
                 postViewHolder.setCustView(orderData.getCustName());
                 postViewHolder.setDateView(orderData.getDate());
             }
         };
-        recyclerView.setAdapter(mAdapter);
         recyclerView.addItemDecoration(new DividerItemDecoration(recyclerView.getContext(), DividerItemDecoration.VERTICAL_LIST));
+        recyclerView.setAdapter(mAdapter);
+
 
         /*recyclerView = (RecyclerView) findViewById(R.id.recycler);
         recyclerView.setHasFixedSize(true);
