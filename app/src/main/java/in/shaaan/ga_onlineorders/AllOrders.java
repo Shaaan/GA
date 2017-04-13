@@ -21,6 +21,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -82,6 +83,7 @@ public class AllOrders extends AppCompatActivity {
         // Initialize Database
         String s = FirebaseDatabase.getInstance().getReference().child("salesman").child(getUid()).getKey();
         databaseReference1 = FirebaseDatabase.getInstance().getReference().child("salesman").child(getUid());
+        Query query = databaseReference1.orderByValue();
 
         // Views
         mCustName = (TextView) findViewById(R.id.view_cust_name);
@@ -91,7 +93,7 @@ public class AllOrders extends AppCompatActivity {
         recyclerView.setHasFixedSize(false);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        mAdapter = new FirebaseRecyclerAdapter<OrderData, PostViewHolder>(OrderData.class, android.R.layout.two_line_list_item, PostViewHolder.class, databaseReference1) {
+        mAdapter = new FirebaseRecyclerAdapter<OrderData, PostViewHolder>(OrderData.class, android.R.layout.two_line_list_item, PostViewHolder.class, query) {
             @Override
             public void populateViewHolder(PostViewHolder postViewHolder, OrderData orderData, int position) {
                 postViewHolder.setCustView(orderData.getCustName());
@@ -177,87 +179,4 @@ public class AllOrders extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-
-    /*private static class GaViewHolder extends RecyclerView.ViewHolder {
-        public TextView custName;
-        public TextView dateTime;
-
-        public GaViewHolder(View itemView) {
-            super(itemView);
-
-            custName = (TextView) itemView.findViewById(R.id.view_cust_name);
-//            dateTime = (TextView) itemView.findViewById(R.id.view_date_time);
-        }
-    }
-
-    private static class GaAdapter extends RecyclerView.Adapter<GaViewHolder> {
-
-        private Context mContext;
-        private DatabaseReference databaseReference;
-        private ChildEventListener mchildEventListener;
-
-        private List<String> orderId = new ArrayList<>();
-        private List<OrderData> orders = new ArrayList<>();
-
-//        private ArrayList<OrderData> mDataSet;
-
-        public GaAdapter(final Context context, DatabaseReference reference) {
-            mContext = context;
-            databaseReference = reference;
-
-            ChildEventListener childEventListener = new ChildEventListener() {
-                @Override
-                public void onChildAdded(DataSnapshot dataSnapshot, String s) {
-                    System.out.println(dataSnapshot);
-//                    OrderData orderDatass = dataSnapshot.getValue(OrderData.class);
-                    OrderData orderDatass = dataSnapshot.getValue(OrderData.class);
-                    orderId.add(dataSnapshot.getKey());
-                    orders.add(orderDatass);
-                    notifyItemInserted(orders.size() - 1);
-                }
-
-                @Override
-                public void onChildChanged(DataSnapshot dataSnapshot, String s) {
-
-                }
-
-                @Override
-                public void onChildRemoved(DataSnapshot dataSnapshot) {
-
-                }
-
-                @Override
-                public void onChildMoved(DataSnapshot dataSnapshot, String s) {
-
-                }
-
-                @Override
-                public void onCancelled(DatabaseError databaseError) {
-
-                }
-            };
-            reference.addChildEventListener(childEventListener);
-            mchildEventListener = childEventListener;
-
-        }
-
-        @Override
-        public GaViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-            LayoutInflater inflater = LayoutInflater.from(mContext);
-            View view = inflater.inflate(R.layout.item_order, parent, false);
-            return new GaViewHolder(view);
-        }
-
-        @Override
-        public void onBindViewHolder(GaViewHolder holder, int position) {
-            OrderData orderData1 = orders.get(position);
-            holder.custName.setText(orderData1.custName);
-            holder.dateTime.setText(orderData1.date);
-        }
-
-        @Override
-        public int getItemCount() {
-            return orders.size();
-        }
-    }*/
 }
