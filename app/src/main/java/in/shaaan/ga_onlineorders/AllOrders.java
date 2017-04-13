@@ -25,6 +25,7 @@ import com.google.firebase.database.Query;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
+import in.shaaan.ga_onlineorders.pojo.DividerItemDecoration;
 import in.shaaan.ga_onlineorders.pojo.OrderData;
 import in.shaaan.ga_onlineorders.pojo.PostViewHolder;
 
@@ -90,8 +91,9 @@ public class AllOrders extends AppCompatActivity {
         mDateTime = (TextView) findViewById(R.id.view_date_time);
 
         recyclerView = (RecyclerView) findViewById(R.id.recycler);
-        recyclerView.setHasFixedSize(false);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        /*recyclerView.setHasFixedSize(false);*/
+        mManager = new LinearLayoutManager(this);
+        recyclerView.setLayoutManager(mManager);
 
         mAdapter = new FirebaseRecyclerAdapter<OrderData, PostViewHolder>(OrderData.class, android.R.layout.two_line_list_item, PostViewHolder.class, query) {
             @Override
@@ -101,6 +103,7 @@ public class AllOrders extends AppCompatActivity {
             }
         };
         recyclerView.setAdapter(mAdapter);
+        recyclerView.addItemDecoration(new DividerItemDecoration(recyclerView.getContext(), DividerItemDecoration.VERTICAL_LIST));
 
         /*recyclerView = (RecyclerView) findViewById(R.id.recycler);
         recyclerView.setHasFixedSize(true);

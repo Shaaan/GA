@@ -8,25 +8,12 @@
     tools:context="in.shaaan.ga_onlineorders.AllOrders"
     tools:showIn="@layout/activity_all_orders">
 
-    <!--app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
 
-    <LinearLayout
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <TextView
-        android:id="@+id/about"
-        android:layout_width="match_parent"
-            android:layout_height="90dp"
-            android:background="@color/colorPrimary"
-            android:gravity="center_vertical|center_horizontal|center"
-        android:padding="@dimen/frag_pad"
-            android:text="@string/about"
-            android:textColor="#fefefe"
-            android:theme="@style/AppTheme.AppBarOverlay" />
-
-        <TextView
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
+        <!--<TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -36,16 +23,26 @@
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textStyle="bold" />-->
 
         <android.support.v7.widget.RecyclerView
-        android:id="@+id/recycler"
-        android:layout_width="match_parent"
+            android:id="@+id/recycler"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:animationCache="true"
-            android:padding="@dimen/frag_pad"
-            android:scrollbars="vertical"
-        tools:listitem="@layout/item_order" />
+            android:layout_marginBottom="50dp" />
 
-    </LinearLayout>
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:background="@color/colorPrimary"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:padding="@dimen/frag_pad"
+            android:text="@string/about"
+            android:textColor="#fefefe"
+            android:theme="@style/AppTheme.AppBarOverlay" />
+
+    </FrameLayout>
+
 </android.support.constraint.ConstraintLayout>
