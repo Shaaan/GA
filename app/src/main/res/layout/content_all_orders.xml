@@ -1,26 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="in.shaaan.ga_onlineorders.AllOrders"
     tools:showIn="@layout/activity_all_orders">
 
     <!--app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
 
-    <TextView
-        android:id="@+id/about"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:gravity="center"
-        android:padding="@dimen/frag_pad"
-        android:text="@string/about" />
-
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/recycler"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/about"
+        android:orientation="vertical">
+
+        <TextView
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center_vertical|center_horizontal|center"
+        android:padding="@dimen/frag_pad"
+            android:text="@string/about"
+            android:textColor="#fefefe"
+            android:theme="@style/AppTheme.AppBarOverlay" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="@dimen/frag_pad"
+            android:text="Order List"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:animationCache="true"
+            android:padding="@dimen/frag_pad"
+            android:scrollbars="vertical"
         tools:listitem="@layout/item_order" />
 
-</FrameLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
