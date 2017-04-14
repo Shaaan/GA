@@ -13,7 +13,6 @@ import android.widget.Toast;
 import com.firebase.ui.auth.AuthUI;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.Arrays;
 
@@ -30,6 +29,7 @@ public class LauncherActivity extends AppCompatActivity {
         FirebaseAuth auth = FirebaseAuth.getInstance();
         if (auth.getCurrentUser() != null) {
             // signed in. proceed to app
+            Toast.makeText(this, "Logged in successfully..", Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(this, AllOrders.class);
             startActivity(intent);
             finish();
@@ -69,7 +69,7 @@ public class LauncherActivity extends AppCompatActivity {
             }
         };
 
-        FirebaseDatabase.getInstance().setPersistenceEnabled(true);
+        GaFirebase.isCalled();
     }
 
     @Override
@@ -78,43 +78,13 @@ public class LauncherActivity extends AppCompatActivity {
         mAuth.addAuthStateListener(mAuthListener);
     }
 
-        /*mAuthListener = new FirebaseAuth.AuthStateListener() {
-            @Override
-            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-                FirebaseUser user = firebaseAuth.getCurrentUser();
-                if (user != null) {
-                    // User is signed in
-                    Log.d(TAG, "onAuthStateChanged:signed_in:" + user.getUid());
-                    Intent intent = new Intent(LauncherActivity.this, AllOrders.class);
-                    startActivity(intent);
-                    finish();
-                } else {
-                    // User is signed out
-                    Log.d(TAG, "onAuthStateChanged:signed_out");
-                                    FirebaseAuth auth = FirebaseAuth.getInstance();
-                                    if (auth.getCurrentUser() != null) {
-                                        // already signed in
-                                        Log.d(TAG, "already logged in");
-                                    } else {
-                                        // not signed in
-                                        startActivityForResult(
-                                                // Get an instance of AuthUI based on the default app
-                                                AuthUI.getInstance().createSignInIntentBuilder().setProviders(Arrays.asList(new AuthUI.IdpConfig.Builder(AuthUI.EMAIL_PROVIDER).build()))
-                                                        .setIsSmartLockEnabled(false)
-                                                        .setTheme(R.style.AppTheme)
-                                                        .setAllowNewEmailAccounts(false)
-                                                        .build(),
-                                                RC_SIGN_IN);
-                                    }
-                }
-            }
-        };*/
-
-    /*@Override
-    public void onStart() {
-        super.onStart();
-        mAuth.addAuthStateListener(mAuthListener);
-    }*/
+    @Override
+    public void onStop() {
+        super.onStop();
+        if (mAuthListener != null) {
+            mAuth.removeAuthStateListener(mAuthListener);
+        }
+    }
 
     public boolean isOnline() {
         ConnectivityManager cm =

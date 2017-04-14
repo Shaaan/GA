@@ -1,6 +1,9 @@
 package in.shaaan.ga_onlineorders;
 
+import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
@@ -20,34 +23,29 @@ import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.Query;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
-import in.shaaan.ga_onlineorders.pojo.DividerItemDecoration;
 import in.shaaan.ga_onlineorders.pojo.OrderData;
 import in.shaaan.ga_onlineorders.pojo.PostViewHolder;
 
 public class AllOrders extends AppCompatActivity {
 
-    // [END declare_auth]
     private static final String TAG = "ViewActivity";
     @Bind(R.id.fab)
     FloatingActionButton floatingActionButton;
-    // [START declare_auth]
+    @Bind(R.id.net_status)
+    TextView netStatus;
+    @Bind(R.id.recycler)
+    RecyclerView recyclerView;
+
     private FirebaseAuth.AuthStateListener mAuthListener;
     private FirebaseAuth mAuth;
 
-    private DatabaseReference databaseReference1;
-    private TextView mCustName;
-    private TextView mDateTime;
-    private TextView mOrderBy;
-    private TextView mOrder;
-    private RecyclerView recyclerView;
-    private FirebaseRecyclerAdapter<OrderData, PostViewHolder> mAdapter;
-    private LinearLayoutManager mManager;
-//    private GaAdapter mAdapter;
+//    private DatabaseReference databaseReference1;
+//    private RecyclerView recyclerView;
+//    private FirebaseRecyclerAdapter<OrderData, PostViewHolder> mAdapter;
+//    private LinearLayoutManager mManager;
 
 
     @Override
@@ -57,6 +55,7 @@ public class AllOrders extends AppCompatActivity {
         ButterKnife.bind(this);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        netStatus.setVisibility(View.GONE);
 
         mAuth = FirebaseAuth.getInstance();
         mAuthListener = new FirebaseAuth.AuthStateListener() {
@@ -66,8 +65,7 @@ public class AllOrders extends AppCompatActivity {
                 if (user != null) {
                     // User is signed in
                     Log.d(TAG, "onAuthStateChanged:signed_in:" + user.getUid());
-//                    Snackbar.make(findViewById(R.id.coordinatorLayout), "Logged in successfully", Snackbar.LENGTH_LONG);
-                    Toast.makeText(AllOrders.this, "Logged in successfully", Toast.LENGTH_LONG).show();
+//                    Toast.makeText(AllOrders.this, "Logged in successfully", Toast.LENGTH_LONG).show();
                 } else {
                     // User is signed out
                     Log.d(TAG, "onAuthStateChanged:signed_out");
@@ -78,23 +76,20 @@ public class AllOrders extends AppCompatActivity {
             }
         };
 
-        recyclerView = (RecyclerView) findViewById(R.id.recycler);
         recyclerView.setHasFixedSize(true);
-        mManager = new LinearLayoutManager(this);
+        LinearLayoutManager mManager = new LinearLayoutManager(this);
         mManager.setStackFromEnd(true);
         mManager.setReverseLayout(true);
         recyclerView.setLayoutManager(mManager);
 
+
         // Initialize Database
-        databaseReference1 = FirebaseDatabase.getInstance().getReference().child("salesman").child(getUid());
-        Query query = databaseReference1.orderByValue();
-
-        // Views
-//        mCustName = (TextView) findViewById(R.id.view_cust_name);
-//        mDateTime = (TextView) findViewById(R.id.view_date_time);
+        DatabaseReference databaseReference1 = GaFirebase.isCalled().getReference().child("salesman").child(getUid());
+//        databaseReference1 = GaFirebase.isCalled().getReference().child("salesman").child(getUid());
+//            databaseReference1 = FirebaseDatabase.getInstance().getReference().child("salesman").child(getUid());
 
 
-        mAdapter = new FirebaseRecyclerAdapter<OrderData, PostViewHolder>(OrderData.class, R.layout.item_order, PostViewHolder.class, databaseReference1) {
+        FirebaseRecyclerAdapter<OrderData, PostViewHolder> mAdapter = new FirebaseRecyclerAdapter<OrderData, PostViewHolder>(OrderData.class, R.layout.item_order, PostViewHolder.class, databaseReference1) {
             @Override
             public void populateViewHolder(final PostViewHolder postViewHolder, final OrderData orderData, final int position) {
                 postViewHolder.setCustView(orderData.getCustName());
@@ -103,8 +98,6 @@ public class AllOrders extends AppCompatActivity {
                 postViewHolder.itemView.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        final DatabaseReference orderRef = getRef(position);
-//                        Toast.makeText(AllOrders.this, "test" + custName, Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(AllOrders.this, ViewOrder.class);
                         intent.putExtra("custName", orderData.getCustName());
                         intent.putExtra("order", orderData.getProducts());
@@ -116,55 +109,40 @@ public class AllOrders extends AppCompatActivity {
                 });
             }
         };
-        recyclerView.addItemDecoration(new DividerItemDecoration(recyclerView.getContext(), DividerItemDecoration.VERTICAL_LIST));
+        recyclerView.addItemDecoration(new android.support.v7.widget.DividerItemDecoration(recyclerView.getContext(), android.support.v7.widget.DividerItemDecoration.VERTICAL));
         recyclerView.setAdapter(mAdapter);
 
-
-        /*recyclerView = (RecyclerView) findViewById(R.id.recycler);
-        recyclerView.setHasFixedSize(true);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));*/
+        if (isOnline()) {
+            netStatus.setVisibility(View.INVISIBLE);
+        } else {
+            recyclerView.setVisibility(View.INVISIBLE);
+            netStatus.setVisibility(View.VISIBLE);
+        }
     }
 
     public String getUid() {
         return FirebaseAuth.getInstance().getCurrentUser().getUid();
     }
 
+    public boolean isOnline() {
+        ConnectivityManager cm =
+                (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo netInfo = cm.getActiveNetworkInfo();
+        return netInfo != null && netInfo.isConnectedOrConnecting();
+    }
+
     @Override
     public void onStart() {
         super.onStart();
         mAuth.addAuthStateListener(mAuthListener);
-        /*
-        mAdapter = new GaAdapter(this, databaseReference1);
-        recyclerView.setAdapter(mAdapter);
-*/
-        /*mManager = new LinearLayoutManager(getApplicationContext());
-        mManager.setReverseLayout(true);
-        mManager.setStackFromEnd(true);
-        recyclerView.setLayoutManager(mManager);
+    }
 
-        Query query = databaseReference1.child("salesman").child(getUid());
-        mAdapter = new FirebaseRecyclerAdapter<OrderData, PostViewHolder>(OrderData.class, R.layout.item_order, PostViewHolder.class, query) {
-            @Override
-            protected void populateViewHolder(PostViewHolder viewHolder, OrderData model, int position) {
-                final DatabaseReference databaseReference = getRef(position);
-
-                final String key = databaseReference.getKey();
-                viewHolder.itemView.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        Toast.makeText(AllOrders.this, "Tes", Toast.LENGTH_LONG).show();
-                    }
-                });
-
-                viewHolder.bindToPost(model, new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        Toast.makeText(AllOrders.this, "tttttt", Toast.LENGTH_LONG).show();
-                    }
-                });
-            }
-        };
-        recyclerView.setAdapter(mAdapter);*/
+    @Override
+    public void onStop() {
+        super.onStop();
+        if (mAuthListener != null) {
+            mAuth.removeAuthStateListener(mAuthListener);
+        }
     }
 
 

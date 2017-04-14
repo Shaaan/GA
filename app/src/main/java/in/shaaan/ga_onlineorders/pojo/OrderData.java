@@ -28,15 +28,6 @@ public class OrderData {
 
     }
 
-    /*@Override
-    public String toString() {
-        return  "custName='" + custName + '\'' +
-                "expProducts='" + expProd + '\'' +
-                "products='" + products + '\'' +
-                "]";
-    }*/
-
-
     public String getCustName() {
         return custName;
     }
