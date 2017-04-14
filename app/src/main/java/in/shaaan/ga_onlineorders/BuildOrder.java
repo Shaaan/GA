@@ -34,11 +34,20 @@ public class BuildOrder extends AppCompatActivity {
     private static final String REQUIRED = "This is required";
     @Bind(R.id.expProdList)
     TextView textView;
-
-    private TextView mTextView;
-    private AutoCompleteTextView mActv;
-    private Button mButton;
-    private FirebaseAnalytics firebaseAnalytics;
+    @Bind(R.id.prodList)
+    TextView prodList;
+    @Bind(R.id.submit)
+    Button submit;
+    @Bind(R.id.custName)
+    AutoCompleteTextView completeTextView;
+    @Bind(R.id.autocompleteview)
+    AutoCompleteTextView autoCompleteTextView;
+    @Bind(R.id.autocompleteviewExp)
+    AutoCompleteTextView autoCompleteTextView1;
+    @Bind(R.id.quantity)
+    EditText editText;
+    @Bind(R.id.quantityExp)
+    EditText editText1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,77 +74,58 @@ public class BuildOrder extends AppCompatActivity {
         final List<String> custList = Arrays.asList(custArr);
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, layoutItemId, drugList);
         ArrayAdapter<String> adapter1 = new ArrayAdapter<>(this, layoutItemId, custList);
-        ArrayAdapter<String> adapter2 = new ArrayAdapter<>(this, layoutItemId, salesmen);
 
-        AutoCompleteTextView autoCompleteTextView = (AutoCompleteTextView) findViewById(R.id.autocompleteview);
-        AutoCompleteTextView autoCompleteTextView1 = (AutoCompleteTextView) findViewById(R.id.autocompleteviewExp);
-        autoCompleteTextView1.setAdapter(adapter);
         autoCompleteTextView.setAdapter(adapter);
+        autoCompleteTextView1.setAdapter(adapter);
 
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
-//        database.setPersistenceEnabled(true);
-
-        mTextView = (TextView) findViewById(R.id.prodList);
-        mActv = (AutoCompleteTextView) findViewById(R.id.custName);
-        mActv.setAdapter(adapter1);
-        mButton = (Button) findViewById(R.id.submit);
+        completeTextView.setAdapter(adapter1);
+        GaFirebase.isCalled();
 
         String s = FirebaseAuth.getInstance().getCurrentUser().getEmail();
         String bh = custList.toString();
         String s1 = salesmen.toString();
         StringTokenizer stringTokenizer = new StringTokenizer(s, "@");
         String partyTemp = stringTokenizer.nextToken().trim();
-        /*int i = Integer.parseInt(partyTemp.replaceAll("[\\D]", ""));
-            if (custList.contains(i)) {
-                mActv.setText(i);
-                mActv.setEnabled(false);
-            }*/
 
         if (s1.contains(s)) {
-            mActv.setEnabled(true);
-            firebaseAnalytics = FirebaseAnalytics.getInstance(this);
+            completeTextView.setEnabled(true);
+            FirebaseAnalytics firebaseAnalytics = FirebaseAnalytics.getInstance(this);
             firebaseAnalytics.setUserProperty("salesman", "isSalesman");
         } else if (bh.contains(partyTemp)) {
-            mActv.setText(partyTemp);
-            mActv.setEnabled(false);
+            completeTextView.setText(partyTemp);
+            completeTextView.setEnabled(false);
         } else {
-            mActv.setText("Not a valid user");
-            mActv.setEnabled(false);
+            completeTextView.setText("Not a valid user");
+            completeTextView.setEnabled(false);
         }
     }
 
     public void addProduct(View view) {
-        AutoCompleteTextView autoCompleteTextView = (AutoCompleteTextView) findViewById(R.id.autocompleteview);
-        EditText editText = (EditText) findViewById(R.id.quantity);
         String quantity = editText.getText().toString();
         String drug = autoCompleteTextView.getText().toString();
-        TextView textView = (TextView) findViewById(R.id.prodList);
         if (drug.matches("")) {
             Snackbar.make(view, "You did not enter the product", Snackbar.LENGTH_LONG).show();
         } else if (quantity.matches("")) {
             Snackbar.make(view, "You did not add the quantity", Snackbar.LENGTH_LONG).show();
         } else
-            textView.append("" + drug + "     " + quantity + "\n");
+            prodList.append("" + drug + "     " + quantity + "\n");
         autoCompleteTextView.getText().clear();
         editText.getText().clear();
         autoCompleteTextView.requestFocus();
     }
 
     public void addExpiry(View view) {
-        AutoCompleteTextView autoCompleteTextView = (AutoCompleteTextView) findViewById(R.id.autocompleteviewExp);
-        EditText editText = (EditText) findViewById(R.id.quantityExp);
-        String quantity = editText.getText().toString();
-        String drugExp = autoCompleteTextView.getText().toString();
-        TextView textView = (TextView) findViewById(R.id.expProdList);
+        String quantity = editText1.getText().toString();
+        String drugExp = autoCompleteTextView1.getText().toString();
         if (drugExp.matches("")) {
             Snackbar.make(view, "You did not enter the product", Snackbar.LENGTH_LONG).show();
         } else if (quantity.matches("")) {
             Snackbar.make(view, "You did not add the quantity", Snackbar.LENGTH_LONG).show();
         } else
             textView.append(drugExp + "     " + quantity + "\n");
-        autoCompleteTextView.getText().clear();
-        editText.getText().clear();
-        autoCompleteTextView.requestFocus();
+        autoCompleteTextView1.getText().clear();
+        editText1.getText().clear();
+        autoCompleteTextView1.requestFocus();
     }
 
     public void sendOrder(View view) {
@@ -143,17 +133,17 @@ public class BuildOrder extends AppCompatActivity {
     }
 
     private void submitOrder() {
-        final String customer = mActv.getText().toString();
+        final String customer = completeTextView.getText().toString();
         final String expProduct = textView.getText().toString();
-        final String product = mTextView.getText().toString();
+        final String product = completeTextView.getText().toString();
 
         if (TextUtils.isEmpty(customer)) {
-            mActv.setError(REQUIRED);
+            completeTextView.setError(REQUIRED);
             return;
         }
 
         if (TextUtils.isEmpty(product)) {
-            mTextView.setError(REQUIRED);
+            prodList.setError(REQUIRED);
         }
 
         Calendar calendar = Calendar.getInstance();
@@ -173,7 +163,6 @@ public class BuildOrder extends AppCompatActivity {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
                 DatabaseReference reference = database.getReference("salesman").child(userId);
                 reference.keepSynced(true);
-//                reference.child("email").setValue(eMail);
                 String key = reference.child("salesman").child(userId).child("orders").push().getKey();
                 reference.child(key).child("custName").setValue(customer);
                 reference.child(key).child("products").setValue(product);
@@ -210,12 +199,12 @@ public class BuildOrder extends AppCompatActivity {
     }
 
     private void setEditing(boolean enabled) {
-        mActv.setEnabled(enabled);
-        mTextView.setEnabled(enabled);
+        completeTextView.setEnabled(enabled);
+        prodList.setEnabled(enabled);
         if (enabled) {
-            mButton.setVisibility(View.VISIBLE);
+            submit.setVisibility(View.VISIBLE);
         } else {
-            mButton.setVisibility(View.GONE);
+            submit.setVisibility(View.GONE);
         }
     }
 
