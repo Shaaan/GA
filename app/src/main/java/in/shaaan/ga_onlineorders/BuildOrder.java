@@ -135,7 +135,7 @@ public class BuildOrder extends AppCompatActivity {
     private void submitOrder() {
         final String customer = completeTextView.getText().toString();
         final String expProduct = textView.getText().toString();
-        final String product = completeTextView.getText().toString();
+        final String product = prodList.getText().toString();
 
         if (TextUtils.isEmpty(customer)) {
             completeTextView.setError(REQUIRED);
