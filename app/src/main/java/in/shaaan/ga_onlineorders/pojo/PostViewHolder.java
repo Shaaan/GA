@@ -13,9 +13,11 @@ import in.shaaan.ga_onlineorders.R;
 public class PostViewHolder extends RecyclerView.ViewHolder {
     public TextView custView;
     public TextView dateView;
+    View mView;
 
     public PostViewHolder(View itemView) {
         super(itemView);
+        mView = itemView;
 
         custView = (TextView) itemView.findViewById(R.id.view_cust_name);
         dateView = (TextView) itemView.findViewById(R.id.view_date_time);

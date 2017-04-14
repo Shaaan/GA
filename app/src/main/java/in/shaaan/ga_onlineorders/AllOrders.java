@@ -96,9 +96,24 @@ public class AllOrders extends AppCompatActivity {
 
         mAdapter = new FirebaseRecyclerAdapter<OrderData, PostViewHolder>(OrderData.class, R.layout.item_order, PostViewHolder.class, databaseReference1) {
             @Override
-            public void populateViewHolder(PostViewHolder postViewHolder, OrderData orderData, int position) {
+            public void populateViewHolder(final PostViewHolder postViewHolder, final OrderData orderData, final int position) {
                 postViewHolder.setCustView(orderData.getCustName());
                 postViewHolder.setDateView(orderData.getDate());
+
+                postViewHolder.itemView.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        final DatabaseReference orderRef = getRef(position);
+//                        Toast.makeText(AllOrders.this, "test" + custName, Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(AllOrders.this, ViewOrder.class);
+                        intent.putExtra("custName", orderData.getCustName());
+                        intent.putExtra("order", orderData.getProducts());
+                        intent.putExtra("date", orderData.getDate());
+                        intent.putExtra("by", orderData.getEmail());
+                        intent.putExtra("exp", orderData.getExpProducts());
+                        startActivity(intent);
+                    }
+                });
             }
         };
         recyclerView.addItemDecoration(new DividerItemDecoration(recyclerView.getContext(), DividerItemDecoration.VERTICAL_LIST));

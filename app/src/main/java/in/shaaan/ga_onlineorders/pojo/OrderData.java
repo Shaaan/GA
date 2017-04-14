@@ -9,26 +9,23 @@ import com.google.firebase.database.IgnoreExtraProperties;
 @IgnoreExtraProperties
 public class OrderData {
 
-    String uid;
-    String products;
-    String orderBy;
-    String expProd;
     private String custName;
     private String date;
     private String email;
+    private String expProducts;
+    private String products;
 
     public OrderData() {
 
     }
 
-    public OrderData(String uid, String expProd, String custName, String date, String orderBy, String products, String email) {
-        this.uid = uid;
+    public OrderData(String expProducts, String custName, String date, String products, String email) {
         this.email = email;
         this.custName = custName;
         this.date = date;
         this.products = products;
-        this.orderBy = orderBy;
-        this.expProd = expProd;
+        this.expProducts = expProducts;
+
     }
 
     /*@Override
@@ -39,13 +36,6 @@ public class OrderData {
                 "]";
     }*/
 
-    public String getUid() {
-        return uid;
-    }
-
-    public void setUid(String uid) {
-        this.uid = uid;
-    }
 
     public String getCustName() {
         return custName;
@@ -63,20 +53,27 @@ public class OrderData {
         this.date = date;
     }
 
-    public String getOrder() {
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getProducts() {
         return products;
     }
 
-    public void setOrder(String order) {
-        this.products = order;
+    public void setProducts(String products) {
+        this.products = products;
     }
 
-    public String getOrderBy() {
-        return orderBy;
+    public String getExpProducts() {
+        return expProducts;
     }
 
-    public void setOrderBy(String orderBy) {
-        this.orderBy = orderBy;
+    public void setExpProducts(String expProducts) {
+        this.expProducts = expProducts;
     }
-
 }
