@@ -3,12 +3,10 @@
     <string name="action_signout">Sign Out</string>
     <string name="cust_name">Customer Name</string>
     <string name="prod_name">Products</string>
-    <string name="title_activity_login">Sign in</string>
     <string name="productname">Product Name</string>
     <string name="quantity">Quantity</string>
     <string name="add">Add</string>
     <string name="pae">Products Against Expiry</string>
     <string name="submit">Submit</string>
     <string name="about"> ALL RIGHTS RESERVED.\n <b>GAYATRI AGENCIES  |  2017\n \n</b> DEVELOPED BY <b> SHANTANU LONDHE</b></string>
-    <string name="about1"> </string>
 </resources>
