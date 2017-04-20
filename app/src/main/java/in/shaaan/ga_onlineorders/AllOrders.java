@@ -172,6 +172,10 @@ public class AllOrders extends AppCompatActivity {
                     .signOut(this);
             finish();
         }
+        if (id == R.id.action_about) {
+            Intent intent = new Intent(this, About.class);
+            startActivity(intent);
+        }
 
         return super.onOptionsItemSelected(item);
     }
