@@ -95,6 +95,10 @@ public class AllOrders extends AppCompatActivity {
                 postViewHolder.setCustView(orderData.getCustName());
                 postViewHolder.setDateView(orderData.getDate());
 
+                String rootPath = this.getRef(position).getRoot().toString();
+                String mainPath = this.getRef(position).toString();
+                final String orderRef = mainPath.replace(rootPath, "");
+
                 postViewHolder.itemView.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
@@ -102,6 +106,7 @@ public class AllOrders extends AppCompatActivity {
                         intent.putExtra("custName", orderData.getCustName());
                         intent.putExtra("order", orderData.getProducts());
                         intent.putExtra("date", orderData.getDate());
+                        intent.putExtra("orderURL", orderRef);
                         intent.putExtra("by", orderData.getEmail());
                         intent.putExtra("exp", orderData.getExpProducts());
                         startActivity(intent);
