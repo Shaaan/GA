@@ -24,7 +24,8 @@
             android:id="@+id/custName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/custNameView" />
+            android:layout_below="@id/custNameView"
+            android:completionThreshold="1" />
 
         <TextView
             android:id="@+id/prodNameView"
@@ -48,6 +49,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/prodList"
+            android:completionThreshold="1"
             android:hint="@string/productname"
             android:inputType="textNoSuggestions|textFilter"
             android:maxLines="1" />
