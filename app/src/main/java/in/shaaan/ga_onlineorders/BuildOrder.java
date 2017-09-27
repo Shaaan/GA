@@ -32,8 +32,8 @@ public class BuildOrder extends AppCompatActivity {
 
     private static final String TAG = "BuildOrder";
     private static final String REQUIRED = "This is required";
-    @Bind(R.id.expProdList)
-    TextView textView;
+    /*@Bind(R.id.expProdList)
+    TextView textView;*/
     @Bind(R.id.prodList)
     TextView prodList;
     @Bind(R.id.submit)
@@ -42,12 +42,12 @@ public class BuildOrder extends AppCompatActivity {
     AutoCompleteTextView completeTextView;
     @Bind(R.id.autocompleteview)
     AutoCompleteTextView autoCompleteTextView;
-    @Bind(R.id.autocompleteviewExp)
-    AutoCompleteTextView autoCompleteTextView1;
+    /*@Bind(R.id.autocompleteviewExp)
+    AutoCompleteTextView autoCompleteTextView1;*/
     @Bind(R.id.quantity)
     EditText editText;
-    @Bind(R.id.quantityExp)
-    EditText editText1;
+    /*@Bind(R.id.quantityExp)
+    EditText editText1;*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,7 +76,7 @@ public class BuildOrder extends AppCompatActivity {
         ArrayAdapter<String> adapter1 = new ArrayAdapter<>(this, layoutItemId, custList);
 
         autoCompleteTextView.setAdapter(adapter);
-        autoCompleteTextView1.setAdapter(adapter);
+//        autoCompleteTextView1.setAdapter(adapter);
 
         completeTextView.setAdapter(adapter1);
         GaFirebase.isCalled();
@@ -114,7 +114,7 @@ public class BuildOrder extends AppCompatActivity {
         autoCompleteTextView.requestFocus();
     }
 
-    public void addExpiry(View view) {
+    /*public void addExpiry(View view) {
         String quantity = editText1.getText().toString();
         String drugExp = autoCompleteTextView1.getText().toString();
         if (drugExp.matches("")) {
@@ -126,7 +126,7 @@ public class BuildOrder extends AppCompatActivity {
         autoCompleteTextView1.getText().clear();
         editText1.getText().clear();
         autoCompleteTextView1.requestFocus();
-    }
+    }*/
 
     public void sendOrder(View view) {
         submitOrder();
@@ -134,7 +134,7 @@ public class BuildOrder extends AppCompatActivity {
 
     private void submitOrder() {
         final String customer = completeTextView.getText().toString();
-        final String expProduct = textView.getText().toString();
+//        final String expProduct = textView.getText().toString();
         final String product = prodList.getText().toString();
 
         if (TextUtils.isEmpty(customer)) {
@@ -167,7 +167,7 @@ public class BuildOrder extends AppCompatActivity {
                 reference.child(key).child("custName").setValue(customer);
                 reference.child(key).child("products").setValue(product);
                 reference.child(key).child("email").setValue(eMail);
-                reference.child(key).child("expProducts").setValue(expProduct);
+//                reference.child(key).child("expProducts").setValue(expProduct);
                 reference.child(key).child("date").setValue(date);
             }
         });
@@ -184,7 +184,7 @@ public class BuildOrder extends AppCompatActivity {
                 reference.child(key).child("date").setValue(date);
                 reference.child(key).child("custName").setValue(customer);
                 reference.child(key).child("products").setValue(product);
-                reference.child(key).child("expProducts").setValue(expProduct);
+//                reference.child(key).child("expProducts").setValue(expProduct);
             }
         });
         t.start();
