@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="in.shaaan.ga_onlineorders.BuildOrder">
@@ -17,15 +18,23 @@
             android:id="@+id/custNameView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
             android:text="@string/cust_name"
-            android:textSize="18sp" />
+            android:textColor="@color/tw__composer_black"
+            android:textSize="13sp" />
 
         <AutoCompleteTextView
             android:id="@+id/custName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/custNameView"
-            android:completionThreshold="1" />
+            android:completionThreshold="1"
+            android:textColor="@color/tw__composer_black"
+            android:textSize="13sp" />
+
+        <View
+            style="@style/Divider"
+            android:layout_below="@id/custName" />
 
         <TextView
             android:id="@+id/prodNameView"
@@ -77,7 +86,7 @@
                 android:text="@string/add" />
         </LinearLayout>
 
-        <TextView
+        <!--<TextView
             android:id="@+id/expProdNameView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -124,15 +133,14 @@
                 android:layout_weight="0.2"
                 android:onClick="addExpiry"
                 android:text="@string/add" />
-        </LinearLayout>
+        </LinearLayout>-->
 
         <Button
             android:id="@+id/submit"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/linearExp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/linear"
             android:layout_marginTop="10dp"
             android:onClick="sendOrder"
             android:padding="@dimen/frag_pad"
