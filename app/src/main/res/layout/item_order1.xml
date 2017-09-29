@@ -7,7 +7,7 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/view_cust_name"
+        android:id="@+id/custName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="13sp"
@@ -19,7 +19,7 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:id="@+id/view_date_time"
+            android:id="@+id/quantity"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
@@ -27,8 +27,10 @@
             tools:text="12/12/12" />
 
         <TextView
+            android:id="@+id/scheme"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="end"
             android:layout_weight="0.5"
             android:textAlignment="viewEnd"
             android:textSize="12sp"
