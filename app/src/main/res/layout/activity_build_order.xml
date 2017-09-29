@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?><!--<merge xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">-->
-
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/scrollView"
     android:layout_width="match_parent"
@@ -9,22 +9,44 @@
     android:background="@color/colorPrimary"
     tools:context="in.shaaan.ga_onlineorders.BuildOrder">
 
-    <android.support.design.widget.AppBarLayout
-        android:id="@+id/appBar"
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <include
-            android:id="@+id/toolbar3"
-            layout="@layout/toolbar" />
-    </android.support.design.widget.AppBarLayout>
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:theme="@style/AppTheme.AppBarOverlay">
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="4dp"
-        android:layout_below="@id/appBar"
-        android:background="@drawable/dropshadow" />
+            <include
+                android:id="@+id/toolbar3"
+                layout="@layout/toolbar" />
+            <!--<android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:elevation="4dp"
+                android:background="?attr/colorAccent"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />-->
+
+        </android.support.design.widget.AppBarLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_below="@id/appBar"
+            android:background="@drawable/dropshadow"
+            tools:layout_editor_absoluteY="83dp" />
+    </RelativeLayout>
 
     <include layout="@layout/content_build_order" />
 
-</RelativeLayout><!--</merge>-->
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/frag_pad"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/ic_send_white_24dp" />
+</android.support.design.widget.CoordinatorLayout><!--</merge>-->
