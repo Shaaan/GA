@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_marginTop="10dp">
+    android:layout_height="match_parent">
 
-    <LinearLayout
+    <RelativeLayout
         android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="?attr/actionBarSize"
         android:focusableInTouchMode="true"
-        android:orientation="vertical"
-        android:padding="@dimen/frag_pad">
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/custNameView"
@@ -26,65 +24,16 @@
             android:id="@+id/custName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_below="@id/custNameView"
             android:completionThreshold="1"
             android:textColor="@color/tw__composer_black"
             android:textSize="13sp" />
-
-        <View
-            android:id="@+id/view"
-            style="@style/Divider" />
-
-        <TextView
-            android:id="@+id/prodNameView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/frag_pad"
-            android:text="@string/prod_name"
-            android:textColor="@color/tw__composer_black"
-            android:textSize="13sp" />
-
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="15dp"
-            android:padding="@dimen/frag_pad">
-
-            <android.support.v7.widget.RecyclerView
-                android:id="@+id/orderList"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:scrollbars="vertical"
-                tools:listitem="@layout/item_order1" />
-
-            <!--<TextView
-                android:id="@+id/net_status"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginBottom="80dp"
-                android:gravity="center"
-                android:padding="8dp"
-                android:text="device not connected to the internet. please connect the device to internet and restart the app to view the orders"
-                android:textAllCaps="true"
-                android:textStyle="bold" />-->
-
-            <!--<TextView
-                android:id="@+id/about"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:layout_gravity="bottom"
-                android:background="@color/colorPrimary"
-                android:gravity="center_vertical|center_horizontal|center"
-                android:padding="@dimen/frag_pad"
-                android:text="@string/about"
-                android:textColor="#fefefe" />-->
-
-        </FrameLayout>
 
         <AutoCompleteTextView
             android:id="@+id/autocompleteview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_below="@id/custName"
             android:completionThreshold="1"
             android:hint="@string/productname"
             android:inputType="textNoSuggestions|textFilter"
@@ -96,6 +45,7 @@
             android:id="@+id/linear"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_below="@id/autocompleteview"
             android:orientation="horizontal">
 
             <EditText
@@ -116,72 +66,50 @@
                 android:text="@string/add" />
         </LinearLayout>
 
-        <!--<TextView
-            android:id="@+id/expProdNameView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/linear"
-            android:layout_marginTop="15dp"
-            android:text="@string/pae"
-            android:textSize="18sp" />
-
-        <TextView
-            android:id="@+id/expProdList"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/expProdNameView"
-            android:padding="@dimen/frag_pad"
-            android:textSize="20sp" />
-
-        <AutoCompleteTextView
-            android:id="@+id/autocompleteviewExp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/expProdList"
-            android:hint="@string/productname"
-            android:inputType="textNoSuggestions|textFilter"
-            android:maxLines="1" />
-
-        <LinearLayout
-            android:id="@+id/linearExp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/autocompleteviewExp"
-            android:orientation="horizontal">
-
-            <EditText
-                android:id="@+id/quantityExp"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.3"
-                android:hint="@string/quantity"
-                android:inputType="numberDecimal" />
-
-            <Button
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="0.2"
-                android:onClick="addExpiry"
-                android:text="@string/add" />
-        </LinearLayout>-->
-
-
         <CheckBox
             android:id="@+id/scheme_checkbox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_below="@id/linear"
             android:layout_marginTop="10dp"
             android:text="@string/scheme"
             android:textSize="13sp" />
 
-        <!--<Button
-            android:id="@+id/submit"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="10dp"
-            android:onClick="sendOrder"
-            android:padding="@dimen/frag_pad"
-            android:text="@string/submit" />-->
+        <View
+            android:id="@+id/view"
+            style="@style/Divider"
+            android:layout_below="@id/scheme_checkbox" />
 
-    </LinearLayout>
-</ScrollView>
+        <TextView
+            android:id="@+id/prodNameView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view"
+            android:layout_marginTop="@dimen/frag_pad"
+            android:text="@string/prod_name"
+            android:textColor="@color/tw__composer_black"
+            android:textSize="13sp" />
+
+        <ScrollView
+            android:id="@+id/orderListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/scheme_checkbox"
+            android:layout_marginTop="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/orderList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                tools:listitem="@layout/item_order1" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

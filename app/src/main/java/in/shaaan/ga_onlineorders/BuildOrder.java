@@ -62,9 +62,12 @@ public class BuildOrder extends AppCompatActivity {
     RecyclerView recyclerView;
     @Bind(R.id.addProduct)
     Button addProduct;
+    //    @Bind(R.id.prod_del)
+//    Button prodDelete;
     private DatabaseReference mDatabaseReference;
     private FirebaseAuth.AuthStateListener authStateListener;
     private FirebaseAuth firebaseAuth;
+    private String s3;
 
 
     @Override
@@ -72,10 +75,9 @@ public class BuildOrder extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_build_order);
         ButterKnife.bind(this);
-        android.support.v7.widget.Toolbar toolbar = (android.support.v7.widget.Toolbar) findViewById(R.id.toolbar);
+        final android.support.v7.widget.Toolbar toolbar = (android.support.v7.widget.Toolbar) findViewById(R.id.toolbar3);
         setSupportActionBar(toolbar);
-
-
+        findViewById(R.id.prod_del);
 
 /*
                 int[] custCode = getResources().getIntArray(R.array.custCode);
@@ -149,12 +151,13 @@ public class BuildOrder extends AppCompatActivity {
 
                 String string = this.getRef(position).getRoot().toString();
                 String s2 = this.getRef(position).toString();
-                final String s3 = s2.replace(string, "");
+                String s3 = s2.replace(string, "");
 
             }
         };
         recyclerView.addItemDecoration(new android.support.v7.widget.DividerItemDecoration(recyclerView.getContext(), DividerItemDecoration.VERTICAL));
         recyclerView.setAdapter(adapter2);
+        final String uid = getUid();
 
         addProduct.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -164,7 +167,6 @@ public class BuildOrder extends AppCompatActivity {
                     public void run() {
                         String quantity = editText.getText().toString();
                         String drug = autoCompleteTextView.getText().toString();
-                        String uid = getUid();
 
                         mDatabaseReference = FirebaseDatabase.getInstance().getReference("tempTree").child(uid);
                         mDatabaseReference.keepSynced(true);
@@ -180,6 +182,16 @@ public class BuildOrder extends AppCompatActivity {
                 thread.start();
             }
         });
+
+        /*prodDelete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FirebaseDatabase firebaseDatabase1 = FirebaseDatabase.getInstance();
+                String rem = mDatabaseReference.child("tempTree").child(uid).getKey();
+                DatabaseReference databaseReference1 = firebaseDatabase1.getReference(rem);
+                databaseReference1.removeValue();
+            }
+        });*/
 
     }
 
@@ -198,6 +210,14 @@ public class BuildOrder extends AppCompatActivity {
     }*/
 
 
+    public void productDel(View view) {
+        FirebaseDatabase firebaseDatabase1 = FirebaseDatabase.getInstance();
+        String uid = getUid();
+        String rem = mDatabaseReference.child("tempTree").child(uid).toString();
+        DatabaseReference databaseReference1 = GaFirebase.isCalled().getReference(rem);
+        Log.d("correct?", s3);
+        databaseReference1.removeValue();
+    }
     /*public void addExpiry(View view) {
         String quantity = editText1.getText().toString();
         String drugExp = autoCompleteTextView1.getText().toString();
