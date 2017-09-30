@@ -3,6 +3,7 @@ package in.shaaan.ga_onlineorders;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
@@ -40,10 +41,6 @@ public class BuildOrder extends AppCompatActivity {
 
     private static final String TAG = "BuildOrder";
     private static final String REQUIRED = "This is required";
-    /*@Bind(R.id.expProdList)
-    TextView textView;*/
-//    @Bind(R.id.prodList)
-//    TextView prodList;
     @Bind(R.id.submit)
     FloatingActionButton submit;
     @Bind(R.id.scheme_checkbox)
@@ -52,23 +49,18 @@ public class BuildOrder extends AppCompatActivity {
     AutoCompleteTextView completeTextView;
     @Bind(R.id.autocompleteview)
     AutoCompleteTextView autoCompleteTextView;
-    /*@Bind(R.id.autocompleteviewExp)
-    AutoCompleteTextView autoCompleteTextView1;*/
     @Bind(R.id.quantity)
     EditText editText;
-    /*@Bind(R.id.quantityExp)
-    EditText editText1;*/
     @Bind(R.id.orderList)
     RecyclerView recyclerView;
     @Bind(R.id.addProduct)
     Button addProduct;
-    //    @Bind(R.id.prod_del)
-//    Button prodDelete;
+    /*@Bind(R.id.prod_del)
+    Button productDelete;*/
     private DatabaseReference mDatabaseReference;
     private FirebaseAuth.AuthStateListener authStateListener;
     private FirebaseAuth firebaseAuth;
-    private String s3;
-
+    private String k;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,17 +69,6 @@ public class BuildOrder extends AppCompatActivity {
         ButterKnife.bind(this);
         final android.support.v7.widget.Toolbar toolbar = (android.support.v7.widget.Toolbar) findViewById(R.id.toolbar3);
         setSupportActionBar(toolbar);
-        findViewById(R.id.prod_del);
-
-/*
-                int[] custCode = getResources().getIntArray(R.array.custCode);
-                String[] custName = getResources().getStringArray(R.array.custName);
-                List<Integer> cCode = new ArrayList<Integer>();
-                List<String> cName = new ArrayList<String>(Arrays.asList(custName));
-                HashMap<Integer, String> hashMap = new HashMap<>();
-                for (int i = 0; i < custCode.length; i++) {
-                    hashMap.put(custCode[i], custName[i]);
-                }*/
 
         int layoutItemId = android.R.layout.simple_dropdown_item_1line;
         String[] drugArr = getResources().getStringArray(R.array.drugList);
@@ -100,11 +81,9 @@ public class BuildOrder extends AppCompatActivity {
         ArrayAdapter<String> adapter1 = new ArrayAdapter<>(this, layoutItemId, custList);
 
         autoCompleteTextView.setAdapter(adapter);
-//        autoCompleteTextView1.setAdapter(adapter);
 
         completeTextView.setAdapter(adapter1);
         GaFirebase.isCalled();
-
         String s = FirebaseAuth.getInstance().getCurrentUser().getEmail();
         String bh = custList.toString();
         String s1 = salesmen.toString();
@@ -139,8 +118,7 @@ public class BuildOrder extends AppCompatActivity {
         manager.setStackFromEnd(true);
         recyclerView.setLayoutManager(manager);
 
-        FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
-        DatabaseReference databaseReference = GaFirebase.isCalled().getReference().child("tempTree").child(getUid());
+        final DatabaseReference databaseReference = GaFirebase.isCalled().getReference().child("tempTree").child(getUid());
 
         FirebaseRecyclerAdapter<OrderData, OrderViewHolder> adapter2 = new FirebaseRecyclerAdapter<OrderData, OrderViewHolder>(OrderData.class, R.layout.item_order1, OrderViewHolder.class, databaseReference) {
             @Override
@@ -151,8 +129,24 @@ public class BuildOrder extends AppCompatActivity {
 
                 String string = this.getRef(position).getRoot().toString();
                 String s2 = this.getRef(position).toString();
-                String s3 = s2.replace(string, "");
+                final String s3 = s2.replace(string, "");
 
+                viewHolder.itemView.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Toast.makeText(BuildOrder.this, "Long press a product to remove it", Toast.LENGTH_LONG).show();
+                    }
+                });
+
+                viewHolder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
+                    @Override
+                    public boolean onLongClick(View v) {
+                        FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
+                        DatabaseReference databaseReference1 = GaFirebase.isCalled().getReference(s3);
+                        databaseReference1.removeValue();
+                        return true;
+                    }
+                });
             }
         };
         recyclerView.addItemDecoration(new android.support.v7.widget.DividerItemDecoration(recyclerView.getContext(), DividerItemDecoration.VERTICAL));
@@ -161,35 +155,37 @@ public class BuildOrder extends AppCompatActivity {
 
         addProduct.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                Thread thread = new Thread(new Runnable() {
-                    @Override
-                    public void run() {
-                        String quantity = editText.getText().toString();
-                        String drug = autoCompleteTextView.getText().toString();
+            public void onClick(final View v) {
+                String quantity = editText.getText().toString();
+                String drug = autoCompleteTextView.getText().toString();
+                mDatabaseReference = FirebaseDatabase.getInstance().getReference("tempTree").child(uid);
+                String k = mDatabaseReference.child("tempTree").child(uid).child("order").push().getKey();
+                mDatabaseReference.keepSynced(true);
+                if (checkBox.isChecked()) {
+                    mDatabaseReference.child(k).child("scheme").setValue("With Scheme");
+                }
+                if (drug.matches("")) {
+                    Snackbar.make(v, "You did not enter the product", Snackbar.LENGTH_LONG).show();
+                } else if (quantity.matches("")) {
+                    Snackbar.make(v, "You did not add the quantity", Snackbar.LENGTH_LONG).show();
+                } else {
+                    mDatabaseReference.child(k).child("product").setValue(drug);
+                    mDatabaseReference.child(k).child("quantity").setValue(quantity);
+                    autoCompleteTextView.getText().clear();
+                    editText.getText().clear();
+                    checkBox.setChecked(false);
+                    autoCompleteTextView.requestFocus();
 
-                        mDatabaseReference = FirebaseDatabase.getInstance().getReference("tempTree").child(uid);
-                        mDatabaseReference.keepSynced(true);
-                        String k = mDatabaseReference.child("tempTree").child(uid).child("order").push().getKey();
-                        mDatabaseReference.child(k).child("product").setValue(drug);
-                        mDatabaseReference.child(k).child("quantity").setValue(quantity);
-                        if (checkBox.isChecked()) {
-                            mDatabaseReference.child(k).child("scheme").setValue("With Scheme");
-                        }
-                        Log.d("I am pressed", k);
-                    }
-                });
-                thread.start();
+                }
+                Log.d("I am pressed", k);
             }
         });
 
-        /*prodDelete.setOnClickListener(new View.OnClickListener() {
+        /*productDelete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                FirebaseDatabase firebaseDatabase1 = FirebaseDatabase.getInstance();
-                String rem = mDatabaseReference.child("tempTree").child(uid).getKey();
-                DatabaseReference databaseReference1 = firebaseDatabase1.getReference(rem);
-                databaseReference1.removeValue();
+//                DatabaseReference database = GaFirebase.isCalled().getReference(k);
+                Log.d("Value", k);
             }
         });*/
 
@@ -210,26 +206,12 @@ public class BuildOrder extends AppCompatActivity {
     }*/
 
 
-    public void productDel(View view) {
-        FirebaseDatabase firebaseDatabase1 = FirebaseDatabase.getInstance();
+   /* public void productDel(View view) {
         String uid = getUid();
         String rem = mDatabaseReference.child("tempTree").child(uid).toString();
-        DatabaseReference databaseReference1 = GaFirebase.isCalled().getReference(rem);
-        Log.d("correct?", s3);
-        databaseReference1.removeValue();
-    }
-    /*public void addExpiry(View view) {
-        String quantity = editText1.getText().toString();
-        String drugExp = autoCompleteTextView1.getText().toString();
-        if (drugExp.matches("")) {
-            Snackbar.make(view, "You did not enter the product", Snackbar.LENGTH_LONG).show();
-        } else if (quantity.matches("")) {
-            Snackbar.make(view, "You did not add the quantity", Snackbar.LENGTH_LONG).show();
-        } else
-            textView.append(drugExp + "     " + quantity + "\n");
-        autoCompleteTextView1.getText().clear();
-        editText1.getText().clear();
-        autoCompleteTextView1.requestFocus();
+//        DatabaseReference databaseReference1 = GaFirebase.isCalled().getReference("tempTree").child(uid);
+        Log.d("correct?", rem);
+//        databaseReference1.removeValue();
     }*/
 
     public void sendOrder(View view) {
@@ -238,17 +220,11 @@ public class BuildOrder extends AppCompatActivity {
 
     private void submitOrder() {
         final String customer = completeTextView.getText().toString();
-//        final String expProduct = textView.getText().toString();
-//        final String product = prodList.getText().toString();
 
         if (TextUtils.isEmpty(customer)) {
             completeTextView.setError(REQUIRED);
             return;
         }
-
-        /*if (TextUtils.isEmpty(product)) {
-            prodList.setError(REQUIRED);
-        }*/
 
         Calendar calendar = Calendar.getInstance();
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd-MM-yyyy, hh:mm");

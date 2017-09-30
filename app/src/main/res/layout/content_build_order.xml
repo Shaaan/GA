@@ -16,6 +16,7 @@
             android:id="@+id/custNameView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="15dp"
             android:text="@string/cust_name"
             android:textColor="@color/tw__composer_black"
             android:textSize="13sp" />
@@ -25,7 +26,20 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/custNameView"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
             android:completionThreshold="1"
+            android:padding="@dimen/frag_pad"
+            android:textColor="@color/tw__composer_black"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/prodName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/custName"
+            android:layout_margin="15dp"
+            android:text="@string/prod_name"
             android:textColor="@color/tw__composer_black"
             android:textSize="13sp" />
 
@@ -33,11 +47,13 @@
             android:id="@+id/autocompleteview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/custName"
+            android:layout_below="@id/prodName"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
             android:completionThreshold="1"
-            android:hint="@string/productname"
             android:inputType="textNoSuggestions|textFilter"
             android:maxLines="1"
+            android:padding="@dimen/frag_pad"
             android:textColor="@color/tw__composer_black"
             android:textSize="13sp" />
 
@@ -46,6 +62,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/autocompleteview"
+            android:layout_margin="15dp"
             android:orientation="horizontal">
 
             <EditText
@@ -71,7 +88,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/linear"
-            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:padding="@dimen/frag_pad"
             android:text="@string/scheme"
             android:textSize="13sp" />
 
@@ -86,6 +106,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/view"
             android:layout_marginTop="@dimen/frag_pad"
+            android:padding="@dimen/frag_pad"
             android:text="@string/prod_name"
             android:textColor="@color/tw__composer_black"
             android:textSize="13sp" />
@@ -94,8 +115,9 @@
             android:id="@+id/orderListView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/scheme_checkbox"
-            android:layout_marginTop="15dp">
+            android:layout_below="@id/prodNameView"
+            android:layout_marginTop="15dp"
+            android:padding="@dimen/frag_pad">
 
             <LinearLayout
                 android:layout_width="match_parent"
