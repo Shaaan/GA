@@ -11,6 +11,7 @@ import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
@@ -26,6 +27,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
 import java.util.List;
@@ -141,7 +143,6 @@ public class BuildOrder extends AppCompatActivity {
                 viewHolder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
                     @Override
                     public boolean onLongClick(View v) {
-                        FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
                         DatabaseReference databaseReference1 = GaFirebase.isCalled().getReference(s3);
                         databaseReference1.removeValue();
                         return true;
@@ -152,6 +153,48 @@ public class BuildOrder extends AppCompatActivity {
         recyclerView.addItemDecoration(new android.support.v7.widget.DividerItemDecoration(recyclerView.getContext(), DividerItemDecoration.VERTICAL));
         recyclerView.setAdapter(adapter2);
         final String uid = getUid();
+
+        autoCompleteTextView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Toast.makeText(BuildOrder.this, "Change this", Toast.LENGTH_SHORT).show();
+                DatabaseReference databaseReference1 = GaFirebase.isCalled().getReference("salesman");
+                final String prodName = autoCompleteTextView.toString();
+                /*databaseReference1.addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(DataSnapshot dataSnapshot) {
+                        String prodQuantity = dataSnapshot.getValue(String.class);
+                        if (prodName != null) {
+
+                        }
+                    }
+
+                    @Override
+                    public void onCancelled(DatabaseError databaseError) {
+
+                    }
+                });*/
+//                Query query = databaseReference1.orderByChild("nodeData").equalTo(prodName);
+//                query.addListenerForSingleValueEvent(new ValueEventListener() {
+//                    @Override
+//                    public void onDataChange(DataSnapshot dataSnapshot) {
+//                        String prodQuantity = dataSnapshot.getValue(String.class);
+//                        int quant = Integer.parseInt(prodQuantity);
+//                        if (quant > 3) {
+//                            addProduct.setBackgroundColor(getResources().getColor(R.color.com_facebook_button_background_color));
+//                        }
+//                    }
+//
+//                    @Override
+//                    public void onCancelled(DatabaseError databaseError) {
+//
+//                    }
+//                });
+
+            }
+        });
+
+        final ArrayList<String> prodList = new ArrayList<String>();
 
         addProduct.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -169,8 +212,8 @@ public class BuildOrder extends AppCompatActivity {
                 } else if (quantity.matches("")) {
                     Snackbar.make(v, "You did not add the quantity", Snackbar.LENGTH_LONG).show();
                 } else {
-                    mDatabaseReference.child(k).child("product").setValue(drug);
-                    mDatabaseReference.child(k).child("quantity").setValue(quantity);
+                    /*mDatabaseReference.child(k).child("product").setValue(drug);
+                    mDatabaseReference.child(k).child("quantity").setValue(quantity);*/
                     autoCompleteTextView.getText().clear();
                     editText.getText().clear();
                     checkBox.setChecked(false);
