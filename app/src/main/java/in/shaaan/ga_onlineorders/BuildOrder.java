@@ -5,7 +5,6 @@ import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
@@ -19,7 +18,6 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -35,8 +33,6 @@ import java.util.StringTokenizer;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
-import in.shaaan.ga_onlineorders.pojo.OrderData;
-import in.shaaan.ga_onlineorders.pojo.OrderViewHolder;
 
 
 public class BuildOrder extends AppCompatActivity {
@@ -120,81 +116,7 @@ public class BuildOrder extends AppCompatActivity {
         manager.setStackFromEnd(true);
         recyclerView.setLayoutManager(manager);
 
-        final DatabaseReference databaseReference = GaFirebase.isCalled().getReference().child("tempTree").child(getUid());
-
-        FirebaseRecyclerAdapter<OrderData, OrderViewHolder> adapter2 = new FirebaseRecyclerAdapter<OrderData, OrderViewHolder>(OrderData.class, R.layout.item_order1, OrderViewHolder.class, databaseReference) {
-            @Override
-            protected void populateViewHolder(OrderViewHolder viewHolder, OrderData model, int position) {
-                viewHolder.setProdName(model.getProduct());
-                viewHolder.setQuantity(model.getQuantity());
-                viewHolder.setScheme(model.getScheme());
-
-                String string = this.getRef(position).getRoot().toString();
-                String s2 = this.getRef(position).toString();
-                final String s3 = s2.replace(string, "");
-
-                viewHolder.itemView.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        Toast.makeText(BuildOrder.this, "Long press a product to remove it", Toast.LENGTH_LONG).show();
-                    }
-                });
-
-                viewHolder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
-                    @Override
-                    public boolean onLongClick(View v) {
-                        DatabaseReference databaseReference1 = GaFirebase.isCalled().getReference(s3);
-                        databaseReference1.removeValue();
-                        return true;
-                    }
-                });
-            }
-        };
-        recyclerView.addItemDecoration(new android.support.v7.widget.DividerItemDecoration(recyclerView.getContext(), DividerItemDecoration.VERTICAL));
-        recyclerView.setAdapter(adapter2);
         final String uid = getUid();
-
-        autoCompleteTextView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(BuildOrder.this, "Change this", Toast.LENGTH_SHORT).show();
-                DatabaseReference databaseReference1 = GaFirebase.isCalled().getReference("salesman");
-                final String prodName = autoCompleteTextView.toString();
-                /*databaseReference1.addListenerForSingleValueEvent(new ValueEventListener() {
-                    @Override
-                    public void onDataChange(DataSnapshot dataSnapshot) {
-                        String prodQuantity = dataSnapshot.getValue(String.class);
-                        if (prodName != null) {
-
-                        }
-                    }
-
-                    @Override
-                    public void onCancelled(DatabaseError databaseError) {
-
-                    }
-                });*/
-//                Query query = databaseReference1.orderByChild("nodeData").equalTo(prodName);
-//                query.addListenerForSingleValueEvent(new ValueEventListener() {
-//                    @Override
-//                    public void onDataChange(DataSnapshot dataSnapshot) {
-//                        String prodQuantity = dataSnapshot.getValue(String.class);
-//                        int quant = Integer.parseInt(prodQuantity);
-//                        if (quant > 3) {
-//                            addProduct.setBackgroundColor(getResources().getColor(R.color.com_facebook_button_background_color));
-//                        }
-//                    }
-//
-//                    @Override
-//                    public void onCancelled(DatabaseError databaseError) {
-//
-//                    }
-//                });
-
-            }
-        });
-
-        final ArrayList<String> prodList = new ArrayList<String>();
 
         addProduct.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -224,14 +146,6 @@ public class BuildOrder extends AppCompatActivity {
             }
         });
 
-        /*productDelete.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-//                DatabaseReference database = GaFirebase.isCalled().getReference(k);
-                Log.d("Value", k);
-            }
-        });*/
-
     }
 
     /*public void addProduct(View view) {
@@ -248,14 +162,6 @@ public class BuildOrder extends AppCompatActivity {
         autoCompleteTextView.requestFocus();
     }*/
 
-
-   /* public void productDel(View view) {
-        String uid = getUid();
-        String rem = mDatabaseReference.child("tempTree").child(uid).toString();
-//        DatabaseReference databaseReference1 = GaFirebase.isCalled().getReference("tempTree").child(uid);
-        Log.d("correct?", rem);
-//        databaseReference1.removeValue();
-    }*/
 
     public void sendOrder(View view) {
         submitOrder();
