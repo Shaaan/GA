@@ -33,6 +33,7 @@ import java.util.StringTokenizer;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
+import in.shaaan.ga_onlineorders.pojo.OrderData;
 
 
 public class BuildOrder extends AppCompatActivity {
@@ -59,6 +60,9 @@ public class BuildOrder extends AppCompatActivity {
     private FirebaseAuth.AuthStateListener authStateListener;
     private FirebaseAuth firebaseAuth;
     private String k;
+    private LinearLayoutManager linearLayoutManager;
+    private List<OrderData> orderData = new ArrayList<>();
+    private RecyclerAdapterFile mAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -79,6 +83,10 @@ public class BuildOrder extends AppCompatActivity {
         ArrayAdapter<String> adapter1 = new ArrayAdapter<>(this, layoutItemId, custList);
 
         autoCompleteTextView.setAdapter(adapter);
+        linearLayoutManager = new LinearLayoutManager(this);
+        recyclerView.setLayoutManager(linearLayoutManager);
+        mAdapter = new RecyclerAdapterFile(orderData);
+        recyclerView.setAdapter(mAdapter);
 
         completeTextView.setAdapter(adapter1);
         GaFirebase.isCalled();
@@ -109,63 +117,39 @@ public class BuildOrder extends AppCompatActivity {
             }
         };
 
-
-        recyclerView.setHasFixedSize(false);
-        LinearLayoutManager manager = new LinearLayoutManager(this);
-        manager.setReverseLayout(true);
-        manager.setStackFromEnd(true);
-        recyclerView.setLayoutManager(manager);
-
-        final String uid = getUid();
-
-        addProduct.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(final View v) {
-                String quantity = editText.getText().toString();
-                String drug = autoCompleteTextView.getText().toString();
-                mDatabaseReference = FirebaseDatabase.getInstance().getReference("tempTree").child(uid);
-                String k = mDatabaseReference.child("tempTree").child(uid).child("order").push().getKey();
-                mDatabaseReference.keepSynced(true);
-                if (checkBox.isChecked()) {
-                    mDatabaseReference.child(k).child("scheme").setValue("With Scheme");
-                }
-                if (drug.matches("")) {
-                    Snackbar.make(v, "You did not enter the product", Snackbar.LENGTH_LONG).show();
-                } else if (quantity.matches("")) {
-                    Snackbar.make(v, "You did not add the quantity", Snackbar.LENGTH_LONG).show();
-                } else {
-                    /*mDatabaseReference.child(k).child("product").setValue(drug);
-                    mDatabaseReference.child(k).child("quantity").setValue(quantity);*/
-                    autoCompleteTextView.getText().clear();
-                    editText.getText().clear();
-                    checkBox.setChecked(false);
-                    autoCompleteTextView.requestFocus();
-
-                }
-                Log.d("I am pressed", k);
-            }
-        });
-
     }
 
-    /*public void addProduct(View view) {
+    public void addProduct(View view) {
         String quantity = editText.getText().toString();
         String drug = autoCompleteTextView.getText().toString();
         if (drug.matches("")) {
             Snackbar.make(view, "You did not enter the product", Snackbar.LENGTH_LONG).show();
         } else if (quantity.matches("")) {
             Snackbar.make(view, "You did not add the quantity", Snackbar.LENGTH_LONG).show();
-        } else
-            prodList.append("" + drug + "     " + quantity + "\n");
+        } else {
+//            prodList.append("" + drug + "     " + quantity + "\n");
+
+            getDataA();
+        }
         autoCompleteTextView.getText().clear();
         editText.getText().clear();
         autoCompleteTextView.requestFocus();
-    }*/
-
-
-    public void sendOrder(View view) {
-        submitOrder();
     }
+
+    public OrderData getDataA() {
+        OrderData instance = new OrderData();
+        instance.setProduct(autoCompleteTextView.getText().toString());
+        instance.setQuantity(editText.getText().toString());
+        Log.d("I am doing something", "seriously?");
+        if (checkBox.isChecked()) {
+            instance.setScheme("With scheme");
+        }
+        return instance;
+    }
+
+//    public void sendOrder(View view) {
+//        submitOrder();
+//    }
 
     private void submitOrder() {
         final String customer = completeTextView.getText().toString();
