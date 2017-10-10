@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
             android:text="@string/cust_name"
-            android:textColor="@color/tw__composer_black"
+            android:textColor="@android:color/black"
             android:textSize="13sp" />
 
         <AutoCompleteTextView
@@ -30,7 +30,7 @@
             android:layout_marginRight="15dp"
             android:completionThreshold="1"
             android:padding="@dimen/frag_pad"
-            android:textColor="@color/tw__composer_black"
+            android:textColor="@android:color/black"
             android:textSize="13sp" />
 
         <TextView
@@ -40,7 +40,7 @@
             android:layout_below="@+id/custName"
             android:layout_margin="15dp"
             android:text="@string/prod_name"
-            android:textColor="@color/tw__composer_black"
+            android:textColor="@android:color/black"
             android:textSize="13sp" />
 
         <AutoCompleteTextView
@@ -54,7 +54,7 @@
             android:inputType="textNoSuggestions|textFilter"
             android:maxLines="1"
             android:padding="@dimen/frag_pad"
-            android:textColor="@color/tw__composer_black"
+            android:textColor="@android:color/black"
             android:textSize="13sp" />
 
         <LinearLayout
@@ -108,7 +108,7 @@
             android:layout_marginTop="@dimen/frag_pad"
             android:padding="@dimen/frag_pad"
             android:text="@string/prod_name"
-            android:textColor="@color/tw__composer_black"
+            android:textColor="@android:color/black"
             android:textSize="13sp" />
 
         <ScrollView
