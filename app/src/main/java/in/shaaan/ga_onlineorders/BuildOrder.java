@@ -129,7 +129,7 @@ public class BuildOrder extends AppCompatActivity {
         } else {
 //            prodList.append("" + drug + "     " + quantity + "\n");
 
-            getDataA();
+            mAdapter.addItem(getDataA());
         }
         autoCompleteTextView.getText().clear();
         editText.getText().clear();

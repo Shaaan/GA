@@ -54,4 +54,9 @@ public class RecyclerAdapterFile extends RecyclerView.Adapter<RecyclerAdapterFil
     public int getItemCount() {
         return orderData.size();
     }
+
+    public void addItem(OrderData item) {
+        orderData.add(item);
+        notifyItemInserted(orderData.size() - 1);
+    }
 }
