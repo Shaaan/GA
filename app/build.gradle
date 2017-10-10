@@ -5,12 +5,12 @@ android {
         config {
             keyAlias 'Shaaan'
             keyPassword 'cyanogenm0d'
-            storeFile file('D:/secure/shaaan.jks')
+            storeFile file('/home/niharg/AndroidStudioProjects/shaaan_project/shaaan.jks')
             storePassword 'cyanogenm0d'
         }
     }
     compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    buildToolsVersion "26.0.2"
     defaultConfig {
         applicationId "in.shaaan.ga_onlineorders"
         minSdkVersion 16
