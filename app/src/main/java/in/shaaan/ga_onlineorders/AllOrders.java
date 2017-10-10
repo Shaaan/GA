@@ -12,17 +12,21 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.firebase.ui.auth.AuthUI;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
+import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.Query;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -84,14 +88,24 @@ public class AllOrders extends AppCompatActivity {
 
 
         // Initialize Database
-        DatabaseReference databaseReference1 = GaFirebase.isCalled().getReference().child("salesman").child(getUid());
 //        databaseReference1 = GaFirebase.isCalled().getReference().child("salesman").child(getUid());
 //            databaseReference1 = FirebaseDatabase.getInstance().getReference().child("salesman").child(getUid());
+        Query query = GaFirebase.isCalled().getReference().child("salesman").child(getUid());
+        FirebaseRecyclerOptions<OrderData> options = new FirebaseRecyclerOptions.Builder<OrderData>()
+                .setQuery(query, OrderData.class)
+                .build();
 
-
-        FirebaseRecyclerAdapter<OrderData, PostViewHolder> mAdapter = new FirebaseRecyclerAdapter<OrderData, PostViewHolder>(OrderData.class, R.layout.item_order, PostViewHolder.class, databaseReference1) {
+        FirebaseRecyclerAdapter<OrderData, PostViewHolder> mAdapter = new FirebaseRecyclerAdapter<OrderData, PostViewHolder>(options) {
             @Override
-            public void populateViewHolder(final PostViewHolder postViewHolder, final OrderData orderData, final int position) {
+            public PostViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+                View v = LayoutInflater.from(parent.getContext())
+                        .inflate(R.layout.item_order, parent, false);
+
+                return new PostViewHolder(v);
+            }
+
+            @Override
+            protected void onBindViewHolder(PostViewHolder postViewHolder, int position, final OrderData orderData) {
                 postViewHolder.setCustView(orderData.getCustName());
                 postViewHolder.setDateView(orderData.getDate());
 
