@@ -45,6 +45,7 @@ public class AllOrders extends AppCompatActivity {
 
     private FirebaseAuth.AuthStateListener mAuthListener;
     private FirebaseAuth mAuth;
+    private FirebaseRecyclerAdapter mAdapter;
 
 //    private DatabaseReference databaseReference1;
 //    private RecyclerView recyclerView;
@@ -95,7 +96,8 @@ public class AllOrders extends AppCompatActivity {
                 .setQuery(query, OrderData.class)
                 .build();
 
-        FirebaseRecyclerAdapter<OrderData, PostViewHolder> mAdapter = new FirebaseRecyclerAdapter<OrderData, PostViewHolder>(options) {
+//        FirebaseRecyclerAdapter<OrderData, PostViewHolder>
+        mAdapter = new FirebaseRecyclerAdapter<OrderData, PostViewHolder>(options) {
             @Override
             public PostViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
                 View v = LayoutInflater.from(parent.getContext())
@@ -130,6 +132,7 @@ public class AllOrders extends AppCompatActivity {
         };
         recyclerView.addItemDecoration(new android.support.v7.widget.DividerItemDecoration(recyclerView.getContext(), android.support.v7.widget.DividerItemDecoration.VERTICAL));
         recyclerView.setAdapter(mAdapter);
+//        mAdapter.startListening();
 
         if (isOnline()) {
             netStatus.setVisibility(View.INVISIBLE);
@@ -154,6 +157,7 @@ public class AllOrders extends AppCompatActivity {
     public void onStart() {
         super.onStart();
         mAuth.addAuthStateListener(mAuthListener);
+        mAdapter.startListening();
     }
 
     @Override
@@ -162,6 +166,7 @@ public class AllOrders extends AppCompatActivity {
         if (mAuthListener != null) {
             mAuth.removeAuthStateListener(mAuthListener);
         }
+        mAdapter.stopListening();
     }
 
 
