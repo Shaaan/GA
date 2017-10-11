@@ -79,6 +79,8 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.2"
+                android:textColor="#fff"
+                android:background="@color/colorAccent"
                 android:onClick="addProduct"
                 android:text="@string/add" />
         </LinearLayout>

@@ -56,6 +56,8 @@ public class BuildOrder extends AppCompatActivity {
     RecyclerView recyclerView;
     @Bind(R.id.addProduct)
     Button addProduct;
+    /*@Bind(R.id.delete_product)
+    Button remProd;*/
     /*@Bind(R.id.prod_del)
     Button productDelete;*/
     private DatabaseReference mDatabaseReference;
@@ -120,7 +122,6 @@ public class BuildOrder extends AppCompatActivity {
                 Log.d("Signed in?", "We logged in" + user.getEmail());
             }
         };
-
     }
 
     public void addProduct(View view) {
