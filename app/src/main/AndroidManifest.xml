@@ -17,7 +17,8 @@
             android:name=".AllOrders"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".BuildOrder" />
+        <activity android:name=".BuildOrder"
+            android:label="@string/build_order_label"/>
         <activity
             android:name=".LauncherActivity"
             android:theme="@style/AppTheme.NoActionBar">

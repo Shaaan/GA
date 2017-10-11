@@ -71,7 +71,7 @@ public class BuildOrder extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_build_order);
         ButterKnife.bind(this);
-        final android.support.v7.widget.Toolbar toolbar = (android.support.v7.widget.Toolbar) findViewById(R.id.toolbar3);
+        final android.support.v7.widget.Toolbar toolbar = (android.support.v7.widget.Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         int layoutItemId = android.R.layout.simple_dropdown_item_1line;
