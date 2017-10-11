@@ -147,9 +147,9 @@ public class BuildOrder extends AppCompatActivity {
         return instance;
     }
 
-//    public void sendOrder(View view) {
-//        submitOrder();
-//    }
+    public void sendOrder(View view) {
+        submitOrder();
+    }
 
     private void submitOrder() {
         final String customer = completeTextView.getText().toString();
@@ -170,15 +170,23 @@ public class BuildOrder extends AppCompatActivity {
         final String eMail = FirebaseAuth.getInstance().getCurrentUser().getEmail();
         final String userId = getUid();
 
+        List<OrderData> products = mAdapter.getItems();
+        final StringBuilder builder = new StringBuilder();
+
+        for(OrderData product: products) {
+            builder.append(String.format("%s %s\n", product.getProduct(), product.getQuantity()));
+        }
+
         Thread thread = new Thread(new Runnable() {
             @Override
             public void run() {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
-                DatabaseReference reference = database.getReference("salesman").child(userId);
+                // TODO: Switch to actual branch after development
+                DatabaseReference reference = database.getReference("tempDB").child("salesman").child(userId).child("orders");
                 reference.keepSynced(true);
                 String key = reference.child("salesman").child(userId).child("orders").push().getKey();
                 reference.child(key).child("custName").setValue(customer);
-//                reference.child(key).child("products").setValue(product);
+                reference.child(key).child("products").setValue(builder.toString());
                 reference.child(key).child("email").setValue(eMail);
 //                reference.child(key).child("expProducts").setValue(expProduct);
                 reference.child(key).child("date").setValue(date);
@@ -190,19 +198,28 @@ public class BuildOrder extends AppCompatActivity {
             @Override
             public void run() {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
-                DatabaseReference reference = database.getReference("allOrders");
+                // TODO: Switch to actual branch after development
+                DatabaseReference reference = database.getReference("tempDB").child("allOrders");
                 reference.keepSynced(true);
                 String key = reference.push().getKey();
                 reference.child(key).child("email").setValue(eMail);
                 reference.child(key).child("date").setValue(date);
                 reference.child(key).child("custName").setValue(customer);
-//                reference.child(key).child("products").setValue(product);
+                reference.child(key).child("products").setValue(builder.toString());
 //                reference.child(key).child("expProducts").setValue(expProduct);
             }
         });
         t.start();
 
         setEditing(true);
+
+        try {
+            t.join();
+            thread.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         finish();
 
     }
