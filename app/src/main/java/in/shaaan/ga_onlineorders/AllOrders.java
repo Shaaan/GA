@@ -130,6 +130,7 @@ public class AllOrders extends AppCompatActivity {
         };
         recyclerView.addItemDecoration(new android.support.v7.widget.DividerItemDecoration(recyclerView.getContext(), android.support.v7.widget.DividerItemDecoration.VERTICAL));
         recyclerView.setAdapter(mAdapter);
+        mAdapter.startListening();
 
         if (isOnline()) {
             netStatus.setVisibility(View.INVISIBLE);
