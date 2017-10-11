@@ -24,8 +24,6 @@ public class ViewOrder extends AppCompatActivity {
     TextView mDate;
     @Bind(R.id.vieworder_order)
     TextView mOrder;
-    @Bind(R.id.vieworder_exp)
-    TextView mExpiry;
     @Bind(R.id.vieworder_salesman)
     TextView mSalesman;
     @Bind(R.id.delete_order)
@@ -43,7 +41,6 @@ public class ViewOrder extends AppCompatActivity {
         String date = intent.getStringExtra("date");
         String by = intent.getStringExtra("by");
         final String orderURL = intent.getStringExtra("orderURL");
-        String exp = intent.getStringExtra("exp");
 
         StringTokenizer stringTokenizer = new StringTokenizer(by, "@");
         String salesman = stringTokenizer.nextToken().trim();
@@ -57,11 +54,6 @@ public class ViewOrder extends AppCompatActivity {
             Toast.makeText(this, "Its null", Toast.LENGTH_SHORT).show();
         }*/
 
-        if (exp != null) {
-            mExpiry.setText(exp);
-        } else {
-            mExpiry.setText("Not Available");
-        }
 
         deleteButton.setOnClickListener(new View.OnClickListener() {
             @Override
