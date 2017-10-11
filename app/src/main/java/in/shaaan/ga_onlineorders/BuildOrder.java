@@ -138,6 +138,7 @@ public class BuildOrder extends AppCompatActivity {
         autoCompleteTextView.getText().clear();
         editText.getText().clear();
         autoCompleteTextView.requestFocus();
+        checkBox.setChecked(false);
     }
 
     public OrderData getDataA() {
