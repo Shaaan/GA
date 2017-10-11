@@ -90,7 +90,7 @@ public class AllOrders extends AppCompatActivity {
         // Initialize Database
 //        databaseReference1 = GaFirebase.isCalled().getReference().child("salesman").child(getUid());
 //            databaseReference1 = FirebaseDatabase.getInstance().getReference().child("salesman").child(getUid());
-        Query query = GaFirebase.isCalled().getReference().child("salesman").child(getUid());
+        Query query = GaFirebase.isCalled().getReference().child("tempDB").child("salesman").child(getUid());
         FirebaseRecyclerOptions<OrderData> options = new FirebaseRecyclerOptions.Builder<OrderData>()
                 .setQuery(query, OrderData.class)
                 .build();
