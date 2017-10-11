@@ -19,12 +19,13 @@ public class RecyclerAdapterFile extends RecyclerView.Adapter<RecyclerAdapterFil
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
         public TextView product, quantity, scheme;
-
+        public View parent;
         public MyViewHolder(View view) {
             super(view);
             product = (TextView) view.findViewById(R.id.view_prod_name);
             quantity = (TextView) view.findViewById(R.id.view_quantity_real);
             scheme = (TextView) view.findViewById(R.id.view_scheme);
+            parent = view;
         }
         public TextView getView() {
             return product;
@@ -43,11 +44,18 @@ public class RecyclerAdapterFile extends RecyclerView.Adapter<RecyclerAdapterFil
     }
 
     @Override
-    public void onBindViewHolder(MyViewHolder holder, int position) {
+    public void onBindViewHolder(final MyViewHolder holder, final int position) {
         OrderData orderData1 = orderData.get(position);
         holder.product.setText(orderData1.getProduct());
         holder.quantity.setText(orderData1.getQuantity());
         holder.scheme.setText(orderData1.getScheme());
+        holder.parent.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                orderData.remove(holder.getAdapterPosition());
+                notifyItemRemoved(holder.getAdapterPosition());
+            }
+        });
     }
 
     @Override

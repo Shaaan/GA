@@ -6,6 +6,7 @@
     android:layout_height="wrap_content"
     android:layout_margin="5dp"
     android:orientation="vertical"
+    android:background="?attr/selectableItemBackground"
     android:padding="@dimen/frag_pad">
 
     <TextView
