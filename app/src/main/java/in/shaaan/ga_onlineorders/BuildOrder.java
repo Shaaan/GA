@@ -144,11 +144,18 @@ public class BuildOrder extends AppCompatActivity {
     public OrderData getDataA() {
         OrderData instance = new OrderData();
         instance.setProduct(autoCompleteTextView.getText().toString());
-        instance.setQuantity(editText.getText().toString());
-        Log.d("I am doing something", "seriously?");
+//        instance.setQuantity(editText.getText().toString());
+        String quant = editText.getText().toString();
         if (checkBox.isChecked()) {
-            instance.setScheme("With scheme");
+            StringBuilder stringBuilder = new StringBuilder(quant);
+            stringBuilder.append("\n" + " - With Scheme");
+            String finalQuant = stringBuilder.toString();
+            instance.setQuantity(finalQuant);
+        } else {
+            instance.setQuantity(editText.getText().toString());
         }
+
+        Log.d("I am doing something", "seriously?");
         return instance;
     }
 
@@ -199,6 +206,8 @@ public class BuildOrder extends AppCompatActivity {
                 reference.child(key).child("email").setValue(eMail);
 //                reference.child(key).child("expProducts").setValue(expProduct);
                 reference.child(key).child("date").setValue(date);
+                String blah = builder.toString();
+                Log.d("Data", blah);
             }
         });
         thread.start();
