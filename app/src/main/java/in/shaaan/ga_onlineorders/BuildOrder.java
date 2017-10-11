@@ -148,6 +148,10 @@ public class BuildOrder extends AppCompatActivity {
     }
 
     public void sendOrder(View view) {
+        if(mAdapter.getItems().size() == 0) {
+            Snackbar.make(view, "No products added in order", Snackbar.LENGTH_SHORT).show();
+            return;
+        }
         submitOrder();
     }
 
