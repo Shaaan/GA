@@ -14,7 +14,7 @@
 
         <Button
             android:layout_width="20dp"
-            android:layout_marginRight="10dp"
+            android:layout_marginRight="20dp"
             android:id="@+id/delete_product"
             android:textColor="#fff"
             android:background="@drawable/button"
@@ -53,14 +53,15 @@
             android:id="@+id/view_quantity_real"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="0.2"
+            android:layout_weight="0.4"
             tools:text="10" />
 
         <TextView
             android:id="@+id/view_scheme"
             android:layout_width="0dp"
+            android:text="With Scheme"
             android:layout_height="match_parent"
-            android:layout_weight="0.4"
+            android:layout_weight="0.1"
             tools:text="@string/scheme" />
 
     </LinearLayout>

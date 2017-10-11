@@ -29,7 +29,7 @@ public class RecyclerAdapterFile extends RecyclerView.Adapter<RecyclerAdapterFil
 
         public MyViewHolder(View view) {
             super(view);
-            view.setOnClickListener(this);
+//            view.setOnClickListener(this);
             button = (Button) view.findViewById(R.id.delete_product);
             button.setOnClickListener(new View.OnClickListener() {
                 @Override

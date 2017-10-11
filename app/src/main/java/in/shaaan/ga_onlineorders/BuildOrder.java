@@ -18,6 +18,7 @@ import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.firebase.analytics.FirebaseAnalytics;
@@ -67,6 +68,7 @@ public class BuildOrder extends AppCompatActivity {
     private LinearLayoutManager linearLayoutManager;
     private List<OrderData> orderData = new ArrayList<>();
     private RecyclerAdapterFile mAdapter;
+    private TextView scheme;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -149,7 +151,7 @@ public class BuildOrder extends AppCompatActivity {
         String quant = editText.getText().toString();
         if (checkBox.isChecked()) {
             StringBuilder stringBuilder = new StringBuilder(quant);
-            stringBuilder.append("\n" + " - With Scheme");
+            stringBuilder.append(" - With Scheme");
             String finalQuant = stringBuilder.toString();
             instance.setQuantity(finalQuant);
         } else {
