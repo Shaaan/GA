@@ -4,11 +4,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize">
+
     <RelativeLayout
         android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_height="match_parent"
         android:focusableInTouchMode="true"
         android:orientation="vertical">
 
@@ -113,16 +117,18 @@
             android:textColor="@android:color/black"
             android:textSize="13sp" />
 
-        <ScrollView
+        <!--<ScrollView
             android:id="@+id/orderListView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/prodNameView"
-            android:padding="@dimen/frag_pad">
+            android:padding="@dimen/frag_pad">-->
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="@dimen/frag_pad"
+                android:layout_below="@id/prodNameView"
                 android:orientation="vertical">
 
                 <android.support.v7.widget.RecyclerView
@@ -132,7 +138,8 @@
                     android:scrollbars="vertical"
                     tools:listitem="@layout/item_order1" />
             </LinearLayout>
-        </ScrollView>
+        <!--</ScrollView>-->
     </RelativeLayout>
+    </ScrollView>
 
 </android.support.design.widget.CoordinatorLayout>

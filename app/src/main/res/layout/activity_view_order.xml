@@ -98,6 +98,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="0.7"
                         android:padding="@dimen/activity_horizontal_margin"
+                        android:textAllCaps="true"
                         android:textSize="14sp" />
                 </LinearLayout>
 
