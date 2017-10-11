@@ -191,7 +191,7 @@ public class BuildOrder extends AppCompatActivity {
             public void run() {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
                 // TODO: Switch to actual branch after development
-                DatabaseReference reference = database.getReference("tempDB").child("salesman").child(userId).child("orders");
+                DatabaseReference reference = database.getReference("tempDB").child("salesman").child(userId);
                 reference.keepSynced(true);
                 String key = reference.child("salesman").child(userId).child("orders").push().getKey();
                 reference.child(key).child("custName").setValue(customer);
