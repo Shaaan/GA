@@ -5,7 +5,7 @@ android {
         config {
             keyAlias 'Shaaan'
             keyPassword 'cyanogenm0d'
-            storeFile file('/home/niharg/AndroidStudioProjects/shaaan_project/shaaan.jks')
+            storeFile file('D:\\secure/shaaan.jks')
             storePassword 'cyanogenm0d'
         }
     }
@@ -60,9 +60,5 @@ dependencies {
     compile 'com.firebaseui:firebase-ui-database:3.0.0'
     testCompile 'junit:junit:4.12'
 }
-
-
-
-
 
 apply plugin: 'com.google.gms.google-services'
