@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.DividerItemDecoration;
@@ -24,8 +25,13 @@ import android.widget.Toast;
 import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.ChildEventListener;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
+import com.google.firebase.database.ValueEventListener;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -69,6 +75,7 @@ public class BuildOrder extends AppCompatActivity {
     private List<OrderData> orderData = new ArrayList<>();
     private RecyclerAdapterFile mAdapter;
     private TextView scheme;
+    private int x = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -121,9 +128,65 @@ public class BuildOrder extends AppCompatActivity {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 FirebaseUser user = firebaseAuth.getCurrentUser();
-                Log.d("Signed in?", "We logged in" + user.getEmail());
+                Log.d("Signed in?", "Yes I did!" + user.getEmail());
             }
         };
+
+        //Logic to check quantity
+//        String pReqQuant = autoCompleteTextView.getText().toString();
+//        Query query = GaFirebase.isCalled().getReference().child("tempDB").child("Quant").child(pReqQuant);
+//        String aQuantity = query.toString();
+//        int availableQuantity = Integer.parseInt(aQuantity);
+
+
+        autoCompleteTextView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+
+                final String pReqQuant = autoCompleteTextView.getText().toString();
+                StringTokenizer stringTokenizer1 = new StringTokenizer(pReqQuant, "[");
+                String finalProd = stringTokenizer1.nextToken().trim();
+                Log.d("Path", finalProd);
+                DatabaseReference reference = GaFirebase.isCalled().getReference().child("tempDB").child("Quant").child(finalProd);
+                Log.d("DBPath", reference.toString());
+                reference.addValueEventListener(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(DataSnapshot dataSnapshot) {
+
+                        Log.d("QD", "Quan" + dataSnapshot );
+
+                        if (autoCompleteTextView != null) {
+
+                            if (dataSnapshot.getValue() != null) {
+                                String s2 = dataSnapshot.getValue().toString();
+                                Log.d("FirebaseDatabase", s2);
+                                x = Integer.parseInt(s2);
+                                if (x != 0 && x > 30) {
+                                    addProduct.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.quantity_full));
+//                                    Toast.makeText(BuildOrder.this, "YOLO", Toast.LENGTH_SHORT).show();
+                                } else if (x != 0 && x < 30) {
+//                                    Toast.makeText(BuildOrder.this, "Quantity is less than 30", Toast.LENGTH_SHORT).show();
+                                    addProduct.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.quantity_moderate));
+                                } else if (x == 0) {
+//                                    Toast.makeText(BuildOrder.this, "No stock available", Toast.LENGTH_SHORT).show();
+                                    addProduct.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.quantity_nill));
+                                }
+                            } else {
+                                Log.d("FirebaseDatabase", "Getting no quantity from Database");
+                            }
+                        }
+
+                    }
+
+                    @Override
+                    public void onCancelled(DatabaseError databaseError) {
+
+                    }
+                });
+
+            }
+        });
+
     }
 
     public void addProduct(View view) {
