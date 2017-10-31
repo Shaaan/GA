@@ -63,6 +63,8 @@ public class BuildOrder extends AppCompatActivity {
     RecyclerView recyclerView;
     @Bind(R.id.addProduct)
     Button addProduct;
+    @Bind(R.id.view_scheme)
+    TextView schemeView;
     /*@Bind(R.id.delete_product)
     Button remProd;*/
     /*@Bind(R.id.prod_del)
@@ -157,8 +159,8 @@ public class BuildOrder extends AppCompatActivity {
 
                         if (autoCompleteTextView != null) {
 
-                            if (dataSnapshot.getValue() != null) {
-                                String s2 = dataSnapshot.getValue().toString();
+                            if (dataSnapshot.child("quantity").getValue() != null) {
+                                String s2 = dataSnapshot.child("quantity").getValue().toString();
                                 Log.d("FirebaseDatabase", s2);
                                 x = Integer.parseInt(s2);
                                 if (x != 0 && x > 30) {
@@ -173,6 +175,12 @@ public class BuildOrder extends AppCompatActivity {
                                 }
                             } else {
                                 Log.d("FirebaseDatabase", "Getting no quantity from Database");
+                            }
+                            if (dataSnapshot.child("scheme").getValue() != null) {
+                                String prodScheme = dataSnapshot.child("scheme").getValue().toString();
+                                schemeView.setText(prodScheme);
+                            } else {
+                                schemeView.setText("None");
                             }
                         }
 

@@ -73,10 +73,26 @@
                 android:id="@+id/quantity"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.3"
+                android:layout_weight="0.2"
                 android:hint="@string/quantity"
                 android:inputType="numberDecimal"
                 android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Scheme: "
+                android:textAllCaps="true"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/view_scheme"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:textStyle="bold"
+                tools:text="10+1" />
 
             <Button
                 android:id="@+id/addProduct"
