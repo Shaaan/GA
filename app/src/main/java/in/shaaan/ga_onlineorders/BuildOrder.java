@@ -214,6 +214,8 @@ public class BuildOrder extends AppCompatActivity {
             editText.getText().clear();
             autoCompleteTextView.requestFocus();
             checkBox.setChecked(false);
+            addProduct.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.colorPrimary));
+            schemeView.setText("");
         }
 
     }
