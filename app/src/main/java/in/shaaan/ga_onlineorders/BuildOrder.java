@@ -149,9 +149,9 @@ public class BuildOrder extends AppCompatActivity {
                 StringTokenizer stringTokenizer1 = new StringTokenizer(pReqQuant, "[");
                 String finalProd = stringTokenizer1.nextToken().trim();
                 Log.d("Path", finalProd);
-                DatabaseReference reference = GaFirebase.isCalled().getReference().child("tempDB").child("Quant").child(finalProd);
-                Log.d("DBPath", reference.toString());
-                reference.addValueEventListener(new ValueEventListener() {
+                mDatabaseReference = GaFirebase.isCalled().getReference().child("tempDB").child("Quant").child(finalProd);
+                Log.d("DBPath", mDatabaseReference.toString());
+                mDatabaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
 
