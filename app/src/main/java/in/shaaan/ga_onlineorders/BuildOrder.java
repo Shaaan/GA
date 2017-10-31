@@ -202,17 +202,20 @@ public class BuildOrder extends AppCompatActivity {
         String drug = autoCompleteTextView.getText().toString();
         if (drug.matches("")) {
             Snackbar.make(view, "You did not enter the product", Snackbar.LENGTH_LONG).show();
+            autoCompleteTextView.requestFocus();
         } else if (quantity.matches("")) {
             Snackbar.make(view, "You did not add the quantity", Snackbar.LENGTH_LONG).show();
+            editText.requestFocus();
         } else {
 //            prodList.append("" + drug + "     " + quantity + "\n");
 
             mAdapter.addItem(getDataA());
+            autoCompleteTextView.getText().clear();
+            editText.getText().clear();
+            autoCompleteTextView.requestFocus();
+            checkBox.setChecked(false);
         }
-        autoCompleteTextView.getText().clear();
-        editText.getText().clear();
-        autoCompleteTextView.requestFocus();
-        checkBox.setChecked(false);
+
     }
 
     public OrderData getDataA() {
