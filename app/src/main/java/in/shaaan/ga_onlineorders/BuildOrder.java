@@ -51,8 +51,8 @@ public class BuildOrder extends AppCompatActivity {
     private static final String REQUIRED = "This is required";
     @Bind(R.id.submit)
     FloatingActionButton submit;
-    @Bind(R.id.scheme_checkbox)
-    CheckBox checkBox;
+    /*@Bind(R.id.scheme_checkbox)
+    CheckBox checkBox;*/
     @Bind(R.id.custName)
     AutoCompleteTextView completeTextView;
     @Bind(R.id.autocompleteview)
@@ -213,7 +213,7 @@ public class BuildOrder extends AppCompatActivity {
             autoCompleteTextView.getText().clear();
             editText.getText().clear();
             autoCompleteTextView.requestFocus();
-            checkBox.setChecked(false);
+//            checkBox.setChecked(false);
             addProduct.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.colorPrimary));
             schemeView.setText("");
         }
@@ -223,16 +223,15 @@ public class BuildOrder extends AppCompatActivity {
     public OrderData getDataA() {
         OrderData instance = new OrderData();
         instance.setProduct(autoCompleteTextView.getText().toString());
-//        instance.setQuantity(editText.getText().toString());
-        String quant = editText.getText().toString();
+/*        String quant = editText.getText().toString();
         if (checkBox.isChecked()) {
             StringBuilder stringBuilder = new StringBuilder(quant);
             stringBuilder.append(" - With Scheme");
             String finalQuant = stringBuilder.toString();
             instance.setQuantity(finalQuant);
-        } else {
+        } else {*/
             instance.setQuantity(editText.getText().toString());
-        }
+//        }
 
         Log.d("I am doing something", "seriously?");
         return instance;
