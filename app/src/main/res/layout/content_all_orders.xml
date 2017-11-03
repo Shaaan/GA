@@ -32,6 +32,26 @@
             android:textAllCaps="true"
             android:textStyle="bold" />
 
+        <!--TODO:Flip this on when the new app is done..-->
+        <!--<TextView
+            android:id="@+id/not_salesman"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="80dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="This application is meant only for salesmen from Gayatri Agencies. Please click the button below to download the application for pharmacy stores."
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/playStore_button"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="200dp"
+            android:text="GA-OOS: Pharmacies"/>-->
+
         <!--<TextView
             android:id="@+id/about"
             android:layout_width="match_parent"

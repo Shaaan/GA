@@ -65,6 +65,8 @@ public class BuildOrder extends AppCompatActivity {
     Button addProduct;
     @Bind(R.id.view_scheme)
     TextView schemeView;
+    @Bind(R.id.view_quantity)
+    TextView showStock;
     /*@Bind(R.id.delete_product)
     Button remProd;*/
     /*@Bind(R.id.prod_del)
@@ -162,6 +164,7 @@ public class BuildOrder extends AppCompatActivity {
                             if (dataSnapshot.child("quantity").getValue() != null) {
                                 String s2 = dataSnapshot.child("quantity").getValue().toString();
                                 Log.d("FirebaseDatabase", s2);
+                                showStock.setText(s2);
                                 x = Integer.parseInt(s2);
                                 if (x != 0 && x > 30) {
                                     addProduct.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.quantity_full));
