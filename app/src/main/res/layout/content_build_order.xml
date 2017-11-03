@@ -9,173 +9,155 @@
         android:layout_height="match_parent"
         android:layout_marginTop="?attr/actionBarSize">
 
-    <RelativeLayout
-        android:id="@+id/relativeLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:focusableInTouchMode="true"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/custNameView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:text="@string/cust_name"
-            android:textColor="@android:color/black"
-            android:textSize="13sp" />
-
-        <AutoCompleteTextView
-            android:id="@+id/custName"
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/custNameView"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:completionThreshold="1"
-            android:hint="Jupiter Pharmacy"
-            android:padding="@dimen/frag_pad"
-            android:textColor="@android:color/black"
-            android:textSize="13sp" />
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/prodName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/custName"
-            android:layout_margin="15dp"
-            android:text="@string/prod_name"
-            android:textColor="@android:color/black"
-            android:textSize="13sp" />
-
-        <AutoCompleteTextView
-            android:id="@+id/autocompleteview"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/prodName"
-            android:hint="Rantac"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:completionThreshold="1"
-            android:inputType="textNoSuggestions|textFilter"
-            android:maxLines="1"
-            android:padding="@dimen/frag_pad"
-            android:textColor="@android:color/black"
-            android:textSize="13sp" />
-
-        <LinearLayout
-            android:id="@+id/linear"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/autocompleteview"
-            android:layout_margin="15dp"
-            android:orientation="horizontal">
-
-            <EditText
-                android:id="@+id/quantity"
-                android:layout_width="0dp"
+            <TextView
+                android:id="@+id/custNameView"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.2"
-                android:hint="@string/quantity"
-                android:inputType="numberDecimal"
+                android:layout_margin="15dp"
+                android:text="@string/cust_name"
+                android:textColor="@android:color/black"
                 android:textSize="13sp" />
 
+            <AutoCompleteTextView
+                android:id="@+id/custName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/custNameView"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:completionThreshold="1"
+                android:hint="Jupiter Pharmacy"
+                android:padding="@dimen/frag_pad"
+                android:textColor="@android:color/black"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/prodName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/custName"
+                android:layout_margin="15dp"
+                android:text="@string/prod_name"
+                android:textColor="@android:color/black"
+                android:textSize="13sp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autocompleteview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/prodName"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:completionThreshold="1"
+                android:hint="Rantac"
+                android:inputType="textNoSuggestions|textFilter"
+                android:maxLines="1"
+                android:padding="@dimen/frag_pad"
+                android:textColor="@android:color/black"
+                android:textSize="13sp" />
+
+            <LinearLayout
+                android:id="@+id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/autocompleteview"
+                android:layout_margin="15dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/quantity"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:hint="@string/quantity"
+                    android:inputType="numberDecimal"
+                    android:textSize="13sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
+
+                <Button
+                    android:id="@+id/addProduct"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:background="@color/colorAccent"
+                    android:onClick="addProduct"
+                    android:text="@string/add"
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/scheme_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linear"
+                android:layout_margin="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Scheme : "
+                    android:textAllCaps="true"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/view_scheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    tools:text="10+1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:text="Stock : "
+                    android:textAllCaps="true"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/view_quantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    tools:text="10+1" />
+            </LinearLayout>
+
             <View
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.05"/>
-
-            <Button
-                android:id="@+id/addProduct"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="0.2"
-                android:textColor="#fff"
-                android:background="@color/colorAccent"
-                android:onClick="addProduct"
-                android:text="@string/add" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_below="@id/linear"
-            android:layout_margin="15dp"
-            android:orientation="horizontal"
-            android:id="@+id/scheme_linear"
-            android:layout_height="wrap_content">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Scheme : "
-                android:textAllCaps="true"
-                android:textSize="14sp"
-                android:textStyle="bold" />
+                android:id="@+id/view"
+                style="@style/Divider"
+                android:layout_below="@id/scheme_linear" />
 
             <TextView
-                android:id="@+id/view_scheme"
+                android:id="@+id/prodNameView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textStyle="bold"
-                tools:text="10+1" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Stock : "
-                android:textAllCaps="true"
-                android:layout_marginLeft="30dp"
-                android:textSize="14sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/view_quantity"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textStyle="bold"
-                tools:text="10+1" />
-        </LinearLayout>
-
-        <!--<CheckBox
-            android:id="@+id/scheme_checkbox"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/linear"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:padding="@dimen/frag_pad"
-            android:text="@string/scheme"
-            android:textSize="13sp" />-->
-
-        <View
-            android:id="@+id/view"
-            style="@style/Divider"
-            android:layout_below="@id/scheme_linear" />
-
-        <TextView
-            android:id="@+id/prodNameView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/view"
-            android:layout_marginTop="@dimen/frag_pad"
-            android:padding="@dimen/frag_pad"
-            android:text="@string/prod_name"
-            android:textColor="@android:color/black"
-            android:textSize="13sp" />
-
-        <!--<ScrollView
-            android:id="@+id/orderListView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/prodNameView"
-            android:padding="@dimen/frag_pad">-->
+                android:layout_below="@id/view"
+                android:layout_marginTop="@dimen/frag_pad"
+                android:padding="@dimen/frag_pad"
+                android:text="@string/prod_name"
+                android:textColor="@android:color/black"
+                android:textSize="13sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="@dimen/frag_pad"
                 android:layout_below="@id/prodNameView"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="@dimen/frag_pad">
 
                 <android.support.v7.widget.RecyclerView
                     android:id="@+id/orderList"
@@ -184,8 +166,7 @@
                     android:scrollbars="vertical"
                     tools:listitem="@layout/item_order1" />
             </LinearLayout>
-        <!--</ScrollView>-->
-    </RelativeLayout>
+        </RelativeLayout>
     </ScrollView>
 
 </android.support.design.widget.CoordinatorLayout>

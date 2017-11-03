@@ -8,12 +8,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
-
 
 import java.util.List;
 
-import butterknife.Bind;
 import in.shaaan.ga_onlineorders.pojo.OrderData;
 
 /**
@@ -22,46 +19,6 @@ import in.shaaan.ga_onlineorders.pojo.OrderData;
 
 public class RecyclerAdapterFile extends RecyclerView.Adapter<RecyclerAdapterFile.MyViewHolder> {
     public List<OrderData> orderData;
-
-    public class MyViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
-        public TextView product, quantity, scheme;
-        private Button button;
-
-        public MyViewHolder(View view) {
-            super(view);
-//            view.setOnClickListener(this);
-            button = (Button) view.findViewById(R.id.delete_product);
-            button.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    orderData.remove(getAdapterPosition());
-                    notifyDataSetChanged();
-                }
-            });
-            /*view.setOnLongClickListener(new View.OnLongClickListener() {
-                @Override
-                public boolean onLongClick(View view) {
-                    orderData.remove(getAdapterPosition());
-                    notifyDataSetChanged();
-                    return true;
-                }
-            });*/
-            product = (TextView) view.findViewById(R.id.view_prod_name);
-            quantity = (TextView) view.findViewById(R.id.view_quantity_real);
-            scheme = (TextView) view.findViewById(R.id.view_scheme);
-        }
-
-        public TextView getView() {
-            return product;
-        }
-
-        @Override
-        public void onClick(View view) {
-            Log.d("onclick", "I am number" + getAdapterPosition());
-            Snackbar.make(view, "Long press to delete the item", Snackbar.LENGTH_SHORT).show();
-        }
-
-    }
 
     public RecyclerAdapterFile(List<OrderData> orderData) {
         this.orderData = orderData;
@@ -94,5 +51,37 @@ public class RecyclerAdapterFile extends RecyclerView.Adapter<RecyclerAdapterFil
 
     public List<OrderData> getItems() {
         return orderData;
+    }
+
+    public class MyViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+        public TextView product, quantity, scheme;
+        private Button button;
+
+        public MyViewHolder(View view) {
+            super(view);
+            button = view.findViewById(R.id.delete_product);
+            button.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    orderData.remove(getAdapterPosition());
+                    notifyDataSetChanged();
+                }
+            });
+
+            product = view.findViewById(R.id.view_prod_name);
+            quantity = view.findViewById(R.id.view_quantity_real);
+            scheme = view.findViewById(R.id.view_scheme);
+        }
+
+        public TextView getView() {
+            return product;
+        }
+
+        @Override
+        public void onClick(View view) {
+            Log.d("onclick", "I am number" + getAdapterPosition());
+            Snackbar.make(view, "Long press to delete the item", Snackbar.LENGTH_SHORT).show();
+        }
+
     }
 }

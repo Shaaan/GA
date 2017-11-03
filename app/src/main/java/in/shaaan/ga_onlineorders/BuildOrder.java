@@ -7,7 +7,6 @@ import android.support.design.widget.Snackbar;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
@@ -17,7 +16,6 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
-import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -25,12 +23,10 @@ import android.widget.Toast;
 import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
 import java.text.SimpleDateFormat;
@@ -51,8 +47,6 @@ public class BuildOrder extends AppCompatActivity {
     private static final String REQUIRED = "This is required";
     @Bind(R.id.submit)
     FloatingActionButton submit;
-    /*@Bind(R.id.scheme_checkbox)
-    CheckBox checkBox;*/
     @Bind(R.id.custName)
     AutoCompleteTextView completeTextView;
     @Bind(R.id.autocompleteview)
@@ -67,18 +61,15 @@ public class BuildOrder extends AppCompatActivity {
     TextView schemeView;
     @Bind(R.id.view_quantity)
     TextView showStock;
-    /*@Bind(R.id.delete_product)
-    Button remProd;*/
-    /*@Bind(R.id.prod_del)
-    Button productDelete;*/
+
     private DatabaseReference mDatabaseReference;
     private FirebaseAuth.AuthStateListener authStateListener;
     private FirebaseAuth firebaseAuth;
-    private String k;
+    //    private String k;
     private LinearLayoutManager linearLayoutManager;
     private List<OrderData> orderData = new ArrayList<>();
     private RecyclerAdapterFile mAdapter;
-    private TextView scheme;
+    //    private TextView scheme;
     private int x = 0;
 
     @Override
@@ -86,7 +77,7 @@ public class BuildOrder extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_build_order);
         ButterKnife.bind(this);
-        final android.support.v7.widget.Toolbar toolbar = (android.support.v7.widget.Toolbar) findViewById(R.id.toolbar);
+        final android.support.v7.widget.Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         int layoutItemId = android.R.layout.simple_dropdown_item_1line;
@@ -136,13 +127,8 @@ public class BuildOrder extends AppCompatActivity {
             }
         };
 
-        //Logic to check quantity
-//        String pReqQuant = autoCompleteTextView.getText().toString();
-//        Query query = GaFirebase.isCalled().getReference().child("tempDB").child("Quant").child(pReqQuant);
-//        String aQuantity = query.toString();
-//        int availableQuantity = Integer.parseInt(aQuantity);
 
-
+        // Logic to check quantity
         autoCompleteTextView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
@@ -157,7 +143,7 @@ public class BuildOrder extends AppCompatActivity {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
 
-                        Log.d("QD", "Quan" + dataSnapshot );
+                        Log.d("QD", "Quan" + dataSnapshot);
 
                         if (autoCompleteTextView != null) {
 
@@ -168,7 +154,6 @@ public class BuildOrder extends AppCompatActivity {
                                 x = Integer.parseInt(s2);
                                 if (x != 0 && x > 30) {
                                     addProduct.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.quantity_full));
-//                                    Toast.makeText(BuildOrder.this, "YOLO", Toast.LENGTH_SHORT).show();
                                 } else if (x != 0 && x < 30) {
 //                                    Toast.makeText(BuildOrder.this, "Quantity is less than 30", Toast.LENGTH_SHORT).show();
                                     addProduct.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.quantity_moderate));
@@ -226,22 +211,14 @@ public class BuildOrder extends AppCompatActivity {
     public OrderData getDataA() {
         OrderData instance = new OrderData();
         instance.setProduct(autoCompleteTextView.getText().toString());
-/*        String quant = editText.getText().toString();
-        if (checkBox.isChecked()) {
-            StringBuilder stringBuilder = new StringBuilder(quant);
-            stringBuilder.append(" - With Scheme");
-            String finalQuant = stringBuilder.toString();
-            instance.setQuantity(finalQuant);
-        } else {*/
-            instance.setQuantity(editText.getText().toString());
-//        }
+        instance.setQuantity(editText.getText().toString());
 
         Log.d("I am doing something", "seriously?");
         return instance;
     }
 
     public void sendOrder(View view) {
-        if(mAdapter.getItems().size() == 0) {
+        if (mAdapter.getItems().size() == 0) {
             Snackbar.make(view, "No products added in order", Snackbar.LENGTH_SHORT).show();
             return;
         }
@@ -270,7 +247,7 @@ public class BuildOrder extends AppCompatActivity {
         List<OrderData> products = mAdapter.getItems();
         final StringBuilder builder = new StringBuilder();
 
-        for(OrderData product: products) {
+        for (OrderData product : products) {
             builder.append(String.format("%s %s\n", product.getProduct(), product.getQuantity()));
         }
 
@@ -285,7 +262,6 @@ public class BuildOrder extends AppCompatActivity {
                 reference.child(key).child("custName").setValue(customer);
                 reference.child(key).child("products").setValue(builder.toString());
                 reference.child(key).child("email").setValue(eMail);
-//                reference.child(key).child("expProducts").setValue(expProduct);
                 reference.child(key).child("date").setValue(date);
                 String blah = builder.toString();
                 Log.d("Data", blah);
@@ -305,7 +281,6 @@ public class BuildOrder extends AppCompatActivity {
                 reference.child(key).child("date").setValue(date);
                 reference.child(key).child("custName").setValue(customer);
                 reference.child(key).child("products").setValue(builder.toString());
-//                reference.child(key).child("expProducts").setValue(expProduct);
             }
         });
         t.start();
@@ -329,7 +304,6 @@ public class BuildOrder extends AppCompatActivity {
 
     private void setEditing(boolean enabled) {
         completeTextView.setEnabled(enabled);
-//        prodList.setEnabled(enabled);
         if (enabled) {
             submit.setVisibility(View.VISIBLE);
         } else {

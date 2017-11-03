@@ -27,7 +27,6 @@ import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.Query;
 
 import java.util.Arrays;
@@ -56,18 +55,13 @@ public class AllOrders extends AppCompatActivity {
     private FirebaseAuth mAuth;
     private FirebaseRecyclerAdapter mAdapter;
 
-//    private DatabaseReference databaseReference1;
-//    private RecyclerView recyclerView;
-//    private FirebaseRecyclerAdapter<OrderData, PostViewHolder> mAdapter;
-//    private LinearLayoutManager mManager;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_all_orders);
         ButterKnife.bind(this);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         netStatus.setVisibility(View.GONE);
         floatingActionButton.setVisibility(View.GONE);
@@ -113,15 +107,12 @@ public class AllOrders extends AppCompatActivity {
             floatingActionButton.setVisibility(View.GONE);
 
         }
-        // Initialize Database
-//        databaseReference1 = GaFirebase.isCalled().getReference().child("salesman").child(getUid());
-//            databaseReference1 = FirebaseDatabase.getInstance().getReference().child("salesman").child(getUid());
+
         Query query = GaFirebase.isCalled().getReference().child("tempDB").child("salesman").child(getUid());
         FirebaseRecyclerOptions<OrderData> options = new FirebaseRecyclerOptions.Builder<OrderData>()
                 .setQuery(query, OrderData.class)
                 .build();
 
-//        FirebaseRecyclerAdapter<OrderData, PostViewHolder>
         mAdapter = new FirebaseRecyclerAdapter<OrderData, PostViewHolder>(options) {
             @Override
             public PostViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
@@ -157,7 +148,6 @@ public class AllOrders extends AppCompatActivity {
         };
         recyclerView.addItemDecoration(new android.support.v7.widget.DividerItemDecoration(recyclerView.getContext(), android.support.v7.widget.DividerItemDecoration.VERTICAL));
         recyclerView.setAdapter(mAdapter);
-//        mAdapter.startListening();
 
         if (isOnline()) {
             netStatus.setVisibility(View.INVISIBLE);

@@ -124,6 +124,7 @@
                         android:padding="@dimen/activity_horizontal_margin"
                         android:textSize="14sp" />
                 </LinearLayout>
+
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"

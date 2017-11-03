@@ -23,11 +23,4 @@
         android:layout_height="wrap_content"
         android:padding="@dimen/fab_margin"
         tools:text="12/12/12" />
-
-    <!--<View
-        android:layout_width="match_parent"
-        android:layout_height="1px"
-        android:background="@android:color/background_dark"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"/>-->
 </LinearLayout>

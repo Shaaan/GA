@@ -52,17 +52,6 @@
             android:layout_marginBottom="200dp"
             android:text="GA-OOS: Pharmacies"/>-->
 
-        <!--<TextView
-            android:id="@+id/about"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:layout_gravity="bottom"
-            android:background="@color/colorPrimary"
-            android:gravity="center_vertical|center_horizontal|center"
-            android:padding="@dimen/frag_pad"
-            android:text="@string/about"
-            android:textColor="#fefefe" />-->
-
     </FrameLayout>
 
 </android.support.constraint.ConstraintLayout>

@@ -45,14 +45,6 @@ public class GaFirebase extends Application {
         }
     }
 
-    /*public static getDatabase() {
-        if (mDatabase == null) {
-            mDatabase = FirebaseDatabase.getInstance();
-            mDatabase.setPersistenceEnabled(true);
-        }
-        return mDatabase;
-    }*/
-
     private void authenticate() {
         if (isOnline()) {
 //            startA

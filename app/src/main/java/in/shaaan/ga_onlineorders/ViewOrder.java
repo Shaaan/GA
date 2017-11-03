@@ -50,10 +50,7 @@ public class ViewOrder extends AppCompatActivity {
             mDate.setText(date);
             mOrder.setText(order);
             mSalesman.setText(salesman);
-        } /*else {
-            Toast.makeText(this, "Its null", Toast.LENGTH_SHORT).show();
-        }*/
-
+        }
 
         deleteButton.setOnClickListener(new View.OnClickListener() {
             @Override
