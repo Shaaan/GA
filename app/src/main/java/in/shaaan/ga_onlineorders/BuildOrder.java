@@ -61,6 +61,8 @@ public class BuildOrder extends AppCompatActivity {
     TextView schemeView;
     @Bind(R.id.view_quantity)
     TextView showStock;
+    @Bind(R.id.view_mrp)
+    TextView viewMrp;
 
     private DatabaseReference mDatabaseReference;
     private FirebaseAuth.AuthStateListener authStateListener;
@@ -135,9 +137,9 @@ public class BuildOrder extends AppCompatActivity {
 
                 final String pReqQuant = autoCompleteTextView.getText().toString();
                 StringTokenizer stringTokenizer1 = new StringTokenizer(pReqQuant, "[");
-                String finalProd = stringTokenizer1.nextToken().trim();
+                String finalProd = stringTokenizer1.nextToken().trim().replace('.', '_');
                 Log.d("Path", finalProd);
-                mDatabaseReference = GaFirebase.isCalled().getReference().child("tempDB").child("Quant").child(finalProd);
+                mDatabaseReference = GaFirebase.isCalled().getReference().child("nodejs-data").child("Quant").child(finalProd);
                 Log.d("DBPath", mDatabaseReference.toString());
                 mDatabaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
@@ -147,8 +149,8 @@ public class BuildOrder extends AppCompatActivity {
 
                         if (autoCompleteTextView != null) {
 
-                            if (dataSnapshot.child("quantity").getValue() != null) {
-                                String s2 = dataSnapshot.child("quantity").getValue().toString();
+                            if (dataSnapshot.child("TotalStock").getValue() != null) {
+                                String s2 = dataSnapshot.child("TotalStock").getValue().toString();
                                 Log.d("FirebaseDatabase", s2);
                                 showStock.setText(s2);
                                 x = Integer.parseInt(s2);
@@ -164,12 +166,17 @@ public class BuildOrder extends AppCompatActivity {
                             } else {
                                 Log.d("FirebaseDatabase", "Getting no quantity from Database");
                             }
-                            if (dataSnapshot.child("scheme").getValue() != null) {
-                                String prodScheme = dataSnapshot.child("scheme").getValue().toString();
+                            if (dataSnapshot.child("Scheme").getValue() != null) {
+                                String prodScheme = dataSnapshot.child("Scheme").getValue().toString();
                                 schemeView.setText(prodScheme);
                             } else {
                                 schemeView.setText("None");
                             }
+                            if (dataSnapshot.child("MRP").getValue() != null) {
+                                String mrp = dataSnapshot.child("MRP").getValue().toString();
+                                viewMrp.setText(mrp);
+                            }
+
                         }
 
                     }
@@ -204,6 +211,8 @@ public class BuildOrder extends AppCompatActivity {
 //            checkBox.setChecked(false);
             addProduct.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.colorPrimary));
             schemeView.setText("");
+            viewMrp.setText("");
+            showStock.setText("");
         }
 
     }
@@ -256,7 +265,7 @@ public class BuildOrder extends AppCompatActivity {
             public void run() {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
                 // TODO: Switch to actual branch after development
-                DatabaseReference reference = database.getReference("tempDB").child("salesman").child(userId);
+                DatabaseReference reference = database.getReference("").child("salesman").child(userId);
                 reference.keepSynced(true);
                 String key = reference.child("salesman").child(userId).child("orders").push().getKey();
                 reference.child(key).child("custName").setValue(customer);
@@ -274,7 +283,7 @@ public class BuildOrder extends AppCompatActivity {
             public void run() {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
                 // TODO: Switch to actual branch after development
-                DatabaseReference reference = database.getReference("tempDB").child("allOrders");
+                DatabaseReference reference = database.getReference("").child("allOrders");
                 reference.keepSynced(true);
                 String key = reference.push().getKey();
                 reference.child(key).child("email").setValue(eMail);

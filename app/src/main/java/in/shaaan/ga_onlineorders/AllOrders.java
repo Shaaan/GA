@@ -17,7 +17,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -46,10 +45,10 @@ public class AllOrders extends AppCompatActivity {
     TextView netStatus;
     @Bind(R.id.recycler)
     RecyclerView recyclerView;
-    @Bind(R.id.not_salesman)
+    /*@Bind(R.id.not_salesman)
     TextView notSalesman;
     @Bind(R.id.playStore_button)
-    Button playButton;
+    Button playButton;*/
 
     private FirebaseAuth.AuthStateListener mAuthListener;
     private FirebaseAuth mAuth;
@@ -99,8 +98,8 @@ public class AllOrders extends AppCompatActivity {
         String s1 = salesmen.toString();
         if (s1.contains(s)) {
             floatingActionButton.setVisibility(View.VISIBLE);
-            playButton.setVisibility(View.GONE);
-            notSalesman.setVisibility(View.GONE);
+//            playButton.setVisibility(View.GONE);
+//            notSalesman.setVisibility(View.GONE);
             FirebaseAnalytics firebaseAnalytics = FirebaseAnalytics.getInstance(this);
             firebaseAnalytics.setUserProperty("salesman", "isSalesman");
         } else {
@@ -108,7 +107,7 @@ public class AllOrders extends AppCompatActivity {
 
         }
 
-        Query query = GaFirebase.isCalled().getReference().child("tempDB").child("salesman").child(getUid());
+        Query query = GaFirebase.isCalled().getReference().child("").child("salesman").child(getUid());
         FirebaseRecyclerOptions<OrderData> options = new FirebaseRecyclerOptions.Builder<OrderData>()
                 .setQuery(query, OrderData.class)
                 .build();
