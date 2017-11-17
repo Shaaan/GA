@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="custList">
-        <item>(MRS) KALPANA SURADKAR	[ 1975 ]</item>
         <item>A TO Z MEDICAL	[ 2454 ]</item>
+        <item>A TO Z MEDICAL AND GEN STORES	[ 1083 ]</item>
+        <item>A TO Z PHARMACY	[ 1 ]</item>
         <item>A- ONE DRUG HOUSE	[ 3221 ]</item>
         <item>A-ONE CHEMIST AND GENERAL STORES	[ 2155 ]</item>
         <item>A-ONE MEDICAL AND GENERAL STORE	[ 2228 ]</item>
@@ -23,9 +24,11 @@
         <item>AAROGYAM CHEMIST AND DRUGGIST	[ 254 ]</item>
         <item>AARYA CHEMIST AND DRUGGIST	[ 3016 ]</item>
         <item>AARYAN MEDICAL STORES	[ 2963 ]</item>
+        <item>AASHIRWAD MEDICAL STORES	[ 3465 ]</item>
         <item>AAYUSH MEDICAL AND GENERAL STORES	[ 2436 ]</item>
         <item>ABABEEL MEDICO STATIONARY AND GEN. STORES	[ 2679 ]</item>
         <item>ABHAY MEDICAL AND GEN STORES	[ 1291 ]</item>
+        <item>ABHAY MEDICALS	[ 1900 ]</item>
         <item>ABHIMAN CHEMIST	[ 1177 ]</item>
         <item>ABHISHEK MED AND GEN ST	[ 424 ]</item>
         <item>ACE MEDICAL	[ 2133 ]</item>
@@ -35,6 +38,7 @@
         <item>ADARSH MEDICAL STORES	[ 2 ]</item>
         <item>ADARSH MEDICO	[ 801 ]</item>
         <item>ADESH MEDICAL AND GENERAL STORES	[ 3 ]</item>
+        <item>ADINATH DRUG DISTRIBUTOR	[ 1791 ]</item>
         <item>ADITI CHEMIST	[ 951 ]</item>
         <item>ADITI MEDICAL AND GEN STORES	[ 2607 ]</item>
         <item>ADITI MEDICAL AND GENERAL STORES	[ 874 ]</item>
@@ -62,6 +66,7 @@
         <item>AKSHAY MEDICAL AND GENERAL STORES	[ 25 ]</item>
         <item>AKSHAY MEDICAL CENTRE	[ 2324 ]</item>
         <item>AKSHAYA SURGICAL AND MATERNITY HOME	[ 2082 ]</item>
+        <item>AKSHYA MEDICAL AND GENERAL STORES	[ 207 ]</item>
         <item>AL ASIF MEDICAL AND GEN. STORES	[ 389 ]</item>
         <item>AL BASIT MEDICAL AND GEN. STORES	[ 390 ]</item>
         <item>AL FALAH MEDICAL	[ 1157 ]</item>
@@ -76,10 +81,12 @@
         <item>AL-SHIFA MED AND GEN ST	[ 1579 ]</item>
         <item>AL-SHIFA MEDICAL AND GEN. STORES	[ 1307 ]</item>
         <item>AL-SHIFA MEDICAL AND GENERAL STORES.	[ 3271 ]</item>
+        <item>ALAM MEDICAL	[ 404 ]</item>
         <item>ALAM MEDICO AND GENERAL STORES	[ 2476 ]</item>
         <item>ALANKAR MEDICAL AND GENERAL STORES	[ 7 ]</item>
         <item>ALFA MEDICAL	[ 1372 ]</item>
         <item>ALFA MEDICAL AND GEN. STORES	[ 2684 ]</item>
+        <item>ALFISHA MEDICAL AND GENERAL STORES	[ 3459 ]</item>
         <item>ALKA MEDICAL AND GENERAL STORES	[ 2844 ]</item>
         <item>ALL IS WELL MEDICAL AND  GEN. STORES	[ 2627 ]</item>
         <item>ALLCARE CHEMIST	[ 3102 ]</item>
@@ -102,6 +109,7 @@
         <item>AMBERNATH CITY MEDICAL AND GENERAL STORES	[ 2459 ]</item>
         <item>AMBESHWAR MED AND GEN ST	[ 2651 ]</item>
         <item>AMBICA MEDICAL STORE	[ 3046 ]</item>
+        <item>AMBICA MEDICARE	[ 1646 ]</item>
         <item>AMBIKA MED.	[ 1202 ]</item>
         <item>AMBIKA MED. AND GEN. STORES	[ 1287 ]</item>
         <item>AMBIKA MEDICAL AND  GEN   STORES	[ 2608 ]</item>
@@ -117,9 +125,11 @@
         <item>AMI MEDICAL AND GEN. STORES	[ 758 ]</item>
         <item>AMI MEDICAL AND GENERAL STORES	[ 2257 ]</item>
         <item>AMIT MEDICAL AND GEN. STORES	[ 426 ]</item>
+        <item>AMIT MEDICAL AND GENERAL STORES	[ 3447 ]</item>
         <item>AMMAR HOSPITAL	[ 2134 ]</item>
         <item>AMNOL MEDICAL AND GEN STRS	[ 1986 ]</item>
         <item>AMOL MEDICAL	[ 1726 ]</item>
+        <item>AMOL MEDICAL AND GEN. STORES	[ 437 ]</item>
         <item>AMOL MEDICAL AND GENERAL STORES	[ 2881 ]</item>
         <item>AMRUT MEDICAL	[ 714 ]</item>
         <item>AMRUT MEDICAL AND GEN. STORES	[ 1041 ]</item>
@@ -139,6 +149,7 @@
         <item>ANHA MEDICAL AND GENERAL STORES	[ 2063 ]</item>
         <item>ANIKET MEDICAL STORE	[ 1200 ]</item>
         <item>ANIL MEDICAL AND GEN. STORES	[ 1500 ]</item>
+        <item>ANIL MEDICO AND GENERAL STORES.	[ 578 ]</item>
         <item>ANIRUDDHA MEDICAL AND GENERAL STORES	[ 3157 ]</item>
         <item>ANJALI MEDICAL AND GEN. STORES	[ 1408 ]</item>
         <item>ANJALI MEDICAL AND PHARMA DISTRIBUTOR	[ 2301 ]</item>
@@ -146,11 +157,16 @@
         <item>ANKIT MEDICAL	[ 2622 ]</item>
         <item>ANKIT MEDICAL AND GEN STORES	[ 1192 ]</item>
         <item>ANKITA MEDICAL	[ 624 ]</item>
+        <item>ANKOLA CHEMIST	[ 1251 ]</item>
+        <item>ANKOLA MEDICAL AND GENERAL STORES	[ 11 ]</item>
+        <item>ANKOLA MEDICAL AND GENERAL STORES	[ 2013 ]</item>
         <item>ANKOLA MEDICO	[ 2810 ]</item>
+        <item>ANKUR MEDICAL AND GEN. STORES	[ 679 ]</item>
         <item>ANKUR MEDICAL .	[ 3383 ]</item>
         <item>ANMOL  MEDICAL STORES	[ 2897 ]</item>
         <item>ANMOL MEDICAL	[ 978 ]</item>
         <item>ANMOL MEDICAL AND GEN. STORE	[ 1521 ]</item>
+        <item>ANMOL MEDICAL AND GENERAL STORES	[ 1987 ]</item>
         <item>ANNAPURNA MED AND GEN ST	[ 12 ]</item>
         <item>ANSH CHEMIST	[ 3343 ]</item>
         <item>ANTARIKSHA PHARMA TRADERS PVT. LTD.	[ 1870 ]</item>
@@ -164,7 +180,10 @@
         <item>APANA MEDICAL AND GEN. STORES	[ 443 ]</item>
         <item>APEX CHEMIST	[ 2779 ]</item>
         <item>APEX MEDICAL AND GENERAL STORES.	[ 3296 ]</item>
+        <item>APNA BAZAR SURBHI SUPAR MARKET	[ 532 ]</item>
+        <item>APNA MEDICAL AND GENERAL STORES	[ 388 ]</item>
         <item>APOLLO  PHARMACY	[ 1959 ]</item>
+        <item>APOLLO MEDICAL STORES	[ 13 ]</item>
         <item>APOLLO PHARMACY	[ 1958 ]</item>
         <item>APOLLO PHARMACY I	[ 2941 ]</item>
         <item>APOLLO PHARMACY II	[ 2942 ]</item>
@@ -175,6 +194,7 @@
         <item>APOLLO PHARMACY.	[ 2231 ]</item>
         <item>APPLE CHEMIST AND SURGICAL STORES.	[ 3293 ]</item>
         <item>APPLE CHEMIST .	[ 3387 ]</item>
+        <item>APSARA MEDICAL	[ 625 ]</item>
         <item>APSARA MEDICAL AND GENERAL STORES	[ 429 ]</item>
         <item>APULSE CARE MEDICAL STORES	[ 3205 ]</item>
         <item>AQDES MEDICAL AND GEN. STORES	[ 584 ]</item>
@@ -187,6 +207,7 @@
         <item>ARIHANT  MEDICAL  AND  GEN  STORES	[ 1063 ]</item>
         <item>ARIHANT CHEMIST AND DRUGGIST	[ 1497 ]</item>
         <item>ARIHANT MEDICAL AND GEN. STORES	[ 541 ]</item>
+        <item>ARIHANT MEDICO	[ 16 ]</item>
         <item>ARIHANT MEDICOS	[ 449 ]</item>
         <item>ARIHANT PHARMA	[ 928 ]</item>
         <item>ARJUN MEDICAL AND GEN. STORES	[ 564 ]</item>
@@ -200,17 +221,22 @@
         <item>ASHA MEDICAL	[ 720 ]</item>
         <item>ASHAPURA  MEDICAL	[ 2535 ]</item>
         <item>ASHAPURA CHEMIST	[ 2119 ]</item>
+        <item>ASHAPURA MEDICAL AND GEN. STORE	[ 592 ]</item>
         <item>ASHAPURA MEDICAL AND GENERAL STOR.	[ 3178 ]</item>
+        <item>ASHAPURA MEDICAL AND GENERAL STORES	[ 2506 ]</item>
         <item>ASHAPURA MEDICAL AND GEN STORES	[ 2163 ]</item>
         <item>ASHIRWAD MEDICAL  STORES	[ 1950 ]</item>
         <item>ASHIRWAD MEDICAL AND GEN. STORES	[ 1453 ]</item>
         <item>ASHIRWAD MEDICAL STORES	[ 18 ]</item>
         <item>ASHISH MEDICALANDGEN STORES	[ 1044 ]</item>
         <item>ASHKA MEDICAL AND GENERAL STORES	[ 2661 ]</item>
+        <item>ASHOK  MEDICAL AND GENERAL  STORES	[ 2014 ]</item>
         <item>ASHOK MEDICAL  AND GEN. STORES	[ 1754 ]</item>
         <item>ASHOK MEDICAL AND GEN STORES	[ 2089 ]</item>
         <item>ASHOK MEDICAL AND GEN. STORES	[ 1490 ]</item>
         <item>ASHOK MEDICAL AND GENERAL STORES	[ 19 ]</item>
+        <item>ASHOK MEDICAL CENTRE	[ 1436 ]</item>
+        <item>ASHOK MEDICAL STORES	[ 3453 ]</item>
         <item>ASHTAVINAYAK MEDICAL	[ 2193 ]</item>
         <item>ASHTAVINAYAK MEDICO	[ 3311 ]</item>
         <item>ASHWINI HOSPITAL AND I.C.C.U.	[ 1594 ]</item>
@@ -220,6 +246,7 @@
         <item>ASIAN CHEMIST	[ 352 ]</item>
         <item>ASIAN INSTITUTE OF MEDICAL SCIENCES	[ 3042 ]</item>
         <item>ASIAN MEDICAL CENTER	[ 684 ]</item>
+        <item>ASMA CHEMIST AND DRUGIST	[ 551 ]</item>
         <item>ASTHA  MEDICAL AND GEN. STORES	[ 961 ]</item>
         <item>ATHARVA CHEMIST	[ 2229 ]</item>
         <item>ATHARVA MEDICAL	[ 2474 ]</item>
@@ -235,6 +262,7 @@
         <item>AYESHA CHEMIST.	[ 3162 ]</item>
         <item>AYESHA MEDICAL AND GEN. STORES	[ 433 ]</item>
         <item>AYUSH CHEMIST	[ 2109 ]</item>
+        <item>AYUSHMAAN MEDICAL AND GENERAL STORES	[ 22 ]</item>
         <item>B.R. CHEMIST	[ 3164 ]</item>
         <item>BABA MEDICO	[ 407 ]</item>
         <item>BALAJI CHEMIST	[ 2914 ]</item>
@@ -243,6 +271,7 @@
         <item>BALAJI MEDICAL AND GENERAL STORES	[ 23 ]</item>
         <item>BALAJI MEDICAL AND GENERAL STORES	[ 24 ]</item>
         <item>BALAJI MEDICAL STORE	[ 3084 ]</item>
+        <item>BALAJI MEDICAL STORE.	[ 3462 ]</item>
         <item>BALAJI MEDICO	[ 919 ]</item>
         <item>BALKRISHNA MED AND GEN ST	[ 2834 ]</item>
         <item>BALKRISHNA MEDICAL AND GENERAL STORES	[ 26 ]</item>
@@ -251,6 +280,7 @@
         <item>BEETLE VENTURES PVT. LTD	[ 3093 ]</item>
         <item>BENZEER MEDICAL STORES	[ 28 ]</item>
         <item>BETHANY HOSP. MED AND GEN. ST	[ 2698 ]</item>
+        <item>BHAGAWATI AND MEDICAL GENERAL STORES	[ 2359 ]</item>
         <item>BHAGAWATI MED AND GEN ST	[ 1714 ]</item>
         <item>BHAGAWATI MED AND GEN ST	[ 2902 ]</item>
         <item>BHAGAWATI MEDICAL AND GEN. STORES	[ 550 ]</item>
@@ -266,6 +296,7 @@
         <item>BHANUSHALI MEDICAL AND GEN. STORES	[ 1271 ]</item>
         <item>BHARAT  CHEMIST	[ 2007 ]</item>
         <item>BHARAT CHEMIST	[ 828 ]</item>
+        <item>BHARAT CHEMIST.	[ 3452 ]</item>
         <item>BHARAT DISTRIBUTORS	[ 1422 ]</item>
         <item>BHARAT MEDICAL AND GEN. STORES	[ 2024 ]</item>
         <item>BHARAT MEDICAL AND GEN. STORES	[ 952 ]</item>
@@ -284,22 +315,31 @@
         <item>BHAVANI MEDICO CORNER AND GEN ST	[ 1085 ]</item>
         <item>BHAVESH MEDICAL AND GEN.STORES	[ 1583 ]</item>
         <item>BHAVESH MEDICAL AND GENERAL STORES	[ 29 ]</item>
+        <item>BHAVESH MEDICO	[ 2046 ]</item>
+        <item>BHAVIK MEDICAL AND GENERAL STORES	[ 30 ]</item>
         <item>BHAVNA MEDICAL AND GEN. STORES	[ 2726 ]</item>
         <item>BHAWANI MEDICAL AND  STORES	[ 31 ]</item>
+        <item>BHAWANI MEDICAL AND  STORES KALWA	[ 1052 ]</item>
         <item>BHAWANI MEDICAL AND GEN STORES	[ 1582 ]</item>
         <item>BHAWANI MEDICAL AND GEN. STORES	[ 397 ]</item>
         <item>BHAWANI MEDICAL AND GEN. STORES	[ 477 ]</item>
         <item>BHAWANI MEDICAL AND GENERAL STORES	[ 2274 ]</item>
+        <item>BHAYANI MEDICAL	[ 1929 ]</item>
         <item>BHIWANDI MEDICAL AND GEN. STORES	[ 1311 ]</item>
         <item>BHUMIKA MEDICAL AND GEN. STORES	[ 2646 ]</item>
         <item>BHUSHAN MEDICAL AND GEN STORES	[ 2995 ]</item>
         <item>BHUSHAN MEDICAL AND GEN STR	[ 2424 ]</item>
         <item>BIJANKUR PHARMACY PVT .LTD	[ 3325 ]</item>
+        <item>BILAL HOSPITAL AND ICU	[ 2131 ]</item>
         <item>BILAL MEDICAL AND GENERAL  STORES	[ 2878 ]</item>
+        <item>BILAL MEDICAL AND GENERAL STORES	[ 408 ]</item>
         <item>BIPIN MEDICAL STORES	[ 32 ]</item>
+        <item>BLACK GOLD HEALTH CARE	[ 400 ]</item>
         <item>BMS MEDICAL	[ 1178 ]</item>
         <item>BODAS SURGICAL AND MATERNITY HOME	[ 1572 ]</item>
+        <item>BOMBAY CITY EYE INSTITUTE	[ 1992 ]</item>
         <item>BOMBAY MEDICAL AND GENERAL STORES	[ 33 ]</item>
+        <item>BRAHMI MEDICAL AND GEN. STORES	[ 562 ]</item>
         <item>BRINDAVAN MEDICAL STORES	[ 34 ]</item>
         <item>BURHANI MEDICAL	[ 3367 ]</item>
         <item>CARE AND CURE MED AND GEN STORES	[ 2924 ]</item>
@@ -316,26 +356,33 @@
         <item>CHAITANYA MED AND GEN ST	[ 2912 ]</item>
         <item>CHAMUNDA MEDICAL AND GENERAL STORES	[ 36 ]</item>
         <item>CHANDA  MEDICAL AND GENERAL STORES	[ 1279 ]</item>
+        <item>CHANDA MEDICAL	[ 841 ]</item>
+        <item>CHANDA MEDICAL AND GEN. STORES	[ 677 ]</item>
         <item>CHANDAN  CHEMIST	[ 2078 ]</item>
         <item>CHANDAN CHEMIST	[ 37 ]</item>
         <item>CHANDAN MEDICAL AND GENERAL SOTRES.	[ 3379 ]</item>
         <item>CHANDRA CHEMIST AND DRUGIST.	[ 3318 ]</item>
         <item>CHANDRA MEDICAL AND GEN. STORES	[ 1523 ]</item>
+        <item>CHARAI CHEMIST.	[ 3442 ]</item>
         <item>CHAUDHARI MEDICAL AND GENERAL STORE	[ 1688 ]</item>
         <item>CHEMIST AND GENERAL STORES	[ 38 ]</item>
         <item>CHESTNUT MEDICALS.	[ 3107 ]</item>
         <item>CHETAN MEDICAL	[ 1475 ]</item>
         <item>CHHAYA MEDICAL AND GEN STR	[ 2531 ]</item>
         <item>CHHEDA CHEMIST	[ 1443 ]</item>
+        <item>CHINTAMANI MED AND GEN ST	[ 2555 ]</item>
         <item>CHIRAG CHEMIST	[ 39 ]</item>
         <item>CHIRANJEEVI MEDI AND GEN ST	[ 1424 ]</item>
+        <item>CHIRANJIVI HOSPITAL	[ 619 ]</item>
         <item>CHIRAYU CHEMIST AND GENERAL STORES	[ 2880 ]</item>
+        <item>CHOUDHARY MED AND GEN ST	[ 3094 ]</item>
         <item>CHOUDHARY MEDICAL AND GEN. STORES	[ 647 ]</item>
         <item>CHOUDHARY MEDICAL AND GEN. STORES	[ 770 ]</item>
         <item>CITIZEN CHEMIST AND GENERAL STORES	[ 2874 ]</item>
         <item>CITIZEN MEDIAL STORE.	[ 3214 ]</item>
         <item>CITIZEN MEDICAL	[ 1400 ]</item>
         <item>CITY CHEMIST.	[ 3349 ]</item>
+        <item>CITY LIFE CHEMIST	[ 2557 ]</item>
         <item>CITY LIFE CHEMIST.	[ 3385 ]</item>
         <item>CITY MEDICAL  GEN. STORES	[ 1315 ]</item>
         <item>CITY MEDICAL STORES	[ 2620 ]</item>
@@ -359,6 +406,7 @@
         <item>DAY AND NIGHT MEDICAL AND GEN STORES	[ 2094 ]</item>
         <item>DE R M ROY	[ 1747 ]</item>
         <item>DEEP MEDICAL	[ 3209 ]</item>
+        <item>DEEP MEDICAL AND GEN.  STORES	[ 2284 ]</item>
         <item>DEEP MEDICAL AND GEN. STORES	[ 1687 ]</item>
         <item>DEEP MEDICAL AND GENERAL STORES	[ 43 ]</item>
         <item>DEEPA MEDICAL AND GENERAL STORES	[ 44 ]</item>
@@ -377,6 +425,9 @@
         <item>DHANVANTARI  MEDICO	[ 1948 ]</item>
         <item>DHANVANTARI CHEMIST	[ 2958 ]</item>
         <item>DHANVANTARI MED AND GEN ST	[ 1509 ]</item>
+        <item>DHANVANTARI MEDICAL	[ 2195 ]</item>
+        <item>DHANVANTARY MEDICAL AND GENERAL STORES	[ 48 ]</item>
+        <item>DHANVANTRI CHEMIST	[ 1203 ]</item>
         <item>DHANVANTRI MEDICO	[ 1232 ]</item>
         <item>DHANVATRI MEDICO	[ 1813 ]</item>
         <item>DHANWANTARI CHEMIST AND DRUGGIST	[ 2238 ]</item>
@@ -386,10 +437,12 @@
         <item>DHEERAJ MEDICAL AND GEN. STORES	[ 2039 ]</item>
         <item>DHIRAJ CHEMIST	[ 49 ]</item>
         <item>DIAMOND CHEM AND GEN ST	[ 1430 ]</item>
+        <item>DIAMOND MEDICAL AND GENERAL STORES	[ 50 ]</item>
         <item>DIGVIJAY  MEDICAL	[ 1106 ]</item>
         <item>DINESH MEDICAL	[ 875 ]</item>
         <item>DINESH MEDICAL AND GENERAL STORES	[ 51 ]</item>
         <item>DIVA MEDICAL AND GEN. STORES	[ 2446 ]</item>
+        <item>DIVA MEDICAL AND GENERAL STORES	[ 1371 ]</item>
         <item>DIVA MEDICAL AND GENERAL STORE	[ 2553 ]</item>
         <item>DIVINE MEDICALS	[ 1238 ]</item>
         <item>DIVYA CHEMIST	[ 3073 ]</item>
@@ -408,6 +461,7 @@
         <item>DR KIRAN ZAWAR	[ 1691 ]</item>
         <item>DR KISHOR  K SHAH	[ 1692 ]</item>
         <item>DR KISHORE JAKHOTIA	[ 1395 ]</item>
+        <item>DR KISHORE LALWANI	[ 517 ]</item>
         <item>DR KSHIRSAGAR NURSING HOME	[ 2114 ]</item>
         <item>DR KUBRA QUERESHI.	[ 595 ]</item>
         <item>DR KURSHID ALAM.	[ 570 ]</item>
@@ -516,6 +570,7 @@
         <item>DR. AJAYAN	[ 1399 ]</item>
         <item>DR. AJIT D. DALVI	[ 1586 ]</item>
         <item>DR. AJIT DALVI	[ 918 ]</item>
+        <item>DR. AJIT G. PRADHAN	[ 694 ]</item>
         <item>DR. AJIT KANBUR	[ 2577 ]</item>
         <item>DR. AJIT PRADHAN	[ 774 ]</item>
         <item>DR. AJIT R. VORA	[ 552 ]</item>
@@ -708,6 +763,7 @@
         <item>DR. M. M. SHAH	[ 2729 ]</item>
         <item>DR. M. SHAH	[ 1016 ]</item>
         <item>DR. M.M. PAWAR	[ 832 ]</item>
+        <item>DR. M.M.RAJE	[ 1137 ]</item>
         <item>DR. MADHURI SAKHARDANDE	[ 2019 ]</item>
         <item>DR. MADHUSUDAN	[ 1678 ]</item>
         <item>DR. MAHAVARKAR HOSPITAL	[ 2070 ]</item>
@@ -715,6 +771,7 @@
         <item>DR. MAHESH BANKAR	[ 1357 ]</item>
         <item>DR. MAHESH BEDEKAR	[ 1669 ]</item>
         <item>DR. MAHESH DOIPHODE	[ 1553 ]</item>
+        <item>DR. MAHESH GOSAVI.	[ 822 ]</item>
         <item>DR. MAHESH LOMBAR.	[ 902 ]</item>
         <item>DR. MAHESH M. JOSHI	[ 1670 ]</item>
         <item>DR. MAHESH THAKAR	[ 749 ]</item>
@@ -939,6 +996,7 @@
         <item>DR. V. GANDHI	[ 1143 ]</item>
         <item>DR. V.P. JOG	[ 1389 ]</item>
         <item>DR. VEDHAS NIMKAR	[ 2291 ]</item>
+        <item>DR. VIDYA SHETY	[ 644 ]</item>
         <item>DR. VIG MEDICAMENTS	[ 52 ]</item>
         <item>DR. VIKRAM SHETTY	[ 1597 ]</item>
         <item>DR. VILAS GAIKWAD	[ 1680 ]</item>
@@ -972,6 +1030,7 @@
         <item>DR.SHOBHANA RAMACHANDRAN	[ 1227 ]</item>
         <item>DR.SONALI S BHOIR	[ 2425 ]</item>
         <item>DR.SUBHASH DUBEY.	[ 688 ]</item>
+        <item>DR.THAKURS SHREE MEDICAL STORES.	[ 3451 ]</item>
         <item>DRUG INSPECTOR FDA SHRI P. M. PATIL	[ 1649 ]</item>
         <item>DURGA MEDICAL AND GEN. STORES	[ 591 ]</item>
         <item>DURGA MEDICO	[ 1491 ]</item>
@@ -984,6 +1043,7 @@
         <item>EXCEL MEDICO	[ 2146 ]</item>
         <item>EZEE CHEMIST	[ 2254 ]</item>
         <item>FAIZAN MEDICAL	[ 2908 ]</item>
+        <item>FALAH CHEMIST	[ 384 ]</item>
         <item>FALAH MEDICAL AND GEN. STORES	[ 2894 ]</item>
         <item>FAMILY MEDICAL AND GENERAL STORE.	[ 3266 ]</item>
         <item>FAMOUS MEDICAL AND GEN STORES	[ 53 ]</item>
@@ -995,6 +1055,7 @@
         <item>FLORA DRUG HOUSE	[ 55 ]</item>
         <item>FOUZAN MEDICALANDGEN STORES	[ 1040 ]</item>
         <item>FRIENDS  MEDICAL	[ 2697 ]</item>
+        <item>FRIENDS  MEDICAL AND GEN STORE	[ 2884 ]</item>
         <item>FRIENDS CHEMIST	[ 2595 ]</item>
         <item>FRIENDS MEDICAL CENTER	[ 1629 ]</item>
         <item>FRIENDS MEDICAL STORES	[ 56 ]</item>
@@ -1002,6 +1063,7 @@
         <item>G.T. MEDICAL	[ 1109 ]</item>
         <item>GAJANAN MED. AND GEN STORES	[ 1407 ]</item>
         <item>GAJANAN MEDICAL AND GEN STORES	[ 1435 ]</item>
+        <item>GAJANAN MEDICAL AND GEN. STORES	[ 480 ]</item>
         <item>GALA CHEMIST	[ 975 ]</item>
         <item>GALA MEDICAL AND GENERAL STORE	[ 59 ]</item>
         <item>GALA MEDICAL AND GENERAL STORES	[ 58 ]</item>
@@ -1020,6 +1082,7 @@
         <item>GANESH MEDICAL AND GEN STORES	[ 62 ]</item>
         <item>GANESH MEDICAL AND GEN. STORES	[ 1055 ]</item>
         <item>GANESH MEDICAL AND GENERAL  STORES	[ 2668 ]</item>
+        <item>GANESH MEDICAL AND GENERAL STORES	[ 487 ]</item>
         <item>GANESH MEDICAL AND GEN. STORES	[ 1286 ]</item>
         <item>GANESH MEDICAL STORE.	[ 3119 ]</item>
         <item>GANESH MEDICO	[ 1444 ]</item>
@@ -1032,6 +1095,7 @@
         <item>GARIB NAWAZ MEDICAL	[ 2036 ]</item>
         <item>GAURAV MEDICAL AND GEN. STORES	[ 65 ]</item>
         <item>GAURAV MEDICAL AND GEN. STORES	[ 856 ]</item>
+        <item>GAURI MEDICAL.	[ 3446 ]</item>
         <item>GAUTAM CHEMIST	[ 1882 ]</item>
         <item>GAUTAM MEDICAL	[ 2445 ]</item>
         <item>GAUTAM MEDICAL AND GEN. STORES	[ 434 ]</item>
@@ -1055,15 +1119,17 @@
         <item>GHANSOLI DRUG HOUSE	[ 1845 ]</item>
         <item>GODAVARI MEDICAL CENTRE	[ 2123 ]</item>
         <item>GODHAVARI MEDICAL AND GENERAL STORES	[ 67 ]</item>
-        <item>GOLDEN CHEMIST	[ 689 ]</item>
         <item>GOLDEN CHEMIST	[ 68 ]</item>
+        <item>GOLDEN CHEMIST	[ 689 ]</item>
         <item>GOLDEN ERA PHARMACY	[ 2194 ]</item>
         <item>GOLDEN MEDICAL AND GEN STORES	[ 2275 ]</item>
+        <item>GOLDEN MEDICAL AND GENERAL STORERS	[ 2264 ]</item>
         <item>GOOD MEDICAL AND GEN. STORES	[ 703 ]</item>
         <item>GRO MEDICAL	[ 1930 ]</item>
         <item>GUARDIAN PHARMACY	[ 2375 ]</item>
         <item>GULZAR MEDICAL AND GEN STORE	[ 2124 ]</item>
         <item>GUNJAN MEDICAL AND GEN STORES	[ 1684 ]</item>
+        <item>GURUDEV MEDICAL AND GEN STORES	[ 2360 ]</item>
         <item>GURUKRIPA HOSPITAL	[ 1341 ]</item>
         <item>GURUKRUPA  CHEMIST	[ 1025 ]</item>
         <item>GURUKRUPA MED. AND GEN STR	[ 2430 ]</item>
@@ -1083,7 +1149,9 @@
         <item>HARI OM  MEDICAL AND GEN. STORE	[ 2328 ]</item>
         <item>HARI OM CHEMIST	[ 71 ]</item>
         <item>HARI OM CHEMIST	[ 800 ]</item>
+        <item>HARI OM CHEMIST.	[ 3469 ]</item>
         <item>HARI OM DISTRIBUTORS	[ 2000 ]</item>
+        <item>HARI OM MEDICAL AND GEN.  STORES	[ 2015 ]</item>
         <item>HARI OM MEDICAL AND GEN. STORE	[ 2004 ]</item>
         <item>HARI OM MEDICAL AND GENERAL STORES	[ 1631 ]</item>
         <item>HARI OM MEDICAL AND GENERAL STORES.	[ 3301 ]</item>
@@ -1094,7 +1162,9 @@
         <item>HARISH CHEMIST	[ 568 ]</item>
         <item>HARISH MEDICAL	[ 72 ]</item>
         <item>HARISH MEDICAL AND GEN. STORES	[ 1499 ]</item>
+        <item>HARISH MEDICAL STORES.	[ 3464 ]</item>
         <item>HARISH MEDICO CENTRE	[ 1454 ]</item>
+        <item>HARISHYAM MEDICAL	[ 648 ]</item>
         <item>HARSHADA MED AND GEN ST	[ 1153 ]</item>
         <item>HARSHADA MEDICAL	[ 2028 ]</item>
         <item>HASHMATI MEDICAL	[ 3063 ]</item>
@@ -1107,9 +1177,11 @@
         <item>HEALTHCARE MEDICAL STORE	[ 3146 ]</item>
         <item>HEART RYTHM HOSPITAL	[ 922 ]</item>
         <item>HEBA MEDICAL AND GEN. STORES	[ 378 ]</item>
+        <item>HEENA CHEMIST	[ 414 ]</item>
         <item>HEENA CHEMIST AND DRUGGIST	[ 96 ]</item>
         <item>HEERA MOGAI HOSPITAL	[ 1117 ]</item>
         <item>HERA MEDICAL AND GEN. STORES	[ 2394 ]</item>
+        <item>HERAMB  TRADERS	[ 1189 ]</item>
         <item>HERAMB MEDICAL	[ 1611 ]</item>
         <item>HERAMB MEDICAL AND GEN. STORES	[ 2389 ]</item>
         <item>HERAMB MEDICAL AND GENERAL STORES	[ 97 ]</item>
@@ -1121,6 +1193,7 @@
         <item>HIRANANDANI HOSPITAL	[ 1878 ]</item>
         <item>HIRANANDANI HOSPITAL POWAI	[ 1966 ]</item>
         <item>HITAKSHI PHARMA	[ 3029 ]</item>
+        <item>HITESH MEDICO	[ 3441 ]</item>
         <item>HOPE MEDICAL	[ 997 ]</item>
         <item>HOPE MEDICAL AND GENERAL STORES	[ 2192 ]</item>
         <item>HUDA MEDICAL AND GEN. STORES	[ 2583 ]</item>
@@ -1133,6 +1206,7 @@
         <item>IMS MEDICARE PVT LTD CHEMIST AND DRUGGIST	[ 2836 ]</item>
         <item>INDIA DRUGS	[ 1868 ]</item>
         <item>INDIA PHARMACY MEDICAL AND GENERAL STORE	[ 2043 ]</item>
+        <item>INDIRA MEDICAL AND GENERAL STORES	[ 508 ]</item>
         <item>INGALE MEDICAL.	[ 3145 ]</item>
         <item>INLAKS  CHEMIST	[ 1147 ]</item>
         <item>IQBAL MEDICAL AND GENERAL STORES	[ 2824 ]</item>
@@ -1140,6 +1214,7 @@
         <item>J J HOSPITAL  DR N N RAMRAJE	[ 1240 ]</item>
         <item>J M HOSPITAL	[ 1342 ]</item>
         <item>J. K. CHEMIST MED AND GEN ST	[ 468 ]</item>
+        <item>J. K. MEDICAL AND GEN. STORES	[ 440 ]</item>
         <item>JACK N JILL MEDICAL STORES	[ 2943 ]</item>
         <item>JAGANNATH MEDICAL STORES	[ 99 ]</item>
         <item>JAGDAMBA MED AND GEN ST	[ 2674 ]</item>
@@ -1179,21 +1254,34 @@
         <item>JAI MATA DI MEDICAL AND GENERAL STORES	[ 103 ]</item>
         <item>JAI MATAJI MEDICAL AND GENERAL STORES	[ 476 ]</item>
         <item>JAI MEDICAL AND GENERAL STORES	[ 104 ]</item>
+        <item>JAI SAINATH MEDICAL AND GEN. STORES	[ 227 ]</item>
+        <item>JAI SANTOSHIMATA MEDICAL AND GENERAL STORES	[ 105 ]</item>
         <item>JAI SANTOSHIMATA MEDICAL STORES	[ 106 ]</item>
         <item>JAI SANTOSHIMATA MEDICO	[ 486 ]</item>
         <item>JAIDEEP MEDICAL AND GEN. STORES	[ 448 ]</item>
         <item>JAISHREE CHEMIST	[ 1225 ]</item>
+        <item>JALARAM MEDICAL STORES	[ 107 ]</item>
         <item>JALARAM MEDICO	[ 1524 ]</item>
         <item>JAN MEDICAL AND GENERAL STORES	[ 3409 ]</item>
+        <item>JANAI MED STORES	[ 1190 ]</item>
+        <item>JANAM HOSPITAL	[ 1852 ]</item>
+        <item>JANARDHAN MEDICAL STORES	[ 469 ]</item>
+        <item>JANATA MEDICAL AND GEN STR	[ 2546 ]</item>
         <item>JANSEVA VIKAS MEDICAL AND GEN STORES	[ 2693 ]</item>
         <item>JANTA MEDICAL AND GEN. STORES	[ 406 ]</item>
+        <item>JANTA MEDICAL AND GEN. STORES	[ 621 ]</item>
+        <item>JANTA MEDICAL AND GENERAL STORES	[ 530 ]</item>
         <item>JANVI MEDICAL AND GENERAL STORES	[ 2323 ]</item>
         <item>JAS PHARMA	[ 1284 ]</item>
         <item>JAY  AMBE MEDICAL STORE	[ 2606 ]</item>
         <item>JAY AMBE MEDICAL AND GENERAL STORES	[ 108 ]</item>
         <item>JAY CHEMIST	[ 109 ]</item>
         <item>JAY DHANAVANTARI CHEMIST	[ 1957 ]</item>
+        <item>JAY GANESH HOSPITAL	[ 842 ]</item>
+        <item>JAY GANESH HOSPITAL	[ 861 ]</item>
         <item>JAY GANESH MEDICAL AND GEN STORES	[ 2794 ]</item>
+        <item>JAY GANESH MEDICAL AND GEN. STORES	[ 422 ]</item>
+        <item>JAY GANESH MEDICAL AND GENERAL STORES	[ 110 ]</item>
         <item>JAY JAGANATH MEDICAL AND GEN. STORES	[ 1501 ]</item>
         <item>JAY TIRUPATI	[ 1029 ]</item>
         <item>JAYASHREE MEDICAL	[ 607 ]</item>
@@ -1214,6 +1302,7 @@
         <item>JEEVAN SEEMA CHEMISTS	[ 2762 ]</item>
         <item>JEEVANDEEP HOSPITAL	[ 1662 ]</item>
         <item>JEEVANDEEP MEDICAL AND GEN. STORES	[ 2377 ]</item>
+        <item>JEEVANDEEP MEDICAL AND GENERAL STORES	[ 113 ]</item>
         <item>JEEVDANI MEDICAL AND GEN. STORES	[ 2819 ]</item>
         <item>JENMAX MEDICAL AND GENERAL STORES	[ 114 ]</item>
         <item>JEVAN  REKHA  MEDICAL	[ 1070 ]</item>
@@ -1221,14 +1310,19 @@
         <item>JOY HOSPITAL MEDICAL	[ 1488 ]</item>
         <item>JOY MEDICO AND GENERAL STORES	[ 2723 ]</item>
         <item>JUILEE MEDICAL STORE	[ 934 ]</item>
+        <item>JUPITER LIFELINE HOSPITAL LTD. PHARMACY	[ 2023 ]</item>
         <item>JUPITER PHARMACY	[ 2081 ]</item>
         <item>JUPITER SALES	[ 3332 ]</item>
         <item>JYOTI  MEDICAL AND GEN. STORES	[ 1294 ]</item>
         <item>JYOTI  MEDICAL AND. GENERAL STORES	[ 2439 ]</item>
+        <item>JYOTI MEDICAL	[ 1734 ]</item>
         <item>JYOTI MEDICAL AND GENERAL STORE.	[ 3312 ]</item>
+        <item>JYOTI MEDICAL AND GENERAL STORES	[ 1267 ]</item>
+        <item>JYOTI MEDICAL ANDGEN. STORE	[ 1337 ]</item>
         <item>JYOTI MEDICAL AND GEN STRS	[ 2987 ]</item>
         <item>JYOTI MEDICAL AND GENERAL STORES	[ 2740 ]</item>
         <item>JYOTIRLING MEDICAL	[ 1108 ]</item>
+        <item>KABEER MEDICAL	[ 3426 ]</item>
         <item>KAILASH MEDICAL  AND GEN, STORES	[ 1847 ]</item>
         <item>KAILASH MEDICAL AND GEN STORES	[ 2717 ]</item>
         <item>KAILASH MEDICAL AND GENERAL STORES	[ 117 ]</item>
@@ -1240,10 +1334,13 @@
         <item>KALHER MEDICAL AND GENERAL STORES	[ 2493 ]</item>
         <item>KALPANA MEDICAL AND GEN. STORES	[ 2628 ]</item>
         <item>KALPANA MEDICAL STORES	[ 118 ]</item>
+        <item>KALPANA PHARMACY AND GEN. STORES	[ 2382 ]</item>
         <item>KALPATARU MEDICAL STORES	[ 3407 ]</item>
         <item>KALPESH MEDICAL	[ 119 ]</item>
         <item>KALSEKAR HOSPITAL MEDICAL STORE	[ 2507 ]</item>
         <item>KALWA MEDICAL AND GEN. STORES	[ 421 ]</item>
+        <item>KALWA SUPER MARKET MEDICAL AND GEN. STORES	[ 554 ]</item>
+        <item>KALWA SUPER MARKET MEDICAL AND PVT. LMT.	[ 2065 ]</item>
         <item>KAMAL CHEMIST AND DRUGGIST.	[ 3130 ]</item>
         <item>KAMAL CHEMIST MED AND GEN. ST	[ 617 ]</item>
         <item>KAMAL DEEP MEDICAL AND GENERAL STORES	[ 121 ]</item>
@@ -1255,6 +1352,7 @@
         <item>KAMAL MEDICAL AND GENERAL STORES	[ 120 ]</item>
         <item>KAMAL MEDICAL AND GENERAL STORES	[ 122 ]</item>
         <item>KAMAL MEDICAL AND GENERAL STORES	[ 123 ]</item>
+        <item>KAMAL MEDICAL AND GENERAL STORES.	[ 3470 ]</item>
         <item>KAMAL MEDICAL AND GENERAL STORES	[ 2464 ]</item>
         <item>KAMAL MEDICAL STORES	[ 2318 ]</item>
         <item>KAMAL MEDICAL STORES.	[ 3283 ]</item>
@@ -1277,6 +1375,7 @@
         <item>KARTAVYA CHEMIST AND DRUGGIST	[ 2820 ]</item>
         <item>KASHALKAR HOSPITAL MEDICAL STORE	[ 2505 ]</item>
         <item>KASTURI MEDICAL AND GEN. STORES	[ 1350 ]</item>
+        <item>KAUSA MEDICAL AND GEN. STORES	[ 393 ]</item>
         <item>KAUSA SUPER BAZAR AND MEDICAL STORE	[ 2778 ]</item>
         <item>KAUSHALYA MEDICAL	[ 493 ]</item>
         <item>KAUSHALYA MEDICAL AND GENERAL STORES	[ 1474 ]</item>
@@ -1287,6 +1386,7 @@
         <item>KAYSONS DISTRIBUTORS	[ 2657 ]</item>
         <item>KEDAR MEDICAL	[ 991 ]</item>
         <item>KEDAR MEDICAL AND GENERAL STORES.	[ 3303 ]</item>
+        <item>KEDAR MEDICAL AND GENERAL STORES	[ 3200 ]</item>
         <item>KEN-STAR MEDICAL AND GENERAL STORES	[ 128 ]</item>
         <item>KENORA CHEMIST	[ 2927 ]</item>
         <item>KESARI MEDICAL AND GENERAL STORES	[ 129 ]</item>
@@ -1313,6 +1413,7 @@
         <item>KOMAL MEDICAL AND GEN STORES	[ 2431 ]</item>
         <item>KOMAL MEDICAL AND GENERAL STORE	[ 2935 ]</item>
         <item>KOPAR MEDICAL AND GENERAL STORES	[ 2672 ]</item>
+        <item>KOPRI MEDICAL AND GEN. STORES	[ 2190 ]</item>
         <item>KRISH MEDICAL AND GEN.STORES	[ 2084 ]</item>
         <item>KRISH PHARMA	[ 1941 ]</item>
         <item>KRISHA CHEMIST	[ 3012 ]</item>
@@ -1324,10 +1425,12 @@
         <item>KRISHNA MEDICAL	[ 2896 ]</item>
         <item>KRISHNA MEDICAL	[ 2985 ]</item>
         <item>KRISHNA MEDICAL  AND GENERAL STORES	[ 2366 ]</item>
+        <item>KRISHNA MEDICAL AND GEN ST	[ 2699 ]</item>
         <item>KRISHNA MEDICAL AND GEN STORES	[ 1569 ]</item>
         <item>KRISHNA MEDICAL AND GEN. STORES	[ 1017 ]</item>
         <item>KRISHNA MEDICAL AND GENERAL STORES	[ 134 ]</item>
         <item>KRISHNA MEDICAL AND GENERAL STORES	[ 136 ]</item>
+        <item>KRISHNA MEDICAL AND SUPER MARKET	[ 1326 ]</item>
         <item>KRISHNA MEDICAL AND  GENERAL STORES	[ 1587 ]</item>
         <item>KRISHNA MEDICAL AND GENERAL STORES	[ 1550 ]</item>
         <item>KRISHNA MEDICAL CHEM AND DRUG	[ 3033 ]</item>
@@ -1335,6 +1438,7 @@
         <item>KRISHNA MEDICAL.	[ 3192 ]</item>
         <item>KRISHNA MEDICO	[ 138 ]</item>
         <item>KRISHNA MEDICO CHEMIST AND DRUGGIST	[ 139 ]</item>
+        <item>KRISHNA MEIDCAL AND GEN. STORES	[ 3433 ]</item>
         <item>KRISHNAROOP RAJAT MEDICAL AND GEN STORES	[ 2700 ]</item>
         <item>KRONY LABS	[ 2012 ]</item>
         <item>KRUPA CHEMIST MEDICAL AND GEN. STORES	[ 807 ]</item>
@@ -1364,8 +1468,10 @@
         <item>LAXMI MEDICAL AND GENERAL STORES.	[ 3258 ]</item>
         <item>LAXMI MEDICAL CENTER	[ 1951 ]</item>
         <item>LAXMI MEDICAL STORE	[ 2347 ]</item>
+        <item>LAXMI MEDICAL STORE .	[ 3437 ]</item>
         <item>LAXMI MEDICAL STORES	[ 1953 ]</item>
         <item>LAXMI MEDICAL.	[ 3181 ]</item>
+        <item>LAXMI MEDICO	[ 3460 ]</item>
         <item>LAXMI PHARMACY	[ 2183 ]</item>
         <item>LEKHA  MEDICAL	[ 1257 ]</item>
         <item>LIBERTY CHEMISTS	[ 1460 ]</item>
@@ -1385,7 +1491,11 @@
         <item>LIFE-LINE MED AND GEN STORE	[ 1366 ]</item>
         <item>LIFE-LINE MEDICAL AND GENERAL STORES	[ 549 ]</item>
         <item>LIFECARE HOSPITAL	[ 1997 ]</item>
+        <item>LIFECARE MEDICAL  AND GENERAL STORES	[ 1247 ]</item>
         <item>LIFECARE MEDICAL AND  GEN. STORE	[ 1635 ]</item>
+        <item>LIFECARE MEDICAL AND GEN. STORES	[ 540 ]</item>
+        <item>LIFECARE MEDICAL AND GENERAL STORES	[ 499 ]</item>
+        <item>LIFECARE MEDICAL STORES	[ 3440 ]</item>
         <item>LIFECARE PHARAMACY AND GENERAL STORES	[ 2685 ]</item>
         <item>LIFELINE CHEMIST	[ 2149 ]</item>
         <item>LIFELINE HOSPITAL	[ 1761 ]</item>
@@ -1417,7 +1527,6 @@
         <item>M/S SHANTI MEDICAL AND GEN. STORES	[ 620 ]</item>
         <item>M/S SIDDHIVINAYAK MEDICAL AND GEN. STORES	[ 805 ]</item>
         <item>M/S SWAMI SAMARTH CHEMIST	[ 815 ]</item>
-        <item>M/S VARAD MEDICAL AND GENERAL STORES.	[ 3340 ]</item>
         <item>M/S YASHAWENT MEDICAL AND GEN. STORES	[ 2598 ]</item>
         <item>M/S, M. K. MEDICAL SERVICES	[ 146 ]</item>
         <item>M/S. ADITYA MEDICAL AND GEN. STORES	[ 1283 ]</item>
@@ -1433,6 +1542,7 @@
         <item>M/S. NEW PLAZA MEDICAL STORES CHEMIST	[ 798 ]</item>
         <item>M/S. NEW PRAKASH CHEMIST AND DRUGGIST	[ 655 ]</item>
         <item>M/S. NOOR MEDICAL AND GEN. STORE	[ 1645 ]</item>
+        <item>M/S. PATIL MEDICAL AND GENERAL STORES	[ 512 ]</item>
         <item>M/S. PRABHAKAR MEDICAL ?ANDGEN. STORES	[ 1487 ]</item>
         <item>M/S. PRACHI MEDICAL AND GEN. STORES	[ 2025 ]</item>
         <item>M/S. PRATHAMESH MEDICAL AND GEN. STORES	[ 1072 ]</item>
@@ -1457,6 +1567,7 @@
         <item>MAA MEDICAL AND GEN. STORES	[ 2072 ]</item>
         <item>MAA SANTOSHI MEDICAL AND GENERAL STORES	[ 2558 ]</item>
         <item>MAA SATI MEDICAL AND GENERAL STORES	[ 2210 ]</item>
+        <item>MAA SUBHADRA MEDICAL AND GENERAL STORE	[ 504 ]</item>
         <item>MAA VAISHNAVI MEDICAL STORE.	[ 3322 ]</item>
         <item>MAAHESHVARI MEDICAL AND GEN. STORE.	[ 3406 ]</item>
         <item>MACCA MEDICAL	[ 605 ]</item>
@@ -1474,22 +1585,24 @@
         <item>MAHADEV CHEMIST.	[ 3241 ]</item>
         <item>MAHADEV MEDICAL  AND GENERAL STORES	[ 2467 ]</item>
         <item>MAHADEV MEDICAL AND  GEN. STORES	[ 1819 ]</item>
-        <item>MAHADEV MEDICAL AND GEN STORES	[ 2604 ]</item>
         <item>MAHADEV MEDICAL AND GEN. STORES	[ 537 ]</item>
         <item>MAHADEV MEDICAL AND GENERAL STORES	[ 150 ]</item>
         <item>MAHADEV MEDICAL AND GENERAL STORES	[ 151 ]</item>
         <item>MAHADEV MEDICAL AGENCY	[ 2767 ]</item>
         <item>MAHADEV MEDICAL STORES	[ 2947 ]</item>
         <item>MAHADEV MEDICAL STORES.	[ 3207 ]</item>
+        <item>MAHADEV MEDICAL.	[ 2604 ]</item>
         <item>MAHADEV MEDICAL.	[ 3414 ]</item>
         <item>MAHAJAN MEDICAL AND GEN. STORE	[ 1223 ]</item>
         <item>MAHAJAN MEDICAL CENTRE	[ 1319 ]</item>
+        <item>MAHALAXMI  MEDICAL AND GEN. STORES	[ 2361 ]</item>
         <item>MAHALAXMI CHEMIST	[ 2826 ]</item>
         <item>MAHALAXMI CHEMIST AND GENERAL STORES.	[ 3310 ]</item>
         <item>MAHALAXMI MED. AND GEN. STORES	[ 3026 ]</item>
         <item>MAHALAXMI MEDICAL  AND  GEN STORES	[ 2931 ]</item>
         <item>MAHALAXMI MEDICAL  AND GENERAL STORES	[ 1720 ]</item>
         <item>MAHALAXMI MEDICAL  ANDGEN. STORES	[ 1428 ]</item>
+        <item>MAHALAXMI MEDICAL AND  GEN. STORES	[ 1911 ]</item>
         <item>MAHALAXMI MEDICAL AND GEN STORES	[ 2601 ]</item>
         <item>MAHALAXMI MEDICAL AND GEN. STORES	[ 1527 ]</item>
         <item>MAHALAXMI MEDICAL AND GEN. STORES	[ 806 ]</item>
@@ -1500,6 +1613,7 @@
         <item>MAHALAXMI MEDICO	[ 366 ]</item>
         <item>MAHAN MEDICAL	[ 992 ]</item>
         <item>MAHARAJA MEDI AND GEN ST	[ 2462 ]</item>
+        <item>MAHARAJA MEDICAL STORES	[ 3449 ]</item>
         <item>MAHARASHTRA CHEMIST AND DRUGGIST	[ 2811 ]</item>
         <item>MAHARASHTRA MEDICAL	[ 365 ]</item>
         <item>MAHARASHTRA MEDICAL  AND GENERAL STORES	[ 2269 ]</item>
@@ -1507,6 +1621,7 @@
         <item>MAHARASHTRA MEDICAL AND  GEN. STORES	[ 2211 ]</item>
         <item>MAHARASHTRA MEDICAL AND  GENERAL STORES	[ 2718 ]</item>
         <item>MAHARASHTRA MEDICAL AND GEN STORES	[ 1756 ]</item>
+        <item>MAHARASHTRA MEDICAL AND GEN. STORES	[ 622 ]</item>
         <item>MAHARASHTRA MEDICAL AND GEN. STORES	[ 765 ]</item>
         <item>MAHARASHTRA MEDICAL AND GENERAL  STORES	[ 2876 ]</item>
         <item>MAHARASHTRA MEDICAL AND GENERAL STORE	[ 2491 ]</item>
@@ -1524,6 +1639,8 @@
         <item>MAHAVEER MEDICAL STORES	[ 158 ]</item>
         <item>MAHAVIR  CHEMIST	[ 1440 ]</item>
         <item>MAHAVIR CHEM AND GEN ST	[ 2766 ]</item>
+        <item>MAHAVIR CHEMIST	[ 147 ]</item>
+        <item>MAHAVIR CHEMISTS	[ 516 ]</item>
         <item>MAHAVIR MEDICAL AND  GEN. STORES	[ 2054 ]</item>
         <item>MAHAVIR MEDICAL AND GEN. STORES	[ 2586 ]</item>
         <item>MAHAVIR MEDICAL AND GENERAL STORES	[ 159 ]</item>
@@ -1539,6 +1656,7 @@
         <item>MAHUR MEDICAL ANDGENERAL STORES	[ 2982 ]</item>
         <item>MAI MEDICAL AND GENERAL STORE	[ 1176 ]</item>
         <item>MAJISA CHEMIST AND GENERAL STORES	[ 2518 ]</item>
+        <item>MAJIWADA MEDICAL AND GEN. STORES	[ 432 ]</item>
         <item>MAJIWADA MEDICAL AND GENERAL STORES	[ 162 ]</item>
         <item>MAKARAND MEDICAL AND GEN STORES	[ 1713 ]</item>
         <item>MAKHDOOM PHARMACY MEDICAL AND GEN. STORES	[ 2346 ]</item>
@@ -1546,6 +1664,7 @@
         <item>MALIK MEDICAL AND GENERAL STORES.	[ 3224 ]</item>
         <item>MAMAJIS CONVENIENCE STORES	[ 3404 ]</item>
         <item>MAMTA   MEDICAL	[ 1086 ]</item>
+        <item>MAMTA MEDICAL	[ 372 ]</item>
         <item>MAMTA MEDICAL AND GEN STR.	[ 2998 ]</item>
         <item>MAMTA MEDICAL AND GENERAL STORES	[ 163 ]</item>
         <item>MAMTA MEDICAL STORES	[ 1946 ]</item>
@@ -1559,8 +1678,10 @@
         <item>MANASI MEDICAL AND GENERAL STORES	[ 2383 ]</item>
         <item>MANASI MEDICAL AND GENERAL STORES	[ 2031 ]</item>
         <item>MANASVI MEDICAL AND GENERAL STORES	[ 2497 ]</item>
+        <item>MANAV CHEMIST AND GEN. STORES	[ 538 ]</item>
         <item>MANAV KALYAN KENDRA	[ 1480 ]</item>
         <item>MANAVSAVA MEDICAL AND GENERAL STORES	[ 1785 ]</item>
+        <item>MANGAL DEEP MEDICAL AND GEN. STORES	[ 472 ]</item>
         <item>MANGAL MEDICAL AND GEN. STORES	[ 1469 ]</item>
         <item>MANGAL MEDICAL AND GENERAL STORE	[ 682 ]</item>
         <item>MANGALA CHARAM MEDICAL	[ 2552 ]</item>
@@ -1569,14 +1690,17 @@
         <item>MANIBHADRA CHEMIST	[ 1336 ]</item>
         <item>MANISH MEDICAL STORE	[ 2283 ]</item>
         <item>MANISHA MEDICAL AND GEN. STORES	[ 958 ]</item>
+        <item>MANISHA MEDICAL AND GENERAL STORES	[ 167 ]</item>
         <item>MANISHA MEDICAL STORES.	[ 3122 ]</item>
         <item>MANISHA NURSING HOME	[ 1204 ]</item>
         <item>MANJEET MEDICALS	[ 168 ]</item>
         <item>MANJEET MEDICOS	[ 503 ]</item>
+        <item>MANJU MEDICAL AND GENERAL STORES	[ 169 ]</item>
         <item>MANNAT MEDICAL AND GENERAL STORES	[ 2408 ]</item>
         <item>MANOHAR MEDICAL AND GEN. STORES	[ 324 ]</item>
         <item>MANOJ  MEDICAL AND GEN STORES	[ 1134 ]</item>
         <item>MANOJ  MEDICO	[ 2404 ]</item>
+        <item>MANOJ DALWANI TRUST.	[ 649 ]</item>
         <item>MANOJ MEDICOS	[ 1905 ]</item>
         <item>MANORAMA MEDICAL	[ 2187 ]</item>
         <item>MANPADA MEDICAL AND GENERAL STORES	[ 325 ]</item>
@@ -1592,6 +1716,7 @@
         <item>MARUTI MEDICAL AND  GEN. STORES	[ 1080 ]</item>
         <item>MARUTI MEDICAL AND GEN. STORES	[ 465 ]</item>
         <item>MARUTI MEDICAL AND GENERAL STORES.	[ 3247 ]</item>
+        <item>MARUTI MEDICAL AND GEN STORES	[ 2151 ]</item>
         <item>MARUTI MEDICAL STORES	[ 1529 ]</item>
         <item>MARUTI MEDICO.	[ 3113 ]</item>
         <item>MARUTI MEDICOS	[ 328 ]</item>
@@ -1615,6 +1740,8 @@
         <item>MATUSHRI VIMLABEN LALJI CHHEDA CHARITABLE HOSPITAL	[ 1196 ]</item>
         <item>MAULI MEDICAL AND  GEN. STORES	[ 1441 ]</item>
         <item>MAULI MEDICAL AND GEN STORES	[ 876 ]</item>
+        <item>MAULI MEDICAL AND GEN. STORES	[ 491 ]</item>
+        <item>MAULI MEDICAL AND GEN. STORES	[ 979 ]</item>
         <item>MAULI MEDICAL AND GENERAL STORES	[ 330 ]</item>
         <item>MAULI MEDICAL AND GEN. STORES	[ 2634 ]</item>
         <item>MAVIS MEDICAL AND GENERAL STORES	[ 331 ]</item>
@@ -1649,13 +1776,15 @@
         <item>MEERA MEDICAL AND GENERAL STORES	[ 2867 ]</item>
         <item>MEERA MEDICAL STORES	[ 1573 ]</item>
         <item>MEGA CHEMIST	[ 2547 ]</item>
+        <item>MEGHA CHEMIST AND GEN. STORES	[ 463 ]</item>
         <item>MEHBOOB MEDICAL AND GEN. STORE	[ 1652 ]</item>
         <item>MEHER MEDICAL	[ 692 ]</item>
+        <item>MEHTA MEDICAL AND GEN. STORES	[ 357 ]</item>
         <item>MEHTA MEDICO	[ 334 ]</item>
         <item>MEHUL MEDICO	[ 2447 ]</item>
+        <item>MEMON MEDICAL AND GENERAL STORES	[ 335 ]</item>
         <item>METRO   CHEMIST	[ 2780 ]</item>
         <item>METRO  CHEMIST	[ 1925 ]</item>
-        <item>METRO  MEDICAL	[ 2319 ]</item>
         <item>METRO CHEMIST	[ 350 ]</item>
         <item>METRO CHEMIST	[ 608 ]</item>
         <item>METRO CHEMIST	[ 945 ]</item>
@@ -1674,6 +1803,7 @@
         <item>METRO MEDICAL.	[ 3151 ]</item>
         <item>METRO MEDICAL..	[ 3418 ]</item>
         <item>METRO MEDICOS	[ 2852 ]</item>
+        <item>MHATRE MEDICAL AND GENERAL STORES	[ 3457 ]</item>
         <item>MICRO MEDICAL AND GEN. STORES	[ 1071 ]</item>
         <item>MICROMASTER  LAB PVT LTD	[ 1624 ]</item>
         <item>MILAN  MEDICAL  AND  GENERAL  STORES	[ 2798 ]</item>
@@ -1706,6 +1836,7 @@
         <item>MOON  MEDICAL AND GENERAL STORE	[ 1104 ]</item>
         <item>MORAYA  MEDICAL STORES	[ 2950 ]</item>
         <item>MORAYA MEDICAL	[ 2285 ]</item>
+        <item>MORE MEDICAL STORES	[ 3438 ]</item>
         <item>MORESHWAR MEDICAL AND GENERAL STORES	[ 3337 ]</item>
         <item>MORESHWARI MEDICAL	[ 700 ]</item>
         <item>MORYA MEDICAL AND GENERAL STORES	[ 2316 ]</item>
@@ -1730,10 +1861,14 @@
         <item>MY CHOUDHARY MEDICAL AND GENERAL STORE.	[ 3262 ]</item>
         <item>M\S SHREE SAMARTH AND GEN STORES	[ 2712 ]</item>
         <item>N B PHARMACY	[ 2239 ]</item>
+        <item>N. K. PHARMA	[ 542 ]</item>
         <item>N.K.MEDICAL	[ 3299 ]</item>
+        <item>NABEEL MEDICAL AND GEN. STORES	[ 641 ]</item>
         <item>NADHUS MEDICAL	[ 3280 ]</item>
         <item>NAGESHWAR MEDICAL STORES	[ 1154 ]</item>
         <item>NAHAR CHEMIST MEDICAL AND GEN. STORE.	[ 3175 ]</item>
+        <item>NAK MEDICAL AND GEN. STORES	[ 368 ]</item>
+        <item>NAKODA  MEDICAL AND GEN. STORES	[ 1269 ]</item>
         <item>NAKODA ENTERPRISES	[ 2409 ]</item>
         <item>NAKODA MEDICAL AND GENERAL STORES	[ 90 ]</item>
         <item>NAMASKAR MEDICAL AND GEN. STORES	[ 1324 ]</item>
@@ -1748,7 +1883,9 @@
         <item>NATIONAL MEDICAL  AND GEN STORES	[ 1308 ]</item>
         <item>NATIONAL MEDICAL  AND GENERAL STORES	[ 1365 ]</item>
         <item>NATIONAL MEDICAL  AND GENGERAL STORES	[ 2492 ]</item>
+        <item>NATIONAL MEDICAL AND GEN STORES	[ 2573 ]</item>
         <item>NATIONAL MEDICAL AND GENERAL STORES	[ 92 ]</item>
+        <item>NATIONAL MEDICO.	[ 3436 ]</item>
         <item>NATRAJ  MEDICAL AND GENERAL STORES	[ 2838 ]</item>
         <item>NATRAJ MEDICAL AND GEN. STORES	[ 1875 ]</item>
         <item>NATRAJ SUPER MARKET MEDICAL AND GEN STR.	[ 1265 ]</item>
@@ -1767,11 +1904,14 @@
         <item>NEELKANTH MEDICAL	[ 1299 ]</item>
         <item>NEHA CHEMIST AND GEN STORES	[ 2320 ]</item>
         <item>NEHA MEDICAL	[ 73 ]</item>
+        <item>NEHA MEDICAL AND GENERAL STORES	[ 519 ]</item>
         <item>NEST MEDICAL STORES	[ 74 ]</item>
         <item>NEW   LIFE   CHEMIST	[ 1093 ]</item>
+        <item>NEW  STAR MEDICAL	[ 2412 ]</item>
         <item>NEW AADESH MEDICAL STORE	[ 2974 ]</item>
         <item>NEW ADARSHA CHEMIST AND DRUGGIST	[ 2093 ]</item>
         <item>NEW ADESH MEDICO	[ 4 ]</item>
+        <item>NEW ANAS MEDICAL STORES	[ 3435 ]</item>
         <item>NEW ANMOL MEDICAL STORES.	[ 3255 ]</item>
         <item>NEW ARIHANT MEDICAL AND GEN. STORE	[ 2511 ]</item>
         <item>NEW ASMA CHEMIST	[ 1601 ]</item>
@@ -1797,6 +1937,7 @@
         <item>NEW MAHADEV MEDICAL AND GENERAL STORES.	[ 3208 ]</item>
         <item>NEW MAHARASHTRA MEDICAL AND GENERAL STORES.	[ 3329 ]</item>
         <item>NEW MAHAVIR CHEMIST	[ 2074 ]</item>
+        <item>NEW MAHAVIR MEDICAL AND GENERAL STORES .	[ 579 ]</item>
         <item>NEW MAMTA MEDICAL	[ 76 ]</item>
         <item>NEW MAMTA MEDICAL AND GENERAL STORES	[ 1314 ]</item>
         <item>NEW MARUTI MEDICOS	[ 2618 ]</item>
@@ -1804,6 +1945,8 @@
         <item>NEW MEDICINE CORNER	[ 2866 ]</item>
         <item>NEW MEGA CHEMIST	[ 3420 ]</item>
         <item>NEW MEGHA CHEMIST AND GENERAL STORES	[ 2102 ]</item>
+        <item>NEW MEHBOOB MEDICO	[ 3443 ]</item>
+        <item>NEW METRO  MEDICAL STORES	[ 2319 ]</item>
         <item>NEW METRO CHEMIST	[ 3300 ]</item>
         <item>NEW METRO MEDICAL STORE.	[ 3415 ]</item>
         <item>NEW MODERN CHEMIST	[ 1703 ]</item>
@@ -1814,6 +1957,7 @@
         <item>NEW NATIONAL MED AND GEN. STORES	[ 1179 ]</item>
         <item>NEW NATIONAL MEDICAL AND GEN. STORES	[ 478 ]</item>
         <item>NEW OM MEDICAL STORES	[ 3052 ]</item>
+        <item>NEW OM SAI MEDICAL STORES	[ 3448 ]</item>
         <item>NEW OMKAR MEDICAL	[ 2138 ]</item>
         <item>NEW ORTHONOVA MEDICAL	[ 1406 ]</item>
         <item>NEW PAREKH MEDICAL STORES	[ 77 ]</item>
@@ -1846,6 +1990,7 @@
         <item>NEW STAR MEDICALS.	[ 2243 ]</item>
         <item>NEW SWASTIK HOSPITAL CHEMIST	[ 2452 ]</item>
         <item>NEW VIMAL MEDICAL AND GENERAL STORES	[ 2635 ]</item>
+        <item>NEW VINAYAK MEDICAL AND GEN. STORES	[ 529 ]</item>
         <item>NEW YAMAIMATA MEDICAL STORES	[ 2966 ]</item>
         <item>NEW YASH MEDICAL AND GEN. STORES	[ 1654 ]</item>
         <item>NEW YASH MEDICAL.	[ 3243 ]</item>
@@ -1855,6 +2000,7 @@
         <item>NICE CHEMIST AND GEN STORES	[ 2756 ]</item>
         <item>NICE CHEMIST.	[ 3313 ]</item>
         <item>NIDA MEDICAL AND GEN. STORES	[ 1744 ]</item>
+        <item>NIDAAN MEDICAL AND GENERAL STORES	[ 520 ]</item>
         <item>NIDHI CHEMIST	[ 2744 ]</item>
         <item>NIHAR  MEDICAL AND GEN STORES	[ 2127 ]</item>
         <item>NIL MEDICO	[ 2813 ]</item>
@@ -1862,12 +2008,14 @@
         <item>NILESH MEDICAL AND GENERAL STORES	[ 79 ]</item>
         <item>NILESH MEDICAL CENTRE	[ 2978 ]</item>
         <item>NILKANTH CHEMIST.	[ 3274 ]</item>
+        <item>NIPUN CHEMIST	[ 3458 ]</item>
         <item>NIRAJ MEDICAL AND GEN STORES	[ 1261 ]</item>
         <item>NIRAMAY NIKETAN	[ 1617 ]</item>
         <item>NIRANJAN MEDICAL AND GEN. STORE	[ 985 ]</item>
         <item>NIRANJAY CHEMIST	[ 80 ]</item>
         <item>NIRMAL MEDICAL	[ 1120 ]</item>
         <item>NIRMAL MEDICAL AND GENERAL STORES	[ 2107 ]</item>
+        <item>NIRVI MEDICAL	[ 3445 ]</item>
         <item>NISHANT MEDICAL GEN. STORES	[ 2411 ]</item>
         <item>NITAY MEDICAL AND GENERAL STORES	[ 81 ]</item>
         <item>NITIN CHEMISTAND GEN STORES	[ 1325 ]</item>
@@ -1880,6 +2028,8 @@
         <item>NOBLE CHEMISTS	[ 2909 ]</item>
         <item>NOBLE PLUS(UNIT OF NOBLE MEDICHEM)	[ 3248 ]</item>
         <item>NOOR CHEMIST ANDGENERAL STORES	[ 2251 ]</item>
+        <item>NOOR MEDICAL	[ 726 ]</item>
+        <item>NOOR MEDICAL AND GENERAL STORES	[ 2207 ]</item>
         <item>NOOR MEDICAL CHEMIST AND GENERAL STORE	[ 3326 ]</item>
         <item>NOOR MEDICO.	[ 3231 ]</item>
         <item>NOORANI MEDICAL AND GENERAL STORES	[ 2901 ]</item>
@@ -1890,11 +2040,14 @@
         <item>NUCLEUS MEDICALS	[ 2748 ]</item>
         <item>NULIFE CHEMIST	[ 1264 ]</item>
         <item>NULIFE MEDICAL	[ 1896 ]</item>
+        <item>O K MEDICAL AND GENERAL STORES	[ 349 ]</item>
         <item>OHM SAI MEDICAL AND GENERAL STORES	[ 82 ]</item>
+        <item>OM  MEDICAL AND GEN STORES	[ 3056 ]</item>
         <item>OM ANNAPURNA MEDICAL AND GEN. STORE	[ 2379 ]</item>
         <item>OM CHEMIST AND DRUGGIST	[ 2276 ]</item>
         <item>OM CHEMIST MEDICAL AND GENERAL STORES	[ 83 ]</item>
         <item>OM GANESH MEDICALAND GEN STORES	[ 1759 ]</item>
+        <item>OM JOTIRLING MEDICAL AND GENERAL STORES	[ 482 ]</item>
         <item>OM MAHAVEER MEDICAK STORES	[ 1280 ]</item>
         <item>OM MEDICAL  STORE	[ 1967 ]</item>
         <item>OM MEDICAL AND GEN  STORES	[ 2671 ]</item>
@@ -1904,6 +2057,7 @@
         <item>OM MEDICAL AND GEN. STORES	[ 816 ]</item>
         <item>OM MEDICAL AND GEN.STORES	[ 1169 ]</item>
         <item>OM MEDICAL AND GENERAL  STORES	[ 1755 ]</item>
+        <item>OM MEDICAL AND GENERAL STORES	[ 170 ]</item>
         <item>OM MEDICAL STORE	[ 171 ]</item>
         <item>OM MEDICO	[ 172 ]</item>
         <item>OM MEDICO CHEMIST AND DRUUGIST	[ 1924 ]</item>
@@ -1913,11 +2067,17 @@
         <item>OM SAI BABA MEDICAL AND GENERAL STORES	[ 3331 ]</item>
         <item>OM SAI CHEMIST	[ 2154 ]</item>
         <item>OM SAI CHEMIST AND GENERAL STORES	[ 2868 ]</item>
+        <item>OM SAI ENTERPRISES CHEMIST AND DRUGISTS	[ 1195 ]</item>
         <item>OM SAI MED. AND GEN STR	[ 2422 ]</item>
+        <item>OM SAI MEDICAL AND  GEN.  STORES	[ 1944 ]</item>
+        <item>OM SAI MEDICAL AND  GEN. STORES	[ 1740 ]</item>
         <item>OM SAI MEDICAL AND GEN STORES	[ 2642 ]</item>
         <item>OM SAI MEDICAL AND GEN STORES	[ 2815 ]</item>
+        <item>OM SAI MEDICAL AND GEN. STORES	[ 431 ]</item>
         <item>OM SAI MEDICAL AND GEN. STORES	[ 485 ]</item>
         <item>OM SAI MEDICAL AND GEN. STORES	[ 759 ]</item>
+        <item>OM SAI MEDICAL AND GEN. STORES	[ 817 ]</item>
+        <item>OM SAI MEDICAL AND GENERAL STORE	[ 489 ]</item>
         <item>OM SAI MEDICAL AND GENERAL STORES	[ 2330 ]</item>
         <item>OM SAI MEDICAL AND GENERAL STORES	[ 2644 ]</item>
         <item>OM SAI MEDICAL AND GENERAL STORES.	[ 3295 ]</item>
@@ -1925,8 +2085,11 @@
         <item>OM SAI MEDICO	[ 3109 ]</item>
         <item>OM SHREE GANESH MEDICAL AND GEN. STORES	[ 1758 ]</item>
         <item>OM SHREE SAI CHEMIST	[ 1538 ]</item>
+        <item>OM UTHALESHWAR MEDICAL AND GENERAL STORES	[ 462 ]</item>
         <item>OM VARADAYINI CHEMIST AND GENERAL STORES	[ 2449 ]</item>
         <item>OMKAR  MEDICAL  AND  GENERAL  STORES	[ 2821 ]</item>
+        <item>OMKAR  MEDICAL AND GENERAL STORES	[ 173 ]</item>
+        <item>OMKAR CHEMIST MEDICAL AND GEN. STORES	[ 522 ]</item>
         <item>OMKAR MED. AND GEN STORE	[ 3081 ]</item>
         <item>OMKAR MEDICAL AND  GENERAL STORES	[ 1887 ]</item>
         <item>OMKAR MEDICAL AND GEN STORES	[ 2388 ]</item>
@@ -1943,18 +2106,22 @@
         <item>P AND T CHEMIST	[ 3286 ]</item>
         <item>P. B. MUNDADA	[ 2113 ]</item>
         <item>PADAM CHEMIST	[ 2494 ]</item>
+        <item>PADMASHREE AYURVED	[ 174 ]</item>
         <item>PADMASHREE MEDICAL	[ 3116 ]</item>
         <item>PADMAVATI MEDICAL AND GEN. STORES	[ 1531 ]</item>
         <item>PALLAVI MEDICAL AND GENERAL STORES	[ 1213 ]</item>
         <item>PALVI MEDICO	[ 2237 ]</item>
         <item>PANKAJ MEDICAL AND GENERAL STORES	[ 1385 ]</item>
+        <item>PANKAJ MEDICAL STORES	[ 175 ]</item>
         <item>PARADISE MEDICAL STORES.	[ 3347 ]</item>
+        <item>PARAG MEDICAL AND GEN. STORES	[ 618 ]</item>
         <item>PARAG MEDICAL STORE	[ 1739 ]</item>
         <item>PARAKH MEDICAL AND  GEN. STORES	[ 1914 ]</item>
         <item>PARAKH MEDICAL AND GEN. STORES	[ 176 ]</item>
         <item>PARAKH MEDICAL AND GEN STORES	[ 2972 ]</item>
         <item>PARAM HOSPITAL CHEMIST AND DRUGGIST	[ 926 ]</item>
         <item>PARAS  MEDICAL	[ 1088 ]</item>
+        <item>PARAS  PHARMA.	[ 559 ]</item>
         <item>PARAS DISTRIBUTORS	[ 1006 ]</item>
         <item>PARAS MEDICAL AND GEN. STORES	[ 1166 ]</item>
         <item>PARAS MEDICAL AGENCY	[ 3097 ]</item>
@@ -1962,6 +2129,7 @@
         <item>PARAVATI MEDICALS	[ 1351 ]</item>
         <item>PAREKH CHEMIST	[ 178 ]</item>
         <item>PAREKH MEDICAL AND GENERAL STORES	[ 179 ]</item>
+        <item>PAREKH MEDICAL AND GENERAL STORES	[ 180 ]</item>
         <item>PARESH CHEMIST	[ 1496 ]</item>
         <item>PARESH MEDICAL ANDGENERAL STORES	[ 1478 ]</item>
         <item>PARESH MEDICO	[ 1318 ]</item>
@@ -1970,6 +2138,7 @@
         <item>PARMAR MEDICO	[ 3281 ]</item>
         <item>PATANJALI MEDICAL AND GEN. STORES	[ 1170 ]</item>
         <item>PATEL  MEDICAL AND GENERAL STORES	[ 1358 ]</item>
+        <item>PATEL CHEMIST AND GE. STORES	[ 1968 ]</item>
         <item>PATEL CHEMIST AND GENERAL STORES	[ 3124 ]</item>
         <item>PATEL MEDICAL AND GEN. STORES	[ 1263 ]</item>
         <item>PATEL PHARMA	[ 2976 ]</item>
@@ -1986,10 +2155,15 @@
         <item>PHOENIX MEDICAL	[ 996 ]</item>
         <item>PIONEER MEDICAL	[ 866 ]</item>
         <item>PLATINIUM  CHEMIST	[ 2864 ]</item>
+        <item>PLATINIUM CHEMIST	[ 2222 ]</item>
         <item>PLATINIUM PHARMACY	[ 2769 ]</item>
+        <item>PLATINUM CHEMIST	[ 2936 ]</item>
         <item>PLATINUM CHEMIST.	[ 3024 ]</item>
         <item>PLAZA MEDICAL AND GEN. STORES	[ 1980 ]</item>
         <item>PLUS POINT MEDICAL.	[ 3244 ]</item>
+        <item>POOJA CHEMIST	[ 182 ]</item>
+        <item>POOJA HEALTHCARE CHEMIST	[ 3429 ]</item>
+        <item>POOJA MEDICAL AND GENERAL STORES	[ 183 ]</item>
         <item>POOJA MEDICAL AND GENERAL STORES.	[ 3398 ]</item>
         <item>POOJA MEDICAL AND GENERAL STORES	[ 2233 ]</item>
         <item>POOJA MEDICO	[ 2112 ]</item>
@@ -1999,21 +2173,27 @@
         <item>POONAM MEDICO	[ 1638 ]</item>
         <item>POONAM MEDICO AND GEN. STOERS	[ 2561 ]</item>
         <item>POPULAR CHEMISTS AND DRUG.	[ 1316 ]</item>
+        <item>POPULAR MEDICAL	[ 1648 ]</item>
         <item>POPULAR MEDICAL AND GENERAL STORES	[ 2339 ]</item>
         <item>POPULAR PHARMACY	[ 1167 ]</item>
         <item>PRABHAKAR MEDICAL CENTRE	[ 1628 ]</item>
         <item>PRABHAT CHEMIST	[ 184 ]</item>
         <item>PRABHAT MEDICAL AND GEN . STORES	[ 2429 ]</item>
         <item>PRABHAT MEDICAL AND GEN. STORES	[ 1221 ]</item>
+        <item>PRABHAT MEDICAL AND GENERAL STORES	[ 185 ]</item>
         <item>PRABHURAM MEDICAL AND GENERAL STORES .	[ 3195 ]</item>
         <item>PRACHAM MEDICAL GEN. STOERS	[ 2568 ]</item>
         <item>PRACHI CHEMIST	[ 1614 ]</item>
         <item>PRACHI MED	[ 2121 ]</item>
         <item>PRACHI MEDICAL AND GEN STORE	[ 1327 ]</item>
         <item>PRADEEP MEDICAL AND GEN. STORES	[ 1367 ]</item>
+        <item>PRADEEP MEDICAL AND GENERAL STORES	[ 186 ]</item>
+        <item>PRAGATI MEDICAL	[ 187 ]</item>
         <item>PRAKASH  MEDICAL  AND  GENERAL   STORES	[ 2560 ]</item>
         <item>PRAKASH  MEDICAL  AND  GENERAL STORES	[ 2903 ]</item>
         <item>PRAKASH CHEMIST AND GENERAL STORES	[ 3173 ]</item>
+        <item>PRAKASH MEDICAL	[ 1656 ]</item>
+        <item>PRAKASH MEDICAL AND GEN. STORES	[ 969 ]</item>
         <item>PRAKASH MEDICAL AND GENERAL  STORES	[ 2399 ]</item>
         <item>PRAKASH MEDICAL AND GENERAL STORES	[ 188 ]</item>
         <item>PRAKASH MEDICOS	[ 189 ]</item>
@@ -2047,15 +2227,20 @@
         <item>PRINCE MEDICAL AND GEN. STORES	[ 399 ]</item>
         <item>PRINCE MEDICAL AND GEN. STORES	[ 702 ]</item>
         <item>PRINCE MEDICAL AND GENERAL STORES	[ 190 ]</item>
+        <item>PRINCE MEDICAL AND GENERAL STORES	[ 191 ]</item>
         <item>PRINCE MEDICAL STORES.	[ 3242 ]</item>
         <item>PRINCE MEDICO	[ 2649 ]</item>
         <item>PRINCE MEDICO AND GENERAL STORES	[ 2593 ]</item>
+        <item>PRIYA  MEDICAL AND GEN.STORE	[ 1092 ]</item>
         <item>PRIYA MEDICAL AND GEN. STORES	[ 1282 ]</item>
         <item>PRIYA MEDICAL AND GENERAL STORES	[ 192 ]</item>
+        <item>PRIYADARSHAN MEDICAL DEPARTMENT	[ 193 ]</item>
         <item>PRIYADARSHINI MEDICAL	[ 2499 ]</item>
+        <item>PRIYANKA MEDICAL	[ 884 ]</item>
         <item>PRIYANKA MEDICAL AND GENERAL STORES	[ 194 ]</item>
         <item>PURNANAD MEDICAL STORE	[ 671 ]</item>
         <item>PURNIMA MEDICAL AND GEN. STORE	[ 2617 ]</item>
+        <item>PURNIMA MEDICAL AND GEN. STORES	[ 442 ]</item>
         <item>PURNIMA MEDICAL AND GEN. STORES	[ 965 ]</item>
         <item>PURVI  MEDICO	[ 2904 ]</item>
         <item>PURVI MEDICO	[ 2049 ]</item>
@@ -2066,6 +2251,7 @@
         <item>QUICK N CARE PHARMACY PVT. LTD.	[ 2954 ]</item>
         <item>R J CHIMIST	[ 1039 ]</item>
         <item>R. K. MEDICAL  AND  GENERAL STORES	[ 2393 ]</item>
+        <item>R. K. MEDICAL AND GENERAL STORES	[ 195 ]</item>
         <item>R. K. MEDICAL AND GENERAL STORES	[ 1245 ]</item>
         <item>R. K. MEDICAL STORE	[ 2100 ]</item>
         <item>R.RAMESH AND CO.	[ 1133 ]</item>
@@ -2086,17 +2272,21 @@
         <item>RAHUL CHEMIST.	[ 3140 ]</item>
         <item>RAHUL MEDICAL	[ 2701 ]</item>
         <item>RAHUL MEDICAL AND  GENERAL STORES	[ 2202 ]</item>
+        <item>RAHUL MEDICAL AND GENERAL STORES	[ 198 ]</item>
         <item>RAHUL MEDICAL CENTRE	[ 693 ]</item>
         <item>RAINBOW CHEM	[ 701 ]</item>
         <item>RAINBOW CHEMIST	[ 2757 ]</item>
         <item>RAJ DEEP	[ 199 ]</item>
         <item>RAJ ENTERPRISES	[ 2451 ]</item>
         <item>RAJ LAXMI MEDICAL AND GEN. STORES	[ 1898 ]</item>
+        <item>RAJ LAXMI MEDICAL STORES	[ 354 ]</item>
         <item>RAJ MEDICAL  AND  STORES	[ 2295 ]</item>
+        <item>RAJ MEDICAL AND GEN. STORE	[ 642 ]</item>
         <item>RAJ MEDICAL AND GENERAL STORES	[ 2840 ]</item>
         <item>RAJ MEDICAL AND GENERAL STORES	[ 2848 ]</item>
         <item>RAJ MEDICAL ANDGEN. STORES	[ 1390 ]</item>
         <item>RAJ MEDICAL CENTRE	[ 3027 ]</item>
+        <item>RAJ MEDICO	[ 200 ]</item>
         <item>RAJ MEDICO	[ 370 ]</item>
         <item>RAJ MEDICO AND SUPER MKT	[ 1549 ]</item>
         <item>RAJA MEDICAL AND GEN. STORES	[ 1352 ]</item>
@@ -2106,6 +2296,8 @@
         <item>RAJASHRI MEDICAL AND GEN. STORES	[ 2341 ]</item>
         <item>RAJDDEP MEDICAL AND GEN. STORES	[ 788 ]</item>
         <item>RAJENDRA MEDICAL AND GEN. STORES	[ 1676 ]</item>
+        <item>RAJESH MED.	[ 2122 ]</item>
+        <item>RAJESH MEDICAL AND  GEN. STORES	[ 1912 ]</item>
         <item>RAJESH MEDICAL AND GEN. STORES	[ 439 ]</item>
         <item>RAJESH MEDICAL AND GENERAL STORES	[ 201 ]</item>
         <item>RAJESH MEDICAL AND GENERAL STORES	[ 202 ]</item>
@@ -2137,6 +2329,7 @@
         <item>RANUJA MEDICAL STORES	[ 1548 ]</item>
         <item>RAO MARATHA MEDICAL AND GENERAL  STORES	[ 3307 ]</item>
         <item>RAO MARATHA MEDICAL ANDGEN STR	[ 2847 ]</item>
+        <item>RASHMINA MEDICAL AND GEN. STORES	[ 360 ]</item>
         <item>RATAN MEDICO AND GEN. STORES	[ 2781 ]</item>
         <item>RATANDEEP MEDICAL STORES	[ 206 ]</item>
         <item>RATHOD CHEMIST	[ 3061 ]</item>
@@ -2152,6 +2345,7 @@
         <item>REGAL CHEMIST AND GEN STORE	[ 2831 ]</item>
         <item>REGAL DRUG HOUSE	[ 2774 ]</item>
         <item>REGAL MEDICAL.	[ 711 ]</item>
+        <item>REHMANIA  HOSPITAL	[ 2038 ]</item>
         <item>REHMANIA HOSPITAL MEDICAL STORES	[ 1539 ]</item>
         <item>REKHA MEDICAL AND GEN. STORES	[ 2041 ]</item>
         <item>RELIABLE MEDICAL AND GEN. STORES	[ 377 ]</item>
@@ -2162,20 +2356,24 @@
         <item>REMEDY MEDICAL STORES	[ 3048 ]</item>
         <item>RENUKA MEDICAL AND GENERAL STORES	[ 2743 ]</item>
         <item>RIDDHI MEDICAL	[ 717 ]</item>
+        <item>RIDDHI SIDDHI CHEMIST	[ 593 ]</item>
         <item>RIDDHI SIDDHI CHEMIST.	[ 3392 ]</item>
         <item>RIDDHI SIDDHI MEDICAL	[ 1084 ]</item>
         <item>RIDDHI SIDDHI MEDICAL  AND  GENERAL STORES	[ 2837 ]</item>
         <item>RIDDHI SIDDHI MEDICAL AND GENERAL STORES	[ 1696 ]</item>
         <item>RIDDHI SIDDHI MEDICAL STORES .	[ 3180 ]</item>
         <item>RIDDI MEDICAL	[ 2691 ]</item>
+        <item>RINKU MEDICAL AND GENERAL STORE.	[ 3468 ]</item>
         <item>RISABH MEDICAL AND GEN. STORES	[ 1455 ]</item>
         <item>RISKCARE HOSPITAL CHEMIST	[ 450 ]</item>
+        <item>RITU MEDICAL AND GEN. STORE	[ 2508 ]</item>
         <item>RITU MEDICALS	[ 208 ]</item>
         <item>RIYA MEDICAL.	[ 3174 ]</item>
         <item>RIYANSH MEDICAL STORES	[ 3190 ]</item>
         <item>RIZWAN MEDICAL AND GEN. STORES	[ 1970 ]</item>
         <item>ROHAN  MEDICAL	[ 1610 ]</item>
         <item>ROHAN MEDICAL STORES	[ 351 ]</item>
+        <item>ROHINI MEDICAL AND GENERAL STORES	[ 209 ]</item>
         <item>ROOPSHANTI MEDICAL AND GENERAL STORES	[ 2329 ]</item>
         <item>ROSHAN MEDICAL AND GENERAL STORES	[ 2841 ]</item>
         <item>ROSHANI MEDICAL AND GENERAL STORES	[ 369 ]</item>
@@ -2187,7 +2385,9 @@
         <item>ROYAL CHEMIST	[ 597 ]</item>
         <item>ROYAL CHEMIST	[ 891 ]</item>
         <item>ROYAL CHEMIST AND  GEN.  STORES	[ 2381 ]</item>
+        <item>ROYAL CHEMIST AND DRUGGIST	[ 2168 ]</item>
         <item>ROYAL CHEMIST AND GEN. STORES	[ 506 ]</item>
+        <item>ROYAL CHEMIST .	[ 3466 ]</item>
         <item>ROYAL CHEMIST MEDICAL AND GEN. STORES	[ 2520 ]</item>
         <item>ROYAL CHEMIST.	[ 3284 ]</item>
         <item>ROYAL CHEMIST..	[ 3422 ]</item>
@@ -2201,12 +2401,14 @@
         <item>ROYAL MEDICAL AND GENERAL STORES	[ 1956 ]</item>
         <item>ROYAL MEDICAL AND GENERAL STORES	[ 2802 ]</item>
         <item>ROYAL MEDICALS.	[ 3062 ]</item>
+        <item>ROYAL MEDICO	[ 211 ]</item>
         <item>ROYAL MEDICOS	[ 2922 ]</item>
         <item>RUCHI MEDICAL AND GEN. STORES	[ 473 ]</item>
         <item>RUDRA MEDICAL STORE.	[ 3201 ]</item>
         <item>RUHANJ MEDICAL STORES	[ 904 ]</item>
         <item>RUNWAL MEDICO	[ 594 ]</item>
         <item>RUNWAL S  SURESH MEDICO CORNER	[ 3021 ]</item>
+        <item>RUPESH MEDICAL AND GENERAL STORES	[ 212 ]</item>
         <item>RUSHABH MEDICAL	[ 907 ]</item>
         <item>RUSHI ENTERPRISE	[ 1465 ]</item>
         <item>RUTVI MEDICAL	[ 927 ]</item>
@@ -2214,6 +2416,7 @@
         <item>S. K. MEDICAL	[ 1695 ]</item>
         <item>S. P. PHARMA	[ 1600 ]</item>
         <item>S.I.P. CHEMIST	[ 3391 ]</item>
+        <item>S.I.P. MEDICAL AND GENERAL STORES.	[ 3450 ]</item>
         <item>SAANJ CHEMIST	[ 1998 ]</item>
         <item>SACHIN MEDICAL AND GENERAL STORES	[ 2450 ]</item>
         <item>SADGURU KRIPA MEDICAL AND GEN STORES	[ 236 ]</item>
@@ -2223,13 +2426,17 @@
         <item>SAFALYA HOSPITAL	[ 1932 ]</item>
         <item>SAFWAN MEDICAL AND GEN. STORES	[ 410 ]</item>
         <item>SAGAR ENTERPRISES	[ 2415 ]</item>
-        <item>SAGAR MEDICAL	[ 2500 ]</item>
         <item>SAGAR MEDICAL AND  GENERAL STORES	[ 2368 ]</item>
         <item>SAGAR MEDICAL AND GEN STR	[ 2554 ]</item>
         <item>SAGAR MEDICAL AND GEN. STORES	[ 213 ]</item>
         <item>SAGAR MEDICAL AND GENERAL STORES	[ 214 ]</item>
         <item>SAGAR MEDICAL (G.B.RD)	[ 3069 ]</item>
+        <item>SAGAR MEDICAL STORES	[ 2500 ]</item>
+        <item>SAGAR MEDICAL.	[ 3467 ]</item>
+        <item>SAGARDEEP MEDICAL AND GENERAL STORES	[ 436 ]</item>
         <item>SAHA MEDICAL STORE	[ 782 ]</item>
+        <item>SAHAJYOG MEDICAL AND GEN. STORES	[ 1160 ]</item>
+        <item>SAHAKAR BAZAAR	[ 2765 ]</item>
         <item>SAHAKAR MEDICAL AND GEN. STORES	[ 215 ]</item>
         <item>SAHARA CHEMIST AND GENERAL STORES.	[ 3163 ]</item>
         <item>SAHARA MEDICAL STORES	[ 834 ]</item>
@@ -2237,7 +2444,7 @@
         <item>SAHIL MEDICAL AND GENERAL  STORES	[ 2803 ]</item>
         <item>SAHIL MEDICAL AND GENERAL STORES	[ 2342 ]</item>
         <item>SAHIL MEDICALS	[ 1067 ]</item>
-        <item>SAHYADRI  24X7 PHARMACY CHEMIST AND DRUGGIST	[ 3363 ]</item>
+        <item>SAHYADRI  24X7	[ 3363 ]</item>
         <item>SAHYADRI MEDICAL AND GEN. STORES	[ 216 ]</item>
         <item>SAI AARUSH MEDICAL STORE	[ 3421 ]</item>
         <item>SAI ADESH MEDICAL AND GEN. STORES	[ 610 ]</item>
@@ -2257,6 +2464,8 @@
         <item>SAI GANESH MEDICAL ANDGENREL STR.	[ 2993 ]</item>
         <item>SAI JYOTI MEDICAL AND GEN. STORES	[ 2738 ]</item>
         <item>SAI KRUPA MEDICAL AND GEN. STORES	[ 1895 ]</item>
+        <item>SAI KRUPA MEDICAL.	[ 3430 ]</item>
+        <item>SAI KURPA MEDICAL AND GEN. STORES	[ 2855 ]</item>
         <item>SAI LEELA MED.	[ 1710 ]</item>
         <item>SAI LEELA MEDICAL AND GENERAL STORES	[ 2665 ]</item>
         <item>SAI LEELA MEDICAL STORES	[ 1489 ]</item>
@@ -2270,6 +2479,8 @@
         <item>SAI MEDICAL STORES.	[ 3216 ]</item>
         <item>SAI MEDICAL. AND STRORES	[ 1277 ]</item>
         <item>SAI MUMBRA CHEMIST	[ 3237 ]</item>
+        <item>SAI MUMBRA MEDICAL	[ 358 ]</item>
+        <item>SAI NIDHI CHEMIST AND DRUGGIST.	[ 3456 ]</item>
         <item>SAI OM MEDICAL	[ 2271 ]</item>
         <item>SAI POOJA MEDICAL	[ 221 ]</item>
         <item>SAI PRAKSH MEDICAL AND GEN. STORE	[ 657 ]</item>
@@ -2281,11 +2492,14 @@
         <item>SAI RAJ MEDICAL AND GENERAL  STORES	[ 2786 ]</item>
         <item>SAI RAJ MEDICAL AND GENERAL STORES	[ 636 ]</item>
         <item>SAI RAJ MEDICAL AND GENERAL STORES	[ 2258 ]</item>
+        <item>SAI RAM MEDICAL AND GENERAL STORES	[ 2551 ]</item>
+        <item>SAI RAM MEDICAL STORES.	[ 3444 ]</item>
         <item>SAI RATAN MEDICAL	[ 3025 ]</item>
         <item>SAI SABIRA MEDICAL.	[ 3304 ]</item>
         <item>SAI SADIKA HOSPITAL	[ 971 ]</item>
         <item>SAI SAGAR CHEMIST	[ 1666 ]</item>
         <item>SAI SAGAR MEDICO	[ 1667 ]</item>
+        <item>SAI SAHYOG MEDICAL AND GEN. STORES	[ 505 ]</item>
         <item>SAI SAMARTH CHEMIST AND DRUGGIST	[ 1774 ]</item>
         <item>SAI SAMARTH MEDICAL AND  GEN. STORES	[ 1909 ]</item>
         <item>SAI SAMARTH MEDICAL AND GEN.STORES	[ 2164 ]</item>
@@ -2300,14 +2514,21 @@
         <item>SAI SHRADHA MEDICAL	[ 1938 ]</item>
         <item>SAI SHRADHA MEDICAL AND GENERAL STORES	[ 2473 ]</item>
         <item>SAI SHRUDDHA MEDICAL AND GEN. STORES	[ 496 ]</item>
+        <item>SAI SIDDHI MEDICAL AND GEN. STORES	[ 223 ]</item>
         <item>SAI SIDDHI MEDICAL AND GEN. STORES	[ 224 ]</item>
         <item>SAI SIDDHI MEDICAL AND GENERAL STORES	[ 1060 ]</item>
+        <item>SAI SUNDAR MEDICAL	[ 613 ]</item>
+        <item>SAI TEJ CHEMIST	[ 1738 ]</item>
         <item>SAI TEJ CHEMIST.	[ 3044 ]</item>
         <item>SAI TEJ MEDICAL STORES	[ 507 ]</item>
+        <item>SAI-BABA MEDICAL AND GENERAL STORES	[ 217 ]</item>
+        <item>SAI-SHRADDHA MEDICAL AND GEN. STORE	[ 1907 ]</item>
         <item>SAI-SIDDHI MEDICAL AND GEN. STORES	[ 218 ]</item>
         <item>SAIBABA MEDICAL AND GENERAL STORES	[ 225 ]</item>
         <item>SAIDEEP MEDICAL AND GENERAL STORES	[ 3010 ]</item>
+        <item>SAIDHAN HOSPITAL	[ 1246 ]</item>
         <item>SAIF MEDICAL CHEMIST DRUGGIST.	[ 3123 ]</item>
+        <item>SAIKRIPA MEDICAL AND GENERAL STORES	[ 226 ]</item>
         <item>SAIKRUPA AGENCIES	[ 1772 ]</item>
         <item>SAILI MEDICO	[ 2678 ]</item>
         <item>SAINATH CHEMIST ANDDRUGIST.	[ 1018 ]</item>
@@ -2332,9 +2553,11 @@
         <item>SAMARTH MEDICAL	[ 738 ]</item>
         <item>SAMARTH MEDICAL  AND GEN STORES	[ 1528 ]</item>
         <item>SAMARTH MEDICAL AND GEN STORES	[ 2201 ]</item>
+        <item>SAMARTH MEDICAL AND GENERAL STORES	[ 228 ]</item>
         <item>SAMARTH MEDICAL AND GENERAL STORES	[ 870 ]</item>
         <item>SAMARTH MEDICAL BHANDAR	[ 521 ]</item>
         <item>SAMARTH MEDICAL STORES	[ 474 ]</item>
+        <item>SAMARTH MEDICO	[ 2873 ]</item>
         <item>SAMARTHDEV MEDICAL STORE	[ 1825 ]</item>
         <item>SAMBHAV MEDICAL STORES	[ 3064 ]</item>
         <item>SAMEER MEDICO AND GENERAL STORES	[ 2605 ]</item>
@@ -2343,11 +2566,13 @@
         <item>SAMRUDHI MEDICAL STORES	[ 2397 ]</item>
         <item>SANA CHEMIST AND GENERAL STORES	[ 3290 ]</item>
         <item>SANA MEDICAL AND GEN. STORES	[ 672 ]</item>
+        <item>SANA MEDICAL AND GENERAL STORES	[ 411 ]</item>
         <item>SANA MEDICAL STORES	[ 355 ]</item>
         <item>SANA MEDICO	[ 1588 ]</item>
         <item>SANDEEP MEDICAL AND GEN.  STORES	[ 2370 ]</item>
         <item>SANDEEP MEDICAL AND GEN. STORES	[ 612 ]</item>
         <item>SANDEEP MEDICAL AND GENERAL STORES	[ 1899 ]</item>
+        <item>SANDEEP MEDICAL CENTRE	[ 643 ]</item>
         <item>SANDESH MEDICAL STORES	[ 230 ]</item>
         <item>SANGAM MEDICAL AND GEN. STORES	[ 231 ]</item>
         <item>SANGAM MEDICAL AND GENERAL STORES	[ 1105 ]</item>
@@ -2361,9 +2586,11 @@
         <item>SANJAY MEDICAL AND GEN. STORES	[ 611 ]</item>
         <item>SANJAY MEDICAL AND GEN. STORES	[ 744 ]</item>
         <item>SANJAY MEDICAL AND GEN. STORES	[ 896 ]</item>
+        <item>SANJAY MEDICAL AND GENERAL STORES	[ 234 ]</item>
         <item>SANJAY MEDICAL STORES	[ 364 ]</item>
         <item>SANJAY MEDICO.	[ 3210 ]</item>
         <item>SANJEEVANI MEDICAL AND GENERAL STORES	[ 2448 ]</item>
+        <item>SANJEEVANI MEDICAL AND GENERAL STORE	[ 3454 ]</item>
         <item>SANJEEVINI MEDICAL AND GENERAL STORES	[ 235 ]</item>
         <item>SANJEEWANI HOSPITAL	[ 785 ]</item>
         <item>SANJIVANI  MEDICAL AND GENERAL STORES	[ 2364 ]</item>
@@ -2372,6 +2599,7 @@
         <item>SANJIVANI MEDICAL AND  GEN. STORES	[ 1459 ]</item>
         <item>SANJIVANI MEDICAL AND GEN STORES	[ 2300 ]</item>
         <item>SANJIVANI MEDICAL AND GEN. STORES	[ 658 ]</item>
+        <item>SANJIVANI MEDICAL AND GENERAL  STORES	[ 2278 ]</item>
         <item>SANJIVANI MEDICAL AND GENERAL STORES	[ 237 ]</item>
         <item>SANJIVANI MEDICAL STORES	[ 2962 ]</item>
         <item>SANJIVANI MEDICAL.	[ 2135 ]</item>
@@ -2383,6 +2611,7 @@
         <item>SANTOSH  MEDICAL	[ 1270 ]</item>
         <item>SANTOSH  MEDICAL AND GEN. STORES	[ 1363 ]</item>
         <item>SANTOSH  MEDICAL AND GENERAL STORES	[ 1507 ]</item>
+        <item>SANTOSH MEDICAL AND GENERAL STORES	[ 239 ]</item>
         <item>SANTOSH MEDICALANDGENERAL STORES	[ 3059 ]</item>
         <item>SANTOSHI MEDICAL AND GENERAL STORES	[ 880 ]</item>
         <item>SAPNA MEDICAL AND GEN. STORES	[ 787 ]</item>
@@ -2409,26 +2638,32 @@
         <item>SATYAM MEDICAL AND GENERAL STORES	[ 241 ]</item>
         <item>SATYAM MEDICAL AND GENERAL STORES	[ 242 ]</item>
         <item>SATYAM MEDICAL AND GENERAL STORES.	[ 3334 ]</item>
+        <item>SATYAM MEDICAL AND GEN STORES	[ 2088 ]</item>
         <item>SATYAM MEDICAL STORE	[ 2814 ]</item>
         <item>SATYAM MEDICAL STORES.	[ 3222 ]</item>
         <item>SATYAMEV MEDICAL AND GENERAL STORES	[ 2612 ]</item>
+        <item>SATYAMEVA  MEDICAL AND GEN. STORE	[ 466 ]</item>
         <item>SAUBHAGYA HOSPITAL	[ 1808 ]</item>
         <item>SAUDAGAR MEDICAL AND GEN. STORES	[ 766 ]</item>
         <item>SAURABH MEDICAL STORES	[ 3028 ]</item>
+        <item>SAURAV MEDICAL AND GEN. STORES	[ 524 ]</item>
         <item>SAVARKAR CHEMIST AND DRUGIST	[ 3120 ]</item>
         <item>SAWANT MEDICAL	[ 716 ]</item>
         <item>SAWATA CHEMIST AND GEN STR	[ 2147 ]</item>
+        <item>SAYALI MEDICAL AND DEPARTMENTAL STORES	[ 244 ]</item>
         <item>SAYLI CHEMIST AND GEN. STORES	[ 912 ]</item>
         <item>SEETA CHEMIST	[ 1777 ]</item>
         <item>SEETA MEDICAL	[ 1991 ]</item>
         <item>SEETA MEDICAL STORE	[ 1996 ]</item>
         <item>SEJAL MEDICAL	[ 1415 ]</item>
         <item>SEVA CHEMIST	[ 245 ]</item>
+        <item>SEVA MEDICAL STORES	[ 353 ]</item>
         <item>SEVA MEDICOS LOKSEVA HOSPITAL	[ 2709 ]</item>
         <item>SHABNAM MEDICAL AND GEN. STORES	[ 381 ]</item>
         <item>SHABNAM MEDICAL AND GENERAL STORES	[ 1745 ]</item>
         <item>SHAD MEDICAL AND GENERAL STORE	[ 3002 ]</item>
         <item>SHAH AMRUTA	[ 246 ]</item>
+        <item>SHAHEEN MEDICAL AND GENERAL STORES	[ 394 ]</item>
         <item>SHAKHI MEDICAL	[ 3017 ]</item>
         <item>SHAKTI  MEDICAL AND GEN. STORES	[ 2797 ]</item>
         <item>SHAKTI MEDICAL AND GEN. STORES	[ 685 ]</item>
@@ -2447,6 +2682,7 @@
         <item>SHANTI MEDICAL AND GEN. STORES	[ 704 ]</item>
         <item>SHARADA MEDICAL AND GEN. STORE	[ 454 ]</item>
         <item>SHARDA MEDICAL STORES	[ 1881 ]</item>
+        <item>SHARIFA MEDICAL AND GEN. STORES	[ 409 ]</item>
         <item>SHARMEEN MEDICAL AND GEN. STORES	[ 560 ]</item>
         <item>SHASHI CHEMIST	[ 2735 ]</item>
         <item>SHASHI MEDICOS	[ 1054 ]</item>
@@ -2456,12 +2692,14 @@
         <item>SHIDDHIVINAYAK MEDICAL	[ 877 ]</item>
         <item>SHIDDHIVINAYAK MEDICAL AND GEN STORES	[ 2613 ]</item>
         <item>SHIFA MEDICAL AND GEN. STORE	[ 670 ]</item>
+        <item>SHIFA MEDICAL AND GEN. STORES	[ 249 ]</item>
+        <item>SHIFA MEDICAL AND GENERAL STORES	[ 387 ]</item>
         <item>SHINDE MEDICAL AND GENERAL STORES	[ 2085 ]</item>
         <item>SHIRI MEDICAL AND GEN. STORES	[ 587 ]</item>
         <item>SHIV ARADHANA MEDICAL AND GENERAL STORES	[ 2929 ]</item>
         <item>SHIV BHAWANI MEDICAL	[ 1551 ]</item>
         <item>SHIV CHEMIST	[ 2754 ]</item>
-        <item>SHIV KAMAL CHEMIST	[ 423 ]</item>
+        <item>SHIV KAMAL MEDICO	[ 423 ]</item>
         <item>SHIV KRUPA MEDICAL AND GEN. STORES	[ 637 ]</item>
         <item>SHIV LEELA MEDICAL AND GEN. STORES	[ 697 ]</item>
         <item>SHIV LEELA MEDICAL AND GENERAL STORES	[ 1244 ]</item>
@@ -2472,9 +2710,11 @@
         <item>SHIV RATNA MEDICAL	[ 569 ]</item>
         <item>SHIV SAI MEDICAL STORE.	[ 3196 ]</item>
         <item>SHIV SAI MEDICALAND GEN STORES	[ 2515 ]</item>
+        <item>SHIV SAMARTH MED AND GEN STR	[ 1146 ]</item>
         <item>SHIV SAMARTH MEDICAL AND GEN STORES	[ 2829 ]</item>
         <item>SHIV SANJIVANI MEDICAL	[ 1675 ]</item>
         <item>SHIVAJI MEDICAL AND GEN. STORES	[ 1464 ]</item>
+        <item>SHIVAM  MEDICAL  AND  GENERAL  STORES	[ 2656 ]</item>
         <item>SHIVAM  MEDICAL  AND  GENERAL STORES	[ 2273 ]</item>
         <item>SHIVAM CHEMIS AND GEN STORES	[ 2816 ]</item>
         <item>SHIVAM CHEMIST.	[ 3177 ]</item>
@@ -2486,6 +2726,7 @@
         <item>SHIVAM MEDICAL AND GEN STORES	[ 2385 ]</item>
         <item>SHIVAM MEDICAL AND GEN.  STORES	[ 1810 ]</item>
         <item>SHIVAM MEDICAL AND GEN. STORES	[ 705 ]</item>
+        <item>SHIVAM MEDICAL AND GENERAL STORES	[ 251 ]</item>
         <item>SHIVAM MEDICAL AND GENERAL STORES	[ 453 ]</item>
         <item>SHIVAM MEDICAL AND GENERAL STORE	[ 2475 ]</item>
         <item>SHIVAM MEDICAL GEN STORES	[ 1690 ]</item>
@@ -2502,9 +2743,13 @@
         <item>SHIVSHAKTI  MEDICAL AND GENERAL STORES	[ 2420 ]</item>
         <item>SHIVSHAKTI MEDICAL AND GEN. STORES	[ 790 ]</item>
         <item>SHIVSHAKTI MEDICAL.	[ 3256 ]</item>
+        <item>SHOBHA  MEDICAL AND GEN. STORES	[ 1298 ]</item>
+        <item>SHOBHA MEDICAL AND  GEN. STORES	[ 1913 ]</item>
         <item>SHOBHA MEDICAL AND GEN. STORES	[ 1293 ]</item>
         <item>SHOBHA MEDICOS	[ 3321 ]</item>
         <item>SHOURAT MED AND GEN STORES	[ 1181 ]</item>
+        <item>SHRADDHA MEDICAL AND  GENERAL STORES	[ 2296 ]</item>
+        <item>SHRADDHA MEDICAL AND GENERAL STORES	[ 252 ]</item>
         <item>SHRADDHA MEDICAL STORE	[ 1901 ]</item>
         <item>SHRADDHA NURSING HOME	[ 1215 ]</item>
         <item>SHRAVAN MEDICAL AND GEN. STORES	[ 2380 ]</item>
@@ -2523,13 +2768,16 @@
         <item>SHREE AMBIKA MEDICAL STORES	[ 3423 ]</item>
         <item>SHREE ARYA DURGA MEDICAL AND GEN. STORES	[ 818 ]</item>
         <item>SHREE ASHAPURA  MEDICAL AND GEN STORES	[ 3411 ]</item>
+        <item>SHREE ASHAPURA CHEMIST	[ 566 ]</item>
         <item>SHREE ASHAPURA MEDICAL STORES	[ 3382 ]</item>
         <item>SHREE ASHTAVINAYAK MEDICAL AND GEN STORES	[ 2707 ]</item>
         <item>SHREE BADLAPUR CHEMIST	[ 2352 ]</item>
         <item>SHREE BAJRANG MEDICAL AND GEN. STORE	[ 1854 ]</item>
         <item>SHREE BALAJI MEDICAL AND GEN STORE	[ 2502 ]</item>
+        <item>SHREE BALAJI MEDICAL AND GEN. STORES	[ 1897 ]</item>
         <item>SHREE BALAJI MEDICAL AND GENERAL STORES	[ 2056 ]</item>
         <item>SHREE BALAJI MEDICAL AND GEN STORES	[ 2859 ]</item>
+        <item>SHREE BALAJI MEDICAL STORES	[ 3425 ]</item>
         <item>SHREE BALESHWAR MEDICAL AND GEN. STORES	[ 255 ]</item>
         <item>SHREE BANSI MEDICAL ANDGEN STORES	[ 1032 ]</item>
         <item>SHREE BHAIRAVNATH MEDICAL AND GEN STOR	[ 2799 ]</item>
@@ -2537,6 +2785,7 @@
         <item>SHREE BHAVANI MEDICAL AND GEN. STORES	[ 2523 ]</item>
         <item>SHREE CHAITANYA MED AND GEN ST	[ 256 ]</item>
         <item>SHREE CHAMUNDA MEDICAL AND GEN. STORES	[ 1412 ]</item>
+        <item>SHREE CHAMUNDA MEDICAL AND GENERAL STORE.	[ 3427 ]</item>
         <item>SHREE CHEMIST  AND GENERAL STORES	[ 2705 ]</item>
         <item>SHREE CHEMIST AND DRUGGIST	[ 1920 ]</item>
         <item>SHREE CHEMIST AND DRUGGIST..	[ 3227 ]</item>
@@ -2544,6 +2793,7 @@
         <item>SHREE DATTAKRIPA MEDICAL STORES	[ 2957 ]</item>
         <item>SHREE DURGA MED. AND GEN STORE	[ 2176 ]</item>
         <item>SHREE DURGA MEDICAL AND GEN. STORES.	[ 3213 ]</item>
+        <item>SHREE DURGA MEDICAL AND GENERAL STORES	[ 258 ]</item>
         <item>SHREE GAJANAN  MEDICAL CENTRE	[ 2057 ]</item>
         <item>SHREE GAJANAN MEDICAL  GEN. STORES	[ 1918 ]</item>
         <item>SHREE GAJANAN MEDICAL AND GEN. STORES	[ 1485 ]</item>
@@ -2560,6 +2810,7 @@
         <item>SHREE GANESH MEDICAL AND   GENERAL   STORES	[ 2633 ]</item>
         <item>SHREE GANESH MEDICAL AND GEN STORE	[ 1494 ]</item>
         <item>SHREE GANESH MEDICAL AND GEN. STORES	[ 1243 ]</item>
+        <item>SHREE GANESH MEDICAL AND GENERAL  STORES	[ 1884 ]</item>
         <item>SHREE GANESH MEDICAL AND GENERAL STORES	[ 1800 ]</item>
         <item>SHREE GANESH MEDICAL AND GEN. STORES	[ 2099 ]</item>
         <item>SHREE GANESH MEDICAL CENTRE	[ 259 ]</item>
@@ -2568,6 +2819,7 @@
         <item>SHREE GANESH MEDICAL STORES.	[ 3294 ]</item>
         <item>SHREE GURU NANAK SACHKHAND DARBAR SANT HIRDARAM CHARITABLE MEDICAL CENTRE	[ 2213 ]</item>
         <item>SHREE GURUDATT MEDICAL AND GEN. STORES	[ 2338 ]</item>
+        <item>SHREE GURUDEV MEDICAL AND GENERAL STORES	[ 2588 ]</item>
         <item>SHREE HANUMAN MEDICAL AND GEN. STORES	[ 460 ]</item>
         <item>SHREE HARI CHEMIST	[ 2728 ]</item>
         <item>SHREE HOSPITAL	[ 1411 ]</item>
@@ -2575,8 +2827,8 @@
         <item>SHREE JAGDAMBE MEDICAL AND GENERAL STORES	[ 2268 ]</item>
         <item>SHREE JAGNATH MED AND GEN ST	[ 1567 ]</item>
         <item>SHREE JAYVEER MEDICAL AND GEN. STORES	[ 452 ]</item>
+        <item>SHREE JYOTIRLING MEDICAL AND GEN ST	[ 3373 ]</item>
         <item>SHREE JYOTIRLING MEDICAL AND GENERAL STORES	[ 337 ]</item>
-        <item>SHREE JYOTIRLING MEDICAL AND GENERAL STORES,CHEMIST AND DRUGIST.	[ 3373 ]</item>
         <item>SHREE KHETESHWAR MEDICAL	[ 1364 ]</item>
         <item>SHREE KHETLAJI MED AND GEN ST	[ 2872 ]</item>
         <item>SHREE KISHNA MEDICAL AND GEN. STORES	[ 565 ]</item>
@@ -2587,6 +2839,7 @@
         <item>SHREE KRISHNA MEDICAL AND GEN STORES	[ 2098 ]</item>
         <item>SHREE KRISHNA MEDICAL AND GEN. STORES	[ 1596 ]</item>
         <item>SHREE KRISHNA MEDICAL AND GENERAL  STORES	[ 1866 ]</item>
+        <item>SHREE KRISHNA MEDICAL AND GENERAL STORES	[ 338 ]</item>
         <item>SHREE KRISHNA MEDICAL ANDGENERAL STORES	[ 3066 ]</item>
         <item>SHREE KRISHNA MEDICAL AND GENERAL STORES.	[ 3366 ]</item>
         <item>SHREE KRISHNA MEDICAL STORES	[ 2581 ]</item>
@@ -2601,6 +2854,8 @@
         <item>SHREE MAHALAXMI MED AND GEN STR	[ 2400 ]</item>
         <item>SHREE MAHALAXMI MEDICAL AND GEN STORES	[ 2806 ]</item>
         <item>SHREE MAHARASHTRA MEDICAL AND GEN STORE	[ 2167 ]</item>
+        <item>SHREE MANGALDEEP MEDICAL AND GENERAL STORES	[ 339 ]</item>
+        <item>SHREE MANGALDEEP MEDICAL STORES	[ 166 ]</item>
         <item>SHREE MANGALMURTT MEDICAL AND GENERAL STORES	[ 2566 ]</item>
         <item>SHREE MAULI MEDICAL AND GENERAL STORES	[ 2600 ]</item>
         <item>SHREE MAULI MEDICAL STORES	[ 1433 ]</item>
@@ -2633,6 +2888,7 @@
         <item>SHREE RAJ LAXMI MEDICAL AND GEN. STORES	[ 2455 ]</item>
         <item>SHREE RAJESHWAR CHEMIST AND GEN STORE	[ 2166 ]</item>
         <item>SHREE RAJLAXMI MEDICAL AND GEN. STORES	[ 2485 ]</item>
+        <item>SHREE RAM HOSPITAL	[ 1493 ]</item>
         <item>SHREE RAM MEDICAL AND  GEN. STORES	[ 1917 ]</item>
         <item>SHREE RAM MEDICAL AND GEN. STORES	[ 1894 ]</item>
         <item>SHREE RAM MEDICAL AND GENERAL STORES	[ 342 ]</item>
@@ -2644,6 +2900,7 @@
         <item>SHREE RAMNATH MEDICAL AND GEN STORES	[ 1476 ]</item>
         <item>SHREE RAMVARDAYINI MEDICALAND GENERA STORES	[ 500 ]</item>
         <item>SHREE RUP MEDICAL	[ 739 ]</item>
+        <item>SHREE SADGURU MEDICAL AND GEN. STORES	[ 344 ]</item>
         <item>SHREE SADGURUKRUPA CHEMIST AND DRUGGIST.	[ 3261 ]</item>
         <item>SHREE SAHAJYOG MEDICAL AND GENERAL STORES	[ 2042 ]</item>
         <item>SHREE SAI  MEDICAL AND GENERAL STORES	[ 2402 ]</item>
@@ -2658,6 +2915,7 @@
         <item>SHREE SAI MEDICAL  AND GEN. STORE	[ 1559 ]</item>
         <item>SHREE SAI MEDICAL AND  GENERAL  STORES	[ 2858 ]</item>
         <item>SHREE SAI MEDICAL AND GEN.  STORES	[ 1952 ]</item>
+        <item>SHREE SAI MEDICAL AND GEN. STORES	[ 484 ]</item>
         <item>SHREE SAI MEDICAL AND GENERAL  STORES	[ 2675 ]</item>
         <item>SHREE SAI MEDICAL AND GENERAL STORES	[ 1061 ]</item>
         <item>SHREE SAI MEDICAL AND GANERAL STORES.	[ 3154 ]</item>
@@ -2667,6 +2925,8 @@
         <item>SHREE SAI MEIDCAL AND GENERAL STORES.	[ 3381 ]</item>
         <item>SHREE SAI SAMARTH MEDICAL	[ 2906 ]</item>
         <item>SHREE SAI SAMARTH MEDICAL AND GEN. STORES	[ 1621 ]</item>
+        <item>SHREE SAI SANTOSH MEDICAL AND GEN. STORES	[ 346 ]</item>
+        <item>SHREE SAI SAROWAR MEDICAL AND GEN. STORES	[ 555 ]</item>
         <item>SHREE SAINATH  MEDICAL AND GEN. STORES	[ 2857 ]</item>
         <item>SHREE SAINATH MEDICAL AND GENERAL STORES	[ 2307 ]</item>
         <item>SHREE SAMARTH KRUPA MEDICAL STORES	[ 3317 ]</item>
@@ -2674,6 +2934,7 @@
         <item>SHREE SAMARTH MEDICAL  AND  GENERAL STORES	[ 2396 ]</item>
         <item>SHREE SAMARTH MEDICAL  AND GENERAL  STORES	[ 2480 ]</item>
         <item>SHREE SAMARTH MEDICAL  AND GENERAL STORES	[ 2317 ]</item>
+        <item>SHREE SAMARTH MEDICAL AND  GEN. STORES	[ 1903 ]</item>
         <item>SHREE SAMARTH MEDICAL AND GENERAL STORES	[ 2749 ]</item>
         <item>SHREE SAMARTH MEDICAL AND GENERAL STORES.	[ 3278 ]</item>
         <item>SHREE SAMARTH MEDICAL STORES	[ 347 ]</item>
@@ -2681,8 +2942,10 @@
         <item>SHREE SEVA MEDICAL AND GENERAL STORES	[ 3405 ]</item>
         <item>SHREE SHIV BHAIRAV MEDICAL AND GEN STORES	[ 2288 ]</item>
         <item>SHREE SHRITHI MEDICAL AND GENERAL STORES	[ 3369 ]</item>
+        <item>SHREE SHYAM CHEMIST MEDICAL AND GENERAL STORES	[ 261 ]</item>
         <item>SHREE SHYAM MEDICAL	[ 1102 ]</item>
         <item>SHREE SIDDHESHWAR MEDICAL AND GEN. STORES	[ 1541 ]</item>
+        <item>SHREE SIDDHI VINAYAK MED ST	[ 3091 ]</item>
         <item>SHREE SIDDHIVINAYAK MED. AND GEN. STORES	[ 2312 ]</item>
         <item>SHREE SIDDHIVINAYAK MEDICAL	[ 756 ]</item>
         <item>SHREE SIDDHIVINAYAK MEDICAL AND GEN. STORES	[ 2395 ]</item>
@@ -2702,6 +2965,7 @@
         <item>SHREE VIGHNAHAR MEDICAL AND GENERAL STORES.	[ 3400 ]</item>
         <item>SHREE VIJAY MED. AND GEN STORE	[ 1562 ]</item>
         <item>SHREE VIJAY MEDICAL AND GEN STR	[ 1069 ]</item>
+        <item>SHREE YASH MEDICAL AND GENERAL STORES	[ 2348 ]</item>
         <item>SHREEJI MEDICAL AND GEN. STORES	[ 263 ]</item>
         <item>SHREEJI MEDICAL AND GENERAL STORES	[ 1477 ]</item>
         <item>SHREENAGAR MEDICAL AND GENERAL STORES	[ 264 ]</item>
@@ -2713,10 +2977,13 @@
         <item>SHRI  DURGA MEDICAL	[ 1254 ]</item>
         <item>SHRI  KRISHNA MEDICAL	[ 1404 ]</item>
         <item>SHRI  SAI MEDICAL STORE	[ 2438 ]</item>
+        <item>SHRI AKSHAY MEDICAL AND GENERAL STORES	[ 425 ]</item>
         <item>SHRI AKSHAY MEDICAL AND GENERAL STORES	[ 6 ]</item>
         <item>SHRI AMBAJI MEDICAL STORES	[ 362 ]</item>
         <item>SHRI BADRISH MEDICAL AND GENERAL STORES	[ 2513 ]</item>
         <item>SHRI BALAJI MEDICAL AND GEN. STORE	[ 2599 ]</item>
+        <item>SHRI BALESHWAR MEDICAL AND GENERAL STORES	[ 444 ]</item>
+        <item>SHRI GAJANAN CHEMIST	[ 266 ]</item>
         <item>SHRI GAJANAN MEDICAL AND GEN. STORES	[ 267 ]</item>
         <item>SHRI GANESH MEDICAL AND GENERAL STORES	[ 2297 ]</item>
         <item>SHRI GANESH MEDICAL AND GEN. STORES	[ 2463 ]</item>
@@ -2736,7 +3003,9 @@
         <item>SHRI LAXMI MEDICAL	[ 995 ]</item>
         <item>SHRI LAXMI MEDICAL AND GEN. STORE	[ 663 ]</item>
         <item>SHRI LAXMI MEDICAL AND GEN. STORES	[ 968 ]</item>
+        <item>SHRI MAHARASHTRA MEDICAL AND GENERAL STORES	[ 268 ]</item>
         <item>SHRI MANGALMURTI MEDICAL GEN. STORES	[ 2563 ]</item>
+        <item>SHRI MEDICAL AND  GEN. STORES	[ 1651 ]</item>
         <item>SHRI MEDICAL AND GEN. STORES	[ 269 ]</item>
         <item>SHRI ORTHO CENTRE MEDICAL	[ 3104 ]</item>
         <item>SHRI RAJ MEDICAL STORES	[ 2064 ]</item>
@@ -2769,6 +3038,7 @@
         <item>SHRISHRIMAL MEDICAL AND GEN STORES	[ 441 ]</item>
         <item>SHRISTI MEDICAL AND GENERAL STORES	[ 2833 ]</item>
         <item>SHRUTI MEDICAL	[ 614 ]</item>
+        <item>SHSHIL DIVYA MEDICO	[ 1795 ]</item>
         <item>SHUBH MEDICAL	[ 1037 ]</item>
         <item>SHUBHADA MEDICAL AND GEN. STORES	[ 1378 ]</item>
         <item>SHUBHAM  MEDICAL AND GENERAL STORES	[ 2434 ]</item>
@@ -2776,17 +3046,21 @@
         <item>SHUBHAM MEDICAL	[ 895 ]</item>
         <item>SHUBHAM MEDICAL	[ 993 ]</item>
         <item>SHUBHAM MEDICAL AND GEN. STORES	[ 909 ]</item>
+        <item>SHUBHAM MEDICAL AND GENERAL STORES	[ 283 ]</item>
         <item>SHUBHAM MEDICAL AND GENERAL STORES	[ 2469 ]</item>
         <item>SHUBHAM MEDICO	[ 1125 ]</item>
         <item>SHUBTI MEDICAL	[ 1121 ]</item>
         <item>SHUKLA MEDICAL AND GENERAL STORE	[ 2930 ]</item>
         <item>SHUSHIL DIVYA CHEMIST	[ 1891 ]</item>
+        <item>SHUSHIL DIVYA MEDICAL	[ 2034 ]</item>
+        <item>SHUSHIL DIVYA MEDICO	[ 1933 ]</item>
         <item>SHUSHRUSHA CHEMIST.	[ 3417 ]</item>
         <item>SHWAS MEDICAL AND GENERAL STORES	[ 2481 ]</item>
         <item>SHWETA NURSING HOME	[ 1749 ]</item>
         <item>SHYAM CHEMIST AND DRUGIST MEDICAL AND GEN. STORES	[ 645 ]</item>
         <item>SHYAMJI  MEDICAL AND GEN. STORES	[ 2079 ]</item>
         <item>SHYAMJI MEDICAL AND GEN. STORES	[ 757 ]</item>
+        <item>SIDDARTH CHEMIST	[ 284 ]</item>
         <item>SIDDHAKALA MEDICAL AND GENERAL STORES	[ 1657 ]</item>
         <item>SIDDHARTH CHEMIST	[ 2401 ]</item>
         <item>SIDDHARTH MEDICAL	[ 606 ]</item>
@@ -2795,10 +3069,12 @@
         <item>SIDDHESHWAR MEDICAL AND GEN. STORES	[ 1250 ]</item>
         <item>SIDDHI  MEDICAL	[ 1752 ]</item>
         <item>SIDDHI CHEMISTS	[ 525 ]</item>
+        <item>SIDDHI DISTRIBUTORS	[ 515 ]</item>
         <item>SIDDHI MEDICAL	[ 760 ]</item>
         <item>SIDDHI MEDICAL AND GENERAL STORES	[ 539 ]</item>
         <item>SIDDHI MEDICAL STORE	[ 1910 ]</item>
         <item>SIDDHI VINAYAK MEDICAL AND GEN. STORES	[ 1498 ]</item>
+        <item>SIDDHI VINAYAK MEDICO.	[ 3432 ]</item>
         <item>SIDDHIVINAYAK  MEDICAL AND  GEN. STORES	[ 1939 ]</item>
         <item>SIDDHIVINAYAK  MEDICAL AND GEN STORES	[ 1375 ]</item>
         <item>SIDDHIVINAYAK CHEMIST	[ 2751 ]</item>
@@ -2820,12 +3096,15 @@
         <item>SIMRAN MEDICAL AND GEN STORES	[ 2528 ]</item>
         <item>SIMRAN MEDICAL AND GEN. STORES	[ 846 ]</item>
         <item>SIMRAN MEDICAL AND GEN. STORES	[ 984 ]</item>
+        <item>SIRAJ MEDICAL AND  GEN. STORES	[ 1712 ]</item>
         <item>SIRAJ MEDICAL AND GEN STORES	[ 2128 ]</item>
         <item>SIRVI MEDICAL AND GENERAL STORES	[ 2865 ]</item>
         <item>SKYLARK MEDICAL AND GEN. STORES	[ 285 ]</item>
         <item>SMT SAPANA GHUNAIKAR DI	[ 3315 ]</item>
         <item>SNEH   MEDICAL	[ 1062 ]</item>
         <item>SNEH MEDICAL AND GEN. STORES	[ 286 ]</item>
+        <item>SNEHA MEDICAL	[ 1201 ]</item>
+        <item>SNEHAL ENTERPRISES	[ 1618 ]</item>
         <item>SNEHAL MED. AND GEN STORES	[ 1626 ]</item>
         <item>SNEHARSH MEDICAL	[ 1409 ]</item>
         <item>SNEHPUSHPA MEDICAL AND GEN. STORES	[ 1210 ]</item>
@@ -2843,10 +3122,12 @@
         <item>SONA  MEDICAL	[ 1353 ]</item>
         <item>SONAGRA PHARMACY	[ 1809 ]</item>
         <item>SONAL CHEMIST	[ 2533 ]</item>
+        <item>SONAL MEDICAL AND GEN. STORES	[ 2532 ]</item>
         <item>SONAL MEDICAL STORES	[ 1073 ]</item>
         <item>SPANDAN MEDICAL	[ 3074 ]</item>
         <item>SPANDAN PHARMA	[ 2832 ]</item>
         <item>SR CHEMIST.	[ 3268 ]</item>
+        <item>SRI TARA MA MEDICAL STORE	[ 3461 ]</item>
         <item>ST-JOHN MEDECAL AND GEN STOR	[ 2199 ]</item>
         <item>STANDARD MEDICAL AND GEN. STORES	[ 385 ]</item>
         <item>STANDARD PHARMACY MEDICAL AND GENERAL STORE	[ 2227 ]</item>
@@ -2862,24 +3143,29 @@
         <item>SUDHA MEDICAL	[ 915 ]</item>
         <item>SUDHA MEDICAL AND GEN. STORES	[ 1706 ]</item>
         <item>SUHAS MEDICAL AND GEN. STORES	[ 1508 ]</item>
+        <item>SUJATA MEDICAL AND GENERAL STORES	[ 289 ]</item>
         <item>SUJOT MEDICAL AND GEN. STORES	[ 420 ]</item>
         <item>SUKH SAGAR MEDICAL	[ 638 ]</item>
         <item>SUMAN MEDICAL AND GEN. STORES	[ 1416 ]</item>
         <item>SUMAN MEDICAL AND GENERAL STORE	[ 2362 ]</item>
+        <item>SUMATI MEDICAL AND GEN. STORES	[ 290 ]</item>
         <item>SUMESH CHEMISTAND DRUGIST	[ 2550 ]</item>
         <item>SUMESH MEDICAL PVT. LTD.	[ 2952 ]</item>
         <item>SUMESH MEDICALS	[ 1782 ]</item>
+        <item>SUMESH MEDICALS	[ 3399 ]</item>
         <item>SUMESH MEDICALS PVT. LTD.	[ 2990 ]</item>
         <item>SUMIT MEDICAL STORES	[ 3234 ]</item>
         <item>SUN BEAM MEDICAL	[ 1000 ]</item>
         <item>SUN MEDICAL AND GEN. STORES	[ 696 ]</item>
         <item>SUN SUPER MARKET AND MEDICAL STORES	[ 1386 ]</item>
         <item>SUNCARE PHARMA	[ 1904 ]</item>
+        <item>SUNHOS CHEMIST	[ 291 ]</item>
         <item>SUNIL MEDICAL	[ 754 ]</item>
         <item>SUNIL MEDICALSTORES	[ 885 ]</item>
         <item>SUNITA MEDICAL AND GEN. STORES	[ 1231 ]</item>
         <item>SUNJEEVAN HOSP.AND ICU	[ 2022 ]</item>
         <item>SUNNY MEDICAL	[ 1184 ]</item>
+        <item>SUNNY MEDICAL AND GENERAL STORES	[ 415 ]</item>
         <item>SUNRISE CHEMIST	[ 2934 ]</item>
         <item>SUNRISE CHEMIST .	[ 3167 ]</item>
         <item>SUNRISE MEDICAL	[ 1540 ]</item>
@@ -2891,6 +3177,7 @@
         <item>SURAKSHA MEDICAL AND GENERAL STORES	[ 518 ]</item>
         <item>SURESH  MEDICAL	[ 1561 ]</item>
         <item>SURESH CHEMIST	[ 994 ]</item>
+        <item>SURESH CHEMIST MEDICAL AND GENERAL STORES	[ 293 ]</item>
         <item>SURESH MEDICAL AND GEN. STORES	[ 294 ]</item>
         <item>SURESH MEDICAL AND GENERAL STORES	[ 272 ]</item>
         <item>SURESH MEDICAL STORES	[ 2948 ]</item>
@@ -2898,17 +3185,22 @@
         <item>SURME MEDICAL AND GENERAL STORES	[ 543 ]</item>
         <item>SUSHIL MEDICAL	[ 925 ]</item>
         <item>SUSHRUSHA MEDICAL AND GEN STORES	[ 2785 ]</item>
+        <item>SUSHRUSHA MEDICO STORES	[ 273 ]</item>
         <item>SUVIDHA MEDICAL	[ 929 ]</item>
         <item>SUVIDHA MEDICO	[ 3330 ]</item>
         <item>SUYASH MEDICAL	[ 1729 ]</item>
         <item>SUYASH MEDICAL AND GENERAL STORES	[ 1732 ]</item>
+        <item>SUYOG AYURVEDIC BHANDAR	[ 348 ]</item>
+        <item>SUYOG CHEMIST	[ 1273 ]</item>
         <item>SUYOG CHEMIST	[ 1526 ]</item>
         <item>SUYOG HOSPITAL	[ 1514 ]</item>
+        <item>SUYOG MEDICAL AND GENERAL STORES	[ 275 ]</item>
         <item>SUYOG MEDICAL AND GENERAL STORES.	[ 873 ]</item>
         <item>SWAMI SAMARTH MEDICAL $GEN STORES	[ 2933 ]</item>
         <item>SWARA CHEMIST.	[ 3049 ]</item>
         <item>SWARA MEDICAL AND GENERAL STORES.	[ 3282 ]</item>
         <item>SWARA MEDICAL STORE	[ 3108 ]</item>
+        <item>SWAROOP MEDICAL	[ 3434 ]</item>
         <item>SWASTIK  HOSPITAL	[ 1050 ]</item>
         <item>SWASTIK CHEMIST.	[ 3133 ]</item>
         <item>SWASTIK MED. AND GEN STORES	[ 1140 ]</item>
@@ -2925,6 +3217,7 @@
         <item>SYBAILL MEDICAL AND GEN STR	[ 2486 ]</item>
         <item>SYNAPSE PHARMA CHEMIST AND DRUGGIST	[ 2680 ]</item>
         <item>TABOR MEDICAL AND GEN STORES	[ 1672 ]</item>
+        <item>TABOR MEDICAL AND GENERAL STORES	[ 417 ]</item>
         <item>TAHA MEDICAL AND GEN. STORES	[ 418 ]</item>
         <item>TAHOORA MEDICAL AND GEN. STORES	[ 1306 ]</item>
         <item>TANAJI MEDICAL AND GENERAL STORES	[ 1211 ]</item>
@@ -2937,14 +3230,19 @@
         <item>THAKUR MEDICAL AND GENERAL STORE	[ 1826 ]</item>
         <item>THAKUR MEDICAL STORES	[ 2850 ]</item>
         <item>THANA DRUG HOUSE	[ 278 ]</item>
+        <item>THANA HOMEO HOUSE	[ 279 ]</item>
+        <item>THANA MEDICAL AND GENERAL STORES	[ 280 ]</item>
         <item>THANA MEDICAL AGENCY	[ 1313 ]</item>
         <item>THANE MEDICAL AND GEN. STORES	[ 2579 ]</item>
+        <item>THANE MEDICAL AND GENERAL STORES	[ 526 ]</item>
         <item>THE ALL INDIA DRUG S KING	[ 281 ]</item>
         <item>THE ALL INDIA DRUGS AND SURGICAL KING	[ 2770 ]</item>
+        <item>THE ALL INDIA MEDICO.	[ 3439 ]</item>
         <item>THE CHEMIST AND GENERAL STORES	[ 2854 ]</item>
         <item>THE MEDICAL OFFICER C/O UNION BANK OF INDIA	[ 1047 ]</item>
         <item>THE METRO CHEMIST AND DRUGIST	[ 3396 ]</item>
         <item>THE NATIONAL CHEIMIST	[ 3079 ]</item>
+        <item>THE NATIONAL CHEMIST	[ 3082 ]</item>
         <item>THE NEW CHEMIST	[ 282 ]</item>
         <item>THE PAREL CHEMIST	[ 523 ]</item>
         <item>TIP TOP CHEMIST DRUGGIST AND GENERAL	[ 2310 ]</item>
@@ -2959,6 +3257,7 @@
         <item>TOMAR MEDICAL AND GENERAL STORES	[ 295 ]</item>
         <item>TRANSCEND PHARMA	[ 2514 ]</item>
         <item>TRIMURTI CHEMISTS.	[ 3245 ]</item>
+        <item>TRIMURTI MED STORE	[ 1185 ]</item>
         <item>TRIMURTI MEDICAL AND GEN. STORES	[ 296 ]</item>
         <item>TRINITY MEDICAL	[ 1124 ]</item>
         <item>TRIVENI  MEDICAL AND GEN. STORES	[ 2217 ]</item>
@@ -2967,8 +3266,12 @@
         <item>TRUPTI MEDICAL	[ 724 ]</item>
         <item>TRUPTI MEDICAL	[ 740 ]</item>
         <item>TUHI NIRANKAR MEDICAL AND GENERAL STORES	[ 1584 ]</item>
+        <item>TULJA BHAVANI MEDICAL STORES	[ 3078 ]</item>
+        <item>TULJA BHAVANI MEDICAL STORES .	[ 3199 ]</item>
         <item>TULJA BHAWANI MED AND GEN STR.	[ 3041 ]</item>
         <item>TULSI CHEMIST AND GEN STORES	[ 2584 ]</item>
+        <item>TULSI CHEMIST AND GENERAL STORES	[ 2918 ]</item>
+        <item>TULSI MEDICAL AND GEN. STORES	[ 2335 ]</item>
         <item>TULSI MEDICAL AND GENERAL STORES	[ 2322 ]</item>
         <item>TUNGARESHWAR MEDICAL AND GEN. STORES	[ 1512 ]</item>
         <item>TUSHAR MEDICAL AND GEN STORES	[ 2730 ]</item>
@@ -2982,33 +3285,44 @@
         <item>UNITED CHEMIST.	[ 3358 ]</item>
         <item>UNNATI CHEMIST AND DRUGGIST	[ 2416 ]</item>
         <item>UNNATI MEDICALS	[ 3036 ]</item>
+        <item>UNO MEDICAL AND GENERAL STORES	[ 510 ]</item>
         <item>USMAN CHEMIST AND DRUGGIST GEN. STORES	[ 2047 ]</item>
         <item>VAGAD CHEMIST.	[ 3364 ]</item>
         <item>VAIBHAVI  MEDICAL	[ 1081 ]</item>
         <item>VAIBHAVI CHEMIST	[ 2003 ]</item>
+        <item>VAILANKANNI MEDICAL AND GEN. STORES	[ 298 ]</item>
         <item>VAISHALI MEDICAL AND GEN STORES	[ 1850 ]</item>
         <item>VAISHALI MEDICAL.	[ 3058 ]</item>
+        <item>VAISHNAVI CHEMIST	[ 488 ]</item>
         <item>VAISHNAVI MEDICAL	[ 602 ]</item>
         <item>VAISHNAVI MEDICAL AND GEN. STORES	[ 1302 ]</item>
         <item>VAISHNAVI MEDICAL AND GENERAL STORES	[ 2659 ]</item>
         <item>VAISHNO MEDICAL SOTRE.	[ 3289 ]</item>
+        <item>VAKRATUND MEDICAL AND GENERAL STORES	[ 3431 ]</item>
         <item>VAKRATUND MEDICALAND GENERAL STORE	[ 3072 ]</item>
         <item>VANAI MEDICAL AND GENERAL STORES	[ 2822 ]</item>
         <item>VANDANA CHEMIST	[ 2578 ]</item>
         <item>VANDANA MEDI. AND GEN. STORES	[ 1158 ]</item>
+        <item>VANITHA MEDICAL AND GENERAL STORES	[ 2891 ]</item>
         <item>VANSHIKA DRUG HOUSE	[ 2959 ]</item>
         <item>VARAD CHEMIST	[ 2750 ]</item>
         <item>VARAD MEDICAL AND GENERAL STORES	[ 2771 ]</item>
+        <item>VARAD MEDICAL AND GENERAL STORES.	[ 3340 ]</item>
         <item>VARAD MEDICAL AND GENERAL STORES	[ 2259 ]</item>
         <item>VARAD MEDICAL.	[ 3257 ]</item>
         <item>VARDAN MEDICAL AND GEN. STORES	[ 1923 ]</item>
         <item>VARDAYINI MEDICAL AND GEN. STORE	[ 1115 ]</item>
         <item>VARDHAMAN MEDICO	[ 1592 ]</item>
         <item>VARDHMAN MED. AND GEN. STORES	[ 1806 ]</item>
+        <item>VARDHMAN MEDICAL	[ 640 ]</item>
+        <item>VARDHMAN MEDICAL AND GEN STORES	[ 1590 ]</item>
+        <item>VARDHMAN MEDICAL AND GEN. STORES	[ 299 ]</item>
         <item>VARSHA CHEMIST	[ 1786 ]</item>
         <item>VARSHA MEDICAL	[ 1036 ]</item>
         <item>VARSHA MEDICO	[ 301 ]</item>
         <item>VARSHA MEDIPLUS	[ 3386 ]</item>
+        <item>VASANT MEDICAL STORES	[ 300 ]</item>
+        <item>VED MEDICAL AND GENERAL STORES	[ 501 ]</item>
         <item>VEDANT CHEMIST	[ 1983 ]</item>
         <item>VEDANT SAHYADRI CHEM AND DRUG	[ 603 ]</item>
         <item>VEER HOSPITAL	[ 1123 ]</item>
@@ -3017,24 +3331,32 @@
         <item>VEGA CHEMIST	[ 892 ]</item>
         <item>VENKATESH MEDICAL AND GEN. STORES	[ 1741 ]</item>
         <item>VENKATESH MEDICAL AND GENERAL STORES	[ 2248 ]</item>
+        <item>VENUS MEDICAL AND GENERAL STORES	[ 534 ]</item>
+        <item>VIGHNAHAR MEDICAL AND GENERAL STORES	[ 303 ]</item>
         <item>VIGHNAHARTA CHEMIST	[ 3127 ]</item>
         <item>VIGHNAHARTA MEDICAL	[ 2983 ]</item>
         <item>VIGHNESH PHARMACY	[ 3228 ]</item>
         <item>VIGNAHER MEDICAL AND GENERAL STORES	[ 1999 ]</item>
         <item>VIHANG MEDICAL	[ 2484 ]</item>
         <item>VIHAR CHEMIST	[ 651 ]</item>
+        <item>VIHAR CHEMIST,	[ 3455 ]</item>
         <item>VIJAY CHEMIST	[ 304 ]</item>
+        <item>VIJAY LAXMI MEDICAL AND GEN. STORES	[ 307 ]</item>
+        <item>VIJAY MEDICAL	[ 2371 ]</item>
         <item>VIJAY MEDICAL AND G. STORE	[ 455 ]</item>
         <item>VIJAY MEDICAL AND GEN STORES	[ 2327 ]</item>
+        <item>VIJAY MEDICAL AND GEN. STORES	[ 457 ]</item>
         <item>VIJAY MEDICAL AND GEN. STORES	[ 803 ]</item>
         <item>VIJAY MEDICAL AND GEN. STORES	[ 845 ]</item>
         <item>VIJAY MEDICAL AND GENERAL STORES	[ 305 ]</item>
         <item>VIJAY MEDICAL AND GENERAL STORES	[ 373 ]</item>
         <item>VIJAY MEDICAL AND GENERAL STORES	[ 447 ]</item>
+        <item>VIJAY MEDICAL AND GERERAL STORES	[ 1940 ]</item>
         <item>VIJAY MEDICAL AND GEN STORES	[ 3075 ]</item>
         <item>VIJAY MEDICAL AND GENERAL STORES	[ 2349 ]</item>
         <item>VIJAY MEDICAL AND GENERAL STORES .	[ 3179 ]</item>
         <item>VIJAY MEDICAL STORE	[ 428 ]</item>
+        <item>VIJAYDEEP MEDICAL AND GENERAL STORES	[ 306 ]</item>
         <item>VIKAS HOSPITAL	[ 1704 ]</item>
         <item>VIKAS MEDICAL AND GENERAL STORES	[ 308 ]</item>
         <item>VIKAS MEDICAL AND GENERAL STORS	[ 513 ]</item>
@@ -3061,7 +3383,9 @@
         <item>VINAYAK MEDICAL AND GENERAL  STORES	[ 1517 ]</item>
         <item>VINAYAK MEDICAL AND GENERAL STORES	[ 1349 ]</item>
         <item>VINAYAK MEDICAL AND GENERAL STORES .	[ 3193 ]</item>
+        <item>VINAYAK MEDICAL AND SURGICAL STORES	[ 3424 ]</item>
         <item>VINAYAK MEDICAL AND GENERAL STORES.	[ 3211 ]</item>
+        <item>VINAYAK MEDICAL STORE	[ 312 ]</item>
         <item>VINAYAK MEDICAL STORES	[ 2955 ]</item>
         <item>VINAYAK MEDICAL STORES.	[ 3008 ]</item>
         <item>VINAYAK MEDICAL.	[ 3335 ]</item>
@@ -3070,6 +3394,7 @@
         <item>VINOD MEDICAL AND GENERAL STORES	[ 2355 ]</item>
         <item>VIPUL ENTERPRISE	[ 314 ]</item>
         <item>VIRAJ MEDICAL AND GEN. STORES	[ 763 ]</item>
+        <item>VIRAJ MEDICO	[ 3463 ]</item>
         <item>VIRAL CHEMIST	[ 315 ]</item>
         <item>VIRESH MEDICAL STORES	[ 686 ]</item>
         <item>VISHAL  CHEMIST	[ 2343 ]</item>
@@ -3105,6 +3430,7 @@
         <item>WELL COME MEIDCAL.	[ 3264 ]</item>
         <item>WELLNESS CHEMIST.	[ 3395 ]</item>
         <item>WELLNESS FOREVER  LIFESTYLE CHEMIST	[ 2773 ]</item>
+        <item>WELLNESS FOREVER  LIFESTYLE CHEMIST.	[ 3428 ]</item>
         <item>WELLNESS FOREVER CHEMISTS.	[ 3249 ]</item>
         <item>WELLNESS FOREVER LIFESTYLE CHEMIST AND SUPER MARKET DAY AND NIGHT	[ 2530 ]</item>
         <item>WELLNESS FOREVER LIFESTYLE CHEMIST .	[ 3169 ]</item>
@@ -3112,11 +3438,20 @@
         <item>WELLNESS FOREVER MEDICARE PVT. LTD.	[ 3083 ]</item>
         <item>WELLNESS FOREVER.	[ 3161 ]</item>
         <item>WELLNESS MEDICO.	[ 3319 ]</item>
+        <item>WHOLESELLERS DISTRIBUTORS	[ 402 ]</item>
+        <item>WHOLESELLERS DISTRIBUTORS	[ 403 ]</item>
         <item>YAMAIMATA MEDICAL AND GEN STORES	[ 1504 ]</item>
+        <item>YAMUNA MEDICAL AND GEN. STORES	[ 319 ]</item>
+        <item>YASH CHEMIST	[ 320 ]</item>
+        <item>YASH CHEMIST AND GEN STORES	[ 2784 ]</item>
         <item>YASH CHEMIST I	[ 3050 ]</item>
+        <item>YASH CLINIC	[ 1753 ]</item>
         <item>YASH DEEP MEDICAL AND GEN STORES	[ 2139 ]</item>
+        <item>YASH HOSPITAL	[ 1765 ]</item>
+        <item>YASH MED AND GEN. STORES	[ 2782 ]</item>
         <item>YASH MEDICA AND GENERAL STORES.	[ 3302 ]</item>
         <item>YASH MEDICAL	[ 322 ]</item>
+        <item>YASH MEDICAL	[ 743 ]</item>
         <item>YASH MEDICAL  AND GENERAL STORES	[ 2442 ]</item>
         <item>YASH MEDICAL AND GEN. STORES	[ 321 ]</item>
         <item>YASH MEDICAL AND GEN. STORES	[ 580 ]</item>
@@ -3129,10 +3464,12 @@
         <item>YOGESH MEDICAL AND  GENERAL STORES	[ 2456 ]</item>
         <item>YOGESH MEDICAL AND GENERAL STORES	[ 2048 ]</item>
         <item>YOGESH MEDICAL CENTRE	[ 1439 ]</item>
+        <item>YOGIRAJ MEDICINE	[ 601 ]</item>
         <item>YUVRAJ MEDICAL STORES	[ 430 ]</item>
         <item>ZAMZAM MEDICAL STORES	[ 1248 ]</item>
         <item>ZEESHAN MEDICAL AND GEN. STORES	[ 405 ]</item>
+        <item>ZENITH MEDICAL AND GENERAL STORES	[ 323 ]</item>
         <item>ZUVENTUS HEALTHCARE LTD	[ 2979 ]</item>
-        <item>ZYNOVA HEART HOSPITAL	[ 2159 ]</item>
+        <item>ZYNOVA HEART HOSPITAL	[ 2159 ] </item>
     </string-array>
 </resources>

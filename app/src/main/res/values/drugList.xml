@@ -2,16 +2,11 @@
 <resources>
     <string-array name="drugList">
         <item>A PHYL	[ 32001 ]</item>
-        <item>A PHYL SYP	[ 32002 ]</item>
         <item>AB-FLO	[ 7480 ]</item>
         <item>AB-FLO  SR	[ 30148 ]</item>
         <item>ABEL  80	[ 33160 ]</item>
-        <item>ABEL 10	[ 7449 ]</item>
-        <item>ABEL 20	[ 7450 ]</item>
         <item>ABEL 40	[ 34577 ]</item>
         <item>ABFLO N	[ 34519 ]</item>
-        <item>ABHOPE 300	[ 8524 ]</item>
-        <item>ACCUZON 125	[ 1934 ]</item>
         <item>ACCUZON 1GM	[ 2467 ]</item>
         <item>ACCUZON 250	[ 2465 ]</item>
         <item>ACCUZON 2GM	[ 3066 ]</item>
@@ -19,8 +14,6 @@
         <item>ACCUZON PLUS 1.5	[ 2471 ]</item>
         <item>ACCUZON PLUS 375	[ 2469 ]</item>
         <item>ACCUZON PLUS 750	[ 2470 ]</item>
-        <item>ACE +	[ 9501 ]</item>
-        <item>ACE 15	[ 9522 ]</item>
         <item>ACECLO 100	[ 30501 ]</item>
         <item>ACECLO MR	[ 30502 ]</item>
         <item>ACECLO PLUS 600	[ 30503 ]</item>
@@ -32,7 +25,6 @@
         <item>ACEGABA ME 100	[ 34570 ]</item>
         <item>ACEGABA ME 300	[ 33805 ]</item>
         <item>ACEGABA NT 400	[ 33801 ]</item>
-        <item>ACEMIZ MR	[ 7245 ]</item>
         <item>ACENOMAC 1MG	[ 34046 ]</item>
         <item>ACENOMAC 2 MG	[ 34047 ]</item>
         <item>ACENOMAC 3MG	[ 34048 ]</item>
@@ -40,7 +32,6 @@
         <item>ACINUAL	[ 4847 ]</item>
         <item>ACINUAL D	[ 4841 ]</item>
         <item>ACINUAL PLUS TABS	[ 33544 ]</item>
-        <item>ACLOTIL 75	[ 2820 ]</item>
         <item>ACOGUT	[ 33134 ]</item>
         <item>ACTIHEAL	[ 2046 ]</item>
         <item>ACTIHEAL D	[ 2047 ]</item>
@@ -52,44 +43,20 @@
         <item>ACUCLAV 625	[ 2596 ]</item>
         <item>ACUCLAV DRY SYRUP	[ 2606 ]</item>
         <item>ACUCLAV DS SYP	[ 1142 ]</item>
-        <item>ACUCLAV IV 1.2 GM	[ 2592 ]</item>
-        <item>ACUCLAV IV 300 MG	[ 2593 ]</item>
         <item>ACUCLAV KID	[ 2625 ]</item>
-        <item>ACUCLAV LB DRY SYP	[ 2815 ]</item>
-        <item>ACUCORT 100	[ 2464 ]</item>
-        <item>ACUCORT 250	[ 2856 ]</item>
-        <item>ACUDROX 125 DRY SYP	[ 711 ]</item>
-        <item>ACUDROX 125 DT	[ 708 ]</item>
-        <item>ACUDROX 250 DRY SYP	[ 712 ]</item>
-        <item>ACUDROX 250 DT	[ 709 ]</item>
-        <item>ACUDROX 500	[ 710 ]</item>
-        <item>ACUFIX 100 DT	[ 6694 ]</item>
         <item>ACUFIX 200	[ 6695 ]</item>
-        <item>ACUFIX 50 DT	[ 6693 ]</item>
-        <item>ACUFIX 50 SYP	[ 6706 ]</item>
         <item>ACUPENEM 1G	[ 91140 ]</item>
         <item>ACUTAZ AS INJ	[ 2626 ]</item>
         <item>ACUTAZ HS INJ	[ 2658 ]</item>
         <item>ACUTAZ PS INJ	[ 2711 ]</item>
-        <item>ADBETA 12.5	[ 5001 ]</item>
-        <item>ADBETA 25	[ 5002 ]</item>
-        <item>ADBETA H	[ 5003 ]</item>
         <item>ADENOMAC 200	[ 1744 ]</item>
         <item>ADENOMAC 400	[ 1856 ]</item>
-        <item>ADHALER	[ 5760 ]</item>
-        <item>ADK2	[ 5168 ]</item>
         <item>ADMAX	[ 5004 ]</item>
-        <item>ADMAX R	[ 5005 ]</item>
         <item>ADMAX XT	[ 5114 ]</item>
         <item>AEROTROP	[ 3133 ]</item>
         <item>AEROTROP F	[ 978 ]</item>
         <item>AEROTROP F INH	[ 2979 ]</item>
         <item>AEROTROP INH	[ 2980 ]</item>
-        <item>AEROZEST	[ 975 ]</item>
-        <item>AEROZEST INH	[ 1699 ]</item>
-        <item>AEROZEST RESP	[ 997 ]</item>
-        <item>AEROZEST RESP 0.63	[ 998 ]</item>
-        <item>AEROZEST RESP 1.25	[ 999 ]</item>
         <item>AERWAY	[ 380 ]</item>
         <item>AFIDO 20	[ 20343 ]</item>
         <item>AGRABAN INFUSION	[ 5857 ]</item>
@@ -103,25 +70,16 @@
         <item>AKURIT KID	[ 6908 ]</item>
         <item>AKURIT Z KID	[ 6909 ]</item>
         <item>AL-MITY PLUS	[ 11112 ]</item>
-        <item>ALATRO TAB	[ 33107 ]</item>
-        <item>ALBENDOL	[ 1396 ]</item>
-        <item>ALBENDOL SYP	[ 1397 ]</item>
-        <item>ALDOSTIX	[ 2556 ]</item>
-        <item>ALENOST 70	[ 829 ]</item>
-        <item>ALENOST D	[ 6064 ]</item>
         <item>ALERSID M	[ 10032 ]</item>
         <item>ALFA OSTEBON	[ 31501 ]</item>
         <item>ALFACAL	[ 705 ]</item>
-        <item>ALFACAL 0.5	[ 706 ]</item>
         <item>ALFACAL PLUS	[ 707 ]</item>
-        <item>ALGESIA	[ 2726 ]</item>
         <item>ALGESIA P	[ 2728 ]</item>
         <item>ALGESIA PLUS	[ 2929 ]</item>
         <item>ALGESIA SP	[ 2729 ]</item>
         <item>ALGESIA SR	[ 2727 ]</item>
         <item>ALKARATE	[ 1109 ]</item>
         <item>ALLERCET	[ 1400 ]</item>
-        <item>ALLERCET AX	[ 1151 ]</item>
         <item>ALLERCET COLD	[ 2707 ]</item>
         <item>ALLERCET DC	[ 1401 ]</item>
         <item>ALLERCET L	[ 1439 ]</item>
@@ -129,47 +87,33 @@
         <item>ALLERCET M TAB	[ 3030 ]</item>
         <item>ALLERCET SYP	[ 6167 ]</item>
         <item>ALMITY	[ 11111 ]</item>
-        <item>ALMITY-D3	[ 300 ]</item>
-        <item>ALMOGRIL 12.5	[ 30128 ]</item>
-        <item>ALMOGRIL 6.25	[ 30127 ]</item>
         <item>ALOCET 5	[ 6812 ]</item>
         <item>ALOCET D SYP	[ 4802 ]</item>
         <item>ALOCET D TAB	[ 4803 ]</item>
         <item>ALOCET M	[ 4793 ]</item>
+        <item>ALOCET M SYP	[ 4587 ]</item>
         <item>ALOCET SYRUP	[ 8116 ]</item>
         <item>ALOCET XL	[ 4759 ]</item>
-        <item>ALOCET XL 100ML	[ 4796 ]</item>
         <item>ALOCET XL SYP	[ 4764 ]</item>
         <item>ALPHACEPT -4	[ 33149 ]</item>
         <item>ALPHACEPT-8	[ 33150 ]</item>
         <item>ALPHACEPT-D4	[ 33151 ]</item>
         <item>ALPHACEPT-D8	[ 33152 ]</item>
-        <item>ALRISTA	[ 6115 ]</item>
         <item>ALRISTA FORTE	[ 2989 ]</item>
         <item>ALRISTA PLUS	[ 1696 ]</item>
         <item>ALRISTA SR	[ 1125 ]</item>
-        <item>ALRISTAN 25	[ 31001 ]</item>
-        <item>ALRISTAN 50	[ 31002 ]</item>
-        <item>ALRISTAN H	[ 31003 ]</item>
-        <item>ALSARTAN 25 MG	[ 31081 ]</item>
         <item>ALSARTAN 50 MG	[ 31082 ]</item>
         <item>ALSARTAN AM	[ 31606 ]</item>
         <item>ALSARTAN H TAB	[ 31083 ]</item>
+        <item>ALTOCID D	[ 91201 ]</item>
         <item>ALWEL 10	[ 5214 ]</item>
-        <item>ALWEL-5	[ 5683 ]</item>
-        <item>ALZIDOC 10	[ 7309 ]</item>
-        <item>ALZIDOC 5	[ 7310 ]</item>
-        <item>AMALAR	[ 1402 ]</item>
-        <item>AMALAR FORTE	[ 1449 ]</item>
-        <item>AMALAR SUSP	[ 1403 ]</item>
-        <item>AMAZIL 10	[ 5401 ]</item>
-        <item>AMAZIL 5	[ 5402 ]</item>
         <item>AMBRODIL	[ 31006 ]</item>
         <item>AMBRODIL DROPS	[ 31004 ]</item>
         <item>AMBRODIL LX DROP	[ 30636 ]</item>
         <item>AMBRODIL LX SYP	[ 31077 ]</item>
         <item>AMBRODIL PLUS RF	[ 31602 ]</item>
         <item>AMBRODIL S PLUS SYP	[ 34521 ]</item>
+        <item>AMBRODIL S SYP	[ 31005 ]</item>
         <item>AMBRODIL SYP	[ 31079 ]</item>
         <item>AMBRODIL XP	[ 31008 ]</item>
         <item>AMBRODIL XP SYP	[ 31007 ]</item>
@@ -189,17 +133,12 @@
         <item>AMIKEF 500	[ 7203 ]</item>
         <item>AMINOGEST CAP	[ 5977 ]</item>
         <item>AMINOGEST SUSP	[ 5978 ]</item>
-        <item>AMIODAR 100	[ 1507 ]</item>
-        <item>AMIODAR 200	[ 1508 ]</item>
         <item>AMIPACE 100	[ 7610 ]</item>
         <item>AMIPACE 200	[ 7611 ]</item>
         <item>AMLENOX ORAL PASTE	[ 5190 ]</item>
-        <item>AMLOGOLD 5	[ 9517 ]</item>
-        <item>AMLOGOLD AT	[ 9518 ]</item>
         <item>AMLONG 10	[ 1203 ]</item>
         <item>AMLONG 2.5	[ 1201 ]</item>
         <item>AMLONG 5	[ 1200 ]</item>
-        <item>AMLONG 7.5	[ 1202 ]</item>
         <item>AMLONG A	[ 1250 ]</item>
         <item>AMLONG A-25	[ 1251 ]</item>
         <item>AMLONG CT TAB	[ 3101 ]</item>
@@ -209,7 +148,6 @@
         <item>AMLONG TL 40	[ 3166 ]</item>
         <item>AMLOSAFE 10	[ 30629 ]</item>
         <item>AMLOSAFE 2.5	[ 31502 ]</item>
-        <item>AMLOSAFE 20	[ 31555 ]</item>
         <item>AMLOSAFE 3D	[ 31576 ]</item>
         <item>AMLOSAFE 5	[ 31589 ]</item>
         <item>AMLOSAFE AT	[ 31590 ]</item>
@@ -223,70 +161,48 @@
         <item>AMLOVAS 5	[ 751 ]</item>
         <item>AMLOVAS AT	[ 753 ]</item>
         <item>AMLOVAS AT 25	[ 911 ]</item>
-        <item>AMLOVAS CH	[ 3026 ]</item>
-        <item>AMLOVAS CH 6.25	[ 33509 ]</item>
         <item>AMLOVAS H	[ 2121 ]</item>
         <item>AMLOVAS L	[ 754 ]</item>
         <item>AMLOVAS LS	[ 831 ]</item>
         <item>AMLOVAS M 2.5/25	[ 7585 ]</item>
         <item>AMLOVAS M 5/25	[ 844 ]</item>
         <item>AMLOVAS M 5/50	[ 7584 ]</item>
-        <item>AMLOVAS OL	[ 6510 ]</item>
-        <item>AMLOVAS S 2.5	[ 836 ]</item>
-        <item>AMLOVAS S 5	[ 837 ]</item>
-        <item>AMLOVAS SN	[ 835 ]</item>
-        <item>AMLOVAS XM 2.5/25	[ 949 ]</item>
-        <item>AMLOVAS XM 5/25	[ 948 ]</item>
         <item>AMLOVAS XM 5/50	[ 947 ]</item>
         <item>AMLOZAAR	[ 1207 ]</item>
         <item>AMLOZAAR H	[ 6705 ]</item>
         <item>AMPRO HP	[ 5974 ]</item>
         <item>AMPRO KID	[ 5971 ]</item>
         <item>AMPRO MOM	[ 5972 ]</item>
-        <item>AMTORIL	[ 6756 ]</item>
+        <item>AMROLMAC	[ 3200 ]</item>
+        <item>AMROLMAC 15 GM	[ 3202 ]</item>
         <item>AMUCOE  100	[ 20331 ]</item>
         <item>AMUCOE  200SR	[ 20332 ]</item>
         <item>AMUCOE-NAC TABS.	[ 34563 ]</item>
         <item>ANCOOL SF SUSP	[ 4842 ]</item>
         <item>ANCOOL SUSP	[ 5959 ]</item>
-        <item>ANEMIDOX	[ 402 ]</item>
         <item>ANGIPLAT 2.5	[ 1737 ]</item>
         <item>ANGIPLAT 6.5	[ 1739 ]</item>
         <item>ANGIZAAR 25	[ 1208 ]</item>
         <item>ANGIZAAR 50	[ 1209 ]</item>
-        <item>ANGIZAAR AT	[ 2278 ]</item>
         <item>ANGIZAAR H	[ 1210 ]</item>
-        <item>ANOMETROGYL CR	[ 91138 ]</item>
+        <item>ANO METROGYL CR	[ 91138 ]</item>
         <item>ANORELIFE CREAM	[ 1889 ]</item>
         <item>ANTI THYROX 10	[ 6711 ]</item>
         <item>ANTI THYROX 20	[ 801 ]</item>
         <item>ANTI THYROX 5	[ 800 ]</item>
         <item>ANTIPLAR	[ 5802 ]</item>
         <item>ANTIPLAR PLUS	[ 5801 ]</item>
-        <item>ANXICALM 0.25	[ 7301 ]</item>
-        <item>ANXICALM 0.5	[ 7302 ]</item>
-        <item>ANXICOOL 0.5	[ 7926 ]</item>
-        <item>ANXICOOL 1	[ 7925 ]</item>
-        <item>ANXIT 0.125	[ 1339 ]</item>
-        <item>ANXIT 0.25	[ 1309 ]</item>
         <item>ANXIT 0.25	[ 2602 ]</item>
-        <item>ANXIT 0.5	[ 1310 ]</item>
         <item>ANXIT 0.5	[ 2603 ]</item>
         <item>ANXIT 0.5 SR	[ 1336 ]</item>
-        <item>ANXIT 1	[ 1626 ]</item>
-        <item>ANXIT 1 SR	[ 1606 ]</item>
         <item>ANXIT FORTE	[ 1345 ]</item>
         <item>ANXIT PLUS	[ 1311 ]</item>
         <item>ANZIOLET	[ 91130 ]</item>
-        <item>APITAT DROPS	[ 7196 ]</item>
-        <item>APITAT SYRUP	[ 7195 ]</item>
+        <item>ANZIOLET A 150	[ 91180 ]</item>
+        <item>ANZIOLET A 75	[ 91181 ]</item>
         <item>APRISTAR	[ 7353 ]</item>
-        <item>APRUV 2.5	[ 6724 ]</item>
-        <item>APRUV 5	[ 6725 ]</item>
-        <item>APRUV LT	[ 6751 ]</item>
         <item>APTISYP	[ 3129 ]</item>
         <item>APTIVATE SYP	[ 7468 ]</item>
-        <item>ARAMACT	[ 6829 ]</item>
         <item>ARBITEL 20	[ 1572 ]</item>
         <item>ARBITEL 40	[ 6108 ]</item>
         <item>ARBITEL 80	[ 8123 ]</item>
@@ -306,9 +222,6 @@
         <item>ARBOZIL 80 TAB.	[ 34584 ]</item>
         <item>ARGIGEST SACHET	[ 272 ]</item>
         <item>ARGIPRO D SACH	[ 34501 ]</item>
-        <item>ARILAN 10 TAB	[ 1634 ]</item>
-        <item>ARILAN 30	[ 1642 ]</item>
-        <item>ARISTAT	[ 6071 ]</item>
         <item>ARISTOGYL F SUSP	[ 30506 ]</item>
         <item>ARISTOGYL F TAB	[ 33545 ]</item>
         <item>ARISTOGYL SUSP	[ 30505 ]</item>
@@ -326,38 +239,24 @@
         <item>ARTIFLO 3	[ 34524 ]</item>
         <item>ARTIFLO 4	[ 34525 ]</item>
         <item>ARTILUMY	[ 2901 ]</item>
-        <item>ARTILUMY-DS-	[ 2902 ]</item>
         <item>ARTISID LF	[ 10010 ]</item>
-        <item>ARTIVIL	[ 4778 ]</item>
         <item>ARTIVIL 120 INJ	[ 4818 ]</item>
         <item>ARTIVIL INJ	[ 4777 ]</item>
         <item>ARTIVIL PLUS	[ 4790 ]</item>
-        <item>ARTIVIL PLUS 40 DT	[ 4806 ]</item>
-        <item>ARTIVIL PLUS SYP	[ 4798 ]</item>
         <item>ARZU 10	[ 7303 ]</item>
         <item>ARZU 15	[ 7304 ]</item>
         <item>ARZU 30	[ 7305 ]</item>
         <item>ASHWAMED	[ 2969 ]</item>
-        <item>ASOMET XL	[ 6146 ]</item>
-        <item>ASOMET XL 5	[ 6147 ]</item>
         <item>ASOMEX 1.25	[ 5301 ]</item>
         <item>ASOMEX 2.5	[ 5302 ]</item>
         <item>ASOMEX 5	[ 5303 ]</item>
-        <item>ASOMEX 5 CV	[ 5430 ]</item>
         <item>ASOMEX AT 2.5	[ 5304 ]</item>
         <item>ASOMEX AT 5	[ 5305 ]</item>
-        <item>ASOMEX BULK 2.5	[ 5366 ]</item>
-        <item>ASOMEX CL	[ 6764 ]</item>
-        <item>ASOMEX CV	[ 5429 ]</item>
         <item>ASOMEX D	[ 5306 ]</item>
         <item>ASOMEX D 5	[ 5309 ]</item>
         <item>ASOMEX LT 2.5	[ 5307 ]</item>
         <item>ASOMEX LT 5	[ 5517 ]</item>
-        <item>ASOMEX LTH	[ 5433 ]</item>
-        <item>ASOMEX LTH 5	[ 5435 ]</item>
         <item>ASOMEX OH	[ 5434 ]</item>
-        <item>ASOMEX OH FORTE	[ 5499 ]</item>
-        <item>ASOMEX R	[ 5308 ]</item>
         <item>ASOMEX TM	[ 5371 ]</item>
         <item>ASOMEX TM 5	[ 5370 ]</item>
         <item>ASTIN 10	[ 1561 ]</item>
@@ -368,44 +267,29 @@
         <item>ASTIN CV 20	[ 3108 ]</item>
         <item>ASTIN D 10	[ 2039 ]</item>
         <item>ASTIN D 20	[ 2040 ]</item>
-        <item>ATAZOR 150	[ 6553 ]</item>
-        <item>ATAZOR 200	[ 6554 ]</item>
         <item>ATAZOR 300	[ 6660 ]</item>
         <item>ATAZOR R	[ 9531 ]</item>
-        <item>ATAZOR-R-KIT	[ 9532 ]</item>
         <item>ATCHOL 10	[ 31009 ]</item>
         <item>ATCHOL 20	[ 31010 ]</item>
         <item>ATCHOL 40	[ 31011 ]</item>
         <item>ATCHOL ASP	[ 31012 ]</item>
         <item>ATCHOL F	[ 31013 ]</item>
-        <item>ATENOVA 100	[ 7753 ]</item>
         <item>ATENOVA 25	[ 7701 ]</item>
         <item>ATENOVA 50	[ 7702 ]</item>
-        <item>ATENOVA SA 25	[ 7493 ]</item>
-        <item>ATENOVA SA 50	[ 7494 ]</item>
-        <item>ATFUL	[ 5466 ]</item>
         <item>ATHEART 10	[ 33001 ]</item>
         <item>ATORCIA 10	[ 14001 ]</item>
         <item>ATORCIA 20	[ 14002 ]</item>
-        <item>ATORCIA 40	[ 14029 ]</item>
-        <item>ATORCIA 80	[ 14030 ]</item>
         <item>ATORCIA GOLD	[ 14069 ]</item>
         <item>ATORCIA TG	[ 14035 ]</item>
-        <item>ATORCIA-CP	[ 14051 ]</item>
         <item>ATOREC -80	[ 5890 ]</item>
         <item>ATOREC 10	[ 5804 ]</item>
-        <item>ATOREC 10 BULK	[ 5375 ]</item>
         <item>ATOREC 20	[ 5805 ]</item>
-        <item>ATOREC 20 D3	[ 5888 ]</item>
         <item>ATOREC 40	[ 6144 ]</item>
         <item>ATOREC 5	[ 5806 ]</item>
-        <item>ATOREC 5 R	[ 5456 ]</item>
-        <item>ATOREC ASP	[ 5803 ]</item>
         <item>ATOREC ASP CAP	[ 5897 ]</item>
         <item>ATOREC D3	[ 5889 ]</item>
         <item>ATOREC EZ	[ 5807 ]</item>
         <item>ATOREC F	[ 5850 ]</item>
-        <item>ATOREC R	[ 5875 ]</item>
         <item>ATORFEN 10	[ 5006 ]</item>
         <item>ATORMAC 10	[ 821 ]</item>
         <item>ATORMAC 20	[ 822 ]</item>
@@ -420,38 +304,23 @@
         <item>ATORMAC TG	[ 2614 ]</item>
         <item>ATPURE 12.5	[ 5903 ]</item>
         <item>ATPURE 25	[ 5904 ]</item>
-        <item>ATPURE 50	[ 5905 ]</item>
-        <item>ATPURE D	[ 5901 ]</item>
-        <item>ATPURE SA	[ 5902 ]</item>
-        <item>ATROFEN 5	[ 5099 ]</item>
         <item>AUGPEN 1.2 IV	[ 5007 ]</item>
         <item>AUGPEN 150 IV	[ 5008 ]</item>
-        <item>AUGPEN 1GM TAB	[ 5197 ]</item>
         <item>AUGPEN 300 IV	[ 5009 ]</item>
         <item>AUGPEN 375 TAB	[ 5196 ]</item>
         <item>AUGPEN 600 IV	[ 5010 ]</item>
         <item>AUGPEN 625	[ 5198 ]</item>
         <item>AUGPEN DROPS	[ 5147 ]</item>
         <item>AUGPEN DS SUSP	[ 5011 ]</item>
-        <item>AUGPEN FORTE DT	[ 5148 ]</item>
         <item>AUGPEN HS SUSP	[ 5012 ]</item>
         <item>AUGPEN KID DT	[ 5149 ]</item>
         <item>AUGPEN LB 1 G	[ 5013 ]</item>
-        <item>AUGPEN LB 1G BID	[ 5186 ]</item>
         <item>AUGPEN LB 375	[ 5014 ]</item>
         <item>AUGPEN LB 625	[ 5015 ]</item>
-        <item>AUGTAZ 1 GM INJ	[ 5601 ]</item>
-        <item>AUGTAZ 250 MG INJ	[ 5603 ]</item>
-        <item>AUGTAZ 500 MG INJ	[ 5602 ]</item>
-        <item>AUGTAZ KID 125 INJ	[ 5677 ]</item>
         <item>AUGXETIL 250 TAB	[ 20324 ]</item>
         <item>AUGXETIL 500	[ 34129 ]</item>
         <item>AUGXETIL CV 250	[ 34081 ]</item>
         <item>AUGXETIL CV 500	[ 34130 ]</item>
-        <item>AURICH 100 CAP	[ 4749 ]</item>
-        <item>AURICH 100 INJ	[ 5356 ]</item>
-        <item>AURICH 200	[ 4750 ]</item>
-        <item>AURICH 200 INJ	[ 5357 ]</item>
         <item>AUTOGATI 0.5% EYE DROP	[ 33166 ]</item>
         <item>AVAS 10	[ 1211 ]</item>
         <item>AVAS 10  D	[ 2934 ]</item>
@@ -460,22 +329,18 @@
         <item>AVAS 40	[ 1213 ]</item>
         <item>AVAS 5	[ 1214 ]</item>
         <item>AVAS 80	[ 1470 ]</item>
-        <item>AVAS AM	[ 1252 ]</item>
         <item>AVAS CV 10	[ 3170 ]</item>
         <item>AVAS CV 20	[ 3171 ]</item>
         <item>AVAS EZ	[ 2405 ]</item>
-        <item>AVAS PLUS	[ 2280 ]</item>
         <item>AZEFLO	[ 7443 ]</item>
         <item>AZENAM 1G INJ	[ 30511 ]</item>
         <item>AZENAM 500 INJ	[ 30510 ]</item>
-        <item>AZICOX 100 SUSP	[ 6718 ]</item>
-        <item>AZICOX 200 SUSP	[ 6719 ]</item>
         <item>AZICOX 250	[ 2590 ]</item>
         <item>AZICOX 500	[ 2591 ]</item>
-        <item>AZICOX CF	[ 2917 ]</item>
         <item>AZICYTE 250	[ 12013 ]</item>
         <item>AZICYTE 500	[ 12014 ]</item>
         <item>AZIDERM 10%	[ 1338 ]</item>
+        <item>AZIDERM 15% GEL	[ 3203 ]</item>
         <item>AZIDERM 20%	[ 1260 ]</item>
         <item>AZIDERM GEL 10%	[ 2081 ]</item>
         <item>AZIDERM GEL 20%	[ 2082 ]</item>
@@ -487,12 +352,6 @@
         <item>AZILPACK 40	[ 20339 ]</item>
         <item>AZISID-250	[ 10027 ]</item>
         <item>AZISID-500 TAB	[ 10025 ]</item>
-        <item>AZISWIFT 100 DT	[ 7204 ]</item>
-        <item>AZISWIFT 100 SYP	[ 7282 ]</item>
-        <item>AZISWIFT 200 SYP	[ 7286 ]</item>
-        <item>AZISWIFT 250	[ 7205 ]</item>
-        <item>AZISWIFT 500	[ 7206 ]</item>
-        <item>AZITHREE 100MG SUSP	[ 9545 ]</item>
         <item>AZITHREE 200 SUSP	[ 9546 ]</item>
         <item>AZITHREE 250	[ 9502 ]</item>
         <item>AZITHREE 500	[ 9503 ]</item>
@@ -508,36 +367,19 @@
         <item>AZIVENT 500 TAB	[ 30515 ]</item>
         <item>AZIVENT XL 100MG	[ 30649 ]</item>
         <item>AZIVENT XL 200 MG	[ 30650 ]</item>
-        <item>AZIWIN 100 DT	[ 2174 ]</item>
         <item>AZIWIN 100 SUSP	[ 2634 ]</item>
-        <item>AZIWIN 15 SUSP	[ 1543 ]</item>
         <item>AZIWIN 200 SUSP	[ 2635 ]</item>
         <item>AZIWIN 250	[ 1501 ]</item>
         <item>AZIWIN 500	[ 1502 ]</item>
-        <item>AZIWIN 7.5 SUSP	[ 1542 ]</item>
-        <item>AZIWIN AX 500	[ 6715 ]</item>
         <item>AZIWIN FS KIT	[ 2029 ]</item>
-        <item>AZOVAS   8	[ 564 ]</item>
-        <item>AZOVAS  16	[ 565 ]</item>
-        <item>AZU 100 SUSP	[ 4784 ]</item>
-        <item>AZU 200 SUSP	[ 4785 ]</item>
-        <item>AZU 250	[ 4769 ]</item>
-        <item>AZU 500	[ 4770 ]</item>
-        <item>AZU OD 100 SUSP	[ 4776 ]</item>
-        <item>AZUNATE -L SYP	[ 3011 ]</item>
-        <item>AZUNATE 100 TAB	[ 2399 ]</item>
-        <item>AZUNATE 50 TAB	[ 2398 ]</item>
         <item>AZUNATE AB 75	[ 3003 ]</item>
         <item>AZUNATE AB INJ	[ 1719 ]</item>
         <item>AZUNATE INJ	[ 2430 ]</item>
-        <item>AZUNATE L 240	[ 1140 ]</item>
         <item>AZUNATE L 480	[ 1141 ]</item>
         <item>B-CIN	[ 6988 ]</item>
         <item>B-CIN 200	[ 18019 ]</item>
         <item>BACIGYL N 60 SUSP	[ 30622 ]</item>
         <item>BACIGYL N SUSP	[ 30621 ]</item>
-        <item>BACIGYL SUSP	[ 30620 ]</item>
-        <item>BACTILEM AX	[ 5310 ]</item>
         <item>BACTOCLAV  DROP	[ 2985 ]</item>
         <item>BACTOCLAV 1.2 INJ	[ 2538 ]</item>
         <item>BACTOCLAV 375	[ 1445 ]</item>
@@ -547,20 +389,16 @@
         <item>BACTOCLAV DT	[ 7747 ]</item>
         <item>BACTOMIN 375	[ 33062 ]</item>
         <item>BACTOMIN 750 MG	[ 33061 ]</item>
-        <item>BALPOD 100	[ 1729 ]</item>
-        <item>BALPOD 200	[ 1728 ]</item>
-        <item>BALPOD CV	[ 1731 ]</item>
         <item>BALVIBE TAB	[ 2945 ]</item>
         <item>BASUGINE CART	[ 33066 ]</item>
         <item>BASUGINE INJ	[ 33064 ]</item>
         <item>BASUGINE PEN	[ 33065 ]</item>
-        <item>BAZUCIN	[ 8541 ]</item>
-        <item>BEETRION	[ 32004 ]</item>
         <item>BEIPOS	[ 34638 ]</item>
         <item>BEIPOS DROPS	[ 34637 ]</item>
         <item>BENALGIS	[ 33002 ]</item>
-        <item>BENEURON FORTE	[ 32005 ]</item>
         <item>BENFOSULES	[ 33806 ]</item>
+        <item>BENIDUCE  4	[ 3188 ]</item>
+        <item>BENIDUCE  8	[ 3189 ]</item>
         <item>BENIHYP   4	[ 575 ]</item>
         <item>BENIHYP   8	[ 576 ]</item>
         <item>BENINA 4MG	[ 34571 ]</item>
@@ -577,13 +415,13 @@
         <item>BENIPACK TRIO 12.5	[ 34548 ]</item>
         <item>BENZ PEARLS	[ 6970 ]</item>
         <item>BEPOGRA TAB	[ 33165 ]</item>
+        <item>BEPOMAC	[ 3197 ]</item>
         <item>BERIDIL SYRUP	[ 4583 ]</item>
         <item>BERIDIL-LS	[ 4586 ]</item>
         <item>BETA NICARDIA	[ 101 ]</item>
         <item>BETABRIM EYE DROPS	[ 6722 ]</item>
         <item>BETABRIM UNO	[ 3144 ]</item>
         <item>BETAFREE DP	[ 91149 ]</item>
-        <item>BETAMIL  OINT	[ 321 ]</item>
         <item>BETAMIL CREAM	[ 2829 ]</item>
         <item>BETAMIL GM	[ 2790 ]</item>
         <item>BETAMIL M	[ 2830 ]</item>
@@ -592,7 +430,6 @@
         <item>BEVON DROPS	[ 5018 ]</item>
         <item>BEVON SOFTULES	[ 5017 ]</item>
         <item>BEVON SUSP BIG	[ 5215 ]</item>
-        <item>BEVON SYP	[ 5016 ]</item>
         <item>BFN EYE DROPS	[ 1494 ]</item>
         <item>BICEF 250 DT	[ 1356 ]</item>
         <item>BICEF 500 DT	[ 1358 ]</item>
@@ -603,7 +440,6 @@
         <item>BIGOMET 850	[ 31512 ]</item>
         <item>BIGOMET M	[ 31573 ]</item>
         <item>BILCLAV 1.2G	[ 4791 ]</item>
-        <item>BILCLAV 1000 TAB	[ 4807 ]</item>
         <item>BILCLAV 375	[ 4792 ]</item>
         <item>BILCLAV 625	[ 6823 ]</item>
         <item>BILCLAV DS SYP	[ 6824 ]</item>
@@ -616,9 +452,6 @@
         <item>BIO D3 PLUS	[ 815 ]</item>
         <item>BIO D3 PLUS SUSP	[ 6755 ]</item>
         <item>BIO D3 STRONG	[ 9213 ]</item>
-        <item>BIOCLIN	[ 7207 ]</item>
-        <item>BION	[ 6799 ]</item>
-        <item>BION SACHETS	[ 6828 ]</item>
         <item>BIONECT CREAM	[ 3162 ]</item>
         <item>BIOVITALCAPS	[ 34648 ]</item>
         <item>BIZFER ELIXIR	[ 254 ]</item>
@@ -629,14 +462,9 @@
         <item>BONTINEX	[ 5786 ]</item>
         <item>BOOSTALIV SYRUP	[ 33524 ]</item>
         <item>BOTSURE POWDER	[ 33548 ]</item>
-        <item>BOWEX GRANULES	[ 8956 ]</item>
         <item>BRAKKE	[ 32006 ]</item>
         <item>BRITIBLU EYE DROPS	[ 9017 ]</item>
         <item>BROPHYLE CAP	[ 5130 ]</item>
-        <item>BRUTEK 200	[ 5107 ]</item>
-        <item>BRUTEK 300	[ 5108 ]</item>
-        <item>BRUTEK 400	[ 5109 ]</item>
-        <item>BRUTEK P	[ 5123 ]</item>
         <item>BUDAMATE  FORTE	[ 18029 ]</item>
         <item>BUDAMATE 100	[ 7413 ]</item>
         <item>BUDAMATE 100 INH	[ 7411 ]</item>
@@ -667,76 +495,36 @@
         <item>BUTRUM 2MG	[ 30517 ]</item>
         <item>BUXORIC 40	[ 2931 ]</item>
         <item>BUXORIC 80	[ 2932 ]</item>
-        <item>C DIME 1.0 GM INJ	[ 16000 ]</item>
-        <item>C DIME 2.0 GM INJ	[ 16002 ]</item>
-        <item>C LET 1.0 GM INJ	[ 16003 ]</item>
-        <item>C LET 500 MG INJ	[ 16004 ]</item>
-        <item>C PIME 1.0 GM INJ	[ 16005 ]</item>
-        <item>C PIME 500 INJ	[ 16001 ]</item>
         <item>C TAX  OF	[ 4853 ]</item>
-        <item>C TAX 125	[ 5156 ]</item>
         <item>C TAX 250 INJ	[ 5609 ]</item>
         <item>C TAX O 100	[ 5020 ]</item>
         <item>C TAX O 200	[ 5025 ]</item>
-        <item>C TAX O 400	[ 5128 ]</item>
-        <item>C TAX O 50 DT	[ 5022 ]</item>
         <item>C TAX O DROPS	[ 5019 ]</item>
         <item>C TAX O DRY SYP	[ 5021 ]</item>
         <item>C TAX O FORTE DRY SYP	[ 5131 ]</item>
         <item>C TAX O XL 200	[ 5024 ]</item>
-        <item>C TAX OF	[ 5169 ]</item>
-        <item>C TAZ 1.0 GM INJ	[ 16006 ]</item>
-        <item>C TAZ 500 MG INJ	[ 16007 ]</item>
         <item>C TRI 1 G INJ	[ 5026 ]</item>
-        <item>C ZID 1G	[ 5311 ]</item>
-        <item>C-TRI 125 MG	[ 5027 ]</item>
-        <item>C-TRI 2 GM	[ 5028 ]</item>
         <item>C-TRI 250 MG	[ 5029 ]</item>
-        <item>C-TRI 500 MG	[ 5030 ]</item>
-        <item>C-TRI T 250	[ 5031 ]</item>
-        <item>C-TRI T 500	[ 5032 ]</item>
-        <item>C-TRI XP 1.0 GM INJ	[ 5968 ]</item>
-        <item>C-TRI XP 250 MG INJ	[ 5969 ]</item>
         <item>C2	[ 9515 ]</item>
         <item>C2 OD	[ 9516 ]</item>
         <item>CABLIZ 0.25	[ 9214 ]</item>
         <item>CABLIZ 0.5	[ 9215 ]</item>
-        <item>CADVION FORTE	[ 389 ]</item>
-        <item>CADVION O3 CAP	[ 7746 ]</item>
-        <item>CALBORY	[ 112 ]</item>
-        <item>CALCIEM	[ 5701 ]</item>
-        <item>CALCIEM DHA	[ 5736 ]</item>
-        <item>CALCIGRAF AG FILM	[ 7208 ]</item>
-        <item>CALCIGRAF AG FOAM	[ 7209 ]</item>
-        <item>CALCIGRAF AG GEL	[ 7210 ]</item>
-        <item>CALCIGRAF AG VASCULAR	[ 7211 ]</item>
-        <item>CALONAT CL TAB	[ 5351 ]</item>
         <item>CALONAT D	[ 5312 ]</item>
         <item>CALONAT D3 GRANULES	[ 5520 ]</item>
         <item>CALONAT D3 TAB	[ 5495 ]</item>
         <item>CALOSOFT AF	[ 3049 ]</item>
         <item>CALOSOFT AF 50 ML	[ 3055 ]</item>
-        <item>CALOSOFT LOTION	[ 2450 ]</item>
-        <item>CALOSOFT LOTION 50 ML	[ 6680 ]</item>
         <item>CALOSOFT PLUS	[ 3139 ]</item>
         <item>CALOSOFT PLUS 100 ML	[ 3154 ]</item>
         <item>CALSPRAY	[ 1046 ]</item>
-        <item>CALUFT CAP	[ 7101 ]</item>
-        <item>CALUFT G	[ 7102 ]</item>
-        <item>CANDELONG 4	[ 1514 ]</item>
-        <item>CANDELONG 8	[ 1515 ]</item>
+        <item>CALVICAL CQ	[ 91200 ]</item>
+        <item>CALVICAL NANO	[ 91202 ]</item>
         <item>CANDISTAT	[ 326 ]</item>
         <item>CARBAMAC 300	[ 1749 ]</item>
-        <item>CARBAMAC 600	[ 1854 ]</item>
-        <item>CARBOFER-Z	[ 1545 ]</item>
-        <item>CARBOPHAGE 1000 SR	[ 398 ]</item>
-        <item>CARBOPHAGE 500SR	[ 397 ]</item>
         <item>CARBOPHAGE G1	[ 419 ]</item>
         <item>CARBOPHAGE G1 FORTE	[ 444 ]</item>
         <item>CARBOPHAGE G2	[ 420 ]</item>
         <item>CARBOPHAGE G2 FORTE	[ 445 ]</item>
-        <item>CARBOPHAGE P15	[ 399 ]</item>
-        <item>CARBOPHAGE P30	[ 400 ]</item>
         <item>CARBOPHAGE XR 1000	[ 282 ]</item>
         <item>CARBOPHAGE XR 500 TAB	[ 281 ]</item>
         <item>CARBOX-150  TAB	[ 1636 ]</item>
@@ -749,7 +537,6 @@
         <item>CARNIMAC PLUS	[ 3033 ]</item>
         <item>CARNIMAC TAB	[ 2030 ]</item>
         <item>CARTIFUEL	[ 34502 ]</item>
-        <item>CARVIDION OD	[ 1255 ]</item>
         <item>CARVIDON OD	[ 1254 ]</item>
         <item>CARVIDON-MR	[ 1216 ]</item>
         <item>CARVIPRESS  3.125	[ 1512 ]</item>
@@ -760,7 +547,6 @@
         <item>CEASTRA 200	[ 34520 ]</item>
         <item>CEASTRA XL 100	[ 34517 ]</item>
         <item>CEASTRA XL 200	[ 34518 ]</item>
-        <item>CEF 4	[ 7212 ]</item>
         <item>CEFADROX 125 DRY SYP	[ 30519 ]</item>
         <item>CEFADROX 125 KIT TABS	[ 30518 ]</item>
         <item>CEFADROX 250 DRY SYP	[ 30521 ]</item>
@@ -769,21 +555,13 @@
         <item>CEFADROX CV	[ 31014 ]</item>
         <item>CEFADROX CV DT	[ 31015 ]</item>
         <item>CEFANTRAL 1000	[ 7216 ]</item>
-        <item>CEFANTRAL 125	[ 7213 ]</item>
-        <item>CEFANTRAL 250	[ 7214 ]</item>
         <item>CEFANTRAL 500	[ 7215 ]</item>
-        <item>CEFAXONE 125	[ 7103 ]</item>
         <item>CEFAXONE 1GM	[ 7106 ]</item>
         <item>CEFAXONE 250	[ 7104 ]</item>
         <item>CEFAXONE 500	[ 7105 ]</item>
-        <item>CEFBIL 100 DT	[ 4789 ]</item>
         <item>CEFBIL 100 SYP	[ 6825 ]</item>
         <item>CEFBIL 200	[ 6821 ]</item>
         <item>CEFBIL 50 SYP	[ 4763 ]</item>
-        <item>CEFECTIVE  100  SY	[ 327 ]</item>
-        <item>CEFECTIVE  100  TAB	[ 328 ]</item>
-        <item>CEFECTIVE  200  TAB	[ 329 ]</item>
-        <item>CEFECTIVE  50  MG	[ 361 ]</item>
         <item>CEFF 125 SYP	[ 7222 ]</item>
         <item>CEFF 250	[ 7218 ]</item>
         <item>CEFF 250 DT	[ 7217 ]</item>
@@ -793,13 +571,7 @@
         <item>CEFF FORTE DRY SYP	[ 7223 ]</item>
         <item>CEFF FORTE PREMIX	[ 7225 ]</item>
         <item>CEFF KID	[ 7220 ]</item>
-        <item>CEFF PREMIX	[ 7224 ]</item>
         <item>CEFF PREMIX 60ML	[ 8126 ]</item>
-        <item>CEFFOREN 200	[ 7107 ]</item>
-        <item>CEFJOY 100	[ 184 ]</item>
-        <item>CEFJOY 200 TAB	[ 187 ]</item>
-        <item>CEFJOY CV	[ 228 ]</item>
-        <item>CEFJOY SUSP	[ 185 ]</item>
         <item>CEFKING 250	[ 91101 ]</item>
         <item>CEFKING 500	[ 91102 ]</item>
         <item>CEFOLAC 100	[ 765 ]</item>
@@ -814,7 +586,6 @@
         <item>CEFOLAC DROPS	[ 2099 ]</item>
         <item>CEFOLAC O 100	[ 1050 ]</item>
         <item>CEFOLAC O 200	[ 989 ]</item>
-        <item>CEFOLAC O DS	[ 1116 ]</item>
         <item>CEFOLAC ORAL SUSP	[ 767 ]</item>
         <item>CEFOLAC OZ	[ 2918 ]</item>
         <item>CEFOLAC XL 100	[ 2565 ]</item>
@@ -823,11 +594,13 @@
         <item>CEFRINE ORAL SUSP	[ 908 ]</item>
         <item>CEFSID 200	[ 10008 ]</item>
         <item>CELCOAL TABS	[ 20320 ]</item>
-        <item>CELKAST	[ 3025 ]</item>
+        <item>CELLO TUMBLER	[ 91188 ]</item>
         <item>CELOL	[ 5702 ]</item>
         <item>CELOL D3 GRANULES	[ 5773 ]</item>
+        <item>CELOL D3 PLUS	[ 91226 ]</item>
         <item>CELOL XT	[ 5703 ]</item>
         <item>CELOL-D3	[ 5771 ]</item>
+        <item>CENDOL	[ 91203 ]</item>
         <item>CEPOSID-200	[ 10022 ]</item>
         <item>CETIL 125	[ 7228 ]</item>
         <item>CETIL 250	[ 7229 ]</item>
@@ -843,8 +616,6 @@
         <item>CETSAFE PLUS	[ 6028 ]</item>
         <item>CHECAL	[ 465 ]</item>
         <item>CHECAL D	[ 34084 ]</item>
-        <item>CHEKCID 10	[ 31078 ]</item>
-        <item>CHYMOGOLD	[ 9557 ]</item>
         <item>CIALIS 10 MG TAB	[ 33156 ]</item>
         <item>CIALIS 20 MG TAB	[ 33146 ]</item>
         <item>CIDMUS 100	[ 34633 ]</item>
@@ -866,7 +637,6 @@
         <item>CILACAR-M10/25	[ 563 ]</item>
         <item>CILODOC 100	[ 7703 ]</item>
         <item>CILODOC 50	[ 7704 ]</item>
-        <item>CIPROBIOTIC TN-250	[ 6580 ]</item>
         <item>CISSJOINT	[ 34503 ]</item>
         <item>CITIMAC	[ 1123 ]</item>
         <item>CITIMAC P	[ 1120 ]</item>
@@ -874,35 +644,29 @@
         <item>CITISTAR 4 INJ	[ 7365 ]</item>
         <item>CITISTAR 500	[ 7311 ]</item>
         <item>CITISTAR PM	[ 7916 ]</item>
-        <item>CITROCIUM TAB	[ 6077 ]</item>
         <item>CLABIOZ SUSP	[ 33132 ]</item>
-        <item>CLACIX 200	[ 7236 ]</item>
         <item>CLARIGARD  500	[ 34038 ]</item>
         <item>CLARIGARD 250	[ 3080 ]</item>
+        <item>CLARIGARD DRY SYRUP	[ 3192 ]</item>
         <item>CLARIWIN 250	[ 1406 ]</item>
         <item>CLARIWIN 500	[ 6594 ]</item>
-        <item>CLAVIDUR  XR	[ 30113 ]</item>
         <item>CLAVIDUR 375	[ 7289 ]</item>
         <item>CLAVIDUR 457 MG DDS	[ 30117 ]</item>
         <item>CLAVIDUR 625	[ 7288 ]</item>
         <item>CLAVIDUR DS SUSP	[ 7290 ]</item>
         <item>CLAVIDUR KID DT	[ 8530 ]</item>
         <item>CLAVIDUR XR	[ 33078 ]</item>
-        <item>CLAVTAX O 100 TAB	[ 5110 ]</item>
-        <item>CLAVTAX O 200 TAB	[ 5111 ]</item>
         <item>CLINDASURE 150	[ 34585 ]</item>
         <item>CLINDASURE 300	[ 34586 ]</item>
         <item>CLINGEN 3 VAG SUPP	[ 31513 ]</item>
         <item>CLINGEN FORTE	[ 31514 ]</item>
         <item>CLINGEN VAG SUPP	[ 31515 ]</item>
         <item>CLINGEN WASH	[ 31597 ]</item>
-        <item>CLOBETAMIL CR	[ 330 ]</item>
         <item>CLOBETAMIL G	[ 331 ]</item>
         <item>CLOFLOW 75 MG TAB	[ 30623 ]</item>
         <item>CLOFLOW PLUS 75/150	[ 31517 ]</item>
         <item>CLOFLOW PLUS 75/75	[ 31518 ]</item>
         <item>CLOPITAB	[ 7705 ]</item>
-        <item>CLOPITAB 150	[ 7706 ]</item>
         <item>CLOPITAB 150	[ 7792 ]</item>
         <item>CLOPITAB A 150	[ 7708 ]</item>
         <item>CLOPITAB A 75	[ 7707 ]</item>
@@ -910,8 +674,6 @@
         <item>CLOPITAB CV 20	[ 33099 ]</item>
         <item>CLOPITAB CV GOLD 10	[ 33153 ]</item>
         <item>CLOPITAB CV GOLD 20	[ 33154 ]</item>
-        <item>CLOWFLOW 75	[ 31516 ]</item>
-        <item>CLOWFLOW PLUS 75/75	[ 34568 ]</item>
         <item>COBAFORTE CD3 TAB	[ 33839 ]</item>
         <item>COBAFORTE INJ	[ 34100 ]</item>
         <item>COBAFORTE OD CAP	[ 33831 ]</item>
@@ -938,12 +700,10 @@
         <item>COEKASTLE	[ 20201 ]</item>
         <item>COEKASTLE A	[ 20216 ]</item>
         <item>COEKASTLE AX	[ 34097 ]</item>
-        <item>COEKASTLE KID	[ 20202 ]</item>
         <item>COELONE 16 TAB	[ 20252 ]</item>
         <item>COELONE 4 TAB	[ 20250 ]</item>
         <item>COELONE 8 TAB	[ 20251 ]</item>
         <item>COENAC TAB	[ 20262 ]</item>
-        <item>COENATTO PLUS	[ 20215 ]</item>
         <item>COEPREG	[ 20255 ]</item>
         <item>COERINGA	[ 20204 ]</item>
         <item>COERINGA BIG SYP	[ 20238 ]</item>
@@ -951,16 +711,17 @@
         <item>COERIP	[ 20210 ]</item>
         <item>COERIP C	[ 20246 ]</item>
         <item>COERIP TAB	[ 20299 ]</item>
+        <item>COETRIE	[ 91220 ]</item>
+        <item>COETRIE PLUS	[ 91221 ]</item>
         <item>COEVITENZ	[ 20214 ]</item>
         <item>COEVITENZ D TAB	[ 20249 ]</item>
         <item>COEVITENZ H	[ 20223 ]</item>
-        <item>COGNIPRO 60MG ING	[ 7635 ]</item>
         <item>COGNISTAR 30	[ 30001 ]</item>
         <item>COGNISTAR 60 INJ	[ 11109 ]</item>
         <item>COGNITRAC -L	[ 33843 ]</item>
         <item>COGNITRAC INJ 60 MG	[ 33832 ]</item>
         <item>COLATAGE  B	[ 34551 ]</item>
-        <item>COLIWELL TAB	[ 33069 ]</item>
+        <item>COLE D3	[ 91204 ]</item>
         <item>COMBITAZ 1G	[ 7237 ]</item>
         <item>COMBITHER AT 120MG INJ.	[ 34127 ]</item>
         <item>COMBITHER AT INJ	[ 30526 ]</item>
@@ -973,10 +734,6 @@
         <item>COMBUTOL 400	[ 6913 ]</item>
         <item>COMBUTOL 600	[ 6914 ]</item>
         <item>COMBUTOL 800	[ 6915 ]</item>
-        <item>CONAPE 2 TAB	[ 9011 ]</item>
-        <item>CONAPE 4 TAB	[ 9012 ]</item>
-        <item>CONAPE PLUS 2	[ 7400 ]</item>
-        <item>CONAPE PLUS 4	[ 7497 ]</item>
         <item>CONCOR 10	[ 332 ]</item>
         <item>CONCOR 5	[ 333 ]</item>
         <item>CONCOR AM 2.5	[ 404 ]</item>
@@ -988,17 +745,16 @@
         <item>CONSIVAS 40	[ 33081 ]</item>
         <item>CONSIVAS F	[ 5872 ]</item>
         <item>CONSIVAS-10	[ 5859 ]</item>
-        <item>CONSIVAS-10 D3	[ 5509 ]</item>
         <item>CONSIVAS-20 TAB	[ 5865 ]</item>
         <item>CONSIVAS-5	[ 5860 ]</item>
         <item>CONSIVAS-D3	[ 5508 ]</item>
         <item>CORALIUM D3	[ 5216 ]</item>
-        <item>CORCAL 225	[ 7529 ]</item>
-        <item>CORCAL 500	[ 7538 ]</item>
+        <item>CORALIUM D3 SUSPENSION	[ 5240 ]</item>
         <item>CORCAL D 1000 IU	[ 295 ]</item>
         <item>CORCAL D 400	[ 34635 ]</item>
         <item>CORCAL D 500 IU	[ 294 ]</item>
-        <item>CORCAL PLAIN 225	[ 7643 ]</item>
+        <item>CORCAL MAX	[ 91184 ]</item>
+        <item>CORCAL PLAIN 500	[ 7644 ]</item>
         <item>CORCIUM	[ 6953 ]</item>
         <item>CORCIUM C	[ 7479 ]</item>
         <item>CORCIUM D3	[ 30136 ]</item>
@@ -1016,18 +772,12 @@
         <item>COSOME A SYRUP	[ 401 ]</item>
         <item>COSOME EXP	[ 363 ]</item>
         <item>COSOME SYP	[ 364 ]</item>
-        <item>COSYRUP	[ 9550 ]</item>
         <item>COVATIL 125 DT	[ 34642 ]</item>
         <item>COVATIL 250	[ 6679 ]</item>
         <item>COVATIL 500	[ 799 ]</item>
         <item>COVATIL CV 250	[ 8120 ]</item>
         <item>COVATIL CV 500	[ 8121 ]</item>
         <item>COVATIL LZ TAB	[ 33537 ]</item>
-        <item>COVERIT 10%	[ 1411 ]</item>
-        <item>COVERIT 2%	[ 2268 ]</item>
-        <item>COVERIT 5%	[ 2238 ]</item>
-        <item>COVERIT AX 2%	[ 1714 ]</item>
-        <item>COVERIT AX 5%	[ 1715 ]</item>
         <item>COXCAL 500	[ 2377 ]</item>
         <item>COXCAL DS	[ 6610 ]</item>
         <item>COXCAL SUSP	[ 6619 ]</item>
@@ -1036,22 +786,17 @@
         <item>COXPOD 100 DT	[ 2878 ]</item>
         <item>COXPOD 200	[ 2879 ]</item>
         <item>COXPOD DRY SYP	[ 2880 ]</item>
-        <item>COXSER 10	[ 6845 ]</item>
-        <item>COZIT	[ 5313 ]</item>
         <item>CRITIPRO	[ 31017 ]</item>
         <item>CRITIPRO DM	[ 31016 ]</item>
         <item>CROMOPLEX FORTE	[ 31519 ]</item>
         <item>CUBIT CAP	[ 20347 ]</item>
+        <item>CURO-CYST	[ 91205 ]</item>
         <item>CUTIWASH	[ 3013 ]</item>
         <item>CUTIWASH SOFT	[ 3018 ]</item>
         <item>CYCLORIN 250	[ 6916 ]</item>
         <item>CYNIDIP 10	[ 20309 ]</item>
         <item>CYNIDIP 20	[ 20310 ]</item>
-        <item>CZ COLD SYP	[ 7113 ]</item>
-        <item>CZ EX	[ 7114 ]</item>
-        <item>CZ L CAP	[ 7116 ]</item>
         <item>CZ PLUS	[ 11106 ]</item>
-        <item>CZ TUS	[ 7115 ]</item>
         <item>CZ3	[ 7110 ]</item>
         <item>CZ3 SYP	[ 7111 ]</item>
         <item>D 3 COXCAL SACHET	[ 6850 ]</item>
@@ -1061,7 +806,6 @@
         <item>D3 COXCAL	[ 6848 ]</item>
         <item>D3--EXTRA	[ 2967 ]</item>
         <item>D3-EXTRA	[ 2951 ]</item>
-        <item>DAINORM M OD 1000	[ 3099 ]</item>
         <item>DAONIL	[ 521 ]</item>
         <item>DAONIL M	[ 550 ]</item>
         <item>DARGEN 25 MCG	[ 7659 ]</item>
@@ -1100,14 +844,11 @@
         <item>DENSUEX	[ 3019 ]</item>
         <item>DEPICOR SR 10	[ 337 ]</item>
         <item>DEPICOR SR 20	[ 338 ]</item>
-        <item>DERMIBET-N 15	[ 6847 ]</item>
         <item>DEXORANGE CAP	[ 32502 ]</item>
         <item>DEXORANGE PAED SYP	[ 32503 ]</item>
         <item>DEXORANGE SYP	[ 32007 ]</item>
         <item>DEXPURE	[ 6078 ]</item>
-        <item>DEXPURE 5	[ 6148 ]</item>
         <item>DEXPURE D	[ 6818 ]</item>
-        <item>DEXPURE I.V. 10 MG	[ 5365 ]</item>
         <item>DEZACOR 6	[ 30530 ]</item>
         <item>DIABEND 40	[ 1535 ]</item>
         <item>DIABEND 80	[ 1534 ]</item>
@@ -1116,10 +857,7 @@
         <item>DIABEND MEX60	[ 3065 ]</item>
         <item>DIABEND MR 30	[ 1532 ]</item>
         <item>DIABEND MR 60	[ 1533 ]</item>
-        <item>DIAGRM-40	[ 6032 ]</item>
-        <item>DIAGRM-80	[ 6035 ]</item>
         <item>DIAMET 500	[ 1536 ]</item>
-        <item>DIAMET SR 1000	[ 2730 ]</item>
         <item>DIAMET SR 1000 MG	[ 1940 ]</item>
         <item>DIAMET SR 500	[ 2551 ]</item>
         <item>DIANORM	[ 1217 ]</item>
@@ -1128,46 +866,30 @@
         <item>DIANORM M OD 1000	[ 3103 ]</item>
         <item>DIANORM OD 30	[ 1247 ]</item>
         <item>DIANORM OD 60	[ 2134 ]</item>
-        <item>DIANORM-40	[ 1218 ]</item>
         <item>DIAPRIDE 1	[ 1462 ]</item>
         <item>DIAPRIDE 2	[ 1463 ]</item>
-        <item>DIAPRIDE FORTE	[ 1456 ]</item>
         <item>DIAPRIDE M 1	[ 1675 ]</item>
         <item>DIAPRIDE M 1 FORTE	[ 1680 ]</item>
         <item>DIAPRIDE M 2	[ 1676 ]</item>
         <item>DIAPRIDE M 2 FORTE	[ 1681 ]</item>
         <item>DIAPRIDE M3 FORTE	[ 2078 ]</item>
         <item>DIAPRIDE M4 FORTE	[ 2079 ]</item>
-        <item>DIAPRIDE PLUS	[ 1457 ]</item>
         <item>DIARICH	[ 6636 ]</item>
-        <item>DIARICH 100G	[ 1582 ]</item>
         <item>DIATEN	[ 91142 ]</item>
         <item>DIATEN M	[ 91143 ]</item>
         <item>DIAVIT PLUS	[ 33003 ]</item>
         <item>DIBIZIDE M	[ 1335 ]</item>
-        <item>DIBIZIDE OD	[ 1461 ]</item>
-        <item>DIBIZIDE OD 10MG	[ 1460 ]</item>
-        <item>DIBIZIDE TAB	[ 1451 ]</item>
         <item>DICLOBENZ GEL	[ 3043 ]</item>
         <item>DICLONAC 50	[ 7239 ]</item>
-        <item>DICLONAC GEL	[ 7242 ]</item>
         <item>DICLONAC INJ	[ 7240 ]</item>
-        <item>DICLONAC MR	[ 7244 ]</item>
-        <item>DICLONAC SR	[ 7241 ]</item>
         <item>DICLONAC TRANSGEL 30GM	[ 30106 ]</item>
         <item>DICLOPLAST PATCHES	[ 4830 ]</item>
-        <item>DICLORAN 3D	[ 12003 ]</item>
         <item>DICLORAN 50	[ 108 ]</item>
         <item>DICLORAN A	[ 103 ]</item>
-        <item>DICLORAN A 650	[ 8527 ]</item>
         <item>DICLORAN GEL 2%	[ 284 ]</item>
-        <item>DICLORAN MR	[ 182 ]</item>
         <item>DICLORAN SR	[ 107 ]</item>
-        <item>DIET LCF SYP	[ 7475 ]</item>
-        <item>DILATE EYE DROPS	[ 1270 ]</item>
         <item>DILCARDIA 30	[ 109 ]</item>
         <item>DILCARDIA 60	[ 110 ]</item>
-        <item>DILCARDIA SR 90	[ 111 ]</item>
         <item>DILNIP 10	[ 7806 ]</item>
         <item>DILNIP 20	[ 7808 ]</item>
         <item>DILNIP 5	[ 7805 ]</item>
@@ -1180,16 +902,10 @@
         <item>DINOGEST	[ 20244 ]</item>
         <item>DIOF DS SUSP	[ 5033 ]</item>
         <item>DIOF SUSP	[ 5034 ]</item>
-        <item>DIOF TAB	[ 5035 ]</item>
         <item>DISPRED 4	[ 119 ]</item>
         <item>DISPRED 8	[ 8544 ]</item>
-        <item>DIURIX 2.5 MG	[ 1552 ]</item>
-        <item>DIURIX SR TAB	[ 2513 ]</item>
+        <item>DIVALPRID OD 250	[ 1656 ]</item>
         <item>DIVALPRID OD 500	[ 6709 ]</item>
-        <item>DIVEXX MR TAB	[ 5037 ]</item>
-        <item>DIVEXX P TAB	[ 5038 ]</item>
-        <item>DIVON SPRAY	[ 6796 ]</item>
-        <item>DIVRET 1.5 TAB	[ 5808 ]</item>
         <item>DOBEROL	[ 34624 ]</item>
         <item>DOLESTIN-250	[ 4852 ]</item>
         <item>DOLESTIN-500	[ 4851 ]</item>
@@ -1204,12 +920,10 @@
         <item>DOLOPAR M SUSPENSION	[ 2960 ]</item>
         <item>DOLOPAR SUSP	[ 1360 ]</item>
         <item>DOLOPAR TAB	[ 1361 ]</item>
-        <item>DOLOSPAN DP TAB	[ 5314 ]</item>
         <item>DOLOSPAN INJ	[ 5315 ]</item>
-        <item>DOLOSPAN OD	[ 9210 ]</item>
-        <item>DOLOSPAN P TAB	[ 5316 ]</item>
-        <item>DOLOSPAN SR TAB	[ 5317 ]</item>
-        <item>DOLOSPAN TAB	[ 5318 ]</item>
+        <item>DOLOSPAN P FIZZ TABLET	[ 91168 ]</item>
+        <item>DOLOSPAN P TABLET	[ 91169 ]</item>
+        <item>DOLOSPAN TABLET	[ 91170 ]</item>
         <item>DOLOWIN FORTE	[ 1864 ]</item>
         <item>DOLOWIN GEL	[ 34617 ]</item>
         <item>DOLOWIN MR TABS	[ 2542 ]</item>
@@ -1218,12 +932,9 @@
         <item>DOLOWIN SR TAB	[ 2543 ]</item>
         <item>DOLOWIN TC	[ 34608 ]</item>
         <item>DOLOWIN TC 4	[ 34609 ]</item>
-        <item>DOMIZOL	[ 713 ]</item>
-        <item>DOMIZOL DS	[ 714 ]</item>
         <item>DORFREE MR 4	[ 33162 ]</item>
         <item>DORFREE MR 8	[ 33163 ]</item>
         <item>DOTHIP 25	[ 1617 ]</item>
-        <item>DOTRA M TAB	[ 5705 ]</item>
         <item>DOXCEF 100 SUSP	[ 7118 ]</item>
         <item>DOXCEF 100 TAB	[ 7173 ]</item>
         <item>DOXCEF 200	[ 7122 ]</item>
@@ -1233,22 +944,12 @@
         <item>DOXCEF CV SUSP	[ 7194 ]</item>
         <item>DOXCEF DT 100	[ 7120 ]</item>
         <item>DOXCEF DT 50	[ 7119 ]</item>
-        <item>DOXCEF TAB 100	[ 7121 ]</item>
         <item>DOXCEF-O	[ 11122 ]</item>
         <item>DOXIFIT	[ 8107 ]</item>
-        <item>DOXIFLO 400	[ 7460 ]</item>
-        <item>DOXIFLO OD TAB	[ 6969 ]</item>
-        <item>DOXIFLO SYP	[ 7474 ]</item>
         <item>DOXIFLO-650	[ 34071 ]</item>
+        <item>DOXOMAX OD 650	[ 31095 ]</item>
         <item>DOXOMAX XP	[ 31086 ]</item>
-        <item>DOXORIL 200	[ 841 ]</item>
-        <item>DOXORIL 400	[ 2772 ]</item>
         <item>DOXORIL 650	[ 34515 ]</item>
-        <item>DOXORIL M	[ 842 ]</item>
-        <item>DOXORIL OD	[ 7586 ]</item>
-        <item>DOXORIL PLUS 2	[ 6604 ]</item>
-        <item>DOXORIL PLUS 4	[ 6605 ]</item>
-        <item>DOXORIL-OD 400	[ 972 ]</item>
         <item>DUET 375	[ 7499 ]</item>
         <item>DUET 457MG DRY SUSP	[ 18030 ]</item>
         <item>DUET 625	[ 9520 ]</item>
@@ -1264,26 +965,23 @@
         <item>DUOPIL 2/500	[ 31019 ]</item>
         <item>DUOPIL HS 1/850	[ 31021 ]</item>
         <item>DUOPIL HS 2/850	[ 31020 ]</item>
-        <item>DUOPRIDE	[ 32008 ]</item>
         <item>DURATAZ 2.25 GM INJ	[ 33063 ]</item>
         <item>DURATAZ 4.5	[ 30531 ]</item>
         <item>DVION  PEARL 60K	[ 452 ]</item>
         <item>DVION DROPS	[ 279 ]</item>
         <item>DVION PEARL 1 K	[ 453 ]</item>
         <item>DVION SACHET 1G	[ 449 ]</item>
-        <item>DYNACLOX 500 CAP	[ 1557 ]</item>
-        <item>DYNACLOX KID TAB	[ 1558 ]</item>
         <item>E OVA M 100	[ 20253 ]</item>
         <item>E OVA M 50	[ 20254 ]</item>
         <item>E TEL 40	[ 5516 ]</item>
         <item>E- TAG  SYP	[ 20248 ]</item>
-        <item>E-OVA	[ 20242 ]</item>
         <item>E-OVA PLUS 100	[ 20259 ]</item>
         <item>E-OVA PLUS 50	[ 20258 ]</item>
         <item>E-TEL  80	[ 5506 ]</item>
         <item>E-TEL 20	[ 5505 ]</item>
         <item>E-TEL 80 H	[ 5504 ]</item>
         <item>E-TEL H	[ 5503 ]</item>
+        <item>EBAL-10	[ 3187 ]</item>
         <item>EBAST	[ 1316 ]</item>
         <item>EBAST 10 OD	[ 3110 ]</item>
         <item>EBAST 20	[ 1346 ]</item>
@@ -1299,7 +997,6 @@
         <item>ECOBION	[ 423 ]</item>
         <item>ECOBION BC SUSP	[ 472 ]</item>
         <item>ECOBION SACHETS	[ 424 ]</item>
-        <item>ECONEX 1000	[ 853 ]</item>
         <item>ECONEX 800	[ 852 ]</item>
         <item>ECOX 1000	[ 855 ]</item>
         <item>ECOX 800	[ 854 ]</item>
@@ -1308,23 +1005,13 @@
         <item>EFFENAC 600	[ 1890 ]</item>
         <item>EFFENAC AB	[ 3075 ]</item>
         <item>EFFICIN 1000	[ 6917 ]</item>
-        <item>EFFICIN 500	[ 6918 ]</item>
         <item>EFFICIN 750	[ 6919 ]</item>
-        <item>EFICEF 100 DT	[ 5947 ]</item>
-        <item>EFICEF 200	[ 5948 ]</item>
-        <item>EFICEF 50	[ 5949 ]</item>
         <item>EFICEF 50 SYP	[ 5956 ]</item>
         <item>EFICEF CV 100 DT	[ 4823 ]</item>
         <item>EFICEF CV 200	[ 4825 ]</item>
         <item>EFICEF CV 50 DT	[ 4824 ]</item>
-        <item>EJALONG 30	[ 5966 ]</item>
-        <item>EJALONG 60	[ 5973 ]</item>
-        <item>EJALONG XL TAB	[ 5976 ]</item>
         <item>ELDOPER	[ 1408 ]</item>
-        <item>ELECTROBION APPLE SIP	[ 6647 ]</item>
-        <item>ELECTROBION LEMON SIP	[ 6648 ]</item>
         <item>ELECTROBION ORANGE 4.2GM	[ 340 ]</item>
-        <item>ELECTROBION PRO	[ 280 ]</item>
         <item>ELESTRA	[ 1184 ]</item>
         <item>ELRIZ 5	[ 5611 ]</item>
         <item>ELRIZ SYP	[ 5612 ]</item>
@@ -1334,28 +1021,22 @@
         <item>EMANZEN D	[ 5319 ]</item>
         <item>EMANZEN DP	[ 5320 ]</item>
         <item>EMANZEN FORTE	[ 5321 ]</item>
-        <item>EMCLOZ 0.25MG. TABS	[ 34114 ]</item>
         <item>EMCLOZ 0.5MG.TABS	[ 34113 ]</item>
         <item>EMCOR CREAM	[ 91118 ]</item>
+        <item>EMCORIL  DX	[ 5528 ]</item>
+        <item>EMCORIL SYP	[ 91199 ]</item>
         <item>EMDUO 30 BOTTLE	[ 9521 ]</item>
         <item>EMDUO E 30 KIT	[ 6552 ]</item>
         <item>EMFLAM PLUS	[ 342 ]</item>
         <item>EMFOLIC	[ 5323 ]</item>
         <item>EMFOLIC DHA	[ 5354 ]</item>
-        <item>EMFOLIC INJ	[ 6156 ]</item>
-        <item>EMFOLIC SUP	[ 6606 ]</item>
         <item>EMGRA	[ 5457 ]</item>
         <item>EMIGO 4	[ 5668 ]</item>
         <item>EMIGO 4 MG INJ	[ 5616 ]</item>
         <item>EMIGO MD	[ 5615 ]</item>
         <item>EMIGO SUSP	[ 5618 ]</item>
-        <item>EMILIN M	[ 8540 ]</item>
         <item>EMLETRA	[ 30119 ]</item>
-        <item>EMLEVO 25	[ 8538 ]</item>
-        <item>EMLEVO 250	[ 33812 ]</item>
-        <item>EMLEVO 50	[ 8539 ]</item>
         <item>EMLEVO 500	[ 33813 ]</item>
-        <item>EMLEVO INJ	[ 33814 ]</item>
         <item>EMLUZ CR	[ 34542 ]</item>
         <item>EMLUZ CREAM	[ 91117 ]</item>
         <item>EMLUZ LOTION	[ 34626 ]</item>
@@ -1369,8 +1050,6 @@
         <item>EMSIDON-80	[ 33842 ]</item>
         <item>EMSULIDE	[ 5327 ]</item>
         <item>EMSULIDE P	[ 5326 ]</item>
-        <item>EMSULIDE P SUSP	[ 5325 ]</item>
-        <item>EMSULIDE SP	[ 6585 ]</item>
         <item>EMTRI 30	[ 6551 ]</item>
         <item>EMTRI 40	[ 6559 ]</item>
         <item>ENBIOS	[ 1872 ]</item>
@@ -1396,12 +1075,7 @@
         <item>ENDOFORMIN SR 500	[ 14006 ]</item>
         <item>ENDOFORMIN VG1	[ 14049 ]</item>
         <item>ENDOFORMIN VG2	[ 14050 ]</item>
-        <item>ENFINITY	[ 5741 ]</item>
-        <item>ENOXARIN 40	[ 5040 ]</item>
-        <item>ENOXARIN 60	[ 5041 ]</item>
         <item>ENSULES PLUS	[ 3178 ]</item>
-        <item>ENSULES PLUS 200	[ 807 ]</item>
-        <item>ENSULES PLUS 400	[ 808 ]</item>
         <item>ENTROFLORA	[ 1894 ]</item>
         <item>ENTROFLORA SACHET	[ 34121 ]</item>
         <item>ENTROFLORA SUSP	[ 3071 ]</item>
@@ -1410,13 +1084,10 @@
         <item>ENZOHEAL D	[ 1143 ]</item>
         <item>ENZOHEAL FORTE	[ 1178 ]</item>
         <item>ENZOHEAL OINT	[ 2928 ]</item>
-        <item>ENZOHEAL XP	[ 2940 ]</item>
         <item>ENZOMAC	[ 740 ]</item>
         <item>ENZOMAC FORTE	[ 1034 ]</item>
         <item>ENZOMAC OINT	[ 2930 ]</item>
         <item>ENZOMAC PLUS	[ 1087 ]</item>
-        <item>ENZOMAC XP	[ 2087 ]</item>
-        <item>ENZOVEXX TAB	[ 5042 ]</item>
         <item>EPILIVE 250	[ 7322 ]</item>
         <item>EPILIVE 500	[ 7323 ]</item>
         <item>EPILIVE 750	[ 7324 ]</item>
@@ -1431,29 +1102,23 @@
         <item>EPOCEPT 10000	[ 457 ]</item>
         <item>EPOCEPT 2000 PFS	[ 456 ]</item>
         <item>EPOCEPT 4000	[ 297 ]</item>
-        <item>ERECTEM	[ 5479 ]</item>
+        <item>ERGOMONT A	[ 91183 ]</item>
         <item>ERGOMONT F	[ 91100 ]</item>
         <item>ERGOMONT L	[ 91134 ]</item>
         <item>ERGONAC-P	[ 91103 ]</item>
         <item>ERGONAC-SP	[ 91104 ]</item>
-        <item>EROFICA 90	[ 2243 ]</item>
-        <item>ERTAMAC 1GM	[ 1131 ]</item>
-        <item>ERTEM INJ	[ 7188 ]</item>
         <item>ERZOL	[ 91095 ]</item>
         <item>ERZOL-D	[ 91096 ]</item>
         <item>ERZOL-L	[ 91097 ]</item>
         <item>ESD3 800 DROPS	[ 4831 ]</item>
-        <item>ESD3 GRANULES	[ 4814 ]</item>
+        <item>ESD3 SACHETS	[ 4814 ]</item>
         <item>ESD3 TAB	[ 4821 ]</item>
-        <item>ESGABA 150	[ 7752 ]</item>
-        <item>ESGABA 75	[ 7751 ]</item>
         <item>ESIFLO 100	[ 7426 ]</item>
         <item>ESIFLO 125 INH	[ 7424 ]</item>
         <item>ESIFLO 250	[ 7427 ]</item>
         <item>ESIFLO 250 INH	[ 7425 ]</item>
         <item>ESIFLO 50 INH	[ 7429 ]</item>
         <item>ESIFLO 500	[ 7428 ]</item>
-        <item>ESLICAR 400	[ 5445 ]</item>
         <item>ESLO 1.25	[ 5046 ]</item>
         <item>ESLO 2.5	[ 5047 ]</item>
         <item>ESLO 5	[ 5048 ]</item>
@@ -1485,18 +1150,14 @@
         <item>ETIZEP 0.50	[ 3028 ]</item>
         <item>ETIZOLA 0.25	[ 794 ]</item>
         <item>ETIZOLA 0.5	[ 6589 ]</item>
-        <item>ETIZOLA 1	[ 840 ]</item>
         <item>ETIZOLA BETA 0.25	[ 1137 ]</item>
         <item>ETIZOLA BETA 0.50	[ 1138 ]</item>
         <item>ETIZOLA LITE 10	[ 3126 ]</item>
         <item>ETIZOLA LITE 5	[ 3127 ]</item>
-        <item>ETIZOLA MD 0.5 MG	[ 1052 ]</item>
         <item>ETIZOLA P 12.5	[ 34612 ]</item>
         <item>ETIZOLA P 25	[ 34613 ]</item>
         <item>ETIZOLA PLUS 10	[ 736 ]</item>
         <item>ETIZOLA PLUS 5	[ 735 ]</item>
-        <item>ETOCOX 60	[ 31022 ]</item>
-        <item>ETOCOX 90	[ 31023 ]</item>
         <item>ETOFREE 400	[ 7180 ]</item>
         <item>ETOFREE 600	[ 7181 ]</item>
         <item>ETOFREE P	[ 7186 ]</item>
@@ -1505,54 +1166,36 @@
         <item>ETOSAID 90	[ 721 ]</item>
         <item>ETOSAID MR	[ 3157 ]</item>
         <item>ETOSPEED 90	[ 34109 ]</item>
-        <item>ETS 100 INJ	[ 5730 ]</item>
-        <item>ETS 200 INJ	[ 5729 ]</item>
-        <item>ETS 400	[ 5731 ]</item>
         <item>EUBIOZ	[ 7125 ]</item>
         <item>EUBIOZ SACHET	[ 7126 ]</item>
         <item>EUCALMIN CAP	[ 5204 ]</item>
-        <item>EUGRAF 150	[ 7247 ]</item>
         <item>EVABLIS TAB	[ 3102 ]</item>
-        <item>EVACARE	[ 9102 ]</item>
         <item>EVACUOL GRANULES	[ 32009 ]</item>
         <item>EVAMAXIC	[ 5781 ]</item>
         <item>EVASONIC	[ 18001 ]</item>
         <item>EVION 200	[ 347 ]</item>
         <item>EVION 400	[ 348 ]</item>
         <item>EVION 600	[ 349 ]</item>
-        <item>EVION CREAM 20 GM	[ 388 ]</item>
         <item>EVION DROPS	[ 351 ]</item>
         <item>EVION FORTE	[ 6152 ]</item>
         <item>EVION LC	[ 387 ]</item>
-        <item>EVION OMEGA 200	[ 392 ]</item>
-        <item>EVION OMEGA 400	[ 391 ]</item>
-        <item>EVION Q10	[ 212 ]</item>
-        <item>EVION Q100	[ 439 ]</item>
-        <item>EXFLAM  GEL	[ 352 ]</item>
         <item>EXHEP 40 INJ	[ 5409 ]</item>
         <item>EXHEP 60 INJ	[ 5410 ]</item>
-        <item>EXNA K	[ 1566 ]</item>
         <item>EXPIRTIN 100	[ 31024 ]</item>
         <item>EXTRAGAT EYE	[ 3112 ]</item>
         <item>EXTRALUBE EYE DROPS	[ 1498 ]</item>
         <item>EZEDOC 10	[ 7709 ]</item>
+        <item>EZIGO ORAL SOLUTION	[ 91229 ]</item>
         <item>FAA 20	[ 7476 ]</item>
         <item>FAA 20 SYP	[ 6997 ]</item>
-        <item>FADVIC 40	[ 5744 ]</item>
-        <item>FADVIC 80	[ 5408 ]</item>
         <item>FAL DP	[ 5228 ]</item>
         <item>FALCIFINE	[ 8136 ]</item>
-        <item>FALCIFINE DRY	[ 8137 ]</item>
-        <item>FALCINIL AQ	[ 5173 ]</item>
         <item>FALCINIL FORTE INJ	[ 5182 ]</item>
         <item>FALCINIL INJ	[ 5051 ]</item>
-        <item>FALCINIL LF	[ 5104 ]</item>
         <item>FALCINIL LF DRY SYRUP	[ 5097 ]</item>
         <item>FALCINIL LFX	[ 5127 ]</item>
         <item>FAMCIMAC 250	[ 724 ]</item>
         <item>FAMCIMAC 500	[ 725 ]</item>
-        <item>FARBION	[ 728 ]</item>
-        <item>FARBION SUSP	[ 1852 ]</item>
         <item>FARBISURE	[ 2970 ]</item>
         <item>FARBISURE SUSPENSION	[ 2997 ]</item>
         <item>FBN EYE DROPS	[ 1271 ]</item>
@@ -1560,23 +1203,16 @@
         <item>FEBUMAC 80	[ 1094 ]</item>
         <item>FELBIMAX	[ 33073 ]</item>
         <item>FELBIMAX GEL	[ 33074 ]</item>
-        <item>FENOVAS	[ 1584 ]</item>
         <item>FERINJECT 100 MG(2 ML)	[ 459 ]</item>
         <item>FERINJECT 500 MG(10 ML)	[ 458 ]</item>
-        <item>FERINUT	[ 12002 ]</item>
-        <item>FERIUM 365	[ 5751 ]</item>
-        <item>FERIUM 365 SUSP	[ 5755 ]</item>
-        <item>FERIUM 50 CHEWTAB	[ 5908 ]</item>
         <item>FERIUM CHEWABLE	[ 5909 ]</item>
         <item>FERIUM D3	[ 5775 ]</item>
-        <item>FERIUM DROPS	[ 5910 ]</item>
+        <item>FERIUM INJ 1K	[ 91225 ]</item>
         <item>FERIUM INJ 500MG	[ 5768 ]</item>
         <item>FERIUM SYP	[ 5911 ]</item>
         <item>FERIUM XT	[ 5709 ]</item>
-        <item>FERIUM XT DHA	[ 5413 ]</item>
         <item>FERIUM XT DROPS	[ 5707 ]</item>
         <item>FERIUM XT SUSP	[ 5708 ]</item>
-        <item>FERIUM XT Z	[ 5406 ]</item>
         <item>FERONIA D3	[ 5212 ]</item>
         <item>FERONIA HP	[ 5174 ]</item>
         <item>FERONIA IV 100	[ 5125 ]</item>
@@ -1588,12 +1224,6 @@
         <item>FEROZORB   SUSP	[ 3141 ]</item>
         <item>FERRI 100 INJ	[ 5361 ]</item>
         <item>FERRI INJ	[ 5710 ]</item>
-        <item>FERTIPLUS	[ 34649 ]</item>
-        <item>FERTIPLUS M TABLETS	[ 34651 ]</item>
-        <item>FEVRIDOL 120 SUSP	[ 5950 ]</item>
-        <item>FEVRIDOL 250 SUSP	[ 5951 ]</item>
-        <item>FEVRIDOL 650 ER	[ 5958 ]</item>
-        <item>FEVRIDOL INJECTION	[ 5960 ]</item>
         <item>FEVRIDOL IV	[ 5170 ]</item>
         <item>FEXY 120	[ 7491 ]</item>
         <item>FEXY 180	[ 7492 ]</item>
@@ -1606,15 +1236,7 @@
         <item>FIBRIL XL 90 GM	[ 7578 ]</item>
         <item>FIBRINIL MF	[ 32504 ]</item>
         <item>FIBRODONE	[ 30161 ]</item>
-        <item>FIBROVAS	[ 1569 ]</item>
         <item>FIBROVAS 160	[ 1597 ]</item>
-        <item>FICO 100	[ 5915 ]</item>
-        <item>FICO P	[ 5912 ]</item>
-        <item>FICO SP	[ 5913 ]</item>
-        <item>FICO SR	[ 5914 ]</item>
-        <item>FILIN MD 0.25	[ 5475 ]</item>
-        <item>FILIN MD 0.5	[ 5474 ]</item>
-        <item>FILIN MD 1	[ 5473 ]</item>
         <item>FINAMAC	[ 1932 ]</item>
         <item>FINATE 160	[ 33004 ]</item>
         <item>FINE HART	[ 33005 ]</item>
@@ -1630,13 +1252,11 @@
         <item>FLEXABENZ ER	[ 733 ]</item>
         <item>FLEXABENZ GEL	[ 1190 ]</item>
         <item>FLEXABENZ PLUS	[ 1174 ]</item>
-        <item>FLEXIJOINT	[ 406 ]</item>
         <item>FLEXON	[ 30534 ]</item>
         <item>FLEXON MR	[ 30532 ]</item>
         <item>FLEXON SYP 262.5	[ 30533 ]</item>
         <item>FLODART	[ 31523 ]</item>
         <item>FLODART PLUS	[ 31522 ]</item>
-        <item>FLOFRE 10	[ 5851 ]</item>
         <item>FLORESP NASAL SPRAY	[ 1736 ]</item>
         <item>FLORESP-AZ NASAL SPRAY	[ 18021 ]</item>
         <item>FLORISTORE 2.5 CAP	[ 5224 ]</item>
@@ -1645,8 +1265,6 @@
         <item>FLUGESIC P	[ 18027 ]</item>
         <item>FLUGESIC SR	[ 30116 ]</item>
         <item>FLUMACE DROPS	[ 1666 ]</item>
-        <item>FLUNOVA 200	[ 5620 ]</item>
-        <item>FLUNOVA 50 DT	[ 5621 ]</item>
         <item>FLURISONE EYE DROPS	[ 1273 ]</item>
         <item>FLURISONE EYE OINTMENT	[ 6638 ]</item>
         <item>FLURISONE T DROP	[ 3040 ]</item>
@@ -1666,7 +1284,6 @@
         <item>FLUTYCANDY	[ 6855 ]</item>
         <item>FLUTYCANDY 200 CAP	[ 34621 ]</item>
         <item>FLUTYCANDY DUSTING POWDER	[ 3172 ]</item>
-        <item>FLUVISTA	[ 5188 ]</item>
         <item>FNS 25	[ 3082 ]</item>
         <item>FNS 25 SACH	[ 3083 ]</item>
         <item>FOLFIT TAB	[ 1479 ]</item>
@@ -1690,9 +1307,6 @@
         <item>FORMOFLO 250	[ 7431 ]</item>
         <item>FORMOFLO 250 INH	[ 7433 ]</item>
         <item>FORMOFLO FORTE	[ 18028 ]</item>
-        <item>FORPLUS-400MG	[ 5154 ]</item>
-        <item>FORSMART 400	[ 5756 ]</item>
-        <item>FORSMART 400 INH	[ 5758 ]</item>
         <item>FOSEAL-400 TAB	[ 6500 ]</item>
         <item>FOSEAL-800	[ 6501 ]</item>
         <item>FOSFOE	[ 34098 ]</item>
@@ -1705,16 +1319,14 @@
         <item>FULL 365 BIG SUS	[ 4839 ]</item>
         <item>FULL 365 CAP	[ 5330 ]</item>
         <item>FULL 365 DROPS	[ 6701 ]</item>
-        <item>FULL 365 SYP	[ 5329 ]</item>
         <item>FULL 365 WOMAN CAP	[ 4849 ]</item>
         <item>FULTERM TAB	[ 1366 ]</item>
         <item>FUNGEEHEAL 100	[ 33136 ]</item>
         <item>FUNGEEHEAL 200	[ 33137 ]</item>
         <item>FUNGITERB	[ 3165 ]</item>
+        <item>FUNGITERB POWDER	[ 3194 ]</item>
         <item>FURIC 40	[ 7198 ]</item>
         <item>FURIC 80	[ 7199 ]</item>
-        <item>FUTADEN D	[ 5460 ]</item>
-        <item>G CIN A	[ 6982 ]</item>
         <item>G-CIN	[ 6945 ]</item>
         <item>G3N  2.6 TAB	[ 557 ]</item>
         <item>G3N 6.4 TAB	[ 558 ]</item>
@@ -1731,7 +1343,6 @@
         <item>GABANEURON SR	[ 31033 ]</item>
         <item>GABASAFE PLUS	[ 31524 ]</item>
         <item>GABASAFE PLUS SR 75	[ 31525 ]</item>
-        <item>GABASTAR 300	[ 7571 ]</item>
         <item>GABASTAR M	[ 7569 ]</item>
         <item>GALACT GRANULES	[ 6627 ]</item>
         <item>GALOP 10	[ 5471 ]</item>
@@ -1739,10 +1350,9 @@
         <item>GALOP 5	[ 5472 ]</item>
         <item>GALOP PLUS 10	[ 33816 ]</item>
         <item>GALOP PLUS 5	[ 33817 ]</item>
+        <item>GASOVIA LIQUID	[ 91230 ]</item>
         <item>GATIBLU 0.3%	[ 9001 ]</item>
-        <item>GATIBLU D 0.3%	[ 9002 ]</item>
-        <item>GATIMAC 200	[ 715 ]</item>
-        <item>GATIMAC 400	[ 716 ]</item>
+        <item>GCS TAB	[ 6149 ]</item>
         <item>GEMINOR 1	[ 6802 ]</item>
         <item>GEMINOR 2	[ 6803 ]</item>
         <item>GEMINOR M-1	[ 6807 ]</item>
@@ -1755,17 +1365,13 @@
         <item>GEMINOR MP 1 LS	[ 2952 ]</item>
         <item>GEMINOR MP 2	[ 1042 ]</item>
         <item>GEMINOR MP 2 LS	[ 2954 ]</item>
-        <item>GEN -D3-INJ	[ 2996 ]</item>
         <item>GEN D3 60K SACHET	[ 2044 ]</item>
         <item>GEN-D3 1K	[ 1724 ]</item>
         <item>GEN-D3 60K	[ 1723 ]</item>
         <item>GENIXIM-200	[ 8957 ]</item>
-        <item>GENPRAZ 20	[ 1891 ]</item>
         <item>GENPRAZ DSR	[ 1892 ]</item>
         <item>GENPRAZ LS	[ 3138 ]</item>
         <item>GENWASH LOTION	[ 9223 ]</item>
-        <item>GERIA GOLD SAFFRON	[ 9103 ]</item>
-        <item>GERIA-TWIN MANGO	[ 9109 ]</item>
         <item>GETSURE	[ 33501 ]</item>
         <item>GETSURE  LIV	[ 33551 ]</item>
         <item>GETSURE 2.0	[ 33504 ]</item>
@@ -1800,7 +1406,6 @@
         <item>GLIDE	[ 33008 ]</item>
         <item>GLIMET	[ 33009 ]</item>
         <item>GLIMET DS	[ 33010 ]</item>
-        <item>GLIMGOLD TRIO 2	[ 9558 ]</item>
         <item>GLIMIPACK M  2	[ 20285 ]</item>
         <item>GLIMIPACK M 1	[ 20283 ]</item>
         <item>GLIMIPACK M 1 FORTE	[ 20284 ]</item>
@@ -1820,12 +1425,14 @@
         <item>GLIMIPREX MF 1/500	[ 31530 ]</item>
         <item>GLIMIPREX MF 2/500	[ 31531 ]</item>
         <item>GLIPON 20 MG	[ 31093 ]</item>
+        <item>GLIPON MF	[ 30657 ]</item>
+        <item>GLIPON MF FORTE	[ 30656 ]</item>
         <item>GLIPSOV M 20/500	[ 91155 ]</item>
+        <item>GLIPSOV M TABLET 20/1000	[ 592 ]</item>
         <item>GLIPSOV TAB	[ 34537 ]</item>
         <item>GLUCOFREE  BAR PANI PURI FLAV	[ 591 ]</item>
         <item>GLUCOFREE 40 GM BAR	[ 590 ]</item>
         <item>GLUCOFREE BAR ALOO CHAT FLAVOUR	[ 91163 ]</item>
-        <item>GLUCOMIND	[ 7617 ]</item>
         <item>GLUCONORM -V 0.2	[ 7663 ]</item>
         <item>GLUCONORM -V 0.3	[ 7664 ]</item>
         <item>GLUCONORM G 0.5	[ 34082 ]</item>
@@ -1864,7 +1471,6 @@
         <item>GLUCONORM VG 2 PLUS TAB	[ 7662 ]</item>
         <item>GLUTASAFE	[ 33516 ]</item>
         <item>GLUTOWIN FORTE	[ 2287 ]</item>
-        <item>GLUTOWIN PLUS	[ 2288 ]</item>
         <item>GLYBOVIN 1.25	[ 31532 ]</item>
         <item>GLYBOVIN 2.5	[ 31533 ]</item>
         <item>GLYBOVIN 5	[ 31534 ]</item>
@@ -1897,8 +1503,6 @@
         <item>GLYCOSTAR-M1	[ 91111 ]</item>
         <item>GLYCOSTAR-M2	[ 91112 ]</item>
         <item>GLYPTEN	[ 33148 ]</item>
-        <item>GLYREP	[ 5387 ]</item>
-        <item>GLYREP XL 1000	[ 5918 ]</item>
         <item>GLYVAS-10	[ 1587 ]</item>
         <item>GLYVAS-5	[ 1588 ]</item>
         <item>GLYVAS-F TAB	[ 1863 ]</item>
@@ -1922,22 +1526,25 @@
         <item>GR8	[ 32011 ]</item>
         <item>GR8 OD	[ 32012 ]</item>
         <item>GRAMOCEF CV 10 TAB	[ 1490 ]</item>
-        <item>GRAMOCEF CV DRY SYP	[ 1683 ]</item>
+        <item>GRAMOCEF O 50 DRY SYP	[ 2267 ]</item>
+        <item>GRAMOCEF-O 100 DT	[ 1341 ]</item>
+        <item>GRAMOCEF-O 200 DT	[ 1342 ]</item>
+        <item>GRAMOCEF-O 50 DT	[ 1340 ]</item>
         <item>GRANDEM 1MG	[ 30535 ]</item>
         <item>GRANDEM INJ	[ 30536 ]</item>
         <item>GRANDEM INJ 3ML	[ 30537 ]</item>
         <item>GRANDEM MD	[ 30618 ]</item>
         <item>GRANDEM SYP	[ 30538 ]</item>
-        <item>GRAVIDERM CREAM	[ 9224 ]</item>
+        <item>GRAVIMOM	[ 91206 ]</item>
         <item>GRILINCTUS BM PAEDIATRIC	[ 32533 ]</item>
         <item>GRILLINCTUS BM SYP	[ 32015 ]</item>
         <item>GRILLINCTUS BM TAB	[ 32016 ]</item>
-        <item>GRILLINCTUS CD SYP	[ 32013 ]</item>
+        <item>GRILLINCTUS LS SYP	[ 91224 ]</item>
         <item>GRILLINCTUS PAED SYP	[ 32505 ]</item>
         <item>GRILLINCTUS SYP	[ 32014 ]</item>
         <item>GRILLINCTUS- L	[ 91116 ]</item>
+        <item>GUTCLEAR BIG SYP	[ 5689 ]</item>
         <item>GUTCLEAR IG BIG POWD	[ 34541 ]</item>
-        <item>GUTCLEAR SYP	[ 5689 ]</item>
         <item>GUTCLEAR SYRUP	[ 5690 ]</item>
         <item>GUTCLEAR-IG-POWDER	[ 5696 ]</item>
         <item>HAIRBOOST	[ 34043 ]</item>
@@ -1952,15 +1559,11 @@
         <item>HATRIC SYP	[ 30543 ]</item>
         <item>HATRIC VEPO 324.5	[ 30541 ]</item>
         <item>HEADSET	[ 7911 ]</item>
-        <item>HEMOBION CAPTABS	[ 395 ]</item>
         <item>HEMOLIT OINT	[ 3143 ]</item>
         <item>HEPAFRESH	[ 2994 ]</item>
-        <item>HEPALO 0.5 TAB	[ 30144 ]</item>
         <item>HEPASULFOL AA	[ 32507 ]</item>
-        <item>HEPMEND 150	[ 30147 ]</item>
-        <item>HEPMEND 500	[ 34024 ]</item>
+        <item>HEPMEND INJECTION 10 ML	[ 8912 ]</item>
         <item>HEPMEND SACH	[ 91153 ]</item>
-        <item>HERPAREX EYE OINTMENT	[ 6639 ]</item>
         <item>HERPERAX 200	[ 1280 ]</item>
         <item>HERPERAX 400	[ 1281 ]</item>
         <item>HERPERAX 800	[ 1282 ]</item>
@@ -1968,21 +1571,17 @@
         <item>HEXOLIP 1000	[ 566 ]</item>
         <item>HEXOLIP 500	[ 34569 ]</item>
         <item>HICET AX SYRUP	[ 1390 ]</item>
-        <item>HICET DC TAB	[ 1375 ]</item>
-        <item>HICET SYP	[ 1376 ]</item>
         <item>HILO CAPSULE	[ 34123 ]</item>
         <item>HIPRIL 10	[ 1257 ]</item>
         <item>HIPRIL 2.5	[ 1220 ]</item>
         <item>HIPRIL 5	[ 1221 ]</item>
         <item>HIPRIL A	[ 1223 ]</item>
-        <item>HISTOLAF 10	[ 7807 ]</item>
         <item>HOPACE 1.25	[ 1517 ]</item>
         <item>HOPACE 10	[ 1519 ]</item>
         <item>HOPACE 2.5	[ 1518 ]</item>
         <item>HOPACE 5	[ 1520 ]</item>
         <item>HOPACE H	[ 1499 ]</item>
         <item>HOPACE H-5	[ 1568 ]</item>
-        <item>HOPECARD 10 MG	[ 33505 ]</item>
         <item>HOPECARD 2.5	[ 31039 ]</item>
         <item>HOPECARD 5	[ 31040 ]</item>
         <item>HOPECARD H 5/12.5	[ 31041 ]</item>
@@ -1997,18 +1596,13 @@
         <item>HYDROEYES E/D 0.05%	[ 9022 ]</item>
         <item>HYDROEYES E/D 0.1%	[ 9023 ]</item>
         <item>HYDROEYES HS 0.1 ED	[ 33155 ]</item>
-        <item>HYPOTAB	[ 1742 ]</item>
-        <item>IBUSOFT 300 TAB	[ 5720 ]</item>
-        <item>IBUSOFT-XT TAB	[ 5380 ]</item>
+        <item>I-PHYTORAL 100	[ 3186 ]</item>
         <item>ICL 1 INJECTION	[ 5209 ]</item>
         <item>ICL 2 INJECTION	[ 5210 ]</item>
         <item>ICL 3 INJECTION	[ 5211 ]</item>
         <item>IFB 12 SYP	[ 2383 ]</item>
         <item>IFB CAPS	[ 2885 ]</item>
         <item>IFB XT	[ 2897 ]</item>
-        <item>IFB XT SYRUP	[ 2904 ]</item>
-        <item>IFB-12 CAP	[ 2435 ]</item>
-        <item>IFERWIN	[ 2944 ]</item>
         <item>IFIMOL IV	[ 570 ]</item>
         <item>ILAHIL-10	[ 34102 ]</item>
         <item>ILAHIL-L CAPS	[ 34530 ]</item>
@@ -2029,11 +1623,7 @@
         <item>INFEN MR	[ 5407 ]</item>
         <item>INFEN OD	[ 5416 ]</item>
         <item>INFEN P	[ 5362 ]</item>
-        <item>INFEN P SPAS	[ 5458 ]</item>
         <item>INFEN PLASTER	[ 5774 ]</item>
-        <item>INFEN SERA	[ 5455 ]</item>
-        <item>INFEN SPAS INJ	[ 5470 ]</item>
-        <item>INFEN SPRAY	[ 5507 ]</item>
         <item>INFLUGEN	[ 7496 ]</item>
         <item>INOGES	[ 34643 ]</item>
         <item>INSTAMUNE POWD	[ 34540 ]</item>
@@ -2043,13 +1633,15 @@
         <item>INSTARISE   50	[ 3142 ]</item>
         <item>INTIMACY PLUS 2	[ 31539 ]</item>
         <item>INTIMACY PLUS 3	[ 31540 ]</item>
-        <item>IONIC	[ 8101 ]</item>
         <item>IONIC XT	[ 8130 ]</item>
         <item>IONIC XT SYP	[ 8141 ]</item>
         <item>IPRAZEST RESP	[ 1033 ]</item>
+        <item>IREX SYP	[ 6169 ]</item>
+        <item>IREX TAB	[ 6039 ]</item>
         <item>IROZORB	[ 6570 ]</item>
         <item>IROZORB PLUS	[ 9222 ]</item>
         <item>IROZORB SUSP	[ 6571 ]</item>
+        <item>ISACOL POWDER  150 JAR	[ 91174 ]</item>
         <item>ISMIGEN	[ 7462 ]</item>
         <item>ISOFER INJ	[ 33139 ]</item>
         <item>ISOLAZINE	[ 7384 ]</item>
@@ -2062,12 +1654,16 @@
         <item>IT MAC 100	[ 3070 ]</item>
         <item>IT MAC 400	[ 34604 ]</item>
         <item>IT- MAC 200	[ 3079 ]</item>
+        <item>ITNOX 100	[ 91207 ]</item>
+        <item>ITNOX 200	[ 91208 ]</item>
         <item>ITRABACT	[ 8152 ]</item>
         <item>ITRACOE  100	[ 20300 ]</item>
         <item>ITRACOE  200	[ 34078 ]</item>
         <item>ITRACOE 400 SR	[ 34131 ]</item>
         <item>ITRACOE DUSTING POWER	[ 20346 ]</item>
         <item>ITRACOE GEL	[ 34575 ]</item>
+        <item>ITRAFIX  100	[ 30658 ]</item>
+        <item>ITRAFIX 200	[ 30659 ]</item>
         <item>ITRAGEN 100	[ 3135 ]</item>
         <item>ITRAGEN 200	[ 3136 ]</item>
         <item>ITRAXPS-200	[ 8970 ]</item>
@@ -2090,11 +1686,11 @@
         <item>JETFLAM  AS	[ 8143 ]</item>
         <item>JETFLAM -MR	[ 8134 ]</item>
         <item>JILAZO VIAL	[ 33133 ]</item>
+        <item>JOINEED	[ 91209 ]</item>
         <item>JOYFIT	[ 2438 ]</item>
         <item>JOYFIT LIFE POWDER	[ 6853 ]</item>
         <item>JOYFIT POWDER	[ 2382 ]</item>
         <item>JOYFIT SYP	[ 2893 ]</item>
-        <item>JUSTSLEEP 2	[ 5734 ]</item>
         <item>K COR 10	[ 810 ]</item>
         <item>K COR 5	[ 809 ]</item>
         <item>KALTAME	[ 9107 ]</item>
@@ -2107,7 +1703,6 @@
         <item>KATADOL	[ 7197 ]</item>
         <item>KEFCLAV 100 DT	[ 2656 ]</item>
         <item>KEFCLAV 200 TABS	[ 2621 ]</item>
-        <item>KEFCLAV 50 DT	[ 2657 ]</item>
         <item>KEFCLAV SUSP 50MG	[ 6569 ]</item>
         <item>KEFPIME 0.5 GM	[ 2013 ]</item>
         <item>KEFPIME 1 GM	[ 2014 ]</item>
@@ -2124,41 +1719,30 @@
         <item>KIMET XL 12.5	[ 5058 ]</item>
         <item>KIMET XL 25	[ 5059 ]</item>
         <item>KIMET XL 50	[ 5060 ]</item>
-        <item>KOFSID B SYP	[ 10028 ]</item>
-        <item>KOJIVIT CREAM	[ 2601 ]</item>
         <item>KOJIVIT GEL	[ 6160 ]</item>
         <item>KOJIVIT PLUS	[ 2939 ]</item>
         <item>KOJIVIT PLUS BIG	[ 3120 ]</item>
         <item>KRONOSTAR 200	[ 7393 ]</item>
         <item>KRONOSTAR 300	[ 7394 ]</item>
-        <item>KRONOSTAR 500	[ 7395 ]</item>
         <item>KUDZU	[ 6810 ]</item>
         <item>KUDZU FLAM TAB	[ 4804 ]</item>
         <item>KUDZU FLEX	[ 4808 ]</item>
         <item>KUDZU GEL	[ 4822 ]</item>
         <item>KUDZU PLUS	[ 4799 ]</item>
-        <item>KYMOVIL  BR	[ 4848 ]</item>
         <item>KYMOVIL FORTE	[ 4775 ]</item>
-        <item>KYMOVIL PLUS	[ 4788 ]</item>
-        <item>KYMOVIL SV	[ 4819 ]</item>
         <item>L CIN 250	[ 7465 ]</item>
         <item>L CIN 500	[ 7466 ]</item>
         <item>L CIN 750	[ 6946 ]</item>
-        <item>L CIN 750 BULK	[ 7489 ]</item>
         <item>L CIN A	[ 7467 ]</item>
-        <item>L CIN E/E DR	[ 7485 ]</item>
         <item>L CIN IV	[ 6976 ]</item>
         <item>L CIN OZ	[ 6947 ]</item>
         <item>L CIN OZ SUSP	[ 7482 ]</item>
         <item>L CIN SYP	[ 6952 ]</item>
-        <item>L TRIX CREAM	[ 34605 ]</item>
         <item>L-CIN C	[ 298 ]</item>
-        <item>LA-MIKA--500 INJ	[ 5954 ]</item>
         <item>LACONEXT 100	[ 7923 ]</item>
         <item>LACONEXT 50	[ 7922 ]</item>
         <item>LACRIMOS 0.5%	[ 9007 ]</item>
         <item>LACRIMOS 1%	[ 9008 ]</item>
-        <item>LACRISOL E/D	[ 1283 ]</item>
         <item>LACTACYD	[ 5523 ]</item>
         <item>LACTAZE DROPS	[ 4836 ]</item>
         <item>LACTIGOL	[ 11116 ]</item>
@@ -2167,14 +1751,11 @@
         <item>LAFAXID-D	[ 5697 ]</item>
         <item>LANZOPRAX KID 15	[ 34592 ]</item>
         <item>LANZOPRAX KID 30	[ 34593 ]</item>
-        <item>LAXAN SOLN	[ 497 ]</item>
-        <item>LAXAN SOLUTION	[ 562 ]</item>
-        <item>LAXIBEX GRANULES	[ 5743 ]</item>
+        <item>LAXAN BIG SOLUTION	[ 562 ]</item>
+        <item>LAXAN SMALL SOLN	[ 497 ]</item>
         <item>LAXITOL HUSK	[ 1874 ]</item>
         <item>LAXITOL SYRUP	[ 734 ]</item>
         <item>LAXITOL SYRUP 100 ML	[ 3173 ]</item>
-        <item>LAZA 1	[ 4786 ]</item>
-        <item>LAZA 30	[ 9105 ]</item>
         <item>LAZA 6	[ 4787 ]</item>
         <item>LAZA ORAL SYRUP	[ 4797 ]</item>
         <item>LAZID	[ 6563 ]</item>
@@ -2182,7 +1763,6 @@
         <item>LCF KID SY	[ 7464 ]</item>
         <item>LCF LS SYP	[ 34576 ]</item>
         <item>LCF SYP	[ 7463 ]</item>
-        <item>LCF TUSS	[ 10018 ]</item>
         <item>LEKACE	[ 477 ]</item>
         <item>LEKACE P	[ 475 ]</item>
         <item>LEKACE SERRA	[ 476 ]</item>
@@ -2191,6 +1771,9 @@
         <item>LEVACETAM  INJ	[ 34061 ]</item>
         <item>LEVACETAM-250	[ 34014 ]</item>
         <item>LEVACETAM-500	[ 34062 ]</item>
+        <item>LEVOBACT 250	[ 1317 ]</item>
+        <item>LEVOBACT 500	[ 1318 ]</item>
+        <item>LEVOBACT 750	[ 1638 ]</item>
         <item>LEVOLVE OZ	[ 34107 ]</item>
         <item>LEVOLVE Z 250	[ 20224 ]</item>
         <item>LEVOLVE Z 500	[ 20225 ]</item>
@@ -2198,7 +1781,6 @@
         <item>LEVOLVE-750	[ 20219 ]</item>
         <item>LEVOMAC 250	[ 818 ]</item>
         <item>LEVOMAC 500	[ 819 ]</item>
-        <item>LEVOMAC 750	[ 904 ]</item>
         <item>LEVOMAC 750 10S	[ 1941 ]</item>
         <item>LEVOMAC AZ	[ 1193 ]</item>
         <item>LEVOMAC AZ 250	[ 1899 ]</item>
@@ -2206,15 +1788,11 @@
         <item>LEVOMAC ORAL SYP	[ 935 ]</item>
         <item>LEVOMAC OZ TAB	[ 1183 ]</item>
         <item>LEVORT 500	[ 2598 ]</item>
-        <item>LEVOSID 500	[ 10023 ]</item>
         <item>LEXANOX	[ 6614 ]</item>
         <item>LEXANOX PLUS	[ 3009 ]</item>
         <item>LIMBIVAL TAB	[ 1437 ]</item>
         <item>LINCOTUSS DX	[ 990 ]</item>
         <item>LINCOTUSS EX	[ 986 ]</item>
-        <item>LINCOTUSS PLUS SYP	[ 6676 ]</item>
-        <item>LINCOTUSS SYP 120	[ 861 ]</item>
-        <item>LINCOTUSS SYP 60	[ 862 ]</item>
         <item>LINECA TAB	[ 20226 ]</item>
         <item>LIPIGO 10 MG	[ 469 ]</item>
         <item>LIPIGO 20 MG	[ 470 ]</item>
@@ -2223,17 +1801,10 @@
         <item>LIPIGO F 10	[ 492 ]</item>
         <item>LIPIGO F 5	[ 491 ]</item>
         <item>LIPIRA 10	[ 5331 ]</item>
-        <item>LIPIRA 20	[ 5332 ]</item>
-        <item>LIPIRA 40	[ 5333 ]</item>
         <item>LIPIRA 5	[ 5334 ]</item>
         <item>LIPIRA F	[ 5443 ]</item>
         <item>LIPOCUT 120	[ 7594 ]</item>
         <item>LIPOCUT 60	[ 7597 ]</item>
-        <item>LIPOFIX -10	[ 1553 ]</item>
-        <item>LIPOFIX 5 MG TAB	[ 1652 ]</item>
-        <item>LIPOFIX R	[ 6031 ]</item>
-        <item>LIPOFIX TG	[ 1685 ]</item>
-        <item>LIPOFIX-EX	[ 2411 ]</item>
         <item>LIPOPHAGE 120	[ 33028 ]</item>
         <item>LIPOPHAGE 60	[ 33027 ]</item>
         <item>LIPRIL 10	[ 7503 ]</item>
@@ -2242,9 +1813,7 @@
         <item>LIPRIL AM	[ 7505 ]</item>
         <item>LIPRIL H	[ 7504 ]</item>
         <item>LIPROLASE 10000	[ 4585 ]</item>
-        <item>LIVIVE INFUSION	[ 5363 ]</item>
         <item>LIVOGEN CAPTABS	[ 304 ]</item>
-        <item>LIVOGEN CZ	[ 6062 ]</item>
         <item>LIVOGEN HEM SYP	[ 372 ]</item>
         <item>LIVOGEN INJECTION	[ 207 ]</item>
         <item>LIVOGEN XT	[ 6658 ]</item>
@@ -2262,12 +1831,7 @@
         <item>LOFTAIR INH	[ 33108 ]</item>
         <item>LOMOH 40 INJ	[ 5814 ]</item>
         <item>LOMOH 60 INJ	[ 5815 ]</item>
-        <item>LOPRESS 0.5%  EYE	[ 2423 ]</item>
         <item>LORINOL  TAB	[ 2202 ]</item>
-        <item>LORIVAN 1 MG	[ 1550 ]</item>
-        <item>LORIVAN 2 MG	[ 1551 ]</item>
-        <item>LORNICAM 4	[ 31042 ]</item>
-        <item>LORNICAM 8	[ 31043 ]</item>
         <item>LORNICAM PLUS 4	[ 31044 ]</item>
         <item>LORNICAM PLUS 8	[ 31045 ]</item>
         <item>LORNIT 150 TAB	[ 5627 ]</item>
@@ -2281,6 +1845,9 @@
         <item>LOVAX 600	[ 7333 ]</item>
         <item>LOVAX OD 300	[ 7334 ]</item>
         <item>LOVAX OD 600	[ 7335 ]</item>
+        <item>LT MAC CREAM	[ 3183 ]</item>
+        <item>LT MAC CREAM 20GM	[ 3184 ]</item>
+        <item>LT MAC LOTION	[ 3185 ]</item>
         <item>LUBREX  EYE DROPS	[ 1276 ]</item>
         <item>LUBREX DS DROPS	[ 6110 ]</item>
         <item>LUBREX UNO EYE DROPS	[ 34009 ]</item>
@@ -2297,14 +1864,6 @@
         <item>LUPENOX 60	[ 7717 ]</item>
         <item>LUPI D3 CHEWABLE 60 K	[ 30135 ]</item>
         <item>LUPI D3 SACHET	[ 7641 ]</item>
-        <item>LUPI D3-K TAB	[ 33070 ]</item>
-        <item>LUPI FSH 150 IU	[ 6965 ]</item>
-        <item>LUPI FSH 75 IU	[ 6964 ]</item>
-        <item>LUPI HCG 10000 IU	[ 6968 ]</item>
-        <item>LUPI HCG 2000 IU	[ 6966 ]</item>
-        <item>LUPI HCG 5000 IU	[ 6967 ]</item>
-        <item>LUPI HMG 150 IU	[ 6963 ]</item>
-        <item>LUPI HMG 75 IU	[ 6962 ]</item>
         <item>LUPI-D3	[ 7633 ]</item>
         <item>LUPI-D3 CAPS	[ 33128 ]</item>
         <item>LUPIBOSE 125	[ 7785 ]</item>
@@ -2314,13 +1873,6 @@
         <item>LUPICLOR 6.25	[ 7637 ]</item>
         <item>LUPIDENT GEL	[ 34619 ]</item>
         <item>LUPIDENT MOUTH WASH	[ 34618 ]</item>
-        <item>LUPIDERM	[ 7248 ]</item>
-        <item>LUPIDERM G	[ 7249 ]</item>
-        <item>LUPIDERM GM	[ 7250 ]</item>
-        <item>LUPIDERM M	[ 7251 ]</item>
-        <item>LUPIDERM S	[ 7252 ]</item>
-        <item>LUPIDERM SA	[ 18022 ]</item>
-        <item>LUPIDERM-GM PLUS	[ 7243 ]</item>
         <item>LUPIDIP 10	[ 7783 ]</item>
         <item>LUPIDIP 2.5	[ 7781 ]</item>
         <item>LUPIDIP 5	[ 7782 ]</item>
@@ -2331,11 +1883,7 @@
         <item>LUPIFLEX 4	[ 7299 ]</item>
         <item>LUPIFLEX 8	[ 7298 ]</item>
         <item>LUPIFLO 15	[ 7609 ]</item>
-        <item>LUPIGEST 100	[ 6959 ]</item>
-        <item>LUPIGEST 100 INJ OILFREE	[ 33147 ]</item>
-        <item>LUPIGEST 100 SR	[ 33159 ]</item>
         <item>LUPIGEST 200	[ 6960 ]</item>
-        <item>LUPIGEST 200 INJ OILFREE	[ 34539 ]</item>
         <item>LUPIGEST SR 200 TAB	[ 33508 ]</item>
         <item>LUPIGEST SR 300 TAB	[ 33522 ]</item>
         <item>LUPIGEST SR 400 TAB	[ 33523 ]</item>
@@ -2344,21 +1892,20 @@
         <item>LUPIHEME	[ 33095 ]</item>
         <item>LUPIKRILL	[ 9538 ]</item>
         <item>LUPILA 10	[ 16015 ]</item>
-        <item>LUPILA 5	[ 11119 ]</item>
         <item>LUPILA D	[ 30137 ]</item>
         <item>LUPILYZER	[ 33129 ]</item>
+        <item>LUPIN"S MIRA 25	[ 33169 ]</item>
         <item>LUPINAC	[ 7658 ]</item>
         <item>LUPINEM 500 INJ	[ 7129 ]</item>
+        <item>LUPINFER	[ 91185 ]</item>
         <item>LUPIRTIN	[ 7399 ]</item>
         <item>LUPIRTIN SR	[ 30103 ]</item>
         <item>LUPIRTIN-P	[ 18018 ]</item>
-        <item>LUPISHOT 500 INJ	[ 33075 ]</item>
         <item>LUPISOZ D CAP	[ 34629 ]</item>
         <item>LUPISOZ TAB	[ 34627 ]</item>
         <item>LUPISULIN  M 30 100 IU	[ 34055 ]</item>
         <item>LUPISULIN M 30/70 CARTRIDGE	[ 7601 ]</item>
         <item>LUPISULIN M 50/50 CARTRIDGE	[ 7602 ]</item>
-        <item>LUPISULIN N CARTRIDGE	[ 7553 ]</item>
         <item>LUPISULIN PEN	[ 7522 ]</item>
         <item>LUPISULIN R CARTRIDGE	[ 7543 ]</item>
         <item>LUPISULINE  R 100 IU	[ 34056 ]</item>
@@ -2366,12 +1913,10 @@
         <item>LUPISULINE M 50	[ 7542 ]</item>
         <item>LUPISULINE N	[ 7540 ]</item>
         <item>LUPISULINE N 100 IU	[ 34057 ]</item>
-        <item>LUPISULINE N 40	[ 7516 ]</item>
         <item>LUPISULINE R	[ 7539 ]</item>
         <item>LUPITROS	[ 7912 ]</item>
         <item>LUPITROS T	[ 9013 ]</item>
         <item>LUPITUM INJ 1G	[ 9201 ]</item>
-        <item>LUPITUM INJ 500 MG	[ 9202 ]</item>
         <item>LUPITUSS	[ 6998 ]</item>
         <item>LUPITUSS 60	[ 11108 ]</item>
         <item>LUPITUSS CPM	[ 33049 ]</item>
@@ -2389,6 +1934,7 @@
         <item>LURAFIC 40	[ 34579 ]</item>
         <item>LURAFIC 80	[ 34580 ]</item>
         <item>LUTIVIT NF	[ 1474 ]</item>
+        <item>LUTRAZOLE	[ 33168 ]</item>
         <item>LUZARN CR 20G	[ 34599 ]</item>
         <item>LUZARN CR 30G	[ 34600 ]</item>
         <item>M CIN	[ 6977 ]</item>
@@ -2396,11 +1942,14 @@
         <item>MAC Q10 PLUS	[ 3069 ]</item>
         <item>MACARBI 40	[ 91126 ]</item>
         <item>MACARBI 80	[ 91127 ]</item>
+        <item>MACARBI CH	[ 91216 ]</item>
         <item>MACBERY COLD	[ 731 ]</item>
         <item>MACBERY DX SYP	[ 3090 ]</item>
         <item>MACBERY JUNIOR	[ 2971 ]</item>
+        <item>MACBERY LEVO SYP	[ 3181 ]</item>
         <item>MACBERY LS	[ 3024 ]</item>
         <item>MACBERY P SYP	[ 4762 ]</item>
+        <item>MACBERY PD SYP	[ 3182 ]</item>
         <item>MACBERY SYP	[ 4761 ]</item>
         <item>MACBERY XT SYP	[ 4760 ]</item>
         <item>MACBRITE D3	[ 2963 ]</item>
@@ -2446,7 +1995,6 @@
         <item>MACPOD CV 50 DT	[ 946 ]</item>
         <item>MACPOD CV 50 SYP	[ 1162 ]</item>
         <item>MACPOD DROPS	[ 1076 ]</item>
-        <item>MACPOD O 100 DT	[ 1164 ]</item>
         <item>MACPOD-LX	[ 2950 ]</item>
         <item>MACPOD-O	[ 1048 ]</item>
         <item>MACPRED 16	[ 8520 ]</item>
@@ -2458,7 +2006,6 @@
         <item>MACPRIL H 2.5	[ 2851 ]</item>
         <item>MACPRIL H 5	[ 2852 ]</item>
         <item>MACPROT	[ 9218 ]</item>
-        <item>MACPROT  SF	[ 2943 ]</item>
         <item>MACPROT ACTIV	[ 3020 ]</item>
         <item>MACPROT CHOCO	[ 2088 ]</item>
         <item>MACPROT DM	[ 2955 ]</item>
@@ -2471,7 +2018,6 @@
         <item>MACRALFATE O	[ 34591 ]</item>
         <item>MACRALFATE O SYRUP 100 ML	[ 3174 ]</item>
         <item>MACROMYCIN	[ 1947 ]</item>
-        <item>MACROZE	[ 33546 ]</item>
         <item>MACROZIDE 1000	[ 874 ]</item>
         <item>MACROZIDE 1200	[ 2848 ]</item>
         <item>MACROZIDE 1500	[ 875 ]</item>
@@ -2485,7 +2031,6 @@
         <item>MACSART BETA 50	[ 2027 ]</item>
         <item>MACSART CC 12.5	[ 34031 ]</item>
         <item>MACSART CH 40	[ 1939 ]</item>
-        <item>MACSART CH 6.25	[ 34010 ]</item>
         <item>MACSART H	[ 790 ]</item>
         <item>MACSIP APPLE	[ 34512 ]</item>
         <item>MACSIP ORANGE	[ 34513 ]</item>
@@ -2510,16 +2055,10 @@
         <item>MACZONE 1 GM	[ 6714 ]</item>
         <item>MACZONE 250	[ 6712 ]</item>
         <item>MACZONE 500	[ 6713 ]</item>
-        <item>MACZONE PLUS 1.5	[ 6781 ]</item>
-        <item>MACZONE PLUS 375	[ 6782 ]</item>
-        <item>MACZONE PLUS 750	[ 6780 ]</item>
-        <item>MACZONE XP 250 INJ	[ 6833 ]</item>
-        <item>MACZONE XP 500 INJ	[ 6834 ]</item>
         <item>MACZORB	[ 6129 ]</item>
         <item>MACZORB FORTE TAB	[ 6130 ]</item>
         <item>MACZORB PLUS	[ 1180 ]</item>
         <item>MAGNAMONT L TAB	[ 33161 ]</item>
-        <item>MAGNISTA INJ	[ 5379 ]</item>
         <item>MAGNOVA 1G	[ 7132 ]</item>
         <item>MAHADOL	[ 5629 ]</item>
         <item>MASCHIO	[ 33138 ]</item>
@@ -2540,36 +2079,20 @@
         <item>MAXPRIDE-50	[ 34016 ]</item>
         <item>MAXTRA	[ 5066 ]</item>
         <item>MAXTRA COLD +	[ 34072 ]</item>
-        <item>MAXTRA COLD TAB	[ 5160 ]</item>
         <item>MAXTRA DROPS	[ 5063 ]</item>
-        <item>MAXTRA NASAL DROPS	[ 5096 ]</item>
         <item>MAXTRA P	[ 5065 ]</item>
         <item>MAXTRA P DROPS	[ 5067 ]</item>
         <item>MAXTRA P DS SYRUP	[ 5159 ]</item>
         <item>MAXTRA P SYP	[ 5064 ]</item>
-        <item>MAXTRA S NASAL DROPS	[ 5061 ]</item>
         <item>MAXTRA SYP	[ 5062 ]</item>
         <item>MECOBIL OD	[ 6837 ]</item>
-        <item>MECOBIL P	[ 6838 ]</item>
-        <item>MECONERV	[ 1332 ]</item>
-        <item>MECONERV  FORTE	[ 2340 ]</item>
-        <item>MECONERV 1500	[ 1349 ]</item>
-        <item>MECONERV FORTE CAPS.	[ 34644 ]</item>
-        <item>MECONERV INJ	[ 1333 ]</item>
         <item>MECONERV PLUS	[ 1466 ]</item>
-        <item>MECONERV SYRUP	[ 2706 ]</item>
         <item>MECONERV Z SYP	[ 1585 ]</item>
-        <item>MECOVON	[ 5634 ]</item>
         <item>MECOVON 1G INJ	[ 5672 ]</item>
         <item>MECOVON 500 INJ	[ 5633 ]</item>
-        <item>MECOVON G	[ 5670 ]</item>
         <item>MECOVON OD	[ 5671 ]</item>
         <item>MEFAST 100 SUSP	[ 5965 ]</item>
-        <item>MEFAST D	[ 5963 ]</item>
-        <item>MEFAST P	[ 5964 ]</item>
         <item>MEFAST P SUSP	[ 5970 ]</item>
-        <item>MEFBROM SPAS	[ 34041 ]</item>
-        <item>MEFBROM SPAS	[ 34559 ]</item>
         <item>MEFLOC	[ 30544 ]</item>
         <item>MEFOMIN GZ 80	[ 34026 ]</item>
         <item>MEFOMIN-1000	[ 6806 ]</item>
@@ -2580,12 +2103,10 @@
         <item>MEGA CV 625	[ 30546 ]</item>
         <item>MEGA CV DROP	[ 30548 ]</item>
         <item>MEGA CV DRY 228.5MG	[ 30547 ]</item>
-        <item>MEGA CV DRY SYP 60 ML	[ 31092 ]</item>
         <item>MEGA CV DT 228.5	[ 30551 ]</item>
         <item>MEGA CV FORTE SYP	[ 30549 ]</item>
         <item>MEGA CV INJ	[ 30550 ]</item>
         <item>MEGA CV INJ 1.2 GM	[ 30633 ]</item>
-        <item>MEGACHOLIN PASTILLE	[ 31046 ]</item>
         <item>MEGAFLEXON	[ 91136 ]</item>
         <item>MEGAGLIPTIN	[ 31600 ]</item>
         <item>MEGAGLIPTIN MF	[ 34533 ]</item>
@@ -2593,15 +2114,16 @@
         <item>MEGAHEAL GEL	[ 30552 ]</item>
         <item>MEGALIS 10	[ 777 ]</item>
         <item>MEGALIS 20	[ 778 ]</item>
-        <item>MEGANANO    GEL	[ 5235 ]</item>
+        <item>MEGANANO BIG GEL	[ 5235 ]</item>
         <item>MEGANANO GEL	[ 5223 ]</item>
         <item>MEGANANO GEL 200	[ 5230 ]</item>
         <item>MEGANEURON	[ 31580 ]</item>
+        <item>MEGANEURON  NT 50 MG	[ 31094 ]</item>
         <item>MEGANEURON  PG	[ 31598 ]</item>
         <item>MEGANEURON FORTE INJ	[ 31596 ]</item>
         <item>MEGANEURON INJ	[ 31541 ]</item>
+        <item>MEGANEURON NT 75	[ 91223 ]</item>
         <item>MEGANEURON OD PLUS	[ 31579 ]</item>
-        <item>MEGAPEN 1G	[ 30554 ]</item>
         <item>MEGAPEN 250 KID	[ 30556 ]</item>
         <item>MEGAPEN 500	[ 30555 ]</item>
         <item>MEGAPEN XP	[ 30557 ]</item>
@@ -2622,8 +2144,6 @@
         <item>MELMET 1000 SR	[ 1458 ]</item>
         <item>MELMET 500 SR	[ 1459 ]</item>
         <item>MELOSET 3 MG	[ 30630 ]</item>
-        <item>MEMPIL 100	[ 7918 ]</item>
-        <item>MEMPIL 200	[ 7919 ]</item>
         <item>MENDATE 10	[ 20327 ]</item>
         <item>MENDATE 15	[ 20328 ]</item>
         <item>MENOJOY	[ 3116 ]</item>
@@ -2632,7 +2152,6 @@
         <item>MERO 1G	[ 30611 ]</item>
         <item>MERO 250 INJ	[ 30610 ]</item>
         <item>MERO 500 INJ	[ 30609 ]</item>
-        <item>MERO SB 1.5G	[ 30612 ]</item>
         <item>MEROBAX 1GM	[ 30627 ]</item>
         <item>MEROBAX 250 MG INJ	[ 31088 ]</item>
         <item>MEROBAX 500MG	[ 30626 ]</item>
@@ -2640,8 +2159,6 @@
         <item>MEROMAC 0.5 G	[ 2546 ]</item>
         <item>MEROMAC 1 G	[ 2547 ]</item>
         <item>MEROTEC 1 G	[ 5068 ]</item>
-        <item>MEROTEC 125 MG INJ	[ 5194 ]</item>
-        <item>MEROTEC 2 GM INJ	[ 5213 ]</item>
         <item>MEROTEC 250 INJ	[ 5191 ]</item>
         <item>MEROTEC 500 MG	[ 5069 ]</item>
         <item>MEROTEC-XP 1.5 GM	[ 5199 ]</item>
@@ -2650,11 +2167,11 @@
         <item>MEROTROL 0.5	[ 7255 ]</item>
         <item>MEROTROL 1 GM	[ 7256 ]</item>
         <item>MEROTROL S 1.5	[ 30004 ]</item>
+        <item>MESAGON	[ 91227 ]</item>
         <item>MESALACURE	[ 91154 ]</item>
         <item>MET JANISHA	[ 34574 ]</item>
         <item>MET JANISHA FORTE	[ 34622 ]</item>
         <item>MET NEUROBION	[ 379 ]</item>
-        <item>MET NEUROBION INJ	[ 2853 ]</item>
         <item>MET NEUROBION OD	[ 2791 ]</item>
         <item>MET NEUROBION P	[ 216 ]</item>
         <item>METACORTIL	[ 1072 ]</item>
@@ -2666,55 +2183,37 @@
         <item>METAPRO XL 25	[ 1578 ]</item>
         <item>METAPRO XL 50	[ 6774 ]</item>
         <item>METHYPREG	[ 5163 ]</item>
-        <item>METHYPREG DS	[ 5162 ]</item>
         <item>METOMAC 25	[ 6651 ]</item>
         <item>METOMAC 50	[ 6652 ]</item>
         <item>METPURE AM 2.5	[ 5853 ]</item>
         <item>METPURE AM 5	[ 5854 ]</item>
-        <item>METPURE AP	[ 5873 ]</item>
-        <item>METPURE AP 50	[ 5874 ]</item>
-        <item>METPURE AR 2.5	[ 5876 ]</item>
-        <item>METPURE AR 5	[ 5879 ]</item>
         <item>METPURE H	[ 5855 ]</item>
         <item>METPURE H 50	[ 5816 ]</item>
-        <item>METPURE IR 25	[ 5861 ]</item>
-        <item>METPURE IR 50	[ 5862 ]</item>
-        <item>METPURE ORAL SOLUTION	[ 5858 ]</item>
-        <item>METPURE ST 50	[ 5866 ]</item>
         <item>METPURE TEL 20	[ 5877 ]</item>
         <item>METPURE TEL 40	[ 5878 ]</item>
         <item>METPURE XL 12.5	[ 5817 ]</item>
         <item>METPURE XL 25	[ 5818 ]</item>
-        <item>METPURE XL 25 BULK	[ 5376 ]</item>
         <item>METPURE XL 50	[ 5819 ]</item>
-        <item>METPURE XL 50 BULK	[ 5377 ]</item>
         <item>METROGYL  ER	[ 585 ]</item>
         <item>METROGYL 200	[ 125 ]</item>
         <item>METROGYL 400	[ 126 ]</item>
-        <item>METROGYL COMP	[ 127 ]</item>
         <item>METROGYL COMP PLUS	[ 256 ]</item>
         <item>METROGYL DG FORTE GEL	[ 276 ]</item>
-        <item>METROGYL DG GEL 20	[ 128 ]</item>
-        <item>METROGYL F	[ 131 ]</item>
         <item>METROGYL F SUSP 30	[ 129 ]</item>
         <item>METROGYL F SUSP 60	[ 130 ]</item>
         <item>METROGYL GEL 2%	[ 229 ]</item>
-        <item>METROGYL GEL OINT	[ 132 ]</item>
         <item>METROGYL IV	[ 170 ]</item>
         <item>METROGYL M OINT	[ 91139 ]</item>
         <item>METROGYL P  2%	[ 250 ]</item>
         <item>METROGYL SUSP 30	[ 139 ]</item>
         <item>METROGYL SUSP 60	[ 140 ]</item>
-        <item>METROGYL V GEL	[ 141 ]</item>
-        <item>METROGYL V3	[ 12000 ]</item>
-        <item>METROGYL V7	[ 12001 ]</item>
         <item>MEXMET 25	[ 34572 ]</item>
         <item>MEXMET 50	[ 34573 ]</item>
         <item>MICRO D3 DROPS	[ 34645 ]</item>
         <item>MICRO D3 TABLETS	[ 34646 ]</item>
+        <item>MICRO MOM VANILLA	[ 34650 ]</item>
         <item>MICRO MOM(CHOCOLATE)	[ 34647 ]</item>
         <item>MICROBACT 500	[ 1879 ]</item>
-        <item>MICROCAL M TAB	[ 6597 ]</item>
         <item>MICROCEF 100 DT TAB	[ 1381 ]</item>
         <item>MICROCEF 100 ORAL SUSP	[ 1378 ]</item>
         <item>MICROCEF 200 TAB	[ 1380 ]</item>
@@ -2723,22 +2222,12 @@
         <item>MICROCEF ORAL SUSP	[ 1377 ]</item>
         <item>MICROCID	[ 1319 ]</item>
         <item>MICROCID SR 75	[ 1320 ]</item>
-        <item>MICRODOX	[ 1321 ]</item>
-        <item>MICRODOX DR CAPSULES	[ 1288 ]</item>
-        <item>MICRODOX DT	[ 1322 ]</item>
         <item>MICRODOX-LBX	[ 1672 ]</item>
-        <item>MICROFLOX  E/E DROPS	[ 1291 ]</item>
-        <item>MICROFLOX 250	[ 2240 ]</item>
-        <item>MICROFLOX DX SOLN EOD	[ 1289 ]</item>
         <item>MICROGAT EYE DROPS	[ 2251 ]</item>
         <item>MICROGAT EYE OINTMENT	[ 6640 ]</item>
         <item>MICROLIV FORTE	[ 34028 ]</item>
-        <item>MICROMOM	[ 34650 ]</item>
         <item>MICRONAC EYE DROPS	[ 1574 ]</item>
-        <item>MICROSOL EYE DROP	[ 1301 ]</item>
         <item>MIGHTY	[ 296 ]</item>
-        <item>MIGITUS 10	[ 33818 ]</item>
-        <item>MIGITUS 5	[ 33819 ]</item>
         <item>MIKACIN 100	[ 30558 ]</item>
         <item>MIKACIN 250	[ 30559 ]</item>
         <item>MIKACIN 500	[ 30560 ]</item>
@@ -2753,9 +2242,7 @@
         <item>MISOBIT 25	[ 7534 ]</item>
         <item>MISOBIT 50	[ 7535 ]</item>
         <item>MISOBIT MD 25	[ 7536 ]</item>
-        <item>MISOBIT MD 50	[ 7537 ]</item>
         <item>MISOPT EYE DROPS	[ 2252 ]</item>
-        <item>MIXCAROTIN	[ 32509 ]</item>
         <item>MNF	[ 3016 ]</item>
         <item>MOCA 625	[ 2895 ]</item>
         <item>MOCA DRY SYP	[ 2896 ]</item>
@@ -2788,7 +2275,8 @@
         <item>MONOCEF O KID 50	[ 30575 ]</item>
         <item>MONOCEF SB 1G	[ 30619 ]</item>
         <item>MONOGESIC PLUS GEL	[ 34112 ]</item>
-        <item>MONOGUARD   CREAM	[ 3109 ]</item>
+        <item>MONOGUARD B CREAM	[ 3204 ]</item>
+        <item>MONOGUARD BIG CREAM	[ 3109 ]</item>
         <item>MONOGUARD CREAM	[ 1716 ]</item>
         <item>MONOGUARD SHAMPOO	[ 3167 ]</item>
         <item>MONOPAS	[ 881 ]</item>
@@ -2814,13 +2302,12 @@
         <item>MONTINA L BIG SYP	[ 34534 ]</item>
         <item>MONTINA L DT	[ 30615 ]</item>
         <item>MONTINA L SYP	[ 30614 ]</item>
-        <item>MONTOVENT-LC	[ 3168 ]</item>
         <item>MOTIZA RD	[ 8545 ]</item>
         <item>MOVERAN	[ 2385 ]</item>
-        <item>MOVERAN AC	[ 6602 ]</item>
         <item>MOVERAN GEL	[ 2386 ]</item>
         <item>MOVERAN MR	[ 6029 ]</item>
         <item>MOVERAN PLUS	[ 6603 ]</item>
+        <item>MOVERAN PM SUSP.60ML	[ 91214 ]</item>
         <item>MOVERAN TH GEL	[ 34504 ]</item>
         <item>MOVIZ	[ 188 ]</item>
         <item>MOVIZ XP	[ 117 ]</item>
@@ -2831,6 +2318,7 @@
         <item>MOXIBLU LP EYE DROPS	[ 33110 ]</item>
         <item>MOXIBLU-KT DROP	[ 9016 ]</item>
         <item>MOXIGRAM D	[ 3111 ]</item>
+        <item>MOXIGRAM D 5 ML	[ 3206 ]</item>
         <item>MOXIGRAM EYE DROPS	[ 6566 ]</item>
         <item>MOXIGRAM EYE OINTMENT	[ 2096 ]</item>
         <item>MOXIGRAM KT EYE DROP	[ 1493 ]</item>
@@ -2849,20 +2337,13 @@
         <item>MTV FORTE	[ 8958 ]</item>
         <item>MTV FORTE SUSP	[ 9555 ]</item>
         <item>MTV Q10	[ 8965 ]</item>
-        <item>MULTICLAV 156.25 SYP	[ 921 ]</item>
-        <item>MULTICLAV 228.5 SYP	[ 920 ]</item>
-        <item>MULTICLAV 375	[ 918 ]</item>
-        <item>MULTICLAV 625	[ 917 ]</item>
-        <item>MULTICLAV KID TAB	[ 919 ]</item>
         <item>MVISTA	[ 5524 ]</item>
         <item>MY PILL	[ 31544 ]</item>
         <item>MYCOPAS	[ 877 ]</item>
         <item>MYCOPAS GRANULES	[ 876 ]</item>
         <item>MYELOPACK TAB	[ 20335 ]</item>
-        <item>MYHALER	[ 928 ]</item>
         <item>MYLAMIN	[ 729 ]</item>
         <item>MYLAMIN PLUS	[ 2972 ]</item>
-        <item>MYLONERV	[ 14025 ]</item>
         <item>MYLONERV D	[ 14041 ]</item>
         <item>MYOPROL XL 50	[ 31545 ]</item>
         <item>MYOSONE	[ 2811 ]</item>
@@ -2870,6 +2351,7 @@
         <item>MYOSONE SR	[ 1176 ]</item>
         <item>MYOTAN   40	[ 573 ]</item>
         <item>MYOTAN 80	[ 574 ]</item>
+        <item>MYOTAN CT 40/12.5	[ 91197 ]</item>
         <item>MYOTOP 150	[ 5126 ]</item>
         <item>MYOTOP 450 SR	[ 5143 ]</item>
         <item>MYOTOP P	[ 5180 ]</item>
@@ -2885,18 +2367,8 @@
         <item>NANO D3 DP	[ 18055 ]</item>
         <item>NANOMAC SILVER GEL	[ 33541 ]</item>
         <item>NANOMAC SILVER GEL 30GM	[ 3062 ]</item>
-        <item>NASIVION ADULT DROPS	[ 310 ]</item>
-        <item>NASIVION ADVANCED ADULT	[ 454 ]</item>
-        <item>NASIVION ALLERGY 120MG	[ 450 ]</item>
-        <item>NASIVION ALLERGY 180MG	[ 446 ]</item>
-        <item>NASIVION CARE(ADULT)10ML	[ 6056 ]</item>
-        <item>NASIVION CARE(BABY)10ML	[ 6057 ]</item>
-        <item>NASIVION CARE(PAED)10ML	[ 6058 ]</item>
         <item>NASIVION MINI DROP	[ 311 ]</item>
-        <item>NASIVION MOIST ADULT	[ 435 ]</item>
-        <item>NASIVION MOIST CHILD SPRAY	[ 437 ]</item>
         <item>NASIVION NASAL SPRAY	[ 431 ]</item>
-        <item>NASIVION NO DRIP	[ 432 ]</item>
         <item>NASIVION PAED DROP	[ 366 ]</item>
         <item>NASIVION S DROPS	[ 309 ]</item>
         <item>NASIVION TABLET	[ 6717 ]</item>
@@ -2906,6 +2378,7 @@
         <item>NAYA -SA	[ 33529 ]</item>
         <item>NAZODROP	[ 980 ]</item>
         <item>NAZOMAC FF	[ 3175 ]</item>
+        <item>NAZOMAC M	[ 1740 ]</item>
         <item>NAZOMAC-AF	[ 977 ]</item>
         <item>NAZOMAC-F	[ 976 ]</item>
         <item>NEBESEL 2.5	[ 5233 ]</item>
@@ -2925,11 +2398,10 @@
         <item>NEBISTAR 5	[ 7719 ]</item>
         <item>NEBISTAR H	[ 7721 ]</item>
         <item>NEBISTAR SA	[ 7720 ]</item>
-        <item>NECRID	[ 7287 ]</item>
         <item>NEPABLU	[ 9014 ]</item>
         <item>NERVITE	[ 3122 ]</item>
+        <item>NERVITE PLUS	[ 3179 ]</item>
         <item>NERVIXPS CAPS	[ 8966 ]</item>
-        <item>NETROMAX 10	[ 5115 ]</item>
         <item>NETROMAX 150	[ 5116 ]</item>
         <item>NETROMAX 200	[ 91141 ]</item>
         <item>NETROMAX 25	[ 5117 ]</item>
@@ -2941,10 +2413,8 @@
         <item>NEURICA BT	[ 34607 ]</item>
         <item>NEURICA M 75	[ 2841 ]</item>
         <item>NEURICA NT	[ 34063 ]</item>
-        <item>NEURICA-M 150 TAB	[ 6773 ]</item>
         <item>NEUROBION  FORTE  TAB	[ 586 ]</item>
         <item>NEUROBION FORTE	[ 313 ]</item>
-        <item>NEUROBION FORTE INJ	[ 312 ]</item>
         <item>NEUROBION FORTE RF	[ 259 ]</item>
         <item>NEUROBION PLUS	[ 7761 ]</item>
         <item>NEUROCETAM	[ 1414 ]</item>
@@ -2962,24 +2432,22 @@
         <item>NEW ELECTROBION 21G	[ 339 ]</item>
         <item>NEW EVION CREAM	[ 407 ]</item>
         <item>NEW EVION CREAM 20	[ 451 ]</item>
-        <item>NEW IMAX FORTE CAPS	[ 34596 ]</item>
         <item>NEWSYL SOFTGEL	[ 34505 ]</item>
         <item>NEXOVAS 10	[ 1198 ]</item>
         <item>NEXOVAS 20	[ 1873 ]</item>
         <item>NEXOVAS 5	[ 1199 ]</item>
+        <item>NEXOVAS BETA	[ 3180 ]</item>
         <item>NEXOVAS CH	[ 2924 ]</item>
-        <item>NEXOVAS CH 6.25	[ 33077 ]</item>
         <item>NEXOVAS M 50	[ 2998 ]</item>
         <item>NEXOVAS O	[ 2080 ]</item>
         <item>NEXOVAS O 40	[ 2084 ]</item>
         <item>NEXSART 40	[ 34610 ]</item>
         <item>NEXSART 80	[ 34611 ]</item>
+        <item>NEXSART-CH	[ 3198 ]</item>
         <item>NEXTANE DROP	[ 3159 ]</item>
         <item>NGSART  40 CH	[ 14060 ]</item>
-        <item>NGSART  80 CH	[ 14061 ]</item>
         <item>NGSART 20	[ 14007 ]</item>
         <item>NGSART 40	[ 14008 ]</item>
-        <item>NGSART 80	[ 14054 ]</item>
         <item>NGSART AM	[ 14031 ]</item>
         <item>NGSART H	[ 14033 ]</item>
         <item>NICARDIA 10	[ 142 ]</item>
@@ -2998,16 +2466,14 @@
         <item>NILAC GEL	[ 7749 ]</item>
         <item>NIMEK PARA	[ 478 ]</item>
         <item>NIMEK PARA + SUSP	[ 479 ]</item>
+        <item>NIMEK PARA DS SUSP 60ML.	[ 91231 ]</item>
         <item>NIMEK SPAS	[ 480 ]</item>
         <item>NIMEK SPAS M	[ 572 ]</item>
+        <item>NIMEK TAB	[ 481 ]</item>
         <item>NIMODOL	[ 30652 ]</item>
         <item>NIMORAZ-O	[ 464 ]</item>
         <item>NIMORAZOLE 500	[ 30132 ]</item>
         <item>NIMTECH	[ 761 ]</item>
-        <item>NITRA  GEL	[ 2225 ]</item>
-        <item>NITRA  OR	[ 2226 ]</item>
-        <item>NITRA DENT	[ 2305 ]</item>
-        <item>NITRAMET	[ 2300 ]</item>
         <item>NITROBEST	[ 33543 ]</item>
         <item>NITROFIX 10	[ 1226 ]</item>
         <item>NITROFIX 20	[ 1227 ]</item>
@@ -3019,16 +2485,11 @@
         <item>NIZONIDE O SUSP	[ 7137 ]</item>
         <item>NIZONIDE SUSP	[ 7134 ]</item>
         <item>NOR METROGYL PLUS TAB	[ 273 ]</item>
-        <item>NORGEST 5 MG	[ 1385 ]</item>
+        <item>NORDYS TAB	[ 2442 ]</item>
         <item>NORMET	[ 5337 ]</item>
         <item>NORMET IV	[ 5961 ]</item>
-        <item>NORMET R 30 POWD	[ 6141 ]</item>
         <item>NORMET SUSP	[ 5336 ]</item>
-        <item>NORMET XT SUSP	[ 5338 ]</item>
-        <item>NORMETROGYL	[ 148 ]</item>
         <item>NORMETROGYL SUSP	[ 147 ]</item>
-        <item>NORMIGYL	[ 5450 ]</item>
-        <item>NORMIGYL SYRUP	[ 5449 ]</item>
         <item>NORMOMET XL 25	[ 91129 ]</item>
         <item>NORMOMET-XL-50	[ 91110 ]</item>
         <item>NORMOPRIL 5	[ 31550 ]</item>
@@ -3039,7 +2500,6 @@
         <item>NOVASTAT 40	[ 7500 ]</item>
         <item>NOVASTAT 5	[ 7598 ]</item>
         <item>NOVASTAT CV 20	[ 33109 ]</item>
-        <item>NOVASTAT EZ	[ 7651 ]</item>
         <item>NOVASTAT GOLD	[ 33140 ]</item>
         <item>NOVASTAT TG 10	[ 7398 ]</item>
         <item>NOVASTAT TG 20	[ 33141 ]</item>
@@ -3051,11 +2511,8 @@
         <item>NUCARNIT INJ	[ 5823 ]</item>
         <item>NUCARNIT M	[ 5895 ]</item>
         <item>NUCORIL 5	[ 6143 ]</item>
-        <item>NUCORIL I. V. 48 MG	[ 6672 ]</item>
         <item>NUCORIL OD	[ 5856 ]</item>
-        <item>NUCROVIT	[ 5772 ]</item>
         <item>NUDEFLA	[ 9541 ]</item>
-        <item>NUDICLO INJ	[ 1091 ]</item>
         <item>NUKAST 10	[ 5122 ]</item>
         <item>NUKAST 4	[ 5688 ]</item>
         <item>NUKAST 4 SYP	[ 5693 ]</item>
@@ -3071,10 +2528,8 @@
         <item>NUMLO AT	[ 5826 ]</item>
         <item>NUMLO D	[ 5828 ]</item>
         <item>NUMLO D5	[ 5827 ]</item>
-        <item>NUMLO-R	[ 5864 ]</item>
         <item>NUMLO-TM	[ 5742 ]</item>
         <item>NUMLO-TM 5	[ 5863 ]</item>
-        <item>NUMLOTOR 5	[ 5830 ]</item>
         <item>NUPENTA 40	[ 737 ]</item>
         <item>NUPENTA D	[ 2098 ]</item>
         <item>NUPENTA DSR	[ 2132 ]</item>
@@ -3089,33 +2544,19 @@
         <item>NUSAR 50	[ 5832 ]</item>
         <item>NUSAR AM	[ 5833 ]</item>
         <item>NUSAR AM5	[ 5836 ]</item>
-        <item>NUSAR AMH	[ 5442 ]</item>
-        <item>NUSAR AMH 5	[ 5441 ]</item>
         <item>NUSAR ATN	[ 5834 ]</item>
         <item>NUSAR H	[ 5835 ]</item>
-        <item>NUSAR R 2.5	[ 6621 ]</item>
-        <item>NUSAR R 5	[ 6622 ]</item>
         <item>NUSOFT SOAP	[ 1679 ]</item>
-        <item>NUTIN 7	[ 5839 ]</item>
-        <item>NUTIN SA	[ 5837 ]</item>
-        <item>NUTRASPACE	[ 20217 ]</item>
         <item>NUTRICAP-H	[ 34027 ]</item>
         <item>NUTRICAP-S	[ 34008 ]</item>
-        <item>NUTRIRIGHT	[ 18007 ]</item>
-        <item>NUTRIRIGHT  MOM POWDER 400 GM	[ 18033 ]</item>
         <item>NUTRIRIGHT LACT GRANULES	[ 18037 ]</item>
-        <item>NUTRIRIGHT MOM	[ 18016 ]</item>
+        <item>NUTRIRIGHT MOM CHOCOLATE	[ 91215 ]</item>
         <item>NUTRIRIGHT MOM COOKIES	[ 18057 ]</item>
-        <item>NUTRIRIGHT TABLETS	[ 18038 ]</item>
-        <item>NUTRIRIGHT W	[ 18008 ]</item>
-        <item>O ANXIT PLUS 10	[ 34036 ]</item>
-        <item>O ANXIT PLUS 5	[ 34035 ]</item>
+        <item>NUTRIRIGHT MOM VANILLA	[ 18016 ]</item>
         <item>O LYTE (APPLE FLAVOUR)	[ 34128 ]</item>
         <item>O LYTE ORS	[ 30647 ]</item>
         <item>O STAT 120	[ 31049 ]</item>
         <item>O STAT 60	[ 31048 ]</item>
-        <item>OBECURE 2.5	[ 6624 ]</item>
-        <item>OBECURE 5	[ 6625 ]</item>
         <item>OBEMAC CAP	[ 34032 ]</item>
         <item>OBEMAC SACHET	[ 34033 ]</item>
         <item>OBEPACK	[ 91122 ]</item>
@@ -3130,90 +2571,72 @@
         <item>OBICURE PM CAP	[ 18059 ]</item>
         <item>OBICURE POWDER 200 GM	[ 18048 ]</item>
         <item>OBICURE POWDER 30 GM	[ 34091 ]</item>
-        <item>OBIRAX 10	[ 1454 ]</item>
         <item>OCIUM 500	[ 2310 ]</item>
-        <item>OCIUM 500 TAB	[ 1539 ]</item>
+        <item>OCIUM OS CAP	[ 3048 ]</item>
         <item>ODOXIL 125 DT	[ 7141 ]</item>
         <item>ODOXIL 250 DT	[ 7142 ]</item>
         <item>ODOXIL 500	[ 7143 ]</item>
         <item>ODOXIL DS PREMIX	[ 7175 ]</item>
         <item>ODOXIL DS SUSP	[ 7174 ]</item>
-        <item>ODOXIL OD	[ 7144 ]</item>
         <item>ODOXIL PREMIX	[ 7145 ]</item>
         <item>ODOXIL SUSP	[ 7147 ]</item>
-        <item>ODOXIL SUSP 250	[ 7148 ]</item>
         <item>OF 100 DT	[ 138 ]</item>
         <item>OF 200	[ 151 ]</item>
         <item>OF 400	[ 152 ]</item>
         <item>OF CEF	[ 159 ]</item>
         <item>OF DERM CREAM	[ 257 ]</item>
         <item>OF IV	[ 149 ]</item>
+        <item>OF M  DS SUSP	[ 584 ]</item>
         <item>OF M SUSP	[ 153 ]</item>
-        <item>OF OD 800	[ 173 ]</item>
         <item>OF SUSP	[ 150 ]</item>
         <item>OF SUSP 100 MG	[ 489 ]</item>
-        <item>OF T	[ 154 ]</item>
+        <item>OF SUSP 50 MG 60 ML	[ 593 ]</item>
         <item>OFLACIN DX EYE DR	[ 6617 ]</item>
-        <item>OFLACIN DX EYE DROPS	[ 1298 ]</item>
         <item>OFLACIN EYE DROPS	[ 1297 ]</item>
-        <item>OFLACIN P DROPS	[ 6109 ]</item>
         <item>OFLAMAC 100	[ 776 ]</item>
         <item>OFLAMAC 200	[ 757 ]</item>
         <item>OFLAMAC 300	[ 758 ]</item>
         <item>OFLAMAC 400	[ 759 ]</item>
         <item>OFLAMAC CX 200	[ 988 ]</item>
-        <item>OFLAMAC CX DS	[ 1112 ]</item>
         <item>OFLAMAC FORTE SYRUP	[ 893 ]</item>
         <item>OFLAMAC M 60 ML SYRUP	[ 3177 ]</item>
         <item>OFLAMAC M FORTE 60 ML	[ 3176 ]</item>
         <item>OFLAMAC M FORTE SYP	[ 781 ]</item>
         <item>OFLAMAC M SYP	[ 780 ]</item>
-        <item>OFLAMAC MN 60ML	[ 832 ]</item>
-        <item>OFLAMAC MN SUSP	[ 760 ]</item>
         <item>OFLAMAC OZ	[ 2550 ]</item>
         <item>OFLAMAC OZ SYP	[ 6114 ]</item>
         <item>OFLAMAC SYP 30ML	[ 892 ]</item>
         <item>OFLAMAC SYP 60ML	[ 755 ]</item>
         <item>OFLAMAC TZ	[ 771 ]</item>
-        <item>OFM  DS SUSP	[ 584 ]</item>
         <item>OFSID 200	[ 10017 ]</item>
         <item>OFSID OZ	[ 10003 ]</item>
         <item>OFSID OZ SUSP	[ 10039 ]</item>
         <item>OFSID-OZ SUSP	[ 10026 ]</item>
         <item>OGIT 200	[ 2390 ]</item>
-        <item>OGIT M SUSP	[ 2379 ]</item>
         <item>OGIT OZ	[ 2391 ]</item>
-        <item>OLAMIN OINT	[ 1300 ]</item>
         <item>OLAN 10	[ 1620 ]</item>
-        <item>OLANEX 10	[ 33821 ]</item>
         <item>OLANEX F	[ 33820 ]</item>
         <item>OLBET 20	[ 5217 ]</item>
         <item>OLBET 40	[ 5218 ]</item>
         <item>OLBET CT 20	[ 5219 ]</item>
         <item>OLBET CT 40	[ 5220 ]</item>
-        <item>OLISENSE 5	[ 1188 ]</item>
-        <item>OLLHART	[ 293 ]</item>
         <item>OLMAT 20	[ 2821 ]</item>
+        <item>OLMAT 20 AM	[ 1204 ]</item>
         <item>OLMAT 20 AMH	[ 1583 ]</item>
         <item>OLMAT 20 CT	[ 3021 ]</item>
         <item>OLMAT 40	[ 2822 ]</item>
         <item>OLMAT 40 AM TAB	[ 2035 ]</item>
         <item>OLMAT 40 AMH	[ 1669 ]</item>
         <item>OLMAT 40 CT	[ 3022 ]</item>
-        <item>OLMAT AM	[ 1204 ]</item>
         <item>OLMAT H	[ 2823 ]</item>
         <item>OLMAT H 40	[ 6749 ]</item>
         <item>OLMAT MT 25	[ 2936 ]</item>
         <item>OLMAT MT 50	[ 2937 ]</item>
-        <item>OLMAT TRIO	[ 3053 ]</item>
         <item>OLMEGARD 20	[ 5519 ]</item>
         <item>OLMEGARD 40	[ 5512 ]</item>
         <item>OLMEGARD AM	[ 5514 ]</item>
-        <item>OLMEGARD CT	[ 33083 ]</item>
-        <item>OLMEGARD CT 40	[ 33082 ]</item>
         <item>OLMEGARD H	[ 5513 ]</item>
         <item>OLMEGARD H 40	[ 556 ]</item>
-        <item>OLMEGARD-20	[ 5511 ]</item>
         <item>OLMESAFE 10	[ 31554 ]</item>
         <item>OLMESAFE 20 MG TAB	[ 31594 ]</item>
         <item>OLMESAFE 40	[ 31607 ]</item>
@@ -3261,7 +2684,6 @@
         <item>OMNACORTIL 30	[ 2525 ]</item>
         <item>OMNACORTIL 40	[ 703 ]</item>
         <item>OMNACORTIL 5	[ 700 ]</item>
-        <item>OMNACORTIL CREAM	[ 6633 ]</item>
         <item>OMNACORTIL DROPS	[ 903 ]</item>
         <item>OMNACORTIL FORTE SUSP	[ 723 ]</item>
         <item>OMNACORTIL SYP	[ 704 ]</item>
@@ -3285,7 +2707,6 @@
         <item>ONETONE PLUS	[ 91150 ]</item>
         <item>OPTIFIBER	[ 14009 ]</item>
         <item>OPTINEURON FORTE	[ 11120 ]</item>
-        <item>OPTINUERON	[ 7149 ]</item>
         <item>OPTINUERON INJ	[ 7150 ]</item>
         <item>OQ  200	[ 485 ]</item>
         <item>OQ DERM 5 GM	[ 493 ]</item>
@@ -3302,7 +2723,6 @@
         <item>ORCERIN GM	[ 2849 ]</item>
         <item>ORFLAZ KIT	[ 31559 ]</item>
         <item>ORIQUIN	[ 8962 ]</item>
-        <item>ORLE-120	[ 5398 ]</item>
         <item>ORLE-60	[ 5399 ]</item>
         <item>ORLIP X 120	[ 14015 ]</item>
         <item>ORLIP X 60	[ 14014 ]</item>
@@ -3320,7 +2740,6 @@
         <item>OROCEF 200 DT	[ 2573 ]</item>
         <item>OROCEF DR SYP	[ 2900 ]</item>
         <item>OROCEF O	[ 2899 ]</item>
-        <item>OROCEF SYP	[ 2380 ]</item>
         <item>OROCEF-OLB	[ 3113 ]</item>
         <item>OROFER CAP	[ 5339 ]</item>
         <item>OROFER FCM 500 INJ	[ 5510 ]</item>
@@ -3330,11 +2749,11 @@
         <item>OROFER S INJ	[ 5340 ]</item>
         <item>OROFER SYP	[ 5341 ]</item>
         <item>OROFER XT	[ 5345 ]</item>
+        <item>OROFER XT + SYP	[ 91196 ]</item>
         <item>OROFER XT 30	[ 5353 ]</item>
         <item>OROFER XT DROPS	[ 5342 ]</item>
         <item>OROFER XT SUSP	[ 5344 ]</item>
         <item>OROFER XT TOTAL	[ 5432 ]</item>
-        <item>OROFER XT-Z	[ 5378 ]</item>
         <item>ORPENEM 200	[ 2860 ]</item>
         <item>ORTHOCORT 12	[ 1093 ]</item>
         <item>ORTHOCORT 6	[ 6757 ]</item>
@@ -3347,8 +2766,6 @@
         <item>OVALIFE MET	[ 34074 ]</item>
         <item>OVALIFE PLUS	[ 9229 ]</item>
         <item>OVALIFE TAB	[ 2942 ]</item>
-        <item>OXIDON  CAPS	[ 1303 ]</item>
-        <item>OXIDON PLUS	[ 1495 ]</item>
         <item>OXIDON PLUS	[ 1686 ]</item>
         <item>OXIRAY	[ 8108 ]</item>
         <item>OXIRAY PLUS	[ 8146 ]</item>
@@ -3358,14 +2775,6 @@
         <item>P2I	[ 6973 ]</item>
         <item>P2I D CAP	[ 7772 ]</item>
         <item>P2I L CAP	[ 30008 ]</item>
-        <item>PACENORM 100 TAB	[ 6727 ]</item>
-        <item>PACENORM 200 TAB	[ 6728 ]</item>
-        <item>PACENORM IV	[ 6726 ]</item>
-        <item>PACLISTAR 100 INJ	[ 7360 ]</item>
-        <item>PACLISTAR 260 INJ	[ 7361 ]</item>
-        <item>PACLISTAR 30	[ 7359 ]</item>
-        <item>PALOSTAR INJ	[ 7363 ]</item>
-        <item>PANDERM OINT	[ 2394 ]</item>
         <item>PANDERM PLUS	[ 1020 ]</item>
         <item>PANDERM SUPER	[ 34554 ]</item>
         <item>PANDERM V GEL	[ 3001 ]</item>
@@ -3376,19 +2785,8 @@
         <item>PANLID-DSR	[ 8960 ]</item>
         <item>PANPURE	[ 5714 ]</item>
         <item>PANPURE DSR	[ 5712 ]</item>
-        <item>PANPURE IV 20 MG	[ 5713 ]</item>
         <item>PANSA 40	[ 5077 ]</item>
         <item>PANSA D	[ 5075 ]</item>
-        <item>PANSA DSR	[ 5142 ]</item>
-        <item>PANSA IV 40	[ 5076 ]</item>
-        <item>PANTANA TAB	[ 34022 ]</item>
-        <item>PANTOCAR	[ 1229 ]</item>
-        <item>PANTOFIX 20	[ 6089 ]</item>
-        <item>PANTOFIX 40	[ 6090 ]</item>
-        <item>PANTOFIX D	[ 6091 ]</item>
-        <item>PANTOFIX IV	[ 6134 ]</item>
-        <item>PANTOFLUX	[ 1438 ]</item>
-        <item>PANTOFLUX SR	[ 6575 ]</item>
         <item>PANTOP 20	[ 30585 ]</item>
         <item>PANTOP 40	[ 30586 ]</item>
         <item>PANTOP D	[ 30588 ]</item>
@@ -3403,11 +2801,10 @@
         <item>PANTOZA 40	[ 14010 ]</item>
         <item>PANTOZA CT	[ 14021 ]</item>
         <item>PANTOZA D	[ 14011 ]</item>
+        <item>PANUM    IV	[ 183 ]</item>
         <item>PANUM -L	[ 487 ]</item>
         <item>PANUM 40	[ 169 ]</item>
         <item>PANUM D	[ 200 ]</item>
-        <item>PANZOLE	[ 5447 ]</item>
-        <item>PARANIM TAB	[ 2562 ]</item>
         <item>PARKIN	[ 1616 ]</item>
         <item>PARKIN PLUS	[ 1613 ]</item>
         <item>PARNACAL	[ 4801 ]</item>
@@ -3420,53 +2817,36 @@
         <item>PATH 30	[ 7550 ]</item>
         <item>PATH 7.5	[ 7624 ]</item>
         <item>PAUSE 500	[ 5349 ]</item>
-        <item>PAUSE D	[ 5482 ]</item>
         <item>PAUSE INJ	[ 5347 ]</item>
         <item>PAUSE MF	[ 5348 ]</item>
-        <item>PAUSE MOUTHWASH	[ 7750 ]</item>
         <item>PAUSE XT	[ 5448 ]</item>
         <item>PAXOTUS 12.5	[ 33840 ]</item>
         <item>PAXOTUS 25MG TAB	[ 34099 ]</item>
         <item>PAXOTUS 37.5MG	[ 34101 ]</item>
         <item>PAXOTUS PLUS 12.5	[ 34566 ]</item>
         <item>PAXOTUS PLUS 25	[ 34567 ]</item>
-        <item>PAZACE 500 IV	[ 7300 ]</item>
         <item>PBF GEL	[ 3002 ]</item>
+        <item>PEDIA  GOLD PLUS  VANILLA	[ 9141 ]</item>
+        <item>PEDIA GOLD MANGO	[ 9136 ]</item>
         <item>PEDIA GOLD VANILLA	[ 9137 ]</item>
         <item>PEDPRO CHOCO	[ 30594 ]</item>
         <item>PEDPRO POWDER CHOCO	[ 30593 ]</item>
-        <item>PEDPRO POWDER VANILLA	[ 30596 ]</item>
         <item>PEDPRO VANILLA	[ 30595 ]</item>
         <item>PEGALUP	[ 33085 ]</item>
         <item>PEGALUP SMALL	[ 33087 ]</item>
         <item>PEGCLEAR SYRUP	[ 5229 ]</item>
         <item>PENTASURE	[ 9101 ]</item>
-        <item>PENTASURE  200GM	[ 9126 ]</item>
-        <item>PENTASURE  HP	[ 9125 ]</item>
         <item>PENTASURE 2.0 VANILA	[ 9121 ]</item>
-        <item>PENTASURE ACTIVE	[ 9129 ]</item>
-        <item>PENTASURE CHOCOLATE	[ 9122 ]</item>
-        <item>PENTASURE CRITI PEP	[ 9112 ]</item>
         <item>PENTASURE CRITIPEP 400GM	[ 9139 ]</item>
-        <item>PENTASURE D ACTIVE	[ 9130 ]</item>
         <item>PENTASURE DLS	[ 9111 ]</item>
         <item>PENTASURE DM	[ 9106 ]</item>
-        <item>PENTASURE DM 200GM	[ 9124 ]</item>
-        <item>PENTASURE HEPATIC	[ 9113 ]</item>
         <item>PENTASURE HEPATIC 400	[ 9140 ]</item>
-        <item>PENTASURE HP	[ 9110 ]</item>
         <item>PENTASURE HP 400GMS	[ 9138 ]</item>
         <item>PENTASURE IMMUNO MAX	[ 9116 ]</item>
         <item>PENTASURE RENAL	[ 9114 ]</item>
-        <item>PENTASURE RENAL 21G	[ 9127 ]</item>
-        <item>PENTASURE STRAWBERRY	[ 9123 ]</item>
-        <item>PEPGENE TAB	[ 34023 ]</item>
         <item>PERCIN	[ 7151 ]</item>
         <item>PERFECT 7 MAN	[ 587 ]</item>
         <item>PERFECT 7 WOMAN	[ 588 ]</item>
-        <item>PERIFER-2.5  TAB	[ 1567 ]</item>
-        <item>PERMARID 5%	[ 2447 ]</item>
-        <item>PERMARID LOTION	[ 6768 ]</item>
         <item>PEROXITA	[ 2092 ]</item>
         <item>PETIOL 40	[ 6841 ]</item>
         <item>PETIOL D	[ 6827 ]</item>
@@ -3481,7 +2861,6 @@
         <item>PHOTOBAN 30 AQUA GEL	[ 1687 ]</item>
         <item>PHOTOBAN-30 AQUA GEL	[ 3158 ]</item>
         <item>PHOTOBAN-50 AQUAGEL	[ 3140 ]</item>
-        <item>PHOTOBEN 15 LOTION	[ 1304 ]</item>
         <item>PHYTORAL	[ 1429 ]</item>
         <item>PHYTORAL B CREAM	[ 3115 ]</item>
         <item>PHYTORAL BAR	[ 3014 ]</item>
@@ -3501,24 +2880,8 @@
         <item>PINOM H 40	[ 7780 ]</item>
         <item>PINOM M 25	[ 7793 ]</item>
         <item>PINOM M 50	[ 7794 ]</item>
-        <item>PIOGLU 15	[ 5924 ]</item>
-        <item>PIOGLU G 1	[ 5922 ]</item>
-        <item>PIOGLU G 2	[ 5923 ]</item>
-        <item>PIOGLU M 15	[ 5926 ]</item>
-        <item>PIOREST 15	[ 1546 ]</item>
-        <item>PIOREST 30	[ 1547 ]</item>
-        <item>PIOREST M	[ 1730 ]</item>
-        <item>PIOSAFE MF 15/500	[ 31599 ]</item>
-        <item>PLACIDIN 100	[ 7341 ]</item>
-        <item>PLACIDIN 200	[ 7342 ]</item>
-        <item>PLACIDIN 25	[ 7340 ]</item>
-        <item>PLACIDIN XR 200	[ 7377 ]</item>
-        <item>PLACIDIN XR 300	[ 7380 ]</item>
-        <item>PLACIDIN XR 50	[ 7381 ]</item>
-        <item>PLACIDOX 10	[ 7338 ]</item>
         <item>PLACIDOX 2	[ 7336 ]</item>
         <item>PLACIDOX 5	[ 7337 ]</item>
-        <item>PLACIDOX INJ	[ 7339 ]</item>
         <item>PLAGERINE 75	[ 1237 ]</item>
         <item>PLAGERINE A 150	[ 1236 ]</item>
         <item>PLANEP -T 10	[ 33530 ]</item>
@@ -3529,26 +2892,18 @@
         <item>PLATFAST SYRUP	[ 5231 ]</item>
         <item>PLATIMAX	[ 3095 ]</item>
         <item>PLATIMAX SYP	[ 34119 ]</item>
+        <item>PODMON CV	[ 91210 ]</item>
         <item>PODXETIL  50	[ 34092 ]</item>
         <item>PODXETIL 100	[ 34093 ]</item>
         <item>PODXETIL CV	[ 34094 ]</item>
         <item>POLYBION  INJ	[ 315 ]</item>
-        <item>POLYBION  SYRUP   250 ML	[ 318 ]</item>
-        <item>POLYBION  SYRUP 100ML	[ 317 ]</item>
         <item>POLYBION CAP	[ 384 ]</item>
-        <item>POLYBION COMPLETE SYRUP 150ML	[ 6059 ]</item>
         <item>POLYBION CZS	[ 6659 ]</item>
-        <item>POLYBION FORTE	[ 412 ]</item>
-        <item>POLYBION L 250 SYP	[ 385 ]</item>
-        <item>POLYBION L SYRUP	[ 316 ]</item>
         <item>POLYBION LC 100 SYP	[ 416 ]</item>
         <item>POLYBION LC 250 SYP	[ 414 ]</item>
         <item>POLYBION SF 100ML	[ 434 ]</item>
         <item>POLYBION SF 250 SYP	[ 417 ]</item>
         <item>POLYBION SF 400	[ 418 ]</item>
-        <item>POLYBION SYRUP 400 ML	[ 362 ]</item>
-        <item>POLYBION TABS	[ 6716 ]</item>
-        <item>POLYBION TOTAL SYREP	[ 394 ]</item>
         <item>POLYCLAV 375	[ 6127 ]</item>
         <item>POLYCLAV 625	[ 6126 ]</item>
         <item>POLYCLAV BD SYP	[ 6137 ]</item>
@@ -3567,40 +2922,30 @@
         <item>POLYPOD DROPS	[ 1079 ]</item>
         <item>POLYPOD DT 50	[ 745 ]</item>
         <item>POLYPOD O	[ 1075 ]</item>
-        <item>POLYPOD O 100 DT	[ 1192 ]</item>
         <item>POZITIVE 15	[ 33032 ]</item>
-        <item>POZITIVE 30	[ 33033 ]</item>
         <item>POZITIVE 7.5	[ 33031 ]</item>
         <item>PRADIL-150	[ 5867 ]</item>
         <item>PRASUDOC 10	[ 7789 ]</item>
-        <item>PRASUDOC 5	[ 7390 ]</item>
-        <item>PRASULET 10	[ 1576 ]</item>
-        <item>PRASULET 5	[ 1577 ]</item>
-        <item>PRASUMAX 10	[ 5396 ]</item>
-        <item>PRASUMAX 5	[ 5397 ]</item>
-        <item>PRASUREL 10	[ 1024 ]</item>
-        <item>PRASUREL 5	[ 1023 ]</item>
         <item>PREBOSE 0.2	[ 14019 ]</item>
         <item>PREBOSE 0.3	[ 14020 ]</item>
         <item>PREBOSE M 0.2	[ 14042 ]</item>
         <item>PREBOSE M 0.3	[ 14043 ]</item>
-        <item>PRECIDOL	[ 14057 ]</item>
         <item>PRECIVIT 4G	[ 14071 ]</item>
         <item>PRECLAZIDE M 40	[ 14044 ]</item>
         <item>PRECLAZIDE M 80	[ 14045 ]</item>
         <item>PRECLAZIDE MV	[ 14068 ]</item>
-        <item>PREDACE DROPS	[ 1305 ]</item>
         <item>PREGADOC 75	[ 7345 ]</item>
         <item>PREGADOC M 75	[ 7344 ]</item>
-        <item>PREGADOC M SR 150	[ 7389 ]</item>
         <item>PREGADOC M SR 75	[ 7388 ]</item>
         <item>PREGADOC NT	[ 33131 ]</item>
         <item>PREGADOC PLUS	[ 7498 ]</item>
         <item>PREGADOC SR 75	[ 7385 ]</item>
+        <item>PREGANZA 150	[ 91190 ]</item>
+        <item>PREGANZA 50	[ 33844 ]</item>
+        <item>PREGANZA 75	[ 91189 ]</item>
+        <item>PREGANZA ME	[ 91191 ]</item>
         <item>PREGANZA NT TAB	[ 34060 ]</item>
-        <item>PREGASTAR 150	[ 7575 ]</item>
         <item>PREGASTAR 75	[ 7574 ]</item>
-        <item>PREGASTAR M 150	[ 7577 ]</item>
         <item>PREGASTAR M 75	[ 7576 ]</item>
         <item>PREGASTAR M OD 150	[ 7392 ]</item>
         <item>PREGASTAR M OD 75	[ 7391 ]</item>
@@ -3614,25 +2959,20 @@
         <item>PREGCERT LMF	[ 20243 ]</item>
         <item>PREGCERT SR 200	[ 33538 ]</item>
         <item>PRESENTIAL	[ 20316 ]</item>
-        <item>PRESENTIAL FORTE CAP	[ 20329 ]</item>
         <item>PRIMACLAV-625	[ 8952 ]</item>
         <item>PRIMACORT 100	[ 773 ]</item>
         <item>PRINCICAL	[ 1893 ]</item>
+        <item>PRINCICLAV -BD SYRUP	[ 3191 ]</item>
         <item>PRINCICLAV 625	[ 2922 ]</item>
-        <item>PRO ACTIVE BIO JUNIOR	[ 9131 ]</item>
-        <item>PROCIT M POWDER	[ 10030 ]</item>
+        <item>PRINCICLAV-DS SYRUP	[ 3190 ]</item>
         <item>PROCIT POW	[ 10013 ]</item>
-        <item>PRODIUM 20	[ 806 ]</item>
-        <item>PROFERIUM POW	[ 5870 ]</item>
         <item>PROGERMINA SUSP	[ 5239 ]</item>
-        <item>PROGIT TABLET	[ 1484 ]</item>
-        <item>PROSTANORM	[ 817 ]</item>
-        <item>PROSTANORM 320	[ 6112 ]</item>
+        <item>PROSTAGARD 4	[ 31096 ]</item>
+        <item>PROSTAGARD 8	[ 31097 ]</item>
+        <item>PROSTAGARD D 4	[ 31098 ]</item>
+        <item>PROSTAGARD D 8	[ 31099 ]</item>
         <item>PROTERA	[ 7261 ]</item>
-        <item>PROTERA 20 TAB	[ 30105 ]</item>
         <item>PROTERA D	[ 7263 ]</item>
-        <item>PROTERA D 20	[ 30118 ]</item>
-        <item>PROTERA FAST	[ 7262 ]</item>
         <item>PROTERA I	[ 7259 ]</item>
         <item>PROTERA INJ	[ 7260 ]</item>
         <item>PROTERA L	[ 18024 ]</item>
@@ -3642,20 +2982,16 @@
         <item>PROTOTAL WHEY POWDER	[ 18042 ]</item>
         <item>PROXYM 200	[ 6788 ]</item>
         <item>PROXYM 300	[ 6789 ]</item>
+        <item>PROXYM ER 300	[ 91198 ]</item>
         <item>PROXYM GEL	[ 5420 ]</item>
         <item>PROXYM MR	[ 5421 ]</item>
-        <item>PROXYM MR FORTE	[ 5422 ]</item>
         <item>PROXYM XT	[ 5739 ]</item>
         <item>PTU	[ 816 ]</item>
-        <item>PULMISTAT 10	[ 30159 ]</item>
-        <item>PULMOCEF 125 TAB	[ 1419 ]</item>
         <item>PULMOCEF 250	[ 1420 ]</item>
         <item>PULMOCEF 500	[ 1147 ]</item>
-        <item>PULMOCEF 500 TAB	[ 1421 ]</item>
         <item>PULMOCEF CV 250	[ 1145 ]</item>
         <item>PULMOCEF CV 500	[ 1146 ]</item>
         <item>PULMOVAX 23	[ 7816 ]</item>
-        <item>PURE D3 2K	[ 31085 ]</item>
         <item>PURE D3 60K	[ 31084 ]</item>
         <item>PURE D3 DROPS	[ 31090 ]</item>
         <item>PURE MCT	[ 31050 ]</item>
@@ -3664,59 +3000,27 @@
         <item>PYZINA 750	[ 6924 ]</item>
         <item>PYZINA KID	[ 6925 ]</item>
         <item>Q PAS JAR	[ 6926 ]</item>
-        <item>Q PRIL 10	[ 827 ]</item>
-        <item>Q PRIL 20	[ 828 ]</item>
-        <item>Q PRIL 5	[ 826 ]</item>
-        <item>Q PRIL H 10	[ 902 ]</item>
-        <item>Q TAX 1.0 GM INJ	[ 16010 ]</item>
-        <item>Q- WIN 25	[ 1649 ]</item>
-        <item>Q-PRIL-40	[ 910 ]</item>
-        <item>Q-WIN 100	[ 1648 ]</item>
         <item>QCARD 100 MG CAPS	[ 33540 ]</item>
-        <item>QRABEX  20MG	[ 9544 ]</item>
-        <item>QRABEX DSR	[ 9543 ]</item>
-        <item>QUALINOX 40 PFS	[ 8528 ]</item>
-        <item>QUALINOX 60 PFS	[ 8529 ]</item>
-        <item>QUINOBID M 60 ML SUSP	[ 1387 ]</item>
-        <item>QUINOMAC 100 TAB	[ 2395 ]</item>
-        <item>QUINOMAC 300 TAB	[ 2397 ]</item>
-        <item>QUINOMAC ING 300MG(1ML)	[ 2437 ]</item>
-        <item>QUINOMAC INJ 300 MG	[ 2428 ]</item>
-        <item>QUINOMAC SUSP	[ 2429 ]</item>
-        <item>QUIONOBID M 30 ML SUSP	[ 1388 ]</item>
-        <item>QUITORIA 40	[ 270 ]</item>
-        <item>QUITORIA 80	[ 271 ]</item>
-        <item>QUITSURE 2 PASTILLES	[ 33053 ]</item>
-        <item>QUITSURE 4 PASTILLES	[ 33054 ]</item>
         <item>QURE 250	[ 31051 ]</item>
         <item>QURE 500	[ 31052 ]</item>
-        <item>QURE 750	[ 31053 ]</item>
-        <item>QURE IV 500	[ 31054 ]</item>
-        <item>QURE OZ	[ 31055 ]</item>
         <item>R CIN 150	[ 6927 ]</item>
         <item>R CIN 300	[ 6928 ]</item>
         <item>R CIN 450	[ 6929 ]</item>
         <item>R CIN 600	[ 6930 ]</item>
         <item>R CIN SUSP	[ 6931 ]</item>
         <item>R CINEX 450	[ 6932 ]</item>
-        <item>R CINEX 50 DT	[ 6933 ]</item>
         <item>R CINEX 600	[ 6934 ]</item>
-        <item>R CINEX DT	[ 6935 ]</item>
         <item>R CINEX E	[ 6936 ]</item>
         <item>R CINEX EZ	[ 6937 ]</item>
         <item>R CINEX KID	[ 6938 ]</item>
         <item>R CINEX Z	[ 6939 ]</item>
         <item>R CINEX Z KID	[ 6940 ]</item>
-        <item>R PURE	[ 5943 ]</item>
-        <item>R PURE D	[ 4747 ]</item>
         <item>RABECURE 20	[ 8115 ]</item>
         <item>RABECURE D	[ 8106 ]</item>
         <item>RABECURE L CAP	[ 8149 ]</item>
         <item>RABEMAC 10	[ 768 ]</item>
         <item>RABEMAC 20	[ 769 ]</item>
         <item>RABEMAC DSR	[ 779 ]</item>
-        <item>RABEMAC FAST	[ 6158 ]</item>
-        <item>RABEMAC ITR	[ 2636 ]</item>
         <item>RABEMAC LS	[ 1179 ]</item>
         <item>RABEZOL 20	[ 31506 ]</item>
         <item>RABEZOL DSR	[ 31507 ]</item>
@@ -3725,8 +3029,6 @@
         <item>RABIFAST DSR	[ 5079 ]</item>
         <item>RABIFAST I.V.	[ 5161 ]</item>
         <item>RABIFAST XL	[ 5189 ]</item>
-        <item>RABIFIX 20	[ 6746 ]</item>
-        <item>RABIFIX D	[ 6747 ]</item>
         <item>RABIPRAZ 20	[ 6626 ]</item>
         <item>RABIPRAZ D	[ 6752 ]</item>
         <item>RABIPRAZ-LS	[ 6851 ]</item>
@@ -3745,23 +3047,17 @@
         <item>RABLET D 40	[ 33118 ]</item>
         <item>RABLET IT	[ 7155 ]</item>
         <item>RABLET IV	[ 7156 ]</item>
-        <item>RABLET Z	[ 9530 ]</item>
         <item>RABSID DSR	[ 10029 ]</item>
         <item>RACECLO	[ 30634 ]</item>
-        <item>RACEDOT 10	[ 915 ]</item>
-        <item>RACEDOT CAP	[ 916 ]</item>
         <item>RACIPER -L	[ 5776 ]</item>
-        <item>RAMIPRIL 5	[ 1241 ]</item>
         <item>RAMIPRO 2.5	[ 6601 ]</item>
-        <item>RAMIPRO 5	[ 6655 ]</item>
         <item>RAMIPRO 5.0 CAP	[ 555 ]</item>
-        <item>RAMIRIL 2.5	[ 1240 ]</item>
-        <item>RAMIRIL H	[ 1570 ]</item>
         <item>RAMISTAR 1.25	[ 7722 ]</item>
         <item>RAMISTAR 10	[ 7725 ]</item>
         <item>RAMISTAR 2.5	[ 7723 ]</item>
         <item>RAMISTAR 5	[ 7724 ]</item>
         <item>RAMISTAR A	[ 7728 ]</item>
+        <item>RAMISTAR AM 5	[ 33167 ]</item>
         <item>RAMISTAR H 10	[ 7608 ]</item>
         <item>RAMISTAR H 2.5	[ 7726 ]</item>
         <item>RAMISTAR H 5	[ 7727 ]</item>
@@ -3771,11 +3067,8 @@
         <item>RANCAD 1000	[ 7619 ]</item>
         <item>RANTAC 150	[ 156 ]</item>
         <item>RANTAC 300	[ 157 ]</item>
-        <item>RANTAC AC	[ 12009 ]</item>
-        <item>RANTAC D	[ 181 ]</item>
         <item>RANTAC D PLUS	[ 251 ]</item>
         <item>RANTAC DOM	[ 589 ]</item>
-        <item>RANTAC DROPS	[ 473 ]</item>
         <item>RANTAC INJ	[ 158 ]</item>
         <item>RANTAC MPS LA	[ 8547 ]</item>
         <item>RANTAC MPS SUSP	[ 201 ]</item>
@@ -3784,22 +3077,14 @@
         <item>RANTOP SYP	[ 91137 ]</item>
         <item>RAPIDON EYE DROPS	[ 1590 ]</item>
         <item>RAPIDON OD EYE DROPS	[ 2097 ]</item>
-        <item>RAPITOIN 150	[ 5476 ]</item>
-        <item>RAPITOIN INJ 750 MG	[ 5412 ]</item>
+        <item>RAPITUS LS SYP	[ 3193 ]</item>
         <item>RAPITUS PLUS	[ 987 ]</item>
         <item>RAPITUS SYRUP	[ 8125 ]</item>
         <item>RAPITUS XT SYP	[ 34594 ]</item>
-        <item>RASOTAN 20	[ 5392 ]</item>
-        <item>RASOTAN 40	[ 5393 ]</item>
-        <item>RASOTAN AM 5	[ 5493 ]</item>
-        <item>RASOTAN H 20	[ 5423 ]</item>
-        <item>RASOTAN SA	[ 5425 ]</item>
-        <item>RASOTAN SA 5	[ 5424 ]</item>
         <item>RATIONAL +	[ 9510 ]</item>
         <item>RATIONAL 200	[ 9509 ]</item>
         <item>RCIFAX 400	[ 7191 ]</item>
         <item>RCIFAX 550	[ 11118 ]</item>
-        <item>RCIFAX DT	[ 7192 ]</item>
         <item>RCIFAX SUSPENSION	[ 30111 ]</item>
         <item>RCIFAX TAB	[ 7176 ]</item>
         <item>RCLONAC	[ 7157 ]</item>
@@ -3808,37 +3093,23 @@
         <item>RECARB 25	[ 1639 ]</item>
         <item>RECARB 50	[ 1640 ]</item>
         <item>RECOBA	[ 2717 ]</item>
-        <item>RECOVIT	[ 7266 ]</item>
         <item>RECOVIT NP	[ 7634 ]</item>
-        <item>RECOVIT TOTAL	[ 7296 ]</item>
-        <item>REDAPT  INJ	[ 20301 ]</item>
         <item>REDAPT-CT	[ 20319 ]</item>
-        <item>REDUCIN A	[ 260 ]</item>
-        <item>REDUCIN XX 12.5	[ 160 ]</item>
-        <item>REDUCIN XX 25	[ 161 ]</item>
-        <item>REE-500	[ 5452 ]</item>
         <item>REFOLATE L	[ 34506 ]</item>
         <item>REGAFIX CAP	[ 16014 ]</item>
-        <item>REGALIN	[ 1573 ]</item>
         <item>REGAMIN	[ 6843 ]</item>
         <item>REGAMIN DROPS	[ 4780 ]</item>
         <item>REGAMIN GOLD CAP	[ 4832 ]</item>
         <item>REGAMIN SUSPENSION	[ 4837 ]</item>
-        <item>REGEN TAB	[ 1554 ]</item>
-        <item>REINCAR CAP	[ 5840 ]</item>
-        <item>RELAXYL	[ 32023 ]</item>
         <item>RELAXYL DA	[ 32018 ]</item>
         <item>RELAXYL GEL	[ 32019 ]</item>
         <item>RELAXYL OINT	[ 32519 ]</item>
         <item>RELAXYL PLUS	[ 32021 ]</item>
-        <item>RELAXYL SPRAY	[ 32020 ]</item>
-        <item>RELAXYL SR	[ 32022 ]</item>
         <item>RELNOPA 75 SR	[ 4844 ]</item>
         <item>RELUBRI	[ 4833 ]</item>
         <item>RENECAR 400	[ 20306 ]</item>
         <item>RENECAR 800	[ 20307 ]</item>
         <item>RENEGUARD	[ 20302 ]</item>
-        <item>RENEHEP PS	[ 20318 ]</item>
         <item>RENEMIA 10000 IU	[ 20311 ]</item>
         <item>RENEMIA ING 2000 IU	[ 20304 ]</item>
         <item>RENEMIA ING 4000 IU	[ 20305 ]</item>
@@ -3846,47 +3117,25 @@
         <item>RENEPLUS	[ 20303 ]</item>
         <item>RENEPLUS FE	[ 20317 ]</item>
         <item>RENOMEGA	[ 20308 ]</item>
-        <item>REPOGRA TAB	[ 33164 ]</item>
-        <item>RESICA KIT	[ 31562 ]</item>
-        <item>RESNER	[ 7158 ]</item>
-        <item>RESNER INJ	[ 7159 ]</item>
         <item>RESNER PLUS TAB	[ 91167 ]</item>
         <item>RESODIM 15	[ 7803 ]</item>
         <item>RESODIM 30	[ 7804 ]</item>
         <item>RESPIZEN NASAL SPRAY	[ 34126 ]</item>
-        <item>RESTFULL	[ 7379 ]</item>
-        <item>RESTFULL ET 0.25	[ 30142 ]</item>
-        <item>RESTFULL ET 0.50	[ 30143 ]</item>
-        <item>RESTORE TAB	[ 1431 ]</item>
-        <item>RESVINOL	[ 1733 ]</item>
         <item>RESVITA	[ 31058 ]</item>
         <item>RETORLIX 10	[ 7554 ]</item>
-        <item>RETORLIX 100	[ 7556 ]</item>
         <item>RETORLIX 20	[ 7555 ]</item>
         <item>RETORLIX 5	[ 7589 ]</item>
-        <item>RETORLIX INJ	[ 7773 ]</item>
-        <item>RETORLIX SP 10	[ 7557 ]</item>
-        <item>RETORLIX SP 5	[ 7558 ]</item>
-        <item>RETUNE 50	[ 5080 ]</item>
         <item>RETUNE LS	[ 5699 ]</item>
-        <item>RETUNE-LS OD TAB	[ 1743 ]</item>
         <item>REVIDOX-LB	[ 34073 ]</item>
-        <item>REVOCAL TAB	[ 5641 ]</item>
-        <item>REVOCAL XL	[ 5642 ]</item>
         <item>REVOFER 500 MG	[ 33525 ]</item>
         <item>REVOSTAT 10 TAB	[ 5236 ]</item>
         <item>REVOSTAT 20 TAB	[ 5237 ]</item>
         <item>REVOSTAT 5 TAB	[ 5238 ]</item>
         <item>REZARA 10	[ 462 ]</item>
-        <item>REZARA 20	[ 463 ]</item>
-        <item>REZARA 5	[ 33052 ]</item>
         <item>RG-MAC	[ 2995 ]</item>
-        <item>RGM	[ 2274 ]</item>
         <item>RHE FD	[ 887 ]</item>
         <item>RHE FD 150	[ 888 ]</item>
         <item>RHE KIT	[ 886 ]</item>
-        <item>RHEONEX TAB	[ 1407 ]</item>
-        <item>RHEONEX-MF	[ 1399 ]</item>
         <item>RHEZA 10	[ 33094 ]</item>
         <item>RHEZA 5	[ 33119 ]</item>
         <item>RHEZA ASP	[ 33521 ]</item>
@@ -3894,10 +3143,6 @@
         <item>RHINO	[ 178 ]</item>
         <item>RHINOBAN SYRUP	[ 6138 ]</item>
         <item>RHINOBAN XP	[ 3151 ]</item>
-        <item>RIBAFIT 20	[ 7590 ]</item>
-        <item>RIBAVIN 200	[ 7347 ]</item>
-        <item>RIBAVIN SYP 50	[ 7348 ]</item>
-        <item>RIBBFIT	[ 7568 ]</item>
         <item>RIBUTIN	[ 6941 ]</item>
         <item>RICHNEURON	[ 7656 ]</item>
         <item>RICHOVA SR TAB	[ 33125 ]</item>
@@ -3911,50 +3156,21 @@
         <item>RIFAXIMAX 400	[ 30101 ]</item>
         <item>RIFAXIMAX 550	[ 2045 ]</item>
         <item>RIFAXIMAX SUSPENSION	[ 34037 ]</item>
-        <item>RIFIDOR 100 MG	[ 500 ]</item>
         <item>RIFIDOR 200	[ 498 ]</item>
         <item>RIFIDOR 400	[ 499 ]</item>
+        <item>RIFIGON 200	[ 91173 ]</item>
         <item>RIFIGON 400	[ 91133 ]</item>
         <item>RIFIGON 550	[ 91128 ]</item>
         <item>RIFILL	[ 9511 ]</item>
         <item>RIFILL C	[ 9512 ]</item>
-        <item>RIFILL SP	[ 8535 ]</item>
         <item>RIFILL SUSP	[ 9528 ]</item>
-        <item>RIFILL XT	[ 8507 ]</item>
-        <item>RIMONID EYE DROP	[ 2536 ]</item>
-        <item>RIMTRIM TAB	[ 6076 ]</item>
         <item>RINIZIDE FORTE DT	[ 6942 ]</item>
-        <item>RISPOND 1	[ 1600 ]</item>
-        <item>RISPOND 2	[ 1601 ]</item>
-        <item>RISPOND 3	[ 1602 ]</item>
-        <item>RISPOND 4	[ 1603 ]</item>
-        <item>RISPOND FORTE	[ 1641 ]</item>
-        <item>RISPOND PLUS	[ 1622 ]</item>
-        <item>RITE O CEF 100	[ 2368 ]</item>
-        <item>RITE O CEF 200	[ 2299 ]</item>
-        <item>RITE O CEF CV	[ 6650 ]</item>
-        <item>RITE O CEF CV DRY SYP	[ 1170 ]</item>
-        <item>RITE O CEF DRY SYP	[ 2259 ]</item>
-        <item>RITECEF T INJ	[ 6106 ]</item>
-        <item>RITECEF-T-500MG INJ	[ 6105 ]</item>
         <item>RIVAPLAST PATCH	[ 4829 ]</item>
         <item>ROFADAY	[ 30160 ]</item>
-        <item>ROFICA 25	[ 1323 ]</item>
-        <item>ROFICA 50	[ 1324 ]</item>
-        <item>ROFICA GEL	[ 1325 ]</item>
         <item>ROLAZIN	[ 6131 ]</item>
-        <item>ROSATAN BETA 25	[ 5462 ]</item>
         <item>ROSELINA	[ 18026 ]</item>
-        <item>ROSELINA DROPS	[ 18032 ]</item>
         <item>ROSILINA SUSP	[ 18031 ]</item>
-        <item>ROSINORM - 4 TAB	[ 1452 ]</item>
-        <item>ROSINORM - M TAB	[ 1464 ]</item>
-        <item>ROSINORM -G	[ 1465 ]</item>
-        <item>ROSINORM 2	[ 1453 ]</item>
-        <item>ROSINORM 2	[ 2186 ]</item>
-        <item>ROSINORM-GM TAB	[ 6611 ]</item>
         <item>ROSUCIA -F	[ 14053 ]</item>
-        <item>ROSUCIA 40	[ 14065 ]</item>
         <item>ROSUCIA GOLD	[ 14070 ]</item>
         <item>ROSUCIA-10	[ 14047 ]</item>
         <item>ROSUCIA-20MG	[ 14052 ]</item>
@@ -3985,8 +3201,11 @@
         <item>ROZUDOC  40	[ 91105 ]</item>
         <item>ROZUDOC 10	[ 91099 ]</item>
         <item>ROZUDOC 5	[ 91098 ]</item>
+        <item>ROZUDOC CV 10	[ 91178 ]</item>
+        <item>ROZUDOC CV 20	[ 91179 ]</item>
         <item>ROZUDOC F 10	[ 91106 ]</item>
         <item>ROZUDOC F 20	[ 91107 ]</item>
+        <item>ROZUDOC GOLD 10	[ 91222 ]</item>
         <item>ROZUSTAT 10	[ 1041 ]</item>
         <item>ROZUSTAT 10 D	[ 2933 ]</item>
         <item>ROZUSTAT 20	[ 1099 ]</item>
@@ -3997,12 +3216,9 @@
         <item>ROZUSTAT F 5	[ 1720 ]</item>
         <item>ROZUSTAT GOLD	[ 3124 ]</item>
         <item>ROZUSTAT GOLD 20	[ 3123 ]</item>
-        <item>RTIST CAP	[ 6949 ]</item>
-        <item>RTIST SUSP	[ 6950 ]</item>
         <item>RUBIRED	[ 6696 ]</item>
         <item>RUBIRED DROPS	[ 787 ]</item>
         <item>RUBIRED S 5	[ 971 ]</item>
-        <item>RUBIRED S INJ	[ 839 ]</item>
         <item>RUBIRED SUSP	[ 6697 ]</item>
         <item>RUTICOOL CREAM	[ 11117 ]</item>
         <item>RUTIN TAB	[ 11105 ]</item>
@@ -4012,13 +3228,11 @@
         <item>S AMLOSAFE 5	[ 31564 ]</item>
         <item>S AMLOSAFE AT 2.5/50	[ 31565 ]</item>
         <item>S AMLOVAS 2.5	[ 6815 ]</item>
-        <item>S AMLOVAS 5	[ 843 ]</item>
         <item>S CELEPRA 10 TAB	[ 2270 ]</item>
         <item>S CELEPRA 5 TAB	[ 1653 ]</item>
         <item>S CELEPRA20	[ 34625 ]</item>
         <item>S NUMLO 2.5	[ 5841 ]</item>
         <item>S NUMLO 5	[ 5842 ]</item>
-        <item>S-CELEPRA 20	[ 34066 ]</item>
         <item>SACROLYTE SACHET	[ 34110 ]</item>
         <item>SALBAIR	[ 7407 ]</item>
         <item>SALBAIR B CAP	[ 7408 ]</item>
@@ -4035,31 +3249,8 @@
         <item>SALBAIR NEB TRANSPULES 1.25	[ 290 ]</item>
         <item>SALBAIR RESP SOL	[ 7406 ]</item>
         <item>SALBAIR TRANSPULES	[ 7404 ]</item>
-        <item>SALBID D SYP	[ 1263 ]</item>
-        <item>SALBID EXPT	[ 2580 ]</item>
-        <item>SALBID PLUS 60 ML	[ 8113 ]</item>
-        <item>SALTRIX OINT	[ 1256 ]</item>
-        <item>SARTACE  H  TAB	[ 2279 ]</item>
-        <item>SARTACE -1.25	[ 1242 ]</item>
-        <item>SARTACE -2.5	[ 1243 ]</item>
-        <item>SARTACE 5 TAB	[ 1631 ]</item>
         <item>SCARAB CR	[ 30597 ]</item>
-        <item>SCASIS 150 TAB	[ 6681 ]</item>
-        <item>SCAVISTA 12	[ 5645 ]</item>
-        <item>SCAVISTA 3 DT	[ 5646 ]</item>
-        <item>SCAVISTA 3A	[ 5975 ]</item>
-        <item>SCAVISTA 6 DT	[ 5647 ]</item>
-        <item>SCAVISTA-12A	[ 5967 ]</item>
-        <item>SCAVISTA-3A DT TAB	[ 5643 ]</item>
-        <item>SCAVISTA-6A TAB	[ 5644 ]</item>
-        <item>SCUD 1 GM	[ 5650 ]</item>
-        <item>SCUD 250 INJ	[ 5648 ]</item>
-        <item>SCUD 500 INJ	[ 5649 ]</item>
-        <item>SCUD XP 1 GM INJ	[ 5680 ]</item>
-        <item>SCUD XP 250MG INJ	[ 5681 ]</item>
-        <item>SCUD XP 500MG INJ	[ 5682 ]</item>
         <item>SECALIA CREAM	[ 1307 ]</item>
-        <item>SECALIA CREAM 100	[ 2459 ]</item>
         <item>SECALIA LOTION	[ 2938 ]</item>
         <item>SECALIA LOTION BIG	[ 34606 ]</item>
         <item>SECREMET 1	[ 2569 ]</item>
@@ -4071,7 +3262,6 @@
         <item>SEMI GLYCIGON 40	[ 31035 ]</item>
         <item>SEMI XILIA MP 1 TAB	[ 551 ]</item>
         <item>SEMI XILIA MP2	[ 552 ]</item>
-        <item>SENACEPT 30	[ 9537 ]</item>
         <item>SENSICLAV 1.2	[ 1948 ]</item>
         <item>SENSICLAV 150 MG	[ 2024 ]</item>
         <item>SENSICLAV 156.25 SYP	[ 995 ]</item>
@@ -4082,45 +3272,24 @@
         <item>SENSICLAV DROPS	[ 1944 ]</item>
         <item>SENSICLAV DS SYP	[ 1158 ]</item>
         <item>SENSICLAV KID DT	[ 992 ]</item>
-        <item>SENSICORT BF OINT	[ 5652 ]</item>
-        <item>SENSICORT CREAM	[ 5653 ]</item>
         <item>SENSIFIT GEL	[ 12010 ]</item>
-        <item>SENSIFIT ORAL RINSE	[ 12004 ]</item>
         <item>SENSIFOL	[ 3086 ]</item>
-        <item>SENSITAB 15	[ 14028 ]</item>
-        <item>SENSITAB 7.5	[ 14034 ]</item>
-        <item>SENSITAB-30	[ 14027 ]</item>
         <item>SENSIYES EYE DROPS	[ 9024 ]</item>
         <item>SERETRA 80	[ 30120 ]</item>
         <item>SERTIVA TAB	[ 5788 ]</item>
-        <item>SERTIVE 25 TABLETS	[ 5737 ]</item>
-        <item>SERVACE 1.25	[ 1530 ]</item>
-        <item>SERVACE 10	[ 2375 ]</item>
-        <item>SERVACE 2.5	[ 1529 ]</item>
-        <item>SERVACE 5	[ 1500 ]</item>
-        <item>SERVACE AM TAB	[ 2579 ]</item>
         <item>SETFRAC CAP	[ 2941 ]</item>
         <item>SETFRAC PLUS	[ 3035 ]</item>
-        <item>SETFRAC PLUS SUSP	[ 3097 ]</item>
         <item>SETOLAC 300 ER	[ 5167 ]</item>
         <item>SETOLAC P	[ 5166 ]</item>
-        <item>SETOLAC P5 TAB	[ 4820 ]</item>
-        <item>SEVCAR 400 BOTTLE	[ 6526 ]</item>
         <item>SEVCAR 400 SACHET	[ 6523 ]</item>
         <item>SEVCAR 400 TAB	[ 6517 ]</item>
-        <item>SEVCAR 800 SACHET	[ 6522 ]</item>
         <item>SEVCAR 800 TAB	[ 6518 ]</item>
-        <item>SEVEN  SEAS KIDS CLO	[ 285 ]</item>
         <item>SEVEN SEAS 100	[ 441 ]</item>
-        <item>SEVEN SEAS ORIGINAL CAP	[ 442 ]</item>
         <item>SEVEN SEAS ORIGINAL CAP 500	[ 443 ]</item>
         <item>SIDCOOL GEL	[ 10035 ]</item>
         <item>SIDEX B SYP	[ 10004 ]</item>
-        <item>SIDOCAL 500	[ 10009 ]</item>
         <item>SIDOCAL D3	[ 10034 ]</item>
         <item>SIDOFER -DXT	[ 10036 ]</item>
-        <item>SIDOFER XT	[ 10021 ]</item>
-        <item>SIDOFER XT SYP	[ 10020 ]</item>
         <item>SIDOFLAM	[ 10011 ]</item>
         <item>SIDOMOL P TABS	[ 10031 ]</item>
         <item>SIDOMOL SYP	[ 10012 ]</item>
@@ -4129,26 +3298,15 @@
         <item>SIDOVIT SYP	[ 10016 ]</item>
         <item>SIGNOFLAM	[ 7160 ]</item>
         <item>SIGNOFLAM P	[ 7161 ]</item>
-        <item>SIGNOFLAM SR	[ 7162 ]</item>
         <item>SIGNOHEAL	[ 33086 ]</item>
         <item>SIGNOHEAL DS TAB	[ 33092 ]</item>
-        <item>SILCLOP	[ 1448 ]</item>
-        <item>SILNAFIL	[ 5491 ]</item>
         <item>SILYBON 140	[ 1329 ]</item>
         <item>SILYBON 70	[ 1328 ]</item>
         <item>SILYBON SUSP	[ 1330 ]</item>
         <item>SILYBON SUSP 100	[ 2334 ]</item>
         <item>SIMENDA 12.5	[ 7790 ]</item>
-        <item>SIMSTAT 10 TAB	[ 5843 ]</item>
         <item>SIMVAS 10	[ 1244 ]</item>
         <item>SIMVAS 20	[ 1245 ]</item>
-        <item>SIMVAS 5	[ 1246 ]</item>
-        <item>SIMVAS EZ	[ 2344 ]</item>
-        <item>SIMVOFIX -10	[ 1522 ]</item>
-        <item>SIMVOFIX -20	[ 1523 ]</item>
-        <item>SIMVOFIX 40	[ 1560 ]</item>
-        <item>SINOSAM 200	[ 7200 ]</item>
-        <item>SINOSAM 400	[ 9529 ]</item>
         <item>SIPAN 40	[ 10001 ]</item>
         <item>SIPAN DSR	[ 10002 ]</item>
         <item>SKIZOTUS 100	[ 33824 ]</item>
@@ -4160,7 +3318,6 @@
         <item>SMOKE FREE 2	[ 34089 ]</item>
         <item>SMOKE FREE 4	[ 34090 ]</item>
         <item>SMULAX LIQ	[ 31059 ]</item>
-        <item>SMULAX LIQ 200	[ 31060 ]</item>
         <item>SMUTH	[ 30598 ]</item>
         <item>SMUTH    L	[ 34553 ]</item>
         <item>SMUTH CR	[ 30599 ]</item>
@@ -4178,11 +3335,8 @@
         <item>SOLICEPT 10 TAB	[ 30141 ]</item>
         <item>SOLICEPT 5 TAB	[ 30140 ]</item>
         <item>SOLOKAST 10	[ 16017 ]</item>
-        <item>SOLOKAST 4	[ 16018 ]</item>
-        <item>SOLOKAST 5	[ 16019 ]</item>
         <item>SOLONEX 300	[ 880 ]</item>
         <item>SOLONEX DT	[ 879 ]</item>
-        <item>SOLUS TAB	[ 6086 ]</item>
         <item>SORBIDIOL 150	[ 32026 ]</item>
         <item>SORBIDIOL 300	[ 32027 ]</item>
         <item>SORBILINE BIG SYP	[ 32025 ]</item>
@@ -4193,19 +3347,12 @@
         <item>SOVENTUS JR SYP	[ 5082 ]</item>
         <item>SOVENTUS LS	[ 5227 ]</item>
         <item>SOVENTUS SYP	[ 5083 ]</item>
-        <item>SPARFLIN TAB	[ 7490 ]</item>
-        <item>SPARMAX 200	[ 2260 ]</item>
-        <item>SPARMAX E/D	[ 2198 ]</item>
-        <item>SPAS DICLORAN	[ 162 ]</item>
-        <item>SPASMONOVA	[ 2986 ]</item>
-        <item>SPASMOPRIV	[ 1334 ]</item>
-        <item>SPASMOPRIV 200	[ 1682 ]</item>
         <item>SPIRODIN -AX	[ 20239 ]</item>
         <item>SPIRODIN AB	[ 20236 ]</item>
         <item>SPIRODIN- 650	[ 20245 ]</item>
         <item>SPIRODIN- M	[ 20240 ]</item>
         <item>SPIROFLUT A NASAL SPRAY	[ 91165 ]</item>
-        <item>SPIROFLUT INH	[ 91164 ]</item>
+        <item>SPIROFLUT NESAL SPRAY	[ 91164 ]</item>
         <item>SPIROLAST TAB	[ 20260 ]</item>
         <item>SPIROMONT	[ 34106 ]</item>
         <item>SPIROMONT  L	[ 20333 ]</item>
@@ -4219,8 +3366,6 @@
         <item>SPORAZ CAP	[ 34069 ]</item>
         <item>STABOSE 0.2	[ 5382 ]</item>
         <item>STABOSE 0.3	[ 5383 ]</item>
-        <item>STABOSE INSTA 0.2	[ 5437 ]</item>
-        <item>STABOSE INSTA 0.3	[ 5444 ]</item>
         <item>STABOSE M 0.2	[ 5384 ]</item>
         <item>STABOSE M 0.3 TAB	[ 5518 ]</item>
         <item>STAFCURE 1.5	[ 1063 ]</item>
@@ -4231,10 +3376,6 @@
         <item>STAFCURE CV 500	[ 1111 ]</item>
         <item>STAFCURE LZ	[ 2923 ]</item>
         <item>STAFCURE SB 1.5	[ 2074 ]</item>
-        <item>STAFCURE SB 750	[ 2075 ]</item>
-        <item>STAFOBAN CREAM	[ 1472 ]</item>
-        <item>STAFOBAN OINTMENT	[ 6085 ]</item>
-        <item>STAHOPE 40	[ 8526 ]</item>
         <item>STALOPAM 10	[ 7350 ]</item>
         <item>STALOPAM 20	[ 7351 ]</item>
         <item>STALOPAM 5	[ 7349 ]</item>
@@ -4246,21 +3387,14 @@
         <item>STARCAD B50	[ 7813 ]</item>
         <item>STARCAD CT 25	[ 33534 ]</item>
         <item>STARCAD CT 50	[ 33535 ]</item>
-        <item>STARCAD SA 2.5	[ 7814 ]</item>
-        <item>STARCAD SA 5	[ 7815 ]</item>
         <item>STARCAD T 25	[ 33532 ]</item>
         <item>STARCAD T 50	[ 33533 ]</item>
-        <item>STARCET 5	[ 7470 ]</item>
-        <item>STARCET A	[ 7471 ]</item>
-        <item>STARCET COLD	[ 7472 ]</item>
         <item>STARPRESS AM XL 25	[ 33145 ]</item>
         <item>STARPRESS AM XL 50	[ 7769 ]</item>
         <item>STARPRESS D XL 25	[ 460 ]</item>
         <item>STARPRESS D XL 50	[ 461 ]</item>
         <item>STARPRESS H 25 XL	[ 7758 ]</item>
         <item>STARPRESS H 50 XL	[ 7771 ]</item>
-        <item>STARPRESS MN XL	[ 7765 ]</item>
-        <item>STARPRESS MN XL 30 CAP	[ 7901 ]</item>
         <item>STARPRESS T 25-XL	[ 7636 ]</item>
         <item>STARPRESS T 50-XL	[ 7639 ]</item>
         <item>STARPRESS XL 100	[ 7764 ]</item>
@@ -4273,16 +3407,12 @@
         <item>STARSTAT 20	[ 7525 ]</item>
         <item>STARSTAT 40	[ 7528 ]</item>
         <item>STARSTAT 5	[ 7523 ]</item>
-        <item>STARSTAT ER 20	[ 7527 ]</item>
-        <item>STARSTAT ER10	[ 7526 ]</item>
         <item>STARVOG 0.2	[ 428 ]</item>
         <item>STARVOG 0.3	[ 429 ]</item>
         <item>STARVOG GM 1 TAB	[ 519 ]</item>
         <item>STARVOG GM 2 TAB	[ 560 ]</item>
         <item>STARVOG M 0.2 MG	[ 261 ]</item>
         <item>STARVOG M 0.3 MG	[ 262 ]</item>
-        <item>STERIDERM CREAM	[ 1272 ]</item>
-        <item>STERIDERM S LOTION	[ 1275 ]</item>
         <item>STERIO 16	[ 7459 ]</item>
         <item>STERIO 4	[ 7457 ]</item>
         <item>STERIO 8	[ 7458 ]</item>
@@ -4290,42 +3420,26 @@
         <item>STIMULIV SYP	[ 32528 ]</item>
         <item>STIMULIV TAB	[ 32530 ]</item>
         <item>STONEX	[ 1930 ]</item>
-        <item>STREPTOMAC .75	[ 937 ]</item>
-        <item>STREPTOMAC 1GM	[ 938 ]</item>
-        <item>STROCOZ 2 INJECTION	[ 33835 ]</item>
-        <item>STROCOZ 4 INJECTION	[ 33836 ]</item>
         <item>STROCOZ 500 TABLET	[ 33837 ]</item>
         <item>STROCOZ PLUS TABLET	[ 33838 ]</item>
-        <item>STRONZ GEL	[ 2844 ]</item>
         <item>SUDOSTAR 1	[ 1880 ]</item>
         <item>SUDOSTAR 2	[ 30121 ]</item>
         <item>SUDOSTAR 3	[ 33114 ]</item>
-        <item>SUNCHEK SUNSCREEN LOTION	[ 1182 ]</item>
         <item>SUNHALT GEL	[ 33127 ]</item>
         <item>SUNSET  CR	[ 358 ]</item>
         <item>SUPER D3 2000IU	[ 31577 ]</item>
         <item>SUPER D3 60000IU	[ 31578 ]</item>
-        <item>SUPER FE CAP	[ 5658 ]</item>
-        <item>SUPER FE SYP	[ 5659 ]</item>
         <item>SUPRA PRIME	[ 34507 ]</item>
         <item>SUPRAWALK	[ 34508 ]</item>
         <item>SURFAZ B CR	[ 32521 ]</item>
         <item>SURFAZ CR	[ 32520 ]</item>
-        <item>SURFAZ EAR DPS	[ 32522 ]</item>
         <item>SURFAZ O	[ 32526 ]</item>
-        <item>SURFAZ POWDER	[ 32523 ]</item>
         <item>SURFAZ POWDER 100 GM	[ 32029 ]</item>
         <item>SURFAZ SN	[ 32524 ]</item>
         <item>SURFAZ SOLN	[ 32525 ]</item>
-        <item>SURFAZ VAG	[ 32527 ]</item>
-        <item>SUSTIMAX	[ 5480 ]</item>
-        <item>SUSTINEX 60	[ 5485 ]</item>
-        <item>SUSTINEX-30	[ 5427 ]</item>
         <item>SUSWAS CAP	[ 34086 ]</item>
-        <item>SWALOBEE	[ 970 ]</item>
         <item>SYLATE 250	[ 5716 ]</item>
         <item>SYLATE 500	[ 5735 ]</item>
-        <item>SYLATE CVP	[ 5463 ]</item>
         <item>SYLATE INJECTION 2 ML	[ 6107 ]</item>
         <item>SYLATE M 500	[ 5726 ]</item>
         <item>SYLATE T 500	[ 5715 ]</item>
@@ -4334,11 +3448,7 @@
         <item>TAMLET 2	[ 5777 ]</item>
         <item>TAMLET 4	[ 5778 ]</item>
         <item>TAMLOCEPT -D TAB	[ 30014 ]</item>
-        <item>TAMLOCEPT 0.2	[ 30013 ]</item>
         <item>TAMLOCEPT 0.4	[ 7927 ]</item>
-        <item>TAPENTA 100	[ 5177 ]</item>
-        <item>TAPENTA 50 TAB	[ 5176 ]</item>
-        <item>TAPENTA 75	[ 5184 ]</item>
         <item>TAVIN	[ 6600 ]</item>
         <item>TAVIN EM TAB	[ 6628 ]</item>
         <item>TAVIN L	[ 4758 ]</item>
@@ -4359,7 +3469,6 @@
         <item>TELEKAST 10	[ 7453 ]</item>
         <item>TELEKAST 4	[ 7451 ]</item>
         <item>TELEKAST 5	[ 7452 ]</item>
-        <item>TELEKAST D	[ 7495 ]</item>
         <item>TELEKAST F	[ 16013 ]</item>
         <item>TELEKAST L	[ 7455 ]</item>
         <item>TELEKAST L KID	[ 7456 ]</item>
@@ -4381,7 +3490,6 @@
         <item>TELISTA MT 25	[ 7618 ]</item>
         <item>TELISTA PLUS 20	[ 7595 ]</item>
         <item>TELISTA PLUS 40	[ 7596 ]</item>
-        <item>TELISTA TRIO 80	[ 33520 ]</item>
         <item>TELISTA TRIO CL	[ 33124 ]</item>
         <item>TELISTA-AMH	[ 7642 ]</item>
         <item>TELISTA-MT 50	[ 7583 ]</item>
@@ -4390,9 +3498,6 @@
         <item>TELMIPACK CT	[ 20296 ]</item>
         <item>TELMIPACK TRIO 12.5	[ 20297 ]</item>
         <item>TELMIPACK TRIO 6.25	[ 20298 ]</item>
-        <item>TELONG 20 TAB	[ 6739 ]</item>
-        <item>TELONG 40 TAB	[ 6740 ]</item>
-        <item>TELONG H TAB	[ 6738 ]</item>
         <item>TELPLUS TAB	[ 3050 ]</item>
         <item>TELPLUS TRIO	[ 3106 ]</item>
         <item>TELROSE TAB	[ 1677 ]</item>
@@ -4419,13 +3524,14 @@
         <item>TEMSAN AM 5	[ 5887 ]</item>
         <item>TEMSAN CT	[ 5892 ]</item>
         <item>TEMSAN H TAB	[ 5847 ]</item>
-        <item>TEMSAN-20 CV	[ 5868 ]</item>
-        <item>TEMSAN-40 CV	[ 5869 ]</item>
         <item>TENDOFIRM	[ 4854 ]</item>
         <item>TENDOMAC	[ 2949 ]</item>
         <item>TENEPRIDE 20	[ 3094 ]</item>
         <item>TENEPRIDE M 1000	[ 3118 ]</item>
         <item>TENEPRIDE M 500	[ 3119 ]</item>
+        <item>TENGINOW	[ 91217 ]</item>
+        <item>TENGINOW M	[ 91218 ]</item>
+        <item>TENGINOW M 1000	[ 91219 ]</item>
         <item>TENIPACK	[ 34122 ]</item>
         <item>TENIPACK M	[ 34562 ]</item>
         <item>TENLIMAC	[ 34052 ]</item>
@@ -4436,10 +3542,10 @@
         <item>TENROL	[ 34620 ]</item>
         <item>TENROL M 1000	[ 582 ]</item>
         <item>TENROL M 500	[ 581 ]</item>
-        <item>TENSIMIN 100	[ 163 ]</item>
         <item>TENSIMIN 25	[ 164 ]</item>
         <item>TENSIMIN 50	[ 165 ]</item>
         <item>TENUMET  500	[ 14067 ]</item>
+        <item>TENUMET FORTE	[ 14072 ]</item>
         <item>TENUVIA 20	[ 14066 ]</item>
         <item>TERBITOTAL 500	[ 34120 ]</item>
         <item>TERBITOTAL CREAM	[ 3089 ]</item>
@@ -4452,7 +3558,6 @@
         <item>THINSURE MANGO	[ 33517 ]</item>
         <item>THINSURE STRAWBERRY	[ 33549 ]</item>
         <item>THIO-ACE-4	[ 14058 ]</item>
-        <item>THIOACE-8	[ 14059 ]</item>
         <item>THYROUP 100	[ 7604 ]</item>
         <item>THYROUP 12.5	[ 34002 ]</item>
         <item>THYROUP 125	[ 7605 ]</item>
@@ -4488,7 +3593,6 @@
         <item>TOLIFAST 450	[ 7397 ]</item>
         <item>TOLIFAST-D	[ 7640 ]</item>
         <item>TOLPA D	[ 1331 ]</item>
-        <item>TOLPA TAB	[ 1344 ]</item>
         <item>TOLPAZEN	[ 3146 ]</item>
         <item>TOLVAMAC 15	[ 34051 ]</item>
         <item>TOLVAMAC 30	[ 34050 ]</item>
@@ -4507,10 +3611,11 @@
         <item>TONACT PLUS	[ 7735 ]</item>
         <item>TONACT TG	[ 7737 ]</item>
         <item>TONACT TG 20	[ 7787 ]</item>
-        <item>TONACT TM TAB	[ 7902 ]</item>
-        <item>TOPCERIN	[ 7167 ]</item>
+        <item>TOPERIZONE D	[ 91195 ]</item>
         <item>TOPIFORT NX SOLN	[ 32531 ]</item>
-        <item>TOROLAC EYE DROP	[ 1302 ]</item>
+        <item>TORPIZA 100	[ 91194 ]</item>
+        <item>TORPIZA 25	[ 91192 ]</item>
+        <item>TORPIZA 50	[ 91193 ]</item>
         <item>TORSID  20	[ 31601 ]</item>
         <item>TORSID 10	[ 31566 ]</item>
         <item>TORSID 5	[ 31567 ]</item>
@@ -4520,20 +3625,16 @@
         <item>TORSINEX FORTE 10	[ 34654 ]</item>
         <item>TORSINEX FORTE 20	[ 34655 ]</item>
         <item>TORSINEX FORTE 5	[ 34653 ]</item>
-        <item>TOTALCAL	[ 18011 ]</item>
         <item>TOTALCAL D3	[ 18041 ]</item>
         <item>TOTALCAL XT TAB	[ 5785 ]</item>
         <item>TRABEST	[ 7275 ]</item>
         <item>TRAC 3	[ 6072 ]</item>
         <item>TRAC 4	[ 6068 ]</item>
-        <item>TRAMA GOLD	[ 9539 ]</item>
         <item>TRAMAGOLD	[ 8533 ]</item>
         <item>TRANLOK E	[ 31568 ]</item>
         <item>TRANLOK M	[ 31569 ]</item>
-        <item>TRANSDOL 100 MG TAB	[ 9536 ]</item>
         <item>TRANSPACER V	[ 7448 ]</item>
         <item>TRANSPACER VM	[ 33089 ]</item>
-        <item>TRAVA EZ	[ 9204 ]</item>
         <item>TRAVECEF 200	[ 9525 ]</item>
         <item>TRAVEFLOX 250	[ 9526 ]</item>
         <item>TRAVEFLOX 500	[ 9527 ]</item>
@@ -4542,6 +3643,7 @@
         <item>TRAVO EYE DROPS	[ 6750 ]</item>
         <item>TRAVO-Z EYE DROPS	[ 1575 ]</item>
         <item>TREBEN	[ 20344 ]</item>
+        <item>TREHALUBE EYE DROPS	[ 3205 ]</item>
         <item>TRENAXA 500	[ 823 ]</item>
         <item>TRENAXA INJ	[ 825 ]</item>
         <item>TRENAXA MF	[ 824 ]</item>
@@ -4552,6 +3654,7 @@
         <item>TRIMACSART	[ 1721 ]</item>
         <item>TRIMEGAVOG 1	[ 31587 ]</item>
         <item>TRIMEGAVOG 2	[ 31588 ]</item>
+        <item>TRIMIUM CAP	[ 91187 ]</item>
         <item>TRIMIUM INH	[ 30130 ]</item>
         <item>TRIMONTEMAC	[ 3046 ]</item>
         <item>TRINEXOVAS 20	[ 2976 ]</item>
@@ -4571,19 +3674,17 @@
         <item>TRIPRIDE  1 LV	[ 2920 ]</item>
         <item>TRIPRIDE 1	[ 2143 ]</item>
         <item>TRIPRIDE 1 FORTE	[ 1594 ]</item>
+        <item>TRIPRIDE 1 HV	[ 3195 ]</item>
         <item>TRIPRIDE 1LP	[ 1660 ]</item>
         <item>TRIPRIDE 2	[ 2175 ]</item>
         <item>TRIPRIDE 2 FORTE	[ 1595 ]</item>
+        <item>TRIPRIDE 2 HV	[ 3196 ]</item>
         <item>TRIPRIDE 2 LV	[ 2921 ]</item>
         <item>TRIPRIDE 2LP	[ 1661 ]</item>
-        <item>TRIVATE MF OINT.	[ 1290 ]</item>
-        <item>TRIVOBIT 1	[ 7645 ]</item>
-        <item>TRIVOBIT 2	[ 7646 ]</item>
         <item>TRIWHITE CREAM	[ 3042 ]</item>
         <item>TROTFIT	[ 8514 ]</item>
         <item>TROXIP	[ 5144 ]</item>
         <item>TROXIP OD	[ 5202 ]</item>
-        <item>TROXPRO	[ 5428 ]</item>
         <item>TULOPLAST 0.5	[ 34011 ]</item>
         <item>TULOPLAST 1	[ 34012 ]</item>
         <item>TULOPLAST 2	[ 34013 ]</item>
@@ -4616,6 +3717,8 @@
         <item>URDOHEP SL	[ 1139 ]</item>
         <item>URSOMAX 150	[ 5684 ]</item>
         <item>URSOMAX 300	[ 5685 ]</item>
+        <item>USIBON 150	[ 3199 ]</item>
+        <item>USIBON 300	[ 3201 ]</item>
         <item>UTH G 75 POWDER	[ 34087 ]</item>
         <item>UTHYROX  12.5	[ 467 ]</item>
         <item>UTHYROX  75	[ 288 ]</item>
@@ -4623,13 +3726,14 @@
         <item>UTHYROX 25	[ 286 ]</item>
         <item>UTHYROX 50	[ 287 ]</item>
         <item>UTICEPT TAB	[ 14023 ]</item>
+        <item>UTRAC SUSP	[ 91211 ]</item>
         <item>UVEFROST EYE DROPS	[ 9019 ]</item>
         <item>V BATHE WIPES	[ 33101 ]</item>
         <item>V-BATH	[ 33100 ]</item>
         <item>VALAMAC 1000	[ 1044 ]</item>
         <item>VALAMAC 500	[ 1043 ]</item>
+        <item>VALBET BIG CR	[ 91186 ]</item>
         <item>VALBET CREAM	[ 7276 ]</item>
-        <item>VALDIFLAM 10MG TAB	[ 1442 ]</item>
         <item>VALENT 160	[ 7760 ]</item>
         <item>VALENT 40	[ 7754 ]</item>
         <item>VALENT 80	[ 7755 ]</item>
@@ -4641,14 +3745,11 @@
         <item>VALPRIDE CR 500	[ 1625 ]</item>
         <item>VASOLIP 10	[ 166 ]</item>
         <item>VASOSURE TAB	[ 30157 ]</item>
-        <item>VELDIX P	[ 5754 ]</item>
-        <item>VENT MATE SPACER	[ 2529 ]</item>
         <item>VENTO MD	[ 2915 ]</item>
         <item>VENTO SYP	[ 2914 ]</item>
         <item>VENTRYL D SYP	[ 6596 ]</item>
         <item>VENTRYL SYP 100	[ 1391 ]</item>
         <item>VENTRYL SYP 60	[ 1392 ]</item>
-        <item>VERORAB	[ 5193 ]</item>
         <item>VERTIBIL 16	[ 6839 ]</item>
         <item>VERTIBIL 8	[ 6840 ]</item>
         <item>VESORET	[ 1732 ]</item>
@@ -4672,17 +3773,12 @@
         <item>VINTOR 6000	[ 6524 ]</item>
         <item>VINTUS D SYP	[ 10005 ]</item>
         <item>VISCO LIQUID	[ 31080 ]</item>
-        <item>VISTAVIT CAP	[ 5374 ]</item>
-        <item>VITALEM	[ 5350 ]</item>
-        <item>VITALEM POWDER	[ 5431 ]</item>
         <item>VITALEM TABLET	[ 34104 ]</item>
         <item>VITAMER EA	[ 6579 ]</item>
-        <item>VITANOVA 1G DT	[ 5208 ]</item>
         <item>VITANOVA 6L INJ	[ 5206 ]</item>
         <item>VITANOVA D3 SG CAP	[ 33048 ]</item>
         <item>VITANOVA DROPS	[ 5207 ]</item>
         <item>VITANOVA SACHET	[ 5183 ]</item>
-        <item>VITANOVA-SG	[ 5200 ]</item>
         <item>VITASONIC	[ 18036 ]</item>
         <item>VITASONIC MV TABLETS	[ 18050 ]</item>
         <item>VITASONIC PLUS CAP	[ 18056 ]</item>
@@ -4743,27 +3839,17 @@
         <item>XILIA TRIO2	[ 5515 ]</item>
         <item>XILIA-MP 1	[ 5400 ]</item>
         <item>XILIA-MP 2	[ 5404 ]</item>
-        <item>XINASONE C CREAM	[ 30154 ]</item>
-        <item>XINASONE CREAM	[ 30152 ]</item>
-        <item>XINASONE HP CREAM	[ 30153 ]</item>
         <item>XINBEST	[ 33050 ]</item>
-        <item>XINBOND CREAM	[ 2966 ]</item>
         <item>XINOMOM CF  10GM	[ 33090 ]</item>
         <item>XINOMOM CF CREAM	[ 33046 ]</item>
-        <item>XINTOLIVE CAP	[ 33047 ]</item>
         <item>XINYUNG 20GM.	[ 34076 ]</item>
         <item>XM BETA 25	[ 742 ]</item>
         <item>XM BETA 50	[ 741 ]</item>
         <item>XPLODE	[ 6844 ]</item>
-        <item>XPLODE ISO	[ 5738 ]</item>
-        <item>XPLODE ISO POWDER	[ 5369 ]</item>
         <item>XPLODE POWDER	[ 4755 ]</item>
-        <item>XPLODE SYRUP	[ 5494 ]</item>
         <item>XYLOFLO NASAL DROPS	[ 7481 ]</item>
         <item>YAMINI	[ 6961 ]</item>
         <item>YAMINI LS	[ 6987 ]</item>
-        <item>ZANOVID	[ 1540 ]</item>
-        <item>ZANOVID IV	[ 1541 ]</item>
         <item>ZANOZOLE TAB	[ 6117 ]</item>
         <item>ZECUF SYP	[ 168 ]</item>
         <item>ZEDOCEF 100 SYP	[ 2568 ]</item>
@@ -4777,15 +3863,13 @@
         <item>ZEDOCEF CV 50DT	[ 6573 ]</item>
         <item>ZEDOCEF DROPS	[ 1077 ]</item>
         <item>ZEDOCEF DXL 200	[ 6081 ]</item>
-        <item>ZEDOCEF O 100 DT	[ 1694 ]</item>
         <item>ZEDOCEF SYP 50	[ 2128 ]</item>
         <item>ZEDOCEF-O	[ 1049 ]</item>
-        <item>ZEEGAB TOTAL	[ 14046 ]</item>
         <item>ZEEGAB-M	[ 14063 ]</item>
         <item>ZEMCIFER XT	[ 5946 ]</item>
-        <item>ZEMCIFER XT DROPS	[ 4746 ]</item>
-        <item>ZEMCIFER XT SUSP	[ 5955 ]</item>
-        <item>ZENTOR 750 TAB	[ 5663 ]</item>
+        <item>ZEPTIN M	[ 91182 ]</item>
+        <item>ZEPTIN M FORTE TABLET	[ 91172 ]</item>
+        <item>ZEPTIN TABLET	[ 91171 ]</item>
         <item>ZEROTUSS SF SUSP	[ 30607 ]</item>
         <item>ZEROTUSS SUSP	[ 30606 ]</item>
         <item>ZEROTUSS XP DROPS	[ 31089 ]</item>
@@ -4795,17 +3879,15 @@
         <item>ZILARBI 80 TAB	[ 34536 ]</item>
         <item>ZILARTA-40	[ 34601 ]</item>
         <item>ZILARTA-80	[ 3156 ]</item>
-        <item>ZILPRES 40 MG	[ 91094 ]</item>
-        <item>ZINCONIA 20 DT	[ 5089 ]</item>
+        <item>ZIMPI LIQ	[ 91212 ]</item>
         <item>ZINCONIA 50	[ 5091 ]</item>
-        <item>ZINCONIA SYP	[ 5090 ]</item>
         <item>ZINCONIA SYRUP	[ 5165 ]</item>
         <item>ZINDEE 60K SACHETS	[ 33058 ]</item>
+        <item>ZINDEE CHEWABLE TABLETS	[ 91228 ]</item>
         <item>ZING D3 1K	[ 8963 ]</item>
         <item>ZING D3 60K	[ 8964 ]</item>
         <item>ZINGCAL	[ 8954 ]</item>
         <item>ZINGCAL HD TABLET	[ 8967 ]</item>
-        <item>ZITHROX 100 DT	[ 2016 ]</item>
         <item>ZITHROX 100 SUSP	[ 2018 ]</item>
         <item>ZITHROX 200 SUSP	[ 2019 ]</item>
         <item>ZITHROX 250	[ 2015 ]</item>
@@ -4817,16 +3899,14 @@
         <item>ZITHROX XL 100	[ 1858 ]</item>
         <item>ZITHROX XL 200	[ 1859 ]</item>
         <item>ZOBERT 1.5 GM INJ	[ 4795 ]</item>
-        <item>ZOBERT 1G INJ	[ 4768 ]</item>
         <item>ZOKUL D	[ 34509 ]</item>
         <item>ZOLPID 10	[ 1433 ]</item>
-        <item>ZOMITAC D	[ 5464 ]</item>
         <item>ZONAMAX ES INJ	[ 2624 ]</item>
         <item>ZONAMAX INJ	[ 2548 ]</item>
-        <item>ZORDIL 2	[ 6088 ]</item>
-        <item>ZORDIL 4	[ 5727 ]</item>
-        <item>ZORDIL INJ	[ 6702 ]</item>
-        <item>ZORDIL ORAL SUSP	[ 5717 ]</item>
+        <item>ZORESO D CAPS	[ 91213 ]</item>
+        <item>ZOSA DSR	[ 91177 ]</item>
+        <item>ZOSA L TAB	[ 91176 ]</item>
+        <item>ZOSA TAB	[ 91175 ]</item>
         <item>ZOSECTA	[ 5845 ]</item>
         <item>ZOSECTA DSR	[ 5848 ]</item>
         <item>ZOSECTA IV 20MG	[ 5849 ]</item>
@@ -4836,8 +3916,6 @@
         <item>ZOSTUM 3 GM	[ 5137 ]</item>
         <item>ZOSTUM 500 MG INJ	[ 5095 ]</item>
         <item>ZOSTUM O	[ 5098 ]</item>
-        <item>ZOTRAL 100	[ 1605 ]</item>
-        <item>ZOTRAL 50	[ 1604 ]</item>
         <item>ZOTT   P	[ 571 ]</item>
         <item>ZOVANE 20	[ 34039 ]</item>
         <item>ZOVANE 40	[ 34040 ]</item>
