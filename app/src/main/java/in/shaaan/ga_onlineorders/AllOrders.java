@@ -65,6 +65,12 @@ public class AllOrders extends AppCompatActivity {
     private FirebaseAuth.AuthStateListener mAuthListener;
     private FirebaseAuth mAuth;
     private FirebaseRecyclerAdapter mAdapter;
+    private String checksumC;
+    private String checksumD;
+    private String checksumS;
+    private String providedMD5D;
+    private String providedMD5S;
+    private String providedMD5C;
 
 
     @Override
@@ -76,7 +82,6 @@ public class AllOrders extends AppCompatActivity {
         setSupportActionBar(toolbar);
         netStatus.setVisibility(View.GONE);
         floatingActionButton.setVisibility(View.GONE);
-
 
         mAuth = FirebaseAuth.getInstance();
         mAuthListener = new FirebaseAuth.AuthStateListener() {
@@ -182,29 +187,25 @@ public class AllOrders extends AppCompatActivity {
     }
 
     public void dataSync() {
+        Snackbar.make(coordinatorLayout, "Updating customers and products", Snackbar.LENGTH_LONG).show();
         FirebaseStorage storage = FirebaseStorage.getInstance();
         final StorageReference custRef = storage.getReference().child("lists/custList.xml");
         custRef.getMetadata().addOnSuccessListener(new OnSuccessListener<StorageMetadata>() {
             @Override
             public void onSuccess(StorageMetadata storageMetadata) {
-                if (storageMetadata.getUpdatedTimeMillis() != 0) {
-                    String updTime = Long.toString(storageMetadata.getUpdatedTimeMillis());
-                    Log.d("Metadata", updTime);
-                    Snackbar.make(coordinatorLayout, "Updating customers and products", Snackbar.LENGTH_LONG).show();
-                    try {
-                        final File file = File.createTempFile("text", ".xml");
-                        custRef.getFile(file).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
-                            @Override
-                            public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
-                                Log.d("FileManager", file.getAbsolutePath());
-                                File from = file.getAbsoluteFile();
-                                File to = new File(getFilesDir(), "custList.xml");
-                                from.renameTo(to);
-                            }
-                        });
-                    } catch (IOException file) {
-                        Log.d(TAG, "IOexception when writing file");
-                    }
+                try {
+                    final File file = File.createTempFile("text", ".xml");
+                    custRef.getFile(file).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
+                        @Override
+                        public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
+                            Log.d("FileManager", file.getAbsolutePath());
+                            File from = file.getAbsoluteFile();
+                            File to = new File(getFilesDir(), "custList.xml");
+                            from.renameTo(to);
+                        }
+                    });
+                } catch (IOException file) {
+                    Log.d(TAG, "IOexception when writing file");
                 }
             }
         }).addOnFailureListener(new OnFailureListener() {
@@ -219,24 +220,19 @@ public class AllOrders extends AppCompatActivity {
         drugRef.getMetadata().addOnSuccessListener(new OnSuccessListener<StorageMetadata>() {
             @Override
             public void onSuccess(StorageMetadata storageMetadata) {
-                if (storageMetadata.getUpdatedTimeMillis() != 0) {
-                    String updTime = Long.toString(storageMetadata.getUpdatedTimeMillis());
-                    Log.d("Metadata", updTime);
-                    Snackbar.make(coordinatorLayout, "Updating customers and products", Snackbar.LENGTH_LONG).show();
-                    try {
-                        final File file = File.createTempFile("text", ".xml");
-                        drugRef.getFile(file).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
-                            @Override
-                            public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
-                                Log.d("FileManager", file.getAbsolutePath());
-                                File from = file.getAbsoluteFile();
-                                File to = new File(getFilesDir(), "drugList.xml");
-                                from.renameTo(to);
-                            }
-                        });
-                    } catch (IOException file) {
-                        Log.d(TAG, "IOexception when writing file");
-                    }
+                try {
+                    final File file = File.createTempFile("text", ".xml");
+                    drugRef.getFile(file).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
+                        @Override
+                        public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
+                            Log.d("FileManager", file.getAbsolutePath());
+                            File from = file.getAbsoluteFile();
+                            File to = new File(getFilesDir(), "drugList.xml");
+                            from.renameTo(to);
+                        }
+                    });
+                } catch (IOException file) {
+                    Log.d(TAG, "IOexception when writing file");
                 }
             }
         }).addOnFailureListener(new OnFailureListener() {
@@ -251,24 +247,19 @@ public class AllOrders extends AppCompatActivity {
         salesmanRef.getMetadata().addOnSuccessListener(new OnSuccessListener<StorageMetadata>() {
             @Override
             public void onSuccess(StorageMetadata storageMetadata) {
-                if (storageMetadata.getUpdatedTimeMillis() != 0) {
-                    String updTime = Long.toString(storageMetadata.getUpdatedTimeMillis());
-                    Log.d("Metadata", updTime);
-                    Snackbar.make(coordinatorLayout, "Updating customers and products", Snackbar.LENGTH_LONG).show();
-                    try {
-                        final File file = File.createTempFile("text", ".xml");
-                        salesmanRef.getFile(file).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
-                            @Override
-                            public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
-                                Log.d("FileManager", file.getAbsolutePath());
-                                File from = file.getAbsoluteFile();
-                                File to = new File(getFilesDir(), "salesman.xml");
-                                from.renameTo(to);
-                            }
-                        });
-                    } catch (IOException file) {
-                        Log.d(TAG, "IOexception when writing file");
-                    }
+                try {
+                    final File file = File.createTempFile("text", ".xml");
+                    salesmanRef.getFile(file).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
+                        @Override
+                        public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
+                            Log.d("FileManager", file.getAbsolutePath());
+                            File from = file.getAbsoluteFile();
+                            File to = new File(getFilesDir(), "salesman.xml");
+                            from.renameTo(to);
+                        }
+                    });
+                } catch (IOException file) {
+                    Log.d(TAG, "IOexception when writing file");
                 }
             }
         }).addOnFailureListener(new OnFailureListener() {
@@ -278,6 +269,7 @@ public class AllOrders extends AppCompatActivity {
                 Snackbar.make(coordinatorLayout, "Update failed. No internet connection?", Snackbar.LENGTH_LONG).show();
             }
         });
+        Snackbar.make(coordinatorLayout, "Update complete", Snackbar.LENGTH_LONG).show();
     }
 
     @Override
