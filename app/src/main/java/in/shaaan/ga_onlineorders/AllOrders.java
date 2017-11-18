@@ -77,7 +77,7 @@ public class AllOrders extends AppCompatActivity {
         netStatus.setVisibility(View.GONE);
         floatingActionButton.setVisibility(View.GONE);
 
-        dataSync();
+
         mAuth = FirebaseAuth.getInstance();
         mAuthListener = new FirebaseAuth.AuthStateListener() {
             @Override
@@ -86,6 +86,7 @@ public class AllOrders extends AppCompatActivity {
                 if (user != null) {
                     // User is signed in
                     Log.d(TAG, "onAuthStateChanged:signed_in:" + user.getUid() + user.getEmail());
+                    dataSync();
 //                    Toast.makeText(AllOrders.this, "Logged in successfully", Toast.LENGTH_LONG).show();
                 } else {
                     // User is signed out
