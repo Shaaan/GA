@@ -17,5 +17,12 @@
         android:text="@string/about"
         android:textColor="#fefefe"
         android:textSize="18sp" />
+    <!--
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Sync"
+            android:onClick="sync"/>-->
 
 </android.support.constraint.ConstraintLayout>

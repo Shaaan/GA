@@ -29,9 +29,12 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Calendar;
 import java.util.List;
 import java.util.StringTokenizer;
@@ -84,14 +87,49 @@ public class BuildOrder extends AppCompatActivity {
 
         int layoutItemId = android.R.layout.simple_dropdown_item_1line;
         String[] drugArr = getResources().getStringArray(R.array.drugList);
-        String[] custArr = getResources().getStringArray(R.array.custList);
+//        String[] custArr = getResources().getStringArray(R.array.custList);
         String[] strings = getResources().getStringArray(R.array.salesmen);
-        List<String> salesmen = Arrays.asList(strings);
-        List<String> drugList = Arrays.asList(drugArr);
-        final List<String> custList = Arrays.asList(custArr);
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, layoutItemId, drugList);
-        ArrayAdapter<String> adapter1 = new ArrayAdapter<>(this, layoutItemId, custList);
+//        List<String> salesmen = Arrays.asList(strings);
+//        List<String> drugList = Arrays.asList(drugArr);
+//        final List<String> custList = Arrays.asList(custArr);
 
+        BufferedReader cReader = null;
+        BufferedReader dReader = null;
+        BufferedReader sReader = null;
+        List<String> custList = new ArrayList<>();
+        List<String> drugList = new ArrayList<>();
+        List<String> salesmanList = new ArrayList<>();
+        try {
+            String custListItem = getFilesDir().getPath() + "/custList.xml";
+            cReader = new BufferedReader(new FileReader(custListItem));
+            String cLI;
+            while ((cLI = cReader.readLine()) != null) {
+                custList.add(cLI);
+//                notifyAll();
+//                in.close();
+            }
+            String drugListItem = getFilesDir().getPath() + "/drugList.xml";
+            dReader = new BufferedReader(new FileReader(drugListItem));
+            String dLI;
+            while ((dLI = dReader.readLine()) != null) {
+                drugList.add(dLI);
+            }
+            String salesmanListItem = getFilesDir().getPath() + "/salesman.xml";
+            sReader = new BufferedReader(new FileReader(salesmanListItem));
+            String sLI;
+            while ((sLI = sReader.readLine()) != null) {
+                salesmanList.add(sLI);
+            }
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+
+        }
+
+        ArrayAdapter<String> adapter1 = new ArrayAdapter<>(this, layoutItemId, custList);
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, layoutItemId, drugList);
         autoCompleteTextView.setAdapter(adapter);
         linearLayoutManager = new LinearLayoutManager(this);
         recyclerView.addItemDecoration(new android.support.v7.widget.DividerItemDecoration(recyclerView.getContext(), android.support.v7.widget.DividerItemDecoration.VERTICAL));
@@ -103,8 +141,8 @@ public class BuildOrder extends AppCompatActivity {
         completeTextView.setAdapter(adapter1);
         GaFirebase.isCalled();
         String s = FirebaseAuth.getInstance().getCurrentUser().getEmail();
+        String s1 = salesmanList.toString();
         String bh = custList.toString();
-        String s1 = salesmen.toString();
         StringTokenizer stringTokenizer = new StringTokenizer(s, "@");
         String partyTemp = stringTokenizer.nextToken().trim();
 

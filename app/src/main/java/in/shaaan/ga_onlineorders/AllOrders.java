@@ -6,7 +6,9 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -23,11 +25,19 @@ import android.widget.Toast;
 import com.firebase.ui.auth.AuthUI;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.Query;
+import com.google.firebase.storage.FileDownloadTask;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageMetadata;
+import com.google.firebase.storage.StorageReference;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
@@ -49,6 +59,8 @@ public class AllOrders extends AppCompatActivity {
     TextView notSalesman;
     @Bind(R.id.playStore_button)
     Button playButton;*/
+    @Bind(R.id.coordinatorLayout)
+    CoordinatorLayout coordinatorLayout;
 
     private FirebaseAuth.AuthStateListener mAuthListener;
     private FirebaseAuth mAuth;
@@ -65,6 +77,7 @@ public class AllOrders extends AppCompatActivity {
         netStatus.setVisibility(View.GONE);
         floatingActionButton.setVisibility(View.GONE);
 
+        dataSync();
         mAuth = FirebaseAuth.getInstance();
         mAuthListener = new FirebaseAuth.AuthStateListener() {
             @Override
@@ -165,6 +178,105 @@ public class AllOrders extends AppCompatActivity {
                 (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo netInfo = cm.getActiveNetworkInfo();
         return netInfo != null && netInfo.isConnectedOrConnecting();
+    }
+
+    public void dataSync() {
+        FirebaseStorage storage = FirebaseStorage.getInstance();
+        final StorageReference custRef = storage.getReference().child("lists/custList.xml");
+        custRef.getMetadata().addOnSuccessListener(new OnSuccessListener<StorageMetadata>() {
+            @Override
+            public void onSuccess(StorageMetadata storageMetadata) {
+                if (storageMetadata.getUpdatedTimeMillis() != 0) {
+                    String updTime = Long.toString(storageMetadata.getUpdatedTimeMillis());
+                    Log.d("Metadata", updTime);
+                    Snackbar.make(coordinatorLayout, "Updating customers and products", Snackbar.LENGTH_LONG).show();
+                    try {
+                        final File file = File.createTempFile("text", ".xml");
+                        custRef.getFile(file).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
+                            @Override
+                            public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
+                                Log.d("FileManager", file.getAbsolutePath());
+                                File from = file.getAbsoluteFile();
+                                File to = new File(getFilesDir(), "custList.xml");
+                                from.renameTo(to);
+                            }
+                        });
+                    } catch (IOException file) {
+                        Log.d(TAG, "IOexception when writing file");
+                    }
+                }
+            }
+        }).addOnFailureListener(new OnFailureListener() {
+            @Override
+            public void onFailure(@NonNull Exception e) {
+                Log.d("Metadata", "Failed to get metadata");
+                Snackbar.make(coordinatorLayout, "Update failed. No internet connection?", Snackbar.LENGTH_LONG).show();
+            }
+        });
+
+        final StorageReference drugRef = storage.getReference().child("lists/drugList.xml");
+        drugRef.getMetadata().addOnSuccessListener(new OnSuccessListener<StorageMetadata>() {
+            @Override
+            public void onSuccess(StorageMetadata storageMetadata) {
+                if (storageMetadata.getUpdatedTimeMillis() != 0) {
+                    String updTime = Long.toString(storageMetadata.getUpdatedTimeMillis());
+                    Log.d("Metadata", updTime);
+                    Snackbar.make(coordinatorLayout, "Updating customers and products", Snackbar.LENGTH_LONG).show();
+                    try {
+                        final File file = File.createTempFile("text", ".xml");
+                        drugRef.getFile(file).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
+                            @Override
+                            public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
+                                Log.d("FileManager", file.getAbsolutePath());
+                                File from = file.getAbsoluteFile();
+                                File to = new File(getFilesDir(), "drugList.xml");
+                                from.renameTo(to);
+                            }
+                        });
+                    } catch (IOException file) {
+                        Log.d(TAG, "IOexception when writing file");
+                    }
+                }
+            }
+        }).addOnFailureListener(new OnFailureListener() {
+            @Override
+            public void onFailure(@NonNull Exception e) {
+                Log.d("Metadata", "Failed to get metadata");
+                Snackbar.make(coordinatorLayout, "Update failed. No internet connection?", Snackbar.LENGTH_LONG).show();
+            }
+        });
+
+        final StorageReference salesmanRef = storage.getReference().child("lists/salesman.xml");
+        salesmanRef.getMetadata().addOnSuccessListener(new OnSuccessListener<StorageMetadata>() {
+            @Override
+            public void onSuccess(StorageMetadata storageMetadata) {
+                if (storageMetadata.getUpdatedTimeMillis() != 0) {
+                    String updTime = Long.toString(storageMetadata.getUpdatedTimeMillis());
+                    Log.d("Metadata", updTime);
+                    Snackbar.make(coordinatorLayout, "Updating customers and products", Snackbar.LENGTH_LONG).show();
+                    try {
+                        final File file = File.createTempFile("text", ".xml");
+                        salesmanRef.getFile(file).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
+                            @Override
+                            public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
+                                Log.d("FileManager", file.getAbsolutePath());
+                                File from = file.getAbsoluteFile();
+                                File to = new File(getFilesDir(), "salesman.xml");
+                                from.renameTo(to);
+                            }
+                        });
+                    } catch (IOException file) {
+                        Log.d(TAG, "IOexception when writing file");
+                    }
+                }
+            }
+        }).addOnFailureListener(new OnFailureListener() {
+            @Override
+            public void onFailure(@NonNull Exception e) {
+                Log.d("Metadata", "Failed to get metadata");
+                Snackbar.make(coordinatorLayout, "Update failed. No internet connection?", Snackbar.LENGTH_LONG).show();
+            }
+        });
     }
 
     @Override
