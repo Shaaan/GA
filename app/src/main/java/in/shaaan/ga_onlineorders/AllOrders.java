@@ -187,7 +187,6 @@ public class AllOrders extends AppCompatActivity {
     }
 
     public void dataSync() {
-        Snackbar.make(coordinatorLayout, "Updating customers and products", Snackbar.LENGTH_LONG).show();
         FirebaseStorage storage = FirebaseStorage.getInstance();
         final StorageReference custRef = storage.getReference().child("lists/custList.xml");
         custRef.getMetadata().addOnSuccessListener(new OnSuccessListener<StorageMetadata>() {
@@ -269,7 +268,7 @@ public class AllOrders extends AppCompatActivity {
                 Snackbar.make(coordinatorLayout, "Update failed. No internet connection?", Snackbar.LENGTH_LONG).show();
             }
         });
-        Snackbar.make(coordinatorLayout, "Update complete", Snackbar.LENGTH_LONG).show();
+        Snackbar.make(coordinatorLayout, "Updated customer and products", Snackbar.LENGTH_LONG).show();
     }
 
     @Override
