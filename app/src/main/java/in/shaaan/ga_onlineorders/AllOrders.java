@@ -188,7 +188,7 @@ public class AllOrders extends AppCompatActivity {
 
     public void dataSync() {
         FirebaseStorage storage = FirebaseStorage.getInstance();
-        final StorageReference custRef = storage.getReference().child("lists/custList.xml");
+        final StorageReference custRef = storage.getReference().child("custList.xml");
         custRef.getMetadata().addOnSuccessListener(new OnSuccessListener<StorageMetadata>() {
             @Override
             public void onSuccess(StorageMetadata storageMetadata) {
@@ -215,7 +215,7 @@ public class AllOrders extends AppCompatActivity {
             }
         });
 
-        final StorageReference drugRef = storage.getReference().child("lists/drugList.xml");
+        final StorageReference drugRef = storage.getReference().child("drugList.xml");
         drugRef.getMetadata().addOnSuccessListener(new OnSuccessListener<StorageMetadata>() {
             @Override
             public void onSuccess(StorageMetadata storageMetadata) {
@@ -242,7 +242,7 @@ public class AllOrders extends AppCompatActivity {
             }
         });
 
-        final StorageReference salesmanRef = storage.getReference().child("lists/salesman.xml");
+        final StorageReference salesmanRef = storage.getReference().child("salesman.xml");
         salesmanRef.getMetadata().addOnSuccessListener(new OnSuccessListener<StorageMetadata>() {
             @Override
             public void onSuccess(StorageMetadata storageMetadata) {
