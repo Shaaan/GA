@@ -37,6 +37,7 @@ import com.google.firebase.storage.StorageMetadata;
 import com.google.firebase.storage.StorageReference;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
@@ -192,19 +193,56 @@ public class AllOrders extends AppCompatActivity {
         custRef.getMetadata().addOnSuccessListener(new OnSuccessListener<StorageMetadata>() {
             @Override
             public void onSuccess(StorageMetadata storageMetadata) {
-                try {
-                    final File file = File.createTempFile("text", ".xml");
-                    custRef.getFile(file).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
-                        @Override
-                        public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
-                            Log.d("FileManager", file.getAbsolutePath());
-                            File from = file.getAbsoluteFile();
-                            File to = new File(getFilesDir(), "custList.xml");
-                            from.renameTo(to);
+
+                File custList = new File(getFilesDir().getPath(), "/custList.xml");
+                if (!custList.canRead()) {
+                    try {
+                        final File file = File.createTempFile("text", ".xml");
+                        custRef.getFile(file).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
+                            @Override
+                            public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
+                                Log.d("FileManager", file.getAbsolutePath());
+                                File from = file.getAbsoluteFile();
+                                File to = new File(getFilesDir(), "custList.xml");
+                                from.renameTo(to);
+                                Snackbar.make(coordinatorLayout, "File not found. Downloading", Snackbar.LENGTH_LONG).show();
+                            }
+                        });
+                    } catch (IOException file) {
+                        Log.d(TAG, "IOexception when writing file");
+                    }
+                } else {
+                    try {
+                        String custListString = custList.toString();
+                        String providedMD5 = storageMetadata.getMd5Hash();
+                        FileInputStream fileInputStream = new FileInputStream(custListString);
+                        String checksum = MD5.md5(fileInputStream);
+                        Toast.makeText(AllOrders.this, "("+checksum +")("+ storageMetadata.getMd5Hash()+")", Toast.LENGTH_LONG).show();
+                        Log.d("Checksums", storageMetadata.getMd5Hash() +""+providedMD5 );
+//                        Toast.makeText(AllOrders.this, "Hello" +r, Toast.LENGTH_LONG).show();
+                        if (checksum.equalsIgnoreCase(providedMD5)) {
+                            Log.d(TAG, "Cust list already upto date");
+                            Snackbar.make(coordinatorLayout, "Cust list already upto date", Snackbar.LENGTH_LONG).show();
+                        } else {
+                            try {
+                                final File file = File.createTempFile("text", ".xml");
+                                custRef.getFile(file).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
+                                    @Override
+                                    public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
+                                        Log.d("FileManager", file.getAbsolutePath());
+                                        File from = file.getAbsoluteFile();
+                                        File to = new File(getFilesDir(), "custList.xml");
+                                        from.renameTo(to);
+                                        Snackbar.make(coordinatorLayout, "Cust list updated", Snackbar.LENGTH_LONG).show();
+                                    }
+                                });
+                            } catch (IOException file) {
+                                Log.d(TAG, "IOexception when writing file");
+                            }
                         }
-                    });
-                } catch (IOException file) {
-                    Log.d(TAG, "IOexception when writing file");
+                    } catch (Exception e) {
+                        Log.e("OOPS", "Fatal...");
+                    }
                 }
             }
         }).addOnFailureListener(new OnFailureListener() {
@@ -219,6 +257,8 @@ public class AllOrders extends AppCompatActivity {
         drugRef.getMetadata().addOnSuccessListener(new OnSuccessListener<StorageMetadata>() {
             @Override
             public void onSuccess(StorageMetadata storageMetadata) {
+
+                File drugFile = new File(getFilesDir().getPath()+"/drugList.xml");
                 try {
                     final File file = File.createTempFile("text", ".xml");
                     drugRef.getFile(file).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
@@ -238,7 +278,7 @@ public class AllOrders extends AppCompatActivity {
             @Override
             public void onFailure(@NonNull Exception e) {
                 Log.d("Metadata", "Failed to get metadata");
-                Snackbar.make(coordinatorLayout, "Update failed. No internet connection?", Snackbar.LENGTH_LONG).show();
+//                Snackbar.make(coordinatorLayout, "Update failed. No internet connection?", Snackbar.LENGTH_LONG).show();
             }
         });
 
@@ -265,10 +305,10 @@ public class AllOrders extends AppCompatActivity {
             @Override
             public void onFailure(@NonNull Exception e) {
                 Log.d("Metadata", "Failed to get metadata");
-                Snackbar.make(coordinatorLayout, "Update failed. No internet connection?", Snackbar.LENGTH_LONG).show();
+//                Snackbar.make(coordinatorLayout, "Update failed. No internet connection?", Snackbar.LENGTH_LONG).show();
             }
         });
-        Snackbar.make(coordinatorLayout, "Updated customer and products", Snackbar.LENGTH_LONG).show();
+//        Snackbar.make(coordinatorLayout, "Updated customer and products", Snackbar.LENGTH_LONG).show();
     }
 
     @Override

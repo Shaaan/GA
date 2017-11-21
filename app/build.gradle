@@ -18,13 +18,13 @@ android {
         }
     }
     compileSdkVersion 26
-    buildToolsVersion "26.0.2"
+    buildToolsVersion "27.0.1"
     defaultConfig {
         applicationId "in.shaaan.ga_onlineorders"
         minSdkVersion 16
         targetSdkVersion 26
         versionCode getVersionCodeTimestamp()
-        versionName '3'
+        versionName '3.1'
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         signingConfig signingConfigs.config
     }
