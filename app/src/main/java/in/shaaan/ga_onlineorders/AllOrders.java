@@ -40,6 +40,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.List;
 
 import butterknife.Bind;
@@ -92,7 +93,9 @@ public class AllOrders extends AppCompatActivity {
                 if (user != null) {
                     // User is signed in
                     Log.d(TAG, "onAuthStateChanged:signed_in:" + user.getUid() + user.getEmail());
-                    dataSync();
+                    syncCustList();
+                    syncDrugList();
+                    syncSalesmanList();
 //                    Toast.makeText(AllOrders.this, "Logged in successfully", Toast.LENGTH_LONG).show();
                 } else {
                     // User is signed out
@@ -187,15 +190,15 @@ public class AllOrders extends AppCompatActivity {
         return netInfo != null && netInfo.isConnectedOrConnecting();
     }
 
-    public void dataSync() {
+    public void syncCustList() {
         FirebaseStorage storage = FirebaseStorage.getInstance();
         final StorageReference custRef = storage.getReference().child("custList.xml");
         custRef.getMetadata().addOnSuccessListener(new OnSuccessListener<StorageMetadata>() {
             @Override
             public void onSuccess(StorageMetadata storageMetadata) {
 
-                File custList = new File(getFilesDir().getPath(), "/custList.xml");
-                if (!custList.canRead()) {
+                File custFile = new File(getFilesDir().getPath(), "/custList.xml");
+                if (!custFile.canRead()) {
                     try {
                         final File file = File.createTempFile("text", ".xml");
                         custRef.getFile(file).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
@@ -208,22 +211,16 @@ public class AllOrders extends AppCompatActivity {
                                 Snackbar.make(coordinatorLayout, "File not found. Downloading", Snackbar.LENGTH_LONG).show();
                             }
                         });
-                    } catch (IOException file) {
-                        Log.d(TAG, "IOexception when writing file");
+                    } catch (IOException e) {
+                        Log.e(TAG, "IOexception when writing file");
+                        e.printStackTrace();
                     }
                 } else {
                     try {
-                        String custListString = custList.toString();
-                        String providedMD5 = storageMetadata.getMd5Hash();
+                        String custListString = custFile.toString();
                         FileInputStream fileInputStream = new FileInputStream(custListString);
                         String checksum = MD5.md5(fileInputStream);
-                        Toast.makeText(AllOrders.this, "("+checksum +")("+ storageMetadata.getMd5Hash()+")", Toast.LENGTH_LONG).show();
-                        Log.d("Checksums", storageMetadata.getMd5Hash() +""+providedMD5 );
-//                        Toast.makeText(AllOrders.this, "Hello" +r, Toast.LENGTH_LONG).show();
-                        if (checksum.equalsIgnoreCase(providedMD5)) {
-                            Log.d(TAG, "Cust list already upto date");
-                            Snackbar.make(coordinatorLayout, "Cust list already upto date", Snackbar.LENGTH_LONG).show();
-                        } else {
+                        if (!checksum.equalsIgnoreCase(storageMetadata.getMd5Hash())) {
                             try {
                                 final File file = File.createTempFile("text", ".xml");
                                 custRef.getFile(file).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
@@ -233,15 +230,84 @@ public class AllOrders extends AppCompatActivity {
                                         File from = file.getAbsoluteFile();
                                         File to = new File(getFilesDir(), "custList.xml");
                                         from.renameTo(to);
-                                        Snackbar.make(coordinatorLayout, "Cust list updated", Snackbar.LENGTH_LONG).show();
+                                        Snackbar.make(coordinatorLayout, "Customer list outdated. Downloading..", Snackbar.LENGTH_LONG).show();
                                     }
                                 });
-                            } catch (IOException file) {
-                                Log.d(TAG, "IOexception when writing file");
+                            } catch (IOException e) {
+                                Log.e(TAG, "IOexception when writing file");
+                                e.printStackTrace();
                             }
                         }
                     } catch (Exception e) {
                         Log.e("OOPS", "Fatal...");
+                        e.printStackTrace();
+                    }
+                }
+            }
+        }).addOnFailureListener(new OnFailureListener() {
+            @Override
+            public void onFailure(@NonNull Exception e) {
+                Log.w("Metadata", "Failed to get metadata of custList");
+                Snackbar.make(coordinatorLayout, "Update failed. No internet connection?", Snackbar.LENGTH_LONG).show();
+            }
+        });
+    }
+
+    public void syncDrugList() {
+        FirebaseStorage storage = FirebaseStorage.getInstance();
+        final StorageReference drugRef = storage.getReference().child("drugList.xml");
+        drugRef.getMetadata().addOnSuccessListener(new OnSuccessListener<StorageMetadata>() {
+            @Override
+            public void onSuccess(StorageMetadata storageMetadata) {
+
+                File drugFile = new File(getFilesDir().getPath() + "/drugList.xml");
+                if (!drugFile.canRead()) {
+                    try {
+                        final File file = File.createTempFile("text", ".xml");
+                        drugRef.getFile(file).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
+                            @Override
+                            public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
+                                Log.d("FileManager", file.getAbsolutePath());
+                                File from = file.getAbsoluteFile();
+                                File to = new File(getFilesDir(), "drugList.xml");
+                                from.renameTo(to);
+                                Snackbar.make(coordinatorLayout, "File not found. Downloading", Snackbar.LENGTH_LONG).show();
+                            }
+                        });
+                    } catch (IOException e) {
+                        Log.e(TAG, "IOexception when writing file");
+                        e.printStackTrace();
+                    }
+                } else {
+                    try {
+                        try {
+                            String drugListString = drugFile.toString();
+                            FileInputStream fileInputStream = new FileInputStream(drugListString);
+                            String checksum = MD5.md5(fileInputStream);
+                            if (!checksum.equalsIgnoreCase(storageMetadata.getMd5Hash())) {
+                                try {
+                                    final File file = File.createTempFile("text", ".xml");
+                                    drugRef.getFile(file).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
+                                        @Override
+                                        public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
+                                            Log.d("FileManager", file.getAbsolutePath());
+                                            File from = file.getAbsoluteFile();
+                                            File to = new File(getFilesDir(), "drugList.xml");
+                                            from.renameTo(to);
+                                            Snackbar.make(coordinatorLayout, "Drug list outdated. Downloading..", Snackbar.LENGTH_LONG).show();
+                                        }
+                                    });
+                                } catch (IOException e) {
+                                    Log.e(TAG, "IOexception when writing file");
+                                    e.printStackTrace();
+                                }
+                            }
+                        } catch (Exception e) {
+                            Log.e("OOPS", "Fatal...");
+                            e.printStackTrace();
+                        }
+                    } catch (Exception e) {
+                        e.printStackTrace();
                     }
                 }
             }
@@ -249,66 +315,71 @@ public class AllOrders extends AppCompatActivity {
             @Override
             public void onFailure(@NonNull Exception e) {
                 Log.d("Metadata", "Failed to get metadata");
-                Snackbar.make(coordinatorLayout, "Update failed. No internet connection?", Snackbar.LENGTH_LONG).show();
-            }
-        });
-
-        final StorageReference drugRef = storage.getReference().child("drugList.xml");
-        drugRef.getMetadata().addOnSuccessListener(new OnSuccessListener<StorageMetadata>() {
-            @Override
-            public void onSuccess(StorageMetadata storageMetadata) {
-
-                File drugFile = new File(getFilesDir().getPath()+"/drugList.xml");
-                try {
-                    final File file = File.createTempFile("text", ".xml");
-                    drugRef.getFile(file).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
-                        @Override
-                        public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
-                            Log.d("FileManager", file.getAbsolutePath());
-                            File from = file.getAbsoluteFile();
-                            File to = new File(getFilesDir(), "drugList.xml");
-                            from.renameTo(to);
-                        }
-                    });
-                } catch (IOException file) {
-                    Log.d(TAG, "IOexception when writing file");
-                }
-            }
-        }).addOnFailureListener(new OnFailureListener() {
-            @Override
-            public void onFailure(@NonNull Exception e) {
-                Log.d("Metadata", "Failed to get metadata");
 //                Snackbar.make(coordinatorLayout, "Update failed. No internet connection?", Snackbar.LENGTH_LONG).show();
             }
         });
+    }
 
+    public void syncSalesmanList() {
+        FirebaseStorage storage = FirebaseStorage.getInstance();
         final StorageReference salesmanRef = storage.getReference().child("salesman.xml");
         salesmanRef.getMetadata().addOnSuccessListener(new OnSuccessListener<StorageMetadata>() {
             @Override
             public void onSuccess(StorageMetadata storageMetadata) {
-                try {
-                    final File file = File.createTempFile("text", ".xml");
-                    salesmanRef.getFile(file).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
-                        @Override
-                        public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
-                            Log.d("FileManager", file.getAbsolutePath());
-                            File from = file.getAbsoluteFile();
-                            File to = new File(getFilesDir(), "salesman.xml");
-                            from.renameTo(to);
+
+                File salesmanFile = new File(getFilesDir().getPath(), "/salesman.xml");
+                if (!salesmanFile.canRead()) {
+                    try {
+                        final File file = File.createTempFile("text", ".xml");
+                        salesmanRef.getFile(file).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
+                            @Override
+                            public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
+                                Log.d("FileManager", file.getAbsolutePath());
+                                File from = file.getAbsoluteFile();
+                                File to = new File(getFilesDir(), "salesman.xml");
+                                from.renameTo(to);
+                                Snackbar.make(coordinatorLayout, "File not found. Downloading", Snackbar.LENGTH_LONG).show();
+                            }
+                        });
+                    } catch (IOException e) {
+                        Log.e(TAG, "IOexception when writing file");
+                        e.printStackTrace();
+                    }
+                } else {
+                    try {
+                        String salesmanListString = salesmanFile.toString();
+                        FileInputStream fileInputStream = new FileInputStream(salesmanListString);
+                        String checksum = MD5.md5(fileInputStream);
+                        if (!checksum.equalsIgnoreCase(storageMetadata.getMd5Hash())) {
+                            try {
+                                final File file = File.createTempFile("text", ".xml");
+                                salesmanRef.getFile(file).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
+                                    @Override
+                                    public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
+                                        Log.d("FileManager", file.getAbsolutePath());
+                                        File from = file.getAbsoluteFile();
+                                        File to = new File(getFilesDir(), "salesman.xml");
+                                        from.renameTo(to);
+                                        Snackbar.make(coordinatorLayout, "Salesman list outdated. Downloading..", Snackbar.LENGTH_LONG).show();
+                                    }
+                                });
+                            } catch (IOException e) {
+                                Log.e(TAG, "IOexception when writing file");
+                                e.printStackTrace();
+                            }
                         }
-                    });
-                } catch (IOException file) {
-                    Log.d(TAG, "IOexception when writing file");
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
                 }
             }
         }).addOnFailureListener(new OnFailureListener() {
             @Override
             public void onFailure(@NonNull Exception e) {
-                Log.d("Metadata", "Failed to get metadata");
-//                Snackbar.make(coordinatorLayout, "Update failed. No internet connection?", Snackbar.LENGTH_LONG).show();
+                Log.d("Metadata", "Failed to get salesman metadata");
+                Snackbar.make(coordinatorLayout, "Update failed. No internet connection?", Snackbar.LENGTH_LONG).show();
             }
         });
-//        Snackbar.make(coordinatorLayout, "Updated customer and products", Snackbar.LENGTH_LONG).show();
     }
 
     @Override

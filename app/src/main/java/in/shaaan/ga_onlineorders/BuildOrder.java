@@ -86,9 +86,9 @@ public class BuildOrder extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         int layoutItemId = android.R.layout.simple_dropdown_item_1line;
-        String[] drugArr = getResources().getStringArray(R.array.drugList);
+//        String[] drugArr = getResources().getStringArray(R.array.drugList);
 //        String[] custArr = getResources().getStringArray(R.array.custList);
-        String[] strings = getResources().getStringArray(R.array.salesmen);
+//        String[] strings = getResources().getStringArray(R.array.salesmen);
 //        List<String> salesmen = Arrays.asList(strings);
 //        List<String> drugList = Arrays.asList(drugArr);
 //        final List<String> custList = Arrays.asList(custArr);
