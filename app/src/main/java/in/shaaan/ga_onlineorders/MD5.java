@@ -27,7 +27,7 @@ public class MD5 {
 
             byte[] messageDigest = digest.digest();
 
-            String base64 = Base64.encodeToString(messageDigest, Base64.DEFAULT);
+            String base64 = Base64.encodeToString(messageDigest, Base64.NO_WRAP);
 
             md5 = base64;
         } catch (Exception e) {
