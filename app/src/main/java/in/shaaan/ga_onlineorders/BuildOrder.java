@@ -76,6 +76,7 @@ public class BuildOrder extends AppCompatActivity {
     private RecyclerAdapterFile mAdapter;
     //    private TextView scheme;
     private int x = 0;
+    String finalQ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -173,11 +174,15 @@ public class BuildOrder extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
-                final String pReqQuant = autoCompleteTextView.getText().toString();
-                StringTokenizer stringTokenizer1 = new StringTokenizer(pReqQuant, "[");
-                String finalProd = stringTokenizer1.nextToken().trim().replace('.', '_');
-                Log.d("Path", finalProd);
-                mDatabaseReference = GaFirebase.isCalled().getReference().child("nodejs-data").child("Quant").child(finalProd);
+                String pReqQuant = autoCompleteTextView.getText().toString();
+                String[] parts = pReqQuant.split(" ");
+                int n = parts.length;
+                finalQ=parts[1];
+                for(int x=2;x<n;x++)
+                { finalQ = finalQ +" "+parts[x];
+                }
+                Log.d("Path", finalQ);
+                mDatabaseReference = GaFirebase.isCalled().getReference().child("nodejs-data").child("Quant").child(finalQ);
                 Log.d("DBPath", mDatabaseReference.toString());
                 mDatabaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
