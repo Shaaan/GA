@@ -66,6 +66,8 @@ public class BuildOrder extends AppCompatActivity {
     TextView showStock;
     @Bind(R.id.view_mrp)
     TextView viewMrp;
+    @Bind(R.id.view_quantity_view)
+    View quant;
 
     private DatabaseReference mDatabaseReference;
     private FirebaseAuth.AuthStateListener authStateListener;
@@ -85,6 +87,9 @@ public class BuildOrder extends AppCompatActivity {
         ButterKnife.bind(this);
         final android.support.v7.widget.Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        showStock.setVisibility(View.GONE);
+        quant.setVisibility(View.GONE);
+
 
         int layoutItemId = android.R.layout.simple_dropdown_item_1line;
 //        String[] drugArr = getResources().getStringArray(R.array.drugList);
@@ -151,6 +156,8 @@ public class BuildOrder extends AppCompatActivity {
             completeTextView.setEnabled(true);
             FirebaseAnalytics firebaseAnalytics = FirebaseAnalytics.getInstance(this);
             firebaseAnalytics.setUserProperty("salesman", "isSalesman");
+            showStock.setVisibility(View.VISIBLE);
+            quant.setVisibility(View.VISIBLE);
         } else if (bh.contains(partyTemp)) {
             completeTextView.setText(partyTemp);
             completeTextView.setEnabled(false);

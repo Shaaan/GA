@@ -67,12 +67,6 @@ public class AllOrders extends AppCompatActivity {
     private FirebaseAuth.AuthStateListener mAuthListener;
     private FirebaseAuth mAuth;
     private FirebaseRecyclerAdapter mAdapter;
-    private String checksumC;
-    private String checksumD;
-    private String checksumS;
-    private String providedMD5D;
-    private String providedMD5S;
-    private String providedMD5C;
 
 
     @Override
@@ -83,7 +77,6 @@ public class AllOrders extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         netStatus.setVisibility(View.GONE);
-        floatingActionButton.setVisibility(View.GONE);
 
         mAuth = FirebaseAuth.getInstance();
         mAuthListener = new FirebaseAuth.AuthStateListener() {
@@ -115,19 +108,12 @@ public class AllOrders extends AppCompatActivity {
 
         String[] strings = getResources().getStringArray(R.array.salesmen);
         List<String> salesmen = Arrays.asList(strings);
-//        String s = FirebaseAuth.getInstance().getCurrentUser().getEmail();
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         String s = user.getEmail();
         String s1 = salesmen.toString();
         if (s1.contains(s)) {
-            floatingActionButton.setVisibility(View.VISIBLE);
-//            playButton.setVisibility(View.GONE);
-//            notSalesman.setVisibility(View.GONE);
             FirebaseAnalytics firebaseAnalytics = FirebaseAnalytics.getInstance(this);
             firebaseAnalytics.setUserProperty("salesman", "isSalesman");
-        } else {
-            floatingActionButton.setVisibility(View.GONE);
-
         }
 
         Query query = GaFirebase.isCalled().getReference().child("").child("salesman").child(getUid());

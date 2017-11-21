@@ -124,6 +124,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
                     android:text="Stock : "
+                    android:id="@+id/view_quantity_view"
                     android:textAllCaps="true"
                     android:textSize="14sp"
                     android:textStyle="bold" />
