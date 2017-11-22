@@ -186,7 +186,7 @@ public class BuildOrder extends AppCompatActivity {
                 int n = parts.length;
                 finalQ=parts[1];
                 for(int x=2;x<n;x++)
-                { finalQ = finalQ +" "+parts[x];
+                { finalQ = finalQ +" "+parts[x].replace(".", "_");
                 }
                 Log.d("Path", finalQ);
                 mDatabaseReference = GaFirebase.isCalled().getReference().child("nodejs-data").child("Quant").child(finalQ);
