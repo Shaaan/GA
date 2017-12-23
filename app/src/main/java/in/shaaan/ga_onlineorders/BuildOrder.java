@@ -41,6 +41,7 @@ import java.util.StringTokenizer;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
+import es.dmoral.toasty.Toasty;
 import in.shaaan.ga_onlineorders.pojo.OrderData;
 
 
@@ -300,7 +301,8 @@ public class BuildOrder extends AppCompatActivity {
 
         // Disable the submit button to prevent multiple orders
         setEditing(false);
-        Toast.makeText(this, "Sending Order..", Toast.LENGTH_LONG).show();
+//        Toast.makeText(this, "Sending Order..", Toast.LENGTH_LONG).show();
+        Toasty.success(this, "Sending Order..", Toast.LENGTH_LONG).show();
         final String eMail = FirebaseAuth.getInstance().getCurrentUser().getEmail();
         final String userId = getUid();
 

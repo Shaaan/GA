@@ -16,6 +16,8 @@ import com.google.firebase.auth.FirebaseUser;
 
 import java.util.Arrays;
 
+import es.dmoral.toasty.Toasty;
+
 public class LauncherActivity extends AppCompatActivity {
     private static final int RC_SIGN_IN = 7410;
     private static final String TAG = "LauncherActivity";
@@ -29,7 +31,8 @@ public class LauncherActivity extends AppCompatActivity {
         FirebaseAuth auth = FirebaseAuth.getInstance();
         if (auth.getCurrentUser() != null) {
             // signed in. proceed to app
-            Toast.makeText(this, "Logged in successfully..", Toast.LENGTH_SHORT).show();
+//            Toast.makeText(this, "Logged in successfully..", Toast.LENGTH_SHORT).show();
+            Toasty.normal(this, "Logged in successfully..", Toast.LENGTH_LONG).show();
             Intent intent = new Intent(this, AllOrders.class);
             startActivity(intent);
             finish();
