@@ -107,7 +107,7 @@ public class BuildOrder extends AppCompatActivity {
         List<String> drugList = new ArrayList<>();
         List<String> salesmanList = new ArrayList<>();
         try {
-            String custListItem = getFilesDir().getPath() + "/custList.xml";
+            String custListItem = getFilesDir().getPath() + "/custList.txt";
             cReader = new BufferedReader(new FileReader(custListItem));
             String cLI;
             while ((cLI = cReader.readLine()) != null) {
@@ -115,13 +115,13 @@ public class BuildOrder extends AppCompatActivity {
 //                notifyAll();
 //                in.close();
             }
-            String drugListItem = getFilesDir().getPath() + "/drugList.xml";
+            String drugListItem = getFilesDir().getPath() + "/drugList.txt";
             dReader = new BufferedReader(new FileReader(drugListItem));
             String dLI;
             while ((dLI = dReader.readLine()) != null) {
                 drugList.add(dLI);
             }
-            String salesmanListItem = getFilesDir().getPath() + "/salesman.xml";
+            String salesmanListItem = getFilesDir().getPath() + "/salesman.txt";
             sReader = new BufferedReader(new FileReader(salesmanListItem));
             String sLI;
             while ((sLI = sReader.readLine()) != null) {
