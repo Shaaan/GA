@@ -178,21 +178,21 @@ public class AllOrders extends AppCompatActivity {
 
     public void syncCustList() {
         FirebaseStorage storage = FirebaseStorage.getInstance();
-        final StorageReference custRef = storage.getReference().child("custList.xml");
+        final StorageReference custRef = storage.getReference().child("custList.txt");
         custRef.getMetadata().addOnSuccessListener(new OnSuccessListener<StorageMetadata>() {
             @Override
             public void onSuccess(StorageMetadata storageMetadata) {
 
-                File custFile = new File(getFilesDir().getPath(), "/custList.xml");
+                File custFile = new File(getFilesDir().getPath(), "/custList.txt");
                 if (!custFile.canRead()) {
                     try {
-                        final File file = File.createTempFile("text", ".xml");
+                        final File file = File.createTempFile("text", ".txt");
                         custRef.getFile(file).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
                             @Override
                             public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
                                 Log.d("FileManager", file.getAbsolutePath());
                                 File from = file.getAbsoluteFile();
-                                File to = new File(getFilesDir(), "custList.xml");
+                                File to = new File(getFilesDir(), "custList.txt");
                                 from.renameTo(to);
                                 Snackbar.make(coordinatorLayout, "Customer list not found. Downloading", Snackbar.LENGTH_LONG).show();
                             }
@@ -208,13 +208,13 @@ public class AllOrders extends AppCompatActivity {
                         String checksum = MD5.md5(fileInputStream);
                         if (!checksum.equalsIgnoreCase(storageMetadata.getMd5Hash())) {
                             try {
-                                final File file = File.createTempFile("text", ".xml");
+                                final File file = File.createTempFile("text", ".txt");
                                 custRef.getFile(file).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
                                     @Override
                                     public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
                                         Log.d("FileManager", file.getAbsolutePath());
                                         File from = file.getAbsoluteFile();
-                                        File to = new File(getFilesDir(), "custList.xml");
+                                        File to = new File(getFilesDir(), "custList.txt");
                                         from.renameTo(to);
                                         Snackbar.make(coordinatorLayout, "Customer list outdated. Downloading..", Snackbar.LENGTH_LONG).show();
                                     }
@@ -246,16 +246,16 @@ public class AllOrders extends AppCompatActivity {
             @Override
             public void onSuccess(StorageMetadata storageMetadata) {
 
-                File drugFile = new File(getFilesDir().getPath() + "/drugList.xml");
+                File drugFile = new File(getFilesDir().getPath() + "/drugList.txt");
                 if (!drugFile.canRead()) {
                     try {
-                        final File file = File.createTempFile("text", ".xml");
+                        final File file = File.createTempFile("text", ".txt");
                         drugRef.getFile(file).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
                             @Override
                             public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
                                 Log.d("FileManager", file.getAbsolutePath());
                                 File from = file.getAbsoluteFile();
-                                File to = new File(getFilesDir(), "drugList.xml");
+                                File to = new File(getFilesDir(), "drugList.txt");
                                 from.renameTo(to);
                                 Snackbar.make(coordinatorLayout, "Drug list not found. Downloading", Snackbar.LENGTH_LONG).show();
                             }
@@ -272,13 +272,13 @@ public class AllOrders extends AppCompatActivity {
                             String checksum = MD5.md5(fileInputStream);
                             if (!checksum.equalsIgnoreCase(storageMetadata.getMd5Hash())) {
                                 try {
-                                    final File file = File.createTempFile("text", ".xml");
+                                    final File file = File.createTempFile("text", ".txt");
                                     drugRef.getFile(file).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
                                         @Override
                                         public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
                                             Log.d("FileManager", file.getAbsolutePath());
                                             File from = file.getAbsoluteFile();
-                                            File to = new File(getFilesDir(), "drugList.xml");
+                                            File to = new File(getFilesDir(), "drugList.txt");
                                             from.renameTo(to);
                                             Snackbar.make(coordinatorLayout, "Drug list outdated. Downloading..", Snackbar.LENGTH_LONG).show();
                                         }
@@ -308,21 +308,21 @@ public class AllOrders extends AppCompatActivity {
 
     public void syncSalesmanList() {
         FirebaseStorage storage = FirebaseStorage.getInstance();
-        final StorageReference salesmanRef = storage.getReference().child("salesman.xml");
+        final StorageReference salesmanRef = storage.getReference().child("salesman.txt");
         salesmanRef.getMetadata().addOnSuccessListener(new OnSuccessListener<StorageMetadata>() {
             @Override
             public void onSuccess(StorageMetadata storageMetadata) {
 
-                File salesmanFile = new File(getFilesDir().getPath(), "/salesman.xml");
+                File salesmanFile = new File(getFilesDir().getPath(), "/salesman.txt");
                 if (!salesmanFile.canRead()) {
                     try {
-                        final File file = File.createTempFile("text", ".xml");
+                        final File file = File.createTempFile("text", ".txt");
                         salesmanRef.getFile(file).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
                             @Override
                             public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
                                 Log.d("FileManager", file.getAbsolutePath());
                                 File from = file.getAbsoluteFile();
-                                File to = new File(getFilesDir(), "salesman.xml");
+                                File to = new File(getFilesDir(), "salesman.txt");
                                 from.renameTo(to);
                                 Snackbar.make(coordinatorLayout, "Saleman list not found. Downloading", Snackbar.LENGTH_LONG).show();
                             }
@@ -338,13 +338,13 @@ public class AllOrders extends AppCompatActivity {
                         String checksum = MD5.md5(fileInputStream);
                         if (!checksum.equalsIgnoreCase(storageMetadata.getMd5Hash())) {
                             try {
-                                final File file = File.createTempFile("text", ".xml");
+                                final File file = File.createTempFile("text", ".txt");
                                 salesmanRef.getFile(file).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
                                     @Override
                                     public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
                                         Log.d("FileManager", file.getAbsolutePath());
                                         File from = file.getAbsoluteFile();
-                                        File to = new File(getFilesDir(), "salesman.xml");
+                                        File to = new File(getFilesDir(), "salesman.txt");
                                         from.renameTo(to);
                                         Snackbar.make(coordinatorLayout, "Salesman list outdated. Downloading..", Snackbar.LENGTH_LONG).show();
                                     }
