@@ -217,6 +217,8 @@ public class BuildOrder extends AppCompatActivity {
                                 }
                             } else {
                                 Log.d("FirebaseDatabase", "Getting no quantity from Database");
+                                addProduct.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.quantity_nill));
+                                showStock.setText("0");
                             }
                             if (dataSnapshot.child("Scheme").getValue() != null) {
                                 String prodScheme = dataSnapshot.child("Scheme").getValue().toString();
@@ -227,6 +229,8 @@ public class BuildOrder extends AppCompatActivity {
                             if (dataSnapshot.child("MRP").getValue() != null) {
                                 String mrp = dataSnapshot.child("MRP").getValue().toString();
                                 viewMrp.setText(mrp);
+                            } else {
+                                viewMrp.setText("NA");
                             }
 
                         }
