@@ -80,6 +80,7 @@ public class BuildOrder extends AppCompatActivity {
     //    private TextView scheme;
     private int x = 0;
     String finalQ;
+    String ItemID;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -232,6 +233,9 @@ public class BuildOrder extends AppCompatActivity {
                             } else {
                                 viewMrp.setText("NA");
                             }
+                            if (dataSnapshot.child("ItemDetailId").getValue() != null) {
+                                ItemID = dataSnapshot.child("ItemDetailId").getValue().toString();
+                            }
 
                         }
 
@@ -275,10 +279,11 @@ public class BuildOrder extends AppCompatActivity {
 
     public OrderData getDataA() {
         OrderData instance = new OrderData();
-        instance.setProduct(autoCompleteTextView.getText().toString());
+        instance.setItemId(ItemID);
+        String tmpProd = autoCompleteTextView.getText().toString();
+        instance.setProduct(tmpProd.substring(tmpProd.indexOf(" ")));
         instance.setQuantity(editText.getText().toString());
-
-        Log.d("I am doing something", "seriously?");
+//        Log.d("I am doing something", "seriously?");
         return instance;
     }
 
@@ -314,7 +319,8 @@ public class BuildOrder extends AppCompatActivity {
         final StringBuilder builder = new StringBuilder();
 
         for (OrderData product : products) {
-            builder.append(String.format("%s %s\n", product.getProduct(), product.getQuantity()));
+            builder.append(String.format("%s %s\n", product.getItemId() +" "+ product.getProduct() , product.getQuantity()));
+//            builder.append();
         }
 
         Thread thread = new Thread(new Runnable() {
@@ -340,7 +346,7 @@ public class BuildOrder extends AppCompatActivity {
             public void run() {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
                 // TODO: Switch to actual branch after development
-                DatabaseReference reference = database.getReference("").child("allOrders");
+                DatabaseReference reference = database.getReference("").child("autoInsOrders");
                 reference.keepSynced(true);
                 String key = reference.push().getKey();
                 reference.child(key).child("email").setValue(eMail);

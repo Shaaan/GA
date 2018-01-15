@@ -18,12 +18,13 @@ public class OrderData {
     private String scheme;
     private String quantity;
     private int warehouseStock;
+    private String itemid;
 
     public OrderData() {
 
     }
 
-    public OrderData(String expProducts, String quantity, int warehouseStock, String scheme, String product, String custName, String date, String products, String email) {
+    public OrderData(String expProducts, String quantity, int warehouseStock, String itemid, String scheme, String product, String custName, String date, String products, String email) {
         this.email = email;
         this.quantity = quantity;
         this.custName = custName;
@@ -33,7 +34,7 @@ public class OrderData {
         this.expProducts = expProducts;
         this.product = product;
         this.scheme = scheme;
-
+        this.itemid = itemid;
     }
 
     public String getCustName() {
@@ -106,5 +107,13 @@ public class OrderData {
 
     public void setWarehouseStock(int warehouseStock) {
         this.warehouseStock = warehouseStock;
+    }
+
+    public String getItemId() {
+        return itemid;
+    }
+
+    public void setItemId(String itemid) {
+        this.itemid = itemid;
     }
 }
