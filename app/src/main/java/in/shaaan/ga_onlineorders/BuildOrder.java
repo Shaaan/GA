@@ -81,6 +81,8 @@ public class BuildOrder extends AppCompatActivity {
     private int x = 0;
     String finalQ;
     String ItemID;
+    String finalP;
+    String PartyId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -176,6 +178,40 @@ public class BuildOrder extends AppCompatActivity {
                 Log.d("Signed in?", "Yes I did!" + user.getEmail());
             }
         };
+
+
+        // Logic to check party id
+        completeTextView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                String enteredParty = completeTextView.getText().toString();
+                String[] parts = enteredParty.split(" ");
+                int n = parts.length;
+                finalP = parts[1];
+                for (int x = 2; x<n; x++) {
+                    finalP = finalP + " " + parts[x];
+                }
+                finalP = finalP.replace(".", "_");
+                Log.d("Path", finalP);
+                mDatabaseReference = GaFirebase.isCalled().getReference().child("nodejs-data").child("Party").child(finalP);
+                Log.d("DBPath", mDatabaseReference.toString());
+                mDatabaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(DataSnapshot dataSnapshot) {
+                        if (completeTextView != null) {
+                            if (dataSnapshot.child("PartyId").getValue() != null) {
+                                PartyId = dataSnapshot.child("PartyId").getValue().toString();
+                            }
+                        }
+                    }
+
+                    @Override
+                    public void onCancelled(DatabaseError databaseError) {
+
+                    }
+                });
+            }
+        });
 
 
         // Logic to check quantity
@@ -296,9 +332,11 @@ public class BuildOrder extends AppCompatActivity {
     }
 
     private void submitOrder() {
-        final String customer = completeTextView.getText().toString();
+        String customerTmp = completeTextView.getText().toString();
+        String customerTmp1 = customerTmp.substring(customerTmp.indexOf(" "));
+        final String customer = finalP + " " + customerTmp1;
 
-        if (TextUtils.isEmpty(customer)) {
+        if (TextUtils.isEmpty(customerTmp)) {
             completeTextView.setError(REQUIRED);
             return;
         }
