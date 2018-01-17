@@ -319,7 +319,7 @@ public class BuildOrder extends AppCompatActivity {
         OrderData instance = new OrderData();
         instance.setItemId(ItemID);
         String tmpProd = autoCompleteTextView.getText().toString();
-        instance.setProduct(tmpProd.substring(tmpProd.indexOf(" ")));
+        instance.setProduct(tmpProd.substring(tmpProd.indexOf(" ")+ 1));
         instance.setQuantity(editText.getText().toString());
 //        Log.d("I am doing something", "seriously?");
         return instance;
@@ -337,6 +337,8 @@ public class BuildOrder extends AppCompatActivity {
         String customerTmp = completeTextView.getText().toString();
         String customerTmp1 = customerTmp.substring(customerTmp.indexOf(" "));
         final String customer = PartyId + " " + customerTmp1;
+        final String cs = customer.substring(customer.indexOf(" ")+1);
+
 //        Toast.makeText(BuildOrder.this, customer, Toast.LENGTH_SHORT).show();
 
         if (TextUtils.isEmpty(customerTmp)) {
@@ -372,7 +374,8 @@ public class BuildOrder extends AppCompatActivity {
                 DatabaseReference reference = database.getReference("").child("salesman").child(userId);
                 reference.keepSynced(true);
                 String key = reference.child("salesman").child(userId).child("orders").push().getKey();
-                reference.child(key).child("custName").setValue(customer);
+                Log.d("SalesmanData", cs);
+                reference.child(key).child("custName").setValue(cs);
                 reference.child(key).child("products").setValue(builder.toString());
                 reference.child(key).child("email").setValue(eMail);
                 reference.child(key).child("date").setValue(date);
