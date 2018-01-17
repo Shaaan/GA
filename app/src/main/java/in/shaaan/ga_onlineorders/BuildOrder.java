@@ -201,6 +201,8 @@ public class BuildOrder extends AppCompatActivity {
                         if (completeTextView != null) {
                             if (dataSnapshot.child("PartyId").getValue() != null) {
                                 PartyId = dataSnapshot.child("PartyId").getValue().toString();
+                                Log.d("PartyId", PartyId);
+//                                Toast.makeText(BuildOrder.this, PartyId, Toast.LENGTH_SHORT).show();
                             }
                         }
                     }
@@ -334,7 +336,8 @@ public class BuildOrder extends AppCompatActivity {
     private void submitOrder() {
         String customerTmp = completeTextView.getText().toString();
         String customerTmp1 = customerTmp.substring(customerTmp.indexOf(" "));
-        final String customer = finalP + " " + customerTmp1;
+        final String customer = PartyId + " " + customerTmp1;
+//        Toast.makeText(BuildOrder.this, customer, Toast.LENGTH_SHORT).show();
 
         if (TextUtils.isEmpty(customerTmp)) {
             completeTextView.setError(REQUIRED);
