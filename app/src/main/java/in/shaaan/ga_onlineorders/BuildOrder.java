@@ -17,6 +17,7 @@ import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -69,6 +70,10 @@ public class BuildOrder extends AppCompatActivity {
     TextView viewMrp;
     @Bind(R.id.view_quantity_view)
     View quant;
+    @Bind(R.id.scheme_linear)
+    LinearLayout fullContent;
+    @Bind(R.id.prodNameView)
+    TextView prodView;
 
     private DatabaseReference mDatabaseReference;
     private FirebaseAuth.AuthStateListener authStateListener;
@@ -168,6 +173,9 @@ public class BuildOrder extends AppCompatActivity {
         } else {
             completeTextView.setText("Not a valid user");
             completeTextView.setEnabled(false);
+            submit.setVisibility(View.GONE);
+            fullContent.setVisibility(View.GONE);
+            prodView.setText("Wrong Customer ID. Please contact Gayatri Agencies for help");
         }
 
         firebaseAuth = FirebaseAuth.getInstance();
