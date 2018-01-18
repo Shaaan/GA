@@ -178,7 +178,7 @@ public class AllOrders extends AppCompatActivity {
 
     public void syncCustList() {
         FirebaseStorage storage = FirebaseStorage.getInstance();
-        final StorageReference custRef = storage.getReference().child("custList.xml");
+        final StorageReference custRef = storage.getReference().child("custList.txt");
         custRef.getMetadata().addOnSuccessListener(new OnSuccessListener<StorageMetadata>() {
             @Override
             public void onSuccess(StorageMetadata storageMetadata) {
@@ -241,7 +241,7 @@ public class AllOrders extends AppCompatActivity {
 
     public void syncDrugList() {
         FirebaseStorage storage = FirebaseStorage.getInstance();
-        final StorageReference drugRef = storage.getReference().child("drugList.xml");
+        final StorageReference drugRef = storage.getReference().child("drugList.txt");
         drugRef.getMetadata().addOnSuccessListener(new OnSuccessListener<StorageMetadata>() {
             @Override
             public void onSuccess(StorageMetadata storageMetadata) {
