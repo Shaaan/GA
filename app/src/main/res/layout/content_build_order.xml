@@ -120,11 +120,11 @@
                     tools:text="10+1" />
 
                 <TextView
+                    android:id="@+id/view_quantity_view"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
                     android:text="Stock : "
-                    android:id="@+id/view_quantity_view"
                     android:textAllCaps="true"
                     android:textSize="14sp"
                     android:textStyle="bold" />

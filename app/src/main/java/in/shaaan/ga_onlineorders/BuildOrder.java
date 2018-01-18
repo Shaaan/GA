@@ -74,7 +74,10 @@ public class BuildOrder extends AppCompatActivity {
     LinearLayout fullContent;
     @Bind(R.id.prodNameView)
     TextView prodView;
-
+    String finalQ;
+    String ItemID;
+    String finalP;
+    String PartyId;
     private DatabaseReference mDatabaseReference;
     private FirebaseAuth.AuthStateListener authStateListener;
     private FirebaseAuth firebaseAuth;
@@ -84,10 +87,6 @@ public class BuildOrder extends AppCompatActivity {
     private RecyclerAdapterFile mAdapter;
     //    private TextView scheme;
     private int x = 0;
-    String finalQ;
-    String ItemID;
-    String finalP;
-    String PartyId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -196,7 +195,7 @@ public class BuildOrder extends AppCompatActivity {
                 String[] parts = enteredParty.split(" ");
                 int n = parts.length;
                 finalP = parts[1];
-                for (int x = 2; x<n; x++) {
+                for (int x = 2; x < n; x++) {
                     finalP = finalP + " " + parts[x];
                 }
                 finalP = finalP.replace(".", "_");
@@ -232,9 +231,9 @@ public class BuildOrder extends AppCompatActivity {
                 String pReqQuant = autoCompleteTextView.getText().toString();
                 String[] parts = pReqQuant.split(" ");
                 int n = parts.length;
-                finalQ=parts[1];
-                for (int x=2;x<n;x++)
-                { finalQ = finalQ +" "+parts[x];
+                finalQ = parts[1];
+                for (int x = 2; x < n; x++) {
+                    finalQ = finalQ + " " + parts[x];
                 }
                 finalQ = finalQ.replace(".", "_");
                 Log.d("Path", finalQ);
@@ -327,7 +326,7 @@ public class BuildOrder extends AppCompatActivity {
         OrderData instance = new OrderData();
         instance.setItemId(ItemID);
         String tmpProd = autoCompleteTextView.getText().toString();
-        instance.setProduct(tmpProd.substring(tmpProd.indexOf(" ")+ 1));
+        instance.setProduct(tmpProd.substring(tmpProd.indexOf(" ") + 1));
         instance.setQuantity(editText.getText().toString());
 //        Log.d("I am doing something", "seriously?");
         return instance;
@@ -345,7 +344,7 @@ public class BuildOrder extends AppCompatActivity {
         String customerTmp = completeTextView.getText().toString();
         String customerTmp1 = customerTmp.substring(customerTmp.indexOf(" "));
         final String customer = PartyId + " " + customerTmp1;
-        final String cs = customer.substring(customer.indexOf(" ")+1);
+        final String cs = customer.substring(customer.indexOf(" ") + 1);
 
 //        Toast.makeText(BuildOrder.this, customer, Toast.LENGTH_SHORT).show();
 
@@ -370,7 +369,7 @@ public class BuildOrder extends AppCompatActivity {
         final StringBuilder builder = new StringBuilder();
 
         for (OrderData product : products) {
-            builder.append(String.format("%s %s\n", product.getItemId() +" "+ product.getProduct() , product.getQuantity()));
+            builder.append(String.format("%s %s\n", product.getItemId() + " " + product.getProduct(), product.getQuantity()));
 //            builder.append();
         }
 
