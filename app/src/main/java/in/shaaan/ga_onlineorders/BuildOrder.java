@@ -219,6 +219,7 @@ public class BuildOrder extends AppCompatActivity {
 
                     }
                 });
+                autoCompleteTextView.requestFocus();
             }
         });
 
@@ -291,7 +292,7 @@ public class BuildOrder extends AppCompatActivity {
 
                     }
                 });
-
+                editText.requestFocus();
             }
         });
 
