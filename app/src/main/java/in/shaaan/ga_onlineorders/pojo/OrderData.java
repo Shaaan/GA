@@ -12,29 +12,27 @@ public class OrderData {
     private String custName;
     private String date;
     private String email;
-    private String expProducts;
     private String products;
-    private String product;
-    private String scheme;
-    private String quantity;
-    private int warehouseStock;
     private String itemid;
+    private String quantity;
 
     public OrderData() {
 
     }
 
-    public OrderData(String expProducts, String quantity, int warehouseStock, String itemid, String scheme, String product, String custName, String date, String products, String email) {
+//    public OrderData(String custName, String products, String email, String date, String itemid) {
+//        this.email = email;
+//        this.custName = custName;
+//        this.date = date;
+//        this.products = products;
+//        this.itemid = itemid;
+//    }
+
+    public OrderData(String custName, String email, String date, String products) {
         this.email = email;
-        this.quantity = quantity;
         this.custName = custName;
         this.date = date;
         this.products = products;
-        this.warehouseStock = warehouseStock;
-        this.expProducts = expProducts;
-        this.product = product;
-        this.scheme = scheme;
-        this.itemid = itemid;
     }
 
     public String getCustName() {
@@ -69,28 +67,12 @@ public class OrderData {
         this.products = products;
     }
 
-    public String getExpProducts() {
-        return expProducts;
+    public String getItemId() {
+        return itemid;
     }
 
-    public void setExpProducts(String expProducts) {
-        this.expProducts = expProducts;
-    }
-
-    public String getScheme() {
-        return scheme;
-    }
-
-    public void setScheme(String scheme) {
-        this.scheme = scheme;
-    }
-
-    public String getProduct() {
-        return product;
-    }
-
-    public void setProduct(String product) {
-        this.product = product;
+    public void setItemId(String itemid) {
+        this.itemid = itemid;
     }
 
     public String getQuantity() {
@@ -99,21 +81,5 @@ public class OrderData {
 
     public void setQuantity(String quantity) {
         this.quantity = quantity;
-    }
-
-    public int getWarehouseStock() {
-        return warehouseStock;
-    }
-
-    public void setWarehouseStock(int warehouseStock) {
-        this.warehouseStock = warehouseStock;
-    }
-
-    public String getItemId() {
-        return itemid;
-    }
-
-    public void setItemId(String itemid) {
-        this.itemid = itemid;
     }
 }

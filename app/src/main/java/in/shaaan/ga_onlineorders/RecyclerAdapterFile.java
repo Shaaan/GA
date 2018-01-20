@@ -34,9 +34,8 @@ public class RecyclerAdapterFile extends RecyclerView.Adapter<RecyclerAdapterFil
     @Override
     public void onBindViewHolder(MyViewHolder holder, int position) {
         OrderData orderData1 = orderData.get(position);
-        holder.product.setText(orderData1.getProduct());
+        holder.product.setText(orderData1.getProducts());
         holder.quantity.setText(orderData1.getQuantity());
-        holder.scheme.setText(orderData1.getScheme());
     }
 
     @Override
@@ -54,7 +53,8 @@ public class RecyclerAdapterFile extends RecyclerView.Adapter<RecyclerAdapterFil
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-        public TextView product, quantity, scheme;
+        //        public TextView product, quantity, scheme;
+        public TextView product, quantity;
         private Button button;
 
         public MyViewHolder(View view) {
@@ -70,7 +70,7 @@ public class RecyclerAdapterFile extends RecyclerView.Adapter<RecyclerAdapterFil
 
             product = view.findViewById(R.id.view_prod_name);
             quantity = view.findViewById(R.id.view_quantity_real);
-            scheme = view.findViewById(R.id.view_scheme);
+//            scheme = view.findViewById(R.id.view_scheme);
         }
 
         public TextView getView() {

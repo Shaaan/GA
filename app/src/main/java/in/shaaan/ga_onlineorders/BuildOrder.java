@@ -97,6 +97,7 @@ public class BuildOrder extends AppCompatActivity {
         setSupportActionBar(toolbar);
         showStock.setVisibility(View.GONE);
         quant.setVisibility(View.GONE);
+        editText.setEnabled(false);
 
 
         int layoutItemId = android.R.layout.simple_dropdown_item_1line;
@@ -186,7 +187,6 @@ public class BuildOrder extends AppCompatActivity {
             }
         };
 
-
         // Logic to check party id
         completeTextView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -228,6 +228,7 @@ public class BuildOrder extends AppCompatActivity {
         });
 
 
+//        Toasty.warning(BuildOrder.this, "Please wait while data is synced from the server..", Toast.LENGTH_SHORT).show();
         // Logic to check quantity
         autoCompleteTextView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -288,7 +289,8 @@ public class BuildOrder extends AppCompatActivity {
                             if (dataSnapshot.child(finalQ).child("ItemDetailId").getValue() != null) {
                                 ItemID = dataSnapshot.child(finalQ).child("ItemDetailId").getValue().toString();
                             }
-
+                            editText.setEnabled(true);
+                            editText.requestFocus();
                         }
 
                     }
@@ -298,7 +300,6 @@ public class BuildOrder extends AppCompatActivity {
 
                     }
                 });
-                editText.requestFocus();
             }
         });
 
@@ -333,7 +334,7 @@ public class BuildOrder extends AppCompatActivity {
         OrderData instance = new OrderData();
         instance.setItemId(ItemID);
         String tmpProd = autoCompleteTextView.getText().toString();
-        instance.setProduct(tmpProd.substring(tmpProd.indexOf(" ") + 1));
+        instance.setProducts(tmpProd.substring(tmpProd.indexOf(" ") + 1));
         instance.setQuantity(editText.getText().toString());
 //        Log.d("I am doing something", "seriously?");
         return instance;
@@ -352,6 +353,7 @@ public class BuildOrder extends AppCompatActivity {
         String customerTmp1 = customerTmp.substring(customerTmp.indexOf(" "));
         final String customer = PartyId + " " + customerTmp1;
         final String cs = customer.substring(customer.indexOf(" ") + 1);
+        Log.d("CS", customer);
 
 //        Toast.makeText(BuildOrder.this, customer, Toast.LENGTH_SHORT).show();
 
@@ -376,7 +378,7 @@ public class BuildOrder extends AppCompatActivity {
         final StringBuilder builder = new StringBuilder();
 
         for (OrderData product : products) {
-            builder.append(String.format("%s %s\n", product.getItemId() + " " + product.getProduct(), product.getQuantity()));
+            builder.append(String.format("%s %s\n", product.getItemId() + " " + product.getProducts(), product.getQuantity()));
 //            builder.append();
         }
 
@@ -385,16 +387,8 @@ public class BuildOrder extends AppCompatActivity {
             public void run() {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
                 // TODO: Switch to actual branch after development
-                DatabaseReference reference = database.getReference("").child("salesman").child(userId);
-                reference.keepSynced(true);
-                String key = reference.child("salesman").child(userId).child("orders").push().getKey();
-                Log.d("SalesmanData", cs);
-                reference.child(key).child("custName").setValue(cs);
-                reference.child(key).child("products").setValue(builder.toString());
-                reference.child(key).child("email").setValue(eMail);
-                reference.child(key).child("date").setValue(date);
-                String blah = builder.toString();
-                Log.d("Data", blah);
+                DatabaseReference reference = database.getReference("tempDB").child("salesman").child(userId).push();
+                reference.setValue(new OrderData(customer, eMail, date, builder.toString()));
             }
         });
         thread.start();
@@ -404,13 +398,8 @@ public class BuildOrder extends AppCompatActivity {
             public void run() {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
                 // TODO: Switch to actual branch after development
-                DatabaseReference reference = database.getReference("").child("autoInsOrders");
-                reference.keepSynced(true);
-                String key = reference.push().getKey();
-                reference.child(key).child("email").setValue(eMail);
-                reference.child(key).child("date").setValue(date);
-                reference.child(key).child("custName").setValue(customer);
-                reference.child(key).child("products").setValue(builder.toString());
+                DatabaseReference reference = database.getReference("tempDB").child("autoInsOrders").push();
+                reference.setValue(new OrderData(customer, eMail, date, builder.toString()));
             }
         });
         t.start();
