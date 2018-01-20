@@ -200,14 +200,18 @@ public class BuildOrder extends AppCompatActivity {
                 }
                 finalP = finalP.replace(".", "_");
                 Log.d("Path", finalP);
-                mDatabaseReference = GaFirebase.isCalled().getReference().child("nodejs-data").child("Party").child(finalP);
+//                mDatabaseReference = GaFirebase.isCalled().getReference().child("nodejs-data").child("Party").child(finalP);
+                mDatabaseReference = GaFirebase.isCalled().getReference().child("nodejs-data").child("Party");
+                mDatabaseReference.keepSynced(true);
                 Log.d("DBPath", mDatabaseReference.toString());
                 mDatabaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
                         if (completeTextView != null) {
-                            if (dataSnapshot.child("PartyId").getValue() != null) {
-                                PartyId = dataSnapshot.child("PartyId").getValue().toString();
+//                            if (dataSnapshot.child(finalP).child("PartyId").getValue() != null) {
+                            if (dataSnapshot.getValue() != null) {
+                                Log.d("DSnap", dataSnapshot.getValue().toString());
+                                PartyId = dataSnapshot.child(finalP).child("PartyId").getValue().toString();
                                 Log.d("PartyId", PartyId);
 //                                Toast.makeText(BuildOrder.this, PartyId, Toast.LENGTH_SHORT).show();
                             }
@@ -238,8 +242,10 @@ public class BuildOrder extends AppCompatActivity {
                 }
                 finalQ = finalQ.replace(".", "_");
                 Log.d("Path", finalQ);
-                mDatabaseReference = GaFirebase.isCalled().getReference().child("nodejs-data").child("Quant").child(finalQ);
-                Log.d("DBPath", mDatabaseReference.toString());
+//                mDatabaseReference = GaFirebase.isCalled().getReference().child("nodejs-data").child("Quant").child(finalQ);
+                mDatabaseReference = GaFirebase.isCalled().getReference().child("nodejs-data").child("Quant");
+//                Log.d("DBPath", mDatabaseReference.toString());
+                mDatabaseReference.keepSynced(true);
                 mDatabaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
@@ -248,8 +254,8 @@ public class BuildOrder extends AppCompatActivity {
 
                         if (autoCompleteTextView != null) {
 
-                            if (dataSnapshot.child("TotalStock").getValue() != null) {
-                                String s2 = dataSnapshot.child("TotalStock").getValue().toString();
+                            if (dataSnapshot.child(finalQ).child("TotalStock").getValue() != null) {
+                                String s2 = dataSnapshot.child(finalQ).child("TotalStock").getValue().toString();
                                 Log.d("FirebaseDatabase", s2);
                                 showStock.setText(s2);
                                 x = Integer.parseInt(s2);
@@ -267,20 +273,20 @@ public class BuildOrder extends AppCompatActivity {
                                 addProduct.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.quantity_nill));
                                 showStock.setText("0");
                             }
-                            if (dataSnapshot.child("Scheme").getValue() != null) {
-                                String prodScheme = dataSnapshot.child("Scheme").getValue().toString();
+                            if (dataSnapshot.child(finalQ).child("Scheme").getValue() != null) {
+                                String prodScheme = dataSnapshot.child(finalQ).child("Scheme").getValue().toString();
                                 schemeView.setText(prodScheme);
                             } else {
                                 schemeView.setText("None");
                             }
-                            if (dataSnapshot.child("MRP").getValue() != null) {
-                                String mrp = dataSnapshot.child("MRP").getValue().toString();
+                            if (dataSnapshot.child(finalQ).child("MRP").getValue() != null) {
+                                String mrp = dataSnapshot.child(finalQ).child("MRP").getValue().toString();
                                 viewMrp.setText(mrp);
                             } else {
                                 viewMrp.setText("NA");
                             }
-                            if (dataSnapshot.child("ItemDetailId").getValue() != null) {
-                                ItemID = dataSnapshot.child("ItemDetailId").getValue().toString();
+                            if (dataSnapshot.child(finalQ).child("ItemDetailId").getValue() != null) {
+                                ItemID = dataSnapshot.child(finalQ).child("ItemDetailId").getValue().toString();
                             }
 
                         }
