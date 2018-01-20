@@ -387,7 +387,7 @@ public class BuildOrder extends AppCompatActivity {
             public void run() {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
                 // TODO: Switch to actual branch after development
-                DatabaseReference reference = database.getReference("tempDB").child("salesman").child(userId).push();
+                DatabaseReference reference = database.getReference("").child("salesman").child(userId).push();
                 reference.setValue(new OrderData(customer, eMail, date, builder.toString()));
             }
         });
@@ -398,7 +398,7 @@ public class BuildOrder extends AppCompatActivity {
             public void run() {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
                 // TODO: Switch to actual branch after development
-                DatabaseReference reference = database.getReference("tempDB").child("autoInsOrders").push();
+                DatabaseReference reference = database.getReference("").child("autoInsOrders").push();
                 reference.setValue(new OrderData(customer, eMail, date, builder.toString()));
             }
         });
