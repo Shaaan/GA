@@ -53,7 +53,6 @@ public class RecyclerAdapterFile extends RecyclerView.Adapter<RecyclerAdapterFil
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-        //        public TextView product, quantity, scheme;
         public TextView product, quantity;
         private Button button;
 

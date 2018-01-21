@@ -81,11 +81,9 @@ public class BuildOrder extends AppCompatActivity {
     private DatabaseReference mDatabaseReference;
     private FirebaseAuth.AuthStateListener authStateListener;
     private FirebaseAuth firebaseAuth;
-    //    private String k;
     private LinearLayoutManager linearLayoutManager;
     private List<OrderData> orderData = new ArrayList<>();
     private RecyclerAdapterFile mAdapter;
-    //    private TextView scheme;
     private int x = 0;
 
     @Override
@@ -101,12 +99,6 @@ public class BuildOrder extends AppCompatActivity {
 
 
         int layoutItemId = android.R.layout.simple_dropdown_item_1line;
-//        String[] drugArr = getResources().getStringArray(R.array.drugList);
-//        String[] custArr = getResources().getStringArray(R.array.custList);
-//        String[] strings = getResources().getStringArray(R.array.salesmen);
-//        List<String> salesmen = Arrays.asList(strings);
-//        List<String> drugList = Arrays.asList(drugArr);
-//        final List<String> custList = Arrays.asList(custArr);
 
         BufferedReader cReader = null;
         BufferedReader dReader = null;
@@ -120,8 +112,6 @@ public class BuildOrder extends AppCompatActivity {
             String cLI;
             while ((cLI = cReader.readLine()) != null) {
                 custList.add(cLI);
-//                notifyAll();
-//                in.close();
             }
             String drugListItem = getFilesDir().getPath() + "/drugList.txt";
             dReader = new BufferedReader(new FileReader(drugListItem));
@@ -200,7 +190,6 @@ public class BuildOrder extends AppCompatActivity {
                 }
                 finalP = finalP.replace(".", "_");
                 Log.d("Path", finalP);
-//                mDatabaseReference = GaFirebase.isCalled().getReference().child("nodejs-data").child("Party").child(finalP);
                 mDatabaseReference = GaFirebase.isCalled().getReference().child("nodejs-data").child("Party");
                 mDatabaseReference.keepSynced(true);
                 Log.d("DBPath", mDatabaseReference.toString());
@@ -208,12 +197,10 @@ public class BuildOrder extends AppCompatActivity {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
                         if (completeTextView != null) {
-//                            if (dataSnapshot.child(finalP).child("PartyId").getValue() != null) {
                             if (dataSnapshot.getValue() != null) {
                                 Log.d("DSnap", dataSnapshot.getValue().toString());
                                 PartyId = dataSnapshot.child(finalP).child("PartyId").getValue().toString();
                                 Log.d("PartyId", PartyId);
-//                                Toast.makeText(BuildOrder.this, PartyId, Toast.LENGTH_SHORT).show();
                             }
                         }
                     }
@@ -228,7 +215,6 @@ public class BuildOrder extends AppCompatActivity {
         });
 
 
-//        Toasty.warning(BuildOrder.this, "Please wait while data is synced from the server..", Toast.LENGTH_SHORT).show();
         // Logic to check quantity
         autoCompleteTextView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -243,9 +229,7 @@ public class BuildOrder extends AppCompatActivity {
                 }
                 finalQ = finalQ.replace(".", "_");
                 Log.d("Path", finalQ);
-//                mDatabaseReference = GaFirebase.isCalled().getReference().child("nodejs-data").child("Quant").child(finalQ);
                 mDatabaseReference = GaFirebase.isCalled().getReference().child("nodejs-data").child("Quant");
-//                Log.d("DBPath", mDatabaseReference.toString());
                 mDatabaseReference.keepSynced(true);
                 mDatabaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
@@ -263,10 +247,8 @@ public class BuildOrder extends AppCompatActivity {
                                 if (x != 0 && x > 30) {
                                     addProduct.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.quantity_full));
                                 } else if (x != 0 && x < 30) {
-//                                    Toast.makeText(BuildOrder.this, "Quantity is less than 30", Toast.LENGTH_SHORT).show();
                                     addProduct.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.quantity_moderate));
                                 } else if (x == 0) {
-//                                    Toast.makeText(BuildOrder.this, "No stock available", Toast.LENGTH_SHORT).show();
                                     addProduct.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.quantity_nill));
                                 }
                             } else {
@@ -315,13 +297,10 @@ public class BuildOrder extends AppCompatActivity {
             Snackbar.make(view, "You did not add the quantity", Snackbar.LENGTH_LONG).show();
             editText.requestFocus();
         } else {
-//            prodList.append("" + drug + "     " + quantity + "\n");
-
             mAdapter.addItem(getDataA());
             autoCompleteTextView.getText().clear();
             editText.getText().clear();
             autoCompleteTextView.requestFocus();
-//            checkBox.setChecked(false);
             addProduct.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.colorPrimary));
             schemeView.setText("");
             viewMrp.setText("");
@@ -336,7 +315,6 @@ public class BuildOrder extends AppCompatActivity {
         String tmpProd = autoCompleteTextView.getText().toString();
         instance.setProducts(tmpProd.substring(tmpProd.indexOf(" ") + 1));
         instance.setQuantity(editText.getText().toString());
-//        Log.d("I am doing something", "seriously?");
         return instance;
     }
 
@@ -355,8 +333,6 @@ public class BuildOrder extends AppCompatActivity {
         final String cs = customer.substring(customer.indexOf(" ") + 1);
         Log.d("CS", customer);
 
-//        Toast.makeText(BuildOrder.this, customer, Toast.LENGTH_SHORT).show();
-
         if (TextUtils.isEmpty(customerTmp)) {
             completeTextView.setError(REQUIRED);
             return;
@@ -369,7 +345,6 @@ public class BuildOrder extends AppCompatActivity {
 
         // Disable the submit button to prevent multiple orders
         setEditing(false);
-//        Toast.makeText(this, "Sending Order..", Toast.LENGTH_LONG).show();
         Toasty.success(this, "Sending Order..", Toast.LENGTH_LONG).show();
         final String eMail = FirebaseAuth.getInstance().getCurrentUser().getEmail();
         final String userId = getUid();
@@ -379,7 +354,6 @@ public class BuildOrder extends AppCompatActivity {
 
         for (OrderData product : products) {
             builder.append(String.format("%s %s\n", product.getItemId() + " " + product.getProducts(), product.getQuantity()));
-//            builder.append();
         }
 
         Thread thread = new Thread(new Runnable() {

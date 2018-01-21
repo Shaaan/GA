@@ -56,10 +56,6 @@ public class AllOrders extends AppCompatActivity {
     TextView netStatus;
     @Bind(R.id.recycler)
     RecyclerView recyclerView;
-    /*@Bind(R.id.not_salesman)
-    TextView notSalesman;
-    @Bind(R.id.playStore_button)
-    Button playButton;*/
     @Bind(R.id.coordinatorLayout)
     CoordinatorLayout coordinatorLayout;
 
@@ -88,7 +84,6 @@ public class AllOrders extends AppCompatActivity {
                     syncCustList();
                     syncDrugList();
                     syncSalesmanList();
-//                    Toast.makeText(AllOrders.this, "Logged in successfully", Toast.LENGTH_LONG).show();
                 } else {
                     // User is signed out
                     Log.d(TAG, "onAuthStateChanged:signed_out");

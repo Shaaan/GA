@@ -20,14 +20,6 @@ public class OrderData {
 
     }
 
-//    public OrderData(String custName, String products, String email, String date, String itemid) {
-//        this.email = email;
-//        this.custName = custName;
-//        this.date = date;
-//        this.products = products;
-//        this.itemid = itemid;
-//    }
-
     public OrderData(String custName, String email, String date, String products) {
         this.email = email;
         this.custName = custName;
