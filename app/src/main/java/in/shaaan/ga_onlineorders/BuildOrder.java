@@ -225,10 +225,12 @@ public class BuildOrder extends AppCompatActivity {
                 int n = parts.length;
                 finalQ = parts[1];
                 for (int x = 2; x < n; x++) {
-                    finalQ = finalQ + " " + parts[x];
+                    finalQ = parts[parts.length - 1];
                 }
-                finalQ = finalQ.replace(".", "_");
+//                finalQ = finalQ.replace(".", "_");
+//                finalQ = pReqQuant.substring(pReqQuant.lastIndexOf(" ")+1);
                 Log.d("Path", finalQ);
+                autoCompleteTextView.setText(pReqQuant.replace(finalQ, ""));
                 mDatabaseReference = GaFirebase.isCalled().getReference().child("nodejs-data").child("Quant");
                 mDatabaseReference.keepSynced(true);
                 mDatabaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
