@@ -407,6 +407,8 @@ public class AllOrders extends AppCompatActivity {
 //            return true;
             AuthUI.getInstance()
                     .signOut(this);
+            Intent intent = new Intent(this, LauncherActivity.class);
+            startActivity(intent);
             finish();
         }
         if (id == R.id.action_about) {
