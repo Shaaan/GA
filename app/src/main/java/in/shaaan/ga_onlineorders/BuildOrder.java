@@ -78,6 +78,8 @@ public class BuildOrder extends AppCompatActivity {
     String ItemID;
     String finalP;
     String PartyId;
+    String CompanyId;
+    String YearId;
     private DatabaseReference mDatabaseReference;
     private DatabaseReference mDatabaseReference1;
     private FirebaseAuth.AuthStateListener authStateListener;
@@ -265,6 +267,13 @@ public class BuildOrder extends AppCompatActivity {
 
                         if (autoCompleteTextView != null) {
 
+                            if (dataSnapshot.child(finalQ).child("CompanyId").getValue() != null) {
+                                CompanyId = dataSnapshot.child(finalQ).child("CompanyId").getValue().toString();
+                            }
+                            if (dataSnapshot.child(finalQ).child("YearId").getValue() != null) {
+                                YearId = dataSnapshot.child(finalQ).child("YearId").getValue().toString();
+                            }
+
                             if (dataSnapshot.child(finalQ).child("TotalStock").getValue() != null) {
                                 String s2 = dataSnapshot.child(finalQ).child("TotalStock").getValue().toString();
                                 Log.d("FirebaseDatabase", s2);
@@ -297,6 +306,7 @@ public class BuildOrder extends AppCompatActivity {
 //                            if (dataSnapshot.child(finalQ).child("ItemDetailId").getValue() != null) {
 //                                ItemID = dataSnapshot.child(finalQ).child("ItemDetailId").getValue().toString();
 //                            }
+
                             editText.setEnabled(true);
                             editText.requestFocus();
                         }
@@ -393,6 +403,9 @@ public class BuildOrder extends AppCompatActivity {
             completeTextView.setText("");
             completeTextView.requestFocus();
         }
+        if (CompanyId == null) {
+            Log.e("CompanyId issues", "Please FIX!");
+        }
         if (drug.matches("")) {
             Snackbar.make(view, "You did not enter the product", Snackbar.LENGTH_LONG).show();
             autoCompleteTextView.requestFocus();
@@ -478,7 +491,7 @@ public class BuildOrder extends AppCompatActivity {
                 // TODO: Switch to actual branch after development
                 DatabaseReference reference = database.getReference("").child("salesman").child(salesmen).push();
                 Log.d("SM", salesmen);
-                reference.setValue(new OrderData(customerTmp1, eMail, date, builder1.toString()));
+                reference.setValue(new OrderData(customerTmp1, eMail, date, builder1.toString(), CompanyId, YearId));
             }
         });
         thread.start();
@@ -489,7 +502,7 @@ public class BuildOrder extends AppCompatActivity {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
                 // TODO: Switch to actual branch after development
                 DatabaseReference reference = database.getReference("").child("autoInsOrders").push();
-                reference.setValue(new OrderData(customer, eMail, date, builder.toString()));
+                reference.setValue(new OrderData(customer, eMail, date, builder.toString(), CompanyId, YearId));
             }
         });
         t.start();
