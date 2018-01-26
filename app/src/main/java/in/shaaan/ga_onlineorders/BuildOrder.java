@@ -270,9 +270,9 @@ public class BuildOrder extends AppCompatActivity {
                             } else {
                                 viewMrp.setText("NA");
                             }
-                            if (dataSnapshot.child(finalQ).child("ItemDetailId").getValue() != null) {
-                                ItemID = dataSnapshot.child(finalQ).child("ItemDetailId").getValue().toString();
-                            }
+//                            if (dataSnapshot.child(finalQ).child("ItemDetailId").getValue() != null) {
+//                                ItemID = dataSnapshot.child(finalQ).child("ItemDetailId").getValue().toString();
+//                            }
                             editText.setEnabled(true);
                             editText.requestFocus();
                         }
@@ -292,6 +292,11 @@ public class BuildOrder extends AppCompatActivity {
     public void addProduct(View view) {
         String quantity = editText.getText().toString();
         String drug = autoCompleteTextView.getText().toString();
+        if (finalP == null) {
+            Toasty.error(BuildOrder.this, "Please re-enter party", Toast.LENGTH_LONG).show();
+            completeTextView.setText("");
+            completeTextView.requestFocus();
+        }
         if (drug.matches("")) {
             Snackbar.make(view, "You did not enter the product", Snackbar.LENGTH_LONG).show();
             autoCompleteTextView.requestFocus();
@@ -299,7 +304,11 @@ public class BuildOrder extends AppCompatActivity {
             Snackbar.make(view, "You did not add the quantity", Snackbar.LENGTH_LONG).show();
             editText.requestFocus();
         } else {
-            mAdapter.addItem(getDataA());
+            if (finalQ != null) {
+                mAdapter.addItem(getDataA());
+            } else {
+                Toasty.error(BuildOrder.this, "Error.. Please try again!", Toast.LENGTH_LONG).show();
+            }
             autoCompleteTextView.getText().clear();
             editText.getText().clear();
             autoCompleteTextView.requestFocus();
@@ -307,13 +316,14 @@ public class BuildOrder extends AppCompatActivity {
             schemeView.setText("");
             viewMrp.setText("");
             showStock.setText("");
+            finalQ = null;
         }
 
     }
 
     public OrderData getDataA() {
         OrderData instance = new OrderData();
-        instance.setItemId(ItemID);
+        instance.setItemId(finalQ);
         String tmpProd = autoCompleteTextView.getText().toString();
         instance.setProducts(tmpProd.substring(tmpProd.indexOf(" ") + 1));
         instance.setQuantity(editText.getText().toString());
@@ -362,8 +372,11 @@ public class BuildOrder extends AppCompatActivity {
             @Override
             public void run() {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
+                StringTokenizer stringTokenizer = new StringTokenizer(eMail, "@");
+                String salesmen = stringTokenizer.nextToken().trim();
                 // TODO: Switch to actual branch after development
-                DatabaseReference reference = database.getReference("").child("salesman").child(userId).push();
+                DatabaseReference reference = database.getReference("").child("salesman").child(salesmen).push();
+                Log.d("SM", salesmen);
                 reference.setValue(new OrderData(customer, eMail, date, builder.toString()));
             }
         });

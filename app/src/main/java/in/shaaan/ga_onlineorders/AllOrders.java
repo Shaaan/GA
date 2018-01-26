@@ -41,6 +41,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
+import java.util.StringTokenizer;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -110,7 +111,11 @@ public class AllOrders extends AppCompatActivity {
             firebaseAnalytics.setUserProperty("salesman", "isSalesman");
         }
 
-        Query query = GaFirebase.isCalled().getReference().child("").child("salesman").child(getUid());
+        String email = FirebaseAuth.getInstance().getCurrentUser().getEmail();
+        StringTokenizer stringTokenizer = new StringTokenizer(email, "@");
+        String salesmanP = stringTokenizer.nextToken().trim();
+
+        Query query = GaFirebase.isCalled().getReference().child("").child("salesman").child(salesmanP);
         FirebaseRecyclerOptions<OrderData> options = new FirebaseRecyclerOptions.Builder<OrderData>()
                 .setQuery(query, OrderData.class)
                 .build();
