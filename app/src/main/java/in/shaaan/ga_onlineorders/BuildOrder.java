@@ -79,6 +79,7 @@ public class BuildOrder extends AppCompatActivity {
     String finalP;
     String PartyId;
     private DatabaseReference mDatabaseReference;
+    private DatabaseReference mDatabaseReference1;
     private FirebaseAuth.AuthStateListener authStateListener;
     private FirebaseAuth firebaseAuth;
     private LinearLayoutManager linearLayoutManager;
@@ -143,6 +144,9 @@ public class BuildOrder extends AppCompatActivity {
         mAdapter = new RecyclerAdapterFile(orderData);
         recyclerView.setAdapter(mAdapter);
 
+        mDatabaseReference1 = GaFirebase.isCalled().getReference().child("nodejs-data").child("Quant");
+        mDatabaseReference1.keepSynced(true);
+
         completeTextView.setAdapter(adapter1);
         GaFirebase.isCalled();
         String s = FirebaseAuth.getInstance().getCurrentUser().getEmail();
@@ -150,6 +154,13 @@ public class BuildOrder extends AppCompatActivity {
         String bh = custList.toString();
         StringTokenizer stringTokenizer = new StringTokenizer(s, "@");
         String partyTemp = stringTokenizer.nextToken().trim();
+        for (String item : custList) {
+            if (item.toLowerCase().contains(partyTemp.toLowerCase())) {
+                partyTemp = item;
+                Log.d("Party is", partyTemp);
+                break;
+            }
+        }
 
         if (s1.contains(s)) {
             completeTextView.setEnabled(true);
@@ -157,9 +168,11 @@ public class BuildOrder extends AppCompatActivity {
             firebaseAnalytics.setUserProperty("salesman", "isSalesman");
             showStock.setVisibility(View.VISIBLE);
             quant.setVisibility(View.VISIBLE);
+            salesman();
         } else if (bh.contains(partyTemp)) {
             completeTextView.setText(partyTemp);
             completeTextView.setEnabled(false);
+            party();
         } else {
             completeTextView.setText("Not a valid user");
             completeTextView.setEnabled(false);
@@ -178,7 +191,7 @@ public class BuildOrder extends AppCompatActivity {
         };
 
         // Logic to check party id
-        completeTextView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        /*completeTextView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 String enteredParty = completeTextView.getText().toString();
@@ -212,7 +225,7 @@ public class BuildOrder extends AppCompatActivity {
                 });
                 autoCompleteTextView.requestFocus();
             }
-        });
+        });*/
 
 
         // Logic to check quantity
@@ -231,9 +244,20 @@ public class BuildOrder extends AppCompatActivity {
 //                finalQ = pReqQuant.substring(pReqQuant.lastIndexOf(" ")+1);
                 Log.d("Path", finalQ);
                 autoCompleteTextView.setText(pReqQuant.replace(finalQ, ""));
-                mDatabaseReference = GaFirebase.isCalled().getReference().child("nodejs-data").child("Quant");
-                mDatabaseReference.keepSynced(true);
-                mDatabaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
+//                mDatabaseReference = GaFirebase.isCalled().getReference().child("nodejs-data").child("Quant");
+//                mDatabaseReference.keepSynced(true);
+//                mDatabaseReference1.addListenerForSingleValueEvent(new ValueEventListener() {
+                mDatabaseReference1.addValueEventListener(new ValueEventListener() {
+                    //                    @Override
+//                    public void onDataChange(DataSnapshot dataSnapshot) {
+//
+//                    }
+//
+//                    @Override
+//                    public void onCancelled(DatabaseError databaseError) {
+//
+//                    }
+//                })
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
 
@@ -289,10 +313,82 @@ public class BuildOrder extends AppCompatActivity {
 
     }
 
+
+    public void party() {
+        String enteredParty = completeTextView.getText().toString();
+        String[] parts = enteredParty.split(" ");
+        int n = parts.length;
+        finalP = parts[1];
+        for (int x = 2; x < n; x++) {
+            finalP = finalP + " " + parts[x];
+        }
+        finalP = finalP.replace(".", "_");
+        Log.d("Path", finalP);
+        mDatabaseReference = GaFirebase.isCalled().getReference().child("nodejs-data").child("Party");
+        mDatabaseReference.keepSynced(true);
+        Log.d("DBPath", mDatabaseReference.toString());
+        mDatabaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                if (completeTextView != null) {
+                    if (dataSnapshot.getValue() != null) {
+                        Log.d("DSnap", dataSnapshot.getValue().toString());
+                        PartyId = dataSnapshot.child(finalP).child("PartyId").getValue().toString();
+                        Log.d("PartyId", PartyId);
+                    }
+                }
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+        autoCompleteTextView.requestFocus();
+    }
+
+    public void salesman() {
+        completeTextView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                String enteredParty = completeTextView.getText().toString();
+                String[] parts = enteredParty.split(" ");
+                int n = parts.length;
+                finalP = parts[1];
+                for (int x = 2; x < n; x++) {
+                    finalP = finalP + " " + parts[x];
+                }
+                finalP = finalP.replace(".", "_");
+                Log.d("Path", finalP);
+                mDatabaseReference = GaFirebase.isCalled().getReference().child("nodejs-data").child("Party");
+                mDatabaseReference.keepSynced(true);
+                Log.d("DBPath", mDatabaseReference.toString());
+                mDatabaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(DataSnapshot dataSnapshot) {
+                        if (completeTextView != null) {
+                            if (dataSnapshot.getValue() != null) {
+                                Log.d("DSnap", dataSnapshot.getValue().toString());
+                                PartyId = dataSnapshot.child(finalP).child("PartyId").getValue().toString();
+                                Log.d("PartyId", PartyId);
+                            }
+                        }
+                    }
+
+                    @Override
+                    public void onCancelled(DatabaseError databaseError) {
+
+                    }
+                });
+                autoCompleteTextView.requestFocus();
+            }
+        });
+    }
+
     public void addProduct(View view) {
         String quantity = editText.getText().toString();
         String drug = autoCompleteTextView.getText().toString();
-        if (finalP == null) {
+        if (PartyId == null) {
             Toasty.error(BuildOrder.this, "Please re-enter party", Toast.LENGTH_LONG).show();
             completeTextView.setText("");
             completeTextView.requestFocus();
@@ -340,9 +436,9 @@ public class BuildOrder extends AppCompatActivity {
 
     private void submitOrder() {
         String customerTmp = completeTextView.getText().toString();
-        String customerTmp1 = customerTmp.substring(customerTmp.indexOf(" "));
+        final String customerTmp1 = customerTmp.substring(customerTmp.indexOf(" "));
         final String customer = PartyId + " " + customerTmp1;
-        final String cs = customer.substring(customer.indexOf(" ") + 1);
+//        final String cs = customer.substring(customer.indexOf(" ") + 1);
         Log.d("CS", customer);
 
         if (TextUtils.isEmpty(customerTmp)) {
@@ -359,10 +455,15 @@ public class BuildOrder extends AppCompatActivity {
         setEditing(false);
         Toasty.success(this, "Sending Order..", Toast.LENGTH_LONG).show();
         final String eMail = FirebaseAuth.getInstance().getCurrentUser().getEmail();
-        final String userId = getUid();
+//        final String userId = getUid();
 
         List<OrderData> products = mAdapter.getItems();
         final StringBuilder builder = new StringBuilder();
+        final StringBuilder builder1 = new StringBuilder();
+
+        for (OrderData product : products) {
+            builder1.append(String.format("%s %s\n", product.getProducts(), product.getQuantity()));
+        }
 
         for (OrderData product : products) {
             builder.append(String.format("%s %s\n", product.getItemId() + " " + product.getProducts(), product.getQuantity()));
@@ -377,7 +478,7 @@ public class BuildOrder extends AppCompatActivity {
                 // TODO: Switch to actual branch after development
                 DatabaseReference reference = database.getReference("").child("salesman").child(salesmen).push();
                 Log.d("SM", salesmen);
-                reference.setValue(new OrderData(customer, eMail, date, builder.toString()));
+                reference.setValue(new OrderData(customerTmp1, eMail, date, builder1.toString()));
             }
         });
         thread.start();
