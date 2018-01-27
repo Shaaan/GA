@@ -77,7 +77,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.2"
                     android:hint="@string/quantity"
-                    android:inputType="numberDecimal"
+                    android:inputType="number"
                     android:textSize="13sp" />
 
                 <View
