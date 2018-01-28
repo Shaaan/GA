@@ -248,8 +248,8 @@ public class BuildOrder extends AppCompatActivity {
                 autoCompleteTextView.setText(pReqQuant.replace(finalQ, ""));
 //                mDatabaseReference = GaFirebase.isCalled().getReference().child("nodejs-data").child("Quant");
 //                mDatabaseReference.keepSynced(true);
-//                mDatabaseReference1.addListenerForSingleValueEvent(new ValueEventListener() {
-                mDatabaseReference1.addValueEventListener(new ValueEventListener() {
+                mDatabaseReference1.addListenerForSingleValueEvent(new ValueEventListener() {
+                    //                mDatabaseReference1.addValueEventListener(new ValueEventListener() {
                     //                    @Override
 //                    public void onDataChange(DataSnapshot dataSnapshot) {
 //
@@ -266,13 +266,6 @@ public class BuildOrder extends AppCompatActivity {
                         Log.d("QD", "Quan" + dataSnapshot);
 
                         if (autoCompleteTextView != null) {
-
-                            if (dataSnapshot.child(finalQ).child("CompanyId").getValue() != null) {
-                                CompanyId = dataSnapshot.child(finalQ).child("CompanyId").getValue().toString();
-                            }
-                            if (dataSnapshot.child(finalQ).child("YearId").getValue() != null) {
-                                YearId = dataSnapshot.child(finalQ).child("YearId").getValue().toString();
-                            }
 
                             if (dataSnapshot.child(finalQ).child("TotalStock").getValue() != null) {
                                 String s2 = dataSnapshot.child(finalQ).child("TotalStock").getValue().toString();
@@ -491,7 +484,7 @@ public class BuildOrder extends AppCompatActivity {
                 // TODO: Switch to actual branch after development
                 DatabaseReference reference = database.getReference("").child("salesman").child(salesmen).push();
                 Log.d("SM", salesmen);
-                reference.setValue(new OrderData(customerTmp1, eMail, date, builder1.toString(), CompanyId, YearId));
+                reference.setValue(new OrderData(customerTmp1, eMail, date, builder1.toString()));
             }
         });
         thread.start();
@@ -502,7 +495,7 @@ public class BuildOrder extends AppCompatActivity {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
                 // TODO: Switch to actual branch after development
                 DatabaseReference reference = database.getReference("").child("autoInsOrders").push();
-                reference.setValue(new OrderData(customer, eMail, date, builder.toString(), CompanyId, YearId));
+                reference.setValue(new OrderData(customer, eMail, date, builder.toString()));
             }
         });
         t.start();

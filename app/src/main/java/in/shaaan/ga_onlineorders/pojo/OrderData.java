@@ -15,20 +15,16 @@ public class OrderData {
     private String products;
     private String itemid;
     private String quantity;
-    private String CompanyId;
-    private String YearId;
 
     public OrderData() {
 
     }
 
-    public OrderData(String custName, String email, String date, String products, String CompanyId, String YearId) {
+    public OrderData(String custName, String email, String date, String products) {
         this.email = email;
         this.custName = custName;
         this.date = date;
         this.products = products;
-        this.CompanyId = CompanyId;
-        this.YearId = YearId;
     }
 
     public String getCustName() {
@@ -77,21 +73,5 @@ public class OrderData {
 
     public void setQuantity(String quantity) {
         this.quantity = quantity;
-    }
-
-    public String getCompanyId() {
-        return CompanyId;
-    }
-
-    public void setCompanyId(String CompanyId) {
-        this.CompanyId = CompanyId;
-    }
-
-    public String getYearId() {
-        return YearId;
-    }
-
-    public void setYearId(String YearId) {
-        this.YearId = YearId;
     }
 }
