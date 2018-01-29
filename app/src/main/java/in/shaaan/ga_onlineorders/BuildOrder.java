@@ -356,13 +356,8 @@ public class BuildOrder extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 String enteredParty = completeTextView.getText().toString();
                 String[] parts = enteredParty.split(" ");
-                int n = parts.length;
-                finalP = parts[1];
-                for (int x = 2; x < n; x++) {
-                    finalP = finalP + " " + parts[x];
-                }
-                finalP = finalP.replace(".", "_");
-                Log.d("Path", finalP);
+                finalP = parts[0];
+                Log.d("PartyC", finalP);
                 mDatabaseReference = GaFirebase.isCalled().getReference().child("nodejs-data").child("Party");
                 mDatabaseReference.keepSynced(true);
                 Log.d("DBPath", mDatabaseReference.toString());
