@@ -75,11 +75,8 @@ public class BuildOrder extends AppCompatActivity {
     @Bind(R.id.prodNameView)
     TextView prodView;
     String finalQ;
-    String ItemID;
     String finalP;
     String PartyId;
-    String CompanyId;
-    String YearId;
     private DatabaseReference mDatabaseReference;
     private DatabaseReference mDatabaseReference1;
     private FirebaseAuth.AuthStateListener authStateListener;
@@ -146,6 +143,8 @@ public class BuildOrder extends AppCompatActivity {
         mAdapter = new RecyclerAdapterFile(orderData);
         recyclerView.setAdapter(mAdapter);
 
+        mDatabaseReference = GaFirebase.isCalled().getReference().child("nodejs-data").child("Party");
+        mDatabaseReference.keepSynced(true);
         mDatabaseReference1 = GaFirebase.isCalled().getReference().child("nodejs-data").child("Quant");
         mDatabaseReference1.keepSynced(true);
 
@@ -267,8 +266,8 @@ public class BuildOrder extends AppCompatActivity {
 
                         if (autoCompleteTextView != null) {
 
-                            if (dataSnapshot.child(finalQ).child("TotalStock").getValue() != null) {
-                                String s2 = dataSnapshot.child(finalQ).child("TotalStock").getValue().toString();
+                            if (dataSnapshot.child("Stock").child(finalQ).child("TotalStock").getValue() != null) {
+                                String s2 = dataSnapshot.child("Stock").child(finalQ).child("TotalStock").getValue().toString();
                                 Log.d("FirebaseDatabase", s2);
                                 showStock.setText(s2);
                                 x = Integer.parseInt(s2);
@@ -284,14 +283,14 @@ public class BuildOrder extends AppCompatActivity {
                                 addProduct.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.quantity_nill));
                                 showStock.setText("0");
                             }
-                            if (dataSnapshot.child(finalQ).child("Scheme").getValue() != null) {
-                                String prodScheme = dataSnapshot.child(finalQ).child("Scheme").getValue().toString();
+                            if (dataSnapshot.child("Scheme").child(finalQ).child("Scheme").getValue() != null) {
+                                String prodScheme = dataSnapshot.child("Scheme").child(finalQ).child("Scheme").getValue().toString();
                                 schemeView.setText(prodScheme);
                             } else {
                                 schemeView.setText("None");
                             }
-                            if (dataSnapshot.child(finalQ).child("MRP").getValue() != null) {
-                                String mrp = dataSnapshot.child(finalQ).child("MRP").getValue().toString();
+                            if (dataSnapshot.child("Products").child(finalQ).child("MRP").getValue() != null) {
+                                String mrp = dataSnapshot.child("Products").child(finalQ).child("MRP").getValue().toString();
                                 viewMrp.setText(mrp);
                             } else {
                                 viewMrp.setText("NA");
@@ -327,8 +326,6 @@ public class BuildOrder extends AppCompatActivity {
         }
         finalP = finalP.replace(".", "_");
         Log.d("Path", finalP);
-        mDatabaseReference = GaFirebase.isCalled().getReference().child("nodejs-data").child("Party");
-        mDatabaseReference.keepSynced(true);
         Log.d("DBPath", mDatabaseReference.toString());
         mDatabaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
@@ -358,8 +355,8 @@ public class BuildOrder extends AppCompatActivity {
                 String[] parts = enteredParty.split(" ");
                 finalP = parts[0];
                 Log.d("PartyC", finalP);
-                mDatabaseReference = GaFirebase.isCalled().getReference().child("nodejs-data").child("Party");
-                mDatabaseReference.keepSynced(true);
+//                mDatabaseReference = GaFirebase.isCalled().getReference().child("nodejs-data").child("Party");
+//                mDatabaseReference.keepSynced(true);
                 Log.d("DBPath", mDatabaseReference.toString());
                 mDatabaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
@@ -390,9 +387,6 @@ public class BuildOrder extends AppCompatActivity {
             Toasty.error(BuildOrder.this, "Please re-enter party", Toast.LENGTH_LONG).show();
             completeTextView.setText("");
             completeTextView.requestFocus();
-        }
-        if (CompanyId == null) {
-            Log.e("CompanyId issues", "Please FIX!");
         }
         if (drug.matches("")) {
             Snackbar.make(view, "You did not enter the product", Snackbar.LENGTH_LONG).show();
