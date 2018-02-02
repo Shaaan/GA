@@ -24,7 +24,10 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 -ignorewarnings
--keep public class OrderData
+
+-keepattributes *Annotation*
+-keepattributes SourceFile,LineNumberTable
+-keep public class * extends java.lang.Exception
 
 ###---------------Begin: proguard configuration for ButterKnife  ----------
 # For Butterknife:

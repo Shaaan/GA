@@ -241,24 +241,9 @@ public class BuildOrder extends AppCompatActivity {
                 for (int x = 2; x < n; x++) {
                     finalQ = parts[parts.length - 1];
                 }
-//                finalQ = finalQ.replace(".", "_");
-//                finalQ = pReqQuant.substring(pReqQuant.lastIndexOf(" ")+1);
                 Log.d("Path", finalQ);
                 autoCompleteTextView.setText(pReqQuant.replace(finalQ, ""));
-//                mDatabaseReference = GaFirebase.isCalled().getReference().child("nodejs-data").child("Quant");
-//                mDatabaseReference.keepSynced(true);
                 mDatabaseReference1.addListenerForSingleValueEvent(new ValueEventListener() {
-                    //                mDatabaseReference1.addValueEventListener(new ValueEventListener() {
-                    //                    @Override
-//                    public void onDataChange(DataSnapshot dataSnapshot) {
-//
-//                    }
-//
-//                    @Override
-//                    public void onCancelled(DatabaseError databaseError) {
-//
-//                    }
-//                })
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
 
@@ -295,10 +280,6 @@ public class BuildOrder extends AppCompatActivity {
                             } else {
                                 viewMrp.setText("NA");
                             }
-//                            if (dataSnapshot.child(finalQ).child("ItemDetailId").getValue() != null) {
-//                                ItemID = dataSnapshot.child(finalQ).child("ItemDetailId").getValue().toString();
-//                            }
-
                             editText.setEnabled(true);
                             editText.requestFocus();
                         }
