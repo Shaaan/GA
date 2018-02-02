@@ -13,20 +13,20 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.StringTokenizer;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class ViewOrder extends AppCompatActivity {
 
-    @Bind(R.id.vieworder_custName)
+    @BindView(R.id.vieworder_custName)
     TextView mCustName;
-    @Bind(R.id.vieworder_date)
+    @BindView(R.id.vieworder_date)
     TextView mDate;
-    @Bind(R.id.vieworder_order)
+    @BindView(R.id.vieworder_order)
     TextView mOrder;
-    @Bind(R.id.vieworder_salesman)
+    @BindView(R.id.vieworder_salesman)
     TextView mSalesman;
-    @Bind(R.id.delete_order)
+    @BindView(R.id.delete_order)
     Button deleteButton;
 
     @Override

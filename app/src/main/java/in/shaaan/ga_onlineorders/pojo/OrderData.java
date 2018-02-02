@@ -1,5 +1,7 @@
 package in.shaaan.ga_onlineorders.pojo;
 
+import android.support.annotation.Keep;
+
 import com.google.firebase.database.IgnoreExtraProperties;
 
 /**
@@ -7,6 +9,7 @@ import com.google.firebase.database.IgnoreExtraProperties;
  */
 
 @IgnoreExtraProperties
+@Keep
 public class OrderData {
 
     private String custName;

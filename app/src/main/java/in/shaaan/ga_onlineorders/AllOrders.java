@@ -43,7 +43,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.StringTokenizer;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import in.shaaan.ga_onlineorders.pojo.OrderData;
 import in.shaaan.ga_onlineorders.pojo.PostViewHolder;
@@ -51,13 +51,13 @@ import in.shaaan.ga_onlineorders.pojo.PostViewHolder;
 public class AllOrders extends AppCompatActivity {
 
     private static final String TAG = "ViewActivity";
-    @Bind(R.id.fab)
+    @BindView(R.id.fab)
     FloatingActionButton floatingActionButton;
-    @Bind(R.id.net_status)
+    @BindView(R.id.net_status)
     TextView netStatus;
-    @Bind(R.id.recycler)
+    @BindView(R.id.recycler)
     RecyclerView recyclerView;
-    @Bind(R.id.coordinatorLayout)
+    @BindView(R.id.coordinatorLayout)
     CoordinatorLayout coordinatorLayout;
 
     private FirebaseAuth.AuthStateListener mAuthListener;

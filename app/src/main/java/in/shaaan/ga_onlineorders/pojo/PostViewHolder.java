@@ -1,5 +1,6 @@
 package in.shaaan.ga_onlineorders.pojo;
 
+import android.support.annotation.Keep;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
@@ -10,6 +11,7 @@ import in.shaaan.ga_onlineorders.R;
  * Created by shant on 12-04-2017.
  */
 
+@Keep
 public class PostViewHolder extends RecyclerView.ViewHolder {
     public TextView custView;
     public TextView dateView;

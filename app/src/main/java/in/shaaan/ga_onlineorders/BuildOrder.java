@@ -40,7 +40,7 @@ import java.util.Calendar;
 import java.util.List;
 import java.util.StringTokenizer;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import es.dmoral.toasty.Toasty;
 import in.shaaan.ga_onlineorders.pojo.OrderData;
@@ -50,29 +50,29 @@ public class BuildOrder extends AppCompatActivity {
 
     private static final String TAG = "BuildOrder";
     private static final String REQUIRED = "This is required";
-    @Bind(R.id.submit)
+    @BindView(R.id.submit)
     FloatingActionButton submit;
-    @Bind(R.id.custName)
+    @BindView(R.id.custName)
     AutoCompleteTextView completeTextView;
-    @Bind(R.id.autocompleteview)
+    @BindView(R.id.autocompleteview)
     AutoCompleteTextView autoCompleteTextView;
-    @Bind(R.id.quantity)
+    @BindView(R.id.quantity)
     EditText editText;
-    @Bind(R.id.orderList)
+    @BindView(R.id.orderList)
     RecyclerView recyclerView;
-    @Bind(R.id.addProduct)
+    @BindView(R.id.addProduct)
     Button addProduct;
-    @Bind(R.id.view_scheme)
+    @BindView(R.id.view_scheme)
     TextView schemeView;
-    @Bind(R.id.view_quantity)
+    @BindView(R.id.view_quantity)
     TextView showStock;
-    @Bind(R.id.view_mrp)
+    @BindView(R.id.view_mrp)
     TextView viewMrp;
-    @Bind(R.id.view_quantity_view)
+    @BindView(R.id.view_quantity_view)
     View quant;
-    @Bind(R.id.scheme_linear)
+    @BindView(R.id.scheme_linear)
     LinearLayout fullContent;
-    @Bind(R.id.prodNameView)
+    @BindView(R.id.prodNameView)
     TextView prodView;
     String finalQ;
     String finalP;
@@ -448,7 +448,6 @@ public class BuildOrder extends AppCompatActivity {
 
         // Disable the submit button to prevent multiple orders
         setEditing(false);
-        Toasty.success(this, "Sending Order..", Toast.LENGTH_LONG).show();
         final String eMail = FirebaseAuth.getInstance().getCurrentUser().getEmail();
 //        final String userId = getUid();
 
@@ -484,7 +483,11 @@ public class BuildOrder extends AppCompatActivity {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
                 // TODO: Switch to actual branch after development
                 DatabaseReference reference = database.getReference("").child("autoInsOrders").push();
+                DatabaseReference reference1 = database.getReference().child("allOrders");
+                String key = reference1.push().getKey();
                 reference.setValue(new OrderData(customer, eMail, date, builder.toString()));
+                reference1.child(key).setValue(new OrderData(customer, eMail, date, builder.toString()));
+
             }
         });
         t.start();
@@ -498,6 +501,7 @@ public class BuildOrder extends AppCompatActivity {
             e.printStackTrace();
         }
 
+        Toasty.success(this, "Order sent to Gayatri Agencies", Toast.LENGTH_LONG).show();
         finish();
 
     }

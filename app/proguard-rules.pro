@@ -24,3 +24,18 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 -ignorewarnings
+-keep public class OrderData
+
+###---------------Begin: proguard configuration for ButterKnife  ----------
+# For Butterknife:
+-keep class butterknife.** { *; }
+-dontwarn butterknife.internal.**
+
+# Version 7
+-keep class **$$ViewBinder { *; }
+# Version 8
+-keep class **_ViewBinding { *; }
+
+-keepclasseswithmembernames class * { @butterknife.* <fields>; }
+-keepclasseswithmembernames class * { @butterknife.* <methods>; }
+###---------------End: proguard configuration for ButterKnife  ----------
