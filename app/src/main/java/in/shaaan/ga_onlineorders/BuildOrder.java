@@ -21,6 +21,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.crashlytics.android.Crashlytics;
 import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -242,6 +243,7 @@ public class BuildOrder extends AppCompatActivity {
                     finalQ = parts[parts.length - 1];
                 }
                 Log.d("Path", finalQ);
+                Crashlytics.log(finalQ);
                 autoCompleteTextView.setText(pReqQuant.replace(finalQ, ""));
                 mDatabaseReference1.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
@@ -314,6 +316,7 @@ public class BuildOrder extends AppCompatActivity {
                 if (completeTextView != null) {
                     if (dataSnapshot.getValue() != null) {
                         Log.d("DSnap", dataSnapshot.getValue().toString());
+                        Crashlytics.log(PartyId);
                         PartyId = dataSnapshot.child(finalP).child("PartyId").getValue().toString();
                         Log.d("PartyId", PartyId);
                     }
