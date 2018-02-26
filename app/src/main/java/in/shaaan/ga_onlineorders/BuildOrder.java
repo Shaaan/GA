@@ -251,7 +251,7 @@ public class BuildOrder extends AppCompatActivity {
 
                         Log.d("QD", "Quan" + dataSnapshot);
 
-                        if (autoCompleteTextView != null) {
+                        if (finalQ != null) {
 
                             if (dataSnapshot.child("Stock").child(finalQ).child("TotalStock").getValue() != null) {
                                 String s2 = dataSnapshot.child("Stock").child(finalQ).child("TotalStock").getValue().toString();
@@ -316,9 +316,14 @@ public class BuildOrder extends AppCompatActivity {
                 if (completeTextView != null) {
                     if (dataSnapshot.getValue() != null) {
                         Log.d("DSnap", dataSnapshot.getValue().toString());
-                        Crashlytics.log(PartyId);
-                        PartyId = dataSnapshot.child(finalP).child("PartyId").getValue().toString();
-                        Log.d("PartyId", PartyId);
+                        if (PartyId != null) {
+                            Crashlytics.log(PartyId);
+                            PartyId = dataSnapshot.child(finalP).child("PartyId").getValue().toString();
+                            Log.d("PartyId", PartyId);
+                        } else {
+                            Toasty.error(BuildOrder.this, "Invalid party code. Registered correctly?", Toast.LENGTH_LONG).show();
+                        }
+
                     }
                 }
             }
