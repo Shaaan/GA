@@ -472,10 +472,7 @@ public class BuildOrder extends AppCompatActivity {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
                 // TODO: Switch to actual branch after development
                 DatabaseReference reference = database.getReference("").child("autoInsOrders").push();
-                DatabaseReference reference1 = database.getReference().child("allOrders");
-                String key = reference1.push().getKey();
                 reference.setValue(new OrderData(customer, eMail, date, builder.toString()));
-                reference1.child(key).setValue(new OrderData(customer, eMail, date, builder.toString()));
 
             }
         });
