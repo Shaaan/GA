@@ -28,6 +28,8 @@ public class ViewOrder extends AppCompatActivity {
     TextView mSalesman;
     @BindView(R.id.delete_order)
     Button deleteButton;
+    @BindView(R.id.vieworder_expiry)
+    TextView expiryAdj;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +42,7 @@ public class ViewOrder extends AppCompatActivity {
         String order = intent.getStringExtra("order");
         String date = intent.getStringExtra("date");
         String by = intent.getStringExtra("by");
+        String expiry = intent.getStringExtra("expiry");
         final String orderURL = intent.getStringExtra("orderURL");
 
         StringTokenizer stringTokenizer = new StringTokenizer(by, "@");
@@ -50,6 +53,9 @@ public class ViewOrder extends AppCompatActivity {
             mDate.setText(date);
             mOrder.setText(order);
             mSalesman.setText(salesman);
+        }
+        if (expiry != null) {
+            expiryAdj.setText("Expiry Adjusted in this invoice");
         }
 
         deleteButton.setOnClickListener(new View.OnClickListener() {

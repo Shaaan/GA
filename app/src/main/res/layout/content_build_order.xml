@@ -16,47 +16,49 @@
             android:focusableInTouchMode="true"
             android:orientation="vertical">
 
-            <TextView
+            <!--<Tex
                 android:id="@+id/custNameView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="15dp"
+                android:layout_marginLeft="15dp"
                 android:text="@string/cust_name"
                 android:textColor="@android:color/black"
-                android:textSize="13sp" />
+                android:textSize="13sp" />-->
 
-            <AutoCompleteTextView
+            <android.support.v7.widget.AppCompatAutoCompleteTextView
                 android:id="@+id/custName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/custNameView"
+
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
                 android:completionThreshold="1"
-                android:hint="eg. Jupiter Pharmacy"
+                android:hint="Customer Name"
                 android:padding="@dimen/frag_pad"
                 android:textColor="@android:color/black"
                 android:textSize="13sp" />
 
-            <TextView
+            <!--<TextView
                 android:id="@+id/prodName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/custName"
-                android:layout_margin="15dp"
+                android:layout_marginLeft="15dp"
                 android:text="@string/prod_name"
                 android:textColor="@android:color/black"
-                android:textSize="13sp" />
+                android:textSize="13sp" />-->
 
-            <AutoCompleteTextView
+            <android.support.v7.widget.AppCompatAutoCompleteTextView
                 android:id="@+id/autocompleteview"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/prodName"
+                android:layout_marginTop="15dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
+                android:layout_below="@id/custName"
                 android:completionThreshold="1"
-                android:hint="eg. Rantac 150"
+                android:hint="Product"
                 android:inputType="textNoSuggestions|textFilter"
                 android:maxLines="1"
                 android:padding="@dimen/frag_pad"
@@ -82,14 +84,14 @@
 
                 <View
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="0.05" />
 
                 <Button
                     android:id="@+id/addProduct"
                     android:layout_width="0dp"
-                    android:layout_height="match_parent"
                     android:layout_weight="0.2"
+                    android:layout_height="match_parent"
                     android:background="@color/colorAccent"
                     android:onClick="addProduct"
                     android:text="@string/add"
@@ -153,10 +155,18 @@
                     tools:text="Rs. 150" />
             </LinearLayout>
 
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/adjust_expiry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_below="@id/scheme_linear"
+                android:text="Adjust Expiry" />
+
             <View
                 android:id="@+id/view"
                 style="@style/Divider"
-                android:layout_below="@id/scheme_linear" />
+                android:layout_below="@id/adjust_expiry" />
 
             <TextView
                 android:id="@+id/prodNameView"

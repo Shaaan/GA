@@ -147,6 +147,7 @@ public class AllOrders extends AppCompatActivity {
                         intent.putExtra("date", orderData.getDate());
                         intent.putExtra("orderURL", orderRef);
                         intent.putExtra("by", orderData.getEmail());
+                        intent.putExtra("expiry", orderData.getExpiry());
                         startActivity(intent);
                     }
                 });

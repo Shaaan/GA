@@ -18,16 +18,18 @@ public class OrderData {
     private String products;
     private String itemid;
     private String quantity;
+    private String expiry;
 
     public OrderData() {
 
     }
 
-    public OrderData(String custName, String email, String date, String products) {
+    public OrderData(String custName, String email, String date, String products, String expiry) {
         this.email = email;
         this.custName = custName;
         this.date = date;
         this.products = products;
+        this.expiry = expiry;
     }
 
     public String getCustName() {
@@ -76,5 +78,13 @@ public class OrderData {
 
     public void setQuantity(String quantity) {
         this.quantity = quantity;
+    }
+
+    public String getExpiry() {
+        return expiry;
+    }
+
+    public void setExpiry(String expiry) {
+        this.expiry = expiry;
     }
 }

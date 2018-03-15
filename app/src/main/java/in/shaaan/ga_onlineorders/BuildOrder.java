@@ -16,6 +16,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -75,9 +76,12 @@ public class BuildOrder extends AppCompatActivity {
     LinearLayout fullContent;
     @BindView(R.id.prodNameView)
     TextView prodView;
+    @BindView(R.id.adjust_expiry)
+    CheckBox expiryCheckbox;
     String finalQ;
     String finalP;
     String PartyId;
+    String adjustExpiry;
     private DatabaseReference mDatabaseReference;
     private DatabaseReference mDatabaseReference1;
     private FirebaseAuth.AuthStateListener authStateListener;
@@ -440,6 +444,9 @@ public class BuildOrder extends AppCompatActivity {
         final String eMail = FirebaseAuth.getInstance().getCurrentUser().getEmail();
 //        final String userId = getUid();
 
+        if (expiryCheckbox.isChecked()) {
+            adjustExpiry = "Adjust Expiry";
+        }
         List<OrderData> products = mAdapter.getItems();
         final StringBuilder builder = new StringBuilder();
         final StringBuilder builder1 = new StringBuilder();
@@ -461,7 +468,7 @@ public class BuildOrder extends AppCompatActivity {
                 // TODO: Switch to actual branch after development
                 DatabaseReference reference = database.getReference("").child("salesman").child(salesmen).push();
                 Log.d("SM", salesmen);
-                reference.setValue(new OrderData(customerTmp1, eMail, date, builder1.toString()));
+                reference.setValue(new OrderData(customerTmp1, eMail, date, builder1.toString(), adjustExpiry));
             }
         });
         thread.start();
@@ -472,7 +479,7 @@ public class BuildOrder extends AppCompatActivity {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
                 // TODO: Switch to actual branch after development
                 DatabaseReference reference = database.getReference("").child("autoInsOrders").push();
-                reference.setValue(new OrderData(customer, eMail, date, builder.toString()));
+                reference.setValue(new OrderData(customer, eMail, date, builder.toString(), adjustExpiry));
 
             }
         });
