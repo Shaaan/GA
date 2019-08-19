@@ -84,7 +84,7 @@ public class AllOrders extends AppCompatActivity {
                 if (user != null) {
                     // User is signed in
                     Log.d(TAG, "onAuthStateChanged:signed_in:" + user.getUid() + user.getEmail());
-                    syncCustList();
+//                    syncCustList();
                     syncDrugList();
                     syncSalesmanList();
                 } else {
@@ -177,7 +177,7 @@ public class AllOrders extends AppCompatActivity {
         return netInfo != null && netInfo.isConnectedOrConnecting();
     }
 
-    public void syncCustList() {
+   /* public void syncCustList() {
         FirebaseStorage storage = FirebaseStorage.getInstance();
         final StorageReference custRef = storage.getReference().child("custList.txt");
         custRef.getMetadata().addOnSuccessListener(new OnSuccessListener<StorageMetadata>() {
@@ -238,7 +238,7 @@ public class AllOrders extends AppCompatActivity {
                 Snackbar.make(coordinatorLayout, "Update failed. No internet connection?", Snackbar.LENGTH_LONG).show();
             }
         });
-    }
+    }*/
 
     public void syncDrugList() {
         FirebaseStorage storage = FirebaseStorage.getInstance();

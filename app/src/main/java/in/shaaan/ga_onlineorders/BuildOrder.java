@@ -92,6 +92,8 @@ public class BuildOrder extends AppCompatActivity {
     private List<OrderData> orderData = new ArrayList<>();
     private RecyclerAdapterFile mAdapter;
     private int x = 0;
+    static String val = "";
+    static String partyTemp = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -107,19 +109,19 @@ public class BuildOrder extends AppCompatActivity {
 
         int layoutItemId = android.R.layout.simple_dropdown_item_1line;
 
-        BufferedReader cReader = null;
+//        BufferedReader cReader = null;
         BufferedReader dReader = null;
         BufferedReader sReader = null;
         List<String> custList = new ArrayList<>();
         List<String> drugList = new ArrayList<>();
         List<String> salesmanList = new ArrayList<>();
         try {
-            String custListItem = getFilesDir().getPath() + "/custList.txt";
+            /*String custListItem = getFilesDir().getPath() + "/custList.txt";
             cReader = new BufferedReader(new FileReader(custListItem));
             String cLI;
             while ((cLI = cReader.readLine()) != null) {
                 custList.add(cLI);
-            }
+            }*/
             String drugListItem = getFilesDir().getPath() + "/drugList.txt";
             dReader = new BufferedReader(new FileReader(drugListItem));
             String dLI;
@@ -150,8 +152,6 @@ public class BuildOrder extends AppCompatActivity {
         mAdapter = new RecyclerAdapterFile(orderData);
         recyclerView.setAdapter(mAdapter);
 
-        mDatabaseReference = GaFirebase.isCalled().getReference().child("nodejs-data").child("Party");
-        mDatabaseReference.keepSynced(true);
         mDatabaseReference1 = GaFirebase.isCalled().getReference().child("nodejs-data").child("Quant");
         mDatabaseReference1.keepSynced(true);
 
@@ -161,15 +161,21 @@ public class BuildOrder extends AppCompatActivity {
         String s1 = salesmanList.toString();
         String bh = custList.toString();
         StringTokenizer stringTokenizer = new StringTokenizer(s, "@");
-        String partyTemp = stringTokenizer.nextToken().trim();
-        for (String item : custList) {
+        partyTemp = stringTokenizer.nextToken().trim();
+        /*for (String item : custList) {
             if (item.toLowerCase().contains(partyTemp.toLowerCase())) {
                 partyTemp = item;
                 Log.d("Party is", partyTemp);
                 break;
             }
-        }
+        }*/
 
+
+        mDatabaseReference = GaFirebase.isCalled().getReference().child("nodejs-data").child("Party");
+        mDatabaseReference.keepSynced(true);
+
+
+        Log.d("val", val);
         if (s1.contains(s)) {
             completeTextView.setEnabled(true);
             FirebaseAnalytics firebaseAnalytics = FirebaseAnalytics.getInstance(this);
@@ -178,13 +184,13 @@ public class BuildOrder extends AppCompatActivity {
             quant.setVisibility(View.VISIBLE);
             salesman();
         } else if (bh.contains(partyTemp)) {
-            completeTextView.setText(partyTemp);
+//            completeTextView.setText(val);
             completeTextView.setEnabled(false);
             party();
         } else {
             completeTextView.setText("Not a valid user");
             completeTextView.setEnabled(false);
-            submit.setVisibility(View.GONE);
+            submit.hide();
             fullContent.setVisibility(View.GONE);
             prodView.setText("Wrong Customer ID. Please contact Gayatri Agencies for help");
         }
@@ -306,7 +312,7 @@ public class BuildOrder extends AppCompatActivity {
 
 
     public void party() {
-        String enteredParty = completeTextView.getText().toString();
+        /*String enteredParty = completeTextView.getText().toString();
         String[] parts = enteredParty.split(" ");
         int n = parts.length;
         finalP = parts[1];
@@ -314,18 +320,21 @@ public class BuildOrder extends AppCompatActivity {
             finalP = finalP + " " + parts[x];
         }
         finalP = finalP.replace(".", "_");
-        Log.d("Path", finalP);
+        Log.d("Path", finalP);*/
         Log.d("DBPath", mDatabaseReference.toString());
-        mDatabaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
+        mDatabaseReference.child(partyTemp).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 if (completeTextView != null) {
                     if (dataSnapshot.getValue() != null) {
                         Log.d("DSnap", dataSnapshot.getValue().toString());
-                        if (PartyId != null) {
+                        if (dataSnapshot != null) {
                             Crashlytics.log(PartyId);
-                            PartyId = dataSnapshot.child(finalP).child("PartyId").getValue().toString();
-                            Log.d("PartyId", PartyId);
+                            String PCode = dataSnapshot.child("PCode").getValue().toString();
+                            String PartyName = dataSnapshot.child("PartyName").getValue().toString();
+                            completeTextView.setText(PCode + " " + PartyName);
+                            Log.d("PartyId from listner:", PCode);
+                            autoCompleteTextView.requestFocus();
                         } else {
                             Toasty.error(BuildOrder.this, "Invalid party code. Registered correctly?", Toast.LENGTH_LONG).show();
                         }
@@ -339,7 +348,7 @@ public class BuildOrder extends AppCompatActivity {
 
             }
         });
-        autoCompleteTextView.requestFocus();
+
     }
 
     public void salesman() {
@@ -508,9 +517,9 @@ public class BuildOrder extends AppCompatActivity {
     private void setEditing(boolean enabled) {
         completeTextView.setEnabled(enabled);
         if (enabled) {
-            submit.setVisibility(View.VISIBLE);
+            submit.show();
         } else {
-            submit.setVisibility(View.GONE);
+            submit.hide();
         }
     }
 

@@ -41,10 +41,10 @@ public class LauncherActivity extends AppCompatActivity {
             if (isOnline()) {
                 startActivityForResult(
                         // Get an instance of AuthUI based on the default app
-                        AuthUI.getInstance().createSignInIntentBuilder().setProviders(Arrays.asList(new AuthUI.IdpConfig.Builder(AuthUI.EMAIL_PROVIDER).build()))
+                        AuthUI.getInstance().createSignInIntentBuilder().setAvailableProviders(Arrays.asList(
+                                new AuthUI.IdpConfig.EmailBuilder().build()))
                                 .setIsSmartLockEnabled(true)
                                 .setTheme(R.style.AppTheme)
-                                .setAllowNewEmailAccounts(true)
                                 .build(),
                         RC_SIGN_IN);
             } else {
