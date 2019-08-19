@@ -22,8 +22,8 @@ public class PostViewHolder extends RecyclerView.ViewHolder {
         super(itemView);
         mView = itemView;
 
-        custView = (TextView) itemView.findViewById(R.id.view_cust_name);
-        dateView = (TextView) itemView.findViewById(R.id.view_date_time);
+        custView = itemView.findViewById(R.id.view_cust_name);
+        dateView = itemView.findViewById(R.id.view_date_time);
     }
 
     public void setCustView(String string) {

@@ -71,7 +71,7 @@ public class RecyclerAdapterFile extends RecyclerView.Adapter<RecyclerAdapterFil
 
             product = view.findViewById(R.id.view_prod_name);
             quantity = view.findViewById(R.id.view_quantity_real);
-//            scheme = view.findViewById(R.id.view_scheme);
+//            scheme = view.findViewById(R.id.view_scheme_value);
         }
 
         public TextView getView() {

@@ -43,7 +43,7 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/view_quantity"
+                android:id="@+id/buildOrder_viewQuantity_value"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.2"
@@ -58,7 +58,7 @@
                 tools:text="10" />
 
             <!--<TextView-->
-            <!--android:id="@+id/view_scheme"-->
+            <!--android:id="@+id/view_scheme_value_value"-->
             <!--android:layout_width="0dp"-->
             <!--android:layout_height="match_parent"-->
             <!--android:layout_weight="0.1"-->

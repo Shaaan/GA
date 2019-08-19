@@ -48,9 +48,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
-        android:layout_marginBottom="@dimen/frag_pad"
         android:layout_marginLeft="@dimen/fab_margin"
         android:layout_marginRight="@dimen/fab_margin"
+        android:layout_marginBottom="@dimen/frag_pad"
         android:onClick="buildOrder"
         app:fabSize="normal"
         app:srcCompat="@drawable/ic_add_white_24dp" />

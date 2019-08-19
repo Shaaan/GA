@@ -26,13 +26,13 @@
                 android:textSize="13sp" />-->
 
             <androidx.appcompat.widget.AppCompatAutoCompleteTextView
-                android:id="@+id/custName"
+                android:id="@+id/buildOrder_custName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
                 android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
                 android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
                 android:completionThreshold="1"
                 android:hint="Customer Name"
                 android:padding="@dimen/frag_pad"
@@ -50,13 +50,13 @@
                 android:textSize="13sp" />-->
 
             <androidx.appcompat.widget.AppCompatAutoCompleteTextView
-                android:id="@+id/autocompleteview"
+                android:id="@+id/buildOrder_productName_autocompleteview"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
+                android:layout_below="@id/buildOrder_custName"
                 android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
                 android:layout_marginRight="15dp"
-                android:layout_below="@id/custName"
                 android:completionThreshold="1"
                 android:hint="Product"
                 android:inputType="textNoSuggestions|textFilter"
@@ -69,12 +69,12 @@
                 android:id="@+id/linear"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/autocompleteview"
+                android:layout_below="@id/buildOrder_productName_autocompleteview"
                 android:layout_margin="15dp"
                 android:orientation="horizontal">
 
                 <EditText
-                    android:id="@+id/quantity"
+                    android:id="@+id/buildOrder_addQuantity"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.2"
@@ -90,8 +90,8 @@
                 <Button
                     android:id="@+id/addProduct"
                     android:layout_width="0dp"
-                    android:layout_weight="0.2"
                     android:layout_height="match_parent"
+                    android:layout_weight="0.2"
                     android:background="@color/colorAccent"
                     android:onClick="addProduct"
                     android:text="@string/add"
@@ -107,6 +107,7 @@
                 android:orientation="horizontal">
 
                 <TextView
+                    android:id="@+id/view_scheme_caption"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Scheme : "
@@ -115,14 +116,14 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/view_scheme"
+                    android:id="@+id/view_scheme_value"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     tools:text="10+1" />
 
                 <TextView
-                    android:id="@+id/view_quantity_view"
+                    android:id="@+id/buildOrder_viewQuantity_caption"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
@@ -132,7 +133,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/view_quantity"
+                    android:id="@+id/buildOrder_viewQuantity_value"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
@@ -159,8 +160,8 @@
                 android:id="@+id/adjust_expiry"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
                 android:layout_below="@id/scheme_linear"
+                android:layout_marginLeft="15dp"
                 android:text="Adjust Expiry" />
 
             <View

@@ -54,35 +54,36 @@ public class BuildOrder extends AppCompatActivity {
 
     private static final String TAG = "BuildOrder";
     private static final String REQUIRED = "This is required";
+    static String partyTempHolder = "";
     @BindView(R.id.submit)
-    FloatingActionButton submit;
-    @BindView(R.id.custName)
-    AutoCompleteTextView completeTextView;
-    @BindView(R.id.autocompleteview)
-    AutoCompleteTextView autoCompleteTextView;
-    @BindView(R.id.quantity)
-    EditText editText;
+    FloatingActionButton submitFAB;
+    @BindView(R.id.buildOrder_custName)
+    AutoCompleteTextView customerNameAutocompleteTextView;
+    @BindView(R.id.buildOrder_productName_autocompleteview)
+    AutoCompleteTextView productNameAutoCompleteTextView;
+    @BindView(R.id.buildOrder_addQuantity)
+    EditText addQuantityEditText;
     @BindView(R.id.orderList)
     RecyclerView recyclerView;
     @BindView(R.id.addProduct)
-    Button addProduct;
-    @BindView(R.id.view_scheme)
+    Button addProductButton;
+    @BindView(R.id.view_scheme_value)
     TextView schemeView;
-    @BindView(R.id.view_quantity)
+    @BindView(R.id.buildOrder_viewQuantity_value)
     TextView showStock;
     @BindView(R.id.view_mrp)
     TextView viewMrp;
-    @BindView(R.id.view_quantity_view)
-    View quant;
+    @BindView(R.id.buildOrder_viewQuantity_caption)
+    View productQuantity;
     @BindView(R.id.scheme_linear)
     LinearLayout fullContent;
     @BindView(R.id.prodNameView)
     TextView prodView;
     @BindView(R.id.adjust_expiry)
     CheckBox expiryCheckbox;
-    String finalQ;
-    String finalP;
-    String PartyId;
+    String finalQuantity;
+    String finalParty;
+    String PCode;
     String adjustExpiry;
     private DatabaseReference mDatabaseReference;
     private DatabaseReference mDatabaseReference1;
@@ -92,8 +93,6 @@ public class BuildOrder extends AppCompatActivity {
     private List<OrderData> orderData = new ArrayList<>();
     private RecyclerAdapterFile mAdapter;
     private int x = 0;
-    static String val = "";
-    static String partyTemp = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -103,12 +102,13 @@ public class BuildOrder extends AppCompatActivity {
         final androidx.appcompat.widget.Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         showStock.setVisibility(View.GONE);
-        quant.setVisibility(View.GONE);
-        editText.setEnabled(false);
+        productQuantity.setVisibility(View.GONE);
+        addQuantityEditText.setEnabled(false);
 
-
+        // Set Dropdown
         int layoutItemId = android.R.layout.simple_dropdown_item_1line;
 
+        // Create BufferedReaders for lists
 //        BufferedReader cReader = null;
         BufferedReader dReader = null;
         BufferedReader sReader = null;
@@ -144,7 +144,7 @@ public class BuildOrder extends AppCompatActivity {
 
         ArrayAdapter<String> adapter1 = new ArrayAdapter<>(this, layoutItemId, custList);
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, layoutItemId, drugList);
-        autoCompleteTextView.setAdapter(adapter);
+        productNameAutoCompleteTextView.setAdapter(adapter);
         linearLayoutManager = new LinearLayoutManager(this);
         recyclerView.addItemDecoration(new DividerItemDecoration(recyclerView.getContext(), DividerItemDecoration.VERTICAL));
         recyclerView.setItemAnimator(new DefaultItemAnimator());
@@ -155,17 +155,17 @@ public class BuildOrder extends AppCompatActivity {
         mDatabaseReference1 = GaFirebase.isCalled().getReference().child("nodejs-data").child("Quant");
         mDatabaseReference1.keepSynced(true);
 
-        completeTextView.setAdapter(adapter1);
+        customerNameAutocompleteTextView.setAdapter(adapter1);
         GaFirebase.isCalled();
-        String s = FirebaseAuth.getInstance().getCurrentUser().getEmail();
-        String s1 = salesmanList.toString();
-        String bh = custList.toString();
-        StringTokenizer stringTokenizer = new StringTokenizer(s, "@");
-        partyTemp = stringTokenizer.nextToken().trim();
+        String currentUserEmail = FirebaseAuth.getInstance().getCurrentUser().getEmail();
+        String salesmanListString = salesmanList.toString();
+        String customerListString = custList.toString();
+        StringTokenizer stringTokenizer = new StringTokenizer(currentUserEmail, "@");
+        partyTempHolder = stringTokenizer.nextToken().trim();
         /*for (String item : custList) {
-            if (item.toLowerCase().contains(partyTemp.toLowerCase())) {
-                partyTemp = item;
-                Log.d("Party is", partyTemp);
+            if (item.toLowerCase().contains(partyTempHolder.toLowerCase())) {
+                partyTempHolder = item;
+                Log.d("Party is", partyTempHolder);
                 break;
             }
         }*/
@@ -174,23 +174,24 @@ public class BuildOrder extends AppCompatActivity {
         mDatabaseReference = GaFirebase.isCalled().getReference().child("nodejs-data").child("Party");
         mDatabaseReference.keepSynced(true);
 
-
-        Log.d("val", val);
-        if (s1.contains(s)) {
-            completeTextView.setEnabled(true);
+//
+//      Check who the current user is and set parameters accordingly
+//
+        if (salesmanListString.contains(currentUserEmail)) {
+            customerNameAutocompleteTextView.setEnabled(true);
             FirebaseAnalytics firebaseAnalytics = FirebaseAnalytics.getInstance(this);
             firebaseAnalytics.setUserProperty("salesman", "isSalesman");
             showStock.setVisibility(View.VISIBLE);
-            quant.setVisibility(View.VISIBLE);
+            productQuantity.setVisibility(View.VISIBLE);
             salesman();
-        } else if (bh.contains(partyTemp)) {
-//            completeTextView.setText(val);
-            completeTextView.setEnabled(false);
+        } else if (customerListString.contains(partyTempHolder)) {
+//            customerNameAutocompleteTextView.setText(val);
+            customerNameAutocompleteTextView.setEnabled(false);
             party();
         } else {
-            completeTextView.setText("Not a valid user");
-            completeTextView.setEnabled(false);
-            submit.hide();
+            customerNameAutocompleteTextView.setText("Not a valid user");
+            customerNameAutocompleteTextView.setEnabled(false);
+            submitFAB.hide();
             fullContent.setVisibility(View.GONE);
             prodView.setText("Wrong Customer ID. Please contact Gayatri Agencies for help");
         }
@@ -205,29 +206,29 @@ public class BuildOrder extends AppCompatActivity {
         };
 
         // Logic to check party id
-        /*completeTextView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        /*customerNameAutocompleteTextView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                String enteredParty = completeTextView.getText().toString();
+                String enteredParty = customerNameAutocompleteTextView.getText().toString();
                 String[] parts = enteredParty.split(" ");
                 int n = parts.length;
-                finalP = parts[1];
+                finalParty = parts[1];
                 for (int x = 2; x < n; x++) {
-                    finalP = finalP + " " + parts[x];
+                    finalParty = finalParty + " " + parts[x];
                 }
-                finalP = finalP.replace(".", "_");
-                Log.d("Path", finalP);
+                finalParty = finalParty.replace(".", "_");
+                Log.d("Path", finalParty);
                 mDatabaseReference = GaFirebase.isCalled().getReference().child("nodejs-data").child("Party");
                 mDatabaseReference.keepSynced(true);
                 Log.d("DBPath", mDatabaseReference.toString());
                 mDatabaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
-                        if (completeTextView != null) {
+                        if (customerNameAutocompleteTextView != null) {
                             if (dataSnapshot.getValue() != null) {
                                 Log.d("DSnap", dataSnapshot.getValue().toString());
-                                PartyId = dataSnapshot.child(finalP).child("PartyId").getValue().toString();
-                                Log.d("PartyId", PartyId);
+                                PCode = dataSnapshot.child(finalParty).child("PCode").getValue().toString();
+                                Log.d("PCode", PCode);
                             }
                         }
                     }
@@ -237,65 +238,65 @@ public class BuildOrder extends AppCompatActivity {
 
                     }
                 });
-                autoCompleteTextView.requestFocus();
+                productNameAutoCompleteTextView.requestFocus();
             }
         });*/
 
 
-        // Logic to check quantity
-        autoCompleteTextView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        // Logic to check buildOrder_addQuantity
+        productNameAutoCompleteTextView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
-                String pReqQuant = autoCompleteTextView.getText().toString();
+                String pReqQuant = productNameAutoCompleteTextView.getText().toString();
                 String[] parts = pReqQuant.split(" ");
                 int n = parts.length;
-                finalQ = parts[1];
+                finalQuantity = parts[1];
                 for (int x = 2; x < n; x++) {
-                    finalQ = parts[parts.length - 1];
+                    finalQuantity = parts[parts.length - 1];
                 }
-                Log.d("Path", finalQ);
-                Crashlytics.log(finalQ);
-                autoCompleteTextView.setText(pReqQuant.replace(finalQ, ""));
+                Log.d("Path", finalQuantity);
+                Crashlytics.log(finalQuantity);
+                productNameAutoCompleteTextView.setText(pReqQuant.replace(finalQuantity, ""));
                 mDatabaseReference1.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
 
                         Log.d("QD", "Quan" + dataSnapshot);
 
-                        if (finalQ != null) {
+                        if (finalQuantity != null) {
 
-                            if (dataSnapshot.child("Stock").child(finalQ).child("TotalStock").getValue() != null) {
-                                String s2 = dataSnapshot.child("Stock").child(finalQ).child("TotalStock").getValue().toString();
+                            if (dataSnapshot.child("Stock").child(finalQuantity).child("TotalStock").getValue() != null) {
+                                String s2 = dataSnapshot.child("Stock").child(finalQuantity).child("TotalStock").getValue().toString();
                                 Log.d("FirebaseDatabase", s2);
                                 showStock.setText(s2);
                                 x = Integer.parseInt(s2);
                                 if (x != 0 && x > 30) {
-                                    addProduct.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.quantity_full));
+                                    addProductButton.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.quantity_full));
                                 } else if (x != 0 && x < 30) {
-                                    addProduct.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.quantity_moderate));
+                                    addProductButton.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.quantity_moderate));
                                 } else if (x == 0) {
-                                    addProduct.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.quantity_nill));
+                                    addProductButton.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.quantity_nill));
                                 }
                             } else {
-                                Log.d("FirebaseDatabase", "Getting no quantity from Database");
-                                addProduct.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.quantity_nill));
+                                Log.d("FirebaseDatabase", "Getting no buildOrder_addQuantity from Database");
+                                addProductButton.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.quantity_nill));
                                 showStock.setText("0");
                             }
-                            if (dataSnapshot.child("Scheme").child(finalQ).child("Scheme").getValue() != null) {
-                                String prodScheme = dataSnapshot.child("Scheme").child(finalQ).child("Scheme").getValue().toString();
+                            if (dataSnapshot.child("Scheme").child(finalQuantity).child("Scheme").getValue() != null) {
+                                String prodScheme = dataSnapshot.child("Scheme").child(finalQuantity).child("Scheme").getValue().toString();
                                 schemeView.setText(prodScheme);
                             } else {
                                 schemeView.setText("None");
                             }
-                            if (dataSnapshot.child("Products").child(finalQ).child("MRP").getValue() != null) {
-                                String mrp = dataSnapshot.child("Products").child(finalQ).child("MRP").getValue().toString();
+                            if (dataSnapshot.child("Products").child(finalQuantity).child("MRP").getValue() != null) {
+                                String mrp = dataSnapshot.child("Products").child(finalQuantity).child("MRP").getValue().toString();
                                 viewMrp.setText(mrp);
                             } else {
                                 viewMrp.setText("NA");
                             }
-                            editText.setEnabled(true);
-                            editText.requestFocus();
+                            addQuantityEditText.setEnabled(true);
+                            addQuantityEditText.requestFocus();
                         }
 
                     }
@@ -312,29 +313,29 @@ public class BuildOrder extends AppCompatActivity {
 
 
     public void party() {
-        /*String enteredParty = completeTextView.getText().toString();
+        /*String enteredParty = customerNameAutocompleteTextView.getText().toString();
         String[] parts = enteredParty.split(" ");
         int n = parts.length;
-        finalP = parts[1];
+        finalParty = parts[1];
         for (int x = 2; x < n; x++) {
-            finalP = finalP + " " + parts[x];
+            finalParty = finalParty + " " + parts[x];
         }
-        finalP = finalP.replace(".", "_");
-        Log.d("Path", finalP);*/
+        finalParty = finalParty.replace(".", "_");
+        Log.d("Path", finalParty);*/
         Log.d("DBPath", mDatabaseReference.toString());
-        mDatabaseReference.child(partyTemp).addListenerForSingleValueEvent(new ValueEventListener() {
+        mDatabaseReference.child(partyTempHolder).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                if (completeTextView != null) {
+                if (customerNameAutocompleteTextView != null) {
                     if (dataSnapshot.getValue() != null) {
                         Log.d("DSnap", dataSnapshot.getValue().toString());
                         if (dataSnapshot != null) {
-                            Crashlytics.log(PartyId);
-                            String PCode = dataSnapshot.child("PCode").getValue().toString();
+                            Crashlytics.log(PCode);
+                            PCode = dataSnapshot.child("PCode").getValue().toString();
                             String PartyName = dataSnapshot.child("PartyName").getValue().toString();
-                            completeTextView.setText(PCode + " " + PartyName);
-                            Log.d("PartyId from listner:", PCode);
-                            autoCompleteTextView.requestFocus();
+                            customerNameAutocompleteTextView.setText(PCode + " " + PartyName);
+                            Log.d("PCode from listner:", PCode);
+                            productNameAutoCompleteTextView.requestFocus();
                         } else {
                             Toasty.error(BuildOrder.this, "Invalid party code. Registered correctly?", Toast.LENGTH_LONG).show();
                         }
@@ -352,24 +353,24 @@ public class BuildOrder extends AppCompatActivity {
     }
 
     public void salesman() {
-        completeTextView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        customerNameAutocompleteTextView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                String enteredParty = completeTextView.getText().toString();
+                String enteredParty = customerNameAutocompleteTextView.getText().toString();
                 String[] parts = enteredParty.split(" ");
-                finalP = parts[0];
-                Log.d("PartyC", finalP);
+                finalParty = parts[0];
+                Log.d("PartyC", finalParty);
 //                mDatabaseReference = GaFirebase.isCalled().getReference().child("nodejs-data").child("Party");
 //                mDatabaseReference.keepSynced(true);
                 Log.d("DBPath", mDatabaseReference.toString());
                 mDatabaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
-                        if (completeTextView != null) {
+                        if (customerNameAutocompleteTextView != null) {
                             if (dataSnapshot.getValue() != null) {
                                 Log.d("DSnap", dataSnapshot.getValue().toString());
-                                PartyId = dataSnapshot.child(finalP).child("PartyId").getValue().toString();
-                                Log.d("PartyId", PartyId);
+                                PCode = dataSnapshot.child(finalParty).child("PCode").getValue().toString();
+                                Log.d("PCode", PCode);
                             }
                         }
                     }
@@ -379,49 +380,49 @@ public class BuildOrder extends AppCompatActivity {
 
                     }
                 });
-                autoCompleteTextView.requestFocus();
+                productNameAutoCompleteTextView.requestFocus();
             }
         });
     }
 
     public void addProduct(View view) {
-        String quantity = editText.getText().toString();
-        String drug = autoCompleteTextView.getText().toString();
-        if (PartyId == null) {
+        String quantity = addQuantityEditText.getText().toString();
+        String drug = productNameAutoCompleteTextView.getText().toString();
+        if (PCode == null) {
             Toasty.error(BuildOrder.this, "Please re-enter party", Toast.LENGTH_LONG).show();
-            completeTextView.setText("");
-            completeTextView.requestFocus();
+            customerNameAutocompleteTextView.setText("");
+            customerNameAutocompleteTextView.requestFocus();
         }
         if (drug.matches("")) {
             Snackbar.make(view, "You did not enter the product", Snackbar.LENGTH_LONG).show();
-            autoCompleteTextView.requestFocus();
+            productNameAutoCompleteTextView.requestFocus();
         } else if (quantity.matches("")) {
-            Snackbar.make(view, "You did not add the quantity", Snackbar.LENGTH_LONG).show();
-            editText.requestFocus();
+            Snackbar.make(view, "You did not add the buildOrder_addQuantity", Snackbar.LENGTH_LONG).show();
+            addQuantityEditText.requestFocus();
         } else {
-            if (finalQ != null) {
+            if (finalQuantity != null) {
                 mAdapter.addItem(getDataA());
             } else {
                 Toasty.error(BuildOrder.this, "Error.. Please try again!", Toast.LENGTH_LONG).show();
             }
-            autoCompleteTextView.getText().clear();
-            editText.getText().clear();
-            autoCompleteTextView.requestFocus();
-            addProduct.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.colorPrimary));
+            productNameAutoCompleteTextView.getText().clear();
+            addQuantityEditText.getText().clear();
+            productNameAutoCompleteTextView.requestFocus();
+            addProductButton.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.colorPrimary));
             schemeView.setText("");
             viewMrp.setText("");
             showStock.setText("");
-            finalQ = null;
+            finalQuantity = null;
         }
 
     }
 
     public OrderData getDataA() {
         OrderData instance = new OrderData();
-        instance.setItemId(finalQ);
-        String tmpProd = autoCompleteTextView.getText().toString();
+        instance.setItemId(finalQuantity);
+        String tmpProd = productNameAutoCompleteTextView.getText().toString();
         instance.setProducts(tmpProd.substring(tmpProd.indexOf(" ") + 1));
-        instance.setQuantity(editText.getText().toString());
+        instance.setQuantity(addQuantityEditText.getText().toString());
         return instance;
     }
 
@@ -434,14 +435,14 @@ public class BuildOrder extends AppCompatActivity {
     }
 
     private void submitOrder() {
-        String customerTmp = completeTextView.getText().toString();
+        String customerTmp = customerNameAutocompleteTextView.getText().toString();
         final String customerTmp1 = customerTmp.substring(customerTmp.indexOf(" "));
-        final String customer = PartyId + " " + customerTmp1;
+        final String customer = PCode + " " + customerTmp1;
 //        final String cs = customer.substring(customer.indexOf(" ") + 1);
         Log.d("CS", customer);
 
         if (TextUtils.isEmpty(customerTmp)) {
-            completeTextView.setError(REQUIRED);
+            customerNameAutocompleteTextView.setError(REQUIRED);
             return;
         }
 
@@ -450,7 +451,7 @@ public class BuildOrder extends AppCompatActivity {
         final String date = simpleDateFormat.format(calendar.getTime());
         Log.d("TAG", date);
 
-        // Disable the submit button to prevent multiple orders
+        // Disable the submitFAB button to prevent multiple orders
         setEditing(false);
         final String eMail = FirebaseAuth.getInstance().getCurrentUser().getEmail();
 //        final String userId = getUid();
@@ -515,11 +516,11 @@ public class BuildOrder extends AppCompatActivity {
     }
 
     private void setEditing(boolean enabled) {
-        completeTextView.setEnabled(enabled);
+        customerNameAutocompleteTextView.setEnabled(enabled);
         if (enabled) {
-            submit.show();
+            submitFAB.show();
         } else {
-            submit.hide();
+            submitFAB.hide();
         }
     }
 
