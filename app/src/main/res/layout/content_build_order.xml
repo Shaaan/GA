@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -25,7 +25,7 @@
                 android:textColor="@android:color/black"
                 android:textSize="13sp" />-->
 
-            <android.support.v7.widget.AppCompatAutoCompleteTextView
+            <androidx.appcompat.widget.AppCompatAutoCompleteTextView
                 android:id="@+id/custName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -49,7 +49,7 @@
                 android:textColor="@android:color/black"
                 android:textSize="13sp" />-->
 
-            <android.support.v7.widget.AppCompatAutoCompleteTextView
+            <androidx.appcompat.widget.AppCompatAutoCompleteTextView
                 android:id="@+id/autocompleteview"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -155,7 +155,7 @@
                     tools:text="Rs. 150" />
             </LinearLayout>
 
-            <android.support.v7.widget.AppCompatCheckBox
+            <androidx.appcompat.widget.AppCompatCheckBox
                 android:id="@+id/adjust_expiry"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -186,7 +186,7 @@
                 android:orientation="vertical"
                 android:padding="@dimen/frag_pad">
 
-                <android.support.v7.widget.RecyclerView
+                <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/orderList"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -196,4 +196,4 @@
         </RelativeLayout>
     </ScrollView>
 
-</android.support.design.widget.CoordinatorLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

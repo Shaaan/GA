@@ -1,6 +1,6 @@
 package in.shaaan.ga_onlineorders.pojo;
 
-import android.support.annotation.Keep;
+import androidx.annotation.Keep;
 
 import com.google.firebase.database.IgnoreExtraProperties;
 

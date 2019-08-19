@@ -32,9 +32,9 @@
         <activity android:name=".ViewOrder" />
         <activity android:name=".About" />
 
-        <meta-data
+        <!--<meta-data
             android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
+            android:resource="@array/preloaded_fonts" />-->
 
     </application>
 
