@@ -360,6 +360,9 @@ public class BuildOrder extends AppCompatActivity {
         } else if (quantity.isEmpty()) {
             Snackbar.make(view, "You did not add the Quantity", Snackbar.LENGTH_LONG).show();
             addQuantityEditText.requestFocus();
+        } else if (quantity.equalsIgnoreCase("0")) {
+            Snackbar.make(view, "Quantity cannot be zero", Snackbar.LENGTH_LONG).show();
+            addQuantityEditText.requestFocus();
         } else {
             if (finalQuantity != null) {
                 mAdapter.addItem(getDataA());
