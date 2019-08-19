@@ -104,6 +104,7 @@ public class BuildOrder extends AppCompatActivity {
         showStock.setVisibility(View.GONE);
         productQuantity.setVisibility(View.GONE);
         addQuantityEditText.setEnabled(false);
+        submitFAB.hide();
 
         // Set Dropdown
         int layoutItemId = android.R.layout.simple_dropdown_item_1line;
@@ -162,6 +163,7 @@ public class BuildOrder extends AppCompatActivity {
         String customerListString = custList.toString();
         StringTokenizer stringTokenizer = new StringTokenizer(currentUserEmail, "@");
         partyTempHolder = stringTokenizer.nextToken().trim();
+        Log.d("PartyTemp", partyTempHolder);
         /*for (String item : custList) {
             if (item.toLowerCase().contains(partyTempHolder.toLowerCase())) {
                 partyTempHolder = item;
@@ -169,7 +171,6 @@ public class BuildOrder extends AppCompatActivity {
                 break;
             }
         }*/
-
 
         mDatabaseReference = GaFirebase.isCalled().getReference().child("nodejs-data").child("Party");
         mDatabaseReference.keepSynced(true);
@@ -183,17 +184,10 @@ public class BuildOrder extends AppCompatActivity {
             firebaseAnalytics.setUserProperty("salesman", "isSalesman");
             showStock.setVisibility(View.VISIBLE);
             productQuantity.setVisibility(View.VISIBLE);
+            submitFAB.show();
             salesman();
-        } else if (customerListString.contains(partyTempHolder)) {
-//            customerNameAutocompleteTextView.setText(val);
-            customerNameAutocompleteTextView.setEnabled(false);
-            party();
         } else {
-            customerNameAutocompleteTextView.setText("Not a valid user");
-            customerNameAutocompleteTextView.setEnabled(false);
-            submitFAB.hide();
-            fullContent.setVisibility(View.GONE);
-            prodView.setText("Wrong Customer ID. Please contact Gayatri Agencies for help");
+            party();
         }
 
         firebaseAuth = FirebaseAuth.getInstance();
@@ -204,43 +198,6 @@ public class BuildOrder extends AppCompatActivity {
                 Log.d("Signed in?", "Yes I did!" + user.getEmail());
             }
         };
-
-        // Logic to check party id
-        /*customerNameAutocompleteTextView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                String enteredParty = customerNameAutocompleteTextView.getText().toString();
-                String[] parts = enteredParty.split(" ");
-                int n = parts.length;
-                finalParty = parts[1];
-                for (int x = 2; x < n; x++) {
-                    finalParty = finalParty + " " + parts[x];
-                }
-                finalParty = finalParty.replace(".", "_");
-                Log.d("Path", finalParty);
-                mDatabaseReference = GaFirebase.isCalled().getReference().child("nodejs-data").child("Party");
-                mDatabaseReference.keepSynced(true);
-                Log.d("DBPath", mDatabaseReference.toString());
-                mDatabaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
-                    @Override
-                    public void onDataChange(DataSnapshot dataSnapshot) {
-                        if (customerNameAutocompleteTextView != null) {
-                            if (dataSnapshot.getValue() != null) {
-                                Log.d("DSnap", dataSnapshot.getValue().toString());
-                                PCode = dataSnapshot.child(finalParty).child("PCode").getValue().toString();
-                                Log.d("PCode", PCode);
-                            }
-                        }
-                    }
-
-                    @Override
-                    public void onCancelled(DatabaseError databaseError) {
-
-                    }
-                });
-                productNameAutoCompleteTextView.requestFocus();
-            }
-        });*/
 
 
         // Logic to check buildOrder_addQuantity
@@ -326,22 +283,25 @@ public class BuildOrder extends AppCompatActivity {
         mDatabaseReference.child(partyTempHolder).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                if (customerNameAutocompleteTextView != null) {
-                    if (dataSnapshot.getValue() != null) {
-                        Log.d("DSnap", dataSnapshot.getValue().toString());
-                        if (dataSnapshot != null) {
-                            Crashlytics.log(PCode);
-                            PCode = dataSnapshot.child("PCode").getValue().toString();
-                            String PartyName = dataSnapshot.child("PartyName").getValue().toString();
-                            customerNameAutocompleteTextView.setText(PCode + " " + PartyName);
-                            Log.d("PCode from listner:", PCode);
-                            productNameAutoCompleteTextView.requestFocus();
-                        } else {
-                            Toasty.error(BuildOrder.this, "Invalid party code. Registered correctly?", Toast.LENGTH_LONG).show();
-                        }
+                if (dataSnapshot.exists()) {
+                    Log.d("DSnap", dataSnapshot.getValue().toString());
+                    Crashlytics.log(PCode);
+                    PCode = dataSnapshot.child("PCode").getValue().toString();
+                    String PartyName = dataSnapshot.child("PartyName").getValue().toString();
+                    customerNameAutocompleteTextView.setText(PCode + " " + PartyName);
+                    Log.d("PCode from listner:", PCode);
+                    productNameAutoCompleteTextView.requestFocus();
+                    submitFAB.show();
 
-                    }
+                } else {
+                    customerNameAutocompleteTextView.setText(partyTempHolder);
+                    customerNameAutocompleteTextView.setEnabled(false);
+                    Toasty.error(BuildOrder.this, "Invalid party code. Registered correctly?", Toast.LENGTH_LONG).show();
+                    fullContent.setVisibility(View.GONE);
+                    prodView.setText("Customer ID not found. Please contact Gayatri Agencies for help");
+                    submitFAB.hide();
                 }
+
             }
 
             @Override
@@ -388,16 +348,16 @@ public class BuildOrder extends AppCompatActivity {
     public void addProduct(View view) {
         String quantity = addQuantityEditText.getText().toString();
         String drug = productNameAutoCompleteTextView.getText().toString();
-        if (PCode == null) {
+        /*if (PCode == null) {
             Toasty.error(BuildOrder.this, "Please re-enter party", Toast.LENGTH_LONG).show();
             customerNameAutocompleteTextView.setText("");
             customerNameAutocompleteTextView.requestFocus();
-        }
-        if (drug.matches("")) {
+        }*/
+        if (drug.isEmpty()) {
             Snackbar.make(view, "You did not enter the product", Snackbar.LENGTH_LONG).show();
             productNameAutoCompleteTextView.requestFocus();
-        } else if (quantity.matches("")) {
-            Snackbar.make(view, "You did not add the buildOrder_addQuantity", Snackbar.LENGTH_LONG).show();
+        } else if (quantity.isEmpty()) {
+            Snackbar.make(view, "You did not add the Quantity", Snackbar.LENGTH_LONG).show();
             addQuantityEditText.requestFocus();
         } else {
             if (finalQuantity != null) {
