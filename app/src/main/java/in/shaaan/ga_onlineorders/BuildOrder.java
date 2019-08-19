@@ -286,9 +286,10 @@ public class BuildOrder extends AppCompatActivity {
                 if (dataSnapshot.exists()) {
                     Log.d("DSnap", dataSnapshot.getValue().toString());
                     Crashlytics.log(PCode);
-                    PCode = dataSnapshot.child("PCode").getValue().toString();
+                    PCode = dataSnapshot.child("PartyId").getValue().toString();
+                    String partyCode = dataSnapshot.child("PCode").getValue().toString();
                     String PartyName = dataSnapshot.child("PartyName").getValue().toString();
-                    customerNameAutocompleteTextView.setText(PCode + " " + PartyName);
+                    customerNameAutocompleteTextView.setText(partyCode + " " + PartyName);
                     Log.d("PCode from listner:", PCode);
                     productNameAutoCompleteTextView.requestFocus();
                     submitFAB.show();
