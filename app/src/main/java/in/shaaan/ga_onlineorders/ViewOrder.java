@@ -31,6 +31,8 @@ public class ViewOrder extends AppCompatActivity {
     Button deleteButton;
     @BindView(R.id.vieworder_expiry)
     TextView expiryAdj;
+    @BindView(R.id.vieworder_expiry_caption)
+    TextView expiryCaption;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,6 +59,8 @@ public class ViewOrder extends AppCompatActivity {
         }
         if (expiry != null) {
             expiryAdj.setText("Expiry Adjusted in this invoice");
+        } else {
+            expiryCaption.setVisibility(View.GONE);
         }
 
         deleteButton.setOnClickListener(new View.OnClickListener() {
