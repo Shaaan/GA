@@ -110,19 +110,19 @@ public class BuildOrder extends AppCompatActivity {
         int layoutItemId = android.R.layout.simple_dropdown_item_1line;
 
         // Create BufferedReaders for lists
-//        BufferedReader cReader = null;
+        BufferedReader cReader = null;
         BufferedReader dReader = null;
         BufferedReader sReader = null;
         List<String> custList = new ArrayList<>();
         List<String> drugList = new ArrayList<>();
         List<String> salesmanList = new ArrayList<>();
         try {
-            /*String custListItem = getFilesDir().getPath() + "/custList.txt";
+            String custListItem = getFilesDir().getPath() + "/custList.txt";
             cReader = new BufferedReader(new FileReader(custListItem));
             String cLI;
             while ((cLI = cReader.readLine()) != null) {
                 custList.add(cLI);
-            }*/
+            }
             String drugListItem = getFilesDir().getPath() + "/drugList.txt";
             dReader = new BufferedReader(new FileReader(drugListItem));
             String dLI;
@@ -140,7 +140,6 @@ public class BuildOrder extends AppCompatActivity {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
-
         }
 
         ArrayAdapter<String> adapter1 = new ArrayAdapter<>(this, layoutItemId, custList);
@@ -330,7 +329,7 @@ public class BuildOrder extends AppCompatActivity {
                         if (customerNameAutocompleteTextView != null) {
                             if (dataSnapshot.getValue() != null) {
                                 Log.d("DSnap", dataSnapshot.getValue().toString());
-                                PCode = dataSnapshot.child(finalParty).child("PCode").getValue().toString();
+                                PCode = dataSnapshot.child(finalParty).child("PartyId").getValue().toString();
                                 Log.d("PCode", PCode);
                             }
                         }
